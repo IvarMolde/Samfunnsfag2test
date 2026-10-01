@@ -1,0 +1,1357 @@
+<?xml version='1.0' encoding='utf-8'?>
+<questionBank title="Samfunnskunnskap – øvingsprøver" language="nb-NO" level="A2" version="1.0">
+  <metadata>
+    <description>Omskrevet spørsmålsbank basert på brukerens opplastede dokument. Hvert spørsmål har ett korrekt svar.</description>
+    <sourceNote>Spørsmålene er språklig omarbeidet og kvalitetssikret. Regelavhengige spørsmål er kontrollert mot offentlige UDI- og IMDi-kilder per oktober 2026.</sourceNote>
+  </metadata>
+  <question id="001" category="Et liv i Norge">
+    <text>Hva betyr det at du er bosatt i Norge?</text>
+    <options>
+      <option id="A" correct="true">Du bor fast i Norge og har en adresse her.</option>
+      <option id="B" correct="false">Du er på ferie i Norge.</option>
+      <option id="C" correct="false">Du bor her bare noen dager.</option>
+    </options>
+    <feedback>Å være bosatt betyr at du bor fast i Norge og har en adresse her.</feedback>
+  </question>
+  <question id="002" category="Et liv i Norge">
+    <text>Hva kan det bety å delta i samfunnet?</text>
+    <options>
+      <option id="A" correct="true">Du er med på arbeid, aktiviteter eller andre fellesskap.</option>
+      <option id="B" correct="false">Du holder deg alltid hjemme.</option>
+      <option id="C" correct="false">Du bruker bare offentlige tjenester.</option>
+    </options>
+    <feedback>Deltakelse kan være arbeid, fritidsaktiviteter og andre måter å være med i samfunnet på.</feedback>
+  </question>
+  <question id="003" category="Et liv i Norge">
+    <text>Hva kan du gjøre for å bli kjent med mennesker der du bor?</text>
+    <options>
+      <option id="A" correct="true">Du kan delta i lokale aktiviteter.</option>
+      <option id="B" correct="false">Du kan vente hjemme til noen kommer på besøk.</option>
+      <option id="C" correct="false">Du kan unngå å snakke med naboene.</option>
+    </options>
+    <feedback>Lokale aktiviteter kan gi deg mulighet til å møte nye mennesker.</feedback>
+  </question>
+  <question id="004" category="Et liv i Norge">
+    <text>Hvorfor kan det være nyttig å lære norsk?</text>
+    <options>
+      <option id="A" correct="true">Det gjør det lettere å få jobb og forstå samfunnet.</option>
+      <option id="B" correct="false">Det gir alltid lavere priser i butikker.</option>
+      <option id="C" correct="false">Alle turister må lære norsk.</option>
+    </options>
+    <feedback>Norsk gjør det lettere å kommunisere, arbeide og forstå informasjon i Norge.</feedback>
+  </question>
+  <question id="005" category="Et liv i Norge">
+    <text>Hva betyr det å være selvforsørget?</text>
+    <options>
+      <option id="A" correct="true">Du har inntekt og kan klare deg økonomisk selv.</option>
+      <option id="B" correct="false">Du får all inntekt fra venner.</option>
+      <option id="C" correct="false">Du bor gratis hos familie.</option>
+    </options>
+    <feedback>Selvforsørget betyr at du i hovedsak kan klare dine økonomiske behov med egen inntekt.</feedback>
+  </question>
+  <question id="006" category="Et liv i Norge">
+    <text>Hva er frivillig arbeid?</text>
+    <options>
+      <option id="A" correct="true">Du gjør en oppgave uten å få vanlig lønn for arbeidet.</option>
+      <option id="B" correct="false">Du har en fast jobb med vanlig lønn.</option>
+      <option id="C" correct="false">Du må arbeide minst ti timer hver uke.</option>
+    </options>
+    <feedback>Frivillig arbeid er arbeid du gjør uten vanlig lønn, ofte for et fellesskap eller en organisasjon.</feedback>
+  </question>
+  <question id="007" category="Et liv i Norge">
+    <text>Hva betyr integrering?</text>
+    <options>
+      <option id="A" correct="true">At mennesker deltar i samfunnet og blir en del av fellesskapet.</option>
+      <option id="B" correct="false">At alle må slutte å bruke sin egen kultur.</option>
+      <option id="C" correct="false">At mennesker bare lever som de gjorde før de kom til Norge.</option>
+    </options>
+    <feedback>Integrering handler om deltakelse og tilhørighet i samfunnet.</feedback>
+  </question>
+  <question id="008" category="Et liv i Norge">
+    <text>Hva kan kulturell tilpasning bety?</text>
+    <options>
+      <option id="A" correct="true">At du lærer regler, normer og skikker i Norge.</option>
+      <option id="B" correct="false">At du må kopiere alt andre gjør.</option>
+      <option id="C" correct="false">At du må slutte å bruke morsmålet ditt.</option>
+    </options>
+    <feedback>Du kan lære hvordan samfunnet fungerer uten å måtte gi opp egen bakgrunn.</feedback>
+  </question>
+  <question id="009" category="Et liv i Norge">
+    <text>Hva er viktig på mange norske arbeidsplasser?</text>
+    <options>
+      <option id="A" correct="true">Å samarbeide godt og gjøre jobben på en god måte.</option>
+      <option id="B" correct="false">Å bestemme arbeidstiden helt selv.</option>
+      <option id="C" correct="false">Å arbeide uten arbeidsavtale.</option>
+    </options>
+    <feedback>Samarbeid og ansvar er viktige deler av arbeidslivet.</feedback>
+  </question>
+  <question id="010" category="Et liv i Norge">
+    <text>Hva betyr likestilling mellom kvinner og menn?</text>
+    <options>
+      <option id="A" correct="true">Kvinner og menn skal ha like rettigheter og muligheter.</option>
+      <option id="B" correct="false">Menn skal bestemme over kvinner.</option>
+      <option id="C" correct="false">Kvinner skal ha færre muligheter enn menn.</option>
+    </options>
+    <feedback>Likestilling betyr blant annet like rettigheter og muligheter.</feedback>
+  </question>
+  <question id="011" category="Et liv i Norge">
+    <text>Hva betyr det å være arbeidssøker?</text>
+    <options>
+      <option id="A" correct="true">Du søker aktivt etter arbeid.</option>
+      <option id="B" correct="false">Du venter bare på at noen skal ringe deg.</option>
+      <option id="C" correct="false">Du får automatisk en jobb uten å søke.</option>
+    </options>
+    <feedback>En arbeidssøker leter etter arbeid og søker på aktuelle jobber.</feedback>
+  </question>
+  <question id="012" category="Et liv i Norge">
+    <text>Hva betyr lik rett til utdanning?</text>
+    <options>
+      <option id="A" correct="true">Barn skal ha rett til skole uavhengig av foreldrenes bakgrunn.</option>
+      <option id="B" correct="false">Bare norske barn har rett til skole.</option>
+      <option id="C" correct="false">Skole er bare gratis for familier med lav inntekt.</option>
+    </options>
+    <feedback>Barn har rett til grunnskole uavhengig av bakgrunn.</feedback>
+  </question>
+  <question id="013" category="Et liv i Norge">
+    <text>Hvordan kan foreldre samarbeide med skolen?</text>
+    <options>
+      <option id="A" correct="true">De kan delta på foreldremøter og ha kontakt med skolen.</option>
+      <option id="B" correct="false">De bør bare kontakte skolen hvis barnet får problemer.</option>
+      <option id="C" correct="false">De trenger ikke å snakke med læreren.</option>
+    </options>
+    <feedback>Foreldresamarbeid kan skje gjennom møter og annen kontakt med skolen.</feedback>
+  </question>
+  <question id="014" category="Et liv i Norge">
+    <text>Hva kan offentlig omsorg for et barn bety?</text>
+    <options>
+      <option id="A" correct="true">At barnevernet gir barnet nødvendig hjelp og omsorg.</option>
+      <option id="B" correct="false">At barnet må bo alene.</option>
+      <option id="C" correct="false">At politiet automatisk blir barnets foreldre.</option>
+    </options>
+    <feedback>Barnevernet kan gi barn hjelp og omsorg når det er nødvendig.</feedback>
+  </question>
+  <question id="015" category="Et liv i Norge">
+    <text>Hva betyr skoleplikt for barn?</text>
+    <options>
+      <option id="A" correct="true">Barn må gå i grunnskolen i den perioden loven sier.</option>
+      <option id="B" correct="false">Barn kan alltid velge bort skolen.</option>
+      <option id="C" correct="false">Foreldre kan fritt bestemme at barnet aldri skal gå på skole.</option>
+    </options>
+    <feedback>Barn har plikt til grunnskoleopplæring etter reglene som gjelder.</feedback>
+  </question>
+  <question id="016" category="Et liv i Norge">
+    <text>Hva betyr trosfrihet?</text>
+    <options>
+      <option id="A" correct="true">Du kan velge religion eller livssyn og praktisere det innenfor loven.</option>
+      <option id="B" correct="false">Staten bestemmer hvilken religion alle skal ha.</option>
+      <option id="C" correct="false">Du må skjule religionen din.</option>
+    </options>
+    <feedback>Trosfrihet betyr at du kan velge og praktisere religion eller livssyn innenfor lovens grenser.</feedback>
+  </question>
+  <question id="017" category="Et liv i Norge">
+    <text>Hvordan kan frivillige hjelpe mennesker som er nye i Norge?</text>
+    <options>
+      <option id="A" correct="true">De kan for eksempel gi språkpraksis eller annen støtte.</option>
+      <option id="B" correct="false">De må ta betaling for all hjelp.</option>
+      <option id="C" correct="false">De bestemmer alene hva den andre personen skal gjøre.</option>
+    </options>
+    <feedback>Frivillige kan gi praktisk hjelp, språkstøtte og møteplasser.</feedback>
+  </question>
+  <question id="018" category="Et liv i Norge">
+    <text>Hva betyr det å være medborger?</text>
+    <options>
+      <option id="A" correct="true">Du deltar i samfunnet og følger lover og regler.</option>
+      <option id="B" correct="false">Du mottar støtte uten å delta i samfunnet.</option>
+      <option id="C" correct="false">Du bor i Norge uten å ha kontakt med andre.</option>
+    </options>
+    <feedback>En medborger er en del av samfunnet og har både rettigheter og ansvar.</feedback>
+  </question>
+  <question id="019" category="Et liv i Norge">
+    <text>Hva kan unge som er nye i Norge få hjelp til?</text>
+    <options>
+      <option id="A" correct="true">De kan få tilbud om blant annet utdanning og helsehjelp.</option>
+      <option id="B" correct="false">De får bare hjelp til bolig.</option>
+      <option id="C" correct="false">De får bare tilbud om norskkurs.</option>
+    </options>
+    <feedback>Unge kan ha rett til ulike tjenester, blant annet skole og helsehjelp.</feedback>
+  </question>
+  <question id="020" category="Et liv i Norge">
+    <text>Hva betyr rettferdig behandling?</text>
+    <options>
+      <option id="A" correct="true">Mennesker skal ha like muligheter uavhengig av bakgrunn.</option>
+      <option id="B" correct="false">Norske borgere skal alltid få flere rettigheter enn andre.</option>
+      <option id="C" correct="false">De som har bodd lengst i Norge skal alltid få først.</option>
+    </options>
+    <feedback>Rettferdig behandling handler blant annet om like rettigheter og muligheter.</feedback>
+  </question>
+  <question id="021" category="Et liv i Norge">
+    <text>Hvordan kan du lære mer om samfunnet i Norge?</text>
+    <options>
+      <option id="A" correct="true">Du kan delta på kurs og bruke kunnskapen i praksis.</option>
+      <option id="B" correct="false">Du må bare lese alene.</option>
+      <option id="C" correct="false">Du bør bare spørre personer fra hjemlandet.</option>
+    </options>
+    <feedback>Kurs, samtaler og praktisk erfaring kan gi mer samfunnskunnskap.</feedback>
+  </question>
+  <question id="022" category="Et liv i Norge">
+    <text>Hva betyr det å være forsørger?</text>
+    <options>
+      <option id="A" correct="true">Du har ansvar for å dekke behovene til personer du forsørger.</option>
+      <option id="B" correct="false">Du jobber deltid uten ansvar for andre.</option>
+      <option id="C" correct="false">Barna har ansvar for å forsørge deg.</option>
+    </options>
+    <feedback>En forsørger har økonomisk eller praktisk ansvar for andre, for eksempel barn.</feedback>
+  </question>
+  <question id="023" category="Et liv i Norge">
+    <text>Hvordan søker du vanligvis om barnehageplass?</text>
+    <options>
+      <option id="A" correct="true">Du søker til kommunen.</option>
+      <option id="B" correct="false">Du sender søknaden til UDI.</option>
+      <option id="C" correct="false">Du møter opp i barnehagen uten å søke.</option>
+    </options>
+    <feedback>Kommunen behandler søknader om barnehageplass.</feedback>
+  </question>
+  <question id="024" category="Et liv i Norge">
+    <text>Hva kan det bety å leve i to kulturer?</text>
+    <options>
+      <option id="A" correct="true">Du kan ta med deg deler av kulturen din og samtidig delta i norsk samfunnsliv.</option>
+      <option id="B" correct="false">Du må velge bare én kultur.</option>
+      <option id="C" correct="false">Du må unngå kontakt med det norske samfunnet.</option>
+    </options>
+    <feedback>Det er mulig å ha tilknytning til flere kulturer samtidig.</feedback>
+  </question>
+  <question id="025" category="Et liv i Norge">
+    <text>Hvorfor kan fritidsaktiviteter være nyttige når du lærer norsk?</text>
+    <options>
+      <option id="A" correct="true">Du kan møte mennesker, bruke norsk og få venner.</option>
+      <option id="B" correct="false">Det er den eneste måten å lære norsk på.</option>
+      <option id="C" correct="false">Alle må delta på fritidsaktiviteter etter loven.</option>
+    </options>
+    <feedback>Fritidsaktiviteter gir mulighet til å bruke språk og møte andre.</feedback>
+  </question>
+  <question id="026" category="Et liv i Norge">
+    <text>Hva kan gi god kontakt med naboer?</text>
+    <options>
+      <option id="A" correct="true">Å hilse, snakke sammen og hjelpe hverandre.</option>
+      <option id="B" correct="false">Å aldri snakke med naboene.</option>
+      <option id="C" correct="false">Å kontakte naboene bare når du vil klage.</option>
+    </options>
+    <feedback>God nabokontakt kan bygges gjennom vanlig kontakt og samarbeid.</feedback>
+  </question>
+  <question id="027" category="Et liv i Norge">
+    <text>Hvordan kan skolen støtte barn som nylig har kommet til Norge?</text>
+    <options>
+      <option id="A" correct="true">Skolen kan tilpasse opplæringen etter barnets behov.</option>
+      <option id="B" correct="false">Skolen kan frita barnet fra all undervisning.</option>
+      <option id="C" correct="false">Skolen skal alltid gi svært mye hjemmelekse.</option>
+    </options>
+    <feedback>Opplæringen kan tilpasses elevens språk og behov.</feedback>
+  </question>
+  <question id="028" category="Et liv i Norge">
+    <text>Hvem kan ha rett til offentlige helsetjenester i Norge?</text>
+    <options>
+      <option id="A" correct="true">Personer som har rett til helsehjelp etter reglene som gjelder for dem.</option>
+      <option id="B" correct="false">Bare norske statsborgere.</option>
+      <option id="C" correct="false">Bare personer som har fast jobb.</option>
+    </options>
+    <feedback>Hvilke helserettigheter du har, avhenger blant annet av opphold og hvilke regler som gjelder for deg.</feedback>
+  </question>
+  <question id="029" category="Et liv i Norge">
+    <text>Hva kan bidra til god integrering?</text>
+    <options>
+      <option id="A" correct="true">Deltakelse i arbeidsliv og lokalsamfunn.</option>
+      <option id="B" correct="false">Å bo alene uten kontakt med andre.</option>
+      <option id="C" correct="false">Å bare motta offentlige ytelser.</option>
+    </options>
+    <feedback>Arbeid, utdanning og deltakelse i lokalsamfunnet kan være viktige deler av integrering.</feedback>
+  </question>
+  <question id="030" category="Et liv i Norge">
+    <text>Hva betyr dugnad?</text>
+    <options>
+      <option id="A" correct="true">At mennesker arbeider frivillig sammen for et fellesskap.</option>
+      <option id="B" correct="false">At du får ekstra lønn for arbeidet.</option>
+      <option id="C" correct="false">At du bare deltar på en fest.</option>
+    </options>
+    <feedback>Dugnad er frivillig arbeid som mennesker gjør sammen for et fellesskap.</feedback>
+  </question>
+  <question id="031" category="Et liv i Norge">
+    <text>Hva er viktig for barns oppvekst?</text>
+    <options>
+      <option id="A" correct="true">Barn trenger trygghet, omsorg og støtte.</option>
+      <option id="B" correct="false">Barn bør alltid bestemme alt selv.</option>
+      <option id="C" correct="false">Bare gode skoleresultater er viktig.</option>
+    </options>
+    <feedback>Trygghet og omsorg er viktige for barns oppvekst.</feedback>
+  </question>
+  <question id="032" category="Et liv i Norge">
+    <text>Hva er en viktig oppgave for NAV?</text>
+    <options>
+      <option id="A" correct="true">NAV kan hjelpe mennesker med arbeid, aktivitet og økonomiske ytelser.</option>
+      <option id="B" correct="false">NAV behandler alle søknader om statsborgerskap.</option>
+      <option id="C" correct="false">NAV betaler automatisk penger til alle som bor i Norge.</option>
+    </options>
+    <feedback>NAV har oppgaver innen arbeid, aktivitet og ulike offentlige ytelser.</feedback>
+  </question>
+  <question id="033" category="Et liv i Norge">
+    <text>Hva er et eksempel på vanlig høflighet?</text>
+    <options>
+      <option id="A" correct="true">Å hilse og lytte når andre snakker.</option>
+      <option id="B" correct="false">Å snakke svært høyt hele tiden.</option>
+      <option id="C" correct="false">Å unngå all kontakt med andre.</option>
+    </options>
+    <feedback>Å hilse og lytte er vanlige måter å vise respekt på.</feedback>
+  </question>
+  <question id="034" category="Et liv i Norge">
+    <text>Hva er et eksempel på sosial trygghet?</text>
+    <options>
+      <option id="A" correct="true">Du kan få hjelp fra helsevesenet når du blir syk.</option>
+      <option id="B" correct="false">Du har alltid krav på å få en bolig gratis.</option>
+      <option id="C" correct="false">Politiet passer gratis på huset ditt hele tiden.</option>
+    </options>
+    <feedback>Velferdsstaten gir ulike former for hjelp når mennesker trenger det.</feedback>
+  </question>
+  <question id="035" category="Et liv i Norge">
+    <text>Hva kan likestilling i familien bety?</text>
+    <options>
+      <option id="A" correct="true">Foreldre kan dele ansvar for hjem og barn.</option>
+      <option id="B" correct="false">Far skal bestemme alt hjemme.</option>
+      <option id="C" correct="false">Mor skal ha alt ansvar alene.</option>
+    </options>
+    <feedback>Likestilling hjemme kan bety at voksne deler ansvar og oppgaver.</feedback>
+  </question>
+  <question id="036" category="Et liv i Norge">
+    <text>Hva betyr det å bruke erfaringene dine?</text>
+    <options>
+      <option id="A" correct="true">Du bruker kunnskap og ferdigheter du allerede har.</option>
+      <option id="B" correct="false">Du må glemme alt du kunne fra før.</option>
+      <option id="C" correct="false">Du kan bare søke jobber som er høyere enn utdanningen din.</option>
+    </options>
+    <feedback>Tidligere erfaring og kunnskap kan være nyttig i Norge.</feedback>
+  </question>
+  <question id="037" category="Et liv i Norge">
+    <text>Hva betyr felles ansvar i samfunnet?</text>
+    <options>
+      <option id="A" correct="true">At mennesker og offentlige tjenester har ansvar for å bidra på ulike måter.</option>
+      <option id="B" correct="false">At bare kommunen har ansvar for alt.</option>
+      <option id="C" correct="false">At naboene skal gjøre alle offentlige oppgaver.</option>
+    </options>
+    <feedback>Et samfunn fungerer gjennom ansvar og deltakelse fra mange.</feedback>
+  </question>
+  <question id="038" category="Et liv i Norge">
+    <text>Hva kan hjelpe deg med å lære norsk raskere?</text>
+    <options>
+      <option id="A" correct="true">Å øve ofte og snakke norsk med andre.</option>
+      <option id="B" correct="false">Å bruke tolk i alle situasjoner.</option>
+      <option id="C" correct="false">Å bare lese på morsmålet.</option>
+    </options>
+    <feedback>Regelmessig øving og kontakt med andre gir mange muligheter til å bruke norsk.</feedback>
+  </question>
+  <question id="039" category="Et liv i Norge">
+    <text>Hvordan kan samfunnet støtte barns oppvekst?</text>
+    <options>
+      <option id="A" correct="true">Gjennom skole, helsetjenester og rettigheter.</option>
+      <option id="B" correct="false">Bare ved å gi penger til fattige familier.</option>
+      <option id="C" correct="false">Ved å la alle familier klare seg helt alene.</option>
+    </options>
+    <feedback>Skole, helse og barns rettigheter er viktige deler av samfunnets støtte.</feedback>
+  </question>
+  <question id="040" category="Et liv i Norge">
+    <text>Hva betyr det å være aktiv i lokalmiljøet?</text>
+    <options>
+      <option id="A" correct="true">Å delta i arbeid, aktiviteter eller frivillighet der du bor.</option>
+      <option id="B" correct="false">Å holde seg hjemme hele tiden.</option>
+      <option id="C" correct="false">Å bare være sammen med mennesker fra samme land.</option>
+    </options>
+    <feedback>Aktiv deltakelse kan være arbeid, fritid eller frivillig arbeid.</feedback>
+  </question>
+  <question id="041" category="Et liv i Norge">
+    <text>Hva betyr det å kjenne egne rettigheter?</text>
+    <options>
+      <option id="A" correct="true">Du vet hvilke rettigheter du har.</option>
+      <option id="B" correct="false">Du kjenner bare rettighetene til andre.</option>
+      <option id="C" correct="false">Du vet bare hvilke plikter du har.</option>
+    </options>
+    <feedback>Å kjenne egne rettigheter gjør det lettere å vite hva du kan kreve og få hjelp til.</feedback>
+  </question>
+  <question id="042" category="Et liv i Norge">
+    <text>Hvilke fritidsaktiviteter finnes mange steder i Norge?</text>
+    <options>
+      <option id="A" correct="true">Det finnes aktiviteter innen blant annet idrett og kultur.</option>
+      <option id="B" correct="false">Alle aktiviteter er gratis.</option>
+      <option id="C" correct="false">Det finnes bare aktiviteter for barn.</option>
+    </options>
+    <feedback>Kommuner og organisasjoner tilbyr mange typer fritidsaktiviteter.</feedback>
+  </question>
+  <question id="043" category="Et liv i Norge">
+    <text>Hvordan kan du bidra i nabolaget?</text>
+    <options>
+      <option id="A" correct="true">Du kan delta på dugnad og andre felles aktiviteter.</option>
+      <option id="B" correct="false">Du kan holde deg unna alle fellesområder.</option>
+      <option id="C" correct="false">Du kan bare sende klager til kommunen.</option>
+    </options>
+    <feedback>Dugnad og felles aktiviteter er eksempler på deltakelse i nabolaget.</feedback>
+  </question>
+  <question id="044" category="Et liv i Norge">
+    <text>Hvor kan du finne informasjon fra kommunen?</text>
+    <options>
+      <option id="A" correct="true">På kommunens nettsider, i møter og gjennom andre offentlige informasjonskanaler.</option>
+      <option id="B" correct="false">Bare på private Facebook-sider.</option>
+      <option id="C" correct="false">Bare gjennom venner.</option>
+    </options>
+    <feedback>Kommunen bruker blant annet nettsider og møter for å informere innbyggerne.</feedback>
+  </question>
+  <question id="045" category="Et liv i Norge">
+    <text>Hva betyr det å bygge et nettverk?</text>
+    <options>
+      <option id="A" correct="true">Du får kontakt og gode relasjoner med flere mennesker.</option>
+      <option id="B" correct="false">Du har bare kontakt med familien.</option>
+      <option id="C" correct="false">Du snakker bare med mennesker på internett.</option>
+    </options>
+    <feedback>Et nettverk består av mennesker du har kontakt med, for eksempel gjennom arbeid og fritid.</feedback>
+  </question>
+  <question id="046" category="Et liv i Norge">
+    <text>Hvilken rett har barn til skole?</text>
+    <options>
+      <option id="A" correct="true">Barn har rett til grunnskoleopplæring.</option>
+      <option id="B" correct="false">Barn kan bare gå på skole hvis foreldrene har jobb.</option>
+      <option id="C" correct="false">Barn kan bare gå på skole hvis de har norsk som morsmål.</option>
+    </options>
+    <feedback>Barn har rett til grunnskoleopplæring etter reglene som gjelder.</feedback>
+  </question>
+  <question id="047" category="Et liv i Norge">
+    <text>Hvordan kan foreldre støtte barnas skolegang?</text>
+    <options>
+      <option id="A" correct="true">De kan følge opp skolen og delta i samarbeidet med lærerne.</option>
+      <option id="B" correct="false">De bør holde barna hjemme fra skolen.</option>
+      <option id="C" correct="false">De bør gjøre leksene for barna.</option>
+    </options>
+    <feedback>Foreldre kan støtte barna ved å følge opp skolearbeid og samarbeide med skolen.</feedback>
+  </question>
+  <question id="048" category="Regler for opphold">
+    <text>Hva er en midlertidig oppholdstillatelse?</text>
+    <options>
+      <option id="A" correct="true">En tillatelse til å bo i Norge i en bestemt periode.</option>
+      <option id="B" correct="false">En tillatelse til å bo i Norge for alltid.</option>
+      <option id="C" correct="false">En tillatelse til å jobbe her uten å ha lov til å bo her.</option>
+    </options>
+    <feedback>Midlertidig betyr at tillatelsen gjelder i en bestemt periode.</feedback>
+  </question>
+  <question id="049" category="Regler for opphold">
+    <text>Hva betyr midlertidig opphold?</text>
+    <options>
+      <option id="A" correct="true">Du har rett til å bo i Norge i en begrenset periode.</option>
+      <option id="B" correct="false">Du kan bo i Norge uten gyldige dokumenter.</option>
+      <option id="C" correct="false">Du har automatisk fått norsk statsborgerskap.</option>
+    </options>
+    <feedback>Midlertidig opphold gjelder for en begrenset periode.</feedback>
+  </question>
+  <question id="050" category="Regler for opphold">
+    <text>Hva betyr permanent oppholdstillatelse?</text>
+    <options>
+      <option id="A" correct="true">Du kan bo i Norge uten at oppholdstillatelsen har en sluttdato.</option>
+      <option id="B" correct="false">Du har bare tillatelse til å bo her i tre måneder.</option>
+      <option id="C" correct="false">Du besøker familien din i et annet land.</option>
+    </options>
+    <feedback>Permanent opphold betyr at du kan bo i Norge uten tidsbegrensning, så lenge vilkårene er oppfylt.</feedback>
+  </question>
+  <question id="051" category="Regler for opphold">
+    <text>Hva er et krav for permanent opphold for mange søkere mellom 18 og 67 år?</text>
+    <options>
+      <option id="A" correct="true">Du må vanligvis ha bestått norsk muntlig på minst A2 og prøve i samfunnskunnskap.</option>
+      <option id="B" correct="false">Du må eie bolig i Norge.</option>
+      <option id="C" correct="false">Du må ha hatt samme jobb i tre måneder.</option>
+    </options>
+    <feedback>Fra 1. september 2025 gjelder det for mange søkere mellom 18 og 67 år krav om norsk muntlig på minst A2 og prøve i samfunnskunnskap, med mulighet for unntak.</feedback>
+  </question>
+  <question id="052" category="Regler for opphold">
+    <text>Hva betyr botid?</text>
+    <options>
+      <option id="A" correct="true">Hvor lenge du har bodd lovlig i Norge.</option>
+      <option id="B" correct="false">Hvor lenge du har hatt den samme jobben.</option>
+      <option id="C" correct="false">Hvor lenge du har bodd i utlandet.</option>
+    </options>
+    <feedback>Botid brukes blant annet når myndighetene vurderer opphold og statsborgerskap.</feedback>
+  </question>
+  <question id="053" category="Regler for opphold">
+    <text>Hva er forskjellen mellom asyl og familiegjenforening?</text>
+    <options>
+      <option id="A" correct="true">Asyl handler om beskyttelse, mens familiegjenforening handler om å bo med nær familie.</option>
+      <option id="B" correct="false">Asyl gjelder bare arbeid, mens familiegjenforening gjelder studier.</option>
+      <option id="C" correct="false">Asyl gir alltid kortere opphold enn familiegjenforening.</option>
+    </options>
+    <feedback>Asyl er beskyttelse mot fare eller forfølgelse. Familiegjenforening handler om å bo sammen med familie.</feedback>
+  </question>
+  <question id="054" category="Regler for opphold">
+    <text>Hva kan opphold på humanitært grunnlag bety?</text>
+    <options>
+      <option id="A" correct="true">At du kan få opphold på grunn av sterke menneskelige hensyn eller særlig tilknytning.</option>
+      <option id="B" correct="false">At du bare får gratis helsehjelp.</option>
+      <option id="C" correct="false">At du automatisk får økonomisk støtte.</option>
+    </options>
+    <feedback>Opphold på humanitært grunnlag kan gis når vilkårene i utlendingsloven er oppfylt.</feedback>
+  </question>
+  <question id="055" category="Regler for opphold">
+    <text>Hva betyr det å søke om beskyttelse?</text>
+    <options>
+      <option id="A" correct="true">Du ber om beskyttelse fordi du ikke kan være trygg i hjemlandet.</option>
+      <option id="B" correct="false">Du søker om fast jobb.</option>
+      <option id="C" correct="false">Du søker om vanlig ferietillatelse.</option>
+    </options>
+    <feedback>Å søke om beskyttelse betyr å be Norge om beskyttelse mot fare eller forfølgelse.</feedback>
+  </question>
+  <question id="056" category="Regler for opphold">
+    <text>Hva er en asylsøker?</text>
+    <options>
+      <option id="A" correct="true">En person som har søkt om beskyttelse.</option>
+      <option id="B" correct="false">En turist på ferie.</option>
+      <option id="C" correct="false">En person som allerede har fast jobb og bolig.</option>
+    </options>
+    <feedback>En asylsøker er en person som har søkt om beskyttelse og venter på svar.</feedback>
+  </question>
+  <question id="057" category="Regler for opphold">
+    <text>Hva gjør UDI?</text>
+    <options>
+      <option id="A" correct="true">UDI behandler blant annet søknader om opphold og statsborgerskap.</option>
+      <option id="B" correct="false">UDI gir alle offentlige helsetjenester.</option>
+      <option id="C" correct="false">UDI bestemmer hvilke skoler barn skal gå på.</option>
+    </options>
+    <feedback>UDI er Utlendingsdirektoratet og behandler mange saker etter utlendingsloven og statsborgerloven.</feedback>
+  </question>
+  <question id="058" category="Regler for opphold">
+    <text>Hva er UNE?</text>
+    <options>
+      <option id="A" correct="true">UNE behandler klager på mange vedtak fra UDI.</option>
+      <option id="B" correct="false">UNE er NAV-kontoret for innvandrere.</option>
+      <option id="C" correct="false">UNE er en organisasjon som driver frivillig arbeid.</option>
+    </options>
+    <feedback>UNE er Utlendingsnemnda og behandler klager i utlendingssaker.</feedback>
+  </question>
+  <question id="059" category="Regler for opphold">
+    <text>Hva kan skje hvis du får avslag på en søknad om opphold?</text>
+    <options>
+      <option id="A" correct="true">Du kan ha rett til å klage, og du kan få plikt til å reise hvis avslaget blir stående.</option>
+      <option id="B" correct="false">Du mister bare boligen din.</option>
+      <option id="C" correct="false">Du får automatisk en ny oppholdstillatelse.</option>
+    </options>
+    <feedback>Et avslag kan gi klagerett. Hvis avslaget blir stående, kan du få en utreisefrist.</feedback>
+  </question>
+  <question id="060" category="Regler for opphold">
+    <text>Hvorfor er det viktig å gi riktige opplysninger til myndighetene?</text>
+    <options>
+      <option id="A" correct="true">Feil eller uriktige opplysninger kan få alvorlige følger for saken din.</option>
+      <option id="B" correct="false">Det gjør at du alltid får raskere svar.</option>
+      <option id="C" correct="false">Du får automatisk lengre opphold.</option>
+    </options>
+    <feedback>Uriktige opplysninger kan blant annet føre til at en tillatelse blir vurdert på nytt eller trukket tilbake.</feedback>
+  </question>
+  <question id="061" category="Regler for opphold">
+    <text>Hva kan skje hvis en person oppholder seg ulovlig i Norge?</text>
+    <options>
+      <option id="A" correct="true">Personen kan bli utvist og få innreiseforbud.</option>
+      <option id="B" correct="false">Personen får automatisk permanent opphold.</option>
+      <option id="C" correct="false">Personen får automatisk en ny søknadsfrist.</option>
+    </options>
+    <feedback>Ulovlig opphold kan være en grunn til utvisning, avhengig av saken.</feedback>
+  </question>
+  <question id="062" category="Regler for opphold">
+    <text>Hva betyr innreisegrunn?</text>
+    <options>
+      <option id="A" correct="true">Det er grunnen til at du fikk komme til Norge.</option>
+      <option id="B" correct="false">Det er hvilken utdanning du har.</option>
+      <option id="C" correct="false">Det er hvilken kommune du bor i.</option>
+    </options>
+    <feedback>Innreisegrunn beskriver hvorfor du har fått adgang til Norge.</feedback>
+  </question>
+  <question id="063" category="Regler for opphold">
+    <text>Hvordan kan du vanligvis dokumentere identiteten din til UDI?</text>
+    <options>
+      <option id="A" correct="true">Med pass eller et annet godkjent identitetsdokument.</option>
+      <option id="B" correct="false">Med bare arbeidskontrakten din.</option>
+      <option id="C" correct="false">Med et vanlig helsekort.</option>
+    </options>
+    <feedback>Pass og andre godkjente identitetsdokumenter kan brukes til å dokumentere identitet.</feedback>
+  </question>
+  <question id="064" category="Regler for opphold">
+    <text>Hva forteller oppholdsstatusen din?</text>
+    <options>
+      <option id="A" correct="true">Hvilken type oppholdstillatelse eller status du har.</option>
+      <option id="B" correct="false">Hvilken by du bor i.</option>
+      <option id="C" correct="false">Hvilke fag du studerer.</option>
+    </options>
+    <feedback>Oppholdsstatus forteller hvilken rettslig status du har i Norge.</feedback>
+  </question>
+  <question id="065" category="Regler for opphold">
+    <text>Hvordan søker du om permanent opphold?</text>
+    <options>
+      <option id="A" correct="true">Du søker etter reglene hos UDI og legger ved nødvendig dokumentasjon.</option>
+      <option id="B" correct="false">Du sender en SMS til NAV.</option>
+      <option id="C" correct="false">Du ringer bare politiet uten å søke.</option>
+    </options>
+    <feedback>Søknaden må leveres etter reglene og med nødvendig dokumentasjon.</feedback>
+  </question>
+  <question id="066" category="Regler for opphold">
+    <text>Hvorfor er det viktig å fornye en tidsbegrenset oppholdstillatelse i tide?</text>
+    <options>
+      <option id="A" correct="true">Du kan ellers miste retten til å oppholde deg i Norge.</option>
+      <option id="B" correct="false">Du må betale mer skatt.</option>
+      <option id="C" correct="false">Du får automatisk permanent opphold.</option>
+    </options>
+    <feedback>En tidsbegrenset tillatelse må fornyes etter reglene for at oppholdet skal være lovlig.</feedback>
+  </question>
+  <question id="067" category="Regler for opphold">
+    <text>Hvordan blir mange kvoteflyktninger valgt ut til Norge?</text>
+    <options>
+      <option id="A" correct="true">UNHCR kan foreslå personer, og UDI bestemmer hvem som får komme til Norge.</option>
+      <option id="B" correct="false">De søker direkte hos NAV.</option>
+      <option id="C" correct="false">Et norsk firma inviterer dem til Norge.</option>
+    </options>
+    <feedback>UNHCR kan foreslå overføringsflyktninger, mens UDI avgjør hvem som får komme til Norge.</feedback>
+  </question>
+  <question id="068" category="Regler for opphold">
+    <text>Hva er en viktig forskjell mellom norsk statsborgerskap og oppholdstillatelse?</text>
+    <options>
+      <option id="A" correct="true">Statsborgerskap gir rettigheter som norsk borger, mens en oppholdstillatelse gir rett til opphold etter bestemte regler.</option>
+      <option id="B" correct="false">En oppholdstillatelse gir automatisk norsk pass.</option>
+      <option id="C" correct="false">Det er ingen forskjell mellom dem.</option>
+    </options>
+    <feedback>Statsborgerskap og oppholdstillatelse er to ulike juridiske statuser.</feedback>
+  </question>
+  <question id="069" category="Regler for opphold">
+    <text>Hva betyr permanent opphold i hverdagen?</text>
+    <options>
+      <option id="A" correct="true">Du kan normalt bo og arbeide i Norge uten å søke om en ny tidsbegrenset oppholdstillatelse.</option>
+      <option id="B" correct="false">Du må fornye tillatelsen hvert år.</option>
+      <option id="C" correct="false">Du kan aldri reise ut av Norge.</option>
+    </options>
+    <feedback>Permanent opphold gir en mer varig rett til å bo i Norge, men det finnes regler du må følge.</feedback>
+  </question>
+  <question id="070" category="Regler for opphold">
+    <text>Hvilket språkkrav gjelder vanligvis for norsk statsborgerskap for voksne mellom 18 og 67 år?</text>
+    <options>
+      <option id="A" correct="true">Du må vanligvis ha bestått norsk muntlig på B1 eller høyere.</option>
+      <option id="B" correct="false">Du må bare kunne norsk på A1.</option>
+      <option id="C" correct="false">Det er aldri krav om norskprøve.</option>
+    </options>
+    <feedback>UDI opplyser at hovedregelen er bestått norsk muntlig på B1 og bestått statsborgerprøven eller samfunnskunnskapsprøven på norsk, med enkelte unntak.</feedback>
+  </question>
+  <question id="071" category="Regler for opphold">
+    <text>Hva viser en bestått prøve i samfunnskunnskap?</text>
+    <options>
+      <option id="A" correct="true">At du har oppnådd et bestemt nivå av kunnskap om det norske samfunnet.</option>
+      <option id="B" correct="false">At du snakker norsk flytende.</option>
+      <option id="C" correct="false">At du automatisk har fullført introduksjonsprogrammet.</option>
+    </options>
+    <feedback>Prøven måler kunnskap om det norske samfunnet.</feedback>
+  </question>
+  <question id="072" category="Regler for opphold">
+    <text>Hva kan du gjøre hvis du ikke består samfunnskunnskapsprøven?</text>
+    <options>
+      <option id="A" correct="true">Du kan ta prøven på nytt.</option>
+      <option id="B" correct="false">Du må alltid vente ett år.</option>
+      <option id="C" correct="false">Du mister automatisk retten til å søke opphold.</option>
+    </options>
+    <feedback>En prøve kan tas på nytt etter reglene for prøven.</feedback>
+  </question>
+  <question id="073" category="Regler for opphold">
+    <text>Hvilke rettigheter har asylsøkere mens søknaden behandles?</text>
+    <options>
+      <option id="A" correct="true">De kan ha rett til helsehjelp og et sted å bo etter reglene som gjelder.</option>
+      <option id="B" correct="false">De har automatisk stemmerett ved stortingsvalg.</option>
+      <option id="C" correct="false">De kan alltid velge hvilken kommune de vil bo i.</option>
+    </options>
+    <feedback>Asylsøkere har bestemte rettigheter mens saken behandles, men de har ikke de samme rettighetene som norske statsborgere.</feedback>
+  </question>
+  <question id="074" category="Regler for opphold">
+    <text>Hva betyr det å bo i et asylmottak?</text>
+    <options>
+      <option id="A" correct="true">Du bor der og får bestemte tjenester mens søknaden din behandles.</option>
+      <option id="B" correct="false">Du har automatisk rett til å arbeide fritt i alle yrker.</option>
+      <option id="C" correct="false">Du kan reise fritt i hele Europa.</option>
+    </options>
+    <feedback>Et mottak gir bolig og enkelte tjenester mens saken behandles.</feedback>
+  </question>
+  <question id="075" category="Regler for opphold">
+    <text>Hva kan en oppholdstillatelse gi deg rett til?</text>
+    <options>
+      <option id="A" correct="true">Den kan gi deg rett til å bo og eventuelt arbeide i Norge etter vilkårene i tillatelsen.</option>
+      <option id="B" correct="false">Du må alltid reise ut av Norge med en gang.</option>
+      <option id="C" correct="false">Du mister retten til norskopplæring.</option>
+    </options>
+    <feedback>Rettighetene avhenger av hvilken oppholdstillatelse du har.</feedback>
+  </question>
+  <question id="076" category="Regler for opphold">
+    <text>Hva kan personer med midlertidig kollektiv beskyttelse få tilgang til?</text>
+    <options>
+      <option id="A" correct="true">De kan ha rett til blant annet skole, helse og introduksjonsprogram etter reglene som gjelder.</option>
+      <option id="B" correct="false">De får automatisk norsk statsborgerskap.</option>
+      <option id="C" correct="false">De får automatisk rett til å kjøpe bolig med startlån.</option>
+    </options>
+    <feedback>Kollektiv beskyttelse gir bestemte rettigheter etter egne regler.</feedback>
+  </question>
+  <question id="077" category="Regler for opphold">
+    <text>Hva kan du gjøre hvis du får avslag på familiegjenforening?</text>
+    <options>
+      <option id="A" correct="true">Du kan ha rett til å klage på vedtaket.</option>
+      <option id="B" correct="false">Du får automatisk permanent innreiseforbud.</option>
+      <option id="C" correct="false">Du får automatisk en advokat i alle saker.</option>
+    </options>
+    <feedback>Det kan være klagerett på et avslag. Fristen og reglene står i vedtaket.</feedback>
+  </question>
+  <question id="078" category="Regler for opphold">
+    <text>Hva kan være et krav i en søknad om familiegjenforening?</text>
+    <options>
+      <option id="A" correct="true">Det kan være krav til inntekt for personen som bor i Norge, avhengig av saken.</option>
+      <option id="B" correct="false">Den som bor i Norge må alltid være norsk statsborger.</option>
+      <option id="C" correct="false">Det holder alltid å ha bodd i Norge i ett år.</option>
+    </options>
+    <feedback>Reglene varierer etter hvem saken gjelder. I mange saker finnes det krav til inntekt.</feedback>
+  </question>
+  <question id="079" category="Regler for opphold">
+    <text>Hvordan søker du vanligvis om å forlenge en oppholdstillatelse?</text>
+    <options>
+      <option id="A" correct="true">Du følger søknadsreglene hos UDI og søker innen fristen.</option>
+      <option id="B" correct="false">Du sender en SMS til NAV.</option>
+      <option id="C" correct="false">Du sender alltid e-post til Skatteetaten.</option>
+    </options>
+    <feedback>Det er viktig å bruke riktig søknad og søke innen fristen.</feedback>
+  </question>
+  <question id="080" category="Regler for opphold">
+    <text>Hvordan kan du dokumentere at du har oppnådd et krav til norsk?</text>
+    <options>
+      <option id="A" correct="true">Du kan bruke en godkjent prøve eller annen dokumentasjon som myndighetene godtar.</option>
+      <option id="B" correct="false">Det er nok å si at du snakker norsk hjemme.</option>
+      <option id="C" correct="false">Du må skrive en søknad helt uten feil.</option>
+    </options>
+    <feedback>Myndighetene bestemmer hvilken dokumentasjon som kan brukes.</feedback>
+  </question>
+  <question id="081" category="Regler for opphold">
+    <text>Hva kan det bety å ha rett og plikt til norskopplæring?</text>
+    <options>
+      <option id="A" correct="true">Du har rett til opplæring og må delta etter reglene som gjelder for deg.</option>
+      <option id="B" correct="false">Du får støtte uten at du må delta.</option>
+      <option id="C" correct="false">Du kan alltid velge bort opplæringen.</option>
+    </options>
+    <feedback>Rett og plikt betyr både en rett til opplæring og en plikt til å delta når reglene gjelder.</feedback>
+  </question>
+  <question id="082" category="Regler for opphold">
+    <text>Hva bør du gjøre hvis du flytter mens du deltar i introduksjonsprogrammet?</text>
+    <options>
+      <option id="A" correct="true">Du må kontakte kommunen og avklare hva som skjer med programmet ditt.</option>
+      <option id="B" correct="false">Du kan alltid fortsette programmet i den gamle kommunen uten å si fra.</option>
+      <option id="C" correct="false">Du må alltid ta en pause i ett år.</option>
+    </options>
+    <feedback>Flytting kan påvirke programmet, og du må avklare dette med kommunen.</feedback>
+  </question>
+  <question id="083" category="Regler for opphold">
+    <text>Hva kan skje hvis du gir uriktige opplysninger til norske myndigheter?</text>
+    <options>
+      <option id="A" correct="true">Det kan få alvorlige følger, for eksempel for oppholdstillatelsen din.</option>
+      <option id="B" correct="false">Du får alltid raskere behandling.</option>
+      <option id="C" correct="false">Du får bare en muntlig advarsel.</option>
+    </options>
+    <feedback>Uriktige opplysninger kan få alvorlige juridiske følger.</feedback>
+  </question>
+  <question id="084" category="Regler for opphold">
+    <text>Hvordan søker du om familiegjenforening?</text>
+    <options>
+      <option id="A" correct="true">Du følger søknadsreglene hos UDI og leverer nødvendig dokumentasjon.</option>
+      <option id="B" correct="false">Du søker muntlig hos NAV.</option>
+      <option id="C" correct="false">Du ringer bare kommunen.</option>
+    </options>
+    <feedback>Familiegjenforening søkes etter reglene som gjelder hos UDI.</feedback>
+  </question>
+  <question id="085" category="Regler for opphold">
+    <text>Hva betyr det å få norsk statsborgerskap?</text>
+    <options>
+      <option id="A" correct="true">Du blir norsk statsborger og får rettigheter som følger av statsborgerskapet.</option>
+      <option id="B" correct="false">Du må slutte å få hjelp fra NAV.</option>
+      <option id="C" correct="false">Du kan aldri ha et annet statsborgerskap.</option>
+    </options>
+    <feedback>Statsborgerskap gir bestemte rettigheter og plikter som norsk borger.</feedback>
+  </question>
+  <question id="086" category="Regler for opphold">
+    <text>Hvilken av disse kan være en grunn til å miste en oppholdstillatelse?</text>
+    <options>
+      <option id="A" correct="true">Alvorlige brudd på regler eller uriktige opplysninger kan få betydning.</option>
+      <option id="B" correct="false">Det skjer automatisk fordi du flytter til en annen kommune.</option>
+      <option id="C" correct="false">Det skjer automatisk fordi du er på ferie.</option>
+    </options>
+    <feedback>En oppholdstillatelse kan i enkelte saker trekkes tilbake eller føre til utvisning.</feedback>
+  </question>
+  <question id="087" category="Regler for opphold">
+    <text>Hva er IMDi?</text>
+    <options>
+      <option id="A" correct="true">IMDi er et statlig organ som arbeider med integrering og bosetting.</option>
+      <option id="B" correct="false">IMDi er en privat skole.</option>
+      <option id="C" correct="false">IMDi er et forsikringsselskap.</option>
+    </options>
+    <feedback>IMDi står for Integrerings- og mangfoldsdirektoratet.</feedback>
+  </question>
+  <question id="088" category="Regler for opphold">
+    <text>Hva bør du gjøre hvis du flytter mens du har introduksjonsprogram?</text>
+    <options>
+      <option id="A" correct="true">Du må avklare flyttingen med kommunen og følge reglene for overføring.</option>
+      <option id="B" correct="false">Du mister automatisk alle rettigheter.</option>
+      <option id="C" correct="false">Du må alltid starte hele programmet på nytt.</option>
+    </options>
+    <feedback>Flytting kan påvirke hvor og hvordan programmet gjennomføres.</feedback>
+  </question>
+  <question id="089" category="Regler for opphold">
+    <text>Hva er et viktig mål med samfunnskunnskap for voksne innvandrere?</text>
+    <options>
+      <option id="A" correct="true">Å gi kunnskap om hvordan det norske samfunnet fungerer.</option>
+      <option id="B" correct="false">Å lære navnene på alle norske konger.</option>
+      <option id="C" correct="false">Å lære å lage tradisjonell norsk mat.</option>
+    </options>
+    <feedback>Samfunnskunnskap skal gi kunnskap som gjør det lettere å forstå og delta i samfunnet.</feedback>
+  </question>
+  <question id="090" category="Regler for opphold">
+    <text>Hva kan brukes til å dokumentere botid?</text>
+    <options>
+      <option id="A" correct="true">Offentlige opplysninger som viser hvor lenge du har bodd lovlig i Norge.</option>
+      <option id="B" correct="false">Bare en arbeidskontrakt.</option>
+      <option id="C" correct="false">Et brev fra voksenopplæringen.</option>
+    </options>
+    <feedback>Botid dokumenteres etter reglene som gjelder, ofte gjennom offentlige registre og dokumenter.</feedback>
+  </question>
+  <question id="091" category="Regler for opphold">
+    <text>Hva betyr en midlertidig oppholdstillatelse?</text>
+    <options>
+      <option id="A" correct="true">Du har tillatelse til å bo i Norge i en bestemt periode.</option>
+      <option id="B" correct="false">Du får automatisk statsborgerskap etter ett år.</option>
+      <option id="C" correct="false">Du får automatisk rett til å reise til USA.</option>
+    </options>
+    <feedback>Midlertidig opphold gjelder i en bestemt periode.</feedback>
+  </question>
+  <question id="092" category="Regler for opphold">
+    <text>Hva kan skje hvis en person som ikke er norsk statsborger bryter norsk lov?</text>
+    <options>
+      <option id="A" correct="true">Det kan få følger for oppholdet og i noen saker føre til utvisning.</option>
+      <option id="B" correct="false">Personen får automatisk gratis advokat.</option>
+      <option id="C" correct="false">Personen får automatisk reisestøtte.</option>
+    </options>
+    <feedback>Lovbrudd kan få betydning for oppholdet, avhengig av saken.</feedback>
+  </question>
+  <question id="093" category="Regler for opphold">
+    <text>Hva kan skje hvis du har gitt falske opplysninger i en oppholdssak?</text>
+    <options>
+      <option id="A" correct="true">Oppholdstillatelsen kan i noen tilfeller bli trukket tilbake.</option>
+      <option id="B" correct="false">Du får automatisk ekstra støtte.</option>
+      <option id="C" correct="false">Du må alltid bare ta en ny språktest.</option>
+    </options>
+    <feedback>Uriktige opplysninger kan føre til at en tillatelse blir vurdert eller trukket tilbake.</feedback>
+  </question>
+  <question id="094" category="Introduksjonsprogrammet">
+    <text>Hva er introduksjonsprogrammet?</text>
+    <options>
+      <option id="A" correct="true">Et offentlig program som skal forberede nyankomne på arbeid eller utdanning.</option>
+      <option id="B" correct="false">Et privat norskkurs som alle må betale for selv.</option>
+      <option id="C" correct="false">Et skjema for å søke økonomisk støtte.</option>
+    </options>
+    <feedback>Introduksjonsprogrammet skal forberede deltakerne på arbeid eller utdanning.</feedback>
+  </question>
+  <question id="095" category="Introduksjonsprogrammet">
+    <text>Hva er et viktig mål med introduksjonsprogrammet?</text>
+    <options>
+      <option id="A" correct="true">At du skal bli mer selvstendig og kunne komme i arbeid eller utdanning.</option>
+      <option id="B" correct="false">At du bare skal lære å søke NAV-støtte.</option>
+      <option id="C" correct="false">At du skal snakke norsk uten aksent.</option>
+    </options>
+    <feedback>Programmet skal bidra til arbeid, utdanning og økonomisk selvstendighet.</feedback>
+  </question>
+  <question id="096" category="Introduksjonsprogrammet">
+    <text>Hvem kan ha rett og plikt til introduksjonsprogram?</text>
+    <options>
+      <option id="A" correct="true">Personer i målgruppen etter integreringsloven, blant annet mange flyktninger og familiegjenforente mellom 18 og 55 år.</option>
+      <option id="B" correct="false">Alle som bor i Norge.</option>
+      <option id="C" correct="false">Bare personer som allerede har jobb.</option>
+    </options>
+    <feedback>Reglene avhenger av blant annet oppholdsgrunnlag, alder og botid. Hovedregelen gjelder flere grupper mellom 18 og 55 år.</feedback>
+  </question>
+  <question id="097" category="Introduksjonsprogrammet">
+    <text>Hva betyr det at introduksjonsprogrammet er på fulltid?</text>
+    <options>
+      <option id="A" correct="true">Programmet skal ha et omfang som tilsvarer fulltid etter reglene, normalt 37,5 timer i gjennomsnitt.</option>
+      <option id="B" correct="false">Du deltar bare én dag i uken.</option>
+      <option id="C" correct="false">Du deltar bare når du selv ønsker.</option>
+    </options>
+    <feedback>Fulltid beregnes etter reglene for programmet. 37,5 timer er gjennomsnittet som brukes i regelverket.</feedback>
+  </question>
+  <question id="098" category="Introduksjonsprogrammet">
+    <text>Hva kan du lære i introduksjonsprogrammet?</text>
+    <options>
+      <option id="A" correct="true">Du kan lære norsk, samfunnskunnskap og delta i arbeidsrettede tiltak.</option>
+      <option id="B" correct="false">Du lærer bare engelsk på høyt nivå.</option>
+      <option id="C" correct="false">Du lærer bare norsk historie og matlaging.</option>
+    </options>
+    <feedback>Innholdet skal tilpasses målet om arbeid eller utdanning.</feedback>
+  </question>
+  <question id="099" category="Introduksjonsprogrammet">
+    <text>Hva får mange deltakere i introduksjonsprogrammet?</text>
+    <options>
+      <option id="A" correct="true">De kan få introduksjonsstønad etter reglene.</option>
+      <option id="B" correct="false">De får vanlig lønn fra kommunen.</option>
+      <option id="C" correct="false">De får alltid dekket alle private utgifter.</option>
+    </options>
+    <feedback>Deltakere kan få introduksjonsstønad når vilkårene er oppfylt.</feedback>
+  </question>
+  <question id="100" category="Introduksjonsprogrammet">
+    <text>Hva kan skje hvis du uten gyldig grunn ikke møter i introduksjonsprogrammet?</text>
+    <options>
+      <option id="A" correct="true">Det kan føre til trekk i eller tap av introduksjonsstønad.</option>
+      <option id="B" correct="false">Du får ekstra støtte for fraværet.</option>
+      <option id="C" correct="false">Det har aldri økonomiske følger.</option>
+    </options>
+    <feedback>Fravær kan få økonomiske følger for introduksjonsstønaden.</feedback>
+  </question>
+  <question id="101" category="Introduksjonsprogrammet">
+    <text>Hva betyr det å delta aktivt i programmet?</text>
+    <options>
+      <option id="A" correct="true">Du møter opp og følger planen din.</option>
+      <option id="B" correct="false">Du er stille og gjør ingenting.</option>
+      <option id="C" correct="false">Du deltar bare de dagene du selv ønsker.</option>
+    </options>
+    <feedback>Aktiv deltakelse betyr å møte opp og gjøre aktivitetene i programmet.</feedback>
+  </question>
+  <question id="102" category="Introduksjonsprogrammet">
+    <text>Hva er en introduksjonsplan?</text>
+    <options>
+      <option id="A" correct="true">En plan for hva du skal gjøre for å nå målene dine i programmet.</option>
+      <option id="B" correct="false">En plan som gjelder for alle elever i kommunen.</option>
+      <option id="C" correct="false">En oversikt over boliger i kommunen.</option>
+    </options>
+    <feedback>Planen viser mål og aktiviteter som er tilpasset deltakeren.</feedback>
+  </question>
+  <question id="103" category="Introduksjonsprogrammet">
+    <text>Hvem skal samarbeide om planen din?</text>
+    <options>
+      <option id="A" correct="true">Du og kommunen skal samarbeide om planen.</option>
+      <option id="B" correct="false">NAV lager samme plan for alle.</option>
+      <option id="C" correct="false">UDI sender en plan som du aldri kan endre.</option>
+    </options>
+    <feedback>Planen skal lages i samarbeid med deltakeren.</feedback>
+  </question>
+  <question id="104" category="Introduksjonsprogrammet">
+    <text>Hva betyr individuell tilpasning?</text>
+    <options>
+      <option id="A" correct="true">Programmet blir tilpasset dine behov og mål.</option>
+      <option id="B" correct="false">Alle må følge nøyaktig samme plan.</option>
+      <option id="C" correct="false">Ingen får endre programmet.</option>
+    </options>
+    <feedback>Individuell tilpasning betyr at innhold og tiltak kan tilpasses den enkelte.</feedback>
+  </question>
+  <question id="105" category="Introduksjonsprogrammet">
+    <text>Hva kan være en del av introduksjonsprogrammet?</text>
+    <options>
+      <option id="A" correct="true">Språkopplæring, kurs og praksis kan være deler av programmet.</option>
+      <option id="B" correct="false">Bare teori i klasserommet.</option>
+      <option id="C" correct="false">Bare sosiale aktiviteter og utflukter.</option>
+    </options>
+    <feedback>Programmet kan ha flere typer opplæring og arbeidsrettede tiltak.</feedback>
+  </question>
+  <question id="106" category="Introduksjonsprogrammet">
+    <text>Hva er et viktig mål i en plan for integrering?</text>
+    <options>
+      <option id="A" correct="true">Å kvalifisere seg til arbeid eller utdanning.</option>
+      <option id="B" correct="false">Å planlegge skolemat.</option>
+      <option id="C" correct="false">Å lage fritidsplan for hele familien.</option>
+    </options>
+    <feedback>Arbeid eller utdanning er sentrale mål for mange deltakere.</feedback>
+  </question>
+  <question id="107" category="Introduksjonsprogrammet">
+    <text>Hva betyr progresjon i programmet?</text>
+    <options>
+      <option id="A" correct="true">At du utvikler deg og kommer videre mot målene dine.</option>
+      <option id="B" correct="false">At du kan hoppe over alt du ikke liker.</option>
+      <option id="C" correct="false">At du bare har fri i helgene.</option>
+    </options>
+    <feedback>Progresjon betyr utvikling og framgang.</feedback>
+  </question>
+  <question id="108" category="Introduksjonsprogrammet">
+    <text>Hvordan kan deltakelse i introduksjonsprogrammet følges opp?</text>
+    <options>
+      <option id="A" correct="true">Gjennom blant annet oppmøte, deltakelse og vurdering av framgang.</option>
+      <option id="B" correct="false">Bare gjennom nasjonale prøver.</option>
+      <option id="C" correct="false">Bare gjennom en avsluttende skriftlig eksamen.</option>
+    </options>
+    <feedback>Kommunen følger opp deltakelsen og utviklingen i programmet.</feedback>
+  </question>
+  <question id="109" category="Introduksjonsprogrammet">
+    <text>Hva kan skje etter introduksjonsprogrammet?</text>
+    <options>
+      <option id="A" correct="true">Du kan få videre veiledning hvis du trenger det.</option>
+      <option id="B" correct="false">Du får aldri mer hjelp fra offentlige tjenester.</option>
+      <option id="C" correct="false">Du må klare alt alene uten å kunne få veiledning.</option>
+    </options>
+    <feedback>Behovet for videre oppfølging kan vurderes etter programmet.</feedback>
+  </question>
+  <question id="110" category="Introduksjonsprogrammet">
+    <text>Hva kan NAV hjelpe med etter introduksjonsprogrammet?</text>
+    <options>
+      <option id="A" correct="true">NAV kan blant annet hjelpe med jobbsøking, veiledning og tiltak.</option>
+      <option id="B" correct="false">NAV gir bare økonomisk støtte.</option>
+      <option id="C" correct="false">NAV tilbyr bare fritidsaktiviteter.</option>
+    </options>
+    <feedback>NAV har flere arbeidsrettede tjenester og tiltak.</feedback>
+  </question>
+  <question id="111" category="Introduksjonsprogrammet">
+    <text>Hva kan skje hvis du skal kombinere arbeid og introduksjonsprogram?</text>
+    <options>
+      <option id="A" correct="true">Programmet kan tilpasses slik at arbeid og kvalifisering kan kombineres.</option>
+      <option id="B" correct="false">Du må alltid slutte i jobben.</option>
+      <option id="C" correct="false">Du får automatisk permisjon fra jobben.</option>
+    </options>
+    <feedback>Programmet kan tilpasses situasjonen og målet til deltakeren.</feedback>
+  </question>
+  <question id="112" category="Introduksjonsprogrammet">
+    <text>Hvordan kan introduksjonsprogrammet tilpasses småbarnsforeldre?</text>
+    <options>
+      <option id="A" correct="true">Kommunen kan legge til rette for at deltakelse kan kombineres med barnepass, for eksempel barnehage.</option>
+      <option id="B" correct="false">Foreldrene må ta barna med i undervisningen.</option>
+      <option id="C" correct="false">Foreldrene må alltid gå på kurs om kvelden.</option>
+    </options>
+    <feedback>Programmet skal tilpasses deltakerens situasjon innenfor reglene.</feedback>
+  </question>
+  <question id="113" category="Introduksjonsprogrammet">
+    <text>Hva bør du gjøre hvis du blir syk og ikke kan møte i programmet?</text>
+    <options>
+      <option id="A" correct="true">Du bør melde fra og dokumentere fraværet etter reglene.</option>
+      <option id="B" correct="false">Du må alltid møte selv om du er syk.</option>
+      <option id="C" correct="false">Du mister automatisk all støtte.</option>
+    </options>
+    <feedback>Sykefravær må meldes og dokumenteres etter reglene som gjelder.</feedback>
+  </question>
+  <question id="114" category="Introduksjonsprogrammet">
+    <text>Hvorfor kan aktiviteter i introduksjonsprogrammet bli dokumentert?</text>
+    <options>
+      <option id="A" correct="true">For å vise hva du har deltatt i og hvordan du utvikler deg.</option>
+      <option id="B" correct="false">Bare for å telle hvor mange e-poster du har sendt.</option>
+      <option id="C" correct="false">Bare for å registrere fritiden din.</option>
+    </options>
+    <feedback>Dokumentasjon kan vise deltakelse og progresjon.</feedback>
+  </question>
+  <question id="115" category="Introduksjonsprogrammet">
+    <text>Hva er et viktig mål med norskopplæringen?</text>
+    <options>
+      <option id="A" correct="true">At du kan bruke norsk i arbeid, utdanning og samfunnet.</option>
+      <option id="B" correct="false">At du skal lære norsk kulturhistorie uten å bruke språket.</option>
+      <option id="C" correct="false">At du skal kunne snakke med bare norske familier.</option>
+    </options>
+    <feedback>Norskopplæringen skal gjøre det lettere å delta i arbeid, utdanning og samfunnsliv.</feedback>
+  </question>
+  <question id="116" category="Introduksjonsprogrammet">
+    <text>Hva betyr rett til opplæring?</text>
+    <options>
+      <option id="A" correct="true">Du har krav på opplæring når du har rett etter reglene.</option>
+      <option id="B" correct="false">Du får automatisk plass på alle kurs du ønsker.</option>
+      <option id="C" correct="false">Du får kurs bare hvis du allerede har jobb.</option>
+    </options>
+    <feedback>Retten gjelder den opplæringen du har krav på etter reglene.</feedback>
+  </question>
+  <question id="117" category="Introduksjonsprogrammet">
+    <text>Hva betyr progresjon i norskopplæringen?</text>
+    <options>
+      <option id="A" correct="true">At språkferdighetene dine utvikler seg over tid.</option>
+      <option id="B" correct="false">At du bare fullfører alle kapitlene i en bok.</option>
+      <option id="C" correct="false">At du alltid må bytte til en vanskeligere klasse.</option>
+    </options>
+    <feedback>Progresjon betyr at du utvikler språk og ferdigheter.</feedback>
+  </question>
+  <question id="118" category="Introduksjonsprogrammet">
+    <text>Hva kan skje hvis du ikke møter til norskopplæring uten gyldig grunn?</text>
+    <options>
+      <option id="A" correct="true">Det kan få følger for retten til opplæring og økonomisk støtte.</option>
+      <option id="B" correct="false">Du må alltid arbeide gratis i tre måneder.</option>
+      <option id="C" correct="false">Du får automatisk permisjon uten lønn.</option>
+    </options>
+    <feedback>Fravær kan få følger etter reglene som gjelder for opplæringen og støtten.</feedback>
+  </question>
+  <question id="119" category="Introduksjonsprogrammet">
+    <text>Hvordan kan kommunen støtte personer som trenger språkopplæring?</text>
+    <options>
+      <option id="A" correct="true">Kommunen kan gi opplæring og oppfølging.</option>
+      <option id="B" correct="false">Kommunen må tilby gratis tolk i alle situasjoner.</option>
+      <option id="C" correct="false">Kommunen gir bare ut bøker.</option>
+    </options>
+    <feedback>Kommunen har ansvar for ulike deler av opplæring og oppfølging.</feedback>
+  </question>
+  <question id="120" category="Introduksjonsprogrammet">
+    <text>Hva betyr rett og plikt til norskopplæring?</text>
+    <options>
+      <option id="A" correct="true">Du har rett til opplæring og plikt til å delta når reglene gjelder.</option>
+      <option id="B" correct="false">Du kan alltid velge bort norskopplæring.</option>
+      <option id="C" correct="false">Du får støtte uten krav om deltakelse.</option>
+    </options>
+    <feedback>Rett og plikt betyr at du både har en rett og en plikt etter reglene.</feedback>
+  </question>
+  <question id="121" category="Introduksjonsprogrammet">
+    <text>Hva er viktig når du lærer norsk?</text>
+    <options>
+      <option id="A" correct="true">Å kommunisere og bruke språket aktivt.</option>
+      <option id="B" correct="false">Å bare lære grammatikk.</option>
+      <option id="C" correct="false">Å bare lese romaner.</option>
+    </options>
+    <feedback>Språk læres gjennom aktiv bruk, kommunikasjon og øving.</feedback>
+  </question>
+  <question id="122" category="Introduksjonsprogrammet">
+    <text>Hva betyr tilpasset opplæring?</text>
+    <options>
+      <option id="A" correct="true">Undervisningen blir tilpasset elevens behov.</option>
+      <option id="B" correct="false">Alle skal alltid gjøre akkurat det samme.</option>
+      <option id="C" correct="false">Tilpasset opplæring betyr bare nettundervisning.</option>
+    </options>
+    <feedback>Tilpasset opplæring tar hensyn til elevens forutsetninger og behov.</feedback>
+  </question>
+  <question id="123" category="Introduksjonsprogrammet">
+    <text>Hvordan kan du få godt utbytte av introduksjonsprogrammet?</text>
+    <options>
+      <option id="A" correct="true">Ved å møte opp og delta aktivt.</option>
+      <option id="B" correct="false">Ved å bare øve på grammatikk.</option>
+      <option id="C" correct="false">Ved å bare snakke med læreren.</option>
+    </options>
+    <feedback>Aktiv deltakelse gir flere muligheter til å lære og utvikle seg.</feedback>
+  </question>
+  <question id="124" category="Introduksjonsprogrammet">
+    <text>Hva kan det bety å være klar for arbeid?</text>
+    <options>
+      <option id="A" correct="true">Du har ferdigheter og språk som passer til en jobb du kan søke.</option>
+      <option id="B" correct="false">NAV har allerede gitt deg en jobb.</option>
+      <option id="C" correct="false">Du har nødvendigvis fullført alle kurs.</option>
+    </options>
+    <feedback>Å være klar for arbeid handler om kompetanse, språk og mulighet til å søke arbeid.</feedback>
+  </question>
+  <question id="125" category="Introduksjonsprogrammet">
+    <text>Hva er et viktig mål med integreringsloven?</text>
+    <options>
+      <option id="A" correct="true">At mennesker får mulighet til å kvalifisere seg og delta i samfunnet.</option>
+      <option id="B" correct="false">At alle innvandrere skal bo i store byer.</option>
+      <option id="C" correct="false">At alle skal få statsborgerskap så raskt som mulig.</option>
+    </options>
+    <feedback>Integreringsloven har blant annet mål om deltakelse og kvalifisering.</feedback>
+  </question>
+  <question id="126" category="Introduksjonsprogrammet">
+    <text>Hva kan kommunen hjelpe med når en person blir bosatt?</text>
+    <options>
+      <option id="A" correct="true">Kommunen kan gi informasjon og hjelp knyttet til bosetting og kvalifisering.</option>
+      <option id="B" correct="false">Kommunen må betale alle møbler i fem år.</option>
+      <option id="C" correct="false">Alle over 50 år får automatisk gratis helsesjekk.</option>
+    </options>
+    <feedback>Kommunen har ulike oppgaver knyttet til bosetting og integrering.</feedback>
+  </question>
+  <question id="127" category="Introduksjonsprogrammet">
+    <text>Hvordan kan du bidra til din egen integrering?</text>
+    <options>
+      <option id="A" correct="true">Du kan delta aktivt i opplæring og andre aktiviteter.</option>
+      <option id="B" correct="false">Du bør la kommunen bestemme alt for deg.</option>
+      <option id="C" correct="false">Du bør bare følge gamle tradisjoner uten kontakt med andre.</option>
+    </options>
+    <feedback>Egen deltakelse og aktivitet er viktige deler av integrering.</feedback>
+  </question>
+  <question id="128" category="Introduksjonsprogrammet">
+    <text>Hva er formålet med introduksjonsprogrammet?</text>
+    <options>
+      <option id="A" correct="true">Å forberede deg på arbeid eller utdanning.</option>
+      <option id="B" correct="false">Å gi permanent bolig.</option>
+      <option id="C" correct="false">Å lære deg alle fritidsaktiviteter i Norge.</option>
+    </options>
+    <feedback>Programmet skal forberede deltakerne på arbeid eller utdanning.</feedback>
+  </question>
+  <question id="129" category="Introduksjonsprogrammet">
+    <text>Hvordan kan fritiden brukes til å øve på norsk?</text>
+    <options>
+      <option id="A" correct="true">Du kan bruke norsk når du deltar i idrett eller frivillige aktiviteter.</option>
+      <option id="B" correct="false">Du lærer best ved å bare lese alene.</option>
+      <option id="C" correct="false">Du bør bare snakke morsmålet ditt.</option>
+    </options>
+    <feedback>Fritidsaktiviteter gir mulighet til å bruke norsk i ekte situasjoner.</feedback>
+  </question>
+  <question id="130" category="Introduksjonsprogrammet">
+    <text>Hva kan det bety å lære om verdier i Norge?</text>
+    <options>
+      <option id="A" correct="true">Du lærer om ideer og verdier som er viktige i det norske samfunnet.</option>
+      <option id="B" correct="false">Du lærer hva naboen gjør på fritiden.</option>
+      <option id="C" correct="false">Du lærer hvordan du kan tjene penger til familien.</option>
+    </options>
+    <feedback>Samfunnskunnskap kan gi forståelse for verdier og regler i Norge.</feedback>
+  </question>
+  <question id="131" category="Introduksjonsprogrammet">
+    <text>Hvordan kan du lære om demokrati?</text>
+    <options>
+      <option id="A" correct="true">Gjennom opplæring, samtaler og praktiske eksempler.</option>
+      <option id="B" correct="false">Du må stemme ved alle valg.</option>
+      <option id="C" correct="false">Du må lese alle partiprogrammene.</option>
+    </options>
+    <feedback>Demokrati kan læres gjennom undervisning, samtaler og kunnskap om hvordan samfunnet fungerer.</feedback>
+  </question>
+  <question id="132" category="Introduksjonsprogrammet">
+    <text>Hva kan det bety å være klar for utdanning?</text>
+    <options>
+      <option id="A" correct="true">Du har språk og kunnskap som gjør det mulig å studere.</option>
+      <option id="B" correct="false">Du må alltid ha permanent opphold først.</option>
+      <option id="C" correct="false">Du må alltid ha fullført introduksjonsprogrammet.</option>
+    </options>
+    <feedback>Å være klar for utdanning handler blant annet om språk og faglige forutsetninger.</feedback>
+  </question>
+  <question id="133" category="Introduksjonsprogrammet">
+    <text>Hvorfor brukes kartlegging i introduksjonsprogrammet?</text>
+    <options>
+      <option id="A" correct="true">For å finne ut av språk, kompetanse og behov for videre kvalifisering.</option>
+      <option id="B" correct="false">For å planlegge familiens fritid.</option>
+      <option id="C" correct="false">For å finne et nytt bosted når du flytter.</option>
+    </options>
+    <feedback>Kartlegging brukes for å finne kompetanse og behov slik at programmet kan tilpasses.</feedback>
+  </question>
+  <question id="134" category="Introduksjonsprogrammet">
+    <text>Hva betyr rettferdig behandling i introduksjonsprogrammet?</text>
+    <options>
+      <option id="A" correct="true">Deltakere skal ha like muligheter, samtidig som opplæringen kan tilpasses behov.</option>
+      <option id="B" correct="false">Alle må alltid få nøyaktig samme plan.</option>
+      <option id="C" correct="false">Noen skal få flere rettigheter på grunn av bakgrunn.</option>
+    </options>
+    <feedback>Rettferdighet betyr like muligheter, mens individuell tilpasning kan være nødvendig.</feedback>
+  </question>
+  <question id="135" category="Introduksjonsprogrammet">
+    <text>Hva kan det bety å være klar for arbeid?</text>
+    <options>
+      <option id="A" correct="true">Du har ferdigheter og kunnskap som kan brukes i arbeidslivet.</option>
+      <option id="B" correct="false">Du må snakke flytende norsk.</option>
+      <option id="C" correct="false">Du må ha permanent oppholdstillatelse.</option>
+    </options>
+    <feedback>Arbeidsberedskap handler om ferdigheter, språk og mulighet til å delta i arbeidslivet.</feedback>
+  </question>
+  <question id="136" category="Introduksjonsprogrammet">
+    <text>Hva betyr det at integrering er gjensidig?</text>
+    <options>
+      <option id="A" correct="true">Både den enkelte og samfunnet har ansvar for å få integreringen til å fungere.</option>
+      <option id="B" correct="false">Bare den som har flyttet til Norge må tilpasse seg.</option>
+      <option id="C" correct="false">Samfunnet må tilpasse seg alt uten at den enkelte deltar.</option>
+    </options>
+    <feedback>Integrering er en prosess der både individet og samfunnet spiller en rolle.</feedback>
+  </question>
+  <question id="137" category="Demokrati og rettigheter">
+    <text>Hvem gjelder menneskerettighetene for?</text>
+    <options>
+      <option id="A" correct="true">De gjelder for alle mennesker.</option>
+      <option id="B" correct="false">De gjelder bare norske statsborgere.</option>
+      <option id="C" correct="false">De gjelder bare personer som betaler skatt.</option>
+    </options>
+    <feedback>Menneskerettighetene gjelder alle mennesker.</feedback>
+  </question>
+  <question id="138" category="Demokrati og rettigheter">
+    <text>Hva betyr ytringsfrihet i Norge?</text>
+    <options>
+      <option id="A" correct="true">Du har rett til å si meningen din, men loven setter noen grenser.</option>
+      <option id="B" correct="false">Du har rett til å true andre.</option>
+      <option id="C" correct="false">Du må alltid være enig med myndighetene.</option>
+    </options>
+    <feedback>Ytringsfriheten er sterk, men har lovbestemte grenser, blant annet mot trusler og enkelte hatefulle ytringer.</feedback>
+  </question>
+  <question id="139" category="Demokrati og rettigheter">
+    <text>Hvem vedtar lover i Norge?</text>
+    <options>
+      <option id="A" correct="true">Stortinget vedtar lover.</option>
+      <option id="B" correct="false">Regjeringen vedtar alle lover alene.</option>
+      <option id="C" correct="false">Domstolene lager alle lover.</option>
+    </options>
+    <feedback>Stortinget er den lovgivende makten og vedtar lover.</feedback>
+  </question>
+  <question id="140" category="Demokrati og rettigheter">
+    <text>Hvilken rolle har kongen i Norge i dag?</text>
+    <options>
+      <option id="A" correct="true">Kongen har hovedsakelig en formell og symbolsk rolle.</option>
+      <option id="B" correct="false">Kongen bestemmer norsk politikk.</option>
+      <option id="C" correct="false">Kongen bestemmer hvem som får stemme.</option>
+    </options>
+    <feedback>Norge er et konstitusjonelt monarki, og kongen har hovedsakelig formelle og symbolske oppgaver.</feedback>
+  </question>
+  <question id="141" category="Demokrati og rettigheter">
+    <text>Hvem behandler klager på mange vedtak fra UDI?</text>
+    <options>
+      <option id="A" correct="true">UNE behandler klager i mange utlendingssaker.</option>
+      <option id="B" correct="false">Politiet behandler alle slike klager.</option>
+      <option id="C" correct="false">IMDi behandler alle klager på UDI.</option>
+    </options>
+    <feedback>UNE er klageinstans i mange utlendingssaker.</feedback>
+  </question>
+  <question id="142" category="Regler for opphold">
+    <text>Hva betyr botid når du søker om opphold eller statsborgerskap?</text>
+    <options>
+      <option id="A" correct="true">Det viser hvor lenge du har bodd lovlig i Norge.</option>
+      <option id="B" correct="false">Det viser hvor lenge du har hatt samme jobb.</option>
+      <option id="C" correct="false">Det viser hvor lenge du har vært utenfor Norge.</option>
+    </options>
+    <feedback>Botid handler om hvor lenge du har bodd i Norge etter reglene som gjelder.</feedback>
+  </question>
+  <question id="143" category="Regler for opphold">
+    <text>Hva er en asylsøker?</text>
+    <options>
+      <option id="A" correct="true">En person som har søkt om beskyttelse.</option>
+      <option id="B" correct="false">En turist som er på ferie.</option>
+      <option id="C" correct="false">En person som allerede har permanent opphold.</option>
+    </options>
+    <feedback>En asylsøker har søkt om beskyttelse og venter på svar.</feedback>
+  </question>
+  <question id="144" category="Et liv i Norge">
+    <text>Hva betyr det å være selvforsørget?</text>
+    <options>
+      <option id="A" correct="true">Du har inntekt og kan klare deg selv økonomisk.</option>
+      <option id="B" correct="false">Du får all økonomisk hjelp fra venner.</option>
+      <option id="C" correct="false">Du bor gratis hos familie.</option>
+    </options>
+    <feedback>Selvforsørget betyr at du i hovedsak kan klare deg med egen inntekt.</feedback>
+  </question>
+  <question id="145" category="Regler for opphold">
+    <text>Hva er en kvoteflyktning?</text>
+    <options>
+      <option id="A" correct="true">En flyktning som blir overført til Norge etter en prosess der UNHCR kan foreslå personer og UDI avgjør hvem som får komme.</option>
+      <option id="B" correct="false">En person som søker om ferievisum.</option>
+      <option id="C" correct="false">En person som er invitert av et norsk firma.</option>
+    </options>
+    <feedback>Kvoteflyktninger kalles også overføringsflyktninger. UNHCR kan foreslå personer, og UDI avgjør hvem som får komme.</feedback>
+  </question>
+  <question id="146" category="Demokrati og rettigheter">
+    <text>Hvilken rett er knyttet til norsk statsborgerskap?</text>
+    <options>
+      <option id="A" correct="true">Norske statsborgere har stemmerett ved stortingsvalg når de oppfyller kravene til alder.</option>
+      <option id="B" correct="false">Alle med jobb i Norge har automatisk stemmerett ved stortingsvalg.</option>
+      <option id="C" correct="false">Alle som har helsehjelp i Norge har stemmerett.</option>
+    </options>
+    <feedback>Stemmerett ved stortingsvalg er knyttet til norsk statsborgerskap og alder.</feedback>
+  </question>
+  <question id="147" category="Helse">
+    <text>Hvem kontakter du vanligvis først ved sykdom som ikke er akutt?</text>
+    <options>
+      <option id="A" correct="true">Fastlegen.</option>
+      <option id="B" correct="false">En spesialist på sykehuset.</option>
+      <option id="C" correct="false">NAV-kontoret.</option>
+    </options>
+    <feedback>Fastlegen er vanligvis første kontakt ved sykdom som ikke er akutt.</feedback>
+  </question>
+  <question id="148" category="Introduksjonsprogrammet">
+    <text>Hvem har hovedansvaret for introduksjonsprogrammet for personer som er bosatt i en kommune?</text>
+    <options>
+      <option id="A" correct="true">Kommunen har ansvar for å tilby og gjennomføre programmet etter reglene.</option>
+      <option id="B" correct="false">Stortinget følger opp hver deltaker direkte.</option>
+      <option id="C" correct="false">Arbeidsgiveren bestemmer programmet.</option>
+    </options>
+    <feedback>Kommunen har sentrale oppgaver med introduksjonsprogrammet.</feedback>
+  </question>
+  <question id="149" category="Utdanning">
+    <text>Hva heter utdanningen som vanligvis kommer etter grunnskolen?</text>
+    <options>
+      <option id="A" correct="true">Videregående opplæring.</option>
+      <option id="B" correct="false">Universitet.</option>
+      <option id="C" correct="false">Fagskole.</option>
+    </options>
+    <feedback>Videregående opplæring kommer normalt etter grunnskolen.</feedback>
+  </question>
+  <question id="150" category="Demokrati og rettigheter">
+    <text>Hva er et eksempel på en ytring som kan være ulovlig?</text>
+    <options>
+      <option id="A" correct="true">Trusler eller enkelte hatefulle ytringer kan være ulovlige.</option>
+      <option id="B" correct="false">Å kritisere regjeringen.</option>
+      <option id="C" correct="false">Å uttrykke en religiøs mening.</option>
+    </options>
+    <feedback>Ytringsfriheten har grenser. Trusler og enkelte hatefulle ytringer kan være straffbare.</feedback>
+  </question>
+</questionBank>

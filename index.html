@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="nb">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Samfunnskunnskap – øvingsprøve</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main id="app">
+    <section class="screen active" id="startScreen">
+      <div class="hero">
+        <div class="eyebrow">SAMFUNNSKUNNSKAP · A2</div>
+        <h1>Øv til prøven</h1>
+        <p class="lead">Test kunnskap om livet i Norge, opphold, integrering, demokrati og rettigheter.</p>
+      </div>
+      <div class="card setup-card">
+        <label for="studentName">Navn <span>(valgfritt)</span></label>
+        <input id="studentName" type="text" autocomplete="name" placeholder="Skriv navnet ditt">
+        <div class="field-label">Velg antall spørsmål</div>
+        <div class="choice-grid" id="countChoices">
+          <button class="choice selected" data-count="20"><strong>20</strong><span>spørsmål</span></button>
+          <button class="choice" data-count="30"><strong>30</strong><span>spørsmål</span></button>
+          <button class="choice" data-count="50"><strong>50</strong><span>spørsmål</span></button>
+        </div>
+        <div class="field-label">Velg modus</div>
+        <div class="mode-grid">
+          <button class="mode selected" data-mode="practice"><span class="mode-icon">💡</span><strong>Øvingsmodus</strong><small>Få tilbakemelding etter hvert svar.</small></button>
+          <button class="mode" data-mode="test"><span class="mode-icon">📝</span><strong>Prøvemodus</strong><small>Se resultat og fasit når testen er ferdig.</small></button>
+        </div>
+        <div class="info-row"><span>✓ Ett riktig svar per spørsmål</span><span>✓ 80 % for å bestå</span><span>✓ Tilfeldige spørsmål og svar</span></div>
+        <button class="primary" id="startBtn">Start prøve <span>→</span></button>
+      </div>
+    </section>
+
+    <section class="screen" id="quizScreen">
+      <header class="quiz-header">
+        <button class="text-btn" id="quitBtn">← Avslutt</button>
+        <div class="quiz-title">Samfunnskunnskap</div>
+        <div class="counter" id="counter"></div>
+      </header>
+      <div class="progress"><div id="progressBar"></div></div>
+      <div class="quiz-wrap">
+        <div class="question-meta"><span id="category"></span><span id="scoreLive"></span></div>
+        <h2 id="questionText"></h2>
+        <div id="options" class="options"></div>
+        <div id="feedback" class="feedback" hidden></div>
+        <div class="quiz-actions">
+          <button class="primary" id="nextBtn" disabled>Neste <span>→</span></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="screen" id="resultScreen">
+      <div class="result-wrap">
+        <div class="result-top">
+          <div class="eyebrow">RESULTAT</div>
+          <h1 id="resultTitle"></h1>
+          <p id="resultSub"></p>
+        </div>
+        <div class="result-card">
+          <div class="score-circle" id="scoreCircle"><span id="percent"></span><small>prosent</small></div>
+          <div class="stats">
+            <div><span>Riktige</span><strong id="correctCount"></strong></div>
+            <div><span>Feil</span><strong id="wrongCount"></strong></div>
+            <div><span>Oppgaver</span><strong id="totalCount"></strong></div>
+            <div><span>Krav</span><strong>80 %</strong></div>
+          </div>
+        </div>
+        <div class="result-actions">
+          <button class="primary" id="reviewBtn">Se gjennom svar</button>
+          <button class="secondary" id="printBtn">🖨 Skriv ut resultat</button>
+          <button class="secondary" id="restartBtn">Ta ny prøve</button>
+        </div>
+        <div id="review" class="review"></div>
+      </div>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
