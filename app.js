@@ -16,7 +16,7 @@ const pick = (a, fb) => (a && a.length ? a[Math.floor(Math.random() * a.length)]
 const esc = s => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 
 async function loadBank() {
-  const text = await fetch("questions.xml").then(r => r.text());
+  const text = await fetch("questions.xml", { cache: "no-cache" }).then(r => r.text());
   const doc = new DOMParser().parseFromString(text, "application/xml");
   state.bank = [...doc.querySelectorAll("question")].map(q => ({
     id: q.getAttribute("id"), main: q.getAttribute("main") || "", category: q.getAttribute("category"), topic: q.getAttribute("topic") || "",
