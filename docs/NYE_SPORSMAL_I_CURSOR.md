@@ -11,7 +11,7 @@ Denne veiledningen er for deg og for Cursor-agenten når et nytt undertema skal 
 | Utdanning, kompetanse og arbeidsliv | Skole og utdanning, Arbeidsliv, Kritisk tenkning og digital dømmekraft | ferdig |
 | Familie, helse og hverdagsliv | Ny i Norge | ferdig |
 | Familie, helse og hverdagsliv | Familieliv, Fritid, Helse, Personlig økonomi, Retten til et fritt og selvstendig liv | ferdig, ikke gjennomlest av faglærer (plan i `docs/testspesifikasjon.md`) |
-| Norge før og nå | Dette er Norge, Historie, Menneskerettigheter og demokrati, Bærekraft | ikke startet |
+| Norge før og nå | Dette er Norge, Historie, Menneskerettigheter og demokrati, Bærekraft | ferdig, ikke gjennomlest av faglærer (plan i `docs/testspesifikasjon.md`) |
 
 ## Slik legger du til et undertema
 1. **Les kilden.** Hent undertemaet fra samfunnskunnskap.no, med alle undersidene. Skriv ned fakta og tall. Bruk ikke fakta du er usikker på. Sjekk tall mot UDI, Nav, Udir eller SSB.

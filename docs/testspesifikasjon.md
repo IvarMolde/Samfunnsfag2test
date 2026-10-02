@@ -1,6 +1,10 @@
-# Testspesifikasjon: Familie, helse og hverdagsliv
+# Testspesifikasjon: Familie, helse og hverdagsliv, og Norge før og nå
 
-Denne spesifikasjonen gjelder de fem kategoriene som kom i tillegg til Ny i Norge: Familieliv, Fritid, Helse, Personlig økonomi og Retten til et fritt og selvstendig liv. Hver kategori har 80 spørsmål. Til sammen er det 400 nye spørsmål.
+Denne spesifikasjonen gjelder to hovedtemaer:
+- **Familie, helse og hverdagsliv:** de fem kategoriene som kom i tillegg til Ny i Norge, altså Familieliv, Fritid, Helse, Personlig økonomi og Retten til et fritt og selvstendig liv (400 spørsmål).
+- **Norge før og nå:** Dette er Norge, Historie, Menneskerettigheter og demokrati, og Bærekraft (320 spørsmål).
+
+Hver kategori har 80 spørsmål.
 
 Hovedkilden er [samfunnskunnskap.no](https://samfunnskunnskap.no/nb/index.html). Hver underside er ett emne. Der siden har lite tekst, er temaet utdypet med offentlige kilder. Disse står som tilleggskilder i kildefilen og i lesefilene i `sporsmalsbank/ut/`. Alle emner holder seg innenfor læreplanen «Samfunnskunnskap for voksne innvandrere» (2021).
 
@@ -14,7 +18,8 @@ Læringsmålene under er skrevet for denne banken. Samfunnskunnskap.no har ikke 
 - Svarene er omtrent like lange. Det riktige svaret er lengst i rundt en tredjedel av spørsmålene.
 - Beløp og satser som endrer seg hvert år er ikke med. Spørsmålene handler heller om ordningen og hvem som har ansvaret.
 - Sensitive temaer har nøytral tone og ingen stereotypier om kulturer eller religioner. De tar med hvor man får hjelp.
-- Ingen spørsmål ligner for mye på de 320 som fantes fra før (Skole og utdanning, Arbeidsliv, Kritisk tenkning og digital dømmekraft, Ny i Norge).
+- Ingen spørsmål ligner for mye på spørsmål som fantes fra før, verken i samme hovedtema eller i andre.
+- Personer i verv som kan skifte, for eksempel statsministeren, er ikke nevnt ved navn. Spørsmålene er partipolitisk nøytrale.
 
 ## Familieliv (80)
 
@@ -97,3 +102,70 @@ Læringsmål. Deltakeren kan:
 - forklare at tvangsekteskap er forbudt, og hvilke rettigheter man har når man skal gifte seg
 - beskrive hva negativ sosial kontroll er, og hvor man kan få råd og hjelp
 - forklare at kjønnslemlestelse er forbudt, også når det skjer i utlandet, og hvilket helsetilbud som finnes
+
+# Norge før og nå
+
+## Dette er Norge (80)
+
+| Emne | Antall | Kilde |
+|---|---|---|
+| Fakta om Norge | 16 | [fakta-om-norge](https://samfunnskunnskap.no/nb/dette-er-norge/fakta-om-norge.html) |
+| Likestilling og likeverd | 16 | [likestilling-og-likeverd](https://samfunnskunnskap.no/nb/dette-er-norge/likestilling-og-likeverd.html) |
+| Merke- og helligdager | 14 | [merke-og-helligdager](https://samfunnskunnskap.no/nb/dette-er-norge/merke-og-helligdager.html) |
+| Minoritet og majoritet i Norge | 12 | [minoritet-og-majoritet-i-norge](https://samfunnskunnskap.no/nb/dette-er-norge/minoritet-og-majoritet-i-norge.html) |
+| Religion og livssyn | 12 | [religion-og-livssyn](https://samfunnskunnskap.no/nb/dette-er-norge/religion-og-livssyn.html) |
+| Samene | 10 | [samene](https://samfunnskunnskap.no/nb/dette-er-norge/samene.html) |
+
+Læringsmål. Deltakeren kan:
+- beskrive Norges geografi, befolkning, styreform og inndeling i fylker og kommuner
+- forklare hva likestilling og likeverd betyr, og hva loven sier om diskriminering
+- nevne viktige merkedager og helligdager, og hva de handler om
+- forklare hvem de nasjonale minoritetene og urfolket samene er, og hvilke rettigheter de har
+- beskrive tros- og livssynsfrihet og det religiøse mangfoldet i Norge
+
+## Historie (80)
+
+| Emne | Antall | Kilde |
+|---|---|---|
+| De første nordmenn | 14 | [de-forste-nordmenn](https://samfunnskunnskap.no/nb/historie/de-forste-nordmenn.html) |
+| Middelalder og unionstid | 14 | [middelalder-og-unionstid](https://samfunnskunnskap.no/nb/historie/middelalder-og-unionstid.html) |
+| Norge fra 1814 til 1905 | 18 | [norge-fra-1814-til-1905](https://samfunnskunnskap.no/nb/historie/norge-fra-1814-til-1905.html) |
+| Første og andre verdenskrig | 16 | [forste-og-andre-verdenskrig](https://samfunnskunnskap.no/nb/historie/forste-og-andre-verdenskrig.html) |
+| Det moderne Norge | 18 | [det-moderne-norge](https://samfunnskunnskap.no/nb/historie/det-moderne-norge.html) |
+
+Læringsmål. Deltakeren kan:
+- fortelle om de første menneskene i Norge, vikingtiden og middelalderen
+- forklare unionene med Danmark og Sverige, og hva som skjedde i 1814 og 1905
+- beskrive hvordan Norge ble påvirket av første og andre verdenskrig
+- forklare hvordan velferdsstaten, oljen og innvandringen har formet det moderne Norge
+
+## Menneskerettigheter og demokrati (80)
+
+| Emne | Antall | Kilde |
+|---|---|---|
+| Demokratiet i Norge | 24 | [demokratiet-i-norge](https://samfunnskunnskap.no/nb/menneskerettigheter-og-demokrati/demokratiet-i-norge.html) |
+| Demokratiske rettigheter og plikter | 22 | [demokratiske-rettigheter-og-plikter](https://samfunnskunnskap.no/nb/menneskerettigheter-og-demokrati/demokratiske-rettigheter-og-plikter.html) |
+| Menneskerettigheter | 16 | [menneskerettigheter](https://samfunnskunnskap.no/nb/menneskerettigheter-og-demokrati/menneskerettigheter.html) |
+| Valg og politiske partier | 18 | [valg-og-politiske-partier](https://samfunnskunnskap.no/nb/menneskerettigheter-og-demokrati/valg-og-politiske-partier.html) |
+
+Siden om menneskerettigheter er kort. Emnet er derfor utdypet med Grunnloven, menneskerettsloven og FN-sambandet. Spørsmålene om valg i Fritid (lokalvalg, stemmerett for utenlandske statsborgere) blir ikke gjentatt her.
+
+Læringsmål. Deltakeren kan:
+- forklare maktfordelingen mellom Stortinget, regjeringen og domstolene, og hva parlamentarisme er
+- gjøre rede for demokratiske rettigheter og plikter, for eksempel ytringsfrihet, skatteplikt og vitneplikt
+- forklare hva menneskerettighetene er, og hvordan de er beskyttet i Norge
+- beskrive hvordan stortingsvalg foregår, og hvilken rolle partiene har
+
+## Bærekraft (80)
+
+| Emne | Antall | Kilde |
+|---|---|---|
+| Bærekraftig utvikling | 28 | [baerekraftig-utvikling](https://samfunnskunnskap.no/nb/baerekraft/baerekraftig-utvikling.html) |
+| Natur og naturressurser | 26 | [natur-og-naturressurser](https://samfunnskunnskap.no/nb/baerekraft/natur-og-naturressurser.html) |
+| Natur- og miljøvern | 26 | [natur-og-miljovern](https://samfunnskunnskap.no/nb/baerekraft/natur-og-miljovern.html) |
+
+Læringsmål. Deltakeren kan:
+- forklare hva bærekraftig utvikling er, og nevne FNs bærekraftsmål
+- beskrive Norges viktigste naturressurser, som vannkraft, olje og gass, fisk og skog
+- forklare allemannsretten og reglene for ferdsel i naturen
+- nevne hva hver enkelt kan gjøre for miljøet, for eksempel kildesortering og pant
