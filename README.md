@@ -6,6 +6,8 @@ Dette er en øvingsprøve, ikke den offisielle prøven.
 
 Knappen «Les her» på startsiden åpner en kort forklaring. Den sier hvordan øving og prøve virker, og at resultatet bare gjelder denne prøven. Det er ikke et offisielt resultat.
 
+Skal du lage nye spørsmål, se `docs/NYE_SPORSMAL_I_CURSOR.md`.
+
 ## Denne filen
 
 Denne filen forklarer hvordan programmet virker. Den oppdateres i samme endring som en ny bestemmelse, for eksempel modus, trekk, tema, beståttgrense eller navigasjon. Det som ikke lenger gjelder, tas ut, slik at teksten beskriver det som faktisk gjelder.
