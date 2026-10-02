@@ -15,7 +15,17 @@ Under rettingen ble to punkter avklart, og to spørsmål til ble rettet:
 - **skole-80 (rettet i tillegg):** «Hva bestemmer hvem som får plass på videregående?» sa imot skole-36, fordi alle som har fullført grunnskolen, har rett til plass. Nå spør det om hva som avgjør *hvilken* skole du kommer inn på.
 - **skole-37 (rettet i tillegg):** Yrkesfag gir fagbrev *eller svennebrev*.
 
-En faglærer bør likevel lese gjennom de endrede spørsmålene før banken brukes med deltakere.
+### Gjennomlesing før publisering
+
+Alle 240 spørsmål skal leses gjennom før endringene publiseres (flettes inn i `main`). Bruk `sporsmalsbank/ut/Spørsmålsbank_samfunnskunnskap.docx`. Der står hvert spørsmål med ID, riktig svar merket med ✓, de gale svarene og begge tilbakemeldingene.
+
+Disse 38 spørsmålene er endret i denne runden og bør leses ekstra nøye:
+
+- **Skole (15):** 01, 20, 23, 35, 37, 40, 44, 52, 57, 58, 59, 62, 63, 65, 80
+- **Arbeid (12):** 08, 09, 20, 27, 36, 41, 42, 49, 52, 55, 71, 73
+- **Kritisk (11):** 01, 06, 08, 19, 25, 27, 28, 31, 55, 68, 69
+
+Rettelser gjøres i `sporsmalsbank/kilde/` (ikke i `questions.xml`). Kjør deretter `npm run bygg`.
 
 ## Kategorier
 
