@@ -449,18 +449,22 @@ $("#timerMinutes").onchange = () => { timerTouched = true; };
 const defaultMinutes = { 20: 20, 30: 30, 40: 45 };
 $("#timerMinutes").value = String(defaultMinutes[20]);
 function openAbout() {
-  $("#aboutDialog").hidden = false;
-  $("#aboutClose").focus();
+  const box = $("#aboutDialog");
+  box.hidden = false;
+  // Fokus settes etter klikket, så Chrome ikke sender åpningsklikket til Lukk.
+  requestAnimationFrame(() => { if (!box.hidden) $("#aboutClose").focus(); });
 }
 function closeAbout() {
-  if ($("#aboutDialog").hidden) return;
-  $("#aboutDialog").hidden = true;
+  const box = $("#aboutDialog");
+  if (box.hidden) return;
+  box.hidden = true;
   $("#aboutBtn").focus();
 }
-$("#aboutBtn").onclick = openAbout;
-$("#aboutClose").onclick = closeAbout;
-$("#aboutDialog").addEventListener("click", e => { if (e.target === $("#aboutDialog")) closeAbout(); });
-$("#aboutDialog").querySelector(".info-panel").addEventListener("click", e => e.stopPropagation());
+$("#aboutBtn").addEventListener("click", e => { e.preventDefault(); openAbout(); });
+$("#aboutClose").addEventListener("click", e => { e.preventDefault(); e.stopPropagation(); closeAbout(); });
+// Lukk på nedtrykk utenfor boksen, ikke på click. I Chrome kan åpningsklikket
+// treffe feltet bak boksen og lukke den med en gang. Det skjer ikke i Edge.
+$("#aboutDialog").addEventListener("pointerdown", e => { if (e.target === $("#aboutDialog")) closeAbout(); });
 document.addEventListener("keydown", e => {
   if (e.key === "Escape" && !$("#aboutDialog").hidden) { e.preventDefault(); closeAbout(); }
 });

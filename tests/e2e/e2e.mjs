@@ -55,6 +55,8 @@ await scenario("Les her forklarer prøven og at resultatet ikke er offisielt", a
   await p.keyboard.press("Escape");
   assert.equal(await p.isVisible("#aboutDialog"), false);
   await p.click("#aboutBtn");
+  await p.evaluate(() => document.querySelector("#aboutDialog").dispatchEvent(new MouseEvent("click", { bubbles: true })));
+  assert.equal(await p.isVisible("#aboutDialog"), true, "åpningsklikket lukker ikke boksen");
   await p.click("#aboutDialog", { position: { x: 8, y: 8 } });
   assert.equal(await p.isVisible("#aboutDialog"), false, "klikk utenfor boksen lukker den");
 });
