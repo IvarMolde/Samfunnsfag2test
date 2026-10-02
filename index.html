@@ -53,9 +53,10 @@
 
     <section class="screen" id="resultScreen">
       <div class="result-wrap">
+        <p class="print-only print-banner">Øvingsprøve i samfunnskunnskap · ikke en offisiell prøve</p>
         <div class="result-top">
           <div class="eyebrow">RESULTAT</div>
-          <h1 id="resultTitle"></h1>
+          <h1 id="resultTitle" tabindex="-1"></h1>
           <p id="resultSub"></p>
         </div>
         <div class="result-card">
@@ -64,18 +65,21 @@
             <div><span>Riktige</span><strong id="correctCount"></strong></div>
             <div><span>Feil</span><strong id="wrongCount"></strong></div>
             <div><span>Oppgaver</span><strong id="totalCount"></strong></div>
-            <div><span>Krav</span><strong>80 %</strong></div>
+            <div><span>Krav</span><strong id="requirement">80 %</strong></div>
           </div>
         </div>
+        <div class="themes" id="themeBars"></div>
         <div class="result-actions">
           <button class="primary" id="reviewBtn">Se gjennom svar</button>
-          <button class="secondary" id="printBtn">🖨 Skriv ut resultat</button>
+          <button class="secondary" id="retryBtn" hidden>Øv på feilene</button>
+          <button class="secondary" id="printBtn">Skriv ut eller lagre som PDF</button>
           <button class="secondary" id="restartBtn">Ta ny prøve</button>
         </div>
         <div id="review" class="review"></div>
+        <p class="print-only print-footnote">Dette er en øvingsprøve. Resultatet er en indikasjon og sier ikke at du vil bestå den offisielle prøven.</p>
       </div>
     </section>
   </main>
-  <script src="app.js"></script>
+  <script type="module" src="app.js"></script>
 </body>
 </html>
