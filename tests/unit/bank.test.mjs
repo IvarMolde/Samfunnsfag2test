@@ -17,32 +17,42 @@ const bank = Array.from({ length: qs.length }, (_, i) => qs[i]).map(q => ({
 }));
 const count = (list, key) => list.reduce((o, q) => ((o[q[key]] = (o[q[key]] || 0) + 1), o), {});
 
-const FAMILIE = "Familie, helse og hverdagsliv";
+const FAMILIE = "Familie, helse og hverdagsliv", NORGE = "Norge før og nå";
 const EMNER = {
-  "Familieliv": { "Ekteskap og familie": 24, "Å leve i to kulturer": 16, "Barneoppdragelse": 16, "Barnevernet": 12, "Barn og unges rettigheter": 12 },
-  "Fritid": { "Politisk engasjement": 32, "Dugnad": 24, "Sosiale arenaer": 24 },
-  "Helse": { "Helsetjenester": 16, "Helse og livsstil": 14, "Psykisk helse": 12, "Familieplanlegging, svangerskap og oppfølging av barn": 12, "Tannhelse": 10, "Å flytte til et nytt land": 8, "Identitet": 8 },
-  "Personlig økonomi": { "Personlig økonomi": 44, "Bolig": 36 },
-  "Retten til et fritt og selvstendig liv": { "Vold i nære relasjoner": 32, "Tvangsekteskap": 18, "Negativ sosial kontroll": 18, "Kjønnslemlestelse": 12 },
+  [FAMILIE]: {
+    "Familieliv": { "Ekteskap og familie": 24, "Å leve i to kulturer": 16, "Barneoppdragelse": 16, "Barnevernet": 12, "Barn og unges rettigheter": 12 },
+    "Fritid": { "Politisk engasjement": 32, "Dugnad": 24, "Sosiale arenaer": 24 },
+    "Helse": { "Helsetjenester": 16, "Helse og livsstil": 14, "Psykisk helse": 12, "Familieplanlegging, svangerskap og oppfølging av barn": 12, "Tannhelse": 10, "Å flytte til et nytt land": 8, "Identitet": 8 },
+    "Personlig økonomi": { "Personlig økonomi": 44, "Bolig": 36 },
+    "Retten til et fritt og selvstendig liv": { "Vold i nære relasjoner": 32, "Tvangsekteskap": 18, "Negativ sosial kontroll": 18, "Kjønnslemlestelse": 12 },
+  },
+  [NORGE]: {
+    "Dette er Norge": { "Fakta om Norge": 16, "Likestilling og likeverd": 16, "Merke- og helligdager": 14, "Minoritet og majoritet i Norge": 12, "Religion og livssyn": 12, "Samene": 10 },
+    "Historie": { "De første nordmenn": 14, "Middelalder og unionstid": 14, "Norge fra 1814 til 1905": 18, "Første og andre verdenskrig": 16, "Det moderne Norge": 18 },
+    "Menneskerettigheter og demokrati": { "Demokratiet i Norge": 24, "Demokratiske rettigheter og plikter": 22, "Menneskerettigheter": 16, "Valg og politiske partier": 18 },
+    "Bærekraft": { "Bærekraftig utvikling": 28, "Natur og naturressurser": 26, "Natur- og miljøvern": 26 },
+  },
 };
 
-test("Banken har 9 kategorier med 80 spørsmål hver", () => {
+test("Banken har 13 kategorier med 80 spørsmål hver", () => {
   const c = count(bank, "category");
-  assert.equal(Object.keys(c).length, 9);
+  assert.equal(Object.keys(c).length, 13);
   Object.values(c).forEach(n => assert.equal(n, 80));
 });
 
-test("Familie, helse og hverdagsliv gir 6 kategorier med 80 spørsmål hver", () => {
-  const c = count(filterByCategory(bank, "main:" + FAMILIE), "category");
-  assert.deepEqual(Object.keys(c).sort(), ["Ny i Norge", ...Object.keys(EMNER)].sort());
-  Object.values(c).forEach(n => assert.equal(n, 80));
+test("Familie, helse og hverdagsliv gir 6 kategorier, og Norge før og nå gir 4, med 80 spørsmål hver", () => {
+  const fam = count(filterByCategory(bank, "main:" + FAMILIE), "category");
+  assert.deepEqual(Object.keys(fam).sort(), ["Ny i Norge", ...Object.keys(EMNER[FAMILIE])].sort());
+  const nor = count(filterByCategory(bank, "main:" + NORGE), "category");
+  assert.deepEqual(Object.keys(nor).sort(), Object.keys(EMNER[NORGE]).sort());
+  [...Object.values(fam), ...Object.values(nor)].forEach(n => assert.equal(n, 80));
 });
 
-for (const [cat, emner] of Object.entries(EMNER)) {
+for (const [main, cats] of Object.entries(EMNER)) for (const [cat, emner] of Object.entries(cats)) {
   test(`${cat}: bare egne spørsmål, riktig hovedkategori og emner`, () => {
     const own = filterByCategory(bank, cat);
     assert.equal(own.length, 80);
-    assert.ok(own.every(q => q.category === cat && q.main === FAMILIE));
+    assert.ok(own.every(q => q.category === cat && q.main === main));
     assert.deepEqual(count(own, "topic"), emner);
     for (let t = 0; t < 50; t++) {
       const q = drawBalanced(own, 20, seeded(t));
@@ -54,12 +64,12 @@ for (const [cat, emner] of Object.entries(EMNER)) {
   });
 }
 
-test("Alle temaer og prøven (38) fordeler jevnt mellom de 9 kategoriene", () => {
+test("Alle temaer og prøven (38) fordeler jevnt mellom de 13 kategoriene", () => {
   for (let t = 0; t < 200; t++) {
     const q = drawBalanced(bank, 38, seeded(t));
     assert.equal(new Set(q.map(x => x.id)).size, 38);
     const per = Object.values(count(q, "category"));
-    assert.equal(per.length, 9);
+    assert.equal(per.length, 13);
     assert.ok(Math.max(...per) - Math.min(...per) <= 1, String(per));
   }
 });

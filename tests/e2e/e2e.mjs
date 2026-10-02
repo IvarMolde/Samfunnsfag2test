@@ -61,9 +61,9 @@ await scenario("Les her forklarer prøven og at resultatet ikke er offisielt", a
   assert.equal(await p.isVisible("#aboutDialog"), false, "klikk utenfor boksen lukker den");
 });
 
-await scenario("Banken har 720 spørsmål, 80 per undertema, og Ny i Norge har fire emner", async p => {
+await scenario("Banken har 1040 spørsmål, 80 per undertema, og Ny i Norge har fire emner", async p => {
   const c = await p.evaluate(() => { const o = {}; window.__state.bank.forEach(q => (o[q.category] = (o[q.category] || 0) + 1)); return o; });
-  assert.equal(Object.keys(c).length, 9);
+  assert.equal(Object.keys(c).length, 13);
   Object.values(c).forEach(n => assert.equal(n, 80));
   const t = await p.evaluate(() => [...new Set(window.__state.bank.filter(q => q.category === "Ny i Norge").map(q => q.topic))]);
   assert.equal(t.length, 4);
@@ -105,15 +105,33 @@ await scenario("Alle fem nye undertemaer kan velges, og Helse gir bare Helse-sp�
   assert.equal(await p.textContent("#headerScope"), "Helse");
 });
 
-await scenario("Prøvemodus og Alle temaer trekker fra alle 9 undertemaene", async p => {
+await scenario("Norge før og nå: alle fire undertemaer kan velges, og Historie gir bare Historie fra alle fem emnene", async p => {
+  await p.click("#scopeOne");
+  await p.click("#themePicker .pick:has-text('Norge før og nå')");
+  for (const name of ["Dette er Norge", "Historie", "Menneskerettigheter og demokrati", "Bærekraft"]) {
+    const btn = await p.$(`#themePicker .pick:has-text('${name}')`);
+    assert.equal(await btn.isDisabled(), false, `${name} skal kunne velges`);
+    assert.doesNotMatch(await btn.textContent(), /kommer/);
+  }
+  await p.click("#themePicker .pick:has-text('Historie')");
+  await p.click('.choice[data-count="20"]'); await p.click('.mode[data-mode="practice"]');
+  await p.click("#startBtn");
+  const r = await p.evaluate(() => window.__state.items.map(q => [q.category, q.topic, q.main]));
+  assert.equal(r.length, 20);
+  assert.ok(r.every(x => x[0] === "Historie" && x[2] === "Norge før og nå"), JSON.stringify(r));
+  assert.equal(new Set(r.map(x => x[1])).size, 5);
+  assert.equal(await p.textContent("#headerScope"), "Historie");
+});
+
+await scenario("Prøvemodus og Alle temaer trekker fra alle 13 undertemaene", async p => {
   for (const mode of ["test", "practice"]) {
     await p.goto(base); await p.waitForFunction(() => window.__state && window.__state.bank.length > 0);
     if (mode === "practice") await p.click('.choice[data-count="40"]');
     await p.click(`.mode[data-mode="${mode}"]`);
     await p.click("#startBtn");
     const per = await p.evaluate(() => { const o = {}; window.__state.items.forEach(q => (o[q.category] = (o[q.category] || 0) + 1)); return o; });
-    assert.equal(Object.keys(per).length, 9, `${mode}: ${JSON.stringify(per)}`);
-    assert.ok(per["Retten til et fritt og selvstendig liv"] >= 4);
+    assert.equal(Object.keys(per).length, 13, `${mode}: ${JSON.stringify(per)}`);
+    assert.ok(Math.max(...Object.values(per)) - Math.min(...Object.values(per)) <= 1, JSON.stringify(per));
   }
 });
 
@@ -180,7 +198,7 @@ await scenario("Prøvemodus: ingen tilbakemelding, farger eller poeng før innle
   assert.equal(await p.textContent("#correctCount"), "18");
   assert.equal(await p.textContent("#percent"), "47,4%");
   assert.match(await p.textContent("#resultTitle"), /ikke bestått/);
-  assert.equal((await p.$$(".theme-row")).length, 9);
+  assert.equal((await p.$$(".theme-row")).length, 13);
 });
 
 await scenario("Prøvemodus: gå tilbake, endre svar, fjerne svar og merke spørsmål", async p => {
