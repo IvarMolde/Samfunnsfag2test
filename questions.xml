@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <questionBank title="Samfunnskunnskap – øvingsprøver" language="nb-NO" level="A2" version="2.0">
   <metadata>
-    <description>240 spørsmål (80 per tema) med tilbakemelding. Det første svaralternativet i filen er alltid riktig; appen stokker rekkefølgen.</description>
+    <description>320 spørsmål (80 per underkategori) med tilbakemelding. Hvert spørsmål har main (hovedkategori), category (underkategori) og eventuelt topic (emne). Det første svaralternativet i filen er alltid riktig; appen stokker rekkefølgen.</description>
     <sourceNote>Basert på samfunnskunnskap.no. Ikke utprøvd på deltakere. Se docs/OVERSIKT.md.</sourceNote>
     <openers>
       <opener type="correct">Bra, du svarte riktig!</opener>
@@ -18,7 +18,7 @@
       <opener type="wrong">Dessverre, det er ikke riktig.</opener>
     </openers>
   </metadata>
-  <question id="skole-01" category="Skole og utdanning">
+  <question id="skole-01" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Hva bestemte Norge på 1700-tallet?</text>
     <options>
       <option id="A" correct="true">Alle barn skal gå på skole, og staten betaler</option>
@@ -30,7 +30,7 @@
       <wrong>Tenk på at Norge ville at alle barn skulle få lære noe, også barn fra fattige familier.</wrong>
     </feedback>
   </question>
-  <question id="skole-02" category="Skole og utdanning">
+  <question id="skole-02" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Hva lærte barna på skolen på 1700-tallet?</text>
     <options>
       <option id="A" correct="true">Kunnskap om kristendommen</option>
@@ -42,7 +42,7 @@
       <wrong>Den gangen var religion det viktigste faget i skolen.</wrong>
     </feedback>
   </question>
-  <question id="skole-03" category="Skole og utdanning">
+  <question id="skole-03" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Hvor lenge har Norge hatt skoleplikt?</text>
     <options>
       <option id="A" correct="true">I omtrent 300 år</option>
@@ -54,7 +54,7 @@
       <wrong>Skoleplikten er eldre enn 100 år. Den begynte allerede på 1700-tallet.</wrong>
     </feedback>
   </question>
-  <question id="skole-04" category="Skole og utdanning">
+  <question id="skole-04" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Hva lærer elevene når de bruker nettet på skolen?</text>
     <options>
       <option id="A" correct="true">Å finne god informasjon og bruke den</option>
@@ -66,7 +66,7 @@
       <wrong>Skolen vil at elevene bruker nettet til å lære, ikke bare til fritid.</wrong>
     </feedback>
   </question>
-  <question id="skole-05" category="Skole og utdanning">
+  <question id="skole-05" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Hvem betaler mest for barnehagen?</text>
     <options>
       <option id="A" correct="true">Kommunen</option>
@@ -78,7 +78,7 @@
       <wrong>Tenk på hvem som har ansvar for tjenester i nærmiljøet, som barnehage og skole.</wrong>
     </feedback>
   </question>
-  <question id="skole-06" category="Skole og utdanning">
+  <question id="skole-06" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Hvem har bestemt makspris for barnehage?</text>
     <options>
       <option id="A" correct="true">Stortinget</option>
@@ -90,7 +90,7 @@
       <wrong>Det er politikerne som bestemmer regler som gjelder for hele landet.</wrong>
     </feedback>
   </question>
-  <question id="skole-07" category="Skole og utdanning">
+  <question id="skole-07" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Hva kalles det når du betaler mindre fordi du har flere barn i barnehagen?</text>
     <options>
       <option id="A" correct="true">Søskenmoderasjon</option>
@@ -102,7 +102,7 @@
       <wrong>Ordet har med søsken å gjøre. Barn nummer to betaler mindre.</wrong>
     </feedback>
   </question>
-  <question id="skole-08" category="Skole og utdanning">
+  <question id="skole-08" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Hva kan familier med lite penger søke om i barnehagen?</text>
     <options>
       <option id="A" correct="true">Lavere pris eller gratis kjernetid</option>
@@ -114,7 +114,7 @@
       <wrong>Barnehagen kan hjelpe med prisen, men gir ikke gratis plass til søsken eller penger til klær.</wrong>
     </feedback>
   </question>
-  <question id="skole-09" category="Skole og utdanning">
+  <question id="skole-09" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Hva har foreldre som ikke kan norsk rett til på foreldremøte?</text>
     <options>
       <option id="A" correct="true">Å ha med seg en tolk på møtet</option>
@@ -126,7 +126,7 @@
       <wrong>Retten gjelder hjelp til å forstå møtet, ikke at møtet holdes på et annet språk.</wrong>
     </feedback>
   </question>
-  <question id="skole-10" category="Skole og utdanning">
+  <question id="skole-10" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Hvilke verdier bygger barnehagen på ifølge loven?</text>
     <options>
       <option id="A" correct="true">Kristne og humanistiske verdier</option>
@@ -138,7 +138,7 @@
       <wrong>Verdiene står i barnehageloven og gjelder for alle barnehager i landet.</wrong>
     </feedback>
   </question>
-  <question id="skole-11" category="Skole og utdanning">
+  <question id="skole-11" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Hva er viktig i barnehagen ifølge loven?</text>
     <options>
       <option id="A" correct="true">Demokrati og likestilling</option>
@@ -150,7 +150,7 @@
       <wrong>Tenk på verdier som gjør at alle får si sin mening og er like mye verdt.</wrong>
     </feedback>
   </question>
-  <question id="skole-12" category="Skole og utdanning">
+  <question id="skole-12" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Hvor mange barn mellom 1 og 5 år går i barnehage?</text>
     <options>
       <option id="A" correct="true">De aller fleste barna</option>
@@ -162,7 +162,7 @@
       <wrong>Barnehage er svært vanlig i Norge. Tenk på at nesten alle barn går der.</wrong>
     </feedback>
   </question>
-  <question id="skole-13" category="Skole og utdanning">
+  <question id="skole-13" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Hvordan jobber barnehagen sammen med foreldrene?</text>
     <options>
       <option id="A" correct="true">Den har foreldremøter og foreldresamtaler</option>
@@ -174,7 +174,7 @@
       <wrong>Barnehagen og foreldrene snakker sammen på møter og samtaler. Små barn får ikke karakterer.</wrong>
     </feedback>
   </question>
-  <question id="skole-14" category="Skole og utdanning">
+  <question id="skole-14" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Hvor mange år er grunnskolen i Norge?</text>
     <options>
       <option id="A" correct="true">10 år</option>
@@ -186,7 +186,7 @@
       <wrong>Tenk på barnetrinnet og ungdomstrinnet til sammen.</wrong>
     </feedback>
   </question>
-  <question id="skole-15" category="Skole og utdanning">
+  <question id="skole-15" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Når begynner barn på skolen i Norge?</text>
     <options>
       <option id="A" correct="true">I august det året de blir seks år</option>
@@ -198,7 +198,7 @@
       <wrong>Skolen starter etter sommerferien, og barna er seks år det året.</wrong>
     </feedback>
   </question>
-  <question id="skole-16" category="Skole og utdanning">
+  <question id="skole-16" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Hvilke trinn er barnetrinnet?</text>
     <options>
       <option id="A" correct="true">1. til 7. trinn</option>
@@ -210,7 +210,7 @@
       <wrong>Barnetrinnet er lengre enn fem eller seks år. Ungdomstrinnet er 8. til 10. trinn.</wrong>
     </feedback>
   </question>
-  <question id="skole-17" category="Skole og utdanning">
+  <question id="skole-17" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Hva får elevene på barnetrinnet i stedet for karakterer?</text>
     <options>
       <option id="A" correct="true">En vurdering, muntlig eller skriftlig</option>
@@ -222,7 +222,7 @@
       <wrong>Karakterer kommer først på ungdomstrinnet. Før det får elevene en vurdering.</wrong>
     </feedback>
   </question>
-  <question id="skole-18" category="Skole og utdanning">
+  <question id="skole-18" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Hvilke karakterer bruker ungdomstrinnet?</text>
     <options>
       <option id="A" correct="true">1 til 6, og 6 er best</option>
@@ -234,7 +234,7 @@
       <wrong>I Norge er 6 den beste karakteren i grunnskolen, og skalaen bruker tall.</wrong>
     </feedback>
   </question>
-  <question id="skole-19" category="Skole og utdanning">
+  <question id="skole-19" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Hvilke fag har elevene i grunnskolen?</text>
     <options>
       <option id="A" correct="true">Matematikk, norsk, engelsk og naturfag</option>
@@ -246,7 +246,7 @@
       <wrong>Se etter fag som alle barn har på vanlig skole.</wrong>
     </feedback>
   </question>
-  <question id="skole-20" category="Skole og utdanning">
+  <question id="skole-20" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Hva skjer med elevene etter sommerferien?</text>
     <options>
       <option id="A" correct="true">De begynner automatisk i neste klasse</option>
@@ -258,7 +258,7 @@
       <wrong>I grunnskolen trenger ikke elevene å bestå en prøve for å gå videre.</wrong>
     </feedback>
   </question>
-  <question id="skole-21" category="Skole og utdanning">
+  <question id="skole-21" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Hva sier loven om å slå barn?</text>
     <options>
       <option id="A" correct="true">Det er forbudt, både hjemme og på skolen</option>
@@ -270,7 +270,7 @@
       <wrong>Loven er lik for alle barn: Det er forbudt å slå dem, også hjemme.</wrong>
     </feedback>
   </question>
-  <question id="skole-22" category="Skole og utdanning">
+  <question id="skole-22" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Hvilke verdier bygger grunnskolen blant annet på?</text>
     <options>
       <option id="A" correct="true">Nestekjærlighet, likeverd og solidaritet</option>
@@ -282,7 +282,7 @@
       <wrong>Skolen legger vekt på at alle er like mye verdt og skal hjelpe hverandre.</wrong>
     </feedback>
   </question>
-  <question id="skole-23" category="Skole og utdanning">
+  <question id="skole-23" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Hva gjelder for læreplanene i grunnskolen?</text>
     <options>
       <option id="A" correct="true">Alle elever har den samme læreplanen</option>
@@ -294,7 +294,7 @@
       <wrong>Læreplanen er lik for hele landet. Det er ikke kommunen eller skolen som lager den.</wrong>
     </feedback>
   </question>
-  <question id="skole-24" category="Skole og utdanning">
+  <question id="skole-24" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Hva får elever som trenger ekstra hjelp?</text>
     <options>
       <option id="A" correct="true">De får hjelp, vanligvis på sin egen skole</option>
@@ -306,7 +306,7 @@
       <wrong>Barn som trenger hjelp skal få den, ofte der de allerede går.</wrong>
     </feedback>
   </question>
-  <question id="skole-25" category="Skole og utdanning">
+  <question id="skole-25" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Hva gjelder for retten til opplæring?</text>
     <options>
       <option id="A" correct="true">Alle barn har samme rett, gutter og jenter</option>
@@ -318,7 +318,7 @@
       <wrong>Retten til skole er lik for alle barn.</wrong>
     </feedback>
   </question>
-  <question id="skole-26" category="Skole og utdanning">
+  <question id="skole-26" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Har elevene skoleuniform i Norge?</text>
     <options>
       <option id="A" correct="true">Nei, elevene har ikke uniform</option>
@@ -330,7 +330,7 @@
       <wrong>Tenk på hva elever vanligvis har på seg på norske skoler.</wrong>
     </feedback>
   </question>
-  <question id="skole-27" category="Skole og utdanning">
+  <question id="skole-27" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Hvor ofte skal foreldre, elev og lærer snakke sammen om eleven?</text>
     <options>
       <option id="A" correct="true">Minst to ganger i året</option>
@@ -342,7 +342,7 @@
       <wrong>Samtalene skjer oftere enn én gang i året, og de er faste.</wrong>
     </feedback>
   </question>
-  <question id="skole-28" category="Skole og utdanning">
+  <question id="skole-28" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Hva heter samtalen mellom lærer, elev og foreldre?</text>
     <options>
       <option id="A" correct="true">Utviklingssamtale</option>
@@ -354,7 +354,7 @@
       <wrong>Samtalen handler om hvordan eleven utvikler seg. Tenk på ordet «utvikling».</wrong>
     </feedback>
   </question>
-  <question id="skole-29" category="Skole og utdanning">
+  <question id="skole-29" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Hvem har hovedansvaret for barna?</text>
     <options>
       <option id="A" correct="true">Foreldrene</option>
@@ -366,7 +366,7 @@
       <wrong>Skolen og kommunen hjelper til, men hovedansvaret ligger hos andre.</wrong>
     </feedback>
   </question>
-  <question id="skole-30" category="Skole og utdanning">
+  <question id="skole-30" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Hva bør foreldre gjøre med informasjon fra skolen?</text>
     <options>
       <option id="A" correct="true">Lese den nøye og følge med</option>
@@ -378,7 +378,7 @@
       <wrong>Informasjon fra skolen er viktig for alle foreldre. Les den, ikke bare når noe er galt.</wrong>
     </feedback>
   </question>
-  <question id="skole-31" category="Skole og utdanning">
+  <question id="skole-31" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Hva kan foreldre gjøre hvis de lurer på noe om skolen?</text>
     <options>
       <option id="A" correct="true">Kontakte læreren eller skolen</option>
@@ -390,7 +390,7 @@
       <wrong>Du trenger ikke å vente. Skolen vil gjerne at foreldre tar kontakt.</wrong>
     </feedback>
   </question>
-  <question id="skole-32" category="Skole og utdanning">
+  <question id="skole-32" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Hva betyr det at skolen skal være et godt sted for alle?</text>
     <options>
       <option id="A" correct="true">Alle elever skal ha det bra og bli respektert</option>
@@ -402,7 +402,7 @@
       <wrong>Et godt sted for alle handler om trivsel og respekt, ikke om karakterer.</wrong>
     </feedback>
   </question>
-  <question id="skole-33" category="Skole og utdanning">
+  <question id="skole-33" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Hvordan lærer elevene å være med i et demokrati?</text>
     <options>
       <option id="A" correct="true">De er med og bestemmer, som i elevrådet</option>
@@ -414,7 +414,7 @@
       <wrong>Elevene får være med og bestemme, men lærerne har fortsatt ansvar.</wrong>
     </feedback>
   </question>
-  <question id="skole-34" category="Skole og utdanning">
+  <question id="skole-34" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Hva forventer skolen av foreldre?</text>
     <options>
       <option id="A" correct="true">At de kommer på møter og samtaler</option>
@@ -426,7 +426,7 @@
       <wrong>Foreldre samarbeider med skolen, men det er læreren som underviser.</wrong>
     </feedback>
   </question>
-  <question id="skole-35" category="Skole og utdanning">
+  <question id="skole-35" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Hvorfor jobber elevene ofte i grupper?</text>
     <options>
       <option id="A" correct="true">De lærer at alle må hjelpe til</option>
@@ -438,7 +438,7 @@
       <wrong>Gruppearbeid handler om samarbeid og felles ansvar, ikke om konkurranse.</wrong>
     </feedback>
   </question>
-  <question id="skole-36" category="Skole og utdanning">
+  <question id="skole-36" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Hvem har rett til plass på videregående skole?</text>
     <options>
       <option id="A" correct="true">Elever som har fullført grunnskolen</option>
@@ -450,7 +450,7 @@
       <wrong>Retten gjelder alle som har fullført grunnskolen, ikke bare noen.</wrong>
     </feedback>
   </question>
-  <question id="skole-37" category="Skole og utdanning">
+  <question id="skole-37" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Hva får elevene etter yrkesfaglig utdanning?</text>
     <options>
       <option id="A" correct="true">Et fagbrev i et praktisk yrke</option>
@@ -462,7 +462,7 @@
       <wrong>Vitnemål og mastergrad hører til andre utdanninger. Yrkesfag gir et bevis for et praktisk yrke.</wrong>
     </feedback>
   </question>
-  <question id="skole-38" category="Skole og utdanning">
+  <question id="skole-38" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Hvilken utdanning er yrkesfaglig?</text>
     <options>
       <option id="A" correct="true">Utdanning som bilmekaniker</option>
@@ -474,7 +474,7 @@
       <wrong>Yrkesfag er praktiske yrker. Sykepleier og ingeniør tar du på høgskole eller universitet.</wrong>
     </feedback>
   </question>
-  <question id="skole-39" category="Skole og utdanning">
+  <question id="skole-39" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Når må elevene søke videregående skole?</text>
     <options>
       <option id="A" correct="true">Før 1. mars</option>
@@ -486,7 +486,7 @@
       <wrong>Fristen kommer tidlig på våren, før mai og juni.</wrong>
     </feedback>
   </question>
-  <question id="skole-40" category="Skole og utdanning">
+  <question id="skole-40" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Må studenter betale skolepenger på offentlige universiteter?</text>
     <options>
       <option id="A" correct="true">Nei, men de må kjøpe bøkene selv</option>
@@ -498,7 +498,7 @@
       <wrong>Offentlige universiteter er gratis i Norge, men studentene har noen egne utgifter.</wrong>
     </feedback>
   </question>
-  <question id="skole-41" category="Skole og utdanning">
+  <question id="skole-41" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Når må man søke om plass på universitet eller høgskole?</text>
     <options>
       <option id="A" correct="true">Før 15. april</option>
@@ -510,7 +510,7 @@
       <wrong>Fristen er om våren, tidligere enn mai og juni.</wrong>
     </feedback>
   </question>
-  <question id="skole-42" category="Skole og utdanning">
+  <question id="skole-42" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Hva kan elever og studenter få fra Lånekassen?</text>
     <options>
       <option id="A" correct="true">Penger til studiene, som lån og stipend</option>
@@ -522,7 +522,7 @@
       <wrong>Lånekassen gir penger til utdanning, ikke bolig eller lønn.</wrong>
     </feedback>
   </question>
-  <question id="skole-43" category="Skole og utdanning">
+  <question id="skole-43" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Hva er forskjellen på lån og stipend?</text>
     <options>
       <option id="A" correct="true">Lån må du betale tilbake, stipend ikke</option>
@@ -534,7 +534,7 @@
       <wrong>Husk: Et stipend er en gave, men et lån må betales tilbake.</wrong>
     </feedback>
   </question>
-  <question id="skole-44" category="Skole og utdanning">
+  <question id="skole-44" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Når betaler man vanligvis tilbake lånet fra Lånekassen?</text>
     <options>
       <option id="A" correct="true">Etter at man er ferdig å studere</option>
@@ -546,7 +546,7 @@
       <wrong>Man betaler ikke mens man studerer, og man trenger ikke vente på fast jobb.</wrong>
     </feedback>
   </question>
-  <question id="skole-45" category="Skole og utdanning">
+  <question id="skole-45" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Hvilket år startet Lånekassen?</text>
     <options>
       <option id="A" correct="true">1947</option>
@@ -558,7 +558,7 @@
       <wrong>Lånekassen er eldre enn 1957. Tenk på tiden rett etter krigen.</wrong>
     </feedback>
   </question>
-  <question id="skole-46" category="Skole og utdanning">
+  <question id="skole-46" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Hvorfor finnes Lånekassen?</text>
     <options>
       <option id="A" correct="true">Alle skal kunne ta høyere utdanning</option>
@@ -570,7 +570,7 @@
       <wrong>Hensikten er å gi alle mulighet til å studere, ikke bare de beste.</wrong>
     </feedback>
   </question>
-  <question id="skole-47" category="Skole og utdanning">
+  <question id="skole-47" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Kan voksne få penger fra Lånekassen til grunnskole og videregående?</text>
     <options>
       <option id="A" correct="true">Ja, voksne kan få stipend og lån</option>
@@ -582,7 +582,7 @@
       <wrong>Lånekassen gir støtte også til voksne som tar grunnskole eller videregående.</wrong>
     </feedback>
   </question>
-  <question id="skole-48" category="Skole og utdanning">
+  <question id="skole-48" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Hva kalles det når man lærer hele livet?</text>
     <options>
       <option id="A" correct="true">Livslang læring</option>
@@ -594,7 +594,7 @@
       <wrong>Ordet sier at man lærer gjennom hele livet. Tenk på «lang» og «læring».</wrong>
     </feedback>
   </question>
-  <question id="skole-49" category="Skole og utdanning">
+  <question id="skole-49" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Hvorfor må mange lære noe nytt i arbeidslivet?</text>
     <options>
       <option id="A" correct="true">Fordi ny teknologi endrer jobbene</option>
@@ -606,7 +606,7 @@
       <wrong>Tenk på hva som endrer seg i arbeidslivet, for eksempel datamaskiner og roboter.</wrong>
     </feedback>
   </question>
-  <question id="skole-50" category="Skole og utdanning">
+  <question id="skole-50" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Hvem har rett til forberedende opplæring for voksne (FOV)?</text>
     <options>
       <option id="A" correct="true">Voksne som ikke har fullført grunnskole</option>
@@ -618,7 +618,7 @@
       <wrong>FOV er for voksne som mangler grunnskole, ikke for dem som har jobb eller har bodd lenge i Norge.</wrong>
     </feedback>
   </question>
-  <question id="skole-51" category="Skole og utdanning">
+  <question id="skole-51" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Hvem tilbyr grunnskole for voksne?</text>
     <options>
       <option id="A" correct="true">Kommunen</option>
@@ -630,7 +630,7 @@
       <wrong>Staten og fylkeskommunen har andre oppgaver. Tenk på hvem som har ansvar for grunnskolen.</wrong>
     </feedback>
   </question>
-  <question id="skole-52" category="Skole og utdanning">
+  <question id="skole-52" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Hva må voksne (25 år eller eldre) ha for å få rett til videregående skole?</text>
     <options>
       <option id="A" correct="true">Grunnskole fra Norge eller utlandet</option>
@@ -642,7 +642,7 @@
       <wrong>Kravet handler om grunnskole, ikke om norsktest eller antall år i Norge.</wrong>
     </feedback>
   </question>
-  <question id="skole-53" category="Skole og utdanning">
+  <question id="skole-53" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Er videregående skole for voksne gratis?</text>
     <options>
       <option id="A" correct="true">Ja, på de offentlige skolene</option>
@@ -654,7 +654,7 @@
       <wrong>Offentlig utdanning er gratis i Norge, men private skoler kan koste penger.</wrong>
     </feedback>
   </question>
-  <question id="skole-54" category="Skole og utdanning">
+  <question id="skole-54" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Hvor søker du om godkjenning av utdanning fra utlandet?</text>
     <options>
       <option id="A" correct="true">HK-dir</option>
@@ -666,7 +666,7 @@
       <wrong>UDI og Lånekassen har andre oppgaver. Tenk på direktoratet for høyere utdanning.</wrong>
     </feedback>
   </question>
-  <question id="skole-55" category="Skole og utdanning">
+  <question id="skole-55" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Hvor søker helsepersonell om godkjenning (autorisasjon)?</text>
     <options>
       <option id="A" correct="true">Helsedirektoratet</option>
@@ -678,7 +678,7 @@
       <wrong>Godkjenning for helsepersonell kommer fra et direktorat for helse.</wrong>
     </feedback>
   </question>
-  <question id="skole-56" category="Skole og utdanning">
+  <question id="skole-56" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Hva er realkompetansevurdering?</text>
     <options>
       <option id="A" correct="true">En vurdering av det du kan fra jobb og skole</option>
@@ -690,7 +690,7 @@
       <wrong>Det handler om det du kan fra før, ikke om norsk eller valg av jobb.</wrong>
     </feedback>
   </question>
-  <question id="skole-57" category="Skole og utdanning">
+  <question id="skole-57" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Hvilke nivåer har norskopplæringen?</text>
     <options>
       <option id="A" correct="true">A1, A2, B1 og B2</option>
@@ -702,7 +702,7 @@
       <wrong>Nivåene kommer fra et felles europeisk system med bokstav og tall.</wrong>
     </feedback>
   </question>
-  <question id="skole-58" category="Skole og utdanning">
+  <question id="skole-58" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Hvor lenge kan du få norskopplæring hvis du har videregående skole eller høyere utdanning?</text>
     <options>
       <option id="A" correct="true">Opptil 18 måneder</option>
@@ -714,7 +714,7 @@
       <wrong>Tiden er litt lengre enn ett år, men kortere enn to år.</wrong>
     </feedback>
   </question>
-  <question id="skole-59" category="Skole og utdanning">
+  <question id="skole-59" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Hvor lenge kan du få norskopplæring hvis du ikke har videregående skole?</text>
     <options>
       <option id="A" correct="true">Opptil tre år</option>
@@ -726,7 +726,7 @@
       <wrong>Du har lengre tid enn 18 måneder, men ikke fem år.</wrong>
     </feedback>
   </question>
-  <question id="skole-60" category="Skole og utdanning">
+  <question id="skole-60" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Hvordan bestemmer man norskmålet ditt?</text>
     <options>
       <option id="A" correct="true">Etter utdanningen du har fra før</option>
@@ -738,7 +738,7 @@
       <wrong>Målet avhenger av utdanning, ikke av alder eller hvor du bor.</wrong>
     </feedback>
   </question>
-  <question id="skole-61" category="Skole og utdanning">
+  <question id="skole-61" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Hva betyr et felles språk for samfunnet?</text>
     <options>
       <option id="A" correct="true">Det skaper fellesskap mellom folk</option>
@@ -750,7 +750,7 @@
       <wrong>Språk binder mennesker sammen. Alle trenger ikke å mene det samme.</wrong>
     </feedback>
   </question>
-  <question id="skole-62" category="Skole og utdanning">
+  <question id="skole-62" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Hva er en god måte å øve norsk på hver dag?</text>
     <options>
       <option id="A" correct="true">Å snakke norsk med naboer og kolleger</option>
@@ -762,7 +762,7 @@
       <wrong>Bruk norsk i hverdagen. Du trenger ikke å vente til du kan alt.</wrong>
     </feedback>
   </question>
-  <question id="skole-63" category="Skole og utdanning">
+  <question id="skole-63" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Hvor mange år har barn rett til opplæring?</text>
     <options>
       <option id="A" correct="true">13 år</option>
@@ -774,7 +774,7 @@
       <wrong>Tenk på grunnskolen (10 år) pluss videregående (tre år).</wrong>
     </feedback>
   </question>
-  <question id="skole-64" category="Skole og utdanning">
+  <question id="skole-64" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Hva får elevene etter studieforberedende utdanning?</text>
     <options>
       <option id="A" correct="true">Vitnemål, så de kan studere videre</option>
@@ -786,7 +786,7 @@
       <wrong>Fagbrev hører til yrkesfag. Studieforberedende gir vitnemål.</wrong>
     </feedback>
   </question>
-  <question id="skole-65" category="Skole og utdanning">
+  <question id="skole-65" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Hvor lenge har du rett til plass på videregående skole?</text>
     <options>
       <option id="A" correct="true">Til du har fullført en utdanning</option>
@@ -798,7 +798,7 @@
       <wrong>Retten gjelder til du er ferdig utdannet, ikke et bestemt antall år.</wrong>
     </feedback>
   </question>
-  <question id="skole-66" category="Skole og utdanning">
+  <question id="skole-66" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Hva ble en del av skolen etter hvert, i tillegg til kristendom?</text>
     <options>
       <option id="A" correct="true">Praktiske ting, som skriving og regning</option>
@@ -810,7 +810,7 @@
       <wrong>Tenk på ferdigheter alle trenger i hverdagen, som å skrive og regne.</wrong>
     </feedback>
   </question>
-  <question id="skole-67" category="Skole og utdanning">
+  <question id="skole-67" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Hvilke verdier er viktige mellom elevene på skolen?</text>
     <options>
       <option id="A" correct="true">Respekt, omtanke og felles ansvar</option>
@@ -822,7 +822,7 @@
       <wrong>Skolen handler om å ta vare på hverandre, ikke om konkurranse eller streng disiplin.</wrong>
     </feedback>
   </question>
-  <question id="skole-68" category="Skole og utdanning">
+  <question id="skole-68" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Hva er leirskole?</text>
     <options>
       <option id="A" correct="true">Klassen bor og lærer sammen noen dager</option>
@@ -834,7 +834,7 @@
       <wrong>Leirskole er en del av skolen. Det er ikke en ferie eller en leir for lærere.</wrong>
     </feedback>
   </question>
-  <question id="skole-69" category="Skole og utdanning">
+  <question id="skole-69" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Hva bør foreldre gjøre hvis familien reiser til utlandet i skoletiden?</text>
     <options>
       <option id="A" correct="true">Snakke med skolen på forhånd</option>
@@ -846,7 +846,7 @@
       <wrong>Det beste er å si fra til skolen før dere reiser.</wrong>
     </feedback>
   </question>
-  <question id="skole-70" category="Skole og utdanning">
+  <question id="skole-70" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Hva heter 8. til 10. trinn?</text>
     <options>
       <option id="A" correct="true">Ungdomstrinnet</option>
@@ -858,7 +858,7 @@
       <wrong>Trinnet kommer etter barnetrinnet og før videregående.</wrong>
     </feedback>
   </question>
-  <question id="skole-71" category="Skole og utdanning">
+  <question id="skole-71" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Hvorfor er det bra for demokratiet at folk er godt utdannet?</text>
     <options>
       <option id="A" correct="true">De kan vurdere informasjon og velge bra</option>
@@ -870,7 +870,7 @@
       <wrong>Utdanning gir kunnskap, så folk kan tenke selv og velge godt.</wrong>
     </feedback>
   </question>
-  <question id="skole-72" category="Skole og utdanning">
+  <question id="skole-72" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Hvem har ansvar for videregående opplæring for voksne?</text>
     <options>
       <option id="A" correct="true">Fylkeskommunen</option>
@@ -882,7 +882,7 @@
       <wrong>Tenk på hvem som har ansvar for videregående skole.</wrong>
     </feedback>
   </question>
-  <question id="skole-73" category="Skole og utdanning">
+  <question id="skole-73" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Hvordan slutter norskopplæringen?</text>
     <options>
       <option id="A" correct="true">Med en norskprøve om nivået ditt</option>
@@ -894,7 +894,7 @@
       <wrong>Opplæringen avsluttes med en prøve, ikke bare en samtale eller et kursbevis.</wrong>
     </feedback>
   </question>
-  <question id="skole-74" category="Skole og utdanning">
+  <question id="skole-74" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Hva kan realkompetansevurdering føre til?</text>
     <options>
       <option id="A" correct="true">Kortere utdanning eller studieplass</option>
@@ -906,7 +906,7 @@
       <wrong>Den kan hjelpe deg i utdanning og jobb, men gir ikke skattefritak eller bolig.</wrong>
     </feedback>
   </question>
-  <question id="skole-75" category="Skole og utdanning">
+  <question id="skole-75" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Hva er HK-dir?</text>
     <options>
       <option id="A" correct="true">Direktoratet for høyere utdanning og kompetanse</option>
@@ -918,7 +918,7 @@
       <wrong>HK-dir er en statlig etat, ikke en forening eller et firma.</wrong>
     </feedback>
   </question>
-  <question id="skole-76" category="Skole og utdanning">
+  <question id="skole-76" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Hva er barnehage?</text>
     <options>
       <option id="A" correct="true">Et sted der små barn leker og lærer</option>
@@ -930,7 +930,7 @@
       <wrong>Barnehagen er for små barn, ikke for foreldre eller syke barn.</wrong>
     </feedback>
   </question>
-  <question id="skole-77" category="Skole og utdanning">
+  <question id="skole-77" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Hva lærer barna i barnehagen?</text>
     <options>
       <option id="A" correct="true">Å ta hensyn til andre og klare seg selv</option>
@@ -942,7 +942,7 @@
       <wrong>Barnehagen handler om lek og samvær, ikke om skolefag som brøk.</wrong>
     </feedback>
   </question>
-  <question id="skole-78" category="Skole og utdanning">
+  <question id="skole-78" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Hva gjelder for kroppsøving i grunnskolen?</text>
     <options>
       <option id="A" correct="true">Alle elever skal delta sammen</option>
@@ -954,7 +954,7 @@
       <wrong>Kroppsøving er et vanlig fag for alle elever.</wrong>
     </feedback>
   </question>
-  <question id="skole-79" category="Skole og utdanning">
+  <question id="skole-79" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Hvilket fag lærer elevene om samfunnet?</text>
     <options>
       <option id="A" correct="true">Samfunnsfag</option>
@@ -966,7 +966,7 @@
       <wrong>Tenk på faget som handler om mennesker, regler og samfunn.</wrong>
     </feedback>
   </question>
-  <question id="skole-80" category="Skole og utdanning">
+  <question id="skole-80" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
     <text>Hva bestemmer hvem som får plass på videregående?</text>
     <options>
       <option id="A" correct="true">Karakterene fra grunnskolen</option>
@@ -978,7 +978,7 @@
       <wrong>Plass avhenger av karakterene dine, ikke av hvem som søker først eller av foreldrenes jobb.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-01" category="Arbeidsliv">
+  <question id="arbeid-01" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hva er et mål i norsk arbeidsliv?</text>
     <options>
       <option id="A" correct="true">At flest mulig voksne har jobb</option>
@@ -990,7 +990,7 @@
       <wrong>Målet gjelder alle voksne, ikke bare én bransje, og ikke at voksne jobber 40 timer i uken.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-02" category="Arbeidsliv">
+  <question id="arbeid-02" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hvor mange av dem som jobber, jobber i offentlig sektor?</text>
     <options>
       <option id="A" correct="true">Omtrent en tredel</option>
@@ -1002,7 +1002,7 @@
       <wrong>Andelen er større enn en tidel, men mindre enn halvparten.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-03" category="Arbeidsliv">
+  <question id="arbeid-03" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hvordan kan staten hjelpe bedrifter slik at de beholder jobbene?</text>
     <options>
       <option id="A" correct="true">Gi penger til bedrifter i vanskelige tider</option>
@@ -1014,7 +1014,7 @@
       <wrong>Staten vil beholde jobber, ikke fjerne dem. Tenk på støtte i stedet for mer skatt.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-04" category="Arbeidsliv">
+  <question id="arbeid-04" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hva kan skje med jobbene når samfunnet blir mer digitalt?</text>
     <options>
       <option id="A" correct="true">Nye jobber kommer, noen forsvinner</option>
@@ -1026,7 +1026,7 @@
       <wrong>Teknologi endrer arbeidslivet. Det blir ikke likt som før.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-05" category="Arbeidsliv">
+  <question id="arbeid-05" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hvor mange arbeidstakere er med i en fagforening?</text>
     <options>
       <option id="A" correct="true">Omtrent halvparten</option>
@@ -1038,7 +1038,7 @@
       <wrong>Andelen er større enn en tidel, men mindre enn ni av ti.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-06" category="Arbeidsliv">
+  <question id="arbeid-06" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hva er fagforeningens viktigste oppgave?</text>
     <options>
       <option id="A" correct="true">Å forhandle om lønn og rettigheter</option>
@@ -1050,7 +1050,7 @@
       <wrong>Fagforeningen forhandler. Den finner ikke jobber til alle og betaler ikke lønn.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-07" category="Arbeidsliv">
+  <question id="arbeid-07" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hva kan arbeidstakerne gjøre hvis de ikke blir enige med arbeidsgiveren?</text>
     <options>
       <option id="A" correct="true">Gå ut i streik innenfor reglene</option>
@@ -1062,7 +1062,7 @@
       <wrong>Arbeidstakerne har en lovlig rett her. Den handler ikke om politi eller bot.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-08" category="Arbeidsliv">
+  <question id="arbeid-08" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hva er et verneombud?</text>
     <options>
       <option id="A" correct="true">En som passer på sikkerheten for de ansatte</option>
@@ -1074,7 +1074,7 @@
       <wrong>Verneombudet representerer de ansatte, ikke lederen.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-09" category="Arbeidsliv">
+  <question id="arbeid-09" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hva betyr medbestemmelse på jobben?</text>
     <options>
       <option id="A" correct="true">De ansatte får si sin mening og være med</option>
@@ -1086,7 +1086,7 @@
       <wrong>Medbestemmelse betyr at flere er med å bestemme, ikke bare sjefen.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-10" category="Arbeidsliv">
+  <question id="arbeid-10" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hva skjer når forhandlingene er ferdige?</text>
     <options>
       <option id="A" correct="true">De skriver en avtale som begge må følge</option>
@@ -1098,7 +1098,7 @@
       <wrong>Avtalen er bindende, og lederen kan ikke endre den alene.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-11" category="Arbeidsliv">
+  <question id="arbeid-11" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hvorfor jobber vi kortere dager i dag enn før?</text>
     <options>
       <option id="A" correct="true">Fagforeningene kjempet blant annet for dette</option>
@@ -1110,7 +1110,7 @@
       <wrong>Kortere arbeidsdager kom etter lang kamp fra arbeiderne.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-12" category="Arbeidsliv">
+  <question id="arbeid-12" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hva forhandler fagforeninger om, i tillegg til lønn?</text>
     <options>
       <option id="A" correct="true">Arbeidstid, ferie og kurs i jobben</option>
@@ -1122,7 +1122,7 @@
       <wrong>Fagforeninger forhandler om arbeidsforhold, ikke om skatt eller boligpriser.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-13" category="Arbeidsliv">
+  <question id="arbeid-13" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hvem må følge arbeidsmiljøloven?</text>
     <options>
       <option id="A" correct="true">Alle arbeidsgivere og arbeidstakere</option>
@@ -1134,7 +1134,7 @@
       <wrong>Loven gjelder alle arbeidsplasser, store og små.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-14" category="Arbeidsliv">
+  <question id="arbeid-14" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hva står i arbeidsmiljøloven?</text>
     <options>
       <option id="A" correct="true">Regler om ansettelse, arbeidstid og fravær</option>
@@ -1146,7 +1146,7 @@
       <wrong>Feriepenger og skatt har andre lover.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-15" category="Arbeidsliv">
+  <question id="arbeid-15" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hvem har hovedansvaret for arbeidsmiljøet?</text>
     <options>
       <option id="A" correct="true">Arbeidsgiveren</option>
@@ -1158,7 +1158,7 @@
       <wrong>Verneombudet og fagforeningen hjelper til, men hovedansvaret ligger hos en annen.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-16" category="Arbeidsliv">
+  <question id="arbeid-16" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hvor mye ferie har du rett til etter ferieloven?</text>
     <options>
       <option id="A" correct="true">Fire uker og én dag</option>
@@ -1170,7 +1170,7 @@
       <wrong>Tenk på fire uker pluss én dag, ikke tre eller fem uker.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-17" category="Arbeidsliv">
+  <question id="arbeid-17" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hvilke penger får du når du har ferie?</text>
     <options>
       <option id="A" correct="true">Feriepenger</option>
@@ -1182,7 +1182,7 @@
       <wrong>Sykepenger og dagpenger får du i andre situasjoner.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-18" category="Arbeidsliv">
+  <question id="arbeid-18" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hva bestemmer hvor mye feriepenger du får?</text>
     <options>
       <option id="A" correct="true">Hvor mye du tjente året før</option>
@@ -1194,7 +1194,7 @@
       <wrong>Feriepengene regnes ut fra inntekten din, ikke fra størrelsen på bedriften.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-19" category="Arbeidsliv">
+  <question id="arbeid-19" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hvem bestemmer lovene om arbeidsliv i Norge?</text>
     <options>
       <option id="A" correct="true">Politikerne på Stortinget</option>
@@ -1206,7 +1206,7 @@
       <wrong>Lovene vedtas av politikere, ikke av partene i arbeidslivet eller etatene.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-20" category="Arbeidsliv">
+  <question id="arbeid-20" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hva er forskjellen på lov og avtale i arbeidslivet?</text>
     <options>
       <option id="A" correct="true">Lover gjelder for alle, avtaler for noen bransjer</option>
@@ -1218,7 +1218,7 @@
       <wrong>Husk: Lover gjelder bredt, avtaler er mer spesielle.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-21" category="Arbeidsliv">
+  <question id="arbeid-21" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hva må arbeidstakeren gjøre etter arbeidsmiljøloven?</text>
     <options>
       <option id="A" correct="true">Hjelpe til med et godt arbeidsmiljø</option>
@@ -1230,7 +1230,7 @@
       <wrong>Arbeidstakeren er med i arbeidet, men betaler ikke for tiltakene.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-22" category="Arbeidsliv">
+  <question id="arbeid-22" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hva kjennetegner en velferdsstat?</text>
     <options>
       <option id="A" correct="true">Staten og kommunene gir tjenester til innbyggerne</option>
@@ -1242,7 +1242,7 @@
       <wrong>Velferd betyr at fellesskapet hjelper, ikke at alle betaler alt selv.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-23" category="Arbeidsliv">
+  <question id="arbeid-23" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hvilken tanke bygger det norske velferdssamfunnet på?</text>
     <options>
       <option id="A" correct="true">Likeverd – alle mennesker er like viktige</option>
@@ -1254,7 +1254,7 @@
       <wrong>Velferd handler om at alle er like mye verdt, ikke om konkurranse.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-24" category="Arbeidsliv">
+  <question id="arbeid-24" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hva er en velferdsordning i Norge?</text>
     <options>
       <option id="A" correct="true">Gratis sykehusopphold</option>
@@ -1266,7 +1266,7 @@
       <wrong>Se etter noe alle kan trenge, og som fellesskapet betaler.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-25" category="Arbeidsliv">
+  <question id="arbeid-25" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hvem bestemmer hvilke velferdsordninger Norge har?</text>
     <options>
       <option id="A" correct="true">Politikerne, gjennom lover og budsjett</option>
@@ -1278,7 +1278,7 @@
       <wrong>Det er politikerne som bestemmer, ikke de som jobber i Nav, og ikke partene i arbeidslivet.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-26" category="Arbeidsliv">
+  <question id="arbeid-26" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hva er en av Navs oppgaver?</text>
     <options>
       <option id="A" correct="true">Gi trygd og hjelp til å få jobb</option>
@@ -1290,7 +1290,7 @@
       <wrong>Lønnsforhandlinger og kontroll av arbeidsmiljø hører til andre.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-27" category="Arbeidsliv">
+  <question id="arbeid-27" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hvor finnes Nav-kontor?</text>
     <options>
       <option id="A" correct="true">I alle kommuner i landet</option>
@@ -1302,7 +1302,7 @@
       <wrong>Nav er lokalt og finnes over hele landet.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-28" category="Arbeidsliv">
+  <question id="arbeid-28" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hva må til for at velferdsstaten skal virke?</text>
     <options>
       <option id="A" correct="true">At mange jobber og betaler skatt</option>
@@ -1314,7 +1314,7 @@
       <wrong>Velferden betales av skatt fra mange, ikke bare fra bedriftene.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-29" category="Arbeidsliv">
+  <question id="arbeid-29" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hva bygger velferdsstaten i stor grad på?</text>
     <options>
       <option id="A" correct="true">Tillit mellom staten og innbyggerne</option>
@@ -1326,7 +1326,7 @@
       <wrong>Systemet bygger ikke på daglig kontroll eller betaling hver gang.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-30" category="Arbeidsliv">
+  <question id="arbeid-30" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hvilken jobb finner vi ofte i offentlig sektor?</text>
     <options>
       <option id="A" correct="true">Sykepleier på offentlig sykehus</option>
@@ -1338,7 +1338,7 @@
       <wrong>Offentlig sektor betyr jobber for stat, fylke eller kommune.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-31" category="Arbeidsliv">
+  <question id="arbeid-31" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hva er bruttolønn?</text>
     <options>
       <option id="A" correct="true">Lønn før skatten er tatt ut</option>
@@ -1350,7 +1350,7 @@
       <wrong>Brutto er det du tjener før noe er trukket fra.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-32" category="Arbeidsliv">
+  <question id="arbeid-32" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hva er en lønnsslipp?</text>
     <options>
       <option id="A" correct="true">Et dokument til deg om lønn og skattetrekk</option>
@@ -1362,7 +1362,7 @@
       <wrong>Lønnsslippen er til deg som ansatt, ikke til Skatteetaten eller sjefen.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-33" category="Arbeidsliv">
+  <question id="arbeid-33" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hvor ofte får man vanligvis lønn?</text>
     <options>
       <option id="A" correct="true">Én gang i måneden, på en fast dato</option>
@@ -1374,7 +1374,7 @@
       <wrong>I Norge er månedslønn mest vanlig.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-34" category="Arbeidsliv">
+  <question id="arbeid-34" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hva er riktig om skatt i Norge?</text>
     <options>
       <option id="A" correct="true">De som tjener mest, betaler mest</option>
@@ -1386,7 +1386,7 @@
       <wrong>Skatten stiger med lønnen. Den er ikke lik for alle.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-35" category="Arbeidsliv">
+  <question id="arbeid-35" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hvem må trekke skatt fra bruttolønnen?</text>
     <options>
       <option id="A" correct="true">Arbeidsgiveren</option>
@@ -1398,7 +1398,7 @@
       <wrong>Det er den som utbetaler lønnen som trekker skatt.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-36" category="Arbeidsliv">
+  <question id="arbeid-36" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hva bør du gjøre hvis du får ny jobb med høyere lønn?</text>
     <options>
       <option id="A" correct="true">Si fra til Skatteetaten på nett</option>
@@ -1410,7 +1410,7 @@
       <wrong>Skatt hører til Skatteetaten, ikke til Nav eller kommunen.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-37" category="Arbeidsliv">
+  <question id="arbeid-37" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Når får alle en skattemelding?</text>
     <options>
       <option id="A" correct="true">Hvert år i mars eller april</option>
@@ -1422,7 +1422,7 @@
       <wrong>Du får den én gang i året, om våren.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-38" category="Arbeidsliv">
+  <question id="arbeid-38" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hva skjer hvis du har betalt for lite skatt?</text>
     <options>
       <option id="A" correct="true">Du får en regning som du må betale</option>
@@ -1434,7 +1434,7 @@
       <wrong>Du må betale det du skylder. Lønnen din blir ikke trukket automatisk.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-39" category="Arbeidsliv">
+  <question id="arbeid-39" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hva har alle ansatte rett til?</text>
     <options>
       <option id="A" correct="true">En skriftlig arbeidsavtale</option>
@@ -1446,7 +1446,7 @@
       <wrong>Retten gjelder en avtale på papir, ikke fast jobb eller mer lønn.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-40" category="Arbeidsliv">
+  <question id="arbeid-40" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hva står i en arbeidsavtale?</text>
     <options>
       <option id="A" correct="true">Hva jobben er, lønn og arbeidstid</option>
@@ -1458,7 +1458,7 @@
       <wrong>Avtalen handler om din egen jobb, ikke om andre ansatte eller gamle karakterer.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-41" category="Arbeidsliv">
+  <question id="arbeid-41" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hva er svart arbeid?</text>
     <options>
       <option id="A" correct="true">Jobb uten kontrakt og uten å betale skatt</option>
@@ -1470,7 +1470,7 @@
       <wrong>Svart arbeid handler om kontrakt og skatt, ikke om ulovlige varer eller farlig arbeid.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-42" category="Arbeidsliv">
+  <question id="arbeid-42" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hva kan skje når du jobber svart?</text>
     <options>
       <option id="A" correct="true">Du får ikke feriepenger og dagpenger</option>
@@ -1482,7 +1482,7 @@
       <wrong>Svart arbeid gir færre rettigheter, ikke flere.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-43" category="Arbeidsliv">
+  <question id="arbeid-43" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hvilke næringer var viktigst for 150 år siden?</text>
     <options>
       <option id="A" correct="true">Jordbruk, skogbruk og fiske</option>
@@ -1494,7 +1494,7 @@
       <wrong>Dette var før industrien kom og før helsevesenet ble stort.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-44" category="Arbeidsliv">
+  <question id="arbeid-44" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hva skjedde på slutten av 1800-tallet?</text>
     <options>
       <option id="A" correct="true">Det ble bygd fabrikker, og mange flyttet til byene</option>
@@ -1506,7 +1506,7 @@
       <wrong>Folk flyttet til byene for å jobbe, ikke tilbake til gårdene.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-45" category="Arbeidsliv">
+  <question id="arbeid-45" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hvor og når fant man olje i Norge?</text>
     <options>
       <option id="A" correct="true">I Nordsjøen på slutten av 1960-tallet</option>
@@ -1518,7 +1518,7 @@
       <wrong>Funnet kom i Nordsjøen, ikke i Barentshavet eller Norskehavet.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-46" category="Arbeidsliv">
+  <question id="arbeid-46" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hvorfor lager vi mer mat enn før, selv om færre er bønder?</text>
     <options>
       <option id="A" correct="true">Fordi maskiner gjør arbeidet lettere og raskere</option>
@@ -1530,7 +1530,7 @@
       <wrong>Maskiner gjør arbeidet raskere. Bøndene jobber ikke flere timer.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-47" category="Arbeidsliv">
+  <question id="arbeid-47" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hvor finner vi flest jobber i Norge i dag?</text>
     <options>
       <option id="A" correct="true">I serviceyrker, som butikk</option>
@@ -1542,7 +1542,7 @@
       <wrong>Industri og olje er viktige, men det er flere jobber i service.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-48" category="Arbeidsliv">
+  <question id="arbeid-48" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hvilken jobb er et serviceyrke?</text>
     <options>
       <option id="A" correct="true">Bussjåfør i en by</option>
@@ -1554,7 +1554,7 @@
       <wrong>Serviceyrker hjelper folk. Bonde og fisker produserer mat.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-49" category="Arbeidsliv">
+  <question id="arbeid-49" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hvor mange av innbyggerne jobbet i jordbruk i 1950?</text>
     <options>
       <option id="A" correct="true">Mer enn 20 prosent</option>
@@ -1566,7 +1566,7 @@
       <wrong>Andelen var høy, men ikke halvparten.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-50" category="Arbeidsliv">
+  <question id="arbeid-50" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hva er en jobbsøknad?</text>
     <options>
       <option id="A" correct="true">Et brev til arbeidsgiveren om deg selv</option>
@@ -1578,7 +1578,7 @@
       <wrong>En søknad skriver du til arbeidsgiveren, ikke til kommunen eller Nav.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-51" category="Arbeidsliv">
+  <question id="arbeid-51" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hva er en CV?</text>
     <options>
       <option id="A" correct="true">Et dokument om jobbene og skolene dine</option>
@@ -1590,7 +1590,7 @@
       <wrong>CV handler om det du har gjort, ikke om hvorfor du vil ha jobben.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-52" category="Arbeidsliv">
+  <question id="arbeid-52" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hva er viktig på et jobbintervju?</text>
     <options>
       <option id="A" correct="true">Å gi et fast håndtrykk og se på dem</option>
@@ -1602,7 +1602,7 @@
       <wrong>Gode intervjuer viser interesse. Se på dem, snakk og kom i tide.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-53" category="Arbeidsliv">
+  <question id="arbeid-53" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hva er viktig i søknad og CV?</text>
     <options>
       <option id="A" correct="true">At norsken er riktig og alt stemmer</option>
@@ -1614,7 +1614,7 @@
       <wrong>Dokumentene skal være tydelige, og alt må stemme.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-54" category="Arbeidsliv">
+  <question id="arbeid-54" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hva ser en arbeidsgiver etter når hun eller han skal ansette?</text>
     <options>
       <option id="A" correct="true">Utdanning, erfaring, referanser og væremåte</option>
@@ -1626,7 +1626,7 @@
       <wrong>Alder og kjønn skal ikke avgjøre, og karakterer er ikke alt.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-55" category="Arbeidsliv">
+  <question id="arbeid-55" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hva gjelder for ledige jobber i Norge, selv om få er arbeidsledige?</text>
     <options>
       <option id="A" correct="true">Det er ofte mange som søker på jobbene</option>
@@ -1638,7 +1638,7 @@
       <wrong>Selv med få arbeidsledige er konkurransen stor. Du trenger fortsatt CV.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-56" category="Arbeidsliv">
+  <question id="arbeid-56" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hva er en referanse?</text>
     <options>
       <option id="A" correct="true">En tidligere sjef som sier hvordan du jobbet</option>
@@ -1650,7 +1650,7 @@
       <wrong>En referanse forteller om arbeidet ditt, ikke om fritiden din.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-57" category="Arbeidsliv">
+  <question id="arbeid-57" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hva er et nettverk?</text>
     <options>
       <option id="A" correct="true">Alle du kjenner, møter og har kontakt med</option>
@@ -1662,7 +1662,7 @@
       <wrong>Nettverket er mer enn naboer eller kolleger i samme yrke.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-58" category="Arbeidsliv">
+  <question id="arbeid-58" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hvilke nettsider bruker man for å lete etter jobb?</text>
     <options>
       <option id="A" correct="true">arbeidsplassen.nav.no og finn.no</option>
@@ -1674,7 +1674,7 @@
       <wrong>Se etter nettsider med jobbannonser, ikke nettsider for politikere eller skatt.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-59" category="Arbeidsliv">
+  <question id="arbeid-59" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hva kan du gjøre for å få referanser og nettverk?</text>
     <options>
       <option id="A" correct="true">Være i praksis og ta småjobber</option>
@@ -1686,7 +1686,7 @@
       <wrong>Du får nettverk ved å være blant folk, ikke bare hjemme.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-60" category="Arbeidsliv">
+  <question id="arbeid-60" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hvordan kan man lete etter jobb i Norge?</text>
     <options>
       <option id="A" correct="true">Via nettverk, nett og vikarbyrå</option>
@@ -1698,7 +1698,7 @@
       <wrong>Skatteetaten, Lånekassen og fylkeskommunen hjelper ikke med jobbsøking.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-61" category="Arbeidsliv">
+  <question id="arbeid-61" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hva skjer hvis du har betalt for mye skatt?</text>
     <options>
       <option id="A" correct="true">Du får pengene tilbake</option>
@@ -1710,7 +1710,7 @@
       <wrong>Du blir ikke straffet. Du får det du har betalt for mye, tilbake.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-62" category="Arbeidsliv">
+  <question id="arbeid-62" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hva er en grunn til at kvinner ofte tjener mindre enn menn?</text>
     <options>
       <option id="A" correct="true">Kvinner jobber oftere deltid og i yrker med lav lønn</option>
@@ -1722,7 +1722,7 @@
       <wrong>Kvinner har lov til å jobbe i alle yrker, og de kan være med i fagforening.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-63" category="Arbeidsliv">
+  <question id="arbeid-63" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hvem kan forhandle om lønn for deg?</text>
     <options>
       <option id="A" correct="true">Fagforeningen du er medlem i</option>
@@ -1734,7 +1734,7 @@
       <wrong>Skatteetaten og Arbeidstilsynet forhandler ikke om lønn.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-64" category="Arbeidsliv">
+  <question id="arbeid-64" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hva betyr HMS?</text>
     <options>
       <option id="A" correct="true">Helse, miljø og sikkerhet</option>
@@ -1746,7 +1746,7 @@
       <wrong>Tenk på tre ord som handler om å ha det trygt på jobben.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-65" category="Arbeidsliv">
+  <question id="arbeid-65" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hva er en arbeidsgiver?</text>
     <options>
       <option id="A" correct="true">Den som ansetter deg og betaler lønn</option>
@@ -1758,7 +1758,7 @@
       <wrong>Arbeidsgiveren er den du jobber for.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-66" category="Arbeidsliv">
+  <question id="arbeid-66" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hvem foreslår nye lover i Norge?</text>
     <options>
       <option id="A" correct="true">Regjeringen</option>
@@ -1770,7 +1770,7 @@
       <wrong>Forslag kommer fra dem som styrer landet, ikke fra domstolene.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-67" category="Arbeidsliv">
+  <question id="arbeid-67" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hva er sosialhjelp?</text>
     <options>
       <option id="A" correct="true">Hjelp fra Nav når du ikke har penger</option>
@@ -1782,7 +1782,7 @@
       <wrong>Sosialhjelp er ikke for alle, bare for dem som trenger det.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-68" category="Arbeidsliv">
+  <question id="arbeid-68" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hva er barnetrygd?</text>
     <options>
       <option id="A" correct="true">Penger fra staten til familier med barn</option>
@@ -1794,7 +1794,7 @@
       <wrong>Barnetrygden kommer fra staten til foreldrene, ikke fra skolen.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-69" category="Arbeidsliv">
+  <question id="arbeid-69" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hva er dagpenger?</text>
     <options>
       <option id="A" correct="true">Penger fra Nav hvis du mister jobben</option>
@@ -1806,7 +1806,7 @@
       <wrong>Dagpenger får du når du er arbeidsledig, ikke for hver dag du jobber.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-70" category="Arbeidsliv">
+  <question id="arbeid-70" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hva er pensjon?</text>
     <options>
       <option id="A" correct="true">Penger du får som gammel etter å ha jobbet</option>
@@ -1818,7 +1818,7 @@
       <wrong>Pensjon er for eldre, ikke for nye ansatte eller skolestart.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-71" category="Arbeidsliv">
+  <question id="arbeid-71" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hvem er arbeidsgiver i offentlig sektor?</text>
     <options>
       <option id="A" correct="true">Staten, fylket eller kommunen</option>
@@ -1830,7 +1830,7 @@
       <wrong>Offentlig sektor eies av fellesskapet, ikke av private.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-72" category="Arbeidsliv">
+  <question id="arbeid-72" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hva gjør et vikarbyrå?</text>
     <options>
       <option id="A" correct="true">Finner midlertidige jobber til folk</option>
@@ -1842,7 +1842,7 @@
       <wrong>Vikarbyråer formidler jobber. De gir ikke lån og kontrollerer ikke skatt.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-73" category="Arbeidsliv">
+  <question id="arbeid-73" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hvor mange jobber i Norge blir ikke lyst ut?</text>
     <options>
       <option id="A" correct="true">Mellom 60 og 80 prosent</option>
@@ -1854,7 +1854,7 @@
       <wrong>De fleste jobber lyses ikke ut, så tallet er høyt.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-74" category="Arbeidsliv">
+  <question id="arbeid-74" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hvem kan stille spørsmål på et jobbintervju?</text>
     <options>
       <option id="A" correct="true">Både arbeidsgiveren og du</option>
@@ -1866,7 +1866,7 @@
       <wrong>Intervjuet er en samtale der begge kan spørre.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-75" category="Arbeidsliv">
+  <question id="arbeid-75" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hva bør du skrive i en jobbsøknad?</text>
     <options>
       <option id="A" correct="true">Hvorfor du passer til jobben</option>
@@ -1878,7 +1878,7 @@
       <wrong>Søknaden handler om deg og jobben, ikke om ferie eller politikk.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-76" category="Arbeidsliv">
+  <question id="arbeid-76" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hva er en streik?</text>
     <options>
       <option id="A" correct="true">De ansatte stopper arbeidet for å få endring</option>
@@ -1890,7 +1890,7 @@
       <wrong>Det er de ansatte som streiker, ikke sjefen. Det er ikke ferie.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-77" category="Arbeidsliv">
+  <question id="arbeid-77" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hva er grønne jobber?</text>
     <options>
       <option id="A" correct="true">Jobber som er bra for klima og miljø</option>
@@ -1902,7 +1902,7 @@
       <wrong>Grønn jobb betyr miljøvennlig, ikke bare jobb ute i naturen.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-78" category="Arbeidsliv">
+  <question id="arbeid-78" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hva er en arbeidstaker?</text>
     <options>
       <option id="A" correct="true">En som jobber for en bedrift</option>
@@ -1914,7 +1914,7 @@
       <wrong>En arbeidstaker er den som er ansatt, ikke eier eller leder av en fagforening.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-79" category="Arbeidsliv">
+  <question id="arbeid-79" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hvem får introduksjonsstønad?</text>
     <options>
       <option id="A" correct="true">Deltakere i introduksjonsprogrammet</option>
@@ -1926,7 +1926,7 @@
       <wrong>Stønaden gis til dem som deltar i introduksjonsprogrammet.</wrong>
     </feedback>
   </question>
-  <question id="arbeid-80" category="Arbeidsliv">
+  <question id="arbeid-80" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
     <text>Hvilken næring får flere jobber i dag?</text>
     <options>
       <option id="A" correct="true">Informasjonsteknologi (IT)</option>
@@ -1938,7 +1938,7 @@
       <wrong>Fabrikker, jordbruk og skogbruk får færre jobber.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-01" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-01" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Hva er kildekritikk?</text>
     <options>
       <option id="A" correct="true">Å tenke kritisk om det du leser</option>
@@ -1950,7 +1950,7 @@
       <wrong>Kildekritikk er ikke å være uenig. Det er å vurdere om noe stemmer.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-02" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-02" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Hvorfor må vi være kritiske til informasjon på nettet?</text>
     <options>
       <option id="A" correct="true">Fordi alle kan legge ut ting på nettet</option>
@@ -1962,7 +1962,7 @@
       <wrong>Nettet er åpent for alle. Det er ikke bare staten som skriver, og ikke alt er på engelsk.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-03" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-03" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Hva bør du spørre om når du leser en tekst på nettet?</text>
     <options>
       <option id="A" correct="true">Hvem har skrevet den, og stemmer det?</option>
@@ -1974,7 +1974,7 @@
       <wrong>Se på avsenderen og fakta, ikke på hvor mange som har delt eller hvor pen siden er.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-04" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-04" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Hva er etisk bevissthet?</text>
     <options>
       <option id="A" correct="true">Å tenke på ulike hensyn når du velger</option>
@@ -1986,7 +1986,7 @@
       <wrong>Etikk er å tenke på både deg selv og andre, ikke bare på dine egne ønsker.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-05" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-05" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Hva er kritisk tenkning?</text>
     <options>
       <option id="A" correct="true">Å tenke over informasjon</option>
@@ -1998,7 +1998,7 @@
       <wrong>Kritisk tenkning er ikke å være negativ. Det er å vurdere godt.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-06" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-06" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Hva er viktig i Norge når det gjelder meninger?</text>
     <options>
       <option id="A" correct="true">At alle kan ha sin egen mening</option>
@@ -2010,7 +2010,7 @@
       <wrong>I Norge er det fint å ha egne meninger. Man må ikke være enig med læreren.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-07" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-07" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Hva må til for at vi skal lære nye ting i samfunnet?</text>
     <options>
       <option id="A" correct="true">Spørre om det vi vet, og diskutere</option>
@@ -2022,7 +2022,7 @@
       <wrong>Kunnskap utvikles når vi stiller spørsmål, ikke når vi bare gjentar.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-08" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-08" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Hva må du gjøre hvis du bruker andres tekster, bilder eller musikk?</text>
     <options>
       <option id="A" correct="true">Oppgi hvem som har laget det</option>
@@ -2034,7 +2034,7 @@
       <wrong>Du kan ikke ta andres verk og si at det er ditt eget.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-09" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-09" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Hva kan du gjøre hvis to kilder sier noe ulikt?</text>
     <options>
       <option id="A" correct="true">Se på hvem som har skrevet, og hvorfor</option>
@@ -2046,7 +2046,7 @@
       <wrong>Antall følgere og magefølelse sier lite om hva som stemmer.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-10" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-10" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Hva kalles et samfunn med mye informasjon?</text>
     <options>
       <option id="A" correct="true">Informasjonssamfunn</option>
@@ -2058,7 +2058,7 @@
       <wrong>Tenk på ordet «informasjon» i navnet.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-11" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-11" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Hva betyr ordet etikk?</text>
     <options>
       <option id="A" correct="true">Hvordan man bør oppføre seg</option>
@@ -2070,7 +2070,7 @@
       <wrong>Etikk handler om rett og galt, ikke om penger eller skolefag.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-12" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-12" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Hvilken nettside sjekker fakta i debatter?</text>
     <options>
       <option id="A" correct="true">Faktisk.no</option>
@@ -2082,7 +2082,7 @@
       <wrong>Datatilsynet og Medietilsynet har andre oppgaver. Tenk på ordet «fakta».</wrong>
     </feedback>
   </question>
-  <question id="kritisk-13" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-13" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Familien vil ha miljøvennlig bil med plass til besteforeldre. Hva må de se på?</text>
     <options>
       <option id="A" correct="true">Utslipp og hvor mye plass bilen har</option>
@@ -2094,7 +2094,7 @@
       <wrong>Se på det familien bryr seg om, ikke på farge eller merke.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-14" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-14" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Hva betyr det at avsenderen har en agenda?</text>
     <options>
       <option id="A" correct="true">Avsenderen vil oppnå noe med teksten</option>
@@ -2106,7 +2106,7 @@
       <wrong>Her betyr agenda en skjult hensikt, ikke en plan for et møte.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-15" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-15" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Hvilke av disse er sosiale medier?</text>
     <options>
       <option id="A" correct="true">TikTok, Facebook og Instagram</option>
@@ -2118,7 +2118,7 @@
       <wrong>Sosiale medier lar folk dele og snakke sammen. E-post og nettsider for jobb er noe annet.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-16" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-16" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Hva er personvern?</text>
     <options>
       <option id="A" correct="true">Retten til å bestemme over dine opplysninger</option>
@@ -2130,7 +2130,7 @@
       <wrong>Personvern handler om dine egne opplysninger, ikke om ytringsfrihet.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-17" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-17" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Hva er et eksempel på personopplysninger?</text>
     <options>
       <option id="A" correct="true">Navn, adresse og telefonnummer</option>
@@ -2142,7 +2142,7 @@
       <wrong>Personopplysninger sier noe om en person, ikke om været eller en butikk.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-18" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-18" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Hva bør du gjøre før du deler bilder av andre?</text>
     <options>
       <option id="A" correct="true">Spørre personene om lov først</option>
@@ -2154,7 +2154,7 @@
       <wrong>Det viktigste er hva de som er på bildet, vil.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-19" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-19" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Hva er forbudt å skrive på nettet?</text>
     <options>
       <option id="A" correct="true">Rasistiske og diskriminerende utsagn</option>
@@ -2166,7 +2166,7 @@
       <wrong>Du kan kritisere og ha negative meninger, men du kan ikke krenke grupper.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-20" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-20" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Hva er et tegn på god digital dømmekraft?</text>
     <options>
       <option id="A" correct="true">Å skrive det du kan si ansikt til ansikt</option>
@@ -2178,7 +2178,7 @@
       <wrong>Tenk: Ville jeg sagt dette rett til personen?</wrong>
     </feedback>
   </question>
-  <question id="kritisk-21" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-21" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Hva kan skje når man er anonym i kommentarfelt?</text>
     <options>
       <option id="A" correct="true">Mange skriver stygge eller ulovlige ting</option>
@@ -2190,7 +2190,7 @@
       <wrong>Anonymitet gjør at noen skriver verre ting, ikke bedre.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-22" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-22" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Hva er digitale spor?</text>
     <options>
       <option id="A" correct="true">Det du gjør på nettet, og som blir lagret</option>
@@ -2202,7 +2202,7 @@
       <wrong>Sporene blir værende. De forsvinner ikke etter noen timer.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-23" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-23" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Hvordan kan man vise hvem man er på nettet?</text>
     <options>
       <option id="A" correct="true">Med BankID, passord eller fingeravtrykk</option>
@@ -2214,7 +2214,7 @@
       <wrong>Fødselsdato og e-post er ikke trygge nok til å vise hvem du er.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-24" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-24" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Hva begrenser ytringsfriheten?</text>
     <options>
       <option id="A" correct="true">Personvernet og noen regler i loven</option>
@@ -2226,7 +2226,7 @@
       <wrong>Ytringsfriheten er lik i hele landet. Kommuner og flertall bestemmer ikke.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-25" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-25" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Hva betyr privatliv?</text>
     <options>
       <option id="A" correct="true">Ting som hører til deg og dine</option>
@@ -2238,7 +2238,7 @@
       <wrong>Privat betyr at det bare gjelder deg og dine, ikke jobben eller staten.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-26" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-26" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Hva kan skje hvis noen får passordet ditt?</text>
     <options>
       <option id="A" correct="true">De kan bruke kontoen din og dele bilder</option>
@@ -2250,7 +2250,7 @@
       <wrong>Tenk på hva en fremmed kan gjøre, ikke på hva som skjer av seg selv.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-27" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-27" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Noen deler et privat bilde av deg og skriver løgn om deg. Hva er dette?</text>
     <options>
       <option id="A" correct="true">Ulovlig, og du kan melde det til politiet</option>
@@ -2262,7 +2262,7 @@
       <wrong>Ytringsfriheten gir ikke rett til å dele private bilder eller skrive løgn om andre.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-28" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-28" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Hvorfor er det viktig å tenke på hva du deler på nettet?</text>
     <options>
       <option id="A" correct="true">Andre kan få vite ting om deg og bruke dem</option>
@@ -2274,7 +2274,7 @@
       <wrong>Det du deler, kan bli værende og kan sees av flere enn vennene dine.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-29" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-29" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Hva er falske nyheter?</text>
     <options>
       <option id="A" correct="true">Usann informasjon som ser ut som nyheter</option>
@@ -2286,7 +2286,7 @@
       <wrong>Falske nyheter handler om at innholdet er usant, ikke om hvor de kommer fra.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-30" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-30" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Hva bør du gjøre før du deler en overraskende nyhet?</text>
     <options>
       <option id="A" correct="true">Sjekke om pålitelige kilder skriver det samme</option>
@@ -2298,7 +2298,7 @@
       <wrong>Sjekk først. Ikke del før du vet at det stemmer.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-31" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-31" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Hva er en pålitelig kilde?</text>
     <options>
       <option id="A" correct="true">En kilde som sier hvem som står bak</option>
@@ -2310,7 +2310,7 @@
       <wrong>Mange følgere og store overskrifter sier ikke at noe er pålitelig.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-32" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-32" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Hva betyr ordet avsender?</text>
     <options>
       <option id="A" correct="true">Den som har laget informasjonen</option>
@@ -2322,7 +2322,7 @@
       <wrong>Avsender er den som sender eller lager, ikke den som leser.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-33" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-33" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Hva er klikkbait?</text>
     <options>
       <option id="A" correct="true">En overskrift som lokker deg til å klikke</option>
@@ -2334,7 +2334,7 @@
       <wrong>Klikkbait handler om overskrifter, ikke om virus eller betaling.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-34" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-34" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Hvorfor kan et bilde på nettet lure oss?</text>
     <options>
       <option id="A" correct="true">Det kan være endret eller tatt ut av sammenheng</option>
@@ -2346,7 +2346,7 @@
       <wrong>Tenk på at et bilde kan vise noe annet enn det som blir sagt.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-35" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-35" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Hva er en kilde?</text>
     <options>
       <option id="A" correct="true">Det stedet informasjonen kommer fra</option>
@@ -2358,7 +2358,7 @@
       <wrong>Kilden er opprinnelsen, ikke stedet der noe slettes, og ikke den som leser.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-36" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-36" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Hvorfor bør du lese mer enn én kilde om en sak?</text>
     <options>
       <option id="A" correct="true">Flere kilder gir et bedre bilde av saken</option>
@@ -2370,7 +2370,7 @@
       <wrong>Poenget er å få flere sider av saken, ikke å dele mer.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-37" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-37" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Hva kan du gjøre for å sjekke om et bilde er gammelt eller falskt?</text>
     <options>
       <option id="A" correct="true">Søke etter bildet med et bildesøk</option>
@@ -2382,7 +2382,7 @@
       <wrong>Fremmede og likes viser ikke om et bilde er ekte.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-38" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-38" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Hvilke av disse utsagnene er et eksempel på et faktum?</text>
     <options>
       <option id="A" correct="true">Oslo er hovedstaden i Norge</option>
@@ -2394,7 +2394,7 @@
       <wrong>Et faktum kan sjekkes. Det som er best eller vakrest, er en mening.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-39" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-39" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Hva er en mening?</text>
     <options>
       <option id="A" correct="true">Det en person mener om noe</option>
@@ -2406,7 +2406,7 @@
       <wrong>Meninger kan ikke bevises. Politikerne bestemmer dem ikke, og de står ikke i loven.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-40" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-40" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Hvorfor bør du være kritisk til reklame?</text>
     <options>
       <option id="A" correct="true">Avsenderen vil at du skal kjøpe noe</option>
@@ -2418,7 +2418,7 @@
       <wrong>Reklame har et mål: salg. Den er ikke laget av en offentlig etat.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-41" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-41" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Hva gjør journalister?</text>
     <options>
       <option id="A" correct="true">De undersøker og skriver nyheter</option>
@@ -2430,7 +2430,7 @@
       <wrong>Journalister lager ikke lover og bestemmer ikke hva folk skal mene.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-42" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-42" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Hva er et tegn på et seriøst nyhetsmedium?</text>
     <options>
       <option id="A" correct="true">Det retter feil når det får vite om dem</option>
@@ -2442,7 +2442,7 @@
       <wrong>Pålitelige medier skriver ikke bare det som gir flest klikk.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-43" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-43" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Hva er en algoritme i sosiale medier?</text>
     <options>
       <option id="A" correct="true">Regler som bestemmer hva du ser i appen</option>
@@ -2454,7 +2454,7 @@
       <wrong>Algoritmen er et dataprogram, ikke en ansatt og ikke en slettefunksjon.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-44" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-44" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Hvorfor er det lurt å lese meninger som er ulike dine egne?</text>
     <options>
       <option id="A" correct="true">Da får du bedre grunnlag for å vurdere saken</option>
@@ -2466,7 +2466,7 @@
       <wrong>Å lese andre meninger er å tenke selv, ikke å bli enig med flertallet.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-45" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-45" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Hva er ytringsfrihet?</text>
     <options>
       <option id="A" correct="true">Retten til å si og skrive det du mener</option>
@@ -2478,7 +2478,7 @@
       <wrong>Ytringsfrihet gjelder dine egne meninger, ikke å bestemme over andre.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-46" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-46" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Hvor står det at vi har ytringsfrihet i Norge?</text>
     <options>
       <option id="A" correct="true">I Grunnloven</option>
@@ -2490,7 +2490,7 @@
       <wrong>Tenk på landets viktigste lov.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-47" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-47" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Hva er hatprat?</text>
     <options>
       <option id="A" correct="true">Krenkende utsagn om en bestemt gruppe</option>
@@ -2502,7 +2502,7 @@
       <wrong>Hatprat er ikke uenighet eller høy stemme. Det er å krenke en gruppe.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-48" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-48" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Hva er diskriminering?</text>
     <options>
       <option id="A" correct="true">Å behandle noen dårligere på grunn av bakgrunn</option>
@@ -2514,7 +2514,7 @@
       <wrong>Diskriminering er urettferdig forskjellsbehandling, ikke like rettigheter.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-49" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-49" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Hva kan du gjøre hvis du ser hatefulle kommentarer på nettet?</text>
     <options>
       <option id="A" correct="true">Melde fra til nettstedet eller politiet</option>
@@ -2526,7 +2526,7 @@
       <wrong>Ikke svar med mer hat. Meld fra i stedet.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-50" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-50" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Hva er nettmobbing?</text>
     <options>
       <option id="A" correct="true">Å plage eller krenke noen igjen og igjen</option>
@@ -2538,7 +2538,7 @@
       <wrong>Nettmobbing er mer enn uenighet eller kritikk.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-51" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-51" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Hva er lurt å gjøre hvis du blir mobbet på nettet?</text>
     <options>
       <option id="A" correct="true">Ta skjermbilde og snakke med en du stoler på</option>
@@ -2550,7 +2550,7 @@
       <wrong>Ikke slett bevisene, og ikke svar med trusler.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-52" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-52" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Er det lov å true noen på nett?</text>
     <options>
       <option id="A" correct="true">Nei, trusler er forbudt, også på nett</option>
@@ -2562,7 +2562,7 @@
       <wrong>Ytringsfriheten gir ikke rett til å true, heller ikke med falskt navn.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-53" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-53" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Hva er sensur?</text>
     <options>
       <option id="A" correct="true">At noen forbyr eller stopper en ytring</option>
@@ -2574,7 +2574,7 @@
       <wrong>Sensur handler om å stoppe det folk vil si.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-54" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-54" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Kan man kritisere regjeringen i Norge?</text>
     <options>
       <option id="A" correct="true">Ja, det er en viktig del av demokratiet</option>
@@ -2586,7 +2586,7 @@
       <wrong>Kritikk av dem som styrer er lov og viktig. Du trenger ikke tillatelse.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-55" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-55" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Hva er et personnummer?</text>
     <options>
       <option id="A" correct="true">Et nummer med 11 siffer som er ditt</option>
@@ -2598,7 +2598,7 @@
       <wrong>Personnummeret identifiserer deg. Det sier ikke noe om lønn eller bolig.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-56" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-56" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Hvem bør få vite personnummeret ditt?</text>
     <options>
       <option id="A" correct="true">De som trenger det, som banken og Nav</option>
@@ -2610,7 +2610,7 @@
       <wrong>Personnummeret er sensitivt. Ikke gi det til alle.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-57" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-57" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Hva er Datatilsynet?</text>
     <options>
       <option id="A" correct="true">En myndighet som passer på personvernet</option>
@@ -2622,7 +2622,7 @@
       <wrong>Skatt og pass hører til andre etater.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-58" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-58" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Hva er et eksempel på et sterkt passord?</text>
     <options>
       <option id="A" correct="true">Et langt passord med tall og tegn</option>
@@ -2634,7 +2634,7 @@
       <wrong>Navn og enkle ord er lette å gjette.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-59" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-59" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Hva bør du gjøre med passordene dine?</text>
     <options>
       <option id="A" correct="true">Bruke ulike passord på ulike nettsteder</option>
@@ -2646,7 +2646,7 @@
       <wrong>Samme passord overalt og deling med andre gjør det lettere for svindlere.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-60" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-60" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Hva gjør en kode på mobilen når du logger inn?</text>
     <options>
       <option id="A" correct="true">Den gjør kontoen din tryggere</option>
@@ -2658,7 +2658,7 @@
       <wrong>Koden er for sikkerhet. Den gjør ikke nettet raskere og sletter ingenting.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-61" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-61" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Hva er en cookie på en nettside?</text>
     <options>
       <option id="A" correct="true">En liten fil som husker hva du gjør</option>
@@ -2670,7 +2670,7 @@
       <wrong>Cookies er små filer. De er ikke virus og ikke en avgift.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-62" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-62" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Hvorfor vil noen firmaer ha opplysninger om deg?</text>
     <options>
       <option id="A" correct="true">De kan bruke dem til å vise deg reklame</option>
@@ -2682,7 +2682,7 @@
       <wrong>Firmaer vil tjene penger. De vil ikke hjelpe deg eller sende opplysningene til skolen.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-63" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-63" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Hva bør du gjøre med personverninnstillingene i sosiale medier?</text>
     <options>
       <option id="A" correct="true">Sjekke hvem som kan se innleggene dine</option>
@@ -2694,7 +2694,7 @@
       <wrong>Du bestemmer selv hvem som ser innleggene dine. Se i innstillingene.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-64" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-64" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Hva bør du gjøre før du gir fra deg opplysninger på et nettsted?</text>
     <options>
       <option id="A" correct="true">Sjekke hvem som får dem og hvorfor</option>
@@ -2706,7 +2706,7 @@
       <wrong>Les gjerne vilkårene før du gir fra deg noe.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-65" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-65" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Hva er nettfiske (phishing)?</text>
     <options>
       <option id="A" correct="true">Svindel der noen later som de er andre</option>
@@ -2718,7 +2718,7 @@
       <wrong>Phishing er svindel. Det er ikke et søkeverktøy eller et program.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-66" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-66" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>En SMS ber deg betale for en stoppet pakke via en lenke. Hva er lurt?</text>
     <options>
       <option id="A" correct="true">Ikke klikke, men sjekke med postselskapet</option>
@@ -2730,7 +2730,7 @@
       <wrong>Meldinger om pakker kan være svindel. Ikke trykk på lenken.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-67" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-67" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Noen ringer fra «banken» og vil ha BankID-koden din. Hva bør du gjøre?</text>
     <options>
       <option id="A" correct="true">Avslutte samtalen og ikke si koden</option>
@@ -2742,7 +2742,7 @@
       <wrong>Banken ber aldri om BankID-koden din på telefon.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-68" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-68" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Hva er et tegn på at en e-post kan være svindel?</text>
     <options>
       <option id="A" correct="true">Den har mange skrivefeil og haster med svar</option>
@@ -2754,7 +2754,7 @@
       <wrong>Meldinger fra folk du kjenner er ofte trygge. Svindlere vil at du skal skynde deg.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-69" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-69" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Hvorfor er det risikabelt å bruke åpent wifi til nettbank?</text>
     <options>
       <option id="A" correct="true">Andre kan se hva du gjør på nettet</option>
@@ -2766,7 +2766,7 @@
       <wrong>Åpent wifi er ikke ulovlig, men det er usikkert.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-70" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-70" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Hvorfor er det lurt å oppdatere telefonen jevnlig?</text>
     <options>
       <option id="A" correct="true">Oppdateringer retter sikkerhetsfeil i telefonen</option>
@@ -2778,7 +2778,7 @@
       <wrong>Oppdateringer gjør telefonen tryggere. De gjør den ikke billigere, og de sletter ikke bilder.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-71" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-71" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Hva er et virus på datamaskinen?</text>
     <options>
       <option id="A" correct="true">Et skadelig program på datamaskinen</option>
@@ -2790,7 +2790,7 @@
       <wrong>Et virus gjør skade. Det gjør ikke maskinen raskere.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-72" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-72" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Hvorfor bør du logge ut av nettbanken når du er ferdig?</text>
     <options>
       <option id="A" correct="true">Så ingen andre kommer inn på kontoen</option>
@@ -2802,7 +2802,7 @@
       <wrong>Hensikten er sikkerhet, ikke fart eller penger til banken.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-73" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-73" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Hva er BankID?</text>
     <options>
       <option id="A" correct="true">En elektronisk ID for trygg innlogging</option>
@@ -2814,7 +2814,7 @@
       <wrong>BankID er ikke et kort for butikken og ikke et nummer fra politiet.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-74" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-74" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Hvor melder du fra om svindel på nett?</text>
     <options>
       <option id="A" correct="true">Til politiet og til banken din</option>
@@ -2826,7 +2826,7 @@
       <wrong>Svindel melder du til politiet og banken, ikke til Skatteetaten eller kommunen.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-75" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-75" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Hva er et etisk dilemma?</text>
     <options>
       <option id="A" correct="true">Et valg mellom to ting som begge er viktige</option>
@@ -2838,7 +2838,7 @@
       <wrong>Et dilemma er vanskelig. Det finnes ikke alltid et klart svar.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-76" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-76" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Du finner en lommebok med penger på gaten. Hva er riktig å gjøre?</text>
     <options>
       <option id="A" correct="true">Levere den til politiet eller eieren</option>
@@ -2850,7 +2850,7 @@
       <wrong>Pengene tilhører eieren. Tenk på å gjøre det som er riktig.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-77" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-77" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Hva er et tegn på kritisk tenkning?</text>
     <options>
       <option id="A" correct="true">Å endre mening når man får bedre fakta</option>
@@ -2862,7 +2862,7 @@
       <wrong>Kritisk tenkning er åpen, ikke stiv, men heller ikke tilfeldig.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-78" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-78" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Hva er god debattkultur?</text>
     <options>
       <option id="A" correct="true">Å diskutere saken, ikke personen</option>
@@ -2874,7 +2874,7 @@
       <wrong>Alle skal få snakke ferdig. Ikke avbryt og ikke rop.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-79" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-79" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Hva er opphavsrett?</text>
     <options>
       <option id="A" correct="true">Retten til å bestemme over eget verk</option>
@@ -2886,7 +2886,7 @@
       <wrong>Opphavsrett beskytter den som har laget noe.</wrong>
     </feedback>
   </question>
-  <question id="kritisk-80" category="Kritisk tenkning og digital dømmekraft">
+  <question id="kritisk-80" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Hva er en deepfake?</text>
     <options>
       <option id="A" correct="true">En falsk video eller et bilde laget med KI</option>
@@ -2896,6 +2896,966 @@
     <feedback>
       <correct>En deepfake er en falsk video eller et bilde laget med KI.</correct>
       <wrong>Deepfake handler om falske bilder og videoer, ikke om ulovlige kopier.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-01" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Et liv i Norge">
+    <text>Omtrent hvor mange barn blir født i Norge hvert år?</text>
+    <options>
+      <option id="A" correct="true">Omtrent 50 000 barn</option>
+      <option id="B" correct="false">Omtrent 5 000 barn</option>
+      <option id="C" correct="false">Omtrent 500 000 barn</option>
+    </options>
+    <feedback>
+      <correct>Riktig. Det blir født omtrent 50 000 barn i Norge hvert år.</correct>
+      <wrong>Norge har 5–6 millioner innbyggere. Da blir det født omtrent 50 000 barn hvert år.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-02" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Et liv i Norge">
+    <text>Hvor mange barn får en kvinne i Norge i gjennomsnitt?</text>
+    <options>
+      <option id="A" correct="true">Omtrent 1,4 barn</option>
+      <option id="B" correct="false">Omtrent 3 barn</option>
+      <option id="C" correct="false">Omtrent 5 barn</option>
+    </options>
+    <feedback>
+      <correct>Riktig. En kvinne i Norge får i gjennomsnitt omtrent 1,4 barn.</correct>
+      <wrong>Det er færre barn i hver familie enn mange tror. Gjennomsnittet er omtrent 1,4 barn.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-03" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Et liv i Norge">
+    <text>Hvor gammel er en kvinne i Norge når hun får første barn?</text>
+    <options>
+      <option id="A" correct="true">Omtrent 30 år gammel</option>
+      <option id="B" correct="false">Omtrent 20 år gammel</option>
+      <option id="C" correct="false">Omtrent 40 år gammel</option>
+    </options>
+    <feedback>
+      <correct>Riktig. Kvinner i Norge får første barn når de er omtrent 30 år.</correct>
+      <wrong>Mange tar utdanning og jobber først. Da blir kvinnen omtrent 30 år når hun får første barn.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-04" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Et liv i Norge">
+    <text>Hva sier norsk lov om omskjæring av jenter?</text>
+    <options>
+      <option id="A" correct="true">Det er forbudt, og straffen kan være opptil 15 år i fengsel</option>
+      <option id="B" correct="false">Det er lov hvis foreldrene ønsker det og legen er enig</option>
+      <option id="C" correct="false">Det er lov hvis jenta er over ti år gammel</option>
+    </options>
+    <feedback>
+      <correct>Riktig. Omskjæring av jenter er forbudt i Norge. Straffen kan være opptil 15 år i fengsel.</correct>
+      <wrong>Omskjæring av jenter er forbudt i Norge, også når foreldrene ønsker det.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-05" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Et liv i Norge">
+    <text>Hva er en barnehage?</text>
+    <options>
+      <option id="A" correct="true">Et sted for små barn mens foreldrene er på jobb eller skole</option>
+      <option id="B" correct="false">Et sted der barn lærer å lese og skrive før de begynner på skolen</option>
+      <option id="C" correct="false">Et sted der barn bor når foreldrene er syke</option>
+    </options>
+    <feedback>
+      <correct>Riktig. I barnehagen er små barn mens foreldrene jobber eller studerer.</correct>
+      <wrong>Barna lærer å lese og skrive på skolen. I barnehagen leker og lærer de gjennom dagen.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-06" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Et liv i Norge">
+    <text>Hva betyr ordet «egenandel»?</text>
+    <options>
+      <option id="A" correct="true">En del av prisen som du betaler selv</option>
+      <option id="B" correct="false">Penger som du får fra staten</option>
+      <option id="C" correct="false">Penger som du låner av banken</option>
+    </options>
+    <feedback>
+      <correct>Riktig. En egenandel er den delen av prisen som du betaler selv.</correct>
+      <wrong>En egenandel er ikke en støtte eller et lån. Det er prisen du betaler selv.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-07" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Et liv i Norge">
+    <text>Hva betaler foreldre for en plass i barnehagen?</text>
+    <options>
+      <option id="A" correct="true">En egenandel hver måned</option>
+      <option id="B" correct="false">Foreldrene betaler full pris selv</option>
+      <option id="C" correct="false">Barnehagen er gratis for foreldrene</option>
+    </options>
+    <feedback>
+      <correct>Riktig. Foreldre betaler en egenandel. Staten og kommunen betaler resten.</correct>
+      <wrong>Foreldre betaler en del av prisen. Barnehagen er ikke gratis, og foreldrene betaler ikke hele prisen.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-08" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Et liv i Norge">
+    <text>Hvem kan få kontantstøtte?</text>
+    <options>
+      <option id="A" correct="true">Foreldre med små barn som ikke har barnehageplass</option>
+      <option id="B" correct="false">Foreldre som har barn på ungdomsskolen og videregående</option>
+      <option id="C" correct="false">Foreldre som tar utdanning i utlandet</option>
+    </options>
+    <feedback>
+      <correct>Riktig. Kontantstøtte er penger til foreldre som ikke bruker barnehage.</correct>
+      <wrong>Kontantstøtte er til foreldre med små barn. Barna går ikke i barnehage.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-09" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Et liv i Norge">
+    <text>Hva er foreldrepenger?</text>
+    <options>
+      <option id="A" correct="true">Penger fra Nav når foreldre er hjemme med et nytt barn</option>
+      <option id="B" correct="false">Penger fra barnehagen når barnet begynner</option>
+      <option id="C" correct="false">Penger fra skolen når barnet er syk</option>
+    </options>
+    <feedback>
+      <correct>Riktig. Foreldrepenger er penger fra Nav. Du får dem når du er hjemme med et nytt barn.</correct>
+      <wrong>Det er Nav som betaler foreldrepenger, ikke barnehagen eller skolen.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-10" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Et liv i Norge">
+    <text>Hvem betaler barnetrygd til foreldrene?</text>
+    <options>
+      <option id="A" correct="true">Staten</option>
+      <option id="B" correct="false">Arbeidsgiveren</option>
+      <option id="C" correct="false">Barnehagen</option>
+    </options>
+    <feedback>
+      <correct>Riktig. Staten betaler barnetrygd til foreldrene.</correct>
+      <wrong>Barnetrygd kommer fra staten, ikke fra arbeidsgiveren eller barnehagen.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-11" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Et liv i Norge">
+    <text>Hvor lenge får foreldre barnetrygd for et barn?</text>
+    <options>
+      <option id="A" correct="true">Til barnet er 18 år</option>
+      <option id="B" correct="false">Til barnet er 12 år</option>
+      <option id="C" correct="false">Til barnet begynner på skole</option>
+    </options>
+    <feedback>
+      <correct>Riktig. Foreldre får barnetrygd til barnet fyller 18 år.</correct>
+      <wrong>Barnetrygden varer lenger enn til skolestart. Den slutter når barnet er 18 år.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-12" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Et liv i Norge">
+    <text>Hvor mye barnetrygd får et barn i en rik familie?</text>
+    <options>
+      <option id="A" correct="true">Like mye som et barn i en fattig familie</option>
+      <option id="B" correct="false">Mer enn et barn i en fattig familie</option>
+      <option id="C" correct="false">Mindre enn et barn i en fattig familie</option>
+    </options>
+    <feedback>
+      <correct>Riktig. Barnetrygden er lik for alle barn. Familiens penger spiller ingen rolle.</correct>
+      <wrong>Barnetrygden er den samme for rike og fattige familier. Inntekten har ikke noe å si.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-13" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Et liv i Norge">
+    <text>Hvor mange år varer grunnskolen i Norge?</text>
+    <options>
+      <option id="A" correct="true">Ti år</option>
+      <option id="B" correct="false">Syv år</option>
+      <option id="C" correct="false">Tretten år</option>
+    </options>
+    <feedback>
+      <correct>Riktig. Grunnskolen har ti år, fra 1. til 10. klasse.</correct>
+      <wrong>Grunnskolen er barneskole og ungdomsskole sammen. Det blir til sammen ti år.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-14" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Et liv i Norge">
+    <text>Hvilke klasser er barneskolen?</text>
+    <options>
+      <option id="A" correct="true">1. til 7. klasse</option>
+      <option id="B" correct="false">1. til 4. klasse</option>
+      <option id="C" correct="false">5. til 10. klasse</option>
+    </options>
+    <feedback>
+      <correct>Riktig. Barneskolen er fra 1. til 7. klasse.</correct>
+      <wrong>Barneskolen varer lenger enn fire år. Etter 7. klasse begynner barna på ungdomsskolen.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-15" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Et liv i Norge">
+    <text>Hvor gamle er elever på ungdomsskolen?</text>
+    <options>
+      <option id="A" correct="true">Omtrent 13 til 16 år</option>
+      <option id="B" correct="false">Omtrent 7 til 10 år</option>
+      <option id="C" correct="false">Omtrent 16 til 19 år</option>
+    </options>
+    <feedback>
+      <correct>Riktig. Elever på ungdomsskolen er omtrent 13 til 16 år gamle.</correct>
+      <wrong>Ungdomsskolen er 8. til 10. klasse. Elevene er da omtrent 13 til 16 år.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-16" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Et liv i Norge">
+    <text>Fra hvilken alder må barn gå på skole i Norge?</text>
+    <options>
+      <option id="A" correct="true">Fra de er seks år, i 1. klasse</option>
+      <option id="B" correct="false">Fra de er tre år, som i barnehagen</option>
+      <option id="C" correct="false">Fra de er ti år, i 5. klasse</option>
+    </options>
+    <feedback>
+      <correct>Riktig. Barn må gå på skole fra de er seks år. Skolen varer til de er 16 år.</correct>
+      <wrong>Barn begynner på skolen når de er seks år, ikke før og ikke etter.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-17" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Et liv i Norge">
+    <text>Hva koster det å gå på offentlig grunnskole?</text>
+    <options>
+      <option id="A" correct="true">Ingenting, skolen er gratis</option>
+      <option id="B" correct="false">En liten pris hver måned</option>
+      <option id="C" correct="false">Halv pris for lav inntekt</option>
+    </options>
+    <feedback>
+      <correct>Riktig. Offentlig grunnskole er gratis i Norge.</correct>
+      <wrong>Foreldre betaler ikke skolepenger i offentlig grunnskole. Skolen er gratis.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-18" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Et liv i Norge">
+    <text>Hva er SFO?</text>
+    <options>
+      <option id="A" correct="true">Et tilbud for barn på skolen før og etter skoletid</option>
+      <option id="B" correct="false">Et fag på barneskolen der barna lærer om sport og friluftsliv</option>
+      <option id="C" correct="false">En skole for barn som trenger ekstra hjelp</option>
+    </options>
+    <feedback>
+      <correct>Riktig. SFO betyr skolefritidsordning. Barna er der før og etter skoletid.</correct>
+      <wrong>SFO er ikke et fag eller en egen skole. Det er et tilbud ved siden av skoledagen.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-19" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Et liv i Norge">
+    <text>Omtrent hvor mange barn i 1. til 4. klasse går på SFO?</text>
+    <options>
+      <option id="A" correct="true">Omtrent åtte av ti barn</option>
+      <option id="B" correct="false">Omtrent to av ti barn</option>
+      <option id="C" correct="false">Omtrent én av ti barn</option>
+    </options>
+    <feedback>
+      <correct>Riktig. Omtrent åtte av ti barn i 1. til 4. klasse går på SFO.</correct>
+      <wrong>SFO er et vanlig tilbud. De fleste barn på de laveste trinnene bruker det.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-20" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Et liv i Norge">
+    <text>Hvor mange fullfører videregående skole i Norge?</text>
+    <options>
+      <option id="A" correct="true">Nesten åtte av ti elever</option>
+      <option id="B" correct="false">Omtrent fire av ti elever</option>
+      <option id="C" correct="false">Omtrent seks av ti elever</option>
+    </options>
+    <feedback>
+      <correct>Riktig. Nesten åtte av ti elever fullfører videregående skole.</correct>
+      <wrong>Det er flere enn seks av ti. Nesten åtte av ti elever fullfører.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-21" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Et liv i Norge">
+    <text>Hvor mange elever velger yrkesfag på videregående?</text>
+    <options>
+      <option id="A" correct="true">Omtrent halvparten</option>
+      <option id="B" correct="false">Omtrent én av ti elever</option>
+      <option id="C" correct="false">Omtrent ni av ti elever</option>
+    </options>
+    <feedback>
+      <correct>Riktig. Omtrent halvparten velger yrkesfag, og halvparten velger studiespesialisering.</correct>
+      <wrong>Yrkesfag er et vanlig valg. Omtrent halvparten av elevene velger det.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-22" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Et liv i Norge">
+    <text>Hva gir studiespesialisering deg?</text>
+    <options>
+      <option id="A" correct="true">Rett til å søke på universitet og høgskole</option>
+      <option id="B" correct="false">Rett til å få fagbrev som lærling</option>
+      <option id="C" correct="false">Rett til å starte i 1. klasse på SFO</option>
+    </options>
+    <feedback>
+      <correct>Riktig. Studiespesialisering gir studiekompetanse. Da kan du søke på universitet og høgskole.</correct>
+      <wrong>Fagbrev får du på yrkesfag. Studiespesialisering gir rett til å søke studier.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-23" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Et liv i Norge">
+    <text>Hva kan du få etter yrkesfag og læretid?</text>
+    <options>
+      <option id="A" correct="true">Fagbrev</option>
+      <option id="B" correct="false">Bachelorgrad</option>
+      <option id="C" correct="false">Studielån</option>
+    </options>
+    <feedback>
+      <correct>Riktig. Etter yrkesfag og læretid kan du ta fagprøve og få fagbrev.</correct>
+      <wrong>En bachelorgrad tar du på universitet. Etter læretid får du fagbrev.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-24" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Et liv i Norge">
+    <text>Hva er en lærling?</text>
+    <options>
+      <option id="A" correct="true">En person som lærer et yrke på en arbeidsplass</option>
+      <option id="B" correct="false">En elev som tar ekstra fag på ungdomsskolen i helgene</option>
+      <option id="C" correct="false">En student som tar bachelor på universitetet</option>
+    </options>
+    <feedback>
+      <correct>Riktig. En lærling lærer et yrke på en arbeidsplass og har betalt arbeid.</correct>
+      <wrong>En lærling er ikke student. Lærlingen arbeider og lærer et yrke på en arbeidsplass.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-25" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Et liv i Norge">
+    <text>Hva er en bachelorgrad?</text>
+    <options>
+      <option id="A" correct="true">En utdanning på universitetet som tar omtrent tre år</option>
+      <option id="B" correct="false">En utdanning på videregående som tar to år</option>
+      <option id="C" correct="false">En utdanning for lærlinger som tar fire år</option>
+    </options>
+    <feedback>
+      <correct>Riktig. En bachelorgrad tar omtrent tre år på universitet eller høgskole.</correct>
+      <wrong>Bachelor tar du på universitet eller høgskole, ikke på videregående skole.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-26" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Et liv i Norge">
+    <text>Hva er et stipend?</text>
+    <options>
+      <option id="A" correct="true">Penger til studenter som de ikke må betale tilbake</option>
+      <option id="B" correct="false">Penger til studenter som de må betale tilbake senere</option>
+      <option id="C" correct="false">Penger til lærlinger fra arbeidsgiveren</option>
+    </options>
+    <feedback>
+      <correct>Riktig. Et stipend er penger som du ikke må betale tilbake.</correct>
+      <wrong>Penger som du må betale tilbake kalles lån. Et stipend er en gave.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-27" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Et liv i Norge">
+    <text>Hvem gir studielån i Norge?</text>
+    <options>
+      <option id="A" correct="true">Lånekassen</option>
+      <option id="B" correct="false">Nav</option>
+      <option id="C" correct="false">Skatteetaten</option>
+    </options>
+    <feedback>
+      <correct>Riktig. Lånekassen gir lån og stipend til studenter.</correct>
+      <wrong>Nav og Skatteetaten har andre oppgaver. Lånekassen gir studielån.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-28" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Et liv i Norge">
+    <text>Hvor mye studiegjeld har mange studenter etter studiene?</text>
+    <options>
+      <option id="A" correct="true">Over 300 000 kroner</option>
+      <option id="B" correct="false">Under 30 000 kroner</option>
+      <option id="C" correct="false">Omtrent 3 000 kroner</option>
+    </options>
+    <feedback>
+      <correct>Riktig. Mange studenter har over 300 000 kroner i studiegjeld.</correct>
+      <wrong>Studielån er mye penger. Mange har over 300 000 kroner i gjeld etter studiene.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-29" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Et liv i Norge">
+    <text>Hva betyr det å være myndig?</text>
+    <options>
+      <option id="A" correct="true">Du bestemmer selv over livet og pengene dine</option>
+      <option id="B" correct="false">Du må begynne å jobbe full tid</option>
+      <option id="C" correct="false">Du må bo hjemme hos foreldrene</option>
+    </options>
+    <feedback>
+      <correct>Riktig. Når du er myndig, bestemmer du selv over livet og pengene dine.</correct>
+      <wrong>Myndig betyr at du er voksen etter loven. Da bestemmer du selv.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-30" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Et liv i Norge">
+    <text>Når blir en person myndig i Norge?</text>
+    <options>
+      <option id="A" correct="true">Når personen er 18 år</option>
+      <option id="B" correct="false">Når personen er 16 år</option>
+      <option id="C" correct="false">Når personen er 21 år</option>
+    </options>
+    <feedback>
+      <correct>Riktig. Myndighetsalderen i Norge er 18 år.</correct>
+      <wrong>Du er myndig når du fyller 18 år, ikke før og ikke senere.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-31" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Et liv i Norge">
+    <text>Hvem har ansvar for barn under 18 år?</text>
+    <options>
+      <option id="A" correct="true">Foreldrene</option>
+      <option id="B" correct="false">Barna selv</option>
+      <option id="C" correct="false">Skolen</option>
+    </options>
+    <feedback>
+      <correct>Riktig. Foreldrene har ansvar for barn under 18 år.</correct>
+      <wrong>Barn under 18 år er ikke myndige. Foreldrene har ansvaret, ikke skolen.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-32" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Et liv i Norge">
+    <text>Hvor gamle er mange nordmenn når de gifter seg?</text>
+    <options>
+      <option id="A" correct="true">Mellom 30 og 40 år gamle</option>
+      <option id="B" correct="false">Mellom 18 og 20 år gamle</option>
+      <option id="C" correct="false">Mellom 50 og 60 år gamle</option>
+    </options>
+    <feedback>
+      <correct>Riktig. Mange gifter seg når de er mellom 30 og 40 år gamle.</correct>
+      <wrong>I Norge gifter folk seg ofte sent. Mange er mellom 30 og 40 år.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-33" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Et liv i Norge">
+    <text>Hva betyr det å være samboer?</text>
+    <options>
+      <option id="A" correct="true">Å bo sammen som par uten å være gift</option>
+      <option id="B" correct="false">Å bo sammen med foreldrene som voksen</option>
+      <option id="C" correct="false">Å bo sammen med en venn for å spare penger</option>
+    </options>
+    <feedback>
+      <correct>Riktig. Samboere er et par som bor sammen uten å være gift.</correct>
+      <wrong>Samboere er et par. De bor sammen, men er ikke gift.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-34" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Et liv i Norge">
+    <text>Hva er skilsmisse?</text>
+    <options>
+      <option id="A" correct="true">Når et gift par avslutter ekteskapet</option>
+      <option id="B" correct="false">Når et par flytter sammen uten å gifte seg</option>
+      <option id="C" correct="false">Når et par får et barn og blir foreldre</option>
+    </options>
+    <feedback>
+      <correct>Riktig. Ved skilsmisse avslutter et gift par ekteskapet sitt.</correct>
+      <wrong>Skilsmisse handler om å avslutte et ekteskap. Det gjelder ikke samboere som flytter.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-35" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Et liv i Norge">
+    <text>Hva betyr likestilling?</text>
+    <options>
+      <option id="A" correct="true">Kvinner og menn har samme rettigheter og muligheter</option>
+      <option id="B" correct="false">Kvinner og menn må gjøre det samme arbeidet</option>
+      <option id="C" correct="false">Kvinner og menn må være like gamle</option>
+    </options>
+    <feedback>
+      <correct>Riktig. Likestilling betyr at kvinner og menn har samme rettigheter og muligheter.</correct>
+      <wrong>Likestilling betyr ikke samme arbeid. Det betyr samme rettigheter og muligheter.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-36" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Et liv i Norge">
+    <text>Hva er et boliglån?</text>
+    <options>
+      <option id="A" correct="true">Penger fra banken som du bruker til å kjøpe bolig</option>
+      <option id="B" correct="false">Penger fra staten som du får når du flytter</option>
+      <option id="C" correct="false">Penger som du betaler til utleier hver måned</option>
+    </options>
+    <feedback>
+      <correct>Riktig. Et boliglån er penger du låner i banken for å kjøpe bolig.</correct>
+      <wrong>Penger til utleier kalles husleie. Et boliglån får du fra en bank.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-37" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Et liv i Norge">
+    <text>Hvor mye gjeld tar mange med seg når de kjøper bolig?</text>
+    <options>
+      <option id="A" correct="true">Over to millioner kroner</option>
+      <option id="B" correct="false">Omtrent 200 000 kroner til hver bolig</option>
+      <option id="C" correct="false">Omtrent 20 000 kroner til hver bolig</option>
+    </options>
+    <feedback>
+      <correct>Riktig. Boliger er dyre. Mange har over to millioner kroner i boliglån.</correct>
+      <wrong>Boliger i Norge koster mye. Lånet er ofte over to millioner kroner.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-38" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Et liv i Norge">
+    <text>Hvilken etat betaler ut pensjon fra folketrygden?</text>
+    <options>
+      <option id="A" correct="true">Nav</option>
+      <option id="B" correct="false">Lånekassen</option>
+      <option id="C" correct="false">Skatteetaten</option>
+    </options>
+    <feedback>
+      <correct>Riktig. Nav betaler ut pensjon fra folketrygden.</correct>
+      <wrong>Lånekassen gir studielån og Skatteetaten tar imot skatt. Nav betaler ut pensjon.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-39" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Et liv i Norge">
+    <text>Hvor gamle er mange nordmenn når de slutter å jobbe?</text>
+    <options>
+      <option id="A" correct="true">Omtrent 67 år gamle</option>
+      <option id="B" correct="false">Omtrent 50 år gamle</option>
+      <option id="C" correct="false">Omtrent 80 år gamle</option>
+    </options>
+    <feedback>
+      <correct>Riktig. Mange slutter å jobbe når de er omtrent 67 år.</correct>
+      <wrong>De fleste jobber lenger enn til 50 år, men slutter før 80 år. Vanlig alder er omtrent 67 år.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-40" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Et liv i Norge">
+    <text>Hva er kremasjon?</text>
+    <options>
+      <option id="A" correct="true">Når en død person blir brent</option>
+      <option id="B" correct="false">Når en død person blir lagt i jorden</option>
+      <option id="C" correct="false">Når en død person blir sendt til hjemlandet</option>
+    </options>
+    <feedback>
+      <correct>Riktig. Ved kremasjon blir den døde brent. Asken kan så gravlegges.</correct>
+      <wrong>Å legge en kiste i jorden kalles kistegravlegging. Kremasjon er noe annet.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-41" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Et liv i Norge">
+    <text>Hva er arv?</text>
+    <options>
+      <option id="A" correct="true">Penger og ting du får når et familiemedlem dør</option>
+      <option id="B" correct="false">Penger du får når du gifter deg med noen</option>
+      <option id="C" correct="false">Penger du får fra staten når du fyller 18 år og blir myndig</option>
+    </options>
+    <feedback>
+      <correct>Riktig. Arv er penger og ting som du får når et familiemedlem dør.</correct>
+      <wrong>Arv har med dødsfall å gjøre. Du får den ikke ved giftermål eller fødselsdag.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-42" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Et liv i Norge">
+    <text>Hva er et testament?</text>
+    <options>
+      <option id="A" correct="true">Et dokument om hvem som skal arve etter en person</option>
+      <option id="B" correct="false">Et dokument om hvem som eier en bolig</option>
+      <option id="C" correct="false">Et dokument om hvem som er gift med hvem</option>
+    </options>
+    <feedback>
+      <correct>Riktig. I et testament står det hvem som skal arve etter personen.</correct>
+      <wrong>Et testament handler om arv. Det handler ikke om eierskap eller ekteskap.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-43" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Regler for opphold">
+    <text>Hva er en innvandrer?</text>
+    <options>
+      <option id="A" correct="true">En person som har flyttet til Norge fra et annet land</option>
+      <option id="B" correct="false">En person som er på ferie hos familie i Norge i to uker</option>
+      <option id="C" correct="false">En person som er født og oppvokst i Norge</option>
+    </options>
+    <feedback>
+      <correct>Riktig. En innvandrer har flyttet til Norge fra et annet land.</correct>
+      <wrong>En innvandrer bor i Norge, men har flyttet fra et annet land.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-44" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Regler for opphold">
+    <text>Hva betyr ordet «oppholdstillatelse»?</text>
+    <options>
+      <option id="A" correct="true">En tillatelse til å bo i Norge</option>
+      <option id="B" correct="false">En tillatelse til å kjøre bil i Norge</option>
+      <option id="C" correct="false">En tillatelse til å jobbe på sykehus</option>
+    </options>
+    <feedback>
+      <correct>Riktig. Med oppholdstillatelse har du lov til å bo i Norge.</correct>
+      <wrong>Oppholdstillatelse handler om å bo i landet, ikke om bil eller jobb.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-45" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Regler for opphold">
+    <text>Hvem behandler søknader om oppholdstillatelse i Norge?</text>
+    <options>
+      <option id="A" correct="true">Utlendingsdirektoratet (UDI)</option>
+      <option id="B" correct="false">Arbeids- og velferdsetaten (Nav)</option>
+      <option id="C" correct="false">Integrerings- og mangfoldsdirektoratet (IMDi)</option>
+    </options>
+    <feedback>
+      <correct>Riktig. UDI behandler søknader om oppholdstillatelse.</correct>
+      <wrong>Nav hjelper med trygd og arbeid. UDI behandler søknader om opphold.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-46" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Regler for opphold">
+    <text>Hva er nettsiden til UDI?</text>
+    <options>
+      <option id="A" correct="true">udi.no</option>
+      <option id="B" correct="false">nav.no</option>
+      <option id="C" correct="false">skatteetaten.no</option>
+    </options>
+    <feedback>
+      <correct>Riktig. På udi.no finner du regler for opphold i Norge.</correct>
+      <wrong>Nav og Skatteetaten har egne nettsider. Informasjon om opphold finner du på udi.no.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-47" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Regler for opphold">
+    <text>Hvor registrerer borgere fra EU og EØS seg når de flytter til Norge?</text>
+    <options>
+      <option id="A" correct="true">Hos politiet</option>
+      <option id="B" correct="false">Hos Nav</option>
+      <option id="C" correct="false">Hos kommunen</option>
+    </options>
+    <feedback>
+      <correct>Riktig. Borgere fra EU og EØS registrerer seg hos politiet.</correct>
+      <wrong>EU- og EØS-borgere registrerer seg hos politiet, ikke hos Nav eller kommunen.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-48" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Regler for opphold">
+    <text>Hva er en midlertidig oppholdstillatelse?</text>
+    <options>
+      <option id="A" correct="true">En tillatelse som varer en periode, og du må søke på nytt</option>
+      <option id="B" correct="false">En tillatelse som du får for resten av livet</option>
+      <option id="C" correct="false">En tillatelse som du får som turist</option>
+    </options>
+    <feedback>
+      <correct>Riktig. En midlertidig tillatelse varer en periode. Etterpå må du søke på nytt.</correct>
+      <wrong>Midlertidig betyr at det varer en periode. Det er ikke en tillatelse for livet.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-49" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Regler for opphold">
+    <text>Hva betyr permanent oppholdstillatelse?</text>
+    <options>
+      <option id="A" correct="true">Du kan bo i Norge uten å søke om ny tillatelse</option>
+      <option id="B" correct="false">Du har fått norsk pass og norsk statsborgerskap</option>
+      <option id="C" correct="false">Du må søke om ny tillatelse hvert år</option>
+    </options>
+    <feedback>
+      <correct>Riktig. Med permanent tillatelse kan du bo i Norge uten å søke på nytt.</correct>
+      <wrong>Permanent tillatelse er ikke det samme som statsborgerskap. Du slipper bare nye søknader.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-50" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Regler for opphold">
+    <text>Hva er et statsborgerskap?</text>
+    <options>
+      <option id="A" correct="true">Du tilhører et land og har rettigheter og plikter der</option>
+      <option id="B" correct="false">Du har lov til å besøke et land som turist i tre måneder</option>
+      <option id="C" correct="false">Du har lov til å jobbe i et land i ett år</option>
+    </options>
+    <feedback>
+      <correct>Riktig. Med statsborgerskap hører du til et land. Du har rettigheter og plikter.</correct>
+      <wrong>Statsborgerskap er mer enn besøk eller arbeid. Du hører til landet.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-51" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Regler for opphold">
+    <text>Hva er en flyktning?</text>
+    <options>
+      <option id="A" correct="true">En person som må forlate landet sitt fordi livet er i fare</option>
+      <option id="B" correct="false">En person som flytter til et nytt land for å jobbe</option>
+      <option id="C" correct="false">En person som flytter til et nytt land for å studere</option>
+    </options>
+    <feedback>
+      <correct>Riktig. En flyktning må forlate landet sitt fordi livet er i fare.</correct>
+      <wrong>Noen flytter for jobb eller studier. En flyktning må forlate landet sitt.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-52" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Regler for opphold">
+    <text>Hva er en arbeidsinnvandrer?</text>
+    <options>
+      <option id="A" correct="true">En person som flytter til Norge for å jobbe</option>
+      <option id="B" correct="false">En person som får hjelp av FN til å flytte</option>
+      <option id="C" correct="false">En person som flytter for å være sammen med familie</option>
+    </options>
+    <feedback>
+      <correct>Riktig. En arbeidsinnvandrer flytter til et nytt land for å jobbe.</correct>
+      <wrong>Arbeid er grunnen til at en arbeidsinnvandrer flytter. Det er ikke FN eller familie.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-53" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Regler for opphold">
+    <text>Hva er en asylsøker?</text>
+    <options>
+      <option id="A" correct="true">En person som har søkt om beskyttelse og venter på svar</option>
+      <option id="B" correct="false">En person som har fått norsk statsborgerskap for noen år siden</option>
+      <option id="C" correct="false">En person som jobber for UDI og behandler saker</option>
+    </options>
+    <feedback>
+      <correct>Riktig. En asylsøker har søkt om beskyttelse og venter på svar.</correct>
+      <wrong>En asylsøker venter på svar. Hun eller han har ikke fått svar ennå.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-54" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Regler for opphold">
+    <text>Hva er asyl?</text>
+    <options>
+      <option id="A" correct="true">Beskyttelse for en person som er forfulgt i hjemlandet</option>
+      <option id="B" correct="false">Tillatelse til å jobbe i Norge i ett år</option>
+      <option id="C" correct="false">Tillatelse til å besøke familie i Norge</option>
+    </options>
+    <feedback>
+      <correct>Riktig. Asyl er beskyttelse for personer som er forfulgt i hjemlandet.</correct>
+      <wrong>Asyl er ikke en jobb- eller besøkstillatelse. Det er beskyttelse mot forfølgelse.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-55" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Regler for opphold">
+    <text>Hvordan vurderer Norge en søknad om asyl?</text>
+    <options>
+      <option id="A" correct="true">Hver søker får sin egen vurdering</option>
+      <option id="B" correct="false">Familien får én felles vurdering</option>
+      <option id="C" correct="false">Søkere fra samme land får samme svar</option>
+    </options>
+    <feedback>
+      <correct>Riktig. Hver person får en egen vurdering av sin sak.</correct>
+      <wrong>Hver sak er ulik. Personer fra samme land kan få ulike svar.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-56" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Regler for opphold">
+    <text>Hvem er kvoteflyktninger?</text>
+    <options>
+      <option id="A" correct="true">Flyktninger som er valgt ut før de kommer til Norge</option>
+      <option id="B" correct="false">Flyktninger som kommer til den norske grensen på egen hånd</option>
+      <option id="C" correct="false">Flyktninger som får jobb i Norge først</option>
+    </options>
+    <feedback>
+      <correct>Riktig. Kvoteflyktninger er valgt ut før de kommer til Norge.</correct>
+      <wrong>Kvoteflyktninger kommer ikke på egen hånd. De er valgt ut på forhånd.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-57" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Regler for opphold">
+    <text>Hvilken organisasjon hjelper Norge med å velge kvoteflyktninger?</text>
+    <options>
+      <option id="A" correct="true">UNHCR, FNs flyktningorganisasjon</option>
+      <option id="B" correct="false">NATO, en forsvarsorganisasjon</option>
+      <option id="C" correct="false">EU, et samarbeid mellom europeiske land</option>
+    </options>
+    <feedback>
+      <correct>Riktig. UNHCR er FNs flyktningorganisasjon. De hjelper Norge å velge flyktninger.</correct>
+      <wrong>NATO og EU velger ikke kvoteflyktninger til Norge. Det gjør UNHCR i FN.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-58" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Regler for opphold">
+    <text>Hvilken tillatelse får kvoteflyktninger først?</text>
+    <options>
+      <option id="A" correct="true">En midlertidig tillatelse</option>
+      <option id="B" correct="false">En permanent tillatelse</option>
+      <option id="C" correct="false">Norsk statsborgerskap</option>
+    </options>
+    <feedback>
+      <correct>Riktig. Kvoteflyktninger får først en midlertidig tillatelse.</correct>
+      <wrong>Permanent tillatelse og statsborgerskap kommer senere. Først får de en midlertidig tillatelse.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-59" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Regler for opphold">
+    <text>Hva er familiegjenforening?</text>
+    <options>
+      <option id="A" correct="true">Et familiemedlem får flytte til familie som bor i Norge</option>
+      <option id="B" correct="false">En familie får lavere skatt de første årene i Norge</option>
+      <option id="C" correct="false">En familie får gratis bolig fra kommunen</option>
+    </options>
+    <feedback>
+      <correct>Riktig. Ved familiegjenforening får et familiemedlem flytte til familie i Norge.</correct>
+      <wrong>Familiegjenforening handler om å samles igjen. Det handler ikke om skatt eller bolig.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-60" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Introduksjonsprogrammet">
+    <text>Hva er introduksjonsprogrammet?</text>
+    <options>
+      <option id="A" correct="true">Et opplæringstilbud for nyankomne flyktninger</option>
+      <option id="B" correct="false">Et program på TV for nye innbyggere</option>
+      <option id="C" correct="false">Et kurs for norske barn om andre land</option>
+    </options>
+    <feedback>
+      <correct>Riktig. Introduksjonsprogrammet er et opplæringstilbud for nyankomne flyktninger.</correct>
+      <wrong>Introduksjonsprogrammet er ikke TV eller et skolefag. Det er et tilbud til flyktninger.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-61" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Introduksjonsprogrammet">
+    <text>Hva er målet med introduksjonsprogrammet?</text>
+    <options>
+      <option id="A" correct="true">Å lære norsk og komme i jobb eller utdanning</option>
+      <option id="B" correct="false">Å få norsk pass og statsborgerskap så raskt som mulig</option>
+      <option id="C" correct="false">Å finne en ny bolig i en annen kommune</option>
+    </options>
+    <feedback>
+      <correct>Riktig. Deltakerne skal lære norsk og komme i jobb eller utdanning.</correct>
+      <wrong>Programmet handler om språk, jobb og utdanning, ikke om pass eller bolig.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-62" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Introduksjonsprogrammet">
+    <text>Hvem tilbyr introduksjonsprogram?</text>
+    <options>
+      <option id="A" correct="true">Kommunen</option>
+      <option id="B" correct="false">Arbeidsgiveren</option>
+      <option id="C" correct="false">Politiet</option>
+    </options>
+    <feedback>
+      <correct>Riktig. Kommunen tilbyr introduksjonsprogram til flyktninger.</correct>
+      <wrong>Det er kommunen som tilbyr programmet, ikke arbeidsgiveren eller politiet.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-63" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Introduksjonsprogrammet">
+    <text>Hvem får tilbud om introduksjonsprogram?</text>
+    <options>
+      <option id="A" correct="true">Flyktninger som har fått opphold</option>
+      <option id="B" correct="false">Arbeidsinnvandrere fra EU</option>
+      <option id="C" correct="false">Studenter fra utlandet</option>
+    </options>
+    <feedback>
+      <correct>Riktig. Kommunen tilbyr programmet til flyktninger som har fått opphold.</correct>
+      <wrong>Arbeidsinnvandrere og studenter har andre ordninger. Programmet er for flyktninger.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-64" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Introduksjonsprogrammet">
+    <text>Hvor lenge kan et introduksjonsprogram vare?</text>
+    <options>
+      <option id="A" correct="true">Fra tre måneder til tre år</option>
+      <option id="B" correct="false">Fra én uke til noen få måneder</option>
+      <option id="C" correct="false">Fra fem år til ti år, hvis man ønsker det</option>
+    </options>
+    <feedback>
+      <correct>Riktig. Programmet kan vare fra tre måneder til tre år.</correct>
+      <wrong>Programmet er lenger enn en måned, men kortere enn fem år. Det varer fra tre måneder til tre år.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-65" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Introduksjonsprogrammet">
+    <text>Hva får deltakere i introduksjonsprogrammet?</text>
+    <options>
+      <option id="A" correct="true">Økonomisk støtte</option>
+      <option id="B" correct="false">Gratis bil</option>
+      <option id="C" correct="false">Norsk pass</option>
+    </options>
+    <feedback>
+      <correct>Riktig. Deltakerne får økonomisk støtte mens de er med i programmet.</correct>
+      <wrong>Deltakerne får penger som støtte. Bil og pass er ikke en del av programmet.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-66" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Introduksjonsprogrammet">
+    <text>Hvorfor får deltakerne økonomisk støtte?</text>
+    <options>
+      <option id="A" correct="true">Slik at de kan leve mens de lærer norsk</option>
+      <option id="B" correct="false">Fordi de har fått gode karakterer i norskprøven</option>
+      <option id="C" correct="false">Fordi de skal betale for kurset</option>
+    </options>
+    <feedback>
+      <correct>Riktig. Støtten hjelper deltakerne å leve mens de lærer norsk.</correct>
+      <wrong>Støtten er ikke en belønning og ikke betaling for kurset. Den hjelper deltakerne å leve.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-67" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Introduksjonsprogrammet">
+    <text>Hva er en del av introduksjonsprogrammet?</text>
+    <options>
+      <option id="A" correct="true">Opplæring i norsk</option>
+      <option id="B" correct="false">Betalt reise hjem</option>
+      <option id="C" correct="false">Studier i utlandet</option>
+    </options>
+    <feedback>
+      <correct>Riktig. Opplæring i norsk er en viktig del av programmet.</correct>
+      <wrong>Programmet foregår i Norge. Deltakerne lærer norsk, men reiser ikke ut.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-68" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Introduksjonsprogrammet">
+    <text>Hva betyr ordet «integrering»?</text>
+    <options>
+      <option id="A" correct="true">Nyankomne blir en del av samfunnet</option>
+      <option id="B" correct="false">Nyankomne må reise hjem igjen</option>
+      <option id="C" correct="false">Nyankomne bor i egne områder</option>
+    </options>
+    <feedback>
+      <correct>Riktig. Integrering betyr at nyankomne blir en del av samfunnet.</correct>
+      <wrong>Integrering betyr å bli med i samfunnet. Det betyr ikke å reise hjem eller bo atskilt.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-69" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Introduksjonsprogrammet">
+    <text>Hva heter loven om introduksjonsprogrammet?</text>
+    <options>
+      <option id="A" correct="true">Integreringsloven</option>
+      <option id="B" correct="false">Folketrygdloven</option>
+      <option id="C" correct="false">Utlendingsloven</option>
+    </options>
+    <feedback>
+      <correct>Riktig. Integreringsloven sier at kommunene skal tilby introduksjonsprogram.</correct>
+      <wrong>Skoleloven og straffeloven handler om andre ting. Loven heter integreringsloven.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-70" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Introduksjonsprogrammet">
+    <text>Hvem har vedtatt integreringsloven?</text>
+    <options>
+      <option id="A" correct="true">Stortinget</option>
+      <option id="B" correct="false">Kommunen</option>
+      <option id="C" correct="false">UDI</option>
+    </options>
+    <feedback>
+      <correct>Riktig. Stortinget har vedtatt integreringsloven.</correct>
+      <wrong>Lover blir vedtatt av Stortinget. Kommunen og UDI følger lovene.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-71" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Introduksjonsprogrammet">
+    <text>Hvor kan en flyktning spørre om introduksjonsprogrammet?</text>
+    <options>
+      <option id="A" correct="true">I kommunen der personen bor</option>
+      <option id="B" correct="false">Hos politiet i nærmeste by</option>
+      <option id="C" correct="false">Hos banken som personen bruker</option>
+    </options>
+    <feedback>
+      <correct>Riktig. Kommunen gir informasjon om introduksjonsprogrammet.</correct>
+      <wrong>Politiet og banken har ikke ansvar for programmet. Spør kommunen.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-72" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Ny i Norge – hovedside">
+    <text>Omtrent hvor mange mennesker bor i Norge?</text>
+    <options>
+      <option id="A" correct="true">Over fem millioner</option>
+      <option id="B" correct="false">Omtrent én million</option>
+      <option id="C" correct="false">Nesten ti millioner</option>
+    </options>
+    <feedback>
+      <correct>Riktig. Det bor over fem millioner mennesker i Norge.</correct>
+      <wrong>Norge er et lite land. Likevel bor det over fem millioner mennesker her.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-73" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Ny i Norge – hovedside">
+    <text>Hva slags styre har Norge?</text>
+    <options>
+      <option id="A" correct="true">Et demokrati der kongen har en symbolsk rolle</option>
+      <option id="B" correct="false">Et demokrati der kongen bestemmer over landets lover</option>
+      <option id="C" correct="false">Et land uten konge og uten valg</option>
+    </options>
+    <feedback>
+      <correct>Riktig. Norge er et demokrati. Kongen har en symbolsk rolle.</correct>
+      <wrong>Folket velger politikerne. Kongen styrer ikke landet.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-74" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Ny i Norge – hovedside">
+    <text>Hvor ofte er det stortingsvalg i Norge?</text>
+    <options>
+      <option id="A" correct="true">Hvert fjerde år</option>
+      <option id="B" correct="false">Hvert annet år</option>
+      <option id="C" correct="false">Hvert tiende år</option>
+    </options>
+    <feedback>
+      <correct>Riktig. Det er stortingsvalg hvert fjerde år.</correct>
+      <wrong>Valg hvert år eller hvert tiende år er ikke riktig. Det er hvert fjerde år.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-75" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Ny i Norge – hovedside">
+    <text>Hvem kan stemme ved stortingsvalg?</text>
+    <options>
+      <option id="A" correct="true">Norske statsborgere som er 18 år eller eldre</option>
+      <option id="B" correct="false">Personer som har bodd tre år i Norge</option>
+      <option id="C" correct="false">Norske statsborgere fra 16 år</option>
+    </options>
+    <feedback>
+      <correct>Riktig. Du må være norsk statsborger og minst 18 år.</correct>
+      <wrong>Du må være statsborger og minst 18 år. Botid alene er ikke nok.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-76" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Ny i Norge – hovedside">
+    <text>Hva betyr velferdsstat?</text>
+    <options>
+      <option id="A" correct="true">Staten hjelper innbyggerne med blant annet skole og helse</option>
+      <option id="B" correct="false">Staten eier selskapene i landet og bestemmer lønnen</option>
+      <option id="C" correct="false">Staten gir innbyggerne like mye penger i året</option>
+    </options>
+    <feedback>
+      <correct>Riktig. I en velferdsstat hjelper staten innbyggerne med blant annet skole og helse.</correct>
+      <wrong>Velferdsstat betyr ikke at staten eier alt. Staten hjelper innbyggerne med skole og helse.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-77" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Ny i Norge – hovedside">
+    <text>Hva bruker staten til å betale for velferden?</text>
+    <options>
+      <option id="A" correct="true">Skatt som innbyggerne betaler</option>
+      <option id="B" correct="false">Penger fra andre land i EU</option>
+      <option id="C" correct="false">Penger som kongen eier</option>
+    </options>
+    <feedback>
+      <correct>Riktig. Innbyggerne betaler skatt, og staten bruker pengene på velferd.</correct>
+      <wrong>Velferden betales med skatt fra innbyggerne, ikke av kongen eller andre land.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-78" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Ny i Norge – hovedside">
+    <text>Når feirer Norge nasjonaldagen?</text>
+    <options>
+      <option id="A" correct="true">17. mai</option>
+      <option id="B" correct="false">1. mai</option>
+      <option id="C" correct="false">8. mai</option>
+    </options>
+    <feedback>
+      <correct>Riktig. Nasjonaldagen er 17. mai.</correct>
+      <wrong>1. mai er arbeidernes dag. 8. mai er frigjøringsdagen. Nasjonaldagen er 17. mai.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-79" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Ny i Norge – hovedside">
+    <text>Hvilket år fikk Norge grunnloven sin?</text>
+    <options>
+      <option id="A" correct="true">1814</option>
+      <option id="B" correct="false">1905</option>
+      <option id="C" correct="false">1945</option>
+    </options>
+    <feedback>
+      <correct>Riktig. Norge fikk grunnloven i 1814.</correct>
+      <wrong>1905 og 1945 er viktige år, men grunnloven er fra 1814.</wrong>
+    </feedback>
+  </question>
+  <question id="norge-80" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Ny i Norge – hovedside">
+    <text>Hvilken union gikk Norge ut av i 1905?</text>
+    <options>
+      <option id="A" correct="true">Unionen med Sverige</option>
+      <option id="B" correct="false">Unionen med Danmark</option>
+      <option id="C" correct="false">Unionen med Finland</option>
+    </options>
+    <feedback>
+      <correct>Riktig. I 1905 gikk Norge ut av unionen med Sverige.</correct>
+      <wrong>Unionen med Danmark tok slutt i 1814. I 1905 gikk Norge ut av unionen med Sverige.</wrong>
     </feedback>
   </question>
 </questionBank>

@@ -14,7 +14,7 @@
     <apning type="feil">Ikke helt. Prøv å tenke en gang til.</apning>
     <apning type="feil">Dessverre, det er ikke riktig.</apning>
   </tilbakemeldingsmaler>
-  <kategori navn="Skole og utdanning" antall="80">
+  <kategori hovedkategori="Utdanning, kompetanse og arbeidsliv" navn="Skole og utdanning" antall="80">
     <sporsmal id="skole-01">
       <tekst>Hva bestemte Norge på 1700-tallet?</tekst>
       <svar riktig="true">Alle barn skal gå på skole, og staten betaler</svar>
@@ -816,7 +816,7 @@
       </tilbakemelding>
     </sporsmal>
   </kategori>
-  <kategori navn="Arbeidsliv" antall="80">
+  <kategori hovedkategori="Utdanning, kompetanse og arbeidsliv" navn="Arbeidsliv" antall="80">
     <sporsmal id="arbeid-01">
       <tekst>Hva er et mål i norsk arbeidsliv?</tekst>
       <svar riktig="true">At flest mulig voksne har jobb</svar>
@@ -1618,7 +1618,7 @@
       </tilbakemelding>
     </sporsmal>
   </kategori>
-  <kategori navn="Kritisk tenkning og digital dømmekraft" antall="80">
+  <kategori hovedkategori="Utdanning, kompetanse og arbeidsliv" navn="Kritisk tenkning og digital dømmekraft" antall="80">
     <sporsmal id="kritisk-01">
       <tekst>Hva er kildekritikk?</tekst>
       <svar riktig="true">Å tenke kritisk om det du leser</svar>
@@ -2417,6 +2417,808 @@
       <tilbakemelding>
         <riktig>En deepfake er en falsk video eller et bilde laget med KI.</riktig>
         <feil>Deepfake handler om falske bilder og videoer, ikke om ulovlige kopier.</feil>
+      </tilbakemelding>
+    </sporsmal>
+  </kategori>
+  <kategori hovedkategori="Familie, helse og hverdagsliv" navn="Ny i Norge" antall="80">
+    <sporsmal id="norge-01" emne="Et liv i Norge">
+      <tekst>Omtrent hvor mange barn blir født i Norge hvert år?</tekst>
+      <svar riktig="true">Omtrent 50 000 barn</svar>
+      <svar>Omtrent 5 000 barn</svar>
+      <svar>Omtrent 500 000 barn</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Det blir født omtrent 50 000 barn i Norge hvert år.</riktig>
+        <feil>Norge har 5–6 millioner innbyggere. Da blir det født omtrent 50 000 barn hvert år.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-02" emne="Et liv i Norge">
+      <tekst>Hvor mange barn får en kvinne i Norge i gjennomsnitt?</tekst>
+      <svar riktig="true">Omtrent 1,4 barn</svar>
+      <svar>Omtrent 3 barn</svar>
+      <svar>Omtrent 5 barn</svar>
+      <tilbakemelding>
+        <riktig>Riktig. En kvinne i Norge får i gjennomsnitt omtrent 1,4 barn.</riktig>
+        <feil>Det er færre barn i hver familie enn mange tror. Gjennomsnittet er omtrent 1,4 barn.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-03" emne="Et liv i Norge">
+      <tekst>Hvor gammel er en kvinne i Norge når hun får første barn?</tekst>
+      <svar riktig="true">Omtrent 30 år gammel</svar>
+      <svar>Omtrent 20 år gammel</svar>
+      <svar>Omtrent 40 år gammel</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Kvinner i Norge får første barn når de er omtrent 30 år.</riktig>
+        <feil>Mange tar utdanning og jobber først. Da blir kvinnen omtrent 30 år når hun får første barn.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-04" emne="Et liv i Norge">
+      <tekst>Hva sier norsk lov om omskjæring av jenter?</tekst>
+      <svar riktig="true">Det er forbudt, og straffen kan være opptil 15 år i fengsel</svar>
+      <svar>Det er lov hvis foreldrene ønsker det og legen er enig</svar>
+      <svar>Det er lov hvis jenta er over ti år gammel</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Omskjæring av jenter er forbudt i Norge. Straffen kan være opptil 15 år i fengsel.</riktig>
+        <feil>Omskjæring av jenter er forbudt i Norge, også når foreldrene ønsker det.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-05" emne="Et liv i Norge">
+      <tekst>Hva er en barnehage?</tekst>
+      <svar riktig="true">Et sted for små barn mens foreldrene er på jobb eller skole</svar>
+      <svar>Et sted der barn lærer å lese og skrive før de begynner på skolen</svar>
+      <svar>Et sted der barn bor når foreldrene er syke</svar>
+      <tilbakemelding>
+        <riktig>Riktig. I barnehagen er små barn mens foreldrene jobber eller studerer.</riktig>
+        <feil>Barna lærer å lese og skrive på skolen. I barnehagen leker og lærer de gjennom dagen.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-06" emne="Et liv i Norge">
+      <tekst>Hva betyr ordet «egenandel»?</tekst>
+      <svar riktig="true">En del av prisen som du betaler selv</svar>
+      <svar>Penger som du får fra staten</svar>
+      <svar>Penger som du låner av banken</svar>
+      <tilbakemelding>
+        <riktig>Riktig. En egenandel er den delen av prisen som du betaler selv.</riktig>
+        <feil>En egenandel er ikke en støtte eller et lån. Det er prisen du betaler selv.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-07" emne="Et liv i Norge">
+      <tekst>Hva betaler foreldre for en plass i barnehagen?</tekst>
+      <svar riktig="true">En egenandel hver måned</svar>
+      <svar>Foreldrene betaler full pris selv</svar>
+      <svar>Barnehagen er gratis for foreldrene</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Foreldre betaler en egenandel. Staten og kommunen betaler resten.</riktig>
+        <feil>Foreldre betaler en del av prisen. Barnehagen er ikke gratis, og foreldrene betaler ikke hele prisen.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-08" emne="Et liv i Norge">
+      <tekst>Hvem kan få kontantstøtte?</tekst>
+      <svar riktig="true">Foreldre med små barn som ikke har barnehageplass</svar>
+      <svar>Foreldre som har barn på ungdomsskolen og videregående</svar>
+      <svar>Foreldre som tar utdanning i utlandet</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Kontantstøtte er penger til foreldre som ikke bruker barnehage.</riktig>
+        <feil>Kontantstøtte er til foreldre med små barn. Barna går ikke i barnehage.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-09" emne="Et liv i Norge">
+      <tekst>Hva er foreldrepenger?</tekst>
+      <svar riktig="true">Penger fra Nav når foreldre er hjemme med et nytt barn</svar>
+      <svar>Penger fra barnehagen når barnet begynner</svar>
+      <svar>Penger fra skolen når barnet er syk</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Foreldrepenger er penger fra Nav. Du får dem når du er hjemme med et nytt barn.</riktig>
+        <feil>Det er Nav som betaler foreldrepenger, ikke barnehagen eller skolen.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-10" emne="Et liv i Norge">
+      <tekst>Hvem betaler barnetrygd til foreldrene?</tekst>
+      <svar riktig="true">Staten</svar>
+      <svar>Arbeidsgiveren</svar>
+      <svar>Barnehagen</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Staten betaler barnetrygd til foreldrene.</riktig>
+        <feil>Barnetrygd kommer fra staten, ikke fra arbeidsgiveren eller barnehagen.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-11" emne="Et liv i Norge">
+      <tekst>Hvor lenge får foreldre barnetrygd for et barn?</tekst>
+      <svar riktig="true">Til barnet er 18 år</svar>
+      <svar>Til barnet er 12 år</svar>
+      <svar>Til barnet begynner på skole</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Foreldre får barnetrygd til barnet fyller 18 år.</riktig>
+        <feil>Barnetrygden varer lenger enn til skolestart. Den slutter når barnet er 18 år.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-12" emne="Et liv i Norge">
+      <tekst>Hvor mye barnetrygd får et barn i en rik familie?</tekst>
+      <svar riktig="true">Like mye som et barn i en fattig familie</svar>
+      <svar>Mer enn et barn i en fattig familie</svar>
+      <svar>Mindre enn et barn i en fattig familie</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Barnetrygden er lik for alle barn. Familiens penger spiller ingen rolle.</riktig>
+        <feil>Barnetrygden er den samme for rike og fattige familier. Inntekten har ikke noe å si.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-13" emne="Et liv i Norge">
+      <tekst>Hvor mange år varer grunnskolen i Norge?</tekst>
+      <svar riktig="true">Ti år</svar>
+      <svar>Syv år</svar>
+      <svar>Tretten år</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Grunnskolen har ti år, fra 1. til 10. klasse.</riktig>
+        <feil>Grunnskolen er barneskole og ungdomsskole sammen. Det blir til sammen ti år.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-14" emne="Et liv i Norge">
+      <tekst>Hvilke klasser er barneskolen?</tekst>
+      <svar riktig="true">1. til 7. klasse</svar>
+      <svar>1. til 4. klasse</svar>
+      <svar>5. til 10. klasse</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Barneskolen er fra 1. til 7. klasse.</riktig>
+        <feil>Barneskolen varer lenger enn fire år. Etter 7. klasse begynner barna på ungdomsskolen.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-15" emne="Et liv i Norge">
+      <tekst>Hvor gamle er elever på ungdomsskolen?</tekst>
+      <svar riktig="true">Omtrent 13 til 16 år</svar>
+      <svar>Omtrent 7 til 10 år</svar>
+      <svar>Omtrent 16 til 19 år</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Elever på ungdomsskolen er omtrent 13 til 16 år gamle.</riktig>
+        <feil>Ungdomsskolen er 8. til 10. klasse. Elevene er da omtrent 13 til 16 år.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-16" emne="Et liv i Norge">
+      <tekst>Fra hvilken alder må barn gå på skole i Norge?</tekst>
+      <svar riktig="true">Fra de er seks år, i 1. klasse</svar>
+      <svar>Fra de er tre år, som i barnehagen</svar>
+      <svar>Fra de er ti år, i 5. klasse</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Barn må gå på skole fra de er seks år. Skolen varer til de er 16 år.</riktig>
+        <feil>Barn begynner på skolen når de er seks år, ikke før og ikke etter.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-17" emne="Et liv i Norge">
+      <tekst>Hva koster det å gå på offentlig grunnskole?</tekst>
+      <svar riktig="true">Ingenting, skolen er gratis</svar>
+      <svar>En liten pris hver måned</svar>
+      <svar>Halv pris for lav inntekt</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Offentlig grunnskole er gratis i Norge.</riktig>
+        <feil>Foreldre betaler ikke skolepenger i offentlig grunnskole. Skolen er gratis.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-18" emne="Et liv i Norge">
+      <tekst>Hva er SFO?</tekst>
+      <svar riktig="true">Et tilbud for barn på skolen før og etter skoletid</svar>
+      <svar>Et fag på barneskolen der barna lærer om sport og friluftsliv</svar>
+      <svar>En skole for barn som trenger ekstra hjelp</svar>
+      <tilbakemelding>
+        <riktig>Riktig. SFO betyr skolefritidsordning. Barna er der før og etter skoletid.</riktig>
+        <feil>SFO er ikke et fag eller en egen skole. Det er et tilbud ved siden av skoledagen.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-19" emne="Et liv i Norge">
+      <tekst>Omtrent hvor mange barn i 1. til 4. klasse går på SFO?</tekst>
+      <svar riktig="true">Omtrent åtte av ti barn</svar>
+      <svar>Omtrent to av ti barn</svar>
+      <svar>Omtrent én av ti barn</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Omtrent åtte av ti barn i 1. til 4. klasse går på SFO.</riktig>
+        <feil>SFO er et vanlig tilbud. De fleste barn på de laveste trinnene bruker det.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-20" emne="Et liv i Norge">
+      <tekst>Hvor mange fullfører videregående skole i Norge?</tekst>
+      <svar riktig="true">Nesten åtte av ti elever</svar>
+      <svar>Omtrent fire av ti elever</svar>
+      <svar>Omtrent seks av ti elever</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Nesten åtte av ti elever fullfører videregående skole.</riktig>
+        <feil>Det er flere enn seks av ti. Nesten åtte av ti elever fullfører.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-21" emne="Et liv i Norge">
+      <tekst>Hvor mange elever velger yrkesfag på videregående?</tekst>
+      <svar riktig="true">Omtrent halvparten</svar>
+      <svar>Omtrent én av ti elever</svar>
+      <svar>Omtrent ni av ti elever</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Omtrent halvparten velger yrkesfag, og halvparten velger studiespesialisering.</riktig>
+        <feil>Yrkesfag er et vanlig valg. Omtrent halvparten av elevene velger det.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-22" emne="Et liv i Norge">
+      <tekst>Hva gir studiespesialisering deg?</tekst>
+      <svar riktig="true">Rett til å søke på universitet og høgskole</svar>
+      <svar>Rett til å få fagbrev som lærling</svar>
+      <svar>Rett til å starte i 1. klasse på SFO</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Studiespesialisering gir studiekompetanse. Da kan du søke på universitet og høgskole.</riktig>
+        <feil>Fagbrev får du på yrkesfag. Studiespesialisering gir rett til å søke studier.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-23" emne="Et liv i Norge">
+      <tekst>Hva kan du få etter yrkesfag og læretid?</tekst>
+      <svar riktig="true">Fagbrev</svar>
+      <svar>Bachelorgrad</svar>
+      <svar>Studielån</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Etter yrkesfag og læretid kan du ta fagprøve og få fagbrev.</riktig>
+        <feil>En bachelorgrad tar du på universitet. Etter læretid får du fagbrev.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-24" emne="Et liv i Norge">
+      <tekst>Hva er en lærling?</tekst>
+      <svar riktig="true">En person som lærer et yrke på en arbeidsplass</svar>
+      <svar>En elev som tar ekstra fag på ungdomsskolen i helgene</svar>
+      <svar>En student som tar bachelor på universitetet</svar>
+      <tilbakemelding>
+        <riktig>Riktig. En lærling lærer et yrke på en arbeidsplass og har betalt arbeid.</riktig>
+        <feil>En lærling er ikke student. Lærlingen arbeider og lærer et yrke på en arbeidsplass.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-25" emne="Et liv i Norge">
+      <tekst>Hva er en bachelorgrad?</tekst>
+      <svar riktig="true">En utdanning på universitetet som tar omtrent tre år</svar>
+      <svar>En utdanning på videregående som tar to år</svar>
+      <svar>En utdanning for lærlinger som tar fire år</svar>
+      <tilbakemelding>
+        <riktig>Riktig. En bachelorgrad tar omtrent tre år på universitet eller høgskole.</riktig>
+        <feil>Bachelor tar du på universitet eller høgskole, ikke på videregående skole.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-26" emne="Et liv i Norge">
+      <tekst>Hva er et stipend?</tekst>
+      <svar riktig="true">Penger til studenter som de ikke må betale tilbake</svar>
+      <svar>Penger til studenter som de må betale tilbake senere</svar>
+      <svar>Penger til lærlinger fra arbeidsgiveren</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Et stipend er penger som du ikke må betale tilbake.</riktig>
+        <feil>Penger som du må betale tilbake kalles lån. Et stipend er en gave.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-27" emne="Et liv i Norge">
+      <tekst>Hvem gir studielån i Norge?</tekst>
+      <svar riktig="true">Lånekassen</svar>
+      <svar>Nav</svar>
+      <svar>Skatteetaten</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Lånekassen gir lån og stipend til studenter.</riktig>
+        <feil>Nav og Skatteetaten har andre oppgaver. Lånekassen gir studielån.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-28" emne="Et liv i Norge">
+      <tekst>Hvor mye studiegjeld har mange studenter etter studiene?</tekst>
+      <svar riktig="true">Over 300 000 kroner</svar>
+      <svar>Under 30 000 kroner</svar>
+      <svar>Omtrent 3 000 kroner</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Mange studenter har over 300 000 kroner i studiegjeld.</riktig>
+        <feil>Studielån er mye penger. Mange har over 300 000 kroner i gjeld etter studiene.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-29" emne="Et liv i Norge">
+      <tekst>Hva betyr det å være myndig?</tekst>
+      <svar riktig="true">Du bestemmer selv over livet og pengene dine</svar>
+      <svar>Du må begynne å jobbe full tid</svar>
+      <svar>Du må bo hjemme hos foreldrene</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Når du er myndig, bestemmer du selv over livet og pengene dine.</riktig>
+        <feil>Myndig betyr at du er voksen etter loven. Da bestemmer du selv.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-30" emne="Et liv i Norge">
+      <tekst>Når blir en person myndig i Norge?</tekst>
+      <svar riktig="true">Når personen er 18 år</svar>
+      <svar>Når personen er 16 år</svar>
+      <svar>Når personen er 21 år</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Myndighetsalderen i Norge er 18 år.</riktig>
+        <feil>Du er myndig når du fyller 18 år, ikke før og ikke senere.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-31" emne="Et liv i Norge">
+      <tekst>Hvem har ansvar for barn under 18 år?</tekst>
+      <svar riktig="true">Foreldrene</svar>
+      <svar>Barna selv</svar>
+      <svar>Skolen</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Foreldrene har ansvar for barn under 18 år.</riktig>
+        <feil>Barn under 18 år er ikke myndige. Foreldrene har ansvaret, ikke skolen.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-32" emne="Et liv i Norge">
+      <tekst>Hvor gamle er mange nordmenn når de gifter seg?</tekst>
+      <svar riktig="true">Mellom 30 og 40 år gamle</svar>
+      <svar>Mellom 18 og 20 år gamle</svar>
+      <svar>Mellom 50 og 60 år gamle</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Mange gifter seg når de er mellom 30 og 40 år gamle.</riktig>
+        <feil>I Norge gifter folk seg ofte sent. Mange er mellom 30 og 40 år.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-33" emne="Et liv i Norge">
+      <tekst>Hva betyr det å være samboer?</tekst>
+      <svar riktig="true">Å bo sammen som par uten å være gift</svar>
+      <svar>Å bo sammen med foreldrene som voksen</svar>
+      <svar>Å bo sammen med en venn for å spare penger</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Samboere er et par som bor sammen uten å være gift.</riktig>
+        <feil>Samboere er et par. De bor sammen, men er ikke gift.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-34" emne="Et liv i Norge">
+      <tekst>Hva er skilsmisse?</tekst>
+      <svar riktig="true">Når et gift par avslutter ekteskapet</svar>
+      <svar>Når et par flytter sammen uten å gifte seg</svar>
+      <svar>Når et par får et barn og blir foreldre</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Ved skilsmisse avslutter et gift par ekteskapet sitt.</riktig>
+        <feil>Skilsmisse handler om å avslutte et ekteskap. Det gjelder ikke samboere som flytter.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-35" emne="Et liv i Norge">
+      <tekst>Hva betyr likestilling?</tekst>
+      <svar riktig="true">Kvinner og menn har samme rettigheter og muligheter</svar>
+      <svar>Kvinner og menn må gjøre det samme arbeidet</svar>
+      <svar>Kvinner og menn må være like gamle</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Likestilling betyr at kvinner og menn har samme rettigheter og muligheter.</riktig>
+        <feil>Likestilling betyr ikke samme arbeid. Det betyr samme rettigheter og muligheter.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-36" emne="Et liv i Norge">
+      <tekst>Hva er et boliglån?</tekst>
+      <svar riktig="true">Penger fra banken som du bruker til å kjøpe bolig</svar>
+      <svar>Penger fra staten som du får når du flytter</svar>
+      <svar>Penger som du betaler til utleier hver måned</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Et boliglån er penger du låner i banken for å kjøpe bolig.</riktig>
+        <feil>Penger til utleier kalles husleie. Et boliglån får du fra en bank.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-37" emne="Et liv i Norge">
+      <tekst>Hvor mye gjeld tar mange med seg når de kjøper bolig?</tekst>
+      <svar riktig="true">Over to millioner kroner</svar>
+      <svar>Omtrent 200 000 kroner til hver bolig</svar>
+      <svar>Omtrent 20 000 kroner til hver bolig</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Boliger er dyre. Mange har over to millioner kroner i boliglån.</riktig>
+        <feil>Boliger i Norge koster mye. Lånet er ofte over to millioner kroner.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-38" emne="Et liv i Norge">
+      <tekst>Hvilken etat betaler ut pensjon fra folketrygden?</tekst>
+      <svar riktig="true">Nav</svar>
+      <svar>Lånekassen</svar>
+      <svar>Skatteetaten</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Nav betaler ut pensjon fra folketrygden.</riktig>
+        <feil>Lånekassen gir studielån og Skatteetaten tar imot skatt. Nav betaler ut pensjon.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-39" emne="Et liv i Norge">
+      <tekst>Hvor gamle er mange nordmenn når de slutter å jobbe?</tekst>
+      <svar riktig="true">Omtrent 67 år gamle</svar>
+      <svar>Omtrent 50 år gamle</svar>
+      <svar>Omtrent 80 år gamle</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Mange slutter å jobbe når de er omtrent 67 år.</riktig>
+        <feil>De fleste jobber lenger enn til 50 år, men slutter før 80 år. Vanlig alder er omtrent 67 år.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-40" emne="Et liv i Norge">
+      <tekst>Hva er kremasjon?</tekst>
+      <svar riktig="true">Når en død person blir brent</svar>
+      <svar>Når en død person blir lagt i jorden</svar>
+      <svar>Når en død person blir sendt til hjemlandet</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Ved kremasjon blir den døde brent. Asken kan så gravlegges.</riktig>
+        <feil>Å legge en kiste i jorden kalles kistegravlegging. Kremasjon er noe annet.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-41" emne="Et liv i Norge">
+      <tekst>Hva er arv?</tekst>
+      <svar riktig="true">Penger og ting du får når et familiemedlem dør</svar>
+      <svar>Penger du får når du gifter deg med noen</svar>
+      <svar>Penger du får fra staten når du fyller 18 år og blir myndig</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Arv er penger og ting som du får når et familiemedlem dør.</riktig>
+        <feil>Arv har med dødsfall å gjøre. Du får den ikke ved giftermål eller fødselsdag.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-42" emne="Et liv i Norge">
+      <tekst>Hva er et testament?</tekst>
+      <svar riktig="true">Et dokument om hvem som skal arve etter en person</svar>
+      <svar>Et dokument om hvem som eier en bolig</svar>
+      <svar>Et dokument om hvem som er gift med hvem</svar>
+      <tilbakemelding>
+        <riktig>Riktig. I et testament står det hvem som skal arve etter personen.</riktig>
+        <feil>Et testament handler om arv. Det handler ikke om eierskap eller ekteskap.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-43" emne="Regler for opphold">
+      <tekst>Hva er en innvandrer?</tekst>
+      <svar riktig="true">En person som har flyttet til Norge fra et annet land</svar>
+      <svar>En person som er på ferie hos familie i Norge i to uker</svar>
+      <svar>En person som er født og oppvokst i Norge</svar>
+      <tilbakemelding>
+        <riktig>Riktig. En innvandrer har flyttet til Norge fra et annet land.</riktig>
+        <feil>En innvandrer bor i Norge, men har flyttet fra et annet land.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-44" emne="Regler for opphold">
+      <tekst>Hva betyr ordet «oppholdstillatelse»?</tekst>
+      <svar riktig="true">En tillatelse til å bo i Norge</svar>
+      <svar>En tillatelse til å kjøre bil i Norge</svar>
+      <svar>En tillatelse til å jobbe på sykehus</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Med oppholdstillatelse har du lov til å bo i Norge.</riktig>
+        <feil>Oppholdstillatelse handler om å bo i landet, ikke om bil eller jobb.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-45" emne="Regler for opphold">
+      <tekst>Hvem behandler søknader om oppholdstillatelse i Norge?</tekst>
+      <svar riktig="true">Utlendingsdirektoratet (UDI)</svar>
+      <svar>Arbeids- og velferdsetaten (Nav)</svar>
+      <svar>Integrerings- og mangfoldsdirektoratet (IMDi)</svar>
+      <tilbakemelding>
+        <riktig>Riktig. UDI behandler søknader om oppholdstillatelse.</riktig>
+        <feil>Nav hjelper med trygd og arbeid. UDI behandler søknader om opphold.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-46" emne="Regler for opphold">
+      <tekst>Hva er nettsiden til UDI?</tekst>
+      <svar riktig="true">udi.no</svar>
+      <svar>nav.no</svar>
+      <svar>skatteetaten.no</svar>
+      <tilbakemelding>
+        <riktig>Riktig. På udi.no finner du regler for opphold i Norge.</riktig>
+        <feil>Nav og Skatteetaten har egne nettsider. Informasjon om opphold finner du på udi.no.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-47" emne="Regler for opphold">
+      <tekst>Hvor registrerer borgere fra EU og EØS seg når de flytter til Norge?</tekst>
+      <svar riktig="true">Hos politiet</svar>
+      <svar>Hos Nav</svar>
+      <svar>Hos kommunen</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Borgere fra EU og EØS registrerer seg hos politiet.</riktig>
+        <feil>EU- og EØS-borgere registrerer seg hos politiet, ikke hos Nav eller kommunen.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-48" emne="Regler for opphold">
+      <tekst>Hva er en midlertidig oppholdstillatelse?</tekst>
+      <svar riktig="true">En tillatelse som varer en periode, og du må søke på nytt</svar>
+      <svar>En tillatelse som du får for resten av livet</svar>
+      <svar>En tillatelse som du får som turist</svar>
+      <tilbakemelding>
+        <riktig>Riktig. En midlertidig tillatelse varer en periode. Etterpå må du søke på nytt.</riktig>
+        <feil>Midlertidig betyr at det varer en periode. Det er ikke en tillatelse for livet.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-49" emne="Regler for opphold">
+      <tekst>Hva betyr permanent oppholdstillatelse?</tekst>
+      <svar riktig="true">Du kan bo i Norge uten å søke om ny tillatelse</svar>
+      <svar>Du har fått norsk pass og norsk statsborgerskap</svar>
+      <svar>Du må søke om ny tillatelse hvert år</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Med permanent tillatelse kan du bo i Norge uten å søke på nytt.</riktig>
+        <feil>Permanent tillatelse er ikke det samme som statsborgerskap. Du slipper bare nye søknader.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-50" emne="Regler for opphold">
+      <tekst>Hva er et statsborgerskap?</tekst>
+      <svar riktig="true">Du tilhører et land og har rettigheter og plikter der</svar>
+      <svar>Du har lov til å besøke et land som turist i tre måneder</svar>
+      <svar>Du har lov til å jobbe i et land i ett år</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Med statsborgerskap hører du til et land. Du har rettigheter og plikter.</riktig>
+        <feil>Statsborgerskap er mer enn besøk eller arbeid. Du hører til landet.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-51" emne="Regler for opphold">
+      <tekst>Hva er en flyktning?</tekst>
+      <svar riktig="true">En person som må forlate landet sitt fordi livet er i fare</svar>
+      <svar>En person som flytter til et nytt land for å jobbe</svar>
+      <svar>En person som flytter til et nytt land for å studere</svar>
+      <tilbakemelding>
+        <riktig>Riktig. En flyktning må forlate landet sitt fordi livet er i fare.</riktig>
+        <feil>Noen flytter for jobb eller studier. En flyktning må forlate landet sitt.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-52" emne="Regler for opphold">
+      <tekst>Hva er en arbeidsinnvandrer?</tekst>
+      <svar riktig="true">En person som flytter til Norge for å jobbe</svar>
+      <svar>En person som får hjelp av FN til å flytte</svar>
+      <svar>En person som flytter for å være sammen med familie</svar>
+      <tilbakemelding>
+        <riktig>Riktig. En arbeidsinnvandrer flytter til et nytt land for å jobbe.</riktig>
+        <feil>Arbeid er grunnen til at en arbeidsinnvandrer flytter. Det er ikke FN eller familie.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-53" emne="Regler for opphold">
+      <tekst>Hva er en asylsøker?</tekst>
+      <svar riktig="true">En person som har søkt om beskyttelse og venter på svar</svar>
+      <svar>En person som har fått norsk statsborgerskap for noen år siden</svar>
+      <svar>En person som jobber for UDI og behandler saker</svar>
+      <tilbakemelding>
+        <riktig>Riktig. En asylsøker har søkt om beskyttelse og venter på svar.</riktig>
+        <feil>En asylsøker venter på svar. Hun eller han har ikke fått svar ennå.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-54" emne="Regler for opphold">
+      <tekst>Hva er asyl?</tekst>
+      <svar riktig="true">Beskyttelse for en person som er forfulgt i hjemlandet</svar>
+      <svar>Tillatelse til å jobbe i Norge i ett år</svar>
+      <svar>Tillatelse til å besøke familie i Norge</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Asyl er beskyttelse for personer som er forfulgt i hjemlandet.</riktig>
+        <feil>Asyl er ikke en jobb- eller besøkstillatelse. Det er beskyttelse mot forfølgelse.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-55" emne="Regler for opphold">
+      <tekst>Hvordan vurderer Norge en søknad om asyl?</tekst>
+      <svar riktig="true">Hver søker får sin egen vurdering</svar>
+      <svar>Familien får én felles vurdering</svar>
+      <svar>Søkere fra samme land får samme svar</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Hver person får en egen vurdering av sin sak.</riktig>
+        <feil>Hver sak er ulik. Personer fra samme land kan få ulike svar.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-56" emne="Regler for opphold">
+      <tekst>Hvem er kvoteflyktninger?</tekst>
+      <svar riktig="true">Flyktninger som er valgt ut før de kommer til Norge</svar>
+      <svar>Flyktninger som kommer til den norske grensen på egen hånd</svar>
+      <svar>Flyktninger som får jobb i Norge først</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Kvoteflyktninger er valgt ut før de kommer til Norge.</riktig>
+        <feil>Kvoteflyktninger kommer ikke på egen hånd. De er valgt ut på forhånd.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-57" emne="Regler for opphold">
+      <tekst>Hvilken organisasjon hjelper Norge med å velge kvoteflyktninger?</tekst>
+      <svar riktig="true">UNHCR, FNs flyktningorganisasjon</svar>
+      <svar>NATO, en forsvarsorganisasjon</svar>
+      <svar>EU, et samarbeid mellom europeiske land</svar>
+      <tilbakemelding>
+        <riktig>Riktig. UNHCR er FNs flyktningorganisasjon. De hjelper Norge å velge flyktninger.</riktig>
+        <feil>NATO og EU velger ikke kvoteflyktninger til Norge. Det gjør UNHCR i FN.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-58" emne="Regler for opphold">
+      <tekst>Hvilken tillatelse får kvoteflyktninger først?</tekst>
+      <svar riktig="true">En midlertidig tillatelse</svar>
+      <svar>En permanent tillatelse</svar>
+      <svar>Norsk statsborgerskap</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Kvoteflyktninger får først en midlertidig tillatelse.</riktig>
+        <feil>Permanent tillatelse og statsborgerskap kommer senere. Først får de en midlertidig tillatelse.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-59" emne="Regler for opphold">
+      <tekst>Hva er familiegjenforening?</tekst>
+      <svar riktig="true">Et familiemedlem får flytte til familie som bor i Norge</svar>
+      <svar>En familie får lavere skatt de første årene i Norge</svar>
+      <svar>En familie får gratis bolig fra kommunen</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Ved familiegjenforening får et familiemedlem flytte til familie i Norge.</riktig>
+        <feil>Familiegjenforening handler om å samles igjen. Det handler ikke om skatt eller bolig.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-60" emne="Introduksjonsprogrammet">
+      <tekst>Hva er introduksjonsprogrammet?</tekst>
+      <svar riktig="true">Et opplæringstilbud for nyankomne flyktninger</svar>
+      <svar>Et program på TV for nye innbyggere</svar>
+      <svar>Et kurs for norske barn om andre land</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Introduksjonsprogrammet er et opplæringstilbud for nyankomne flyktninger.</riktig>
+        <feil>Introduksjonsprogrammet er ikke TV eller et skolefag. Det er et tilbud til flyktninger.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-61" emne="Introduksjonsprogrammet">
+      <tekst>Hva er målet med introduksjonsprogrammet?</tekst>
+      <svar riktig="true">Å lære norsk og komme i jobb eller utdanning</svar>
+      <svar>Å få norsk pass og statsborgerskap så raskt som mulig</svar>
+      <svar>Å finne en ny bolig i en annen kommune</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Deltakerne skal lære norsk og komme i jobb eller utdanning.</riktig>
+        <feil>Programmet handler om språk, jobb og utdanning, ikke om pass eller bolig.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-62" emne="Introduksjonsprogrammet">
+      <tekst>Hvem tilbyr introduksjonsprogram?</tekst>
+      <svar riktig="true">Kommunen</svar>
+      <svar>Arbeidsgiveren</svar>
+      <svar>Politiet</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Kommunen tilbyr introduksjonsprogram til flyktninger.</riktig>
+        <feil>Det er kommunen som tilbyr programmet, ikke arbeidsgiveren eller politiet.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-63" emne="Introduksjonsprogrammet">
+      <tekst>Hvem får tilbud om introduksjonsprogram?</tekst>
+      <svar riktig="true">Flyktninger som har fått opphold</svar>
+      <svar>Arbeidsinnvandrere fra EU</svar>
+      <svar>Studenter fra utlandet</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Kommunen tilbyr programmet til flyktninger som har fått opphold.</riktig>
+        <feil>Arbeidsinnvandrere og studenter har andre ordninger. Programmet er for flyktninger.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-64" emne="Introduksjonsprogrammet">
+      <tekst>Hvor lenge kan et introduksjonsprogram vare?</tekst>
+      <svar riktig="true">Fra tre måneder til tre år</svar>
+      <svar>Fra én uke til noen få måneder</svar>
+      <svar>Fra fem år til ti år, hvis man ønsker det</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Programmet kan vare fra tre måneder til tre år.</riktig>
+        <feil>Programmet er lenger enn en måned, men kortere enn fem år. Det varer fra tre måneder til tre år.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-65" emne="Introduksjonsprogrammet">
+      <tekst>Hva får deltakere i introduksjonsprogrammet?</tekst>
+      <svar riktig="true">Økonomisk støtte</svar>
+      <svar>Gratis bil</svar>
+      <svar>Norsk pass</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Deltakerne får økonomisk støtte mens de er med i programmet.</riktig>
+        <feil>Deltakerne får penger som støtte. Bil og pass er ikke en del av programmet.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-66" emne="Introduksjonsprogrammet">
+      <tekst>Hvorfor får deltakerne økonomisk støtte?</tekst>
+      <svar riktig="true">Slik at de kan leve mens de lærer norsk</svar>
+      <svar>Fordi de har fått gode karakterer i norskprøven</svar>
+      <svar>Fordi de skal betale for kurset</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Støtten hjelper deltakerne å leve mens de lærer norsk.</riktig>
+        <feil>Støtten er ikke en belønning og ikke betaling for kurset. Den hjelper deltakerne å leve.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-67" emne="Introduksjonsprogrammet">
+      <tekst>Hva er en del av introduksjonsprogrammet?</tekst>
+      <svar riktig="true">Opplæring i norsk</svar>
+      <svar>Betalt reise hjem</svar>
+      <svar>Studier i utlandet</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Opplæring i norsk er en viktig del av programmet.</riktig>
+        <feil>Programmet foregår i Norge. Deltakerne lærer norsk, men reiser ikke ut.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-68" emne="Introduksjonsprogrammet">
+      <tekst>Hva betyr ordet «integrering»?</tekst>
+      <svar riktig="true">Nyankomne blir en del av samfunnet</svar>
+      <svar>Nyankomne må reise hjem igjen</svar>
+      <svar>Nyankomne bor i egne områder</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Integrering betyr at nyankomne blir en del av samfunnet.</riktig>
+        <feil>Integrering betyr å bli med i samfunnet. Det betyr ikke å reise hjem eller bo atskilt.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-69" emne="Introduksjonsprogrammet">
+      <tekst>Hva heter loven om introduksjonsprogrammet?</tekst>
+      <svar riktig="true">Integreringsloven</svar>
+      <svar>Folketrygdloven</svar>
+      <svar>Utlendingsloven</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Integreringsloven sier at kommunene skal tilby introduksjonsprogram.</riktig>
+        <feil>Skoleloven og straffeloven handler om andre ting. Loven heter integreringsloven.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-70" emne="Introduksjonsprogrammet">
+      <tekst>Hvem har vedtatt integreringsloven?</tekst>
+      <svar riktig="true">Stortinget</svar>
+      <svar>Kommunen</svar>
+      <svar>UDI</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Stortinget har vedtatt integreringsloven.</riktig>
+        <feil>Lover blir vedtatt av Stortinget. Kommunen og UDI følger lovene.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-71" emne="Introduksjonsprogrammet">
+      <tekst>Hvor kan en flyktning spørre om introduksjonsprogrammet?</tekst>
+      <svar riktig="true">I kommunen der personen bor</svar>
+      <svar>Hos politiet i nærmeste by</svar>
+      <svar>Hos banken som personen bruker</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Kommunen gir informasjon om introduksjonsprogrammet.</riktig>
+        <feil>Politiet og banken har ikke ansvar for programmet. Spør kommunen.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-72" emne="Ny i Norge – hovedside">
+      <tekst>Omtrent hvor mange mennesker bor i Norge?</tekst>
+      <svar riktig="true">Over fem millioner</svar>
+      <svar>Omtrent én million</svar>
+      <svar>Nesten ti millioner</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Det bor over fem millioner mennesker i Norge.</riktig>
+        <feil>Norge er et lite land. Likevel bor det over fem millioner mennesker her.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-73" emne="Ny i Norge – hovedside">
+      <tekst>Hva slags styre har Norge?</tekst>
+      <svar riktig="true">Et demokrati der kongen har en symbolsk rolle</svar>
+      <svar>Et demokrati der kongen bestemmer over landets lover</svar>
+      <svar>Et land uten konge og uten valg</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Norge er et demokrati. Kongen har en symbolsk rolle.</riktig>
+        <feil>Folket velger politikerne. Kongen styrer ikke landet.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-74" emne="Ny i Norge – hovedside">
+      <tekst>Hvor ofte er det stortingsvalg i Norge?</tekst>
+      <svar riktig="true">Hvert fjerde år</svar>
+      <svar>Hvert annet år</svar>
+      <svar>Hvert tiende år</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Det er stortingsvalg hvert fjerde år.</riktig>
+        <feil>Valg hvert år eller hvert tiende år er ikke riktig. Det er hvert fjerde år.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-75" emne="Ny i Norge – hovedside">
+      <tekst>Hvem kan stemme ved stortingsvalg?</tekst>
+      <svar riktig="true">Norske statsborgere som er 18 år eller eldre</svar>
+      <svar>Personer som har bodd tre år i Norge</svar>
+      <svar>Norske statsborgere fra 16 år</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Du må være norsk statsborger og minst 18 år.</riktig>
+        <feil>Du må være statsborger og minst 18 år. Botid alene er ikke nok.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-76" emne="Ny i Norge – hovedside">
+      <tekst>Hva betyr velferdsstat?</tekst>
+      <svar riktig="true">Staten hjelper innbyggerne med blant annet skole og helse</svar>
+      <svar>Staten eier selskapene i landet og bestemmer lønnen</svar>
+      <svar>Staten gir innbyggerne like mye penger i året</svar>
+      <tilbakemelding>
+        <riktig>Riktig. I en velferdsstat hjelper staten innbyggerne med blant annet skole og helse.</riktig>
+        <feil>Velferdsstat betyr ikke at staten eier alt. Staten hjelper innbyggerne med skole og helse.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-77" emne="Ny i Norge – hovedside">
+      <tekst>Hva bruker staten til å betale for velferden?</tekst>
+      <svar riktig="true">Skatt som innbyggerne betaler</svar>
+      <svar>Penger fra andre land i EU</svar>
+      <svar>Penger som kongen eier</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Innbyggerne betaler skatt, og staten bruker pengene på velferd.</riktig>
+        <feil>Velferden betales med skatt fra innbyggerne, ikke av kongen eller andre land.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-78" emne="Ny i Norge – hovedside">
+      <tekst>Når feirer Norge nasjonaldagen?</tekst>
+      <svar riktig="true">17. mai</svar>
+      <svar>1. mai</svar>
+      <svar>8. mai</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Nasjonaldagen er 17. mai.</riktig>
+        <feil>1. mai er arbeidernes dag. 8. mai er frigjøringsdagen. Nasjonaldagen er 17. mai.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-79" emne="Ny i Norge – hovedside">
+      <tekst>Hvilket år fikk Norge grunnloven sin?</tekst>
+      <svar riktig="true">1814</svar>
+      <svar>1905</svar>
+      <svar>1945</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Norge fikk grunnloven i 1814.</riktig>
+        <feil>1905 og 1945 er viktige år, men grunnloven er fra 1814.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="norge-80" emne="Ny i Norge – hovedside">
+      <tekst>Hvilken union gikk Norge ut av i 1905?</tekst>
+      <svar riktig="true">Unionen med Sverige</svar>
+      <svar>Unionen med Danmark</svar>
+      <svar>Unionen med Finland</svar>
+      <tilbakemelding>
+        <riktig>Riktig. I 1905 gikk Norge ut av unionen med Sverige.</riktig>
+        <feil>Unionen med Danmark tok slutt i 1814. I 1905 gikk Norge ut av unionen med Sverige.</feil>
       </tilbakemelding>
     </sporsmal>
   </kategori>

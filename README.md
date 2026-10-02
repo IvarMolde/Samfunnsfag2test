@@ -36,15 +36,16 @@ Prøvemodus har alltid 38 spørsmål. Du kan ikke velge antall, og du kan ikke v
 
 ## Tema
 
-Undertema som har spørsmål nå, 80 i hvert:
+Undertema som har spørsmål nå, 80 i hvert (320 til sammen):
 
 - Skole og utdanning
 - Arbeidsliv
 - Kritisk tenkning og digital dømmekraft
+- Ny i Norge (hovedtema Familie, helse og hverdagsliv). Har fire emner med egne kilder: Et liv i Norge, Regler for opphold, Introduksjonsprogrammet og hovedsiden. I et undertema med emner trekkes spørsmålene jevnt fra emnene. Er et emne for lite, fyller de andre opp. Resultatet vises da per emne.
 
 Disse hovedtemaene er planlagt, med 80 spørsmål per undertema. De er ikke med i banken ennå, og kan ikke velges:
 
-- Familie, helse og hverdagsliv: Ny i Norge, Familieliv, Fritid, Helse, Personlig økonomi, Retten til et fritt og selvstendig liv.
+- Familie, helse og hverdagsliv: Familieliv, Fritid, Helse, Personlig økonomi, Retten til et fritt og selvstendig liv.
 - Norge før og nå: Dette er Norge, Historie, Menneskerettigheter og demokrati, Bærekraft.
 
 Når spørsmålene er lagt inn, blir undertemaene med i øvingen og i prøvens blanding av seg selv.

@@ -10,7 +10,7 @@ const bd={style:BorderStyle.SINGLE,size:4,color:'BBBBBB'};const borders={top:bd,
 const cell=(t,w,h)=>new TableCell({borders,width:{size:w,type:WidthType.DXA},shading:h?{fill:'E8EEF4',type:ShadingType.CLEAR,color:'auto'}:undefined,margins:{top:60,bottom:60,left:100,right:100},children:[new Paragraph({children:[new TextRun({text:String(t),bold:!!h})]})]});
 const ch=[];
 ch.push(new Paragraph({heading:HeadingLevel.TITLE,children:[new TextRun('Spørsmålsbank – samfunnskunnskap')]}));
-ch.push(P('240 flervalgsspørsmål. Det første svaralternativet er alltid riktig.'));
+ch.push(P(mods.reduce((a,m)=>a+m.emner.reduce((b,e)=>b+e.items.length,0),0)+' flervalgsspørsmål. Det første svaralternativet er alltid riktig.'));
 let n=0;
 for(const m of mods){
  const c=m.emner.reduce((a,e)=>a+e.items.length,0);

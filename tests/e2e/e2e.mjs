@@ -61,10 +61,45 @@ await scenario("Les her forklarer prøven og at resultatet ikke er offisielt", a
   assert.equal(await p.isVisible("#aboutDialog"), false, "klikk utenfor boksen lukker den");
 });
 
-await scenario("Banken har 240 spørsmål, 80 per tema", async p => {
+await scenario("Banken har 320 spørsmål, 80 per undertema, og Ny i Norge har fire emner", async p => {
   const c = await p.evaluate(() => { const o = {}; window.__state.bank.forEach(q => (o[q.category] = (o[q.category] || 0) + 1)); return o; });
-  assert.equal(Object.keys(c).length, 3);
+  assert.equal(Object.keys(c).length, 4);
   Object.values(c).forEach(n => assert.equal(n, 80));
+  const t = await p.evaluate(() => [...new Set(window.__state.bank.filter(q => q.category === "Ny i Norge").map(q => q.topic))]);
+  assert.equal(t.length, 4);
+  const m = await p.evaluate(() => [...new Set(window.__state.bank.filter(q => q.category === "Ny i Norge").map(q => q.main))]);
+  assert.deepEqual(m, ["Familie, helse og hverdagsliv"]);
+});
+
+await scenario("Ny i Norge kan velges under Familie, helse og hverdagsliv og gir bare spørsmål derfra, jevnt fra emnene", async p => {
+  await p.click("#scopeOne");
+  await p.click("#themePicker .pick:has-text('Familie, helse og hverdagsliv')");
+  const btn = await p.$("#themePicker .pick:has-text('Ny i Norge')");
+  assert.equal(await btn.isDisabled(), false, "Ny i Norge skal ikke lenger stå som «kommer»");
+  assert.doesNotMatch(await btn.textContent(), /kommer/);
+  await btn.click();
+  await p.click('.choice[data-count="20"]'); await p.click('.mode[data-mode="practice"]');
+  await p.click("#startBtn");
+  const r = await p.evaluate(() => window.__state.items.map(q => [q.category, q.topic]));
+  assert.equal(r.length, 20);
+  assert.ok(r.every(x => x[0] === "Ny i Norge"));
+  const per = {}; r.forEach(x => (per[x[1]] = (per[x[1]] || 0) + 1));
+  assert.deepEqual(Object.values(per).sort(), [5, 5, 5, 5], JSON.stringify(per));
+});
+
+await scenario("Ny i Norge, 40 spørsmål: emnet med 9 spørsmål gir høyst 9, og resultatet vises per emne", async p => {
+  await p.click("#scopeOne");
+  await p.click("#themePicker .pick:has-text('Familie, helse og hverdagsliv')");
+  await p.click("#themePicker .pick:has-text('Ny i Norge')");
+  await p.click('.choice[data-count="40"]'); await p.click('.mode[data-mode="practice"]');
+  await p.click("#startBtn");
+  const per = await p.evaluate(() => { const o = {}; window.__state.items.forEach(q => (o[q.topic] = (o[q.topic] || 0) + 1)); return o; });
+  assert.equal(Object.values(per).reduce((a, b) => a + b, 0), 40);
+  assert.ok(per["Ny i Norge – hovedside"] <= 9);
+  for (let i = 0; i < 40; i++) { await clickOpt(p, await correctIdx(p)); await p.click("#nextBtn"); }
+  const rows = await p.$$eval(".theme-row", e => e.map(x => x.textContent));
+  assert.equal(rows.length, 4, "resultat per emne");
+  assert.ok(rows.some(x => /Introduksjonsprogrammet/.test(x)));
 });
 
 for (const n of [20, 30, 40]) {
@@ -115,7 +150,7 @@ await scenario("Prøvemodus: ingen tilbakemelding, farger eller poeng før innle
   assert.equal(await p.textContent("#correctCount"), "18");
   assert.equal(await p.textContent("#percent"), "47,4%");
   assert.match(await p.textContent("#resultTitle"), /ikke bestått/);
-  assert.equal((await p.$$(".theme-row")).length, 3);
+  assert.equal((await p.$$(".theme-row")).length, 4);
 });
 
 await scenario("Prøvemodus: gå tilbake, endre svar, fjerne svar og merke spørsmål", async p => {
