@@ -50,6 +50,12 @@ button{cursor:pointer}
 .panel{max-width:760px;margin:20px auto 8px;padding:clamp(18px,3vw,28px);background:var(--surface);border:1px solid var(--line);border-radius:var(--radius)}
 .panel h1{font-size:clamp(1.6rem,3vw,2rem);margin-bottom:8px}
 .lead,.panel>p{color:var(--ink-2)}
+.about-btn{display:inline-flex;align-items:center;justify-content:center;margin-top:14px;min-height:48px;padding:10px 22px;font-weight:700;font-size:1.05rem;color:var(--primary);background:var(--primary-soft);border:2px solid var(--primary);border-radius:var(--radius)}
+.about-btn:hover{background:var(--primary);color:var(--primary-ink)}
+#aboutDialog{max-width:560px}
+.about-body{display:grid;gap:8px;margin-top:4px}
+.about-body h3{font-size:1.05rem;margin-top:8px}
+.about-body p{margin:0}
 .panel label,.field-label{display:block;font-weight:700;margin:20px 0 8px}
 .panel>label:first-of-type{margin-top:16px}
 .panel label span{font-weight:400;color:var(--ink-2)}

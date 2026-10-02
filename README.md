@@ -4,6 +4,8 @@ En statisk webapp for voksne som øver til prøve i samfunnskunnskap. Den drives
 
 Dette er en øvingsprøve, ikke den offisielle prøven.
 
+Knappen «Les her» på startsiden åpner en kort forklaring. Den sier hvordan øving og prøve virker, og at resultatet bare gjelder denne prøven. Det er ikke et offisielt resultat.
+
 ## Denne filen
 
 Denne filen forklarer hvordan programmet virker. Den oppdateres i samme endring som en ny bestemmelse, for eksempel modus, trekk, tema, beståttgrense eller navigasjon. Det som ikke lenger gjelder, tas ut, slik at teksten beskriver det som faktisk gjelder.
@@ -17,7 +19,7 @@ Denne filen forklarer hvordan programmet virker. Den oppdateres i samme endring 
 
 ## Prøvemodus
 
-Prøvemodus har ikke temavalg. Prøven trekker alltid spørsmål tilfeldig fra alle undertema som har spørsmål, med like mange fra hvert undertema.
+Prøvemodus har alltid 38 spørsmål og ikke temavalg. Prøven trekker alltid spørsmål tilfeldig fra alle undertema som har spørsmål, med like mange fra hvert undertema.
 
 - Ingen tilbakemelding, farger eller poeng før innlevering.
 - Du kan gå tilbake, endre svar og merke spørsmål.
@@ -27,7 +29,8 @@ Prøvemodus har ikke temavalg. Prøven trekker alltid spørsmål tilfeldig fra a
 
 ## Antall og svar
 
-- Du kan ta 20, 30 eller 40 spørsmål.
+- I øving kan du ta 20, 30 eller 40 spørsmål.
+- I prøvemodus er det alltid 38 spørsmål.
 - Ett korrekt svar per spørsmål. Svaralternativene stokkes hver gang.
 - Ingen spørsmål gjentas i samme runde.
 
@@ -48,7 +51,7 @@ Når spørsmålene er lagt inn, blir undertemaene med i øvingen og i prøvens b
 
 ## Bestått og personvern
 
-- Bestått er 80 % riktige. Det er 16 av 20, 24 av 30 og 32 av 40.
+- Bestått er 80 % riktige. Det er 16 av 20, 24 av 30, 31 av 38 og 32 av 40.
 - Navn er valgfritt. Det vises bare på resultatet og på diplomet.
 - Ingenting om eleven lagres. En sideoppdatering sletter fremdriften.
 - Utskriften er et diplom. Det viser logo, dato, navn hvis det er fylt inn, poengsum og tydelig bestått eller ikke bestått. Spørsmålene er ikke med. Nederst står det: «Diplomet er resultatet fra en øvingsprøve, ikke en godkjenning på samfunnfagsprøven fra norske myndigheter.»

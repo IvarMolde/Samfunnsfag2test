@@ -27,13 +27,16 @@
       <div class="panel">
         <h1 id="startTitle" tabindex="-1">Start</h1>
         <p class="lead">Velg hvordan du vil øve. Dette er en øvingsprøve, ikke den offisielle prøven.</p>
+        <button type="button" class="about-btn" id="aboutBtn">Les her</button>
         <label for="studentName">Navn <span>(valgfritt, vises bare på resultatet ditt)</span></label>
         <input id="studentName" type="text" autocomplete="name" placeholder="Skriv navnet ditt">
-        <div class="field-label" id="countLabel">Antall spørsmål</div>
-        <div class="choice-grid" id="countChoices" role="group" aria-labelledby="countLabel">
-          <button type="button" class="choice selected" data-count="20" aria-pressed="true"><strong>20</strong><span>spørsmål</span></button>
-          <button type="button" class="choice" data-count="30" aria-pressed="false"><strong>30</strong><span>spørsmål</span></button>
-          <button type="button" class="choice" data-count="40" aria-pressed="false"><strong>40</strong><span>spørsmål</span></button>
+        <div id="countSetup">
+          <div class="field-label" id="countLabel">Antall spørsmål</div>
+          <div class="choice-grid" id="countChoices" role="group" aria-labelledby="countLabel">
+            <button type="button" class="choice selected" data-count="20" aria-pressed="true"><strong>20</strong><span>spørsmål</span></button>
+            <button type="button" class="choice" data-count="30" aria-pressed="false"><strong>30</strong><span>spørsmål</span></button>
+            <button type="button" class="choice" data-count="40" aria-pressed="false"><strong>40</strong><span>spørsmål</span></button>
+          </div>
         </div>
         <div class="field-label" id="modeLabel">Modus</div>
         <div class="mode-grid" role="group" aria-labelledby="modeLabel">
@@ -51,7 +54,7 @@
           <p class="hint" id="scopeHint" hidden>Velg et undertema for å starte.</p>
         </div>
         <div id="testExplain" class="notice" hidden>
-          <p>Prøven henter alltid spørsmål tilfeldig fra alle temaene, med like mange fra hvert undertema. Du kan ikke velge bare ett tema i prøvemodus.</p>
+          <p>Prøven har alltid 38 spørsmål. De hentes tilfeldig fra alle temaene, med like mange fra hvert undertema. Du kan ikke velge bare ett tema.</p>
         </div>
         <div class="timer-setup" id="timerSetup" hidden>
           <label class="check"><input type="checkbox" id="useTimer"> <span>Bruk tidtaker</span></label>
@@ -105,6 +108,23 @@
         </div>
       </div>
     </section>
+
+    <dialog id="aboutDialog" aria-labelledby="aboutTitle">
+      <h2 id="aboutTitle">Slik fungerer prøven</h2>
+      <div class="about-body">
+        <p>Dette er en øvingsprøve i samfunnskunnskap. Det er ikke den offisielle prøven.</p>
+        <h3>Øving</h3>
+        <p>Du får vite med en gang om svaret er riktig. Du kan ta 20, 30 eller 40 spørsmål. Du kan øve på ett undertema, eller på alle temaene.</p>
+        <h3>Prøve</h3>
+        <p>Prøven har alltid 38 spørsmål. Spørsmålene trekkes tilfeldig fra alle temaene, med like mange fra hvert tema. Du får ikke vite om svaret er riktig før du leverer. Du kan gå tilbake og endre svar.</p>
+        <h3>Resultat</h3>
+        <p>Du består når minst 80 prosent av svarene er riktige. Resultatet viser bare hvordan det gikk på denne prøven. Det er ikke et offisielt resultat. Norske myndigheter har ikke godkjent prøven.</p>
+        <p>Vi lagrer ingenting om deg.</p>
+      </div>
+      <div class="dlg-actions">
+        <button type="button" class="primary" id="aboutClose">Lukk</button>
+      </div>
+    </dialog>
 
     <dialog id="submitDialog" aria-labelledby="dlgTitle">
       <form method="dialog">
