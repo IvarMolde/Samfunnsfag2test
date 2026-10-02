@@ -45,12 +45,19 @@ function readyCategories() {
   return new Set(state.bank.map(q => q.category));
 }
 
+const TEST_COUNT = 38;
+
+function questionCount() {
+  return state.mode === "test" ? TEST_COUNT : state.count;
+}
+
 function sessionDraw() {
+  const n = questionCount();
   if (state.mode === "test" || state.scope !== "one" || !state.subtheme) {
-    return { questions: drawBalanced(state.bank, state.count), label: "Alle temaer" };
+    return { questions: drawBalanced(state.bank, n), label: "Alle temaer" };
   }
   const bank = state.bank.filter(q => q.category === state.subtheme);
-  return { questions: drawBalanced(bank, state.count), label: state.subtheme };
+  return { questions: drawBalanced(bank, n), label: state.subtheme };
 }
 
 function paintScope(label) {
@@ -280,7 +287,7 @@ function showResult() {
   $("#correctCount").textContent = r.correct;
   $("#wrongCount").textContent = r.wrong;
   $("#totalCount").textContent = r.total;
-  const need = { 20: 16, 30: 24, 40: 32 }[r.total];
+  const need = { 20: 16, 30: 24, 38: 31, 40: 32 }[r.total];
   $("#requirement").textContent = retry ? "–" : need ? `80 % (${need} av ${r.total})` : "80 %";
   $("#scoreCircle").dataset.status = $("#resultTitle").dataset.status;
   const note = $("#resultNote");
@@ -419,6 +426,7 @@ function setScope(scope) {
 function syncModePanels() {
   const test = state.mode === "test";
   $("#timerSetup").hidden = !test;
+  $("#countSetup").hidden = test;
   $("#scopeSetup").hidden = test;
   $("#testExplain").hidden = !test;
   updateStartEnabled();
@@ -440,6 +448,9 @@ let timerTouched = false;
 $("#timerMinutes").onchange = () => { timerTouched = true; };
 const defaultMinutes = { 20: 20, 30: 30, 40: 45 };
 $("#timerMinutes").value = String(defaultMinutes[20]);
+$("#aboutBtn").onclick = () => $("#aboutDialog").showModal();
+$("#aboutClose").onclick = () => $("#aboutDialog").close();
+$("#aboutDialog").addEventListener("click", e => { if (e.target === $("#aboutDialog")) $("#aboutDialog").close(); });
 $("#startBtn").onclick = start;
 $("#nextBtn").onclick = next;
 $("#quitBtn").onclick = () => {

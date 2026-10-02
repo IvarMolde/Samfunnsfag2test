@@ -40,6 +40,21 @@ const correctIdx = p => p.evaluate(() => { const s = window.__state; return s.it
 const clickOpt = async (p, i) => (await p.$$("#options .option"))[i].click();
 const setup = async (p, count, mode) => { await p.click(`.choice[data-count="${count}"]`); await p.click(`.mode[data-mode="${mode}"]`); };
 
+await scenario("Les her forklarer prøven og at resultatet ikke er offisielt", async p => {
+  await p.click("#aboutBtn");
+  const dlg = await p.$("#aboutDialog");
+  assert.equal(await dlg.evaluate(d => d.open), true);
+  const text = await p.textContent("#aboutDialog");
+  assert.match(text, /alltid 38 spørsmål/);
+  assert.match(text, /ikke et offisielt resultat/);
+  assert.match(text, /ikke den offisielle prøven/);
+  await p.click("#aboutClose");
+  assert.equal(await dlg.evaluate(d => d.open), false);
+  await p.click("#aboutBtn");
+  await p.keyboard.press("Escape");
+  assert.equal(await dlg.evaluate(d => d.open), false);
+});
+
 await scenario("Banken har 240 spørsmål, 80 per tema", async p => {
   const c = await p.evaluate(() => { const o = {}; window.__state.bank.forEach(q => (o[q.category] = (o[q.category] || 0) + 1)); return o; });
   assert.equal(Object.keys(c).length, 3);
@@ -72,9 +87,10 @@ await scenario("Øvingsmodus: feil svar gir hint og viser riktig svar", async p 
 
 await scenario("Prøvemodus: ingen tilbakemelding, farger eller poeng før innlevering", async p => {
   await setup(p, 20, "test"); await p.click("#startBtn");
-  for (let i = 0; i < 20; i++) {
+  assert.equal(await p.evaluate(() => window.__state.items.length), 38);
+  for (let i = 0; i < 38; i++) {
     const ci = await correctIdx(p);
-    if (i < 18) await clickOpt(p, i % 2 === 0 ? ci : [0, 1, 2].find(x => x !== ci));
+    if (i < 36) await clickOpt(p, i % 2 === 0 ? ci : [0, 1, 2].find(x => x !== ci));
     const cls = (await p.$$eval("#options .option", a => a.map(x => x.className))).join(" ");
     assert.ok(!/correct|wrong/.test(cls), `farge på spørsmål ${i + 1}`);
     assert.equal(await p.isVisible("#feedback"), false, `tilbakemelding på spørsmål ${i + 1}`);
@@ -82,17 +98,16 @@ await scenario("Prøvemodus: ingen tilbakemelding, farger eller poeng før innle
     await p.click("#nextBtn");
   }
   assert.ok(await p.isVisible("#overviewScreen"));
-  const html = await p.content();
   assert.ok(!(await p.isVisible("#resultScreen")));
-  assert.match(await p.textContent("#overviewSummary"), /Besvart 18 av 20 · 2 ikke besvart/);
+  assert.match(await p.textContent("#overviewSummary"), /Besvart 36 av 38 · 2 ikke besvart/);
   await p.click("#submitBtn");
   assert.match(await p.textContent("#dlgText"), /2 spørsmål uten svar/);
   await p.click("#dlgCancel");
   assert.equal(await p.isVisible("#resultScreen"), false);
   await p.click("#submitBtn"); await p.click("#dlgOk");
   assert.ok(await p.isVisible("#resultScreen"));
-  assert.equal(await p.textContent("#correctCount"), "9");
-  assert.equal(await p.textContent("#percent"), "45%");
+  assert.equal(await p.textContent("#correctCount"), "18");
+  assert.equal(await p.textContent("#percent"), "47,4%");
   assert.match(await p.textContent("#resultTitle"), /ikke bestått/);
   assert.equal((await p.$$(".theme-row")).length, 3);
 });
@@ -113,9 +128,23 @@ await scenario("Prøvemodus: gå tilbake, endre svar, fjerne svar og merke spør
   assert.ok(await p.isVisible("#quizScreen"));
 });
 
+await scenario("Prøvemodus skjuler antall og sier at det alltid er 38 spørsmål", async p => {
+  await p.click('.choice[data-count="40"]');
+  await p.click('.mode[data-mode="test"]');
+  assert.equal(await p.isVisible("#countSetup"), false, "antall kan ikke velges");
+  assert.equal(await p.isVisible("#testExplain"), true);
+  const explain = await p.textContent("#testExplain");
+  assert.match(explain, /kan ikke velge antall/);
+  assert.match(explain, /alltid 38 spørsmål/);
+  await p.click("#startBtn");
+  assert.equal(await p.evaluate(() => window.__state.items.length), 38);
+  assert.equal(await p.textContent("#counter"), "Spørsmål 1 av 38");
+});
+
 await scenario("Prøvemodus med tidtaker: automatisk innlevering når tiden er ute", async p => {
   assert.equal(await p.isVisible("#timerSetup"), false, "tidtaker-valg skjult i Øvingsmodus");
   await setup(p, 20, "test");
+  assert.equal(await p.isVisible("#countSetup"), false, "antall er fast i prøvemodus");
   assert.equal(await p.isVisible("#timerMinutesWrap"), false, "minutter skjult før tidtaker er valgt");
   await p.check("#useTimer");
   assert.equal(await p.isVisible("#timerMinutesWrap"), true);
@@ -194,7 +223,7 @@ for (const scheme of ["light", "dark"]) {
     await p.click("#overviewBtn"); await check("oversikt");
     await p.click("#submitBtn"); await check("innleveringsdialog");
     await p.click("#dlgOk"); await check("resultat"); await p.click("#reviewBtn"); await check("resultat med gjennomgang");
-    await p.click("#restartBtn"); await setup(p, 20, "practice"); await p.click("#startBtn");
+    await p.click("#restartBtn"); await p.click('.mode[data-mode="practice"]'); await setup(p, 20, "practice"); await p.click("#startBtn");
     await clickOpt(p, 0); await check("Øvingsmodus med tilbakemelding");
   });
 }

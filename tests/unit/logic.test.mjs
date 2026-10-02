@@ -26,6 +26,13 @@ test("drawBalanced: riktig antall, ingen dubletter og like mange fra hvert tema"
   }
 });
 
+test("drawBalanced: 38 gir høyst ett spørsmål mer til noen tema", () => {
+  const q = drawBalanced(bank, 38, seeded(2));
+  const per = cats.map(c => q.filter(x => x.category === c).length);
+  assert.equal(per.reduce((a, b) => a + b, 0), 38);
+  assert.ok(Math.max(...per) - Math.min(...per) <= 1, String(per));
+});
+
 test("drawBalanced: 30 gir nøyaktig 10 per tema", () => {
   const q = drawBalanced(bank, 30, seeded(1));
   cats.forEach(c => assert.equal(q.filter(x => x.category === c).length, 10));
@@ -83,8 +90,8 @@ test("scoreSession: grense på 80 % (16 av 20 består, 15 av 20 stryker)", () =>
   assert.equal(scoreSession(items, mk(20)).pct, 100);
 });
 
-test("scoreSession: 24 av 30 og 32 av 40 består, ett færre stryker", () => {
-  for (const [n, k] of [[30, 24], [40, 32]]) {
+test("scoreSession: 24 av 30, 31 av 38 og 32 av 40 består, ett færre stryker", () => {
+  for (const [n, k] of [[30, 24], [38, 31], [40, 32]]) {
     const items = itemsFor(n);
     const mk = c => items.map((it, i) => ({ picked: i < c ? correctIdx(it) : (correctIdx(it) + 1) % 3 }));
     assert.equal(scoreSession(items, mk(k)).passed, true);
