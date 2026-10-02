@@ -26,7 +26,17 @@
         <div class="field-label">Velg modus</div>
         <div class="mode-grid">
           <button class="mode selected" data-mode="practice"><span class="mode-icon">💡</span><strong>Øvingsmodus</strong><small>Få tilbakemelding etter hvert svar.</small></button>
-          <button class="mode" data-mode="test"><span class="mode-icon">📝</span><strong>Prøvemodus</strong><small>Se resultat og fasit når testen er ferdig.</small></button>
+          <button class="mode" data-mode="test"><span class="mode-icon">📝</span><strong>Prøvemodus</strong><small>Som en ekte prøve: ingen tilbakemelding før du leverer. Du kan gå tilbake og endre svar.</small></button>
+        </div>
+        <div class="timer-setup" id="timerSetup" hidden>
+          <label class="check"><input type="checkbox" id="useTimer"> <span>Bruk tidtaker</span></label>
+          <label class="select-wrap" id="timerMinutesWrap" hidden>Tid
+            <select id="timerMinutes" aria-label="Antall minutter">
+              <option value="15">15 minutter</option><option value="20">20 minutter</option><option value="30">30 minutter</option>
+              <option value="45">45 minutter</option><option value="60">60 minutter</option>
+            </select>
+          </label>
+          <p class="hint">Tiden her er ikke den offisielle tiden på prøven. Når tiden er ute, leveres prøven automatisk.</p>
         </div>
         <div class="info-row"><span>✓ Ett riktig svar per spørsmål</span><span>✓ 80 % for å bestå</span><span>✓ Like mange spørsmål fra hvert tema</span></div>
         <button class="primary" id="startBtn">Start prøve <span>→</span></button>
@@ -36,20 +46,54 @@
     <section class="screen" id="quizScreen">
       <header class="quiz-header">
         <button class="text-btn" id="quitBtn">← Avslutt</button>
-        <div class="quiz-title">Samfunnskunnskap</div>
-        <div class="counter" id="counter"></div>
+        <div class="quiz-title" id="quizTitle">Samfunnskunnskap</div>
+        <div class="header-right"><span class="timer" id="timer" hidden role="timer" aria-label="Tid igjen"></span><span class="counter" id="counter"></span></div>
       </header>
-      <div class="progress"><div id="progressBar"></div></div>
+      <div class="progress" role="progressbar" aria-label="Fremdrift" aria-valuemin="0" aria-valuemax="100" id="progress"><div id="progressBar"></div></div>
       <div class="quiz-wrap">
         <div class="question-meta"><span id="category"></span><span id="scoreLive"></span></div>
-        <h2 id="questionText"></h2>
-        <div id="options" class="options"></div>
-        <div id="feedback" class="feedback" hidden></div>
+        <h2 id="questionText" tabindex="-1"></h2>
+        <div id="options" class="options" role="group" aria-labelledby="questionText"></div>
+        <div id="feedback" class="feedback" role="status" hidden></div>
         <div class="quiz-actions">
+          <div class="test-tools" id="testTools" hidden>
+            <button class="secondary" id="prevBtn">← Forrige</button>
+            <button class="secondary" id="flagBtn" aria-pressed="false">Merk for senere</button>
+            <button class="secondary" id="overviewBtn">Oversikt</button>
+          </div>
           <button class="primary" id="nextBtn" disabled>Neste <span>→</span></button>
         </div>
       </div>
+      <div class="sr-only" id="liveRegion" aria-live="polite"></div>
     </section>
+
+    <section class="screen" id="overviewScreen">
+      <div class="result-wrap">
+        <div class="result-top">
+          <div class="eyebrow">OVERSIKT</div>
+          <h1 tabindex="-1" id="overviewTitle">Se over svarene dine</h1>
+          <p id="overviewSummary"></p>
+          <p class="timer-line" id="overviewTimer" hidden></p>
+        </div>
+        <div class="overview-grid" id="overviewGrid"></div>
+        <ul class="legend"><li><span class="dot answered"></span>Besvart</li><li><span class="dot unanswered"></span>Ikke besvart</li><li><span class="dot flagged"></span>Merket</li></ul>
+        <div class="result-actions">
+          <button class="secondary" id="backToQuizBtn">← Tilbake til spørsmålene</button>
+          <button class="primary" id="submitBtn">Lever inn prøven</button>
+        </div>
+      </div>
+    </section>
+
+    <dialog id="submitDialog" aria-labelledby="dlgTitle">
+      <form method="dialog">
+        <h2 id="dlgTitle">Lever inn prøven?</h2>
+        <p id="dlgText"></p>
+        <div class="dlg-actions">
+          <button class="secondary" value="cancel" id="dlgCancel">Gå tilbake</button>
+          <button class="primary" value="ok" id="dlgOk">Lever inn</button>
+        </div>
+      </form>
+    </dialog>
 
     <section class="screen" id="resultScreen">
       <div class="result-wrap">
@@ -58,6 +102,7 @@
           <div class="eyebrow">RESULTAT</div>
           <h1 id="resultTitle" tabindex="-1"></h1>
           <p id="resultSub"></p>
+          <p id="resultNote" class="result-note" hidden></p>
         </div>
         <div class="result-card">
           <div class="score-circle" id="scoreCircle"><span id="percent"></span><small>prosent</small></div>
