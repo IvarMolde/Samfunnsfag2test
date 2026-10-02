@@ -62,13 +62,15 @@ function choose(i){
   answers[current]={picked:picked.text,correct:picked.correct,correctText:q.options.find(x=>x.correct).text};
   if(picked.correct)score++;
   [...$("#options").children].forEach((b,idx)=>b.disabled=true);
-  [...$("#options").children][i].classList.add(picked.correct?"correct":"wrong");
   if(mode==="practice"){
+    [...$("#options").children][i].classList.add(picked.correct?"correct":"wrong");
     const correctIdx=q.options.findIndex(x=>x.correct);
     if(correctIdx>=0)[...$("#options").children][correctIdx].classList.add("correct");
     $("#feedback").hidden=false;$("#feedback").className=`feedback ${picked.correct?"correct":"wrong"}`;
     const opener=picked.correct?pick(openers.correct,"Riktig!"):pick(openers.wrong,"Ikke riktig.");
     $("#feedback").innerHTML=`<strong>${picked.correct?"✓":"✕"} ${opener}</strong><br>${picked.correct?q.feedbackCorrect:q.feedbackWrong}`;
+}else{
+    [...$("#options").children][i].classList.add("selected");
   }
   $("#nextBtn").disabled=false;$("#scoreLive").textContent=mode==="practice"?`${score} riktige`:"";
 }
