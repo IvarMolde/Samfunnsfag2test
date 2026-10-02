@@ -1,0 +1,21 @@
+const fs=require('fs');const mods=require('../kilde/load.js');
+const fb={skole:require('../kilde/fb_skole.js'),arbeid:require('../kilde/fb_arbeid.js'),kritisk:require('../kilde/fb_kritisk.js')};
+const esc=s=>s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+const slug={'Skole og utdanning':'skole','Arbeidsliv':'arbeid','Kritisk tenkning og digital dømmekraft':'kritisk'};
+const riktig=["Bra, du svarte riktig!","Korrekt!","Bra jobba!","Riktig, godt gjort!","Helt riktig!","Det stemmer!","Flott, det er riktig!"];
+const feil=["Det var ikke helt riktig.","Dette svaret er ikke korrekt.","Nesten, men ikke korrekt.","Ikke helt. Prøv å tenke en gang til.","Dessverre, det er ikke riktig."];
+let x='<?xml version="1.0" encoding="UTF-8"?>\n<sporsmalsbank sprak="nb" niva="A2" antallSvar="3" versjon="1.1">\n  <tilbakemeldingsmaler>\n';
+riktig.forEach(t=>x+=`    <apning type="riktig">${esc(t)}</apning>\n`);
+feil.forEach(t=>x+=`    <apning type="feil">${esc(t)}</apning>\n`);
+x+='  </tilbakemeldingsmaler>\n';
+let n=0;
+for(const m of mods){const key=slug[m.tema];const items=m.emner.flatMap(e=>e.items);
+ if(fb[key].length!==items.length)throw new Error('antall '+key);
+ x+=`  <kategori navn="${esc(m.tema)}" antall="${items.length}">\n`;
+ items.forEach((it,i)=>{n++;
+  x+=`    <sporsmal id="${key}-${String(i+1).padStart(2,'0')}">\n      <tekst>${esc(it[0])}</tekst>\n`;
+  it.slice(1).forEach((s,k)=>{x+=`      <svar${k===0?' riktig="true"':''}>${esc(s)}</svar>\n`});
+  x+=`      <tilbakemelding>\n        <riktig>${esc(fb[key][i][0])}</riktig>\n        <feil>${esc(fb[key][i][1])}</feil>\n      </tilbakemelding>\n    </sporsmal>\n`;});
+ x+='  </kategori>\n';}
+x+='</sporsmalsbank>\n';
+fs.writeFileSync(__dirname+'/../ut/sporsmalsbank_samfunnskunnskap_v1.1.xml',x);console.log(n);

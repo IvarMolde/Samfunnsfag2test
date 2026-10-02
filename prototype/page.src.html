@@ -1,0 +1,229 @@
+<title>Samfunnskunnskap øving</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&display=swap">
+<style>
+/* Layout: én smal kolonne (maks 40rem), ett spørsmål om gangen, tilbakemelding rett under svarene. */
+:root{
+  --bg:#f4f6f8; --surface:#ffffff; --fg:#17212b; --muted:#56636f; --line:#d3dbe2;
+  --accent:#1c4f8c; --accent-fg:#ffffff; --accent-soft:#e3edf8;
+  --ok:#17653a; --ok-bg:#e1f3e8; --bad:#a3361f; --bad-bg:#fbe9e4; --hint:#7a5b00; --hint-bg:#fdf3d4;
+  --font-display:"Bricolage Grotesque","Trebuchet MS",system-ui,sans-serif;
+  --font-body:"Atkinson Hyperlegible","Segoe UI",system-ui,sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#10171e; --surface:#18222c; --fg:#e8eef3; --muted:#9eacb8; --line:#2f3d4a;
+  --accent:#7fb2ee; --accent-fg:#0d1b2a; --accent-soft:#1c2d41;
+  --ok:#7fd6a0; --ok-bg:#16301f; --bad:#ff9d86; --bad-bg:#3a1f19; --hint:#f2cf6b; --hint-bg:#352b0e; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#10171e; --surface:#18222c; --fg:#e8eef3; --muted:#9eacb8; --line:#2f3d4a;
+  --accent:#7fb2ee; --accent-fg:#0d1b2a; --accent-soft:#1c2d41;
+  --ok:#7fd6a0; --ok-bg:#16301f; --bad:#ff9d86; --bad-bg:#3a1f19; --hint:#f2cf6b; --hint-bg:#352b0e; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font:1.125rem/1.55 var(--font-body);padding-inline:1rem;padding-block:1.25rem 3rem}
+.wrap{max-width:40rem;margin-inline:auto;display:flex;flex-direction:column;gap:1.25rem}
+header.top{display:flex;justify-content:space-between;align-items:center;gap:1rem}
+.brand{font:700 1.15rem var(--font-display);letter-spacing:.01em}
+.brand small{display:block;font:400 .85rem var(--font-body);color:var(--muted);letter-spacing:0}
+button{font:inherit;color:inherit;cursor:pointer}
+:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:.75rem;padding:1.25rem}
+h1,h2{font-family:var(--font-display);line-height:1.2;text-wrap:balance;margin:0}
+h1{font-size:1.7rem;overflow-wrap:anywhere}
+[tabindex="-1"]:focus{outline:none}
+h2{font-size:1.35rem}
+p{margin:0}
+.muted{color:var(--muted)}
+.btn{border:2px solid var(--accent);background:var(--accent);color:var(--accent-fg);border-radius:.6rem;padding:.8rem 1.25rem;font-weight:700;min-height:3rem}
+.btn.ghost{background:transparent;color:var(--accent)}
+.btn.small{padding:.4rem .8rem;min-height:2.4rem;font-size:.95rem}
+.btn:disabled{opacity:.5;cursor:not-allowed}
+.row{display:flex;flex-wrap:wrap;gap:.75rem}
+fieldset{border:0;margin:0;padding:0;min-width:0}
+legend{font-weight:700;margin-bottom:.5rem;padding:0}
+.chips{display:flex;flex-wrap:wrap;gap:.5rem}
+.chips input{position:absolute;opacity:0;pointer-events:none}
+.chips label{border:2px solid var(--line);border-radius:.6rem;padding:.55rem .9rem;cursor:pointer;background:var(--surface);min-height:2.75rem;display:flex;align-items:center}
+.chips input:checked+label{border-color:var(--accent);background:var(--accent-soft);font-weight:700}
+.chips input:focus-visible+label{outline:3px solid var(--accent);outline-offset:2px}
+.opts{display:flex;flex-direction:column;gap:.7rem;margin:0;padding:0;list-style:none}
+.opt{width:100%;text-align:left;display:flex;gap:.8rem;align-items:flex-start;border:2px solid var(--line);background:var(--surface);border-radius:.7rem;padding:.9rem 1rem;min-height:3.25rem}
+.opt .k{flex:none;width:1.9rem;height:1.9rem;border-radius:50%;border:2px solid var(--line);display:grid;place-items:center;font:700 .95rem var(--font-body);color:var(--muted)}
+.opt:hover:not(:disabled){border-color:var(--accent)}
+.opt:disabled{cursor:default}
+.opt.ok{border-color:var(--ok);background:var(--ok-bg)}
+.opt.ok .k{background:var(--ok);border-color:var(--ok);color:var(--surface)}
+.opt.bad{border-color:var(--bad);background:var(--bad-bg)}
+.opt.bad .k{background:var(--bad);border-color:var(--bad);color:var(--surface)}
+.opt .tag{display:block;font-size:.85rem;font-weight:700;margin-top:.15rem}
+.opt.ok .tag{color:var(--ok)} .opt.bad .tag{color:var(--bad)}
+.progress{display:flex;flex-direction:column;gap:.4rem}
+.progress .meta{display:flex;justify-content:space-between;gap:1rem;font-size:.95rem;color:var(--muted)}
+.bar{height:.5rem;background:var(--line);border-radius:1rem;overflow:hidden}
+.bar>i{display:block;height:100%;background:var(--accent);width:0;transition:width .3s}
+.cat{font-size:.85rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--accent)}
+.q{font:700 1.4rem/1.3 var(--font-display);text-wrap:balance;margin:.35rem 0 1.1rem}
+.fb{border-radius:.7rem;padding:1rem 1.1rem;display:flex;flex-direction:column;gap:.35rem;border:2px solid transparent}
+.fb strong{font-size:1.1rem}
+.fb.ok{background:var(--ok-bg);border-color:var(--ok)} .fb.ok strong{color:var(--ok)}
+.fb.bad{background:var(--bad-bg);border-color:var(--bad)} .fb.bad strong{color:var(--bad)}
+.fb.hint{background:var(--hint-bg);border-color:var(--hint)} .fb.hint strong{color:var(--hint)}
+.score{font:700 3rem/1 var(--font-display);font-variant-numeric:tabular-nums}
+.cats{display:flex;flex-direction:column;gap:.8rem;margin:0;padding:0;list-style:none}
+.cats li{display:grid;gap:.3rem}
+.cats .l{display:flex;justify-content:space-between;gap:1rem;font-variant-numeric:tabular-nums}
+.miss{display:flex;flex-direction:column;gap:.9rem;margin:0;padding:0;list-style:none}
+.miss li{border-top:1px solid var(--line);padding-top:.8rem}
+.miss b{display:block}
+.toggle{background:none;border:1px solid var(--line);border-radius:.5rem;padding:.35rem .7rem;font-size:.9rem;color:var(--muted)}
+.note{font-size:.9rem;color:var(--muted)}
+@media (prefers-reduced-motion: reduce){.bar>i{transition:none}}
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div class="brand">Samfunnskunnskap<small>Øv til prøven</small></div>
+    <button class="toggle" id="themeBtn" type="button" aria-label="Bytt mellom lyst og mørkt utseende">Lys / mørk</button>
+  </header>
+
+  <main id="app" aria-live="polite"></main>
+  <p class="note">Dette er et øvingsverktøy og ikke den offisielle prøven. Spørsmålene bygger på samfunnskunnskap.no.</p>
+</div>
+
+<script type="text/plain" id="xmlData">__XML__</script>
+<script>
+(function(){
+  // ---------- Data fra XML-filen ----------
+  var doc = new DOMParser().parseFromString(document.getElementById('xmlData').textContent.trim(), 'application/xml');
+  var openers = {riktig:[], feil:[]};
+  doc.querySelectorAll('tilbakemeldingsmaler > apning').forEach(function(a){ openers[a.getAttribute('type')].push(a.textContent); });
+  var categories = [], all = [];
+  doc.querySelectorAll('kategori').forEach(function(k){
+    var name = k.getAttribute('navn'); categories.push(name);
+    k.querySelectorAll('sporsmal').forEach(function(q){
+      var svar = Array.prototype.map.call(q.querySelectorAll('svar'), function(s){ return {text:s.textContent, correct:s.getAttribute('riktig')==='true'}; });
+      all.push({id:q.getAttribute('id'), cat:name, text:q.querySelector('tekst').textContent, answers:svar,
+        fbOk:q.querySelector('tilbakemelding > riktig').textContent, fbBad:q.querySelector('tilbakemelding > feil').textContent});
+    });
+  });
+
+  // ---------- Hjelpefunksjoner ----------
+  function shuffle(a){ a=a.slice(); for(var i=a.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1)); var t=a[i]; a[i]=a[j]; a[j]=t;} return a; }
+  function pick(a){ return a[Math.floor(Math.random()*a.length)]; }
+  function el(tag, attrs, kids){ var e=document.createElement(tag); for(var k in (attrs||{})){ if(k==='class')e.className=attrs[k]; else if(k==='text')e.textContent=attrs[k]; else e.setAttribute(k,attrs[k]); } (kids||[]).forEach(function(c){ e.appendChild(typeof c==='string'?document.createTextNode(c):c); }); return e; }
+  var app = document.getElementById('app');
+  var first=true;
+  function mount(node){ app.replaceChildren(node); var h=node.querySelector('h1,h2,.q'); if(first){first=false;return;} if(h){ h.setAttribute('tabindex','-1'); h.focus({preventScroll:false}); } }
+
+  // Utvalg: jevn fordeling mellom valgte kategorier, ingen spørsmål to ganger.
+  function draw(n, cats, ids){
+    var pool = ids ? all.filter(function(q){return ids.indexOf(q.id)>-1;}) : all.filter(function(q){return cats.indexOf(q.cat)>-1;});
+    if(ids) return shuffle(pool);
+    var by = {}; cats.forEach(function(c){ by[c]=shuffle(pool.filter(function(q){return q.cat===c;})); });
+    var out=[], i=0;
+    while(out.length<n){ var c=cats[i%cats.length]; if(by[c].length) out.push(by[c].shift()); i++; if(i>n*cats.length+10) break; }
+    return shuffle(out);
+  }
+
+  // ---------- Startskjerm ----------
+  var settings = {n:36, cat:'alle'};
+  function start(){
+    var counts=[30,36,40];
+    var f1=el('fieldset',{},[el('legend',{text:'Hvor mange spørsmål vil du ha?'}),el('div',{class:'chips'},counts.map(function(c){
+      var id='n'+c; return el('span',{},[el('input',Object.assign({type:'radio',name:'n',id:id,value:c},settings.n===c?{checked:''}:{})),el('label',{for:id,text:c+' spørsmål'})]); }))]);
+    var opts=['alle'].concat(categories);
+    var f2=el('fieldset',{},[el('legend',{text:'Hvilket tema vil du øve på?'}),el('div',{class:'chips'},opts.map(function(c,i){
+      var id='c'+i; return el('span',{},[el('input',Object.assign({type:'radio',name:'c',id:id,value:c},settings.cat===c?{checked:''}:{})),el('label',{for:id,text:c==='alle'?'Alle temaer':c})]); }))]);
+    var go=el('button',{class:'btn',type:'button',text:'Start øvingen'});
+    go.onclick=function(){ settings.n=+document.querySelector('input[name=n]:checked').value; settings.cat=document.querySelector('input[name=c]:checked').value;
+      var cats=settings.cat==='alle'?categories:[settings.cat]; run(draw(settings.n,cats)); };
+    mount(el('section',{class:'card',style:'display:flex;flex-direction:column;gap:1.4rem'},[
+      el('h1',{text:'Øv til prøven i samfunnskunnskap'}),
+      el('p',{class:'muted',text:'Du får tilbakemelding etter hvert svar. Hvis du svarer feil, får du et hint og kan prøve en gang til. Spørsmålene er på A2-nivå.'}),
+      f1,f2,go,
+      el('p',{class:'note',text:all.length+' spørsmål i banken. Temaer: '+categories.join(', ')+'.'})]));
+  }
+
+  // ---------- Test ----------
+  function run(qs){
+    var i=0, results=[];
+    function show(){
+      var q=qs[i], order=shuffle(q.answers), tries=0, done=false;
+      var optsList=el('ul',{class:'opts'}), fbBox=el('div',{id:'fb','aria-live':'assertive'}), nextWrap=el('div',{class:'row'});
+      var buttons=[];
+      order.forEach(function(a,idx){
+        var tag=el('span',{class:'tag',hidden:''});
+        var b=el('button',{class:'opt',type:'button'},[el('span',{class:'k',text:String(idx+1)}),el('span',{},[a.text,tag])]);
+        b.onclick=function(){ choose(a,b,tag); }; buttons.push({b:b,a:a,tag:tag}); optsList.appendChild(el('li',{},[b]));
+      });
+      function lockAll(){ buttons.forEach(function(x){x.b.disabled=true;}); }
+      function mark(x,cls,label){ x.b.classList.add(cls); x.tag.textContent=label; x.tag.hidden=false; }
+      function fb(kind,title,body){ fbBox.replaceChildren(el('div',{class:'fb '+kind},[el('strong',{text:title}),el('p',{text:body})])); }
+      function finish(firstTry){
+        done=true; lockAll(); results.push({q:q,first:firstTry});
+        var last=i===qs.length-1;
+        var nb=el('button',{class:'btn',type:'button',text:last?'Se resultatet':'Neste spørsmål'}); nb.onclick=function(){ if(last){ finishRun(); } else { i++; show(); } };
+        nextWrap.replaceChildren(nb); nb.focus();
+      }
+      function choose(a,b,tag){
+        if(done) return; tries++;
+        var me=buttons.filter(function(x){return x.b===b;})[0];
+        if(a.correct){
+          mark(me,'ok','Riktig');
+          var title=pick(openers.riktig); if(tries>1) title='Bra, nå fikk du det riktig.';
+          fb('ok',title,q.fbOk); finish(tries===1);
+        } else if(tries===1){
+          mark(me,'bad','Ikke riktig'); b.disabled=true;
+          fb('hint',pick(openers.feil),'Hint: '+q.fbBad+' Prøv en gang til.');
+        } else {
+          mark(me,'bad','Ikke riktig');
+          buttons.forEach(function(x){ if(x.a.correct) mark(x,'ok','Riktig svar'); });
+          fb('bad',pick(openers.feil),'Riktig svar: «'+order.filter(function(o){return o.correct;})[0].text+'». '+q.fbOk); finish(false);
+        }
+      }
+      var pct=Math.round(i/qs.length*100);
+      var node=el('section',{class:'card'},[
+        el('div',{class:'progress'},[el('div',{class:'meta'},[el('span',{text:'Spørsmål '+(i+1)+' av '+qs.length}),el('span',{text:results.filter(function(r){return r.first;}).length+' riktige'})]),
+          el('div',{class:'bar',role:'progressbar','aria-valuemin':'0','aria-valuemax':String(qs.length),'aria-valuenow':String(i)},[el('i',{style:'width:'+pct+'%'})])]),
+        el('div',{style:'margin-top:1.1rem'},[el('div',{class:'cat',text:q.cat}),el('h2',{class:'q',text:q.text})]),
+        optsList,
+        el('div',{style:'display:flex;flex-direction:column;gap:1rem;margin-top:1.1rem'},[fbBox,nextWrap])]);
+      mount(node);
+    }
+    function finishRun(){
+      var right=results.filter(function(r){return r.first;}).length, total=results.length, pct=Math.round(right/total*100);
+      var cats={}; results.forEach(function(r){ var c=cats[r.q.cat]||(cats[r.q.cat]={r:0,t:0}); c.t++; if(r.first)c.r++; });
+      var missed=results.filter(function(r){return !r.first;});
+      var msg = pct>=80?'Veldig bra! Du kan mye om dette.':pct>=60?'Bra jobbet. Øv litt mer på det du bommet på.':'Du er på vei. Øv på spørsmålene du svarte feil på, så går det bedre.';
+      var catList=el('ul',{class:'cats'},Object.keys(cats).map(function(k){ var c=cats[k], p=Math.round(c.r/c.t*100);
+        return el('li',{},[el('div',{class:'l'},[el('span',{text:k}),el('span',{text:c.r+' av '+c.t})]),el('div',{class:'bar'},[el('i',{style:'width:'+p+'%'})])]); }));
+      var kids=[el('h2',{text:'Resultat'}),
+        el('div',{style:'display:flex;align-items:baseline;gap:.8rem;flex-wrap:wrap'},[el('div',{class:'score',text:right+' / '+total}),el('div',{class:'muted',text:pct+' % riktig på første forsøk'})]),
+        el('p',{text:msg}), el('h2',{text:'Per tema',style:'font-size:1.1rem'}), catList];
+      if(missed.length){
+        kids.push(el('h2',{text:'Dette bør du øve mer på',style:'font-size:1.1rem'}));
+        kids.push(el('ul',{class:'miss'},missed.map(function(r){ var ans=r.q.answers.filter(function(a){return a.correct;})[0].text;
+          return el('li',{},[el('b',{text:r.q.text}),el('span',{text:'Riktig svar: '+ans})]); })));
+      }
+      var again=el('button',{class:'btn',type:'button',text:'Ny test'}); again.onclick=start;
+      var row=el('div',{class:'row'},[again]);
+      if(missed.length){ var rep=el('button',{class:'btn ghost',type:'button',text:'Øv på feilene ('+missed.length+')'}); rep.onclick=function(){ run(draw(0,[],missed.map(function(r){return r.q.id;}))); }; row.appendChild(rep); }
+      kids.push(row);
+      mount(el('section',{class:'card',style:'display:flex;flex-direction:column;gap:1.1rem'},kids));
+    }
+    show();
+  }
+
+  // ---------- Tastatur: 1, 2, 3 velger svar ----------
+  document.addEventListener('keydown',function(e){
+    if(e.target.closest&&e.target.closest('input,textarea')) return;
+    if(['1','2','3'].indexOf(e.key)>-1){ var b=document.querySelectorAll('.opt'); var t=b[+e.key-1]; if(t&&!t.disabled) t.click(); }
+  });
+
+  // ---------- Tema ----------
+  document.getElementById('themeBtn').onclick=function(){
+    var r=document.documentElement, dark=r.getAttribute('data-theme')==='dark' || (!r.getAttribute('data-theme') && matchMedia('(prefers-color-scheme: dark)').matches);
+    r.setAttribute('data-theme', dark?'light':'dark');
+  };
+
+  start();
+})();
+</script>
