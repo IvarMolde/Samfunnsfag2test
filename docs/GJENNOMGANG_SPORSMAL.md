@@ -4,7 +4,18 @@ Dato: 2. oktober 2026. Gjennomgått: alle 240 spørsmål og tilbakemeldinger i `
 
 ID-ene er de samme som i `questions.xml` (for eksempel `skole-44`). Nummeret er linjenummeret i kildefilen minus 1.
 
-Ingen spørsmål er endret ennå. Forslagene skal vurderes av en faglærer før de legges inn i kilden og `npm run bygg` kjøres.
+## Status
+
+Alle funnene under er rettet i `sporsmalsbank/kilde/`, og `questions.xml` er bygd på nytt. Teksten som står i banken nå, er stort sett lik forslagene. Noen svaralternativer er gjort like lange, så lengden ikke avslører det riktige svaret.
+
+Under rettingen ble to punkter avklart, og to spørsmål til ble rettet:
+
+- **skole-52 var feil, ikke bare usikker.** Etter opplæringsloven § 18-3 (2024) har voksne rett til videregående opplæring fra skoleåret de fyller 19 år. Det finnes ingen grense på 25 år. «(25 år eller eldre)» er tatt ut, og lovlig opphold er nevnt i tilbakemeldingen.
+- **skole-57:** HK-dir har to prøver: Norskprøven A1–B2 og Norskprøven C1. Spørsmålet gjelder norskopplæringen for voksne (A1–B2). Tilbakemeldingen nevner nå C1-prøven.
+- **skole-80 (rettet i tillegg):** «Hva bestemmer hvem som får plass på videregående?» sa imot skole-36, fordi alle som har fullført grunnskolen, har rett til plass. Nå spør det om hva som avgjør *hvilken* skole du kommer inn på.
+- **skole-37 (rettet i tillegg):** Yrkesfag gir fagbrev *eller svennebrev*.
+
+En faglærer bør likevel lese gjennom de endrede spørsmålene før banken brukes med deltakere.
 
 ## Kategorier
 
