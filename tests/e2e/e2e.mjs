@@ -42,17 +42,21 @@ const setup = async (p, count, mode) => { await p.click(`.choice[data-count="${c
 
 await scenario("Les her forklarer prøven og at resultatet ikke er offisielt", async p => {
   await p.click("#aboutBtn");
-  const dlg = await p.$("#aboutDialog");
-  assert.equal(await dlg.evaluate(d => d.open), true);
+  assert.equal(await p.isVisible("#aboutDialog"), true);
   const text = await p.textContent("#aboutDialog");
   assert.match(text, /alltid 38 spørsmål/);
   assert.match(text, /ikke et offisielt resultat/);
   assert.match(text, /ikke den offisielle prøven/);
+  await p.click("#aboutTitle");
+  assert.equal(await p.isVisible("#aboutDialog"), true, "klikk i teksten lukker ikke boksen");
   await p.click("#aboutClose");
-  assert.equal(await dlg.evaluate(d => d.open), false);
+  assert.equal(await p.isVisible("#aboutDialog"), false);
   await p.click("#aboutBtn");
   await p.keyboard.press("Escape");
-  assert.equal(await dlg.evaluate(d => d.open), false);
+  assert.equal(await p.isVisible("#aboutDialog"), false);
+  await p.click("#aboutBtn");
+  await p.click("#aboutDialog", { position: { x: 8, y: 8 } });
+  assert.equal(await p.isVisible("#aboutDialog"), false, "klikk utenfor boksen lukker den");
 });
 
 await scenario("Banken har 240 spørsmål, 80 per tema", async p => {
