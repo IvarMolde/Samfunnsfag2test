@@ -52,7 +52,9 @@ button{cursor:pointer}
 .lead,.panel>p{color:var(--ink-2)}
 .about-btn{display:inline-flex;align-items:center;justify-content:center;margin-top:14px;min-height:48px;padding:10px 22px;font-weight:700;font-size:1.05rem;color:var(--primary);background:var(--primary-soft);border:2px solid var(--primary);border-radius:var(--radius)}
 .about-btn:hover{background:var(--primary);color:var(--primary-ink)}
-#aboutDialog{max-width:560px}
+.info-modal{position:fixed;inset:0;z-index:40;display:grid;place-items:center;padding:16px;background:rgba(20,61,86,.45)}
+.info-panel{width:min(560px,100%);max-height:calc(100vh - 32px);overflow:auto;background:var(--surface);color:var(--ink);border:1px solid var(--line);border-radius:var(--radius);padding:22px}
+.info-panel h2{font-size:1.3rem;margin-bottom:8px}
 .about-body{display:grid;gap:8px;margin-top:4px}
 .about-body h3{font-size:1.05rem;margin-top:8px}
 .about-body p{margin:0}
@@ -211,7 +213,7 @@ dialog h2{font-size:1.3rem;margin-bottom:8px}
 @media print{
   :root{--bg:#fff;--surface:#fff;--ink:#143d56}
   body{background:#fff}
-  .screen:not(#resultScreen),dialog,.skip,.site-header,.site-footer,.site-meta,.quiz-bar,.progress{display:none!important}
+  .screen:not(#resultScreen),dialog,.info-modal,.skip,.site-header,.site-footer,.site-meta,.quiz-bar,.progress{display:none!important}
   #resultScreen{display:block!important}
   #resultScreen .panel{margin:0;padding:0;border:0;max-width:none;box-shadow:none;background:#fff}
   #resultScreen .panel>:not(#diploma){display:none!important}

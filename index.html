@@ -27,7 +27,7 @@
       <div class="panel">
         <h1 id="startTitle" tabindex="-1">Start</h1>
         <p class="lead">Velg hvordan du vil øve. Dette er en øvingsprøve, ikke den offisielle prøven.</p>
-        <button type="button" class="about-btn" id="aboutBtn">Les her</button>
+        <button type="button" class="about-btn" id="aboutBtn" aria-haspopup="dialog" aria-controls="aboutDialog">Les her</button>
         <label for="studentName">Navn <span>(valgfritt, vises bare på resultatet ditt)</span></label>
         <input id="studentName" type="text" autocomplete="name" placeholder="Skriv navnet ditt">
         <div id="countSetup">
@@ -109,23 +109,6 @@
       </div>
     </section>
 
-    <dialog id="aboutDialog" aria-labelledby="aboutTitle">
-      <h2 id="aboutTitle">Slik fungerer prøven</h2>
-      <div class="about-body">
-        <p>Dette er en øvingsprøve i samfunnskunnskap. Det er ikke den offisielle prøven.</p>
-        <h3>Øving</h3>
-        <p>Du får vite med en gang om svaret er riktig. Du kan ta 20, 30 eller 40 spørsmål. Du kan øve på ett undertema, eller på alle temaene.</p>
-        <h3>Prøve</h3>
-        <p>Du kan ikke velge antall spørsmål. Prøven har alltid 38 spørsmål. De trekkes tilfeldig fra alle temaene, med like mange fra hvert tema. Du får ikke vite om svaret er riktig før du leverer. Du kan gå tilbake og endre svar.</p>
-        <h3>Resultat</h3>
-        <p>Du består når minst 80 prosent av svarene er riktige. Resultatet viser bare hvordan det gikk på denne prøven. Det er ikke et offisielt resultat. Norske myndigheter har ikke godkjent prøven.</p>
-        <p>Vi lagrer ingenting om deg.</p>
-      </div>
-      <div class="dlg-actions">
-        <button type="button" class="primary" id="aboutClose">Lukk</button>
-      </div>
-    </dialog>
-
     <dialog id="submitDialog" aria-labelledby="dlgTitle">
       <form method="dialog">
         <h2 id="dlgTitle">Lever inn prøven?</h2>
@@ -181,6 +164,24 @@
     <p>Dette er en øvingsprøve og ikke et offisielt dokument. Vi lagrer ingenting om deg.</p>
     <p>Les mer her: <a href="https://www.samfunnskunnskap.no">www.samfunnskunnskap.no</a></p>
   </footer>
+  <div id="aboutDialog" class="info-modal" hidden role="dialog" aria-modal="true" aria-labelledby="aboutTitle">
+    <div class="info-panel">
+      <h2 id="aboutTitle">Slik fungerer prøven</h2>
+      <div class="about-body">
+        <p>Dette er en øvingsprøve i samfunnskunnskap. Det er ikke den offisielle prøven.</p>
+        <h3>Øving</h3>
+        <p>Du får vite med en gang om svaret er riktig. Du kan ta 20, 30 eller 40 spørsmål. Du kan øve på ett undertema, eller på alle temaene.</p>
+        <h3>Prøve</h3>
+        <p>Du kan ikke velge antall spørsmål. Prøven har alltid 38 spørsmål. De trekkes tilfeldig fra alle temaene, med like mange fra hvert tema. Du får ikke vite om svaret er riktig før du leverer. Du kan gå tilbake og endre svar.</p>
+        <h3>Resultat</h3>
+        <p>Du består når minst 80 prosent av svarene er riktige. Resultatet viser bare hvordan det gikk på denne prøven. Det er ikke et offisielt resultat. Norske myndigheter har ikke godkjent prøven.</p>
+        <p>Vi lagrer ingenting om deg.</p>
+      </div>
+      <div class="dlg-actions">
+        <button type="button" class="primary" id="aboutClose">Lukk</button>
+      </div>
+    </div>
+  </div>
   <script type="module" src="app.js"></script>
 </body>
 </html>

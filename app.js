@@ -448,9 +448,22 @@ let timerTouched = false;
 $("#timerMinutes").onchange = () => { timerTouched = true; };
 const defaultMinutes = { 20: 20, 30: 30, 40: 45 };
 $("#timerMinutes").value = String(defaultMinutes[20]);
-$("#aboutBtn").onclick = () => $("#aboutDialog").showModal();
-$("#aboutClose").onclick = () => $("#aboutDialog").close();
-$("#aboutDialog").addEventListener("click", e => { if (e.target === $("#aboutDialog")) $("#aboutDialog").close(); });
+function openAbout() {
+  $("#aboutDialog").hidden = false;
+  $("#aboutClose").focus();
+}
+function closeAbout() {
+  if ($("#aboutDialog").hidden) return;
+  $("#aboutDialog").hidden = true;
+  $("#aboutBtn").focus();
+}
+$("#aboutBtn").onclick = openAbout;
+$("#aboutClose").onclick = closeAbout;
+$("#aboutDialog").addEventListener("click", e => { if (e.target === $("#aboutDialog")) closeAbout(); });
+$("#aboutDialog").querySelector(".info-panel").addEventListener("click", e => e.stopPropagation());
+document.addEventListener("keydown", e => {
+  if (e.key === "Escape" && !$("#aboutDialog").hidden) { e.preventDefault(); closeAbout(); }
+});
 $("#startBtn").onclick = start;
 $("#nextBtn").onclick = next;
 $("#quitBtn").onclick = () => {
