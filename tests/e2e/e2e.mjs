@@ -57,6 +57,7 @@ for (const n of [20, 30, 40]) {
     assert.equal(await p.isVisible("#feedback"), true);
     assert.match(await p.textContent("#feedback"), /✓/);
     assert.equal(await p.isVisible("#timer"), false);
+    assert.equal(await p.isVisible("#testTools"), false, "Prøvemodus-knapper skal ikke vises i Øvingsmodus");
   });
 }
 
@@ -113,7 +114,11 @@ await scenario("Prøvemodus: gå tilbake, endre svar, fjerne svar og merke spør
 });
 
 await scenario("Prøvemodus med tidtaker: automatisk innlevering når tiden er ute", async p => {
-  await setup(p, 20, "test"); await p.check("#useTimer");
+  assert.equal(await p.isVisible("#timerSetup"), false, "tidtaker-valg skjult i Øvingsmodus");
+  await setup(p, 20, "test");
+  assert.equal(await p.isVisible("#timerMinutesWrap"), false, "minutter skjult før tidtaker er valgt");
+  await p.check("#useTimer");
+  assert.equal(await p.isVisible("#timerMinutesWrap"), true);
   assert.equal(await p.inputValue("#timerMinutes"), "20");
   await p.click("#startBtn");
   assert.match(await p.textContent("#timer"), /^\d\d:\d\d$/);
@@ -171,6 +176,28 @@ await scenario("Ingen horisontal rulling på mobil (360 px) på alle skjermer", 
   await p.click("#overviewBtn"); assert.ok(await noScroll(), "oversikt");
   await p.click("#submitBtn"); await p.click("#dlgOk"); assert.ok(await noScroll(), "resultat");
 }, { width: 360, height: 740 });
+
+
+// Universell utforming: axe-core (WCAG 2.1 A og AA) på alle skjermer, i lys og mørk modus
+for (const scheme of ["light", "dark"]) {
+  await scenario(`Tilgjengelighet (axe, WCAG 2.1 AA) i ${scheme === "light" ? "lys" : "mørk"} modus`, async (p, ctx) => {
+    await p.emulateMedia({ colorScheme: scheme });
+    const check = async label => {
+      await p.addScriptTag({ path: path.join(root, "node_modules/axe-core/axe.min.js") }).catch(() => {});
+      const res = await p.evaluate(() => axe.run(document, { runOnly: ["wcag2a", "wcag2aa", "wcag21a", "wcag21aa"] }));
+      const v = res.violations.map(x => `${x.id} (${x.nodes.length}): ${x.nodes.slice(0, 2).map(n => n.target.join(" ")).join(", ")}`);
+      assert.deepEqual(v, [], `${label}: ${v.join(" | ")}`);
+    };
+    await check("startside");
+    await setup(p, 20, "test"); await p.check("#useTimer"); await check("startside med tidtaker");
+    await p.click("#startBtn"); await clickOpt(p, 0); await p.click("#flagBtn"); await check("Prøvemodus-spørsmål");
+    await p.click("#overviewBtn"); await check("oversikt");
+    await p.click("#submitBtn"); await check("innleveringsdialog");
+    await p.click("#dlgOk"); await check("resultat"); await p.click("#reviewBtn"); await check("resultat med gjennomgang");
+    await p.click("#restartBtn"); await setup(p, 20, "practice"); await p.click("#startBtn");
+    await clickOpt(p, 0); await check("Øvingsmodus med tilbakemelding");
+  });
+}
 
 await browser.close(); server.close();
 if (failed) { console.error(`\n${failed} scenario(er) feilet.`); process.exit(1); }

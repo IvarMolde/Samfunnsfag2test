@@ -101,7 +101,7 @@ function renderQuestion() {
   const last = state.current === n - 1;
   if (test) {
     $("#nextBtn").disabled = false;
-    $("#nextBtn").innerHTML = last ? "Til oversikt <span>→</span>" : "Neste <span>→</span>";
+    $("#nextBtn").textContent = last ? "Til oversikt" : "Neste";
     $("#prevBtn").disabled = state.current === 0;
     const f = $("#flagBtn");
     f.setAttribute("aria-pressed", String(a.flagged));
@@ -109,7 +109,7 @@ function renderQuestion() {
     f.classList.toggle("on", a.flagged);
   } else {
     $("#nextBtn").disabled = a.picked === null;
-    $("#nextBtn").innerHTML = last ? "Se resultat <span>→</span>" : "Neste <span>→</span>";
+    $("#nextBtn").textContent = last ? "Se resultat" : "Neste";
   }
   const box = $("#options"); box.innerHTML = "";
   q.options.forEach((o, i) => {
@@ -223,6 +223,7 @@ function showResult() {
   $("#totalCount").textContent = r.total;
   $("#requirement").textContent = retry ? "–" : `${PASS_PERCENT} %`;
   $("#scoreCircle").dataset.status = $("#resultTitle").dataset.status;
+  $("#scoreArc").style.strokeDasharray = `${Math.max(0.01, r.pct)} 100`;
   const note = $("#resultNote");
   const bits = [];
   if (state.autoSubmitted) bits.push("Tiden var ute, og prøven ble levert automatisk.");
@@ -247,9 +248,13 @@ function renderThemes(r) {
     row.className = "theme-row";
     const pct = Math.round(c.pct);
     row.innerHTML = `<div class="theme-label"><span>${esc(c.category)}</span><strong>${c.correct} av ${c.total} (${pct} %)</strong></div>
-      <div class="bar" role="img" aria-label="${c.correct} av ${c.total} riktige"><div class="bar-fill ${c.pct >= PASS_PERCENT ? "ok" : "low"}" style="width:${pct}%"></div></div>`;
+      <div class="bar" role="img" aria-label="${c.correct} av ${c.total} riktige"><div class="bar-fill ${c.pct >= PASS_PERCENT ? "ok" : "low"}" style="width:${pct}%"></div><i class="mark" aria-hidden="true"></i></div>`;
     box.appendChild(row);
   });
+  const key = document.createElement("p");
+  key.className = "bar-key";
+  key.textContent = `Streken viser ${PASS_PERCENT} %, kravet for å bestå.`;
+  box.appendChild(key);
 }
 
 function renderReview(r) {
@@ -310,8 +315,9 @@ window.addEventListener("beforeunload", e => { if (state.running && state.mode =
 $("#restartBtn").onclick = () => show("start");
 $("#printBtn").onclick = printResult;
 $("#reviewBtn").onclick = () => {
-  $("#review").classList.toggle("open");
-  $("#reviewBtn").textContent = $("#review").classList.contains("open") ? "Skjul gjennomgang" : "Se gjennom svar";
+  const open = $("#review").classList.toggle("open");
+  $("#reviewBtn").textContent = open ? "Skjul gjennomgang" : "Se gjennom svar";
+  $("#reviewBtn").setAttribute("aria-expanded", String(open));
 };
 loadBank().catch(err => { console.error(err); alert("Kunne ikke laste spørsmålsbanken. Kontroller at questions.xml ligger i samme mappe som index.html."); });
 

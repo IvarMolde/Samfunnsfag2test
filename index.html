@@ -3,30 +3,39 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="Øv til prøven i samfunnskunnskap med spørsmål om livet i Norge. Øvingsprøve, ikke den offisielle prøven.">
+  <link rel="preload" href="fonts/lexend-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/lexend-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
   <title>Samfunnskunnskap – øvingsprøve</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main id="app">
+  <a class="skip" href="#main">Hopp til innhold</a>
+  <main id="main">
     <section class="screen active" id="startScreen">
       <div class="hero">
-        <div class="eyebrow">SAMFUNNSKUNNSKAP · A2</div>
-        <h1>Øv til prøven</h1>
-        <p class="lead">Test kunnskap om livet i Norge, opphold, integrering, demokrati og rettigheter.</p>
+        <svg class="fjord" viewBox="0 0 800 160" preserveAspectRatio="xMidYMax slice" aria-hidden="true" focusable="false">
+          <path class="f3" d="M0 160V92l70-30 60 28 90-48 80 52 70-34 110 60 85-44 90 38 70-22 75 38V160Z"/>
+          <path class="f2" d="M0 160V118l95-34 70 30 110-42 95 50 90-30 120 44 100-36 120 40V160Z"/>
+          <path class="f1" d="M0 160v-22l120-26 130 22 140-18 160 24 130-14 120 18V160Z"/>
+        </svg>
+        <h1 id="startTitle" tabindex="-1">Øv til prøven i samfunnskunnskap</h1>
+        <p class="lead">Svar på spørsmål om livet i Norge: skole, arbeid og kritisk tenkning. Du får like mange spørsmål fra hvert tema.</p>
       </div>
       <div class="card setup-card">
-        <label for="studentName">Navn <span>(valgfritt)</span></label>
+        <label for="studentName">Navn <span>(valgfritt, vises bare på resultatet ditt)</span></label>
         <input id="studentName" type="text" autocomplete="name" placeholder="Skriv navnet ditt">
-        <div class="field-label">Velg antall spørsmål</div>
-        <div class="choice-grid" id="countChoices">
+        <div class="field-label" id="countLabel">Antall spørsmål</div>
+        <div class="choice-grid" id="countChoices" role="group" aria-labelledby="countLabel">
           <button class="choice selected" data-count="20"><strong>20</strong><span>spørsmål</span></button>
           <button class="choice" data-count="30"><strong>30</strong><span>spørsmål</span></button>
           <button class="choice" data-count="40"><strong>40</strong><span>spørsmål</span></button>
         </div>
-        <div class="field-label">Velg modus</div>
-        <div class="mode-grid">
-          <button class="mode selected" data-mode="practice"><span class="mode-icon">💡</span><strong>Øvingsmodus</strong><small>Få tilbakemelding etter hvert svar.</small></button>
-          <button class="mode" data-mode="test"><span class="mode-icon">📝</span><strong>Prøvemodus</strong><small>Som en ekte prøve: ingen tilbakemelding før du leverer. Du kan gå tilbake og endre svar.</small></button>
+        <div class="field-label" id="modeLabel">Hvordan vil du øve?</div>
+        <div class="mode-grid" role="group" aria-labelledby="modeLabel">
+          <button class="mode selected" data-mode="practice"><strong>Øvingsmodus</strong><small>Du får tilbakemelding etter hvert svar.</small></button>
+          <button class="mode" data-mode="test"><strong>Prøvemodus</strong><small>Som en ekte prøve: ingen tilbakemelding før du leverer. Du kan gå tilbake og endre svar.</small></button>
         </div>
         <div class="timer-setup" id="timerSetup" hidden>
           <label class="check"><input type="checkbox" id="useTimer"> <span>Bruk tidtaker</span></label>
@@ -38,14 +47,15 @@
           </label>
           <p class="hint">Tiden her er ikke den offisielle tiden på prøven. Når tiden er ute, leveres prøven automatisk.</p>
         </div>
-        <div class="info-row"><span>✓ Ett riktig svar per spørsmål</span><span>✓ 80 % for å bestå</span><span>✓ Like mange spørsmål fra hvert tema</span></div>
-        <button class="primary" id="startBtn">Start prøve <span>→</span></button>
+        <ul class="info-row"><li>Ett riktig svar per spørsmål</li><li>80 % riktige for å bestå</li><li>Ingenting om deg blir lagret</li></ul>
+        <button class="primary wide" id="startBtn">Start</button>
       </div>
+      <p class="site-note">Dette er en øvingsprøve og ikke den offisielle prøven. Spørsmålene er ikke utprøvd på deltakere, så resultatet viser bare omtrent hvor du står.</p>
     </section>
 
     <section class="screen" id="quizScreen">
       <header class="quiz-header">
-        <button class="text-btn" id="quitBtn">← Avslutt</button>
+        <button class="text-btn" id="quitBtn">Avslutt</button>
         <div class="quiz-title" id="quizTitle">Samfunnskunnskap</div>
         <div class="header-right"><span class="timer" id="timer" hidden role="timer" aria-label="Tid igjen"></span><span class="counter" id="counter"></span></div>
       </header>
@@ -57,11 +67,11 @@
         <div id="feedback" class="feedback" role="status" hidden></div>
         <div class="quiz-actions">
           <div class="test-tools" id="testTools" hidden>
-            <button class="secondary" id="prevBtn">← Forrige</button>
+            <button class="secondary" id="prevBtn">Forrige</button>
             <button class="secondary" id="flagBtn" aria-pressed="false">Merk for senere</button>
             <button class="secondary" id="overviewBtn">Oversikt</button>
           </div>
-          <button class="primary" id="nextBtn" disabled>Neste <span>→</span></button>
+          <button class="primary" id="nextBtn" disabled>Neste</button>
         </div>
       </div>
       <div class="sr-only" id="liveRegion" aria-live="polite"></div>
@@ -70,7 +80,6 @@
     <section class="screen" id="overviewScreen">
       <div class="result-wrap">
         <div class="result-top">
-          <div class="eyebrow">OVERSIKT</div>
           <h1 tabindex="-1" id="overviewTitle">Se over svarene dine</h1>
           <p id="overviewSummary"></p>
           <p class="timer-line" id="overviewTimer" hidden></p>
@@ -78,7 +87,7 @@
         <div class="overview-grid" id="overviewGrid"></div>
         <ul class="legend"><li><span class="dot answered"></span>Besvart</li><li><span class="dot unanswered"></span>Ikke besvart</li><li><span class="dot flagged"></span>Merket</li></ul>
         <div class="result-actions">
-          <button class="secondary" id="backToQuizBtn">← Tilbake til spørsmålene</button>
+          <button class="secondary" id="backToQuizBtn">Tilbake til spørsmålene</button>
           <button class="primary" id="submitBtn">Lever inn prøven</button>
         </div>
       </div>
@@ -99,13 +108,19 @@
       <div class="result-wrap">
         <p class="print-only print-banner">Øvingsprøve i samfunnskunnskap · ikke en offisiell prøve</p>
         <div class="result-top">
-          <div class="eyebrow">RESULTAT</div>
           <h1 id="resultTitle" tabindex="-1"></h1>
           <p id="resultSub"></p>
           <p id="resultNote" class="result-note" hidden></p>
         </div>
         <div class="result-card">
-          <div class="score-circle" id="scoreCircle"><span id="percent"></span><small>prosent</small></div>
+          <div class="score" id="scoreCircle">
+            <svg viewBox="0 0 120 120" aria-hidden="true" focusable="false">
+              <circle class="track" cx="60" cy="60" r="52"/>
+              <circle class="arc" id="scoreArc" cx="60" cy="60" r="52" pathLength="100"/>
+              <line class="pass-tick" x1="60" y1="2" x2="60" y2="14" transform="rotate(18 60 60)"/>
+            </svg>
+            <div class="score-text"><span id="percent"></span><small>riktige</small></div>
+          </div>
           <div class="stats">
             <div><span>Riktige</span><strong id="correctCount"></strong></div>
             <div><span>Feil</span><strong id="wrongCount"></strong></div>
@@ -115,7 +130,7 @@
         </div>
         <div class="themes" id="themeBars"></div>
         <div class="result-actions">
-          <button class="primary" id="reviewBtn">Se gjennom svar</button>
+          <button class="primary" id="reviewBtn" aria-expanded="false">Se gjennom svar</button>
           <button class="secondary" id="retryBtn" hidden>Øv på feilene</button>
           <button class="secondary" id="printBtn">Skriv ut eller lagre som PDF</button>
           <button class="secondary" id="restartBtn">Ta ny prøve</button>

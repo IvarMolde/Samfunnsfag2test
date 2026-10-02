@@ -32,8 +32,16 @@ De gamle 150 spørsmålene er fjernet fra `questions.xml` (de ligger i git-histo
 
 Ikke gjort ennå: statusbar, utskrift med navn, prøvemodus med tidtaker og nytt design. Se `docs/PORTAL_BYGGEBESKRIVELSE.md`.
 
+## Design og tilgjengelighet
+
+- Skrift: Lexend (lisens: SIL OFL, se `fonts/`), hostet i repoet. Ingen eksterne kall.
+- Lys og mørk modus følger systemet. Utskrift bruker alltid lyse farger.
+- axe-core (WCAG 2.1 A og AA) kjører i `npm run e2e` på alle skjermer, i lys og mørk modus. Det er en automatisk kontroll og erstatter ikke test med skjermleser og bare tastatur.
+- Riktig og galt vises aldri med farge alene: de har også tekst («✓ Riktig», «✕ Ditt svar»).
+
 ## Kjente begrensninger
 
+- `npm run validate` gir advarsler om spørsmålsformuleringer som bør rettes: absolutte ord («alltid», «bare», «kun», «alle») står bare i gale svar i 40 spørsmål, 5 spørsmål er formulert negativt, 8 har ulikt lange svar og 4 har over 15 ord i spørsmålet.
 - Banken er **ikke utprøvd** på deltakere, og er derfor ikke psykometrisk validert.
 - Familie, helse og hverdagsliv og Norge før og nå er ikke laget ennå.
 - Rettigheter til innhold fra samfunnskunnskap.no er ikke avklart.
