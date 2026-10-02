@@ -49,7 +49,7 @@
       <tekst>Hva lærer elevene når de bruker nettet på skolen?</tekst>
       <svar riktig="true">Å finne god informasjon og bruke den</svar>
       <svar>Å spille spill og snakke med venner</svar>
-      <svar>Å lære alt utenat fra nettsider</svar>
+      <svar>Å lese mye og lære alt utenat fra nettsider</svar>
       <tilbakemelding>
         <riktig>Elevene skal lære å finne god informasjon og bruke den.</riktig>
         <feil>Skolen vil at elevene bruker nettet til å lære, ikke bare til fritid.</feil>
@@ -88,17 +88,17 @@
     <sporsmal id="skole-08">
       <tekst>Hva kan familier med lite penger søke om i barnehagen?</tekst>
       <svar riktig="true">Lavere pris eller gratis kjernetid</svar>
-      <svar>Gratis plass til alle søsknene deres</svar>
+      <svar>Gratis plass til søsknene deres</svar>
       <svar>Penger fra barnehagen til klær og sko</svar>
       <tilbakemelding>
         <riktig>Familier med lite penger kan søke om lavere pris eller gratis kjernetid.</riktig>
-        <feil>Barnehagen kan hjelpe med prisen, men gir ikke gratis plass til alle eller penger til klær.</feil>
+        <feil>Barnehagen kan hjelpe med prisen, men gir ikke gratis plass til søsken eller penger til klær.</feil>
       </tilbakemelding>
     </sporsmal>
     <sporsmal id="skole-09">
       <tekst>Hva har foreldre som ikke kan norsk rett til på foreldremøte?</tekst>
       <svar riktig="true">Å ha med seg en tolk på møtet</svar>
-      <svar>Å få alle møter på morsmålet</svar>
+      <svar>Å få møtet holdt på morsmålet</svar>
       <svar>Å sende en venn i stedet for seg selv</svar>
       <tilbakemelding>
         <riktig>Foreldre som ikke kan norsk, har rett til å ha med tolk på foreldremøte.</riktig>
@@ -139,7 +139,7 @@
       <tekst>Hvordan jobber barnehagen sammen med foreldrene?</tekst>
       <svar riktig="true">Den har foreldremøter og foreldresamtaler</svar>
       <svar>Den sender karakterer hjem hver måned</svar>
-      <svar>Foreldrene bestemmer alle aktivitetene</svar>
+      <svar>Foreldrene lager planen for hver dag</svar>
       <tilbakemelding>
         <riktig>Barnehagen samarbeider med foreldrene gjennom foreldremøter og foreldresamtaler.</riktig>
         <feil>Barnehagen og foreldrene snakker sammen på møter og samtaler. Små barn får ikke karakterer.</feil>
@@ -158,7 +158,7 @@
     <sporsmal id="skole-15">
       <tekst>Når begynner barn på skolen i Norge?</tekst>
       <svar riktig="true">I august det året de blir seks år</svar>
-      <svar>I juni det året de blir seks år</svar>
+      <svar>I september det året de blir seks år</svar>
       <svar>I august det året de blir sju år</svar>
       <tilbakemelding>
         <riktig>Barn begynner på skolen i august det året de blir seks år.</riktig>
@@ -268,8 +268,8 @@
     <sporsmal id="skole-26">
       <tekst>Har elevene skoleuniform i Norge?</tekst>
       <svar riktig="true">Nei, elevene har ikke uniform</svar>
-      <svar>Ja, alle elever har uniform</svar>
-      <svar>Ja, men ikke på barnetrinnet</svar>
+      <svar>Ja, elevene må ha uniform</svar>
+      <svar>Ja, men ikke på de yngste trinnene</svar>
       <tilbakemelding>
         <riktig>Elevene i Norge bruker ikke skoleuniform.</riktig>
         <feil>Tenk på hva elever vanligvis har på seg på norske skoler.</feil>
@@ -309,7 +309,7 @@
       <tekst>Hva bør foreldre gjøre med informasjon fra skolen?</tekst>
       <svar riktig="true">Lese den nøye og følge med</svar>
       <svar>Lese den hvis noe er galt</svar>
-      <svar>Svare på alle meldinger samme dag</svar>
+      <svar>La barnet lese den og svare selv</svar>
       <tilbakemelding>
         <riktig>Foreldre bør lese informasjonen fra skolen nøye og følge med.</riktig>
         <feil>Informasjon fra skolen er viktig for alle foreldre. Les den, ikke bare når noe er galt.</feil>
@@ -318,7 +318,7 @@
     <sporsmal id="skole-31">
       <tekst>Hva kan foreldre gjøre hvis de lurer på noe om skolen?</tekst>
       <svar riktig="true">Kontakte læreren eller skolen</svar>
-      <svar>Vente til neste foreldremøte</svar>
+      <svar>Vente til neste foreldremøte på skolen</svar>
       <svar>Spørre vennene til barnet</svar>
       <tilbakemelding>
         <riktig>Foreldre kan kontakte læreren eller skolen hvis de lurer på noe.</riktig>
@@ -337,9 +337,9 @@
     </sporsmal>
     <sporsmal id="skole-33">
       <tekst>Hvordan lærer elevene å være med i et demokrati?</tekst>
-      <svar riktig="true">De er med og bestemmer, for eksempel i elevrådet</svar>
-      <svar>De bestemmer alle regler selv, uten lærere</svar>
-      <svar>De følger alle regler uten å spørre</svar>
+      <svar riktig="true">De er med og bestemmer, som i elevrådet</svar>
+      <svar>De bestemmer reglene selv, uten lærere</svar>
+      <svar>De følger reglene uten å spørre</svar>
       <tilbakemelding>
         <riktig>Elevene lærer demokrati ved å være med og bestemme, for eksempel i elevrådet.</riktig>
         <feil>Elevene får være med og bestemme, men lærerne har fortsatt ansvar.</feil>
@@ -348,7 +348,7 @@
     <sporsmal id="skole-34">
       <tekst>Hva forventer skolen av foreldre?</tekst>
       <svar riktig="true">At de kommer på møter og samtaler</svar>
-      <svar>At de lærer barna alle fag hjemme</svar>
+      <svar>At de lærer barna skolefagene hjemme</svar>
       <svar>At de velger lærere til barna</svar>
       <tilbakemelding>
         <riktig>Skolen forventer at foreldre kommer på møter og samtaler.</riktig>
@@ -408,7 +408,7 @@
     <sporsmal id="skole-40">
       <tekst>Må studenter betale skolepenger på offentlige universiteter?</tekst>
       <svar riktig="true">Nei, men de må kjøpe bøkene selv</svar>
-      <svar>Ja, alle betaler mye hvert semester</svar>
+      <svar>Ja, de betaler mye hvert semester</svar>
       <svar>Nei, kommunen betaler for dem</svar>
       <tilbakemelding>
         <riktig>Studentene betaler ikke skolepenger, men må kjøpe bøkene selv.</riktig>
@@ -428,7 +428,7 @@
     <sporsmal id="skole-42">
       <tekst>Hva kan elever og studenter få fra Lånekassen?</tekst>
       <svar riktig="true">Penger til studiene, som lån og stipend</svar>
-      <svar>Gratis bolig til alle studenter</svar>
+      <svar>Gratis bolig i hele studietiden</svar>
       <svar>Lønn fra staten mens de studerer</svar>
       <tilbakemelding>
         <riktig>Lånekassen gir lån og stipend til skole og studier.</riktig>
@@ -498,7 +498,7 @@
     <sporsmal id="skole-49">
       <tekst>Hvorfor må mange lære noe nytt i arbeidslivet?</tekst>
       <svar riktig="true">Fordi ny teknologi endrer jobbene</svar>
-      <svar>Fordi loven krever kurs hvert år</svar>
+      <svar>Fordi loven krever nye kurs hvert år</svar>
       <svar>Fordi lønnen går ned uten kurs</svar>
       <tilbakemelding>
         <riktig>Mange må lære noe nytt fordi ny teknologi endrer jobbene.</riktig>
@@ -539,7 +539,7 @@
       <tekst>Er videregående skole for voksne gratis?</tekst>
       <svar riktig="true">Ja, på de offentlige skolene</svar>
       <svar>Nei, voksne må selv betale</svar>
-      <svar>Ja, også på alle private skoler</svar>
+      <svar>Ja, også på de private skolene</svar>
       <tilbakemelding>
         <riktig>Videregående skole for voksne er gratis på offentlige skoler.</riktig>
         <feil>Offentlig utdanning er gratis i Norge, men private skoler kan koste penger.</feil>
@@ -608,7 +608,7 @@
     <sporsmal id="skole-60">
       <tekst>Hvordan bestemmer man norskmålet ditt?</tekst>
       <svar riktig="true">Etter utdanningen du har fra før</svar>
-      <svar>Etter hvor gammel du er</svar>
+      <svar>Etter hvor gammel du er når du søker</svar>
       <svar>Etter hvilken kommune du bor i</svar>
       <tilbakemelding>
         <riktig>Norskmålet bestemmes etter utdanningen du har fra før.</riktig>
@@ -618,8 +618,8 @@
     <sporsmal id="skole-61">
       <tekst>Hva betyr et felles språk for samfunnet?</tekst>
       <svar riktig="true">Det skaper fellesskap mellom folk</svar>
-      <svar>Alle må mene det samme om alt</svar>
-      <svar>Alle må jobbe i de samme yrkene</svar>
+      <svar>Folk må mene det samme om det meste</svar>
+      <svar>Folk må jobbe i de samme yrkene</svar>
       <tilbakemelding>
         <riktig>Et felles språk skaper fellesskap mellom folk.</riktig>
         <feil>Språk binder mennesker sammen. Alle trenger ikke å mene det samme.</feil>
@@ -718,8 +718,8 @@
     <sporsmal id="skole-71">
       <tekst>Hvorfor er det bra for demokratiet at folk er godt utdannet?</tekst>
       <svar riktig="true">De kan vurdere informasjon og velge bra</svar>
-      <svar>Politikerne trenger ikke forklare seg</svar>
-      <svar>Alle får samme lønn og samme jobb</svar>
+      <svar>Politikerne trenger ikke å forklare seg selv</svar>
+      <svar>Folk får samme lønn og samme jobb</svar>
       <tilbakemelding>
         <riktig>Utdannede folk kan vurdere informasjon og ta gode valg i et demokrati.</riktig>
         <feil>Utdanning gir kunnskap, så folk kan tenke selv og velge godt.</feil>
@@ -779,7 +779,7 @@
       <tekst>Hva lærer barna i barnehagen?</tekst>
       <svar riktig="true">Å ta hensyn til andre og klare seg selv</svar>
       <svar>Å lese lange tekster og skrive stiler</svar>
-      <svar>Å regne med brøk og prosent i tabeller</svar>
+      <svar>Å regne med brøk og prosent i store tabeller</svar>
       <tilbakemelding>
         <riktig>I barnehagen lærer barna å ta hensyn til andre og klare seg selv.</riktig>
         <feil>Barnehagen handler om lek og samvær, ikke om skolefag som brøk.</feil>
@@ -799,7 +799,7 @@
       <tekst>Hvilket fag lærer elevene om samfunnet?</tekst>
       <svar riktig="true">Samfunnsfag</svar>
       <svar>Naturfag</svar>
-      <svar>Kunst og håndverk</svar>
+      <svar>Matematikk</svar>
       <tilbakemelding>
         <riktig>I samfunnsfag lærer elevene om hvordan samfunnet fungerer.</riktig>
         <feil>Tenk på faget som handler om mennesker, regler og samfunn.</feil>
@@ -820,11 +820,11 @@
     <sporsmal id="arbeid-01">
       <tekst>Hva er et mål i norsk arbeidsliv?</tekst>
       <svar riktig="true">At flest mulig voksne har jobb</svar>
-      <svar>At alle jobber like mange timer</svar>
+      <svar>At voksne jobber 40 timer i uken</svar>
       <svar>At flest mulig jobber i industrien</svar>
       <tilbakemelding>
         <riktig>Målet er at flest mulig voksne har jobb.</riktig>
-        <feil>Målet gjelder alle voksne, ikke bare én bransje, og ikke at alle jobber like mange timer.</feil>
+        <feil>Målet gjelder alle voksne, ikke bare én bransje, og ikke at voksne jobber 40 timer i uken.</feil>
       </tilbakemelding>
     </sporsmal>
     <sporsmal id="arbeid-02">
@@ -850,7 +850,7 @@
     <sporsmal id="arbeid-04">
       <tekst>Hva kan skje med jobbene når samfunnet blir mer digitalt?</tekst>
       <svar riktig="true">Nye jobber kommer, noen forsvinner</svar>
-      <svar>Alle gamle jobber blir tryggere</svar>
+      <svar>De gamle jobbene blir tryggere</svar>
       <svar>Det blir like mange jobber som før</svar>
       <tilbakemelding>
         <riktig>Digitalisering gir nye jobber, og noen jobber kan forsvinne.</riktig>
@@ -891,7 +891,7 @@
       <tekst>Hva er et verneombud?</tekst>
       <svar riktig="true">En som passer på sikkerheten for de ansatte</svar>
       <svar>En som forhandler om lønn for lederen</svar>
-      <svar>En som kontrollerer alle arbeidsplasser</svar>
+      <svar>En som kontrollerer arbeidsplassene</svar>
       <tilbakemelding>
         <riktig>Verneombudet passer på sikkerheten til de ansatte.</riktig>
         <feil>Verneombudet representerer de ansatte, ikke lederen.</feil>
@@ -1031,7 +1031,7 @@
       <tekst>Hva kjennetegner en velferdsstat?</tekst>
       <svar riktig="true">Staten og kommunene gir tjenester til innbyggerne</svar>
       <svar>Innbyggerne må selv betale for helse og skole</svar>
-      <svar>Private firmaer driver alle offentlige tjenester</svar>
+      <svar>Private firmaer driver de offentlige tjenestene</svar>
       <tilbakemelding>
         <riktig>I en velferdsstat gir staten og kommunene tjenester til innbyggerne.</riktig>
         <feil>Velferd betyr at fellesskapet hjelper, ikke at alle betaler alt selv.</feil>
@@ -1090,8 +1090,8 @@
     <sporsmal id="arbeid-28">
       <tekst>Hva må til for at velferdsstaten skal virke?</tekst>
       <svar riktig="true">At mange jobber og betaler skatt</svar>
-      <svar>At alle får penger uten å jobbe</svar>
-      <svar>At bedriftene betaler all skatt alene</svar>
+      <svar>At folk får penger uten å jobbe</svar>
+      <svar>At bedriftene betaler skatten alene</svar>
       <tilbakemelding>
         <riktig>Velferdsstaten virker når mange jobber og betaler skatt.</riktig>
         <feil>Velferden betales av skatt fra mange, ikke bare fra bedriftene.</feil>
@@ -1100,7 +1100,7 @@
     <sporsmal id="arbeid-29">
       <tekst>Hva bygger velferdsstaten i stor grad på?</tekst>
       <svar riktig="true">Tillit mellom staten og innbyggerne</svar>
-      <svar>Daglig kontroll av alle innbyggerne</svar>
+      <svar>Daglig kontroll av innbyggerne</svar>
       <svar>Betaling fra hver enkelt bruker</svar>
       <tilbakemelding>
         <riktig>Velferdsstaten bygger i stor grad på tillit mellom staten og innbyggerne.</riktig>
@@ -1150,7 +1150,7 @@
     <sporsmal id="arbeid-34">
       <tekst>Hva er riktig om skatt i Norge?</tekst>
       <svar riktig="true">De som tjener mest, betaler mest</svar>
-      <svar>Alle betaler det samme beløpet</svar>
+      <svar>Folk betaler det samme beløpet</svar>
       <svar>De som tjener minst, betaler mest</svar>
       <tilbakemelding>
         <riktig>De som tjener mest, betaler mest skatt.</riktig>
@@ -1210,7 +1210,7 @@
     <sporsmal id="arbeid-40">
       <tekst>Hva står i en arbeidsavtale?</tekst>
       <svar riktig="true">Hva jobben er, lønn og arbeidstid</svar>
-      <svar>Navn og adresse til alle ansatte</svar>
+      <svar>Navn og adresse til de andre ansatte</svar>
       <svar>Karakterer fra tidligere skoler</svar>
       <tilbakemelding>
         <riktig>En arbeidsavtale sier hva jobben er, hva du får i lønn og hvor mye du skal jobbe.</riktig>
@@ -1251,7 +1251,7 @@
       <tekst>Hva skjedde på slutten av 1800-tallet?</tekst>
       <svar riktig="true">Det ble bygd fabrikker, og mange flyttet til byene</svar>
       <svar>Fabrikker ble stengt, og folk flyttet til gårdene</svar>
-      <svar>Mange nordmenn begynte å jobbe i sykehus</svar>
+      <svar>Mange nordmenn begynte å jobbe på sykehus og i skoler</svar>
       <tilbakemelding>
         <riktig>På slutten av 1800-tallet ble det bygd fabrikker, og mange flyttet til byene.</riktig>
         <feil>Folk flyttet til byene for å jobbe, ikke tilbake til gårdene.</feil>
@@ -1360,7 +1360,7 @@
     <sporsmal id="arbeid-55">
       <tekst>Hva gjelder for ledige jobber i Norge, selv om få er arbeidsledige?</tekst>
       <svar riktig="true">Det er ofte mange som søker på jobbene</svar>
-      <svar>Alle som søker jobb får komme på intervju</svar>
+      <svar>Du får komme på intervju hvis du søker</svar>
       <svar>Man trenger ikke CV når få er arbeidsledige</svar>
       <tilbakemelding>
         <riktig>Det er ofte mange som søker på de samme jobbene.</riktig>
@@ -1410,7 +1410,7 @@
     <sporsmal id="arbeid-60">
       <tekst>Hvordan kan man lete etter jobb i Norge?</tekst>
       <svar riktig="true">Via nettverk, nett og vikarbyrå</svar>
-      <svar>Via fylkeskommunen og skolene</svar>
+      <svar>Via fylkeskommunen og videregående skoler</svar>
       <svar>Via Skatteetaten og Lånekassen</svar>
       <tilbakemelding>
         <riktig>Du kan lete etter jobb via nettverk, nett og vikarbyrå.</riktig>
@@ -1430,7 +1430,7 @@
     <sporsmal id="arbeid-62">
       <tekst>Hva er en grunn til at kvinner ofte tjener mindre enn menn?</tekst>
       <svar riktig="true">Kvinner jobber oftere deltid og i yrker med lav lønn</svar>
-      <svar>Kvinner har ikke lov til å jobbe i alle yrker</svar>
+      <svar>Kvinner har ikke lov til å jobbe i noen yrker</svar>
       <svar>Kvinner får ikke være med i en fagforening</svar>
       <tilbakemelding>
         <riktig>Kvinner jobber oftere deltid og i yrker med lav lønn.</riktig>
@@ -1461,7 +1461,7 @@
       <tekst>Hva er en arbeidsgiver?</tekst>
       <svar riktig="true">Den som ansetter deg og betaler lønn</svar>
       <svar>Den som søker jobb i en bedrift</svar>
-      <svar>Den som representerer alle de ansatte</svar>
+      <svar>Den som representerer de ansatte</svar>
       <tilbakemelding>
         <riktig>Arbeidsgiveren ansetter deg og betaler lønn.</riktig>
         <feil>Arbeidsgiveren er den du jobber for.</feil>
@@ -1480,7 +1480,7 @@
     <sporsmal id="arbeid-67">
       <tekst>Hva er sosialhjelp?</tekst>
       <svar riktig="true">Hjelp fra Nav når du ikke har penger</svar>
-      <svar>Penger som alle voksne får hver måned</svar>
+      <svar>Penger fra staten til voksne hver måned</svar>
       <svar>Støtte til å kjøpe bolig fra en bank</svar>
       <tilbakemelding>
         <riktig>Sosialhjelp er hjelp fra Nav når du ikke har penger.</riktig>
@@ -1571,7 +1571,7 @@
       <tekst>Hva er en streik?</tekst>
       <svar riktig="true">De ansatte stopper arbeidet for å få endring</svar>
       <svar>Sjefen stenger bedriften for å spare penger</svar>
-      <svar>De ansatte tar ferie på samme tid</svar>
+      <svar>De ansatte tar ferie på samme tid hvert år</svar>
       <tilbakemelding>
         <riktig>Streik betyr at de ansatte stopper arbeidet for å få endring.</riktig>
         <feil>Det er de ansatte som streiker, ikke sjefen. Det er ikke ferie.</feil>
@@ -1591,7 +1591,7 @@
       <tekst>Hva er en arbeidstaker?</tekst>
       <svar riktig="true">En som jobber for en bedrift</svar>
       <svar>En som eier en egen bedrift</svar>
-      <svar>En som leder en fagforening</svar>
+      <svar>En som leder en stor fagforening</svar>
       <tilbakemelding>
         <riktig>En arbeidstaker jobber for en bedrift.</riktig>
         <feil>En arbeidstaker er den som er ansatt, ikke eier eller leder av en fagforening.</feil>
@@ -1652,7 +1652,7 @@
     <sporsmal id="kritisk-04">
       <tekst>Hva er etisk bevissthet?</tekst>
       <svar riktig="true">Å tenke på ulike hensyn når du velger</svar>
-      <svar>Å gjøre det som er best for deg selv</svar>
+      <svar>Å gjøre det som er best for deg selv alene</svar>
       <svar>Å følge reglene uten å tenke selv</svar>
       <tilbakemelding>
         <riktig>Etisk bevissthet betyr å tenke på ulike hensyn når du velger.</riktig>
@@ -1693,7 +1693,7 @@
       <tekst>Hva må du gjøre hvis du bruker andres tekster, bilder eller musikk?</tekst>
       <svar riktig="true">Oppgi hvem som har laget det</svar>
       <svar>Endre litt på verket så det blir ditt</svar>
-      <svar>Spørre alle på nettet om lov</svar>
+      <svar>Spørre vennene dine om lov</svar>
       <tilbakemelding>
         <riktig>Du må oppgi hvem som har laget det du bruker.</riktig>
         <feil>Du kan ikke ta andres verk og si at det er ditt eget.</feil>
@@ -1740,12 +1740,12 @@
       </tilbakemelding>
     </sporsmal>
     <sporsmal id="kritisk-13">
-      <tekst>En familie skal kjøpe ny bil. De bryr seg om miljøet. De trenger plass til besteforeldrene. Hva må de tenke på?</tekst>
-      <svar riktig="true">Miljøet og plass til besteforeldrene</svar>
+      <tekst>Familien vil ha miljøvennlig bil med plass til besteforeldre. Hva må de se på?</tekst>
+      <svar riktig="true">Utslipp og hvor mye plass bilen har</svar>
       <svar>Fargen på bilen og hvor pen den er</svar>
-      <svar>Hvilket bilmerke som er mest kjent</svar>
+      <svar>Hvilket bilmerke som er mest kjent i Norge</svar>
       <tilbakemelding>
-        <riktig>De må tenke på miljøet og plass til besteforeldrene.</riktig>
+        <riktig>De må se på utslipp og hvor mye plass bilen har.</riktig>
         <feil>Se på det familien bryr seg om, ikke på farge eller merke.</feil>
       </tilbakemelding>
     </sporsmal>
@@ -1822,7 +1822,7 @@
     <sporsmal id="kritisk-21">
       <tekst>Hva kan skje når man er anonym i kommentarfelt?</tekst>
       <svar riktig="true">Mange skriver stygge eller ulovlige ting</svar>
-      <svar>Alle skriver mer høflig enn ellers</svar>
+      <svar>Folk skriver mer høflig enn ellers</svar>
       <svar>Færre mennesker tør å skrive noe</svar>
       <tilbakemelding>
         <riktig>Når man er anonym, skriver mange stygge eller ulovlige ting.</riktig>
@@ -1833,7 +1833,7 @@
       <tekst>Hva er digitale spor?</tekst>
       <svar riktig="true">Det du gjør på nettet, og som blir lagret</svar>
       <svar>Bilder som forsvinner etter noen timer</svar>
-      <svar>Passord som bare du selv kjenner til</svar>
+      <svar>Passordene du har lagret på mobilen</svar>
       <tilbakemelding>
         <riktig>Digitale spor er det du gjør på nettet, og som blir lagret.</riktig>
         <feil>Sporene blir værende. De forsvinner ikke etter noen timer.</feil>
@@ -1852,7 +1852,7 @@
     <sporsmal id="kritisk-24">
       <tekst>Hva begrenser ytringsfriheten?</tekst>
       <svar riktig="true">Personvernet og noen regler i loven</svar>
-      <svar>Regler som hver kommune bestemmer</svar>
+      <svar>Regler som hver kommune bestemmer selv</svar>
       <svar>Det som flertallet synes er riktig</svar>
       <tilbakemelding>
         <riktig>Personvernet og noen regler i loven begrenser ytringsfriheten.</riktig>
@@ -1862,7 +1862,7 @@
     <sporsmal id="kritisk-25">
       <tekst>Hva betyr privatliv?</tekst>
       <svar riktig="true">Ting som hører til deg og dine</svar>
-      <svar>Ting du deler med alle kollegene dine</svar>
+      <svar>Ting du deler med kollegene dine</svar>
       <svar>Ting som staten bestemmer over deg</svar>
       <tilbakemelding>
         <riktig>Privatliv er ting som hører til deg og dine nærmeste.</riktig>
@@ -1880,10 +1880,10 @@
       </tilbakemelding>
     </sporsmal>
     <sporsmal id="kritisk-27">
-      <tekst>Noen deler et privat bilde av en venninne og skriver noe usant om henne. Hva er dette?</tekst>
+      <tekst>Noen deler et privat bilde av deg og skriver løgn om deg. Hva er dette?</tekst>
       <svar riktig="true">Ulovlig, og du kan melde det til politiet</svar>
-      <svar>Lovlig, fordi alle har ytringsfrihet</svar>
-      <svar>Lovlig, hvis profilen er åpen for alle</svar>
+      <svar>Lovlig, fordi det er ytringsfrihet</svar>
+      <svar>Lovlig, hvis profilen er offentlig</svar>
       <tilbakemelding>
         <riktig>Det er ulovlig, og du kan melde det til politiet.</riktig>
         <feil>Ytringsfriheten gir ikke rett til å dele private bilder eller skrive løgn om andre.</feil>
@@ -1892,8 +1892,8 @@
     <sporsmal id="kritisk-28">
       <tekst>Hvorfor er det viktig å tenke på hva du deler på nettet?</tekst>
       <svar riktig="true">Andre kan få vite ting om deg og bruke dem</svar>
-      <svar>Alt du deler blir slettet etter noen uker</svar>
-      <svar>Bare vennene dine kan se det du deler</svar>
+      <svar>Det du deler blir slettet etter noen uker</svar>
+      <svar>Det er nærmeste venner som ser det du deler</svar>
       <tilbakemelding>
         <riktig>Andre kan få vite ting om deg og bruke dem.</riktig>
         <feil>Det du deler, kan bli værende og kan sees av flere enn vennene dine.</feil>
@@ -1943,7 +1943,7 @@
       <tekst>Hva er klikkbait?</tekst>
       <svar riktig="true">En overskrift som lokker deg til å klikke</svar>
       <svar>En advarsel om virus på datamaskinen din</svar>
-      <svar>En betaling for å kunne lese en artikkel</svar>
+      <svar>En betaling for å kunne lese hele artikkelen</svar>
       <tilbakemelding>
         <riktig>Klikkbait er en overskrift som lokker deg til å klikke.</riktig>
         <feil>Klikkbait handler om overskrifter, ikke om virus eller betaling.</feil>
@@ -1972,7 +1972,7 @@
     <sporsmal id="kritisk-36">
       <tekst>Hvorfor bør du lese mer enn én kilde om en sak?</tekst>
       <svar riktig="true">Flere kilder gir et bedre bilde av saken</svar>
-      <svar>Det gir deg flere sider å dele på nett</svar>
+      <svar>Det gir deg flere sider å dele på sosiale medier</svar>
       <svar>Én kilde kan ikke ha riktig informasjon</svar>
       <tilbakemelding>
         <riktig>Flere kilder gir et bedre bilde av saken.</riktig>
@@ -2002,15 +2002,15 @@
     <sporsmal id="kritisk-39">
       <tekst>Hva er en mening?</tekst>
       <svar riktig="true">Det en person mener om noe</svar>
-      <svar>Noe som alle mennesker er enige om</svar>
+      <svar>Noe som politikerne har bestemt</svar>
       <svar>Noe som står skrevet i en lov</svar>
       <tilbakemelding>
         <riktig>En mening er det en person mener om noe.</riktig>
-        <feil>Meninger kan ikke bevises. Alle er ikke enige om dem, og de står ikke i loven.</feil>
+        <feil>Meninger kan ikke bevises. Politikerne bestemmer dem ikke, og de står ikke i loven.</feil>
       </tilbakemelding>
     </sporsmal>
     <sporsmal id="kritisk-40">
-      <tekst>Hvorfor kan du ikke alltid stole på en reklame?</tekst>
+      <tekst>Hvorfor bør du være kritisk til reklame?</tekst>
       <svar riktig="true">Avsenderen vil at du skal kjøpe noe</svar>
       <svar>Reklamen er skrevet av en offentlig etat</svar>
       <svar>Reklamen er skrevet på et vanskelig språk</svar>
@@ -2042,7 +2042,7 @@
     <sporsmal id="kritisk-43">
       <tekst>Hva er en algoritme i sosiale medier?</tekst>
       <svar riktig="true">Regler som bestemmer hva du ser i appen</svar>
-      <svar>En ansatt som godkjenner alle innleggene</svar>
+      <svar>En ansatt som godkjenner innleggene</svar>
       <svar>Et program som sletter gamle bilder for deg</svar>
       <tilbakemelding>
         <riktig>En algoritme er regler som bestemmer hva du ser i appen.</riktig>
@@ -2092,7 +2092,7 @@
     <sporsmal id="kritisk-48">
       <tekst>Hva er diskriminering?</tekst>
       <svar riktig="true">Å behandle noen dårligere på grunn av bakgrunn</svar>
-      <svar>Å gi alle de samme rettighetene i samfunnet</svar>
+      <svar>Å gi folk de samme rettighetene i samfunnet</svar>
       <svar>Å velge ut den beste søkeren til en jobb</svar>
       <tilbakemelding>
         <riktig>Diskriminering er å behandle noen dårligere på grunn av bakgrunn.</riktig>
@@ -2103,7 +2103,7 @@
       <tekst>Hva kan du gjøre hvis du ser hatefulle kommentarer på nettet?</tekst>
       <svar riktig="true">Melde fra til nettstedet eller politiet</svar>
       <svar>Svare med enda verre ord enn avsenderen</svar>
-      <svar>Dele kommentaren med alle vennene dine</svar>
+      <svar>Dele kommentaren med vennene dine</svar>
       <tilbakemelding>
         <riktig>Du kan melde fra til nettstedet eller politiet.</riktig>
         <feil>Ikke svar med mer hat. Meld fra i stedet.</feil>
@@ -2132,7 +2132,7 @@
     <sporsmal id="kritisk-52">
       <tekst>Er det lov å true noen på nett?</tekst>
       <svar riktig="true">Nei, trusler er forbudt, også på nett</svar>
-      <svar>Ja, alle har ytringsfrihet på nettet</svar>
+      <svar>Ja, det er ytringsfrihet på nettet</svar>
       <svar>Ja, hvis man bruker et falskt navn</svar>
       <tilbakemelding>
         <riktig>Trusler er forbudt, også på nett.</riktig>
@@ -2172,8 +2172,8 @@
     <sporsmal id="kritisk-56">
       <tekst>Hvem bør få vite personnummeret ditt?</tekst>
       <svar riktig="true">De som trenger det, som banken og Nav</svar>
-      <svar>Alle som spør om det på sosiale medier</svar>
-      <svar>Alle naboene dine og kollegene på jobben</svar>
+      <svar>Folk som spør om det på sosiale medier</svar>
+      <svar>Naboene dine og kollegene på jobben</svar>
       <tilbakemelding>
         <riktig>Bare de som trenger det, som banken og Nav, bør få personnummeret ditt.</riktig>
         <feil>Personnummeret er sensitivt. Ikke gi det til alle.</feil>
@@ -2222,7 +2222,7 @@
     <sporsmal id="kritisk-61">
       <tekst>Hva er en cookie på en nettside?</tekst>
       <svar riktig="true">En liten fil som husker hva du gjør</svar>
-      <svar>Et virus som kan stjele alle passordene</svar>
+      <svar>Et virus som kan stjele passordene</svar>
       <svar>En avgift man må betale for å logge inn</svar>
       <tilbakemelding>
         <riktig>En cookie er en liten fil som husker hva du gjør på nettsiden.</riktig>
@@ -2242,8 +2242,8 @@
     <sporsmal id="kritisk-63">
       <tekst>Hva bør du gjøre med personverninnstillingene i sosiale medier?</tekst>
       <svar riktig="true">Sjekke hvem som kan se innleggene dine</svar>
-      <svar>Åpne alle innstillinger så alle kan se alt</svar>
-      <svar>Ikke endre noe, siden alle er like</svar>
+      <svar>Åpne innstillingene så hvem som helst kan se alt</svar>
+      <svar>Ikke endre noe, siden det ikke har betydning</svar>
       <tilbakemelding>
         <riktig>Sjekk hvem som kan se innleggene dine.</riktig>
         <feil>Du bestemmer selv hvem som ser innleggene dine. Se i innstillingene.</feil>
@@ -2270,7 +2270,7 @@
       </tilbakemelding>
     </sporsmal>
     <sporsmal id="kritisk-66">
-      <tekst>Du får en SMS om at pakken din er stoppet. Du må betale via en lenke. Hva er lurt å gjøre?</tekst>
+      <tekst>En SMS ber deg betale for en stoppet pakke via en lenke. Hva er lurt?</tekst>
       <svar riktig="true">Ikke klikke, men sjekke med postselskapet</svar>
       <svar>Klikke på lenken og betale med en gang</svar>
       <svar>Svare på meldingen og be om mer info</svar>
@@ -2280,7 +2280,7 @@
       </tilbakemelding>
     </sporsmal>
     <sporsmal id="kritisk-67">
-      <tekst>Noen ringer og sier at de er fra banken. De ber om BankID-koden din. Hva bør du gjøre?</tekst>
+      <tekst>Noen ringer fra «banken» og vil ha BankID-koden din. Hva bør du gjøre?</tekst>
       <svar riktig="true">Avslutte samtalen og ikke si koden</svar>
       <svar>Gi koden hvis personen høres høflig ut</svar>
       <svar>Gi koden hvis de oppgir navnet sitt</svar>
@@ -2313,7 +2313,7 @@
       <tekst>Hvorfor er det lurt å oppdatere telefonen jevnlig?</tekst>
       <svar riktig="true">Oppdateringer retter sikkerhetsfeil i telefonen</svar>
       <svar>Oppdateringer gjør telefonen billigere å bruke</svar>
-      <svar>Oppdateringer sletter gamle bilder automatisk</svar>
+      <svar>Oppdateringer sletter gamle bilder fra telefonen</svar>
       <tilbakemelding>
         <riktig>Oppdateringer retter sikkerhetsfeil.</riktig>
         <feil>Oppdateringer gjør telefonen tryggere. De gjør den ikke billigere, og de sletter ikke bilder.</feil>
@@ -2332,7 +2332,7 @@
     <sporsmal id="kritisk-72">
       <tekst>Hvorfor bør du logge ut av nettbanken når du er ferdig?</tekst>
       <svar riktig="true">Så ingen andre kommer inn på kontoen</svar>
-      <svar>Så banken får mer penger fra deg</svar>
+      <svar>Så banken får mer penger fra deg hvert år</svar>
       <svar>Så nettleseren blir raskere å bruke</svar>
       <tilbakemelding>
         <riktig>Logg ut så ingen andre kommer inn på kontoen din.</riktig>
@@ -2343,7 +2343,7 @@
       <tekst>Hva er BankID?</tekst>
       <svar riktig="true">En elektronisk ID for trygg innlogging</svar>
       <svar>Et kort du bruker for å handle i butikk</svar>
-      <svar>Et nummer som politiet gir til alle</svar>
+      <svar>Et nummer som politiet gir deg</svar>
       <tilbakemelding>
         <riktig>BankID er en elektronisk ID for trygg innlogging.</riktig>
         <feil>BankID er ikke et kort for butikken og ikke et nummer fra politiet.</feil>
@@ -2362,7 +2362,7 @@
     <sporsmal id="kritisk-75">
       <tekst>Hva er et etisk dilemma?</tekst>
       <svar riktig="true">Et valg mellom to ting som begge er viktige</svar>
-      <svar>En situasjon der alle er enige om svaret</svar>
+      <svar>En situasjon der folk er enige om svaret</svar>
       <svar>En situasjon der loven gir ett klart svar</svar>
       <tilbakemelding>
         <riktig>Et etisk dilemma er et valg mellom to ting som begge er viktige.</riktig>
@@ -2373,7 +2373,7 @@
       <tekst>Du finner en lommebok med penger på gaten. Hva er riktig å gjøre?</tekst>
       <svar riktig="true">Levere den til politiet eller eieren</svar>
       <svar>Beholde pengene og kaste lommeboken</svar>
-      <svar>Legge den tilbake og gå videre</svar>
+      <svar>Legge den tilbake på gaten og gå videre</svar>
       <tilbakemelding>
         <riktig>Lever lommeboken til politiet eller eieren.</riktig>
         <feil>Pengene tilhører eieren. Tenk på å gjøre det som er riktig.</feil>

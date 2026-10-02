@@ -38,7 +38,8 @@ for (const q of qs) {
   stems.set(key, id);
   if (!/[?]$/.test(stem)) warn(id, "spørsmålet slutter ikke med ?");
   if (stem.split(/\s+/).length > 15) warn(id, "spørsmålet har over 15 ord");
-  if (/\b(ikke|unntatt|aldri)\b/i.test(stem)) warn(id, "negativ formulering i spørsmålet");
+  // Negativt spørsmål: «Hva er ikke …», «Hvorfor kan du ikke …», «unntatt». Leddsetninger som «hvis du ikke har» regnes ikke.
+  if (/\bunntatt\b/i.test(stem) || /\b(hva|hvilke[nt]?|hvem|hvorfor)\b[^?]*\b(er|var|kan|bør|skal|må)\s+(du\s+)?(ikke|aldri)\b/i.test(stem)) warn(id, "negativ formulering i spørsmålet");
 
   const opts = kids(kids(q, "options")[0] || q, "option");
   if (opts.length !== 3) err(id, `har ${opts.length} svaralternativer (skal være 3)`);
@@ -58,7 +59,8 @@ for (const q of qs) {
   const L = texts.map(t => t.length), mx = Math.max(...L), mn = Math.min(...L);
   const ci = opts.findIndex(o => o.getAttribute("correct") === "true");
   if (ci >= 0 && L[ci] === mx && L.filter(x => x === mx).length === 1) aLongest++;
-  if (mn && mx / mn > 1.7) { ratioHits++; warn(id, `svarene er ulikt lange (${mx}/${mn})`); }
+  const shortTerms = texts.every(x => x.split(/\s+/).length <= 2); // navn og fagord kan ikke gjøres like lange
+  if (!shortTerms && mn && mx / mn > 1.7) { ratioHits++; warn(id, `svarene er ulikt lange (${mx}/${mn})`); }
   const absolute = /\b(alltid|aldri|bare|kun|alle)\b/i;
   const abs = opts.map((o, i) => absolute.test(texts[i]) ? i : -1).filter(i => i >= 0);
   if (abs.length && !abs.includes(ci)) warn(id, "absolutt ord (alltid/aldri/bare/kun/alle) bare i gale svar");

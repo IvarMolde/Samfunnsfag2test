@@ -6,7 +6,7 @@ module.exports=[
 ["Kommunen betaler den største delen, og foreldrene betaler resten.","Tenk på hvem som har ansvar for tjenester i nærmiljøet, som barnehage og skole."],
 ["Stortinget har bestemt hvor mye foreldrene maksimalt skal betale.","Det er politikerne som bestemmer regler som gjelder for hele landet."],
 ["Søskenmoderasjon betyr lavere pris når du har flere barn i barnehagen.","Ordet har med søsken å gjøre. Barn nummer to betaler mindre."],
-["Familier med lite penger kan søke om lavere pris eller gratis kjernetid.","Barnehagen kan hjelpe med prisen, men gir ikke gratis plass til alle eller penger til klær."],
+["Familier med lite penger kan søke om lavere pris eller gratis kjernetid.","Barnehagen kan hjelpe med prisen, men gir ikke gratis plass til søsken eller penger til klær."],
 ["Foreldre som ikke kan norsk, har rett til å ha med tolk på foreldremøte.","Retten gjelder hjelp til å forstå møtet, ikke at møtet holdes på et annet språk."],
 ["Barnehagen bygger på kristne og humanistiske verdier.","Verdiene står i barnehageloven og gjelder for alle barnehager i landet."],
 ["Barnehagen skal fremme demokrati og likestilling.","Tenk på verdier som gjør at alle får si sin mening og er like mye verdt."],

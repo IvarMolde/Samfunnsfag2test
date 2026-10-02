@@ -1,5 +1,5 @@
 module.exports=[
-["Målet er at flest mulig voksne har jobb.","Målet gjelder alle voksne, ikke bare én bransje, og ikke at alle jobber like mange timer."],
+["Målet er at flest mulig voksne har jobb.","Målet gjelder alle voksne, ikke bare én bransje, og ikke at voksne jobber 40 timer i uken."],
 ["Omtrent en tredel av dem som jobber, jobber i offentlig sektor.","Andelen er større enn en tidel, men mindre enn halvparten."],
 ["Staten kan gi penger til bedrifter i vanskelige tider, så de beholder jobbene.","Staten vil beholde jobber, ikke fjerne dem. Tenk på støtte i stedet for mer skatt."],
 ["Digitalisering gir nye jobber, og noen jobber kan forsvinne.","Teknologi endrer arbeidslivet. Det blir ikke likt som før."],

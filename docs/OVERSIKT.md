@@ -41,7 +41,7 @@ Ikke gjort ennå: statusbar, utskrift med navn, prøvemodus med tidtaker og nytt
 
 ## Kjente begrensninger
 
-- `npm run validate` gir advarsler om spørsmålsformuleringer som bør rettes: absolutte ord («alltid», «bare», «kun», «alle») står bare i gale svar i 40 spørsmål, 5 spørsmål er formulert negativt, 8 har ulikt lange svar og 4 har over 15 ord i spørsmålet.
+- `npm run validate` gir ingen feil og ingen advarsler. Absolutte ord («alltid», «bare», «kun», «alle») står ikke lenger bare i gale svar. Riktig svar er lengst i 33 % av spørsmålene. Svarlengde sier likevel lite om kvalitet: utprøving på deltakere gjenstår.
 - Banken er **ikke utprøvd** på deltakere, og er derfor ikke psykometrisk validert.
 - Familie, helse og hverdagsliv og Norge før og nå er ikke laget ennå.
 - Rettigheter til innhold fra samfunnskunnskap.no er ikke avklart.

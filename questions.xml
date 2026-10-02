@@ -59,7 +59,7 @@
     <options>
       <option id="A" correct="true">Å finne god informasjon og bruke den</option>
       <option id="B" correct="false">Å spille spill og snakke med venner</option>
-      <option id="C" correct="false">Å lære alt utenat fra nettsider</option>
+      <option id="C" correct="false">Å lese mye og lære alt utenat fra nettsider</option>
     </options>
     <feedback>
       <correct>Elevene skal lære å finne god informasjon og bruke den.</correct>
@@ -106,19 +106,19 @@
     <text>Hva kan familier med lite penger søke om i barnehagen?</text>
     <options>
       <option id="A" correct="true">Lavere pris eller gratis kjernetid</option>
-      <option id="B" correct="false">Gratis plass til alle søsknene deres</option>
+      <option id="B" correct="false">Gratis plass til søsknene deres</option>
       <option id="C" correct="false">Penger fra barnehagen til klær og sko</option>
     </options>
     <feedback>
       <correct>Familier med lite penger kan søke om lavere pris eller gratis kjernetid.</correct>
-      <wrong>Barnehagen kan hjelpe med prisen, men gir ikke gratis plass til alle eller penger til klær.</wrong>
+      <wrong>Barnehagen kan hjelpe med prisen, men gir ikke gratis plass til søsken eller penger til klær.</wrong>
     </feedback>
   </question>
   <question id="skole-09" category="Skole og utdanning">
     <text>Hva har foreldre som ikke kan norsk rett til på foreldremøte?</text>
     <options>
       <option id="A" correct="true">Å ha med seg en tolk på møtet</option>
-      <option id="B" correct="false">Å få alle møter på morsmålet</option>
+      <option id="B" correct="false">Å få møtet holdt på morsmålet</option>
       <option id="C" correct="false">Å sende en venn i stedet for seg selv</option>
     </options>
     <feedback>
@@ -167,7 +167,7 @@
     <options>
       <option id="A" correct="true">Den har foreldremøter og foreldresamtaler</option>
       <option id="B" correct="false">Den sender karakterer hjem hver måned</option>
-      <option id="C" correct="false">Foreldrene bestemmer alle aktivitetene</option>
+      <option id="C" correct="false">Foreldrene lager planen for hver dag</option>
     </options>
     <feedback>
       <correct>Barnehagen samarbeider med foreldrene gjennom foreldremøter og foreldresamtaler.</correct>
@@ -190,7 +190,7 @@
     <text>Når begynner barn på skolen i Norge?</text>
     <options>
       <option id="A" correct="true">I august det året de blir seks år</option>
-      <option id="B" correct="false">I juni det året de blir seks år</option>
+      <option id="B" correct="false">I september det året de blir seks år</option>
       <option id="C" correct="false">I august det året de blir sju år</option>
     </options>
     <feedback>
@@ -322,8 +322,8 @@
     <text>Har elevene skoleuniform i Norge?</text>
     <options>
       <option id="A" correct="true">Nei, elevene har ikke uniform</option>
-      <option id="B" correct="false">Ja, alle elever har uniform</option>
-      <option id="C" correct="false">Ja, men ikke på barnetrinnet</option>
+      <option id="B" correct="false">Ja, elevene må ha uniform</option>
+      <option id="C" correct="false">Ja, men ikke på de yngste trinnene</option>
     </options>
     <feedback>
       <correct>Elevene i Norge bruker ikke skoleuniform.</correct>
@@ -371,7 +371,7 @@
     <options>
       <option id="A" correct="true">Lese den nøye og følge med</option>
       <option id="B" correct="false">Lese den hvis noe er galt</option>
-      <option id="C" correct="false">Svare på alle meldinger samme dag</option>
+      <option id="C" correct="false">La barnet lese den og svare selv</option>
     </options>
     <feedback>
       <correct>Foreldre bør lese informasjonen fra skolen nøye og følge med.</correct>
@@ -382,7 +382,7 @@
     <text>Hva kan foreldre gjøre hvis de lurer på noe om skolen?</text>
     <options>
       <option id="A" correct="true">Kontakte læreren eller skolen</option>
-      <option id="B" correct="false">Vente til neste foreldremøte</option>
+      <option id="B" correct="false">Vente til neste foreldremøte på skolen</option>
       <option id="C" correct="false">Spørre vennene til barnet</option>
     </options>
     <feedback>
@@ -405,9 +405,9 @@
   <question id="skole-33" category="Skole og utdanning">
     <text>Hvordan lærer elevene å være med i et demokrati?</text>
     <options>
-      <option id="A" correct="true">De er med og bestemmer, for eksempel i elevrådet</option>
-      <option id="B" correct="false">De bestemmer alle regler selv, uten lærere</option>
-      <option id="C" correct="false">De følger alle regler uten å spørre</option>
+      <option id="A" correct="true">De er med og bestemmer, som i elevrådet</option>
+      <option id="B" correct="false">De bestemmer reglene selv, uten lærere</option>
+      <option id="C" correct="false">De følger reglene uten å spørre</option>
     </options>
     <feedback>
       <correct>Elevene lærer demokrati ved å være med og bestemme, for eksempel i elevrådet.</correct>
@@ -418,7 +418,7 @@
     <text>Hva forventer skolen av foreldre?</text>
     <options>
       <option id="A" correct="true">At de kommer på møter og samtaler</option>
-      <option id="B" correct="false">At de lærer barna alle fag hjemme</option>
+      <option id="B" correct="false">At de lærer barna skolefagene hjemme</option>
       <option id="C" correct="false">At de velger lærere til barna</option>
     </options>
     <feedback>
@@ -490,7 +490,7 @@
     <text>Må studenter betale skolepenger på offentlige universiteter?</text>
     <options>
       <option id="A" correct="true">Nei, men de må kjøpe bøkene selv</option>
-      <option id="B" correct="false">Ja, alle betaler mye hvert semester</option>
+      <option id="B" correct="false">Ja, de betaler mye hvert semester</option>
       <option id="C" correct="false">Nei, kommunen betaler for dem</option>
     </options>
     <feedback>
@@ -514,7 +514,7 @@
     <text>Hva kan elever og studenter få fra Lånekassen?</text>
     <options>
       <option id="A" correct="true">Penger til studiene, som lån og stipend</option>
-      <option id="B" correct="false">Gratis bolig til alle studenter</option>
+      <option id="B" correct="false">Gratis bolig i hele studietiden</option>
       <option id="C" correct="false">Lønn fra staten mens de studerer</option>
     </options>
     <feedback>
@@ -598,7 +598,7 @@
     <text>Hvorfor må mange lære noe nytt i arbeidslivet?</text>
     <options>
       <option id="A" correct="true">Fordi ny teknologi endrer jobbene</option>
-      <option id="B" correct="false">Fordi loven krever kurs hvert år</option>
+      <option id="B" correct="false">Fordi loven krever nye kurs hvert år</option>
       <option id="C" correct="false">Fordi lønnen går ned uten kurs</option>
     </options>
     <feedback>
@@ -647,7 +647,7 @@
     <options>
       <option id="A" correct="true">Ja, på de offentlige skolene</option>
       <option id="B" correct="false">Nei, voksne må selv betale</option>
-      <option id="C" correct="false">Ja, også på alle private skoler</option>
+      <option id="C" correct="false">Ja, også på de private skolene</option>
     </options>
     <feedback>
       <correct>Videregående skole for voksne er gratis på offentlige skoler.</correct>
@@ -730,7 +730,7 @@
     <text>Hvordan bestemmer man norskmålet ditt?</text>
     <options>
       <option id="A" correct="true">Etter utdanningen du har fra før</option>
-      <option id="B" correct="false">Etter hvor gammel du er</option>
+      <option id="B" correct="false">Etter hvor gammel du er når du søker</option>
       <option id="C" correct="false">Etter hvilken kommune du bor i</option>
     </options>
     <feedback>
@@ -742,8 +742,8 @@
     <text>Hva betyr et felles språk for samfunnet?</text>
     <options>
       <option id="A" correct="true">Det skaper fellesskap mellom folk</option>
-      <option id="B" correct="false">Alle må mene det samme om alt</option>
-      <option id="C" correct="false">Alle må jobbe i de samme yrkene</option>
+      <option id="B" correct="false">Folk må mene det samme om det meste</option>
+      <option id="C" correct="false">Folk må jobbe i de samme yrkene</option>
     </options>
     <feedback>
       <correct>Et felles språk skaper fellesskap mellom folk.</correct>
@@ -862,8 +862,8 @@
     <text>Hvorfor er det bra for demokratiet at folk er godt utdannet?</text>
     <options>
       <option id="A" correct="true">De kan vurdere informasjon og velge bra</option>
-      <option id="B" correct="false">Politikerne trenger ikke forklare seg</option>
-      <option id="C" correct="false">Alle får samme lønn og samme jobb</option>
+      <option id="B" correct="false">Politikerne trenger ikke å forklare seg selv</option>
+      <option id="C" correct="false">Folk får samme lønn og samme jobb</option>
     </options>
     <feedback>
       <correct>Utdannede folk kan vurdere informasjon og ta gode valg i et demokrati.</correct>
@@ -935,7 +935,7 @@
     <options>
       <option id="A" correct="true">Å ta hensyn til andre og klare seg selv</option>
       <option id="B" correct="false">Å lese lange tekster og skrive stiler</option>
-      <option id="C" correct="false">Å regne med brøk og prosent i tabeller</option>
+      <option id="C" correct="false">Å regne med brøk og prosent i store tabeller</option>
     </options>
     <feedback>
       <correct>I barnehagen lærer barna å ta hensyn til andre og klare seg selv.</correct>
@@ -959,7 +959,7 @@
     <options>
       <option id="A" correct="true">Samfunnsfag</option>
       <option id="B" correct="false">Naturfag</option>
-      <option id="C" correct="false">Kunst og håndverk</option>
+      <option id="C" correct="false">Matematikk</option>
     </options>
     <feedback>
       <correct>I samfunnsfag lærer elevene om hvordan samfunnet fungerer.</correct>
@@ -982,12 +982,12 @@
     <text>Hva er et mål i norsk arbeidsliv?</text>
     <options>
       <option id="A" correct="true">At flest mulig voksne har jobb</option>
-      <option id="B" correct="false">At alle jobber like mange timer</option>
+      <option id="B" correct="false">At voksne jobber 40 timer i uken</option>
       <option id="C" correct="false">At flest mulig jobber i industrien</option>
     </options>
     <feedback>
       <correct>Målet er at flest mulig voksne har jobb.</correct>
-      <wrong>Målet gjelder alle voksne, ikke bare én bransje, og ikke at alle jobber like mange timer.</wrong>
+      <wrong>Målet gjelder alle voksne, ikke bare én bransje, og ikke at voksne jobber 40 timer i uken.</wrong>
     </feedback>
   </question>
   <question id="arbeid-02" category="Arbeidsliv">
@@ -1018,7 +1018,7 @@
     <text>Hva kan skje med jobbene når samfunnet blir mer digitalt?</text>
     <options>
       <option id="A" correct="true">Nye jobber kommer, noen forsvinner</option>
-      <option id="B" correct="false">Alle gamle jobber blir tryggere</option>
+      <option id="B" correct="false">De gamle jobbene blir tryggere</option>
       <option id="C" correct="false">Det blir like mange jobber som før</option>
     </options>
     <feedback>
@@ -1067,7 +1067,7 @@
     <options>
       <option id="A" correct="true">En som passer på sikkerheten for de ansatte</option>
       <option id="B" correct="false">En som forhandler om lønn for lederen</option>
-      <option id="C" correct="false">En som kontrollerer alle arbeidsplasser</option>
+      <option id="C" correct="false">En som kontrollerer arbeidsplassene</option>
     </options>
     <feedback>
       <correct>Verneombudet passer på sikkerheten til de ansatte.</correct>
@@ -1235,7 +1235,7 @@
     <options>
       <option id="A" correct="true">Staten og kommunene gir tjenester til innbyggerne</option>
       <option id="B" correct="false">Innbyggerne må selv betale for helse og skole</option>
-      <option id="C" correct="false">Private firmaer driver alle offentlige tjenester</option>
+      <option id="C" correct="false">Private firmaer driver de offentlige tjenestene</option>
     </options>
     <feedback>
       <correct>I en velferdsstat gir staten og kommunene tjenester til innbyggerne.</correct>
@@ -1306,8 +1306,8 @@
     <text>Hva må til for at velferdsstaten skal virke?</text>
     <options>
       <option id="A" correct="true">At mange jobber og betaler skatt</option>
-      <option id="B" correct="false">At alle får penger uten å jobbe</option>
-      <option id="C" correct="false">At bedriftene betaler all skatt alene</option>
+      <option id="B" correct="false">At folk får penger uten å jobbe</option>
+      <option id="C" correct="false">At bedriftene betaler skatten alene</option>
     </options>
     <feedback>
       <correct>Velferdsstaten virker når mange jobber og betaler skatt.</correct>
@@ -1318,7 +1318,7 @@
     <text>Hva bygger velferdsstaten i stor grad på?</text>
     <options>
       <option id="A" correct="true">Tillit mellom staten og innbyggerne</option>
-      <option id="B" correct="false">Daglig kontroll av alle innbyggerne</option>
+      <option id="B" correct="false">Daglig kontroll av innbyggerne</option>
       <option id="C" correct="false">Betaling fra hver enkelt bruker</option>
     </options>
     <feedback>
@@ -1378,7 +1378,7 @@
     <text>Hva er riktig om skatt i Norge?</text>
     <options>
       <option id="A" correct="true">De som tjener mest, betaler mest</option>
-      <option id="B" correct="false">Alle betaler det samme beløpet</option>
+      <option id="B" correct="false">Folk betaler det samme beløpet</option>
       <option id="C" correct="false">De som tjener minst, betaler mest</option>
     </options>
     <feedback>
@@ -1450,7 +1450,7 @@
     <text>Hva står i en arbeidsavtale?</text>
     <options>
       <option id="A" correct="true">Hva jobben er, lønn og arbeidstid</option>
-      <option id="B" correct="false">Navn og adresse til alle ansatte</option>
+      <option id="B" correct="false">Navn og adresse til de andre ansatte</option>
       <option id="C" correct="false">Karakterer fra tidligere skoler</option>
     </options>
     <feedback>
@@ -1499,7 +1499,7 @@
     <options>
       <option id="A" correct="true">Det ble bygd fabrikker, og mange flyttet til byene</option>
       <option id="B" correct="false">Fabrikker ble stengt, og folk flyttet til gårdene</option>
-      <option id="C" correct="false">Mange nordmenn begynte å jobbe i sykehus</option>
+      <option id="C" correct="false">Mange nordmenn begynte å jobbe på sykehus og i skoler</option>
     </options>
     <feedback>
       <correct>På slutten av 1800-tallet ble det bygd fabrikker, og mange flyttet til byene.</correct>
@@ -1630,7 +1630,7 @@
     <text>Hva gjelder for ledige jobber i Norge, selv om få er arbeidsledige?</text>
     <options>
       <option id="A" correct="true">Det er ofte mange som søker på jobbene</option>
-      <option id="B" correct="false">Alle som søker jobb får komme på intervju</option>
+      <option id="B" correct="false">Du får komme på intervju hvis du søker</option>
       <option id="C" correct="false">Man trenger ikke CV når få er arbeidsledige</option>
     </options>
     <feedback>
@@ -1690,7 +1690,7 @@
     <text>Hvordan kan man lete etter jobb i Norge?</text>
     <options>
       <option id="A" correct="true">Via nettverk, nett og vikarbyrå</option>
-      <option id="B" correct="false">Via fylkeskommunen og skolene</option>
+      <option id="B" correct="false">Via fylkeskommunen og videregående skoler</option>
       <option id="C" correct="false">Via Skatteetaten og Lånekassen</option>
     </options>
     <feedback>
@@ -1714,7 +1714,7 @@
     <text>Hva er en grunn til at kvinner ofte tjener mindre enn menn?</text>
     <options>
       <option id="A" correct="true">Kvinner jobber oftere deltid og i yrker med lav lønn</option>
-      <option id="B" correct="false">Kvinner har ikke lov til å jobbe i alle yrker</option>
+      <option id="B" correct="false">Kvinner har ikke lov til å jobbe i noen yrker</option>
       <option id="C" correct="false">Kvinner får ikke være med i en fagforening</option>
     </options>
     <feedback>
@@ -1751,7 +1751,7 @@
     <options>
       <option id="A" correct="true">Den som ansetter deg og betaler lønn</option>
       <option id="B" correct="false">Den som søker jobb i en bedrift</option>
-      <option id="C" correct="false">Den som representerer alle de ansatte</option>
+      <option id="C" correct="false">Den som representerer de ansatte</option>
     </options>
     <feedback>
       <correct>Arbeidsgiveren ansetter deg og betaler lønn.</correct>
@@ -1774,7 +1774,7 @@
     <text>Hva er sosialhjelp?</text>
     <options>
       <option id="A" correct="true">Hjelp fra Nav når du ikke har penger</option>
-      <option id="B" correct="false">Penger som alle voksne får hver måned</option>
+      <option id="B" correct="false">Penger fra staten til voksne hver måned</option>
       <option id="C" correct="false">Støtte til å kjøpe bolig fra en bank</option>
     </options>
     <feedback>
@@ -1883,7 +1883,7 @@
     <options>
       <option id="A" correct="true">De ansatte stopper arbeidet for å få endring</option>
       <option id="B" correct="false">Sjefen stenger bedriften for å spare penger</option>
-      <option id="C" correct="false">De ansatte tar ferie på samme tid</option>
+      <option id="C" correct="false">De ansatte tar ferie på samme tid hvert år</option>
     </options>
     <feedback>
       <correct>Streik betyr at de ansatte stopper arbeidet for å få endring.</correct>
@@ -1907,7 +1907,7 @@
     <options>
       <option id="A" correct="true">En som jobber for en bedrift</option>
       <option id="B" correct="false">En som eier en egen bedrift</option>
-      <option id="C" correct="false">En som leder en fagforening</option>
+      <option id="C" correct="false">En som leder en stor fagforening</option>
     </options>
     <feedback>
       <correct>En arbeidstaker jobber for en bedrift.</correct>
@@ -1978,7 +1978,7 @@
     <text>Hva er etisk bevissthet?</text>
     <options>
       <option id="A" correct="true">Å tenke på ulike hensyn når du velger</option>
-      <option id="B" correct="false">Å gjøre det som er best for deg selv</option>
+      <option id="B" correct="false">Å gjøre det som er best for deg selv alene</option>
       <option id="C" correct="false">Å følge reglene uten å tenke selv</option>
     </options>
     <feedback>
@@ -2027,7 +2027,7 @@
     <options>
       <option id="A" correct="true">Oppgi hvem som har laget det</option>
       <option id="B" correct="false">Endre litt på verket så det blir ditt</option>
-      <option id="C" correct="false">Spørre alle på nettet om lov</option>
+      <option id="C" correct="false">Spørre vennene dine om lov</option>
     </options>
     <feedback>
       <correct>Du må oppgi hvem som har laget det du bruker.</correct>
@@ -2083,14 +2083,14 @@
     </feedback>
   </question>
   <question id="kritisk-13" category="Kritisk tenkning og digital dømmekraft">
-    <text>En familie skal kjøpe ny bil. De bryr seg om miljøet. De trenger plass til besteforeldrene. Hva må de tenke på?</text>
+    <text>Familien vil ha miljøvennlig bil med plass til besteforeldre. Hva må de se på?</text>
     <options>
-      <option id="A" correct="true">Miljøet og plass til besteforeldrene</option>
+      <option id="A" correct="true">Utslipp og hvor mye plass bilen har</option>
       <option id="B" correct="false">Fargen på bilen og hvor pen den er</option>
-      <option id="C" correct="false">Hvilket bilmerke som er mest kjent</option>
+      <option id="C" correct="false">Hvilket bilmerke som er mest kjent i Norge</option>
     </options>
     <feedback>
-      <correct>De må tenke på miljøet og plass til besteforeldrene.</correct>
+      <correct>De må se på utslipp og hvor mye plass bilen har.</correct>
       <wrong>Se på det familien bryr seg om, ikke på farge eller merke.</wrong>
     </feedback>
   </question>
@@ -2182,7 +2182,7 @@
     <text>Hva kan skje når man er anonym i kommentarfelt?</text>
     <options>
       <option id="A" correct="true">Mange skriver stygge eller ulovlige ting</option>
-      <option id="B" correct="false">Alle skriver mer høflig enn ellers</option>
+      <option id="B" correct="false">Folk skriver mer høflig enn ellers</option>
       <option id="C" correct="false">Færre mennesker tør å skrive noe</option>
     </options>
     <feedback>
@@ -2195,7 +2195,7 @@
     <options>
       <option id="A" correct="true">Det du gjør på nettet, og som blir lagret</option>
       <option id="B" correct="false">Bilder som forsvinner etter noen timer</option>
-      <option id="C" correct="false">Passord som bare du selv kjenner til</option>
+      <option id="C" correct="false">Passordene du har lagret på mobilen</option>
     </options>
     <feedback>
       <correct>Digitale spor er det du gjør på nettet, og som blir lagret.</correct>
@@ -2218,7 +2218,7 @@
     <text>Hva begrenser ytringsfriheten?</text>
     <options>
       <option id="A" correct="true">Personvernet og noen regler i loven</option>
-      <option id="B" correct="false">Regler som hver kommune bestemmer</option>
+      <option id="B" correct="false">Regler som hver kommune bestemmer selv</option>
       <option id="C" correct="false">Det som flertallet synes er riktig</option>
     </options>
     <feedback>
@@ -2230,7 +2230,7 @@
     <text>Hva betyr privatliv?</text>
     <options>
       <option id="A" correct="true">Ting som hører til deg og dine</option>
-      <option id="B" correct="false">Ting du deler med alle kollegene dine</option>
+      <option id="B" correct="false">Ting du deler med kollegene dine</option>
       <option id="C" correct="false">Ting som staten bestemmer over deg</option>
     </options>
     <feedback>
@@ -2251,11 +2251,11 @@
     </feedback>
   </question>
   <question id="kritisk-27" category="Kritisk tenkning og digital dømmekraft">
-    <text>Noen deler et privat bilde av en venninne og skriver noe usant om henne. Hva er dette?</text>
+    <text>Noen deler et privat bilde av deg og skriver løgn om deg. Hva er dette?</text>
     <options>
       <option id="A" correct="true">Ulovlig, og du kan melde det til politiet</option>
-      <option id="B" correct="false">Lovlig, fordi alle har ytringsfrihet</option>
-      <option id="C" correct="false">Lovlig, hvis profilen er åpen for alle</option>
+      <option id="B" correct="false">Lovlig, fordi det er ytringsfrihet</option>
+      <option id="C" correct="false">Lovlig, hvis profilen er offentlig</option>
     </options>
     <feedback>
       <correct>Det er ulovlig, og du kan melde det til politiet.</correct>
@@ -2266,8 +2266,8 @@
     <text>Hvorfor er det viktig å tenke på hva du deler på nettet?</text>
     <options>
       <option id="A" correct="true">Andre kan få vite ting om deg og bruke dem</option>
-      <option id="B" correct="false">Alt du deler blir slettet etter noen uker</option>
-      <option id="C" correct="false">Bare vennene dine kan se det du deler</option>
+      <option id="B" correct="false">Det du deler blir slettet etter noen uker</option>
+      <option id="C" correct="false">Det er nærmeste venner som ser det du deler</option>
     </options>
     <feedback>
       <correct>Andre kan få vite ting om deg og bruke dem.</correct>
@@ -2327,7 +2327,7 @@
     <options>
       <option id="A" correct="true">En overskrift som lokker deg til å klikke</option>
       <option id="B" correct="false">En advarsel om virus på datamaskinen din</option>
-      <option id="C" correct="false">En betaling for å kunne lese en artikkel</option>
+      <option id="C" correct="false">En betaling for å kunne lese hele artikkelen</option>
     </options>
     <feedback>
       <correct>Klikkbait er en overskrift som lokker deg til å klikke.</correct>
@@ -2362,7 +2362,7 @@
     <text>Hvorfor bør du lese mer enn én kilde om en sak?</text>
     <options>
       <option id="A" correct="true">Flere kilder gir et bedre bilde av saken</option>
-      <option id="B" correct="false">Det gir deg flere sider å dele på nett</option>
+      <option id="B" correct="false">Det gir deg flere sider å dele på sosiale medier</option>
       <option id="C" correct="false">Én kilde kan ikke ha riktig informasjon</option>
     </options>
     <feedback>
@@ -2398,16 +2398,16 @@
     <text>Hva er en mening?</text>
     <options>
       <option id="A" correct="true">Det en person mener om noe</option>
-      <option id="B" correct="false">Noe som alle mennesker er enige om</option>
+      <option id="B" correct="false">Noe som politikerne har bestemt</option>
       <option id="C" correct="false">Noe som står skrevet i en lov</option>
     </options>
     <feedback>
       <correct>En mening er det en person mener om noe.</correct>
-      <wrong>Meninger kan ikke bevises. Alle er ikke enige om dem, og de står ikke i loven.</wrong>
+      <wrong>Meninger kan ikke bevises. Politikerne bestemmer dem ikke, og de står ikke i loven.</wrong>
     </feedback>
   </question>
   <question id="kritisk-40" category="Kritisk tenkning og digital dømmekraft">
-    <text>Hvorfor kan du ikke alltid stole på en reklame?</text>
+    <text>Hvorfor bør du være kritisk til reklame?</text>
     <options>
       <option id="A" correct="true">Avsenderen vil at du skal kjøpe noe</option>
       <option id="B" correct="false">Reklamen er skrevet av en offentlig etat</option>
@@ -2446,7 +2446,7 @@
     <text>Hva er en algoritme i sosiale medier?</text>
     <options>
       <option id="A" correct="true">Regler som bestemmer hva du ser i appen</option>
-      <option id="B" correct="false">En ansatt som godkjenner alle innleggene</option>
+      <option id="B" correct="false">En ansatt som godkjenner innleggene</option>
       <option id="C" correct="false">Et program som sletter gamle bilder for deg</option>
     </options>
     <feedback>
@@ -2506,7 +2506,7 @@
     <text>Hva er diskriminering?</text>
     <options>
       <option id="A" correct="true">Å behandle noen dårligere på grunn av bakgrunn</option>
-      <option id="B" correct="false">Å gi alle de samme rettighetene i samfunnet</option>
+      <option id="B" correct="false">Å gi folk de samme rettighetene i samfunnet</option>
       <option id="C" correct="false">Å velge ut den beste søkeren til en jobb</option>
     </options>
     <feedback>
@@ -2519,7 +2519,7 @@
     <options>
       <option id="A" correct="true">Melde fra til nettstedet eller politiet</option>
       <option id="B" correct="false">Svare med enda verre ord enn avsenderen</option>
-      <option id="C" correct="false">Dele kommentaren med alle vennene dine</option>
+      <option id="C" correct="false">Dele kommentaren med vennene dine</option>
     </options>
     <feedback>
       <correct>Du kan melde fra til nettstedet eller politiet.</correct>
@@ -2554,7 +2554,7 @@
     <text>Er det lov å true noen på nett?</text>
     <options>
       <option id="A" correct="true">Nei, trusler er forbudt, også på nett</option>
-      <option id="B" correct="false">Ja, alle har ytringsfrihet på nettet</option>
+      <option id="B" correct="false">Ja, det er ytringsfrihet på nettet</option>
       <option id="C" correct="false">Ja, hvis man bruker et falskt navn</option>
     </options>
     <feedback>
@@ -2602,8 +2602,8 @@
     <text>Hvem bør få vite personnummeret ditt?</text>
     <options>
       <option id="A" correct="true">De som trenger det, som banken og Nav</option>
-      <option id="B" correct="false">Alle som spør om det på sosiale medier</option>
-      <option id="C" correct="false">Alle naboene dine og kollegene på jobben</option>
+      <option id="B" correct="false">Folk som spør om det på sosiale medier</option>
+      <option id="C" correct="false">Naboene dine og kollegene på jobben</option>
     </options>
     <feedback>
       <correct>Bare de som trenger det, som banken og Nav, bør få personnummeret ditt.</correct>
@@ -2662,7 +2662,7 @@
     <text>Hva er en cookie på en nettside?</text>
     <options>
       <option id="A" correct="true">En liten fil som husker hva du gjør</option>
-      <option id="B" correct="false">Et virus som kan stjele alle passordene</option>
+      <option id="B" correct="false">Et virus som kan stjele passordene</option>
       <option id="C" correct="false">En avgift man må betale for å logge inn</option>
     </options>
     <feedback>
@@ -2686,8 +2686,8 @@
     <text>Hva bør du gjøre med personverninnstillingene i sosiale medier?</text>
     <options>
       <option id="A" correct="true">Sjekke hvem som kan se innleggene dine</option>
-      <option id="B" correct="false">Åpne alle innstillinger så alle kan se alt</option>
-      <option id="C" correct="false">Ikke endre noe, siden alle er like</option>
+      <option id="B" correct="false">Åpne innstillingene så hvem som helst kan se alt</option>
+      <option id="C" correct="false">Ikke endre noe, siden det ikke har betydning</option>
     </options>
     <feedback>
       <correct>Sjekk hvem som kan se innleggene dine.</correct>
@@ -2719,7 +2719,7 @@
     </feedback>
   </question>
   <question id="kritisk-66" category="Kritisk tenkning og digital dømmekraft">
-    <text>Du får en SMS om at pakken din er stoppet. Du må betale via en lenke. Hva er lurt å gjøre?</text>
+    <text>En SMS ber deg betale for en stoppet pakke via en lenke. Hva er lurt?</text>
     <options>
       <option id="A" correct="true">Ikke klikke, men sjekke med postselskapet</option>
       <option id="B" correct="false">Klikke på lenken og betale med en gang</option>
@@ -2731,7 +2731,7 @@
     </feedback>
   </question>
   <question id="kritisk-67" category="Kritisk tenkning og digital dømmekraft">
-    <text>Noen ringer og sier at de er fra banken. De ber om BankID-koden din. Hva bør du gjøre?</text>
+    <text>Noen ringer fra «banken» og vil ha BankID-koden din. Hva bør du gjøre?</text>
     <options>
       <option id="A" correct="true">Avslutte samtalen og ikke si koden</option>
       <option id="B" correct="false">Gi koden hvis personen høres høflig ut</option>
@@ -2771,7 +2771,7 @@
     <options>
       <option id="A" correct="true">Oppdateringer retter sikkerhetsfeil i telefonen</option>
       <option id="B" correct="false">Oppdateringer gjør telefonen billigere å bruke</option>
-      <option id="C" correct="false">Oppdateringer sletter gamle bilder automatisk</option>
+      <option id="C" correct="false">Oppdateringer sletter gamle bilder fra telefonen</option>
     </options>
     <feedback>
       <correct>Oppdateringer retter sikkerhetsfeil.</correct>
@@ -2794,7 +2794,7 @@
     <text>Hvorfor bør du logge ut av nettbanken når du er ferdig?</text>
     <options>
       <option id="A" correct="true">Så ingen andre kommer inn på kontoen</option>
-      <option id="B" correct="false">Så banken får mer penger fra deg</option>
+      <option id="B" correct="false">Så banken får mer penger fra deg hvert år</option>
       <option id="C" correct="false">Så nettleseren blir raskere å bruke</option>
     </options>
     <feedback>
@@ -2807,7 +2807,7 @@
     <options>
       <option id="A" correct="true">En elektronisk ID for trygg innlogging</option>
       <option id="B" correct="false">Et kort du bruker for å handle i butikk</option>
-      <option id="C" correct="false">Et nummer som politiet gir til alle</option>
+      <option id="C" correct="false">Et nummer som politiet gir deg</option>
     </options>
     <feedback>
       <correct>BankID er en elektronisk ID for trygg innlogging.</correct>
@@ -2830,7 +2830,7 @@
     <text>Hva er et etisk dilemma?</text>
     <options>
       <option id="A" correct="true">Et valg mellom to ting som begge er viktige</option>
-      <option id="B" correct="false">En situasjon der alle er enige om svaret</option>
+      <option id="B" correct="false">En situasjon der folk er enige om svaret</option>
       <option id="C" correct="false">En situasjon der loven gir ett klart svar</option>
     </options>
     <feedback>
@@ -2843,7 +2843,7 @@
     <options>
       <option id="A" correct="true">Levere den til politiet eller eieren</option>
       <option id="B" correct="false">Beholde pengene og kaste lommeboken</option>
-      <option id="C" correct="false">Legge den tilbake og gå videre</option>
+      <option id="C" correct="false">Legge den tilbake på gaten og gå videre</option>
     </options>
     <feedback>
       <correct>Lever lommeboken til politiet eller eieren.</correct>
