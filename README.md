@@ -38,18 +38,15 @@ Prøvemodus har alltid 38 spørsmål. Du kan ikke velge antall, og du kan ikke v
 
 ## Tema
 
-Undertema som har spørsmål nå, 80 i hvert (720 til sammen):
+Alle tre hovedtemaene har spørsmål, 80 i hvert undertema (1040 til sammen):
 
 - Utdanning, kompetanse og arbeidsliv: Skole og utdanning, Arbeidsliv, Kritisk tenkning og digital dømmekraft.
 - Familie, helse og hverdagsliv: Ny i Norge, Familieliv, Fritid, Helse, Personlig økonomi, Retten til et fritt og selvstendig liv.
-
-Undertemaene i Familie, helse og hverdagsliv har emner, ett for hver underside på samfunnskunnskap.no. I et undertema med emner trekkes spørsmålene jevnt fra emnene. Er et emne for lite, fyller de andre opp. Resultatet vises da per emne. Emner, læringsmål og kilder står i `docs/testspesifikasjon.md`.
-
-Dette hovedtemaet er planlagt, med 80 spørsmål per undertema. Det er ikke med i banken ennå, og kan ikke velges:
-
 - Norge før og nå: Dette er Norge, Historie, Menneskerettigheter og demokrati, Bærekraft.
 
-Når spørsmålene er lagt inn, blir undertemaene med i øvingen og i prøvens blanding av seg selv.
+Undertemaene i Familie, helse og hverdagsliv og i Norge før og nå har emner, ett for hver underside på samfunnskunnskap.no. I et undertema med emner trekkes spørsmålene jevnt fra emnene. Er et emne for lite, fyller de andre opp. Resultatet vises da per emne. Emner, læringsmål og kilder står i `docs/testspesifikasjon.md`.
+
+Et nytt undertema blir med i øvingen og i prøvens blanding av seg selv når spørsmålene er lagt inn.
 
 ## Bestått og personvern
 

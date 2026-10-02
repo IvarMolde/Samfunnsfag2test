@@ -9,7 +9,7 @@ Grenen `samfunnskunnskap-sporsmalsbank-v1` legger til ny spørsmålsbank og doku
 | `docs/` | `PORTAL_BYGGEBESKRIVELSE.md` (krav til portalen, inkl. kapittel 10 om prøvekvalitet) og `README_samfunnskunnskap.md` (tidligere funksjonsbeskrivelse) |
 | `sporsmalsbank/kilde/` | Spørsmålene som data: `a2_*.js` (spørsmål, riktig svar først) og `fb_*.js` (tilbakemelding) |
 | `sporsmalsbank/scripts/` | Bygg- og kontrollscript |
-| `sporsmalsbank/ut/` | Genererte filer: XML v1.1 (720 spørsmål, med tilbakemelding), Word og én lesefil (md) per underkategori med emner |
+| `sporsmalsbank/ut/` | Genererte filer: XML v1.1 (1040 spørsmål, med tilbakemelding), Word og én lesefil (md) per underkategori med emner |
 | `prototype/` | Prototype av øvingssiden. `page.src.html` er malen, `index.html` er bygget |
 
 ## Kommandoer (kjør i rotmappen)
@@ -28,7 +28,7 @@ npm run e2e         # ende-til-ende-test i nettleser (krever Chromium)
 
 ## Appen i rotmappen
 
-De gamle 150 spørsmålene er fjernet fra `questions.xml` (de ligger i git-historikken). Filen genereres nå fra `sporsmalsbank/kilde/` med `npm run bygg`, og inneholder de 720 spørsmålene med tilbakemelding for riktig og feil svar. `app.js` leser den nye tilbakemeldingen og velger en tilfeldig åpning («Korrekt!», «Nesten, men ikke korrekt.» osv.).
+De gamle 150 spørsmålene er fjernet fra `questions.xml` (de ligger i git-historikken). Filen genereres nå fra `sporsmalsbank/kilde/` med `npm run bygg`, og inneholder de 1040 spørsmålene med tilbakemelding for riktig og feil svar. `app.js` leser den nye tilbakemeldingen og velger en tilfeldig åpning («Korrekt!», «Nesten, men ikke korrekt.» osv.).
 
 Ikke gjort ennå: statusbar, utskrift med navn, prøvemodus med tidtaker og nytt design. Se `docs/PORTAL_BYGGEBESKRIVELSE.md`.
 
@@ -43,8 +43,7 @@ Ikke gjort ennå: statusbar, utskrift med navn, prøvemodus med tidtaker og nytt
 
 - `npm run validate` gir ingen feil og ingen advarsler. Absolutte ord («alltid», «bare», «kun», «alle») står ikke lenger bare i gale svar. Riktig svar er lengst i 34 % av spørsmålene. Svarlengde sier likevel lite om kvalitet: utprøving på deltakere gjenstår.
 - Banken er **ikke utprøvd** på deltakere, og er derfor ikke psykometrisk validert.
-- Norge før og nå er ikke laget ennå.
-- De 400 nye spørsmålene i Familie, helse og hverdagsliv er ikke gjennomlest av faglærer ennå.
+- De 400 nye spørsmålene i Familie, helse og hverdagsliv og de 320 i Norge før og nå er ikke gjennomlest av faglærer ennå.
 - Rettigheter til innhold fra samfunnskunnskap.no er ikke avklart.
 - Prototypen laster Google Fonts fra nettet. Portalen skal bruke selvhostede fonter.
 
@@ -61,7 +60,10 @@ Banken er én fil (`questions.xml`) med tre nivåer. Hvert spørsmål har attrib
 | Familie, helse og hverdagsliv | Helse | Helsetjenester (16), Helse og livsstil (14), Psykisk helse (12), Familieplanlegging, svangerskap og oppfølging av barn (12), Tannhelse (10), Å flytte til et nytt land (8), Identitet (8) | 80 ferdig |
 | Familie, helse og hverdagsliv | Personlig økonomi | Personlig økonomi (44), Bolig (36) | 80 ferdig |
 | Familie, helse og hverdagsliv | Retten til et fritt og selvstendig liv | Vold i nære relasjoner (32), Tvangsekteskap (18), Negativ sosial kontroll (18), Kjønnslemlestelse (12) | 80 ferdig |
-| Norge før og nå | Dette er Norge, Historie, Menneskerettigheter og demokrati, Bærekraft | – | planlagt, 80 hver |
+| Norge før og nå | Dette er Norge | Fakta om Norge (16), Likestilling og likeverd (16), Merke- og helligdager (14), Minoritet og majoritet i Norge (12), Religion og livssyn (12), Samene (10) | 80 ferdig |
+| Norge før og nå | Historie | De første nordmenn (14), Middelalder og unionstid (14), Norge fra 1814 til 1905 (18), Første og andre verdenskrig (16), Det moderne Norge (18) | 80 ferdig |
+| Norge før og nå | Menneskerettigheter og demokrati | Demokratiet i Norge (24), Demokratiske rettigheter og plikter (22), Menneskerettigheter (16), Valg og politiske partier (18) | 80 ferdig |
+| Norge før og nå | Bærekraft | Bærekraftig utvikling (28), Natur og naturressurser (26), Natur- og miljøvern (26) | 80 ferdig |
 
 **Valg i portalen:** «Alle temaer» eller «Ett undertema» (først hovedtema, så undertema). Filtrering skjer i minnet på `category`. Hovedkategorien står også i XML (`main`).
 
