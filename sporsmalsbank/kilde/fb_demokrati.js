@@ -24,7 +24,7 @@ module.exports=[["Riktig. Demokrati betyr folkestyre. Folket bestemmer gjennom v
 ["Riktig. Etter valget danner ett eller flere partier en ny regjering.","Det er de politiske partiene som danner regjering, ut fra resultatet på Stortinget."],
 ["Riktig. I et demokrati har vi både frihet og rettigheter, og ansvar og plikter.","Frihet og rettigheter hører sammen med noe du må gjøre for samfunnet."],
 ["Riktig. Ytringsfriheten gjelder både privatpersoner og radio, tv og aviser.","Pressen er fri i Norge. Mediene trenger ikke tillatelse fra staten for å skrive."],
-["Riktig. Kommuneloven sier at den som blir valgt, har plikt til å ta imot valget. Bare noen få kan få fritak.","Å være folkevalgt er en plikt, ikke bare en rettighet. Det finnes bare noen få unntak."],
+["Riktig. Valgloven sier at den som blir valgt, har plikt til å ta imot valget. Bare noen få kan få fritak.","Å være folkevalgt er en plikt, ikke bare en rettighet. Det finnes bare noen få unntak."],
 ["Riktig. Ærekrenkelse er ikke straffbart siden 2015, men retten kan kreve at du betaler erstatning.","Du får ikke fengsel for ærekrenkelse i dag. Men å skade andres rykte kan likevel koste penger."],
 ["Riktig. Å stemme er en rettighet. Ingen kan tvinge deg til å stemme.","I Norge er det frivillig å stemme. Lav valgdeltakelse er likevel et problem for demokratiet."],
 ["Riktig. Rettssikkerhet betyr blant annet at ingen kan dømmes til fengsel uten en rettssak først.","I et demokrati er det uavhengige dommere som avgjør skyld og straff, ikke politiet."],

@@ -288,7 +288,7 @@ Tilleggskilder: https://lovdata.no/lov/2005-05-20-28/§287, https://lovdata.no/l
 - B) Nei, hun kan si nei uten noen grunn
 - C) Nei, det er helt frivillig å ta vervet
 
-**Riktig:** Riktig. Kommuneloven sier at den som blir valgt, har plikt til å ta imot valget. Bare noen få kan få fritak.
+**Riktig:** Riktig. Valgloven sier at den som blir valgt, har plikt til å ta imot valget. Bare noen få kan få fritak.
 
 **Feil:** Å være folkevalgt er en plikt, ikke bare en rettighet. Det finnes bare noen få unntak.
 
