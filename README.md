@@ -27,4 +27,4 @@ En statisk webapp for voksne som øver til prøve i samfunnskunnskap.
 Ikke åpne `index.html` direkte som en `file://`-fil dersom nettleseren blokkerer lokal lasting av XML. GitHub Pages fungerer fordi filene leveres via HTTP/HTTPS.
 
 ## Faglig kvalitet
-Spørsmålene er skrevet på A2-nivå med utgangspunkt i samfunnskunnskap.no. Kilden ligger i `sporsmalsbank/kilde/`, og `questions.xml` genereres derfra med `npm run bygg` i `sporsmalsbank/`. Rediger kilden, ikke `questions.xml`. Dette er en øvingsprøve, ikke en offisiell eller psykometrisk validert norsk prøve.
+Spørsmålene er skrevet på A2-nivå med utgangspunkt i samfunnskunnskap.no. Kilden ligger i `sporsmalsbank/kilde/`, og `questions.xml` genereres derfra med `npm run bygg`. Rediger kilden, ikke `questions.xml`. Dette er en øvingsprøve, ikke en offisiell eller psykometrisk validert norsk prøve.

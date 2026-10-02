@@ -12,15 +12,19 @@ Grenen `samfunnskunnskap-sporsmalsbank-v1` legger til ny spørsmålsbank og doku
 | `sporsmalsbank/ut/` | Genererte filer: XML v1.1 (240 spørsmål, med tilbakemelding) og Word |
 | `prototype/` | Prototype av øvingssiden. `page.src.html` er malen, `index.html` er bygget |
 
-## Kommandoer (kjør i `sporsmalsbank/`)
+## Kommandoer (kjør i rotmappen)
 
 ```
 npm install
-npm run kontroll    # teller, finner dubletter og viser svarlengde-statistikk
-npm run bygg        # kontroll + XML + Word + prototype
+npm run bygg        # kontroll + XML + questions.xml + Word + prototype
+npm run validate    # kontrollerer questions.xml (feil stopper, advarsler vises)
+npm test            # enhetstester (trekk, stokking, poeng, 80 %-grense)
+npm run e2e         # ende-til-ende-test i nettleser (krever Chromium)
 ```
 
-`ut/` og `prototype/index.html` kan alltid bygges på nytt fra `kilde/`. Rediger kilden, ikke de genererte filene.
+`CHROMIUM_PATH` kan settes hvis Chromium ligger et annet sted. GitHub Actions (`.github/workflows/ci.yml`) kjører validering, kontroll av at `questions.xml` stemmer med kilden, enhetstester og e2e ved hver push.
+
+`sporsmalsbank/ut/`, `questions.xml` og `prototype/index.html` kan alltid bygges på nytt fra `sporsmalsbank/kilde/`. Rediger kilden, ikke de genererte filene.
 
 ## Appen i rotmappen
 
