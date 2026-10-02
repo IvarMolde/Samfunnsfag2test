@@ -36,7 +36,7 @@ module.exports = { tema: "Kritisk tenkning og digital dømmekraft", emner: [{ em
 ["Hva er en kilde?","Det stedet informasjonen kommer fra","Det stedet informasjonen blir slettet","Den personen som leser først"],
 ["Hvorfor bør du lese mer enn én kilde om en sak?","Flere kilder gir et bedre bilde av saken","Det gir deg flere sider å dele på sosiale medier","Én kilde kan ikke ha riktig informasjon"],
 ["Hva kan du gjøre for å sjekke om et bilde er gammelt eller falskt?","Søke etter bildet med et bildesøk","Spørre en fremmed i et kommentarfelt","Se hvor mange likes bildet har fått"],
-["Hva er et faktum?","Oslo er hovedstaden i Norge","Norsk mat er den beste i verden","Vinteren er den vakreste årstiden"],
+["Hvilke av disse utsagnene er et eksempel på et faktum?","Oslo er hovedstaden i Norge","Norsk mat er den beste i verden","Vinteren er den vakreste årstiden"],
 ["Hva er en mening?","Det en person mener om noe","Noe som politikerne har bestemt","Noe som står skrevet i en lov"],
 ["Hvorfor bør du være kritisk til reklame?","Avsenderen vil at du skal kjøpe noe","Reklamen er skrevet av en offentlig etat","Reklamen er skrevet på et vanskelig språk"],
 ["Hva gjør journalister?","De undersøker og skriver nyheter","De bestemmer hvilke lover som skal gjelde","De bestemmer hva folk skal mene om saker"],

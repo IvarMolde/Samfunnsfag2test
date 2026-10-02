@@ -2383,7 +2383,7 @@
     </feedback>
   </question>
   <question id="kritisk-38" category="Kritisk tenkning og digital dømmekraft">
-    <text>Hva er et faktum?</text>
+    <text>Hvilke av disse utsagnene er et eksempel på et faktum?</text>
     <options>
       <option id="A" correct="true">Oslo er hovedstaden i Norge</option>
       <option id="B" correct="false">Norsk mat er den beste i verden</option>
