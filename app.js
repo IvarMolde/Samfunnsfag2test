@@ -290,6 +290,15 @@ function showResult() {
   note.textContent = bits.join(" "); note.hidden = bits.length === 0;
   renderThemes(r);
   renderReview(r);
+  const diplomaName = $("#diplomaName");
+  diplomaName.textContent = state.name;
+  diplomaName.hidden = !state.name;
+  $("#diplomaDate").textContent = state.date;
+  $("#diplomaScore").textContent = r.pctText;
+  $("#diplomaDetail").textContent = `${r.correct} av ${r.total} riktige`;
+  const diplomaStatus = $("#diplomaStatus");
+  diplomaStatus.textContent = r.passed ? "Bestått" : "Ikke bestått";
+  diplomaStatus.className = `diploma-status ${r.passed ? "pass" : "fail"}`;
   $("#resultTitle").focus({ preventScroll: true });
   const rb = $("#retryBtn");
   rb.hidden = r.wrongItems.length === 0;
@@ -318,7 +327,7 @@ function renderThemes(r) {
 
 function renderReview(r) {
   const box = $("#review");
-  box.innerHTML = `<h2>Gjennomgang</h2><p class="print-only">Spørsmål som ble besvart feil, med riktig svar.</p>`;
+  box.innerHTML = `<h2>Gjennomgang</h2>`;
   state.items.forEach((q, i) => {
     const a = state.answers[i];
     const ok = a && a.picked != null && q.options[a.picked].correct;

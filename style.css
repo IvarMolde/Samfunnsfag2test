@@ -187,21 +187,28 @@ dialog h2{font-size:1.3rem;margin-bottom:8px}
 }
 @media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
 
-@page{size:A4;margin:16mm}
+.diploma{display:none}
+.diploma-frame{display:flex;flex-direction:column;align-items:center;text-align:center;box-sizing:border-box;min-height:250mm;padding:16mm 14mm 12mm;border:2px solid #143d56;box-shadow:inset 0 0 0 1px #143d56,inset 0 0 0 6px #fff,inset 0 0 0 7px #143d56}
+.diploma-logo{height:26mm;width:auto;margin:0 0 8mm}
+.diploma .print-banner{margin:0;border:0;padding:0;font-size:14pt;font-weight:700;color:#143d56;letter-spacing:.01em}
+.diploma-name{margin-top:12mm;font-size:22pt;font-weight:700;line-height:1.2}
+.diploma-date{margin-top:4mm;font-size:12pt;color:#3d5163}
+.diploma-score{margin-top:14mm;font-size:42pt;font-weight:700;line-height:1;font-variant-numeric:tabular-nums;color:#143d56}
+.diploma-detail{margin-top:3mm;font-size:13pt}
+.diploma-status{margin-top:12mm;min-width:70mm;padding:4mm 8mm;border:2px solid currentColor;font-size:16pt;font-weight:700;letter-spacing:.06em}
+.diploma-status.pass{color:#525a36}
+.diploma-status.fail{color:#a83c37}
+.diploma .print-footnote{margin-top:auto;padding-top:14mm;max-width:140mm;font-size:9pt;color:#3d5163}
+
+@page{size:A4;margin:12mm}
 @media print{
-  :root{--bg:#fff;--surface:#fff;--surface-2:#fff;--ink:#000;--ink-2:#222;--line:#999}
-  body{background:#fff;font-size:11pt}
-  .screen:not(#resultScreen),dialog,.skip,.site-meta,.quiz-bar,.progress{display:none!important}
-  .site-header{border-bottom:2px solid #000;padding:0 0 10px}
-  .logo{height:42px}
-  .site-footer{padding:16px 0 0;max-width:none}
-  .panel{margin:12px 0 0;padding:0;border:0;max-width:none}
-  .print-only{display:block}
-  .print-banner{font-weight:700;border-bottom:2px solid #000;padding-bottom:8px;margin:0 0 14px}
-  .print-footnote{font-size:.85rem;margin-top:18px}
-  .result-actions,.review{display:none!important}
-  .review{display:block!important}
-  .review-item.correct{display:none}
-  .result-card,.review-item,.themes{break-inside:avoid}
-  .score,.bar-fill,.bar{print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  :root{--bg:#fff;--surface:#fff;--ink:#143d56}
+  body{background:#fff}
+  .screen:not(#resultScreen),dialog,.skip,.site-header,.site-footer,.site-meta,.quiz-bar,.progress{display:none!important}
+  #resultScreen{display:block!important}
+  #resultScreen .panel{margin:0;padding:0;border:0;max-width:none;box-shadow:none;background:#fff}
+  #resultScreen .panel>:not(#diploma){display:none!important}
+  .review,.result-actions,.themes,.result-card{display:none!important}
+  .print-only,.diploma{display:block!important}
+  .diploma,.diploma-status,.diploma-frame{print-color-adjust:exact;-webkit-print-color-adjust:exact}
 }

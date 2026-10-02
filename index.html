@@ -119,7 +119,18 @@
 
     <section class="screen" id="resultScreen">
       <div class="panel">
-        <p class="print-only print-banner">Øvingsprøve i samfunnskunnskap · ikke en offisiell prøve</p>
+        <article class="diploma print-only" id="diploma">
+          <div class="diploma-frame">
+            <img class="diploma-logo" src="assets/molde-voksenopplaering.png" alt="Molde voksenopplæring" width="1595" height="525">
+            <p class="print-banner">Øvingsprøve i samfunnskunnskap</p>
+            <p class="diploma-name" id="diplomaName" hidden></p>
+            <p class="diploma-date" id="diplomaDate"></p>
+            <p class="diploma-score" id="diplomaScore"></p>
+            <p class="diploma-detail" id="diplomaDetail"></p>
+            <p class="diploma-status" id="diplomaStatus"></p>
+            <p class="print-footnote">Dette er en øvingsprøve, ikke et offisielt dokument. Resultatet sier ikke at du vil bestå den offisielle prøven.</p>
+          </div>
+        </article>
         <h1 id="resultTitle" tabindex="-1"></h1>
         <p id="resultSub"></p>
         <p id="resultNote" class="result-note" hidden></p>
@@ -142,7 +153,6 @@
           <button type="button" class="secondary" id="restartBtn">Ta ny prøve</button>
         </div>
         <div id="review" class="review"></div>
-        <p class="print-only print-footnote">Dette er en øvingsprøve. Resultatet er en indikasjon og sier ikke at du vil bestå den offisielle prøven.</p>
       </div>
     </section>
   </main>
