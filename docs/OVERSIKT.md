@@ -61,7 +61,7 @@ Banken er én fil (`questions.xml`) med tre nivåer. Hvert spørsmål har attrib
 
 **Trekning (`js/logic.js`):** `drawBalanced` fordeler plassene likt mellom underkategoriene, og i en underkategori med emner likt mellom emnene. En gruppe som er for liten (for eksempel emnet med 9 spørsmål ved 40 spørsmål fra Ny i Norge) gir det den har, og de andre fyller opp (`allocate`). Ingen spørsmål trekkes to ganger. Resultatet vises per emne når én underkategori med emner er valgt, ellers per underkategori.
 
-**Ny modul:** legg `a2_<navn>.js` og `fb_<navn>.js` i `sporsmalsbank/kilde/`, ta dem med i `load.js` (med hovedkategori), legg `fb`-filen og id-prefikset inn i `bygg-appxml.js`, og kjør `npm run bygg`, `npm run check` og `npm run e2e`. Valideringen krever 80 spørsmål per underkategori, `main` på alle spørsmål og minst 5 spørsmål per emne.
+**Ny modul:** følg `docs/NYE_SPORSMAL_I_CURSOR.md`. Kort sagt: to kildefiler, én linje i `load.js`, så `npm run bygg`, `npm run check` og `npm run e2e`.
 
 **Lesbar md-fil:** `npm run md` skriver `sporsmalsbank/ut/Ny_i_Norge_sporsmal.md` (A er alltid riktig, med emner og kilder).
 

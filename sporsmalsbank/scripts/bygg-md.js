@@ -1,8 +1,7 @@
 // Lager en lesbar md-fil per kategori som har emner (nå: Ny i Norge). Alternativ A er alltid riktig.
 const fs=require('fs'),path=require('path');
 const mods=require('../kilde/load.js');
-const fbs={'Ny i Norge':require('../kilde/fb_nyinorge.js')};
-for(const m of mods){const fb=fbs[m.tema];if(!fb)continue;
+for(const m of mods){if(m.emner.length<2)continue;const fb=m.fb;
  const n=m.emner.reduce((a,e)=>a+e.items.length,0);
  let md=`# ${m.tema} (${n} spørsmål)\n\nHovedkategori: ${m.hoved}\n\nKilde: samfunnskunnskap.no. Tre svaralternativer, A er alltid riktig. Nivå A2. Fakta bør kontrolleres av en faglærer mot oppdaterte offentlige kilder (UDI, Nav, Udir).\n\n`;
  let i=0;

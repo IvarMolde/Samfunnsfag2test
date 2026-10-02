@@ -1,5 +1,18 @@
-const mods=['a2_skole','a2_arbeid','a2_kritisk','a2_nyinorge'].map(n=>require('./'+n+'.js'));
-// Hovedkategori (modul) for hver underkategori. Nye moduler legges til her.
-const HOVED={'Skole og utdanning':'Utdanning, kompetanse og arbeidsliv','Arbeidsliv':'Utdanning, kompetanse og arbeidsliv','Kritisk tenkning og digital dømmekraft':'Utdanning, kompetanse og arbeidsliv','Ny i Norge':'Familie, helse og hverdagsliv'};
-mods.forEach(m=>{if(!HOVED[m.tema])throw new Error('Mangler hovedkategori for '+m.tema);m.hoved=HOVED[m.tema];});
-module.exports=mods;
+// Register over undertema. Et nytt undertema legges til med én linje her, pluss to filer: a2_<fil>.js og fb_<fil>.js.
+// slug = id-prefiks i questions.xml (for eksempel "norge-01"). hoved = hovedtema.
+const UTDANNING = 'Utdanning, kompetanse og arbeidsliv';
+const FAMILIE = 'Familie, helse og hverdagsliv';
+const REGISTER = [
+  { fil: 'skole',     slug: 'skole',   hoved: UTDANNING },
+  { fil: 'arbeid',    slug: 'arbeid',  hoved: UTDANNING },
+  { fil: 'kritisk',   slug: 'kritisk', hoved: UTDANNING },
+  { fil: 'nyinorge',  slug: 'norge',   hoved: FAMILIE },
+];
+const mods = REGISTER.map(r => {
+  const m = require('./a2_' + r.fil + '.js');
+  m.fb = require('./fb_' + r.fil + '.js');
+  m.slug = r.slug;
+  m.hoved = r.hoved;
+  return m;
+});
+module.exports = mods;
