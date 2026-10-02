@@ -1,6 +1,6 @@
 // Eneste register over kategoriene. Nye kategorier legges bare til her.
 // fil: a2_<fil>.js (spørsmål) og fb_<fil>.js (tilbakemeldinger). slug: prefiks i spørsmåls-ID-ene.
-const FAMILIE='Familie, helse og hverdagsliv',UTDANNING='Utdanning, kompetanse og arbeidsliv';
+const FAMILIE='Familie, helse og hverdagsliv',UTDANNING='Utdanning, kompetanse og arbeidsliv',NORGE='Norge før og nå';
 const REGISTER=[
  {fil:'skole',slug:'skole',hoved:UTDANNING},
  {fil:'arbeid',slug:'arbeid',hoved:UTDANNING},
@@ -11,6 +11,10 @@ const REGISTER=[
  {fil:'helse',slug:'helse',hoved:FAMILIE},
  {fil:'okonomi',slug:'okonomi',hoved:FAMILIE},
  {fil:'frihet',slug:'frihet',hoved:FAMILIE},
+ {fil:'dettenorge',slug:'dettenorge',hoved:NORGE},
+ {fil:'historie',slug:'historie',hoved:NORGE},
+ {fil:'demokrati',slug:'demokrati',hoved:NORGE},
+ {fil:'baerekraft',slug:'baerekraft',hoved:NORGE},
 ];
 const mods=REGISTER.map(r=>{
  const m=require('./a2_'+r.fil+'.js'),fb=require('./fb_'+r.fil+'.js');

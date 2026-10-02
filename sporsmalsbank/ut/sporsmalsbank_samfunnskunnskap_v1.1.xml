@@ -7232,4 +7232,3212 @@
       </tilbakemelding>
     </sporsmal>
   </kategori>
+  <kategori hovedkategori="Norge før og nå" navn="Dette er Norge" antall="80">
+    <sporsmal id="dettenorge-01" emne="Fakta om Norge">
+      <tekst>Hvilke land har grense mot Norge?</tekst>
+      <svar riktig="true">Sverige, Finland og Russland</svar>
+      <svar>Sverige, Danmark og Finland</svar>
+      <svar>Danmark, Estland og Russland</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Norge har grense mot Sverige, Finland og Russland.</riktig>
+        <feil>Danmark og Island ligger ved havet. Norge har grense mot tre land, og ett av dem ligger lengst øst i nord.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-02" emne="Fakta om Norge">
+      <tekst>Hvor mange fylker har Norge hatt siden 2024?</tekst>
+      <svar riktig="true">15 fylker</svar>
+      <svar>11 fylker</svar>
+      <svar>19 fylker</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Fra 1. januar 2024 har Norge 15 fylker. Før det var det 11 fylker.</riktig>
+        <feil>Antallet fylker ble endret 1. januar 2024. Noen store fylker ble delt opp igjen.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-03" emne="Fakta om Norge">
+      <tekst>Hvor mange kommuner er Norge delt inn i?</tekst>
+      <svar riktig="true">357 kommuner</svar>
+      <svar>157 kommuner</svar>
+      <svar>557 kommuner</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Norge har 357 kommuner. Mange kommuner ble slått sammen i 2020.</riktig>
+        <feil>Norge har mer enn 300 kommuner, men færre enn 400.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-04" emne="Fakta om Norge">
+      <tekst>Hvor bor omtrent tre av fire innbyggere i Norge?</tekst>
+      <svar riktig="true">Langs kysten</svar>
+      <svar>Inne i fjellene</svar>
+      <svar>Ved svenskegrensen</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Omtrent tre av fire innbyggere bor langs kysten.</riktig>
+        <feil>De fleste i Norge bor nær havet. Store fjell- og skogområder har nesten ingen innbyggere.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-05" emne="Fakta om Norge">
+      <tekst>I hvilken landsdel bor omtrent halvparten av befolkningen?</tekst>
+      <svar riktig="true">På Østlandet</svar>
+      <svar>På Vestlandet</svar>
+      <svar>I Nord-Norge</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Omtrent halvparten av befolkningen bor på Østlandet, der Oslo ligger.</riktig>
+        <feil>Tenk på landsdelen rundt hovedstaden. Der bor flest mennesker.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-06" emne="Fakta om Norge">
+      <tekst>Hva heter det sørligste punktet på fastlandet i Norge?</tekst>
+      <svar riktig="true">Lindesnes</svar>
+      <svar>Nordkapp</svar>
+      <svar>Preikestolen</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Lindesnes er det sørligste punktet på fastlandet. Der står det et kjent fyr.</riktig>
+        <feil>Det sørligste punktet ligger på Sørlandet. Nordkapp ligger helt i nord.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-07" emne="Fakta om Norge">
+      <tekst>Hva er Svalbard?</tekst>
+      <svar riktig="true">En øygruppe i nord som hører til Norge</svar>
+      <svar>En stor fjord på Vestlandet i Norge</svar>
+      <svar>Et fylke i Nord-Norge ved grensen</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Svalbard er en øygruppe langt mot nord, og den hører til Norge.</riktig>
+        <feil>Svalbard ligger i havet langt nord for fastlandet. Det er ikke et fylke.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-08" emne="Fakta om Norge">
+      <tekst>Hva heter den største innsjøen i Norge?</tekst>
+      <svar riktig="true">Mjøsa</svar>
+      <svar>Glomma</svar>
+      <svar>Sognefjorden</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Mjøsa er Norges største innsjø. Den ligger på Østlandet.</riktig>
+        <feil>Glomma er en elv, og Sognefjorden er en fjord. Spørsmålet gjelder en innsjø.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-09" emne="Fakta om Norge">
+      <tekst>Hva er en isbre?</tekst>
+      <svar riktig="true">Et stort område med is og snø hele året</svar>
+      <svar>Et vann som fryser til is om vinteren</svar>
+      <svar>En vei over fjellet som stenges om vinteren</svar>
+      <tilbakemelding>
+        <riktig>Riktig. En isbre er et stort område med is og snø som ligger der hele året. Jostedalsbreen er den største.</riktig>
+        <feil>En isbre finnes høyt oppe i fjellet. Isen ligger der også om sommeren.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-10" emne="Fakta om Norge">
+      <tekst>Hvor stor del av Norge er dyrket mark?</tekst>
+      <svar riktig="true">Omtrent tre prosent</svar>
+      <svar>Omtrent tretti prosent</svar>
+      <svar>Omtrent halvparten</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Bare omtrent tre prosent av Norge er dyrket mark. Det meste er fjell og skog.</riktig>
+        <feil>Norge har mye fjell og skog. Det er lite jord der man kan dyrke mat.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-11" emne="Fakta om Norge">
+      <tekst>Hvorfor er klimaet i Norge mildere enn man skulle tro?</tekst>
+      <svar riktig="true">Golfstrømmen gir varmt vann langs kysten</svar>
+      <svar>Fjellene stopper kald luft fra Nordpolen</svar>
+      <svar>Det blåser varme vinder fra Russland</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Golfstrømmen tar med seg varmt vann fra sør opp langs norskekysten.</riktig>
+        <feil>Grunnen er havet. En varm havstrøm kommer fra sør og går langs kysten.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-12" emne="Fakta om Norge">
+      <tekst>Hva betyr midnattssol?</tekst>
+      <svar riktig="true">At sola ikke går ned om natten</svar>
+      <svar>At sola ikke kommer opp om dagen</svar>
+      <svar>At det er fullmåne hele natten</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Midnattssol betyr at sola er oppe hele døgnet om sommeren i nord.</riktig>
+        <feil>Midnattssola gjør sommeren i Nord-Norge lys. Tenk på hva sola gjør om natten da.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-13" emne="Fakta om Norge">
+      <tekst>Hva er bokmål og nynorsk?</tekst>
+      <svar riktig="true">To skriftspråk for norsk</svar>
+      <svar>To samiske språk i nord</svar>
+      <svar>To dialekter fra Vestlandet</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Bokmål og nynorsk er to måter å skrive norsk på. Begge er offisielle.</riktig>
+        <feil>Det handler om hvordan man skriver norsk. Norsk har to offisielle skriftspråk.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-14" emne="Fakta om Norge">
+      <tekst>Hvilke to språk er offisielle språk i Norge?</tekst>
+      <svar riktig="true">Norsk og samisk</svar>
+      <svar>Norsk og svensk</svar>
+      <svar>Norsk og engelsk</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Norsk og samisk er offisielle språk, og loven sier at de er likeverdige.</riktig>
+        <feil>Det ene språket er norsk. Det andre er språket til urfolket i Norge.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-15" emne="Fakta om Norge">
+      <tekst>Hvorfor øker folketallet i Norge?</tekst>
+      <svar riktig="true">Innvandring, og flere blir født enn dør</svar>
+      <svar>Flere dør enn det blir født hvert år</svar>
+      <svar>Mange nordmenn flytter tilbake fra USA</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Folketallet øker fordi folk flytter hit, og fordi det blir født flere enn det dør.</riktig>
+        <feil>Det bor stadig flere mennesker i Norge. Mange flytter hit fra andre land.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-16" emne="Fakta om Norge">
+      <tekst>Hvordan blir en person konge eller dronning i Norge?</tekst>
+      <svar riktig="true">Tittelen går i arv i kongefamilien</svar>
+      <svar>Folket velger en ny konge ved valg</svar>
+      <svar>Stortinget stemmer over hvem det blir</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Norge er et monarki. Tittelen går i arv fra forelder til barn.</riktig>
+        <feil>Kongen eller dronningen blir ikke valgt. Tittelen går videre i familien.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-17" emne="Likestilling og likeverd">
+      <tekst>Hva betyr likeverd?</tekst>
+      <svar riktig="true">At alle mennesker har like stor verdi</svar>
+      <svar>At alle mennesker tjener like mye</svar>
+      <svar>At alle mennesker må tro det samme</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Likeverd betyr at alle har like stor verdi, uansett kjønn, alder, bakgrunn eller legning.</riktig>
+        <feil>Likeverd handler om verdien til hvert menneske, ikke om penger eller tro.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-18" emne="Likestilling og likeverd">
+      <tekst>Hvilket tilbud er et eksempel på at samfunnet gir like muligheter?</tekst>
+      <svar riktig="true">Norskopplæring for innvandrere</svar>
+      <svar>Gratis bolig til nye familier</svar>
+      <svar>Høyere skatt for unge folk</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Norskopplæring for innvandrere er et eksempel på at samfunnet gir like muligheter.</riktig>
+        <feil>Samfunnet prøver å gi alle en god start. Tenk på et tilbud som hjelper nye i Norge.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-19" emne="Likestilling og likeverd">
+      <tekst>Likestilling gjelder ikke bare kjønn. Hva gjelder det også?</tekst>
+      <svar riktig="true">Funksjonsevne, religion og alder</svar>
+      <svar>Hvilket fotballag du heier på</svar>
+      <svar>Hvilken mat du liker best</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Likestilling gjelder også mellom generasjoner, religioner, etniske grupper og folk med ulik funksjonsevne.</riktig>
+        <feil>Likestilling handler om viktige sider ved et menneske, som alder, tro og helse. Ingen skal behandles dårligere for det.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-20" emne="Likestilling og likeverd">
+      <tekst>Hvor mange kvinner er i jobb i Norge i dag?</tekst>
+      <svar riktig="true">Nesten like mange som menn</svar>
+      <svar>Omtrent halvparten så mange som menn</svar>
+      <svar>Mange flere kvinner enn menn</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Nesten like mange kvinner som menn er i jobb i Norge i dag.</riktig>
+        <feil>De fleste kvinner i Norge har jobb. Antallet er nesten likt med menn.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-21" emne="Likestilling og likeverd">
+      <tekst>Hvem er de fleste lederne i arbeidslivet i Norge?</tekst>
+      <svar riktig="true">Menn – nesten to av tre</svar>
+      <svar>Kvinner – nesten to av tre</svar>
+      <svar>Like mange menn og kvinner</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Nesten to av tre ledere i arbeidslivet er menn.</riktig>
+        <feil>Det er fortsatt flest menn i ledende stillinger, selv om mange kvinner jobber.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-22" emne="Likestilling og likeverd">
+      <tekst>Hvilke fag velger kvinner oftere enn menn å utdanne seg i?</tekst>
+      <svar riktig="true">Omsorg og undervisning</svar>
+      <svar>Teknikk og naturfag</svar>
+      <svar>Data og ingeniørfag</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Kvinner velger oftere omsorg og undervisning. Menn velger oftere teknikk og naturfag.</riktig>
+        <feil>Mange velger fortsatt på en tradisjonell måte. Tenk på yrker som sykepleier og lærer.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-23" emne="Likestilling og likeverd">
+      <tekst>Hva viser undersøkelser om husarbeidet i norske familier?</tekst>
+      <svar riktig="true">Kvinner bruker fortsatt mer tid enn menn</svar>
+      <svar>Menn bruker nå mer tid enn kvinner</svar>
+      <svar>Barna gjør det meste av husarbeidet</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Undersøkelser viser at kvinner fortsatt bruker mer tid på husarbeid enn menn.</riktig>
+        <feil>Mange par deler mer nå enn før, men det er ikke helt likt ennå.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-24" emne="Likestilling og likeverd">
+      <tekst>Lina har jobbet deltid i mange år. Hva kan det føre til?</tekst>
+      <svar riktig="true">Lavere pensjon når hun blir gammel</svar>
+      <svar>Høyere skatt enn de som jobber fullt</svar>
+      <svar>At hun mister retten til fastlege</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Den som jobber deltid, tjener mindre. Det kan gi lavere pensjon senere.</riktig>
+        <feil>Deltid gir mindre lønn. Tenk på hva det betyr for pengene du får når du blir gammel.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-25" emne="Likestilling og likeverd">
+      <tekst>Hvem bestemmer hvordan et par deler arbeidet hjemme?</tekst>
+      <svar riktig="true">Paret bestemmer det selv</svar>
+      <svar>Kommunen bestemmer det</svar>
+      <svar>Loven sier hvem som gjør hva</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Hver familie bestemmer selv hvordan de deler oppgavene hjemme.</riktig>
+        <feil>Arbeidet hjemme er en sak for familien selv. Men alle må følge loven.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-26" emne="Likestilling og likeverd">
+      <tekst>Hva forbyr straffeloven § 185, som ofte kalles rasismeparagrafen?</tekst>
+      <svar riktig="true">Hatefulle ord om noens hudfarge eller religion</svar>
+      <svar>Å kritisere politikerne og regjeringen i avisen</svar>
+      <svar>Å si meningen sin i avisen eller på nett</svar>
+      <tilbakemelding>
+        <riktig>Riktig. § 185 forbyr hatefulle eller diskriminerende ytringer, for eksempel om hudfarge, religion eller legning.</riktig>
+        <feil>I Norge er det lov å kritisere politikere. Paragrafen gjelder hat mot grupper av mennesker.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-27" emne="Likestilling og likeverd">
+      <tekst>Hva er målet med rasismeparagrafen?</tekst>
+      <svar riktig="true">Å beskytte minoriteter</svar>
+      <svar>Å beskytte politikere</svar>
+      <svar>Å stoppe kritikk av staten</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Rasismeparagrafen skal beskytte minoriteter mot hat og diskriminering.</riktig>
+        <feil>Paragrafen begrenser ytringsfriheten litt for å verne grupper som lett blir utsatt for hat.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-28" emne="Likestilling og likeverd">
+      <tekst>Hva sier likestillings- og diskrimineringsloven om alder?</tekst>
+      <svar riktig="true">Ingen skal diskrimineres på grunn av alder</svar>
+      <svar>Eldre arbeidstakere skal få mer lønn enn de unge</svar>
+      <svar>Unge søkere skal få jobb før de som er eldre</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Loven forbyr diskriminering på grunn av blant annet alder, kjønn, etnisitet og religion.</riktig>
+        <feil>Loven skal hindre at noen blir behandlet dårligere. Alder er ett av grunnlagene i loven.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-29" emne="Likestilling og likeverd">
+      <tekst>Ahmed mener han ble diskriminert på jobben. Hvem kan behandle klagen hans?</tekst>
+      <svar riktig="true">Diskrimineringsnemnda</svar>
+      <svar>Forbrukerrådet</svar>
+      <svar>Sivilombudet</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Diskrimineringsnemnda behandler klager på diskriminering. Det er gratis å klage. Ombudet kan gi råd først.</riktig>
+        <feil>Det finnes en egen nemnd som avgjør saker om diskriminering. Navnet sier hva den jobber med.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-30" emne="Likestilling og likeverd">
+      <tekst>Hva betyr «lik lønn for likt arbeid»?</tekst>
+      <svar riktig="true">Samme lønn for samme jobb, uansett kjønn</svar>
+      <svar>De eldste skal få mest lønn i jobben</svar>
+      <svar>Lønnen skal følge prisene i butikken</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Kvinner og menn skal ha lik lønn for samme arbeid, eller arbeid av lik verdi.</riktig>
+        <feil>Prinsippet handler om kjønn. En kvinne skal ikke tjene mindre enn en mann for den samme jobben.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-31" emne="Likestilling og likeverd">
+      <tekst>Sara er på jobbintervju. Kan arbeidsgiveren spørre om hun planlegger å få barn?</tekst>
+      <svar riktig="true">Nei, det er ikke lov å spørre om det</svar>
+      <svar>Ja, hvis jobben er en fast stilling</svar>
+      <svar>Ja, hvis hun er gift eller samboer</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Arbeidsgiveren har ikke lov til å spørre om graviditet eller planer om å få barn.</riktig>
+        <feil>Loven beskytter jobbsøkere. Arbeidsgiveren skal ikke spørre om familieplaner.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-32" emne="Likestilling og likeverd">
+      <tekst>Hva betyr universell utforming?</tekst>
+      <svar riktig="true">At flest mulig kan bruke bygg og tjenester</svar>
+      <svar>At nye bygg i en by skal se like ut</svar>
+      <svar>At skoler og sykehus i Norge skal være gratis</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Universell utforming betyr at bygg og tjenester er laget slik at flest mulig kan bruke dem.</riktig>
+        <feil>Det handler om at også folk med for eksempel rullestol eller dårlig syn skal komme fram.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-33" emne="Merke- og helligdager">
+      <tekst>Hva er spesielt med 1. nyttårsdag?</tekst>
+      <svar riktig="true">Det er en helligdag, og butikkene er stengt</svar>
+      <svar>Det er en vanlig arbeidsdag for de fleste</svar>
+      <svar>Det er fri for barn, men voksne må jobbe</svar>
+      <tilbakemelding>
+        <riktig>Riktig. 1. nyttårsdag er en helligdag. Butikkene er stengt, og mange har fri.</riktig>
+        <feil>Den første dagen i året er en fridag for de fleste. Butikkene har ikke åpent.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-34" emne="Merke- og helligdager">
+      <tekst>Er samefolkets dag 6. februar en fridag?</tekst>
+      <svar riktig="true">Nei, men den er en offisiell flaggdag</svar>
+      <svar>Ja, det er en offentlig fridag</svar>
+      <svar>Ja, for dem som bor i Finnmark</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Samefolkets dag er offisiell flaggdag, men ikke fridag.</riktig>
+        <feil>Denne dagen heiser mange flagg, men folk går på jobb og skole som vanlig.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-35" emne="Merke- og helligdager">
+      <tekst>Hva markerer mange i Norge 8. mars?</tekst>
+      <svar riktig="true">Den internasjonale kvinnedagen</svar>
+      <svar>Den internasjonale arbeiderdagen</svar>
+      <svar>Samenes nasjonaldag</svar>
+      <tilbakemelding>
+        <riktig>Riktig. 8. mars er den internasjonale kvinnedagen. Noen går i tog for kvinners rettigheter.</riktig>
+        <feil>Datoen handler om kvinners rettigheter. Mange går i tog og holder appeller.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-36" emne="Merke- og helligdager">
+      <tekst>Siden hvilket år har kvinnedagen blitt markert i Norge hvert år?</tekst>
+      <svar riktig="true">Siden 1972</svar>
+      <svar>Siden 1915</svar>
+      <svar>Siden 1945</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Kvinnedagen ble markert første gang i 1915, og hvert år siden 1972.</riktig>
+        <feil>Kvinnedagen ble markert første gang i 1915. Men den ble ikke markert hvert år før i 1970-årene.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-37" emne="Merke- og helligdager">
+      <tekst>Hva minnes kristne i påsken?</tekst>
+      <svar riktig="true">Jesu død og oppstandelse</svar>
+      <svar>Jesu fødsel i Betlehem</svar>
+      <svar>At Jesus ble døpt i elven</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Påsken er en kristen høytid til minne om at Jesus døde og sto opp igjen.</riktig>
+        <feil>Jesu fødsel feires i julen. Påsken handler om slutten av Jesu liv.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-38" emne="Merke- og helligdager">
+      <tekst>Hvilke dager i påsken er helligdager?</tekst>
+      <svar riktig="true">Skjærtorsdag, langfredag, 1. og 2. påskedag</svar>
+      <svar>Palmesøndag og hele uka etter påske</svar>
+      <svar>Langfredag, påskeaften og 3. påskedag</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Skjærtorsdag, langfredag, 1. påskedag og 2. påskedag er helligdager.</riktig>
+        <feil>Helligdagene i påsken starter på torsdagen og slutter på mandagen etter påskedag.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-39" emne="Merke- og helligdager">
+      <tekst>Når er Kristi himmelfartsdag?</tekst>
+      <svar riktig="true">En torsdag 40 dager etter påske</svar>
+      <svar>En søndag 10 dager etter jul</svar>
+      <svar>En mandag 40 dager før påske</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Kristi himmelfartsdag er alltid en torsdag, 40 dager etter påske.</riktig>
+        <feil>Dagen kommer om våren, en stund etter påske. Den er alltid på en torsdag.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-40" emne="Merke- og helligdager">
+      <tekst>Hvor lenge etter Kristi himmelfartsdag kommer pinsen?</tekst>
+      <svar riktig="true">Ti dager etter</svar>
+      <svar>Fire uker etter</svar>
+      <svar>Én dag etter</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Pinsen kommer ti dager etter Kristi himmelfartsdag.</riktig>
+        <feil>Det er litt over en uke mellom Kristi himmelfartsdag og pinsen.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-41" emne="Merke- og helligdager">
+      <tekst>Hva gjør mange på arbeidernes dag 1. mai?</tekst>
+      <svar riktig="true">Går i tog for politiske saker</svar>
+      <svar>Går i kirken og hører på preken</svar>
+      <svar>Går i tog med skolen og korpset</svar>
+      <tilbakemelding>
+        <riktig>Riktig. På arbeidernes dag går mange i tog og viser hvilke politiske saker de er opptatt av.</riktig>
+        <feil>1. mai handler om arbeidere og politikk. Barnetog med skolen hører til 17. mai.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-42" emne="Merke- og helligdager">
+      <tekst>Hvem er 17. mai først og fremst en dag for?</tekst>
+      <svar riktig="true">Barna</svar>
+      <svar>Soldatene</svar>
+      <svar>Kongefamilien</svar>
+      <tilbakemelding>
+        <riktig>Riktig. 17. mai er først og fremst barnas dag, med barnetog, flagg, is og pølser.</riktig>
+        <feil>På nasjonaldagen går barnehager og skoler i tog. Det er barna som står i sentrum.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-43" emne="Merke- og helligdager">
+      <tekst>Hva er det vanlig å gjøre på julaften?</tekst>
+      <svar riktig="true">Spise julemiddag og gi gaver</svar>
+      <svar>Gå i tog med flagg og korps</svar>
+      <svar>Skyte opp raketter ved midnatt</svar>
+      <tilbakemelding>
+        <riktig>Riktig. På julaften spiser mange julemiddag sammen med familien og gir hverandre gaver.</riktig>
+        <feil>Julaften er en familiefest 24. desember. Raketter hører til nyttårsaften.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-44" emne="Merke- og helligdager">
+      <tekst>Hvilke dager i julen er helligdager?</tekst>
+      <svar riktig="true">1. og 2. juledag</svar>
+      <svar>Lille julaften og julaften</svar>
+      <svar>Romjulen og nyttårsaften</svar>
+      <tilbakemelding>
+        <riktig>Riktig. 1. og 2. juledag er helligdager. Julaften og nyttårsaften er ikke helligdager.</riktig>
+        <feil>Helligdagene i julen er de to dagene rett etter julaften.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-45" emne="Merke- og helligdager">
+      <tekst>Hva er konfirmasjon?</tekst>
+      <svar riktig="true">En markering for ungdom rundt 15 år</svar>
+      <svar>En fest når et barn får navnet sitt</svar>
+      <svar>En feiring når et par har vært gift lenge</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Konfirmasjon er en markering for ungdom rundt 15 år, i kirken eller borgerlig.</riktig>
+        <feil>Konfirmasjon er en tradisjon for unge i tenårene. Det er ikke dåp eller bryllupsdag.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-46" emne="Merke- og helligdager">
+      <tekst>Meryams klasse lærer om jul på skolen. Hva betyr det for Meryam?</tekst>
+      <svar riktig="true">Hun lærer om jul, men trenger ikke å tro</svar>
+      <svar>Hun må gå i kirken hver søndag i desember</svar>
+      <svar>Hun må bli kristen for å gå på skolen</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Skolen lærer elevene om religioner og tradisjoner, men ingen trenger å tro på dem.</riktig>
+        <feil>Å lære om en tradisjon er ikke det samme som å tro. Det er religionsfrihet i Norge.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-47" emne="Minoritet og majoritet i Norge">
+      <tekst>Hva betyr ordet «majoritet»?</tekst>
+      <svar riktig="true">Den største gruppen i et samfunn</svar>
+      <svar>Den eldste gruppen i et samfunn</svar>
+      <svar>Den rikeste gruppen i et samfunn</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Majoriteten er den største gruppen. I Norge har de fleste norsk familiebakgrunn.</riktig>
+        <feil>Majoritet betyr flertall. Det motsatte er minoritet, som er en mindre gruppe.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-48" emne="Minoritet og majoritet i Norge">
+      <tekst>Hva er en nasjonal minoritet i Norge?</tekst>
+      <svar riktig="true">En gruppe som har bodd her i flere hundre år</svar>
+      <svar>En gruppe som har kommet hit de siste årene</svar>
+      <svar>En gruppe som har flyttet ut av Norge</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Nasjonale minoriteter er grupper som har bodd i Norge i flere hundre år.</riktig>
+        <feil>En nasjonal minoritet er ikke nyankomne innvandrere. Gruppen har bodd her svært lenge.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-49" emne="Minoritet og majoritet i Norge">
+      <tekst>Hvor mange nasjonale minoriteter har Norge?</tekst>
+      <svar riktig="true">Fem</svar>
+      <svar>To</svar>
+      <svar>Ti</svar>
+      <tilbakemelding>
+        <riktig>Riktig. De fem er jøder, kvener/norskfinner, rom, romanifolk/tatere og skogfinner.</riktig>
+        <feil>Det er flere enn to, men færre enn ti. Samene regnes som urfolk, ikke som nasjonal minoritet.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-50" emne="Minoritet og majoritet i Norge">
+      <tekst>Hvilken gruppe er en nasjonal minoritet i Norge?</tekst>
+      <svar riktig="true">Kvener/norskfinner</svar>
+      <svar>Polske arbeidsinnvandrere</svar>
+      <svar>Svenske pensjonister</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Kvener/norskfinner er en nasjonal minoritet. Det er også jøder, rom, romanifolk/tatere og skogfinner.</riktig>
+        <feil>De nasjonale minoritetene har bodd i Norge i flere hundre år. Nyere innvandrergrupper er ikke med.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-51" emne="Minoritet og majoritet i Norge">
+      <tekst>Hva er kvensk, romani og romanes?</tekst>
+      <svar riktig="true">Språk til nasjonale minoriteter</svar>
+      <svar>Tre dialekter på Vestlandet</svar>
+      <svar>Samiske ord for reinsdyr</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Kvensk, romani og romanes er nasjonale minoritetsspråk i Norge.</riktig>
+        <feil>Dette er språk som noen av de nasjonale minoritetene snakker. De er ikke samiske.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-52" emne="Minoritet og majoritet i Norge">
+      <tekst>Hva lovet Norge i en avtale om nasjonale minoriteter i 1999?</tekst>
+      <svar riktig="true">Å hjelpe dem å ta vare på kulturen sin</svar>
+      <svar>Å gi dem egne fylker og et eget parlament</svar>
+      <svar>Å la dem slippe å betale skatt</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Norge lovet å legge til rette for at minoritetene kan bevare språk, religion og kultur.</riktig>
+        <feil>Avtalen handler om kultur, språk og tradisjoner. Staten skal hjelpe gruppene å ta vare på dem.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-53" emne="Minoritet og majoritet i Norge">
+      <tekst>Omtrent hvor mange i Norge er innvandrere eller barn av to innvandrere?</tekst>
+      <svar riktig="true">Mer enn én million</svar>
+      <svar>Omtrent 300 000</svar>
+      <svar>Omtrent tre millioner</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Mer enn én million i Norge er innvandrere eller har to foreldre som er innvandrere.</riktig>
+        <feil>Det er mange, men langt fra halvparten av de omtrent 5,6 millioner innbyggerne.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-54" emne="Minoritet og majoritet i Norge">
+      <tekst>Fra hvilket land kommer flest innvandrere i Norge?</tekst>
+      <svar riktig="true">Polen</svar>
+      <svar>Sverige</svar>
+      <svar>Syria</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Polen er landet flest innvandrere i Norge kommer fra. Ukraina og Litauen følger etter.</riktig>
+        <feil>Den største gruppen kommer fra et land i Europa. Mange kom for å jobbe.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-55" emne="Minoritet og majoritet i Norge">
+      <tekst>Hva betyr «norskfødt med innvandrerforeldre»?</tekst>
+      <svar riktig="true">Født i Norge av to foreldre født i utlandet</svar>
+      <svar>Født i utlandet, men har bodd i Norge i mange år</svar>
+      <svar>Født i Norge av foreldre som er født i Norge</svar>
+      <tilbakemelding>
+        <riktig>Riktig. En norskfødt med innvandrerforeldre er født i Norge, og begge foreldrene er født i utlandet.</riktig>
+        <feil>Personen er født i Norge selv. Det er foreldrene som har flyttet hit.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-56" emne="Minoritet og majoritet i Norge">
+      <tekst>Hvor i Norge bor det innvandrere?</tekst>
+      <svar riktig="true">I alle kommuner, men flest i byene</svar>
+      <svar>Mest i små bygder langt fra byene</svar>
+      <svar>Mest i Nord-Norge og på Svalbard</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Det bor innvandrere i alle kommuner, men flere bor i byene enn på landsbygda.</riktig>
+        <feil>Innvandrere bor over hele landet. Mange velger byene, blant annet fordi det er lettere å finne jobb.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-57" emne="Minoritet og majoritet i Norge">
+      <tekst>Hva er hovedmålet med integreringspolitikken i Norge?</tekst>
+      <svar riktig="true">At innvandrere kan bruke ressursene sine og bidra</svar>
+      <svar>At innvandrere skal glemme kulturen fra hjemlandet</svar>
+      <svar>At innvandrere skal bo i egne bydeler</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Målet er at innvandrere kan bruke ressursene sine og bidra på lik linje med andre.</riktig>
+        <feil>Integrering handler om å delta i fellesskapet. Ingen skal måtte gi opp sin egen kultur.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-58" emne="Minoritet og majoritet i Norge">
+      <tekst>Hva er en av nøklene til god integrering, ifølge myndighetene?</tekst>
+      <svar riktig="true">Gode norskkunnskaper</svar>
+      <svar>Et norsk etternavn</svar>
+      <svar>En stor bolig</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Gode norskkunnskaper er en av nøklene til integrering.</riktig>
+        <feil>Det som hjelper mest, er å kunne snakke med folk. Tenk på hva du lærer på kurs nå.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-59" emne="Religion og livssyn">
+      <tekst>Norge er et sekulært samfunn. Hva betyr det?</tekst>
+      <svar riktig="true">Religion styrer ikke lovene og samfunnet</svar>
+      <svar>Religion bestemmer hvordan lovene blir</svar>
+      <svar>Kirken bestemmer hva skolen lærer bort</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Et sekulært samfunn er ikke styrt av religion, verken i lovene eller i hverdagen.</riktig>
+        <feil>Sekulær betyr at religion ikke styrer samfunnet. Det er religionsfrihet i Norge.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-60" emne="Religion og livssyn">
+      <tekst>Omtrent hvor mange av de døde i Norge får gravferd i kirken?</tekst>
+      <svar riktig="true">Omtrent åtte av ti</svar>
+      <svar>Omtrent to av ti</svar>
+      <svar>Omtrent fire av ti</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Omtrent åtte av ti gravferder skjer i Den norske kirke, også for mange som ikke er religiøse.</riktig>
+        <feil>Mange bruker kirken ved viktige hendelser i livet. Gravferd i kirken er svært vanlig.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-61" emne="Religion og livssyn">
+      <tekst>Hva kaller Grunnloven Den norske kirke i dag?</tekst>
+      <svar riktig="true">Norges folkekirke</svar>
+      <svar>Norges statsreligion</svar>
+      <svar>Kongens egen kirke</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Grunnloven kaller Den norske kirke Norges folkekirke. Staten støtter den, men den er ikke statskirke.</riktig>
+        <feil>Norge har ikke lenger statsreligion. Grunnloven bruker et annet ord om kirken i dag.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-62" emne="Religion og livssyn">
+      <tekst>Omtrent hvor mange i Norge er medlem av Den norske kirke?</tekst>
+      <svar riktig="true">Omtrent seks av ti</svar>
+      <svar>Omtrent to av ti</svar>
+      <svar>Omtrent ni av ti</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Omtrent seks av ti er medlem av Den norske kirke. Andelen går ned år for år.</riktig>
+        <feil>Mange er medlem, men færre enn før. Det er litt mer enn halvparten.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-63" emne="Religion og livssyn">
+      <tekst>Hvilken retning i kristendommen hører Den norske kirke til?</tekst>
+      <svar riktig="true">Den lutherske</svar>
+      <svar>Den katolske</svar>
+      <svar>Den ortodokse</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Den norske kirke er evangelisk-luthersk. Det er en protestantisk kirke.</riktig>
+        <feil>Den norske kirke er protestantisk. Retningen har navn etter Martin Luther.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-64" emne="Religion og livssyn">
+      <tekst>Jonas er kristen, men vil bli buddhist. Hvem bestemmer det?</tekst>
+      <svar riktig="true">Jonas bestemmer det selv</svar>
+      <svar>Familien hans bestemmer</svar>
+      <svar>Presten må gi tillatelse</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Jonas bestemmer selv. Alle i Norge har rett til å bytte religion.</riktig>
+        <feil>Det er full religionsfrihet i Norge. Ingen andre kan bestemme hva du tror på.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-65" emne="Religion og livssyn">
+      <tekst>Hvordan får tros- og livssynssamfunn støtte fra staten?</tekst>
+      <svar riktig="true">Støtte etter hvor mange medlemmer de har</svar>
+      <svar>Støtte etter hvor gamle byggene deres er</svar>
+      <svar>Støtte hvis de har en kristen tro</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Godkjente tros- og livssynssamfunn får like mye støtte per medlem som Den norske kirke.</riktig>
+        <feil>Støtten følger antall medlemmer. Det gjelder alle godkjente samfunn, ikke bare kristne.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-66" emne="Religion og livssyn">
+      <tekst>Hva er et livssynssamfunn, for eksempel Human-Etisk Forbund?</tekst>
+      <svar riktig="true">Et fellesskap med et livssyn uten gud</svar>
+      <svar>En kristen menighet i Den norske kirke</svar>
+      <svar>Et politisk parti som er imot religion</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Et livssynssamfunn samler folk rundt et livssyn uten religion, som humanismen.</riktig>
+        <feil>Human-Etisk Forbund er ikke en kirke eller et parti. Medlemmene har et livssyn uten gud.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-67" emne="Religion og livssyn">
+      <tekst>Hvilken religion har flest medlemmer i Norge etter kristendommen?</tekst>
+      <svar riktig="true">Islam</svar>
+      <svar>Buddhisme</svar>
+      <svar>Hinduisme</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Islam er den største religionen i Norge etter kristendommen.</riktig>
+        <feil>Etter kristendommen er det en religion med omtrent 200 000 medlemmer i trossamfunn i Norge.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-68" emne="Religion og livssyn">
+      <tekst>Hva ble lov for nordmenn i 1845?</tekst>
+      <svar riktig="true">Å melde seg ut av statskirken</svar>
+      <svar>Å gifte seg uten prest</svar>
+      <svar>Å stemme ved stortingsvalg</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Fra 1845 kunne nordmenn melde seg ut av statskirken. Før det var det forbudt.</riktig>
+        <feil>Før 1845 måtte alle nordmenn være medlem av statskirken. Tenk på hva som da ble lov.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-69" emne="Religion og livssyn">
+      <tekst>Hvorfor gifter mange seg i kirken selv om de ikke er religiøse?</tekst>
+      <svar riktig="true">Det er en tradisjon som betyr mye for dem</svar>
+      <svar>Loven sier at bryllup skal være i kirken</svar>
+      <svar>Kommunen tar ikke imot bryllup</svar>
+      <tilbakemelding>
+        <riktig>Riktig. For mange er bryllup i kirken en tradisjon, selv om de ikke er religiøse.</riktig>
+        <feil>Det er lov å gifte seg hos kommunen. Mange velger kirken fordi det er en tradisjon.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-70" emne="Religion og livssyn">
+      <tekst>Hvordan ser mange i Norge på religion?</tekst>
+      <svar riktig="true">Som en privatsak for hver enkelt</svar>
+      <svar>Som noe staten skal bestemme</svar>
+      <svar>Som noe man snakker om på jobben</svar>
+      <tilbakemelding>
+        <riktig>Riktig. De fleste i Norge ser på religion som en privatsak.</riktig>
+        <feil>Mange i Norge snakker lite om sin egen tro med folk de ikke kjenner godt.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-71" emne="Samene">
+      <tekst>Hva betyr det at samene er Norges urfolk?</tekst>
+      <svar riktig="true">De bodde i området før dagens grenser ble laget</svar>
+      <svar>De kom til Norge som flyktninger etter krigen</svar>
+      <svar>De er en ny folkegruppe fra Russland</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Samene er urfolk fordi de bodde i området lenge før dagens landegrenser ble laget.</riktig>
+        <feil>Urfolk har bodd i et område lenge før staten og grensene kom. Samene er den eldste folkegruppen i Norge.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-72" emne="Samene">
+      <tekst>I hvilke land bor det samer?</tekst>
+      <svar riktig="true">Norge, Sverige, Finland og Russland</svar>
+      <svar>Norge, Sverige, Danmark og Island</svar>
+      <svar>Norge, Finland, Estland og Polen</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Samene bor i Norge, Sverige, Finland og Russland.</riktig>
+        <feil>Samene bor i nord i fire land. Danmark og Island er ikke blant dem.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-73" emne="Samene">
+      <tekst>Hva skjedde i Trondheim 6. februar 1917?</tekst>
+      <svar riktig="true">Det første samiske landsmøtet</svar>
+      <svar>Sametinget åpnet for første gang</svar>
+      <svar>Samene fikk sitt eget flagg</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Det første samiske landsmøtet var i Trondheim 6. februar 1917. Derfor er samefolkets dag 6. februar.</riktig>
+        <feil>Datoen for samefolkets dag kommer fra et viktig møte i 1917. Sametinget åpnet først i 1989.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-74" emne="Samene">
+      <tekst>Hva er en kofte?</tekst>
+      <svar riktig="true">En samisk folkedrakt</svar>
+      <svar>Et samisk musikkinstrument</svar>
+      <svar>Et samisk telt av skinn</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Kofte er en samisk folkedrakt. Den brukes ved fest, og noen bruker den til hverdags.</riktig>
+        <feil>Kofte er noe man har på seg. Mange samer bruker den i for eksempel bryllup.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-75" emne="Samene">
+      <tekst>Hva er joik?</tekst>
+      <svar riktig="true">En gammel samisk måte å synge på</svar>
+      <svar>En samisk rett med reinkjøtt</svar>
+      <svar>En samisk dans rundt bålet</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Joik er en gammel samisk måte å synge på.</riktig>
+        <feil>Joik har med musikk og stemme å gjøre. Det er ikke mat eller dans.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-76" emne="Samene">
+      <tekst>Kan en som bare snakker norsk, forstå samisk?</tekst>
+      <svar riktig="true">Nei, språkene er helt forskjellige</svar>
+      <svar>Ja, samisk er en norsk dialekt</svar>
+      <svar>Ja, språkene ligner mye på hverandre</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Samisk og norsk er helt forskjellige språk. Det finnes også flere samiske språk.</riktig>
+        <feil>Samisk er ikke en dialekt. Den som bare kan norsk, forstår ikke samisk.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-77" emne="Samene">
+      <tekst>Hva betyr fornorsking av samene?</tekst>
+      <svar riktig="true">Staten prøvde å gjøre samene norske</svar>
+      <svar>Samene flyttet frivillig til byer i sør</svar>
+      <svar>Staten ga samene eget land i Finnmark</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Fornorsking betyr at staten prøvde å gjøre samene norske, blant annet ved å ta fra barna språket.</riktig>
+        <feil>Fornorsking var en politikk fra staten. Samiske barn fikk ikke lære samisk på skolen.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-78" emne="Samene">
+      <tekst>Når ble det igjen tillatt å bruke samisk i skolen?</tekst>
+      <svar riktig="true">I 1959</svar>
+      <svar>I 1905</svar>
+      <svar>I 1989</svar>
+      <tilbakemelding>
+        <riktig>Riktig. I 1959 ble det igjen tillatt å bruke samisk i skolen.</riktig>
+        <feil>Det tok lang tid før samisk igjen ble tillatt i skolen. Det skjedde etter andre verdenskrig.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-79" emne="Samene">
+      <tekst>Hva jobber Sametinget med?</tekst>
+      <svar riktig="true">Samenes rettigheter, kultur og språk</svar>
+      <svar>Skatt og forsvar for hele Norge</svar>
+      <svar>Olje og fiske i Nordsjøen</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Sametinget åpnet i 1989 og jobber for samenes rettigheter, kultur, språk og utdanning.</riktig>
+        <feil>Sametinget er samenes eget folkevalgte organ. Det jobber med saker som gjelder samene.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="dettenorge-80" emne="Samene">
+      <tekst>Hva må du gjøre for å kunne stemme ved sametingsvalget?</tekst>
+      <svar riktig="true">Stå i Sametingets valgmanntall</svar>
+      <svar>Bo i Finnmark i minst fem år</svar>
+      <svar>Eie reinsdyr eller en gård</svar>
+      <tilbakemelding>
+        <riktig>Riktig. For å stemme må du stå i Sametingets valgmanntall. Det er valg hvert fjerde år.</riktig>
+        <feil>Det finnes et eget register for dem som kan stemme ved sametingsvalget. Du må melde deg inn.</feil>
+      </tilbakemelding>
+    </sporsmal>
+  </kategori>
+  <kategori hovedkategori="Norge før og nå" navn="Historie" antall="80">
+    <sporsmal id="historie-01" emne="De første nordmenn">
+      <tekst>Hva dekket Nord-Europa under istiden?</tekst>
+      <svar riktig="true">Et tykt lag med is</svar>
+      <svar>En stor og varm skog</svar>
+      <svar>Et grunt og salt hav</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Under istiden lå det et lag med is over Nord-Europa. Isen var opptil 3000 meter tykk.</riktig>
+        <feil>Tenk på ordet istid. Det var veldig kaldt, og landet var dekket av noe hvitt og hardt.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-02" emne="De første nordmenn">
+      <tekst>Omtrent hvor lenge har det bodd mennesker i Norge?</tekst>
+      <svar riktig="true">I rundt 12 000 år</svar>
+      <svar>I rundt 2000 år</svar>
+      <svar>I rundt 50 000 år</svar>
+      <tilbakemelding>
+        <riktig>Riktig. De første menneskene kom til Norge for rundt tolv tusen år siden, da isen begynte å smelte.</riktig>
+        <feil>Menneskene kom etter at isen begynte å smelte. Det er mange tusen år siden, men ikke så lenge som femti tusen år.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-03" emne="De første nordmenn">
+      <tekst>Hva levde de første menneskene i Norge av?</tekst>
+      <svar riktig="true">Fisk, dyr, bær og sopp</svar>
+      <svar>Korn og grønnsaker fra åkeren</svar>
+      <svar>Melk og kjøtt fra kuer og sauer</svar>
+      <tilbakemelding>
+        <riktig>Riktig. De første menneskene fisket, fanget dyr og plukket bær og sopp.</riktig>
+        <feil>I starten hadde folk ikke åkre eller husdyr. De fant maten sin i naturen.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-04" emne="De første nordmenn">
+      <tekst>Hvorfor kaller vi den første perioden steinalderen?</tekst>
+      <svar riktig="true">Mange redskaper var laget av stein</svar>
+      <svar>Folk bodde i store hus laget av stein</svar>
+      <svar>Folk bygde store murer av stein</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Folk laget redskaper og våpen av stein, bein og tre. Derfor heter perioden steinalderen.</riktig>
+        <feil>Navnet handler om det folk brukte til å jakte og arbeide med. De hadde ikke metall ennå.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-05" emne="De første nordmenn">
+      <tekst>Omtrent når begynte folk med jordbruk i Norge?</tekst>
+      <svar riktig="true">For rundt 4000 år siden</svar>
+      <svar>For rundt 400 år siden</svar>
+      <svar>For rundt 40 000 år siden</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Folk begynte å dyrke jorda i Norge for rundt fire tusen år siden.</riktig>
+        <feil>Jordbruket kom lenge etter de første menneskene, men flere tusen år før vår tid.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-06" emne="De første nordmenn">
+      <tekst>Hva begynte bøndene å gjøre i bronsealderen?</tekst>
+      <svar riktig="true">Å bruke hest til å trekke</svar>
+      <svar>Å lage redskaper og våpen av jern</svar>
+      <svar>Å bygge kirker av stein</svar>
+      <tilbakemelding>
+        <riktig>Riktig. I bronsealderen begynte bøndene å bruke hest som trekkdyr. Kvinnene lærte også å spinne og veve ull.</riktig>
+        <feil>Jern kom først senere, og kirker kom med kristendommen. I bronsealderen fikk bøndene hjelp av et dyr.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-07" emne="De første nordmenn">
+      <tekst>Hvor fant folk jernmalm i jernalderen?</tekst>
+      <svar riktig="true">I myrene</svar>
+      <svar>I havet</svar>
+      <svar>I trærne</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Folk fant jernmalm i myrene. De smeltet malmen og laget jern.</riktig>
+        <feil>Jernmalm er en type stein eller jord med jern i. Folk fant den i våt og bløt mark.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-08" emne="De første nordmenn">
+      <tekst>Hva skjedde da folk fikk redskaper av jern?</tekst>
+      <svar riktig="true">Det ble lettere å dyrke jorda</svar>
+      <svar>Det ble mye vanskeligere å fiske</svar>
+      <svar>Folk sluttet å holde husdyr</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Med redskaper av jern ble det lettere å dyrke jorda. Det ble mer mat, og folketallet steg.</riktig>
+        <feil>Jern er hardt og sterkt. Tenk på hva bøndene kunne gjøre bedre med gode redskaper.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-09" emne="De første nordmenn">
+      <tekst>Omtrent når var vikingtiden?</tekst>
+      <svar riktig="true">Fra år 800 til 1050</svar>
+      <svar>Fra år 200 til 400</svar>
+      <svar>Fra år 1350 til 1500</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Vikingtiden var fra rundt år 800 til rundt år 1050. Den var den siste delen av jernalderen.</riktig>
+        <feil>Vikingtiden sluttet omtrent da kristendommen ble vanlig i Norge, på 1000-tallet.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-10" emne="De første nordmenn">
+      <tekst>Hva var en høvding i vikingtiden?</tekst>
+      <svar riktig="true">En rik og mektig storbonde</svar>
+      <svar>En prest i den kristne kirken</svar>
+      <svar>En fattig bonde uten egen jord</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Høvdingene var de rikeste og mektigste bøndene. De hadde soldater som forsvarte landet deres.</riktig>
+        <feil>Høvdingene bodde på de største gårdene og hadde mye makt i området sitt.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-11" emne="De første nordmenn">
+      <tekst>Hva gjorde vikingene på reisene sine i Europa?</tekst>
+      <svar riktig="true">De handlet, men kriget og plyndret også</svar>
+      <svar>De studerte ved skoler i store byer</svar>
+      <svar>De bygde kirker og hjalp de fattige</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Mange vikinger var dyktige handelsfolk, men de kriget og plyndret også.</riktig>
+        <feil>Vikingene reiste for å bli rike. De gjorde det både på fredelige og voldelige måter.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-12" emne="De første nordmenn">
+      <tekst>Hvem regnes som den første kongen over hele Norge?</tekst>
+      <svar riktig="true">Harald Hårfagre</svar>
+      <svar>Olav Haraldsson</svar>
+      <svar>Olav Tryggvason</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Ifølge gamle fortellinger ble Harald Hårfagre konge over hele Norge rundt år 872.</riktig>
+        <feil>Denne kongen samlet landet på 800-tallet, lenge før slaget på Stiklestad i 1030.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-13" emne="De første nordmenn">
+      <tekst>Hva trodde vikingene på før kristendommen kom?</tekst>
+      <svar riktig="true">Norrøne guder, som Odin og Tor</svar>
+      <svar>Én gud, slik som de kristne</svar>
+      <svar>Guder fra det gamle Egypt og Hellas</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Vikingene trodde på de norrøne gudene. Gudene skulle hjelpe med god avling, barn og krig.</riktig>
+        <feil>Vikingene hadde sin egen gamle religion med mange guder fra Norden.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-14" emne="De første nordmenn">
+      <tekst>Hva skjedde på Stiklestad i år 1030?</tekst>
+      <svar riktig="true">Et slag der Olav Haraldsson døde</svar>
+      <svar>Norge fikk sin første grunnlov</svar>
+      <svar>Den første byen i Norge ble bygd</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Olav Haraldsson var kristen og kjempet mot høvdinger som trodde på de gamle gudene. Han tapte og døde.</riktig>
+        <feil>Stiklestad ligger i Trøndelag. Der kjempet en kristen konge mot mektige høvdinger.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-15" emne="Middelalder og unionstid">
+      <tekst>Hva gjorde kirken med Olav Haraldsson etter at han døde?</tekst>
+      <svar riktig="true">Gjorde ham til helgen</svar>
+      <svar>Gjorde ham til pave</svar>
+      <svar>Gjorde ham til biskop</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Sønnen til Olav fikk hjelp av kirken til å gjøre faren til helgen. Han blir ofte kalt Olav den hellige.</riktig>
+        <feil>En helgen er en person som kirken mener var spesielt hellig. Mange kaller ham Olav den hellige.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-16" emne="Middelalder og unionstid">
+      <tekst>Hvorfor ble mange vanlige folk kristne etter hvert?</tekst>
+      <svar riktig="true">Høvdinger og storbønder ble kristne først</svar>
+      <svar>Kongen i Danmark betalte dem for det</svar>
+      <svar>De gamle gudene var forbudt i Europa</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Da de som hadde makt skiftet tro, gjorde flere og flere vanlige folk det samme.</riktig>
+        <feil>Vanlige folk fulgte ofte etter de mektige i samfunnet. Tenk på hvem som ble kristne først.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-17" emne="Middelalder og unionstid">
+      <tekst>Hva måtte folk gi til kirken i middelalderen?</tekst>
+      <svar riktig="true">Skatt, og ofte også jord</svar>
+      <svar>Soldater til kirkens hær</svar>
+      <svar>Barn som skulle bli prester</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Folk måtte betale skatt til kirken, og mange ga også land til kirken. Slik fikk kirken stor makt.</riktig>
+        <feil>Kirken ble rik og mektig i middelalderen. Folk måtte betale til kirken på flere måter.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-18" emne="Middelalder og unionstid">
+      <tekst>Hvorfor ble mange bønder fattigere i middelalderen?</tekst>
+      <svar riktig="true">De måtte betale skatt og gi fra seg jord</svar>
+      <svar>De mistet dyrene sine i lange kriger</svar>
+      <svar>De fikk ikke lov til å selge mat</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Bøndene betalte skatt til kirken, kongen og adelen. De som ikke kunne betale, måtte gi fra seg jord.</riktig>
+        <feil>I vikingtiden eide de fleste bøndene jorda si selv. Senere måtte de betale mye til kirken, kongen og adelen.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-19" emne="Middelalder og unionstid">
+      <tekst>Hva het Trondheim i middelalderen?</tekst>
+      <svar riktig="true">Nidaros</svar>
+      <svar>Bjørgvin</svar>
+      <svar>Kristiania</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Trondheim het Nidaros. Det var en av de første byene i Norge.</riktig>
+        <feil>Bjørgvin var det gamle navnet på Bergen, og Kristiania var navnet på Oslo i en periode.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-20" emne="Middelalder og unionstid">
+      <tekst>Hva var svartedauden?</tekst>
+      <svar riktig="true">En farlig sykdom i mange land</svar>
+      <svar>En lang krig mellom to land</svar>
+      <svar>En vinter med mye kulde og snø</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Svartedauden var en pandemi på midten av 1300-tallet. En pandemi er en sykdom som sprer seg til mange land.</riktig>
+        <feil>Svartedauden var ikke en krig. Mange mennesker ble smittet, og de fleste døde etter noen få dager.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-21" emne="Middelalder og unionstid">
+      <tekst>Hvorfor fikk sykdommen navnet svartedauden?</tekst>
+      <svar riktig="true">De syke fikk blåsvarte byller</svar>
+      <svar>Den kom i den mørke vinteren</svar>
+      <svar>De døde ble kledd i svarte klær</svar>
+      <tilbakemelding>
+        <riktig>Riktig. De som ble smittet, fikk store blåsvarte byller på kroppen.</riktig>
+        <feil>Navnet handler om hvordan kroppen til de syke så ut.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-22" emne="Middelalder og unionstid">
+      <tekst>Hvordan kom svartedauden til Norge i 1349?</tekst>
+      <svar riktig="true">Med et skip som kom til Bergen</svar>
+      <svar>Med soldater som gikk fra Sverige</svar>
+      <svar>Med fugler som fløy fra sør</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Gamle kilder forteller at pesten kom med et skip fra England til Bergen i 1349.</riktig>
+        <feil>Sykdommen spredte seg ofte med handel. Den kom til en stor by ved havet på Vestlandet.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-23" emne="Middelalder og unionstid">
+      <tekst>Omtrent hvor mange døde i Europa under svartedauden?</tekst>
+      <svar riktig="true">Rundt halvparten av folket</svar>
+      <svar>Rundt en tidel av folket</svar>
+      <svar>Rundt ni av ti personer</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Rundt halvparten av folket i Europa døde. I Norge døde kanskje en tredel eller enda flere.</riktig>
+        <feil>Svartedauden var en av de verste katastrofene i Europa. Mange døde, men ikke nesten alle.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-24" emne="Middelalder og unionstid">
+      <tekst>Hva betyr union mellom to land?</tekst>
+      <svar riktig="true">Landene styres sammen, ofte med én konge</svar>
+      <svar>Landene har krig mot hverandre</svar>
+      <svar>Landene har ingen kontakt med hverandre</svar>
+      <tilbakemelding>
+        <riktig>Riktig. En union betyr at land er knyttet sammen. Norge hadde felles konge med Danmark i flere hundre år.</riktig>
+        <feil>En union er et samarbeid. Landene blir knyttet tett sammen, for eksempel under samme konge.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-25" emne="Middelalder og unionstid">
+      <tekst>Hvilke land var med i unionen fra 1397?</tekst>
+      <svar riktig="true">Norge, Danmark og Sverige</svar>
+      <svar>Norge, Island og Finland</svar>
+      <svar>Norge, Tyskland og England</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Unionen fra 1397 kalles Kalmarunionen. Sverige gikk senere ut, men Norge og Danmark var i union helt til 1814.</riktig>
+        <feil>Unionen fra 1397 samlet de tre skandinaviske landene under én konge.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-26" emne="Middelalder og unionstid">
+      <tekst>Hvilket skriftspråk brukte nordmenn i unionen med Danmark?</tekst>
+      <svar riktig="true">Dansk</svar>
+      <svar>Svensk</svar>
+      <svar>Tysk</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Politikken ble styrt fra København, og nordmenn leste og skrev på dansk.</riktig>
+        <feil>Unionen ble styrt fra hovedstaden i Danmark. Det påvirket også språket.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-27" emne="Middelalder og unionstid">
+      <tekst>Hva betyr ordet protestant?</tekst>
+      <svar riktig="true">En som fulgte Luthers protest mot kirken</svar>
+      <svar>En som var prest i den katolske kirken</svar>
+      <svar>En som støttet paven og makten til kirken</svar>
+      <tilbakemelding>
+        <riktig>Riktig. I 1517 protesterte Martin Luther mot makten til den katolske kirken. De som fulgte ham, ble kalt protestanter.</riktig>
+        <feil>Ordet kommer fra «å protestere». Martin Luther var uenig med den katolske kirken.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-28" emne="Middelalder og unionstid">
+      <tekst>Hvor lenge var protestantismen statsreligion i Norge?</tekst>
+      <svar riktig="true">Fram til 2012</svar>
+      <svar>Fram til 1814</svar>
+      <svar>Fram til 1905</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Protestantismen var statsreligion fra 1500-tallet og fram til Grunnloven ble endret i 2012.</riktig>
+        <feil>Ordningen med statskirke varte veldig lenge, mye lenger enn unionen med Sverige.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-29" emne="Norge fra 1814 til 1905">
+      <tekst>Hvorfor måtte Danmark gi fra seg Norge i 1814?</tekst>
+      <svar riktig="true">Danmark var på den siden som tapte krigen</svar>
+      <svar>Folk i Norge stemte for å gå ut</svar>
+      <svar>Danmark hadde ikke råd til å ha Norge</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Danmark-Norge sto på Frankrikes side i Napoleonskrigene. Da Frankrike tapte, måtte Danmark gi fra seg Norge.</riktig>
+        <feil>Tenk på Napoleonskrigene. Danmark-Norge og Frankrike var på samme side.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-30" emne="Norge fra 1814 til 1905">
+      <tekst>Hvilket land skulle få Norge etter freden i Kiel i 1814?</tekst>
+      <svar riktig="true">Sverige</svar>
+      <svar>England</svar>
+      <svar>Frankrike</svar>
+      <tilbakemelding>
+        <riktig>Riktig. I fredsavtalen i Kiel måtte den danske kongen gi Norge til Sverige. Sverige hadde stått på Englands side.</riktig>
+        <feil>Landet hadde vunnet krigen sammen med England. Det er et naboland til Norge.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-31" emne="Norge fra 1814 til 1905">
+      <tekst>Hva ville mennene på Eidsvoll i 1814?</tekst>
+      <svar riktig="true">Lage en grunnlov for et fritt Norge</svar>
+      <svar>Gjøre Norge til en del av Sverige</svar>
+      <svar>Bli med i en krig mot England</svar>
+      <tilbakemelding>
+        <riktig>Riktig. 112 mektige menn møttes på Eidsvoll. De ville skrive en grunnlov for et selvstendig Norge.</riktig>
+        <feil>Mange nordmenn håpet at Norge kunne bli et fritt land da unionen med Danmark tok slutt.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-32" emne="Norge fra 1814 til 1905">
+      <tekst>Hvorfor kom Norge i union med Sverige i 1814?</tekst>
+      <svar riktig="true">Norge ble tvunget inn etter en kort krig</svar>
+      <svar>Folket stemte ja til det i et valg</svar>
+      <svar>Norge ville ha hjelp mot Danmark</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Norge ble tvunget inn i unionen. Sommeren 1814 var det en kort krig mot Sverige.</riktig>
+        <feil>Mange nordmenn ønsket ikke en ny union. Norge hadde ikke noe valg.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-33" emne="Norge fra 1814 til 1905">
+      <tekst>Hvordan var unionen med Sverige sammenlignet med unionen med Danmark?</tekst>
+      <svar riktig="true">Løsere, med mer selvstyre i Norge</svar>
+      <svar>Strengere, med mindre selvstyre i Norge</svar>
+      <svar>Helt lik den gamle unionen</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Norge fikk beholde grunnloven og Stortinget og styrte mye selv i landet.</riktig>
+        <feil>I unionen med Sverige fikk Norge beholde mye. Tenk på grunnloven og Stortinget.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-34" emne="Norge fra 1814 til 1905">
+      <tekst>Hva ble styrt fra Sverige i unionstiden?</tekst>
+      <svar riktig="true">Utenrikspolitikken</svar>
+      <svar>Skolene i Norge</svar>
+      <svar>Kirkene i Norge</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Utenrikspolitikken ble styrt fra Sverige. Norge hadde indre selvstyre.</riktig>
+        <feil>Norge styrte sakene inne i landet selv. Sverige bestemte i saker om forholdet til andre land.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-35" emne="Norge fra 1814 til 1905">
+      <tekst>Hvem har Karl Johans gate i Oslo navn etter?</tekst>
+      <svar riktig="true">En svensk konge</svar>
+      <svar>En norsk bonde</svar>
+      <svar>En dansk prest</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Karl Johan var svensk konge over både Sverige og Norge. Hovedgata i Oslo har navn etter ham.</riktig>
+        <feil>Gata har navn etter en mann som styrte begge landene i unionstiden.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-36" emne="Norge fra 1814 til 1905">
+      <tekst>Hva var nasjonalromantikken?</tekst>
+      <svar riktig="true">En retning i kunst og kultur</svar>
+      <svar>Et politisk parti i Stortinget</svar>
+      <svar>En religiøs bevegelse i kirken</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Nasjonalromantikken var en retning i litteratur, bilder og musikk rundt midten av 1800-tallet.</riktig>
+        <feil>Nasjonalromantikken kunne du se i malerier, høre i musikk og lese i bøker.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-37" emne="Norge fra 1814 til 1905">
+      <tekst>Hva ble sett på som «typisk norsk» i nasjonalromantikken?</tekst>
+      <svar riktig="true">Naturen og livet til bøndene</svar>
+      <svar>Byene og livet på fabrikkene</svar>
+      <svar>Kongen og livet på slottet</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Kunstnerne viste den vakre naturen og bondesamfunnet som det typisk norske.</riktig>
+        <feil>Tenk på maleriene fra denne tiden. De viste fjell, fjorder og folk på landet.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-38" emne="Norge fra 1814 til 1905">
+      <tekst>Hva er bokmål opprinnelig?</tekst>
+      <svar riktig="true">En fornorsket form av dansk</svar>
+      <svar>En blanding av svensk og tysk</svar>
+      <svar>Det gamle språket til vikingene</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Etter lang tid i union med Danmark var skriftspråket dansk. Bokmål er en fornorsking av dansk.</riktig>
+        <feil>Husk at Norge var i union med Danmark i flere hundre år. Det påvirket skriftspråket.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-39" emne="Norge fra 1814 til 1905">
+      <tekst>Hva brukte Ivar Aasen for å lage nynorsk?</tekst>
+      <svar riktig="true">Dialekter fra mange steder i landet</svar>
+      <svar>Ord fra dansk og svensk skriftspråk</svar>
+      <svar>Språket til folk i de store byene</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Mange ønsket et skriftspråk som ikke kom fra dansk. Aasen samlet eksempler fra dialektene og laget nynorsk.</riktig>
+        <feil>Aasen reiste mye rundt i landet og hørte på hvordan folk snakket.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-40" emne="Norge fra 1814 til 1905">
+      <tekst>Hvordan levde mange arbeiderfamilier i byene på 1800-tallet?</tekst>
+      <svar riktig="true">Med lange arbeidsdager og trange boliger</svar>
+      <svar>Med korte arbeidsdager og store, gode boliger</svar>
+      <svar>Med god lønn og mye fritid hver dag</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Arbeidsdagene var lange, og flere familier kunne bo sammen i en liten leilighet. Mange barn måtte også jobbe.</riktig>
+        <feil>Livet i byen var vanskelig for mange arbeidere. Boforholdene var dårlige.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-41" emne="Norge fra 1814 til 1905">
+      <tekst>Hvorfor var det vanskelig å bo på landsbygda på 1800-tallet?</tekst>
+      <svar riktig="true">Det var ikke nok jord og arbeid</svar>
+      <svar>Det var forbudt å ha dyr på gården</svar>
+      <svar>Det var for mange fabrikker der</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Folketallet økte, og det var ikke nok jord og arbeid til alle. Mange flyttet derfor til byene.</riktig>
+        <feil>Det ble født mange barn, og befolkningen vokste. Tenk på hva det betyr for gårdene.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-42" emne="Norge fra 1814 til 1905">
+      <tekst>Omtrent hvor mange nordmenn utvandret til Amerika fra 1850 til 1920?</tekst>
+      <svar riktig="true">Mer enn 800 000</svar>
+      <svar>Rundt 8000</svar>
+      <svar>Rundt 80 000</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Mer enn åtte hundre tusen nordmenn utvandret til Amerika i denne perioden.</riktig>
+        <feil>Svært mange reiste. Tallet er mye høyere enn hele befolkningen i en stor norsk by den gangen.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-43" emne="Norge fra 1814 til 1905">
+      <tekst>Hva betyr det å utvandre?</tekst>
+      <svar riktig="true">Å flytte fra landet sitt til et annet</svar>
+      <svar>Å flytte fra byen til landsbygda</svar>
+      <svar>Å reise på en lang ferie til et annet land</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Å utvandre er å flytte fra landet sitt for å bo i et annet land. Mange nordmenn utvandret til Amerika.</riktig>
+        <feil>Ordet «ut» viser retningen. Du forlater landet ditt for å bo et annet sted.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-44" emne="Norge fra 1814 til 1905">
+      <tekst>Hvordan reagerte Sverige på at Norge brøt unionen i 1905?</tekst>
+      <svar riktig="true">Sterkt, og det ble nesten krig</svar>
+      <svar>Svenskene feiret sammen med Norge</svar>
+      <svar>Sverige brydde seg ikke om det</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Reaksjonene i Sverige var voldsomme, og det var nær ved å bli krig. Men landene løste det fredelig.</riktig>
+        <feil>Sverige var ikke glad for at unionen ble brutt. Situasjonen var farlig en stund.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-45" emne="Norge fra 1814 til 1905">
+      <tekst>Hva ble bestemt i den andre folkeavstemningen i 1905?</tekst>
+      <svar riktig="true">At Norge skulle være et monarki</svar>
+      <svar>At Norge skulle ha en president</svar>
+      <svar>At kvinner skulle få stemmerett</svar>
+      <tilbakemelding>
+        <riktig>Riktig. I 1905 var det to folkeavstemninger. Den første handlet om unionen, den andre om at Norge skulle ha konge.</riktig>
+        <feil>Et monarki er et land med konge eller dronning. Folket stemte om hvem som skulle være statsoverhode.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-46" emne="Norge fra 1814 til 1905">
+      <tekst>Hvem ble ny konge i Norge i 1905?</tekst>
+      <svar riktig="true">Prins Carl fra Danmark</svar>
+      <svar>Prins Gustav fra Sverige</svar>
+      <svar>Prins Edward fra England</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Den danske prins Carl ble konge og tok navnet Haakon 7. Han var konge til han døde i 1957.</riktig>
+        <feil>Den nye kongen kom ikke fra Sverige. Han tok det norske navnet Haakon.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-47" emne="Første og andre verdenskrig">
+      <tekst>Hva begynte Norge å bruke fossene til på slutten av 1800-tallet?</tekst>
+      <svar riktig="true">Å lage strøm fra vannkraft</svar>
+      <svar>Å vanne store åkre</svar>
+      <svar>Å drive store fiskeoppdrett</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Norge har mange fosser. Vannkraften ga strøm, og det kom flere fabrikker.</riktig>
+        <feil>Vann som faller med stor kraft, kan gi energi. Tenk på hva fabrikkene trengte.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-48" emne="Første og andre verdenskrig">
+      <tekst>Hvor lang kunne en vanlig arbeidsdag være fra 1919?</tekst>
+      <svar riktig="true">Åtte timer</svar>
+      <svar>Ti timer</svar>
+      <svar>Tolv timer</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Først bestemte Stortinget at ingen skulle jobbe mer enn ti timer om dagen. I 1919 ble det endret til åtte.</riktig>
+        <feil>Fagforeningene fikk gjennom kortere arbeidsdager. I 1919 ble grensen satt lavere enn ti timer.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-49" emne="Første og andre verdenskrig">
+      <tekst>Hva fikk arbeiderne rett til med syketrygd?</tekst>
+      <svar riktig="true">Penger fra staten når de var syke</svar>
+      <svar>Gratis mat på jobben hver eneste dag</svar>
+      <svar>Fri fra jobben om sommeren</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Syketrygd betyr at arbeiderne fikk penger fra staten når de var syke.</riktig>
+        <feil>Ordet syketrygd har to deler: syk og trygd. Trygd er penger du får fra staten.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-50" emne="Første og andre verdenskrig">
+      <tekst>Hvem fikk stemmerett ved stortingsvalg i 1898?</tekst>
+      <svar riktig="true">Menn over 25 år</svar>
+      <svar>Kvinner over 25 år</svar>
+      <svar>Menn over 40 år</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Fra 1898 kunne alle menn over 25 år stemme ved stortingsvalg. Kvinnene måtte vente til 1913.</riktig>
+        <feil>Kvinnene fikk ikke stemmerett ved stortingsvalg før i 1913. Tenk på hvem som fikk den først.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-51" emne="Første og andre verdenskrig">
+      <tekst>Hvorfor vedtok Stortinget nye lover for arbeiderne tidlig på 1900-tallet?</tekst>
+      <svar riktig="true">Fagforeningene presset på for endringer</svar>
+      <svar>Kongen krevde det i en tale til folket</svar>
+      <svar>Sverige bestemte det for Norge</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Fagforeningene ønsket bedre forhold for arbeiderne og presset på. Da kom lover om kortere dager og syketrygd.</riktig>
+        <feil>Arbeiderne organiserte seg for å få bedre forhold. Tenk på hvem som kjempet for dem.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-52" emne="Første og andre verdenskrig">
+      <tekst>Hvordan var Norge med i første verdenskrig?</tekst>
+      <svar riktig="true">Norge var ikke aktivt med</svar>
+      <svar>Norge kjempet på Tysklands side</svar>
+      <svar>Norge kjempet på Englands side</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Norge var ikke aktivt med i første verdenskrig, men landet merket krigen gjennom mangel på varer.</riktig>
+        <feil>Krigen var i Europa fra 1914 til 1918. Norge holdt seg utenfor kampene.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-53" emne="Første og andre verdenskrig">
+      <tekst>Hva er rasjonering?</tekst>
+      <svar riktig="true">Varene blir delt likt mellom folk</svar>
+      <svar>Varene blir gratis i butikkene</svar>
+      <svar>Prisene på varene går ned</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Under første verdenskrig var det mangel på korn, kaffe og sukker. Derfor ble varene delt, og hver person fikk kjøpe bare en viss mengde.</riktig>
+        <feil>Rasjonering brukes når det er for lite av en vare. Da må varene deles.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-54" emne="Første og andre verdenskrig">
+      <tekst>Hva var et stort problem i mellomkrigstiden?</tekst>
+      <svar riktig="true">Mange var uten arbeid</svar>
+      <svar>Det var mangel på arbeidere</svar>
+      <svar>Lønningene steg veldig mye</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Det var økonomisk krise i nesten hele mellomkrigstiden, og mange var arbeidsledige.</riktig>
+        <feil>Mellomkrigstiden var en vanskelig tid for økonomien i mange land, også i Norge.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-55" emne="Første og andre verdenskrig">
+      <tekst>Hva skjedde i Norge 9. april 1940?</tekst>
+      <svar riktig="true">Tyske soldater okkuperte landet</svar>
+      <svar>Norge ble med i NATO</svar>
+      <svar>Krigen i Europa tok slutt</svar>
+      <tilbakemelding>
+        <riktig>Riktig. 9. april 1940 kom tyske tropper til Norge. Etter rundt to måneder med kamper måtte Norge gi seg.</riktig>
+        <feil>Den andre verdenskrigen begynte i 1939. Året etter kom krigen også til Norge.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-56" emne="Første og andre verdenskrig">
+      <tekst>Hva betyr det at et land blir okkupert?</tekst>
+      <svar riktig="true">Et annet land tar kontroll over det</svar>
+      <svar>Landet velger en ny regjering</svar>
+      <svar>Landet blir enig om fred</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Under okkupasjonen hadde Tyskland makten i Norge. Det varte i fem år.</riktig>
+        <feil>Okkupasjon er noe som skjer i krig. En fremmed makt kommer inn og bestemmer.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-57" emne="Første og andre verdenskrig">
+      <tekst>Hvor styrte kongen og regjeringen fra under krigen?</tekst>
+      <svar riktig="true">Fra London i England</svar>
+      <svar>Fra Stockholm i Sverige</svar>
+      <svar>Fra Oslo i Norge</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Kongen og regjeringen flyktet til England. Derfra fortsatte de kampen for et fritt Norge.</riktig>
+        <feil>Kongen og regjeringen måtte forlate Norge. De dro til et land som kjempet mot Tyskland.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-58" emne="Første og andre verdenskrig">
+      <tekst>Hvem var Vidkun Quisling?</tekst>
+      <svar riktig="true">Leder av en tyskvennlig regjering</svar>
+      <svar>Leder av den norske motstanden mot tyskerne</svar>
+      <svar>Konge i Norge under krigen</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Quisling ledet en regjering som samarbeidet med tyskerne. Den var ikke valgt av folket.</riktig>
+        <feil>Quisling samarbeidet med okkupasjonsmakten. I mange språk betyr ordet «quisling» en forræder.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-59" emne="Første og andre verdenskrig">
+      <tekst>Hva gjorde motstandsbevegelsen under krigen?</tekst>
+      <svar riktig="true">Sabotasje og ulovlige aviser</svar>
+      <svar>Hjalp tyskerne med å styre</svar>
+      <svar>Bygde nye veier for tyskerne</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Motstandsgrupper ødela ting tyskerne trengte og ga ut ulovlige aviser. Mange gjorde også passiv motstand.</riktig>
+        <feil>Motstandsbevegelsen kjempet mot okkupasjonen. De arbeidet i hemmelighet.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-60" emne="Første og andre verdenskrig">
+      <tekst>Hvor flyktet rundt 50 000 nordmenn under krigen?</tekst>
+      <svar riktig="true">Til Sverige</svar>
+      <svar>Til Tyskland</svar>
+      <svar>Til Finland</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Rundt femti tusen nordmenn flyktet til Sverige. Sverige var ikke med i krigen.</riktig>
+        <feil>De flyktet til et naboland som ikke var med i krigen.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-61" emne="Første og andre verdenskrig">
+      <tekst>Hva gjorde tyskerne i Finnmark og Nord-Troms mot slutten av krigen?</tekst>
+      <svar riktig="true">Brente de fleste husene</svar>
+      <svar>Bygde mange nye byer</svar>
+      <svar>Ga folket mat og hjelp</svar>
+      <tilbakemelding>
+        <riktig>Riktig. På ordre fra Hitler ble det meste av hus, veier og bruer brent da tyskerne trakk seg ut.</riktig>
+        <feil>Tyskerne trakk seg ut av området. De ville ikke at fienden skulle kunne bruke noe der.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-62" emne="Første og andre verdenskrig">
+      <tekst>Hva skjedde med mange norske jøder under krigen?</tekst>
+      <svar riktig="true">De ble deportert og de fleste drept</svar>
+      <svar>De fikk reise trygt til Amerika</svar>
+      <svar>De fikk bo på gårder i Norge</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Over 770 jøder ble sendt fra Norge til leirer i Europa. Bare rundt 35 av dem overlevde.</riktig>
+        <feil>Jødene ble forfulgt under krigen. Deportert betyr at de ble sendt ut av landet med tvang.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-63" emne="Det moderne Norge">
+      <tekst>Hva var en viktig oppgave i Norge rett etter 1945?</tekst>
+      <svar riktig="true">Å bygge opp landet igjen</svar>
+      <svar>Å lete etter olje i havet</svar>
+      <svar>Å starte en ny union</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Etter krigen måtte mye bygges opp igjen, for eksempel hus, veier og fabrikker. Dette kalles gjenreisingen.</riktig>
+        <feil>Krigen hadde ødelagt mye, særlig i Nord-Norge. Det var mye som måtte gjøres.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-64" emne="Det moderne Norge">
+      <tekst>Hvilke to bevegelser har vært særlig viktige for det moderne Norge?</tekst>
+      <svar riktig="true">Arbeiderbevegelsen og kvinnebevegelsen</svar>
+      <svar>Fredsbevegelsen og miljøbevegelsen</svar>
+      <svar>Bondebevegelsen og avholdsbevegelsen</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Arbeiderbevegelsen og kvinnebevegelsen har hatt stor betydning for lovene og rettighetene vi har i dag.</riktig>
+        <feil>Tenk på bevegelser som kjempet for arbeiderne og for likestilling mellom kjønnene.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-65" emne="Det moderne Norge">
+      <tekst>Hvorfor ble arbeiderbevegelsen sterkere fra 1880-årene?</tekst>
+      <svar riktig="true">Det kom flere jobber i industrien</svar>
+      <svar>Kongen ville gi arbeiderne makt</svar>
+      <svar>Bøndene fikk mer jord å dyrke</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Arbeiderbevegelsen ble mer organisert da det kom flere arbeidsplasser i industrien.</riktig>
+        <feil>Arbeiderbevegelsen vokste fram der mange arbeidet sammen, for eksempel på fabrikker.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-66" emne="Det moderne Norge">
+      <tekst>Hva har arbeiderbevegelsen kjempet for?</tekst>
+      <svar riktig="true">Penger til dem som mister jobben</svar>
+      <svar>Lengre arbeidsdager i fabrikkene</svar>
+      <svar>Lavere lønn for unge arbeidere</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Arbeiderbevegelsen har kjempet for blant annet støtte ved arbeidsledighet, kortere dager og tryggere arbeidsplasser.</riktig>
+        <feil>Arbeiderbevegelsen har kjempet for bedre vilkår for arbeidstakerne, ikke dårligere.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-67" emne="Det moderne Norge">
+      <tekst>Hva har kvinnebevegelsen kjempet for?</tekst>
+      <svar riktig="true">Like muligheter for kvinner og menn</svar>
+      <svar>At kvinner skal være hjemme med barna</svar>
+      <svar>At menn skal bestemme i familien</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Kvinnebevegelsen har kjempet for kvinners rettigheter og for like muligheter for kvinner og menn.</riktig>
+        <feil>Kvinnebevegelsen ville at kvinner skulle få de samme rettighetene som menn.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-68" emne="Det moderne Norge">
+      <tekst>Når ble kvinnebevegelsen sterk igjen i Norge?</tekst>
+      <svar riktig="true">I 1970-årene</svar>
+      <svar>I 1950-årene</svar>
+      <svar>I 1990-årene</svar>
+      <tilbakemelding>
+        <riktig>Riktig. I 1970-årene skjøt kvinnekampen fart igjen. Viktige saker var blant annet prevensjon og selvbestemt abort.</riktig>
+        <feil>Kvinnebevegelsen var aktiv fra 1880-årene. Den ble sterk igjen omtrent hundre år senere.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-69" emne="Det moderne Norge">
+      <tekst>Hvem var Norges første kvinnelige statsminister?</tekst>
+      <svar riktig="true">Gro Harlem Brundtland</svar>
+      <svar>Camilla Collett</svar>
+      <svar>Aasta Hansteen</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Gro Harlem Brundtland ble statsminister i 1981. Hun var den første kvinnen i Norge med denne jobben.</riktig>
+        <feil>Camilla Collett og Aasta Hansteen kjempet for kvinners rettigheter på 1800-tallet. Statsministeren kom mye senere.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-70" emne="Det moderne Norge">
+      <tekst>Hvilken lov fra 1978 skulle sikre like rettigheter for kvinner og menn?</tekst>
+      <svar riktig="true">Likestillingsloven</svar>
+      <svar>Arbeidsmiljøloven</svar>
+      <svar>Barneloven</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Likestillingsloven kom i 1978. Den sa at kvinner og menn skal ha like muligheter.</riktig>
+        <feil>Like rettigheter for kvinner og menn kalles likestilling. Loven har fått navn etter dette.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-71" emne="Det moderne Norge">
+      <tekst>Hva fant man i Nordsjøen i 1969?</tekst>
+      <svar riktig="true">Det store oljefeltet Ekofisk</svar>
+      <svar>Store mengder med gull og sølv</svar>
+      <svar>Gamle skip fra vikingtiden</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Ekofisk ble funnet i 1969. Det var starten på at Norge ble en stor oljenasjon.</riktig>
+        <feil>Dette funnet gjorde Norge til et rikt land. Det handler om energi.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-72" emne="Det moderne Norge">
+      <tekst>Hvem eier olje- og gassressursene på norsk sokkel?</tekst>
+      <svar riktig="true">Staten, altså fellesskapet</svar>
+      <svar>Selskapene som finner oljen</svar>
+      <svar>Folk som bor nær kysten</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Akkurat som vannkraften er oljen i offentlig eie. Private selskaper kan få lov til å lete og bore i en viss tid.</riktig>
+        <feil>Det er det samme som med vannkraften. Ressursene skal komme hele folket til gode.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-73" emne="Det moderne Norge">
+      <tekst>Hva er mange uenige om når det gjelder oljen i dag?</tekst>
+      <svar riktig="true">Hva den betyr for natur og miljø</svar>
+      <svar>Hvem som fant den første oljen</svar>
+      <svar>Om det finnes noe olje i Nordsjøen</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Det er ikke enighet om hvilke følger oljeindustrien har for natur og miljø.</riktig>
+        <feil>Diskusjonen i dag handler om hvordan oljen påvirker klimaet og naturen.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-74" emne="Det moderne Norge">
+      <tekst>Hvilke rettigheter hadde folk i Norge før oljen ble funnet?</tekst>
+      <svar riktig="true">Gratis skole og syketrygd</svar>
+      <svar>Oljepenger til hver familie</svar>
+      <svar>Gratis bolig for voksne</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Gratis skole, kortere arbeidsdager og syketrygd kom før det ble funnet olje.</riktig>
+        <feil>Mange velferdsordninger er eldre enn oljen. Tenk på skolen og retten til penger når du er syk.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-75" emne="Det moderne Norge">
+      <tekst>Hva stemte et flertall i Norge i 1972 og 1994?</tekst>
+      <svar riktig="true">Nei til å bli med i EF og EU</svar>
+      <svar>Ja til å bli med i EF og EU</svar>
+      <svar>Nei til å bli med i FN og NATO</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Ved to folkeavstemninger stemte et knapt flertall nei til medlemskap. EF var navnet på EU før.</riktig>
+        <feil>Norge er ikke medlem av EU i dag. Det henger sammen med resultatet i disse to avstemningene.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-76" emne="Det moderne Norge">
+      <tekst>Hva er EØS-avtalen?</tekst>
+      <svar riktig="true">En avtale om handel og samarbeid med EU</svar>
+      <svar>En avtale om forsvar sammen med USA og Canada</svar>
+      <svar>En avtale om fiske med Russland</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Norge er ikke med i EU, men gjennom EØS gjelder mange EU-regler også i Norge. Avtalen gjelder fra 1994.</riktig>
+        <feil>EØS betyr Det europeiske økonomiske samarbeidsområdet. Det knytter Norge til EU.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-77" emne="Det moderne Norge">
+      <tekst>Hvilket internasjonalt samarbeid er Norge med i?</tekst>
+      <svar riktig="true">FN, NATO og EØS</svar>
+      <svar>EU, FN og OPEC</svar>
+      <svar>EU, NATO og OPEC</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Norge deltar i FN, NATO og EØS. Norge er ikke medlem av EU.</riktig>
+        <feil>Husk at Norge sa nei til EU to ganger.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-78" emne="Det moderne Norge">
+      <tekst>Hvor stor del av folket bor i byer og tettsteder i dag?</tekst>
+      <svar riktig="true">Rundt 80 prosent</svar>
+      <svar>Rundt 35 prosent</svar>
+      <svar>Rundt 15 prosent</svar>
+      <tilbakemelding>
+        <riktig>Riktig. I dag bor rundt åtti prosent i byer og tettsteder. Før 1850 var det bare rundt femten prosent.</riktig>
+        <feil>Mange har flyttet fra landsbygda til byene de siste hundre årene. I dag bor de fleste i byer.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-79" emne="Det moderne Norge">
+      <tekst>Hvorfor kom mange arbeidsinnvandrere til Norge rundt 1970?</tekst>
+      <svar riktig="true">Det var mangel på arbeidskraft</svar>
+      <svar>Det var krig i Norge da</svar>
+      <svar>Norge ga dem gratis bolig</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Industrien trengte flere arbeidere. Mange kom for eksempel fra Pakistan, Tyrkia og Jugoslavia.</riktig>
+        <feil>Rundt 1970 gikk det godt for norsk økonomi. Tenk på hva bedriftene trengte.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="historie-80" emne="Det moderne Norge">
+      <tekst>Hva skjedde i Norge 22. juli 2011?</tekst>
+      <svar riktig="true">Terrorangrep i Oslo og på Utøya</svar>
+      <svar>En stor flom på Vestlandet</svar>
+      <svar>Et skipsforlis i Nordsjøen</svar>
+      <tilbakemelding>
+        <riktig>Riktig. En terrorist drepte 77 mennesker i regjeringskvartalet i Oslo og på Utøya. Dagen blir minnet hvert år.</riktig>
+        <feil>Dette var et angrep på demokratiet. Mange av dem som døde, var ungdom på en politisk leir.</feil>
+      </tilbakemelding>
+    </sporsmal>
+  </kategori>
+  <kategori hovedkategori="Norge før og nå" navn="Menneskerettigheter og demokrati" antall="80">
+    <sporsmal id="demokrati-01" emne="Demokratiet i Norge">
+      <tekst>Ordet «demokrati» kommer fra gresk. Hva betyr det?</tekst>
+      <svar riktig="true">Folkestyre</svar>
+      <svar>Kongestyre</svar>
+      <svar>Fellesskap</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Demokrati betyr folkestyre. Folket bestemmer gjennom valg.</riktig>
+        <feil>Ordet har to deler på gresk: «folk» og «styre». Tenk på hvem som har makten.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-02" emne="Demokratiet i Norge">
+      <tekst>Hvordan styrer folket politikken i Norge?</tekst>
+      <svar riktig="true">De velger representanter ved valg</svar>
+      <svar>De stemmer selv over hver eneste lov</svar>
+      <svar>De sender forslag til kongen</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Folket velger representanter fra partiene til Stortinget, fylkestinget og kommunestyret.</riktig>
+        <feil>Norge har et representativt demokrati. Folket velger politikere som bestemmer for dem.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-03" emne="Demokratiet i Norge">
+      <tekst>Hva skal flertallet gjøre når det bestemmer politikken?</tekst>
+      <svar riktig="true">Ta hensyn til det mindretallet mener</svar>
+      <svar>Bestemme uten å høre på mindretallet</svar>
+      <svar>La mindretallet avgjøre de store sakene</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Flertallet bestemmer, men skal ta hensyn til mindretallets meninger.</riktig>
+        <feil>I et demokrati vinner flertallet, men de som er færre, skal også bli hørt.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-04" emne="Demokratiet i Norge">
+      <tekst>Hvem setter rammene for hva kommunene kan bestemme?</tekst>
+      <svar riktig="true">Staten</svar>
+      <svar>Fylkeskommunen</svar>
+      <svar>Nabokommunene</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Staten setter rammer, men kommunene bestemmer selv i en del saker.</riktig>
+        <feil>Kommunene har selvbestemmelse i noen saker. Men det er en større myndighet som setter rammene.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-05" emne="Demokratiet i Norge">
+      <tekst>Hvilket ansvarsområde har staten?</tekst>
+      <svar riktig="true">Sykehusene</svar>
+      <svar>Barnehagene</svar>
+      <svar>Fylkesveiene</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Staten har ansvar for sykehusene, lover, utenrikspolitikk og læreplaner.</riktig>
+        <feil>Barnehager har kommunen ansvar for, og fylkesveier har fylkeskommunen ansvar for.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-06" emne="Demokratiet i Norge">
+      <tekst>Fylkesveien utenfor huset til Sara har store hull. Hvem har ansvaret?</tekst>
+      <svar riktig="true">Fylkeskommunen</svar>
+      <svar>Kommunen</svar>
+      <svar>Staten</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Fylkeskommunen har ansvar for fylkesveier og videregående opplæring.</riktig>
+        <feil>Navnet på veien gir et hint. Kommunen har ansvar for de kommunale veiene.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-07" emne="Demokratiet i Norge">
+      <tekst>Hva gjør byråkratene i staten og kommunene?</tekst>
+      <svar riktig="true">Setter politikken ut i livet</svar>
+      <svar>Vedtar nye lover og budsjetter</svar>
+      <svar>Dømmer i saker etter loven</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Byråkratene er de ansatte. De gjør det politikerne har bestemt, for eksempel på Nav.</riktig>
+        <feil>Politikerne bestemmer, og de ansatte i det offentlige gjør jobben i praksis.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-08" emne="Demokratiet i Norge">
+      <tekst>Hvor sitter de folkevalgte som vedtar lovene for hele Norge?</tekst>
+      <svar riktig="true">På Stortinget</svar>
+      <svar>I regjeringen</svar>
+      <svar>I kommunestyret</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Stortinget er nasjonalforsamlingen og den øverste statsmakten.</riktig>
+        <feil>Regjeringen foreslår lover, men det er nasjonalforsamlingen som vedtar dem.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-09" emne="Demokratiet i Norge">
+      <tekst>Hvor mange representanter sitter på Stortinget?</tekst>
+      <svar riktig="true">169</svar>
+      <svar>150</svar>
+      <svar>199</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Folket velger 169 representanter til Stortinget for fire år om gangen.</riktig>
+        <feil>Stortinget har litt mer enn 150 representanter. Tallet er det samme etter hvert valg.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-10" emne="Demokratiet i Norge">
+      <tekst>Kan det bli nyvalg til Stortinget før fire år har gått?</tekst>
+      <svar riktig="true">Nei, Stortinget sitter i fire år</svar>
+      <svar>Ja, kongen kan kalle inn til nyvalg</svar>
+      <svar>Ja, regjeringen kan kreve nyvalg</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Grunnloven sier at Stortinget sitter i fire år. Det er ikke mulig å skrive ut nyvalg.</riktig>
+        <feil>I Norge kan verken kongen eller regjeringen oppløse Stortinget. Valget skjer hvert fjerde år.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-11" emne="Demokratiet i Norge">
+      <tekst>Hva er en viktig oppgave for Stortinget?</tekst>
+      <svar riktig="true">Å vedta statsbudsjettet</svar>
+      <svar>Å dømme i rettssaker</svar>
+      <svar>Å lede departementene</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Stortinget vedtar lover og statsbudsjettet og kontrollerer regjeringen.</riktig>
+        <feil>Domstolene dømmer, og statsrådene leder departementene. Stortinget har andre oppgaver.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-12" emne="Demokratiet i Norge">
+      <tekst>Hva betyr det at Stortinget kontrollerer regjeringen?</tekst>
+      <svar riktig="true">Stortinget følger med på det regjeringen gjør</svar>
+      <svar>Stortinget bestemmer hvem som skal bli dommere</svar>
+      <svar>Stortinget svarer på brevene til regjeringen</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Stortinget passer på at regjeringen gjør jobben sin og følger vedtakene.</riktig>
+        <feil>Kontroll betyr å følge med og passe på. Stortinget gjør dette med regjeringen.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-13" emne="Demokratiet i Norge">
+      <tekst>Amira vil høre en debatt i Stortinget. Kan hun det?</tekst>
+      <svar riktig="true">Ja, alle kan sitte og høre på</svar>
+      <svar>Nei, bare politikere kan være der</svar>
+      <svar>Ja, og hun kan også si sin mening</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Demokratiet er åpent. Alle kan høre på, men publikum kan ikke snakke i salen.</riktig>
+        <feil>Stortingsmøtene er åpne for publikum. Men bare representantene kan snakke i debatten.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-14" emne="Demokratiet i Norge">
+      <tekst>Hva betyr det at en sak blir sendt på høring?</tekst>
+      <svar riktig="true">Folk og fagmiljøer kan si sin mening</svar>
+      <svar>Saken blir sendt til en domstol</svar>
+      <svar>Stortinget stemmer over saken med en gang</svar>
+      <tilbakemelding>
+        <riktig>Riktig. På en høring kan fagmiljøer og vanlige folk si hva de mener om et forslag.</riktig>
+        <feil>En høring er en måte å samle meninger på før politikerne bestemmer.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-15" emne="Demokratiet i Norge">
+      <tekst>Hvem lager forslag til statsbudsjett hvert år?</tekst>
+      <svar riktig="true">Regjeringen</svar>
+      <svar>Stortinget</svar>
+      <svar>Kongen</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Regjeringen lager forslaget, og Stortinget vedtar statsbudsjettet.</riktig>
+        <feil>Stortinget vedtar budsjettet, men det er en annen statsmakt som lager forslaget.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-16" emne="Demokratiet i Norge">
+      <tekst>Hvem sitter i regjeringen?</tekst>
+      <svar riktig="true">Statsministeren og statsrådene</svar>
+      <svar>Stortingsrepresentantene</svar>
+      <svar>Kongen og dommerne i Høyesterett</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Regjeringen består av statsministeren og statsrådene, som leder hvert sitt departement.</riktig>
+        <feil>Stortingsrepresentantene sitter i nasjonalforsamlingen. Regjeringen er noe annet.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-17" emne="Demokratiet i Norge">
+      <tekst>Hva kalles møtet mellom kongen og regjeringen hver fredag?</tekst>
+      <svar riktig="true">Statsråd</svar>
+      <svar>Landsmøte</svar>
+      <svar>Rettsmøte</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Møtet heter statsråd. Statsrådene informerer kongen om politiske saker.</riktig>
+        <feil>Ordet er det samme som tittelen på dem som leder et departement.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-18" emne="Demokratiet i Norge">
+      <tekst>Norge er et konstitusjonelt monarki. Hva betyr det?</tekst>
+      <svar riktig="true">Vi har konge, men folket styrer gjennom valg</svar>
+      <svar>Kongen styrer, og folket gir råd ved valg</svar>
+      <svar>Vi har en president som folket velger</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Norge har en konge, men det er folkevalgte politikere som styrer landet.</riktig>
+        <feil>Kongen har liten politisk makt i Norge. Makten ligger hos de folkevalgte.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-19" emne="Demokratiet i Norge">
+      <tekst>Hva betyr maktfordeling?</tekst>
+      <svar riktig="true">Makten er delt på tre uavhengige myndigheter</svar>
+      <svar>Makten er delt likt mellom de største partiene</svar>
+      <svar>Makten er delt mellom kongen og kirken</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Makten er delt mellom Stortinget, regjeringen og domstolene.</riktig>
+        <feil>Maktfordeling handler om de tre statsmaktene. Ingen av dem skal få for stor makt alene.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-20" emne="Demokratiet i Norge">
+      <tekst>Hvem er den dømmende makten i Norge?</tekst>
+      <svar riktig="true">Domstolene</svar>
+      <svar>Stortinget</svar>
+      <svar>Regjeringen</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Domstolene dømmer i rettssaker etter lovene som Stortinget har vedtatt.</riktig>
+        <feil>Stortinget vedtar lovene, men det er en annen statsmakt som dømmer i rettssaker.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-21" emne="Demokratiet i Norge">
+      <tekst>Hvilken statsmakt er regjeringen?</tekst>
+      <svar riktig="true">Den utøvende makten</svar>
+      <svar>Den dømmende makten</svar>
+      <svar>Den lovgivende makten</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Regjeringen er den utøvende makten. Den sørger for at lovene blir gjennomført.</riktig>
+        <feil>Stortinget lager lovene, og domstolene dømmer. Regjeringen setter lovene ut i livet.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-22" emne="Demokratiet i Norge">
+      <tekst>Hva betyr parlamentarisme?</tekst>
+      <svar riktig="true">Regjeringen må ha støtte fra Stortinget</svar>
+      <svar>Folket velger regjeringen direkte</svar>
+      <svar>Kongen velger regjeringen helt fritt selv</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Parlamentarisme betyr at regjeringen må ha Stortingets tillit for å sitte.</riktig>
+        <feil>I Norge velger folket Stortinget, ikke regjeringen. Regjeringen er avhengig av Stortinget.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-23" emne="Demokratiet i Norge">
+      <tekst>Flertallet på Stortinget har ikke lenger tillit til regjeringen. Hva skjer?</tekst>
+      <svar riktig="true">Regjeringen må gå av</svar>
+      <svar>Stortinget blir oppløst</svar>
+      <svar>Kongen tar over styringen</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Regjeringen må gå av hvis flertallet på Stortinget sier at det ikke har tillit til den.</riktig>
+        <feil>Dette er parlamentarisme. Regjeringen trenger tillit fra Stortinget for å kunne sitte.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-24" emne="Demokratiet i Norge">
+      <tekst>Hvem danner ny regjering etter et stortingsvalg?</tekst>
+      <svar riktig="true">Ett eller flere politiske partier</svar>
+      <svar>Domstolene sammen med kongen</svar>
+      <svar>Kandidaten med flest stemmer</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Etter valget danner ett eller flere partier en ny regjering.</riktig>
+        <feil>Det er de politiske partiene som danner regjering, ut fra resultatet på Stortinget.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-25" emne="Demokratiske rettigheter og plikter">
+      <tekst>Hva har vi i et demokrati, i tillegg til frihet og rettigheter?</tekst>
+      <svar riktig="true">Ansvar og plikter</svar>
+      <svar>Makt og privilegier</svar>
+      <svar>Lønn og goder</svar>
+      <tilbakemelding>
+        <riktig>Riktig. I et demokrati har vi både frihet og rettigheter, og ansvar og plikter.</riktig>
+        <feil>Frihet og rettigheter hører sammen med noe du må gjøre for samfunnet.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-26" emne="Demokratiske rettigheter og plikter">
+      <tekst>Gjelder ytringsfriheten også for aviser, radio og tv?</tekst>
+      <svar riktig="true">Ja, den gjelder også for mediene</svar>
+      <svar>Nei, mediene må få lov av staten</svar>
+      <svar>Nei, mediene har ikke ytringsfrihet</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Ytringsfriheten gjelder både privatpersoner og radio, tv og aviser.</riktig>
+        <feil>Pressen er fri i Norge. Mediene trenger ikke tillatelse fra staten for å skrive.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-27" emne="Demokratiske rettigheter og plikter">
+      <tekst>Mona blir valgt inn i kommunestyret. Må hun ta imot vervet?</tekst>
+      <svar riktig="true">Ja, som hovedregel har hun plikt til det</svar>
+      <svar>Nei, hun kan si nei uten noen grunn</svar>
+      <svar>Nei, det er helt frivillig å ta vervet</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Kommuneloven sier at den som blir valgt, har plikt til å ta imot valget. Bare noen få kan få fritak.</riktig>
+        <feil>Å være folkevalgt er en plikt, ikke bare en rettighet. Det finnes bare noen få unntak.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-28" emne="Demokratiske rettigheter og plikter">
+      <tekst>Lise sprer løgner om en kollega. Kan hun straffes for ærekrenkelse?</tekst>
+      <svar riktig="true">Nei, men hun kan måtte betale erstatning</svar>
+      <svar>Ja, hun kan få fengsel i opptil ett år</svar>
+      <svar>Nei, løgner er en del av ytringsfriheten</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Ærekrenkelse er ikke straffbart siden 2015, men retten kan kreve at du betaler erstatning.</riktig>
+        <feil>Du får ikke fengsel for ærekrenkelse i dag. Men å skade andres rykte kan likevel koste penger.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-29" emne="Demokratiske rettigheter og plikter">
+      <tekst>Er det plikt å stemme ved valg i Norge?</tekst>
+      <svar riktig="true">Nei, å stemme er en rettighet</svar>
+      <svar>Ja, du får bot hvis du ikke stemmer</svar>
+      <svar>Ja, ved stortingsvalg er det plikt</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Å stemme er en rettighet. Ingen kan tvinge deg til å stemme.</riktig>
+        <feil>I Norge er det frivillig å stemme. Lav valgdeltakelse er likevel et problem for demokratiet.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-30" emne="Demokratiske rettigheter og plikter">
+      <tekst>Hva betyr rettssikkerhet?</tekst>
+      <svar riktig="true">Ingen kan få fengsel uten en rettssak</svar>
+      <svar>Politiet bestemmer straffen etter en arrestasjon</svar>
+      <svar>Regjeringen bestemmer hva domstolene gjør</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Rettssikkerhet betyr blant annet at ingen kan dømmes til fengsel uten en rettssak først.</riktig>
+        <feil>I et demokrati er det uavhengige dommere som avgjør skyld og straff, ikke politiet.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-31" emne="Demokratiske rettigheter og plikter">
+      <tekst>Karim er tiltalt for tyveri. Hva har han rett til?</tekst>
+      <svar riktig="true">En forsvarer som hjelper ham i retten</svar>
+      <svar>Å slippe rettssak hvis han betaler</svar>
+      <svar>Å velge dommeren i saken sin helt selv</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Alle tiltalte har rett til et forsvar, for eksempel en advokat.</riktig>
+        <feil>Rettssikkerhet gjelder for alle. Den tiltalte får hjelp til å forsvare seg i retten.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-32" emne="Demokratiske rettigheter og plikter">
+      <tekst>En person er «uskyldig til det motsatte er bevist». Hva betyr det?</tekst>
+      <svar riktig="true">Skyld må bevises før noen kan straffes</svar>
+      <svar>Den tiltalte må bevise at hun er uskyldig</svar>
+      <svar>Politiet kan straffe uten bevis i små saker</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Det er påtalemyndigheten som må bevise at personen er skyldig, ikke den tiltalte.</riktig>
+        <feil>Ingen skal straffes før det er bevist at personen har gjort noe galt.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-33" emne="Demokratiske rettigheter og plikter">
+      <tekst>Hva betyr det at domstolene er uavhengige?</tekst>
+      <svar riktig="true">Ingen kan bestemme hvordan dommerne dømmer</svar>
+      <svar>Dommerne må følge det regjeringen sier</svar>
+      <svar>Dommerne blir valgt av de store partiene</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Grunnloven sier at domstolene og dommerne skal være uavhengige og upartiske.</riktig>
+        <feil>Dommerne skal dømme etter loven. Regjeringen og partiene kan ikke bestemme utfallet.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-34" emne="Demokratiske rettigheter og plikter">
+      <tekst>Hva betyr organisasjonsfrihet?</tekst>
+      <svar riktig="true">Du kan bli med i partier og foreninger</svar>
+      <svar>Du må være medlem av en fagforening</svar>
+      <svar>Du kan starte en bedrift uten å betale skatt</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Du har rett til å være med i partier, foreninger og fagforeninger.</riktig>
+        <feil>Organisasjonsfrihet handler om å få være med i grupper uten å bli straffet.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-35" emne="Demokratiske rettigheter og plikter">
+      <tekst>Samfunnet bygger på gjensidig tillit. Hva betyr det?</tekst>
+      <svar riktig="true">Folk og myndigheter stoler på hverandre</svar>
+      <svar>Innbyggerne må kontrollere hverandre</svar>
+      <svar>Staten sjekker alt det folk sier</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Myndighetene stoler på innbyggerne, og innbyggerne stoler på myndighetene.</riktig>
+        <feil>Tillit betyr å stole på noen. «Gjensidig» betyr at det går begge veier.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-36" emne="Demokratiske rettigheter og plikter">
+      <tekst>Nadia søker om støtte fra Nav. Hvilken plikt har hun?</tekst>
+      <svar riktig="true">Å gi riktige opplysninger om seg selv</svar>
+      <svar>Å møte på Nav-kontoret hver uke</svar>
+      <svar>Å vise fram vitnemålet sitt</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Du har plikt til å gi riktige og sanne opplysninger til Nav og andre etater.</riktig>
+        <feil>Samfunnet bygger på tillit. Nav må kunne stole på det du forteller.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-37" emne="Demokratiske rettigheter og plikter">
+      <tekst>Hvem har plikt til å betale skatt i Norge?</tekst>
+      <svar riktig="true">Folk som tjener penger eller har formue</svar>
+      <svar>Norske statsborgere, ikke utlendinger</svar>
+      <svar>Folk som eier hus eller leilighet</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Alle som har inntekt eller formue over visse grenser, må betale skatt i Norge.</riktig>
+        <feil>Skatteplikten handler om inntekt og formue, ikke om statsborgerskap.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-38" emne="Demokratiske rettigheter og plikter">
+      <tekst>Ali får brev om å vitne i retten. Hva må han gjøre?</tekst>
+      <svar riktig="true">Møte i retten og forklare det han vet</svar>
+      <svar>Bestemme selv om han vil møte</svar>
+      <svar>Sende et brev til politiet i stedet</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Alle har plikt til å møte som vitne og forklare seg for retten når de blir innkalt.</riktig>
+        <feil>Vitneplikt betyr at du må komme når retten kaller deg inn. Det er ikke frivillig.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-39" emne="Demokratiske rettigheter og plikter">
+      <tekst>Hvem har verneplikt blant norske statsborgere?</tekst>
+      <svar riktig="true">Både kvinner og menn</svar>
+      <svar>Menn, men ikke kvinner</svar>
+      <svar>De som melder seg frivillig</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Norge har allmenn verneplikt for kvinner og menn født i 1997 eller senere.</riktig>
+        <feil>Siden 2015 har verneplikten vært lik for begge kjønn i Norge.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-40" emne="Demokratiske rettigheter og plikter">
+      <tekst>Norge har opplæringsplikt. Hva betyr det?</tekst>
+      <svar riktig="true">Barn må få grunnskoleopplæring</svar>
+      <svar>Barn må gå på en privat skole</svar>
+      <svar>Voksne må ta videregående skole</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Barn har plikt til grunnskoleopplæring, vanligvis i en offentlig skole.</riktig>
+        <feil>Plikten gjelder barn i grunnskolealder. De fleste går på en offentlig og gratis skole.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-41" emne="Demokratiske rettigheter og plikter">
+      <tekst>Du er uenig i en lov. Hva er riktig å gjøre?</tekst>
+      <svar riktig="true">Følge loven og jobbe for å endre den</svar>
+      <svar>Bryte loven til den blir endret</svar>
+      <svar>Klage til kongen og vente på svar</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Du må følge loven, men du kan jobbe for å endre den på demokratisk vis.</riktig>
+        <feil>I et demokrati må vi følge reglene flertallet har vedtatt, også når vi er uenige.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-42" emne="Demokratiske rettigheter og plikter">
+      <tekst>Hva kan være en trussel mot demokratiet?</tekst>
+      <svar riktig="true">Lav valgdeltakelse</svar>
+      <svar>Mange politiske partier</svar>
+      <svar>Frie og uavhengige aviser</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Når få stemmer, blir demokratiet svakere.</riktig>
+        <feil>Frie medier og mange partier styrker demokratiet. Tenk på hva som skjer hvis få deltar.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-43" emne="Demokratiske rettigheter og plikter">
+      <tekst>Du ser en person som er hardt skadet etter en ulykke. Hva sier loven?</tekst>
+      <svar riktig="true">Du må hjelpe eller skaffe hjelp</svar>
+      <svar>Du må vente til politiet kommer</svar>
+      <svar>Du kan gå hvis du har det travelt</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Loven sier at du må hjelpe en person i fare, eller ringe etter hjelp.</riktig>
+        <feil>Alle har hjelpeplikt. Du må hjelpe hvis du kan gjøre det uten stor fare for deg selv.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-44" emne="Demokratiske rettigheter og plikter">
+      <tekst>Omar flytter til en ny leilighet. Hva må han gjøre?</tekst>
+      <svar riktig="true">Melde flytting til Folkeregisteret</svar>
+      <svar>Søke om lov til å flytte hos kommunen</svar>
+      <svar>Gi beskjed til politiet i den nye byen</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Når du flytter, må du melde flytting til Folkeregisteret innen åtte dager.</riktig>
+        <feil>Folkeregisteret hos Skatteetaten må vite hvor du bor. Du trenger ikke lov til å flytte.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-45" emne="Demokratiske rettigheter og plikter">
+      <tekst>Hva er en meddommer i en rettssak?</tekst>
+      <svar riktig="true">En vanlig innbygger som er med og dømmer</svar>
+      <svar>En advokat som forsvarer den tiltalte</svar>
+      <svar>En politimann som leder etterforskningen</svar>
+      <tilbakemelding>
+        <riktig>Riktig. En meddommer er en vanlig person som dømmer sammen med en fagdommer.</riktig>
+        <feil>Også vanlige innbyggere er med og dømmer i norske domstoler. De kalles meddommere.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-46" emne="Demokratiske rettigheter og plikter">
+      <tekst>Hva betyr offentlighetsprinsippet?</tekst>
+      <svar riktig="true">Alle kan be om å se dokumenter fra det offentlige</svar>
+      <svar>Alle må vise fram skattepapirene sine på nett</svar>
+      <svar>Politikerne må holde møtene sine hemmelige</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Alle kan be om innsyn i dokumenter fra stat og kommune, med noen unntak.</riktig>
+        <feil>Det offentlige skal være åpent. Du kan be om å få se saksdokumenter.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-47" emne="Menneskerettigheter">
+      <tekst>Hva betyr det at menneskerettighetene er universelle?</tekst>
+      <svar riktig="true">De gjelder for alle mennesker i verden</svar>
+      <svar>De gjelder for land som har skrevet under</svar>
+      <svar>De gjelder for voksne statsborgere</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Menneskerettighetene er universelle. De gjelder for alle mennesker i hele verden.</riktig>
+        <feil>Universell betyr «for alle». Menneskerettighetene gjelder uansett land og alder.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-48" emne="Menneskerettigheter">
+      <tekst>Hvorfor har vi menneskerettigheter?</tekst>
+      <svar riktig="true">Fordi vi er mennesker</svar>
+      <svar>Fordi vi er statsborgere</svar>
+      <svar>Fordi vi betaler skatt</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Vi har menneskerettighetene fordi vi er mennesker.</riktig>
+        <feil>Menneskerettighetene avhenger ikke av hvor du bor, eller hvem du er.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-49" emne="Menneskerettigheter">
+      <tekst>Når vedtok FN verdenserklæringen om menneskerettighetene?</tekst>
+      <svar riktig="true">I 1948</svar>
+      <svar>I 1945</svar>
+      <svar>I 1965</svar>
+      <tilbakemelding>
+        <riktig>Riktig. FNs verdenserklæring om menneskerettighetene ble vedtatt i 1948.</riktig>
+        <feil>FN ble grunnlagt i 1945. Erklæringen kom noen år senere, etter andre verdenskrig.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-50" emne="Menneskerettigheter">
+      <tekst>Hvor mange land er medlemmer i FN i dag?</tekst>
+      <svar riktig="true">193</svar>
+      <svar>150</svar>
+      <svar>250</svar>
+      <tilbakemelding>
+        <riktig>Riktig. FN har 193 medlemsland. Alle har sluttet seg til verdenserklæringen.</riktig>
+        <feil>Nesten alle land i verden er med i FN. Tallet er under 200.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-51" emne="Menneskerettigheter">
+      <tekst>Hvilken dag er menneskerettighetenes dag?</tekst>
+      <svar riktig="true">10. desember</svar>
+      <svar>17. mai</svar>
+      <svar>24. oktober</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Erklæringen ble vedtatt 10. desember 1948. Derfor er det menneskerettighetenes dag.</riktig>
+        <feil>17. mai er nasjonaldagen i Norge, og 24. oktober er FN-dagen.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-52" emne="Menneskerettigheter">
+      <tekst>Hva sier menneskerettighetene om tortur?</tekst>
+      <svar riktig="true">Tortur er forbudt i alle former</svar>
+      <svar>Tortur er lov under en krig</svar>
+      <svar>Tortur er lov hvis en dommer sier ja</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Tortur i alle former er forbudt, også i krig.</riktig>
+        <feil>Forbudet mot tortur har ingen unntak. Det gjelder i alle situasjoner.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-53" emne="Menneskerettigheter">
+      <tekst>Hva sier Grunnloven om dødsstraff?</tekst>
+      <svar riktig="true">Ingen kan dømmes til døden</svar>
+      <svar>Dødsstraff er lov under en krig</svar>
+      <svar>Domstolene avgjør det i hver sak</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Grunnloven § 93 sier at ingen kan dømmes til døden.</riktig>
+        <feil>Norge har ikke dødsstraff. Det står i Grunnloven.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-54" emne="Menneskerettigheter">
+      <tekst>Når fikk Grunnloven et eget kapittel om menneskerettigheter?</tekst>
+      <svar riktig="true">I 2014</svar>
+      <svar>I 1905</svar>
+      <svar>I 1948</svar>
+      <tilbakemelding>
+        <riktig>Riktig. I 2014, da Grunnloven fylte 200 år, fikk den et nytt kapittel om menneskerettigheter.</riktig>
+        <feil>Endringen kom da Grunnloven hadde 200-årsjubileum.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-55" emne="Menneskerettigheter">
+      <tekst>En vanlig lov og en menneskerettskonvensjon sier ulike ting. Hva gjelder?</tekst>
+      <svar riktig="true">Menneskerettighetene går foran</svar>
+      <svar>Den norske loven går foran</svar>
+      <svar>Kongen bestemmer i hver sak</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Menneskerettsloven sier at konvensjonene i loven går foran andre lover hvis de sier ulike ting.</riktig>
+        <feil>Menneskerettsloven gjør viktige konvensjoner til norsk lov. De har sterk stilling.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-56" emne="Menneskerettigheter">
+      <tekst>Hva er Den europeiske menneskerettskonvensjonen (EMK)?</tekst>
+      <svar riktig="true">En avtale om menneskerettigheter i Europa</svar>
+      <svar>En avtale mellom EU-landene om handel</svar>
+      <svar>En domstol for saker mellom bedrifter</svar>
+      <tilbakemelding>
+        <riktig>Riktig. EMK er en avtale i Europarådet om menneskerettigheter. Den er norsk lov.</riktig>
+        <feil>EMK handler om menneskerettigheter, ikke handel. Norge er med selv om Norge ikke er med i EU.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-57" emne="Menneskerettigheter">
+      <tekst>Kari mener Norge har brutt rettighetene hennes i EMK. Hvor kan hun klage til slutt?</tekst>
+      <svar riktig="true">Til Den europeiske menneskerettsdomstolen</svar>
+      <svar>Til FNs sikkerhetsråd i New York</svar>
+      <svar>Til kongen og regjeringen i statsråd</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Når saken er ferdig i norske domstoler, kan du klage til Den europeiske menneskerettsdomstolen i Strasbourg.</riktig>
+        <feil>Det finnes en egen domstol for EMK. Den ligger i Frankrike.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-58" emne="Menneskerettigheter">
+      <tekst>Hva gjør Norges institusjon for menneskerettigheter (NIM)?</tekst>
+      <svar riktig="true">Følger med på menneskerettighetene i Norge</svar>
+      <svar>Dømmer personer som bryter menneskerettighetene</svar>
+      <svar>Gir oppholdstillatelse til flyktninger</svar>
+      <tilbakemelding>
+        <riktig>Riktig. NIM følger med og gir råd, men behandler ikke enkeltsaker.</riktig>
+        <feil>NIM er knyttet til Stortinget. Institusjonen dømmer ikke, men overvåker og informerer.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-59" emne="Menneskerettigheter">
+      <tekst>Hvilken rettighet står i FNs verdenserklæring om menneskerettighetene?</tekst>
+      <svar riktig="true">Retten til frie og hemmelige valg</svar>
+      <svar>Retten til å få en bil fra staten</svar>
+      <svar>Retten til å slippe å betale skatt</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Alle har rett til å påvirke politikken gjennom frie, hemmelige valg.</riktig>
+        <feil>Menneskerettighetene handler om frihet, sikkerhet og deltakelse, ikke om ting eller penger.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-60" emne="Menneskerettigheter">
+      <tekst>Hva sier verdenserklæringen om alle mennesker?</tekst>
+      <svar riktig="true">De er født frie og med samme verd</svar>
+      <svar>De har rett til like mye penger</svar>
+      <svar>De får rettigheter når de blir voksne</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Alle mennesker er født frie, med samme menneskeverd og rettigheter.</riktig>
+        <feil>Erklæringen sier at alle har samme verd fra de blir født.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-61" emne="Menneskerettigheter">
+      <tekst>Hvem passer på at offentlige kontorer behandler folk riktig?</tekst>
+      <svar riktig="true">Sivilombudet</svar>
+      <svar>Forbrukerrådet</svar>
+      <svar>Barneombudet</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Sivilombudet er Stortingets ombud. Du kan klage dit hvis du mener det offentlige har gjort feil mot deg.</riktig>
+        <feil>Det finnes et ombud som Stortinget har valgt, og som passer på hele forvaltningen, ikke bare én gruppe.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-62" emne="Menneskerettigheter">
+      <tekst>Grunnloven sier at alle er like for loven. Hva betyr det?</tekst>
+      <svar riktig="true">Loven gjelder likt for alle mennesker</svar>
+      <svar>Rike personer kan få lavere straff</svar>
+      <svar>Politikere slipper å følge loven</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Loven gjelder likt for alle. Ingen skal få usaklig forskjellsbehandling.</riktig>
+        <feil>«Like for loven» betyr at penger og makt ikke gir deg andre regler.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-63" emne="Valg og politiske partier">
+      <tekst>Hvilket valg holdes to år etter et stortingsvalg?</tekst>
+      <svar riktig="true">Kommunestyre- og fylkestingsvalg</svar>
+      <svar>Sametingsvalg og folkeavstemning</svar>
+      <svar>Et nytt valg til Stortinget</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Det er lokalvalg to år etter et stortingsvalg. Det er valg annethvert år.</riktig>
+        <feil>Det er valg annethvert år. Stortingsvalg og lokalvalg bytter på.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-64" emne="Valg og politiske partier">
+      <tekst>Det var stortingsvalg i 2025. Når er det neste?</tekst>
+      <svar riktig="true">I 2029</svar>
+      <svar>I 2027</svar>
+      <svar>I 2028</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Stortingsvalg er hvert fjerde år, så neste valg er i 2029.</riktig>
+        <feil>Stortinget blir valgt for fire år. Regn fire år fram fra 2025.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-65" emne="Valg og politiske partier">
+      <tekst>Hva skriver et parti i partiprogrammet sitt?</tekst>
+      <svar riktig="true">Hvilke saker partiet vil jobbe for</svar>
+      <svar>Hvor mange medlemmer partiet har</svar>
+      <svar>Hvem medlemmene stemte på sist</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Programmet viser hvilke saker partiet vil jobbe med de neste fire årene.</riktig>
+        <feil>Partiprogrammet er en plan for politikken i valgperioden.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-66" emne="Valg og politiske partier">
+      <tekst>Hvor vedtar partiene programmet sitt?</tekst>
+      <svar riktig="true">På landsmøtet</svar>
+      <svar>På Stortinget</svar>
+      <svar>I statsråd</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Partiene vedtar programmet sitt på landsmøtet.</riktig>
+        <feil>Landsmøtet er det øverste møtet i et parti. Der vedtar medlemmene politikken.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-67" emne="Valg og politiske partier">
+      <tekst>Hvem kan stille til valg til Stortinget?</tekst>
+      <svar riktig="true">Personer som har stemmerett ved stortingsvalg</svar>
+      <svar>Personer som har bodd i Norge i tre år</svar>
+      <svar>Personer som er medlem i et stort parti</svar>
+      <tilbakemelding>
+        <riktig>Riktig. De som har stemmerett ved stortingsvalg, kan bli valgt til Stortinget.</riktig>
+        <feil>For å bli valgt til Stortinget må du ha stemmerett, altså være norsk statsborger og minst 18 år i valgåret.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-68" emne="Valg og politiske partier">
+      <tekst>Hvordan kan vi grovt plassere de største partiene i Norge?</tekst>
+      <svar riktig="true">Fra sosialistisk til borgerlig</svar>
+      <svar>Fra religiøs til ikke-religiøs</svar>
+      <svar>Fra nord til sør i landet</svar>
+      <tilbakemelding>
+        <riktig>Riktig. De største partiene kan grovt plasseres fra sosialistisk til borgerlig.</riktig>
+        <feil>Partiene kan plasseres på en politisk skala, fra venstre til høyre.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-69" emne="Valg og politiske partier">
+      <tekst>Ola og Kari er gift. Må de stemme på samme parti?</tekst>
+      <svar riktig="true">Nei, hver person velger selv</svar>
+      <svar>Ja, familien bør stemme likt</svar>
+      <svar>Ja, det står i valgloven</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Valget er hemmelig, og alle bestemmer selv hvilket parti de stemmer på.</riktig>
+        <feil>Det er vanlig at folk i samme familie stemmer på ulike partier.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-70" emne="Valg og politiske partier">
+      <tekst>I hvilken måned er det stortingsvalg i Norge?</tekst>
+      <svar riktig="true">September</svar>
+      <svar>Mai</svar>
+      <svar>Desember</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Stortingsvalget holdes på en mandag i september, hvert fjerde år.</riktig>
+        <feil>Valget er om høsten, like etter sommerferien.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-71" emne="Valg og politiske partier">
+      <tekst>Lina blir 18 år i desember. Kan hun stemme ved valget i september?</tekst>
+      <svar riktig="true">Ja, hun blir 18 i valgåret</svar>
+      <svar>Nei, hun må være 18 på valgdagen</svar>
+      <svar>Nei, hun må vente til hun er 20</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Du har stemmerett hvis du fyller 18 år senest i løpet av valgåret.</riktig>
+        <feil>Det holder at du blir 18 år i løpet av det året valget er.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-72" emne="Valg og politiske partier">
+      <tekst>Kan du endre rekkefølgen på kandidatene ved stortingsvalg?</tekst>
+      <svar riktig="true">Nei, listene kan ikke endres</svar>
+      <svar>Ja, du kan stryke kandidater</svar>
+      <svar>Ja, du kan skrive inn nye navn</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Ved stortingsvalg er listene lukket. Kandidatene blir valgt i den rekkefølgen partiet har satt.</riktig>
+        <feil>Etter valgloven som gjelder fra 2024, kan du ikke endre stemmeseddelen ved stortingsvalg.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-73" emne="Valg og politiske partier">
+      <tekst>Hva er en personstemme ved kommunestyrevalg?</tekst>
+      <svar riktig="true">Et kryss ved navnet til en kandidat</svar>
+      <svar>En stemme du gir fra utlandet</svar>
+      <svar>En stemme du gir uten legitimasjon</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Du kan gi personstemme med et kryss ved kandidater du vil støtte.</riktig>
+        <feil>Personstemmer gir du til personer på stemmeseddelen ved kommunestyrevalg og fylkestingsvalg.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-74" emne="Valg og politiske partier">
+      <tekst>Ved kommunestyrevalg kan du gi «slengere». Hva betyr det?</tekst>
+      <svar riktig="true">Skrive inn kandidater fra andre lister</svar>
+      <svar>Levere stemmen etter at valget er over</svar>
+      <svar>Stemme på to partier samtidig</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Ved kommunestyrevalg kan du skrive inn navn fra andre partiers lister.</riktig>
+        <feil>En slenger er en personstemme til en kandidat som står på en annen liste.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-75" emne="Valg og politiske partier">
+      <tekst>Hva er sperregrensen ved stortingsvalg?</tekst>
+      <svar riktig="true">Fire prosent av stemmene i hele landet</svar>
+      <svar>Ti prosent av stemmene i hvert fylke</svar>
+      <svar>Én prosent av stemmene i Oslo</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Et parti må få minst fire prosent i hele landet for å få utjevningsmandater.</riktig>
+        <feil>Sperregrensen gjelder utjevningsmandatene. Den regnes ut fra stemmene i hele landet.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-76" emne="Valg og politiske partier">
+      <tekst>Hva er et utjevningsmandat på Stortinget?</tekst>
+      <svar riktig="true">Et sete som gjør fordelingen mer rettferdig</svar>
+      <svar>Et sete som kongen gir til et lite parti</svar>
+      <svar>Et sete til den med flest personstemmer</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Utjevningsmandater gjør at antall seter passer bedre med stemmene i hele landet.</riktig>
+        <feil>Hvert valgdistrikt har ett utjevningsmandat. Det gjør fordelingen av setene rettere.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-77" emne="Valg og politiske partier">
+      <tekst>Hva kalles det når flere partier styrer sammen i regjering?</tekst>
+      <svar riktig="true">En koalisjonsregjering</svar>
+      <svar>En ettpartiregjering</svar>
+      <svar>Et opposisjonsparti</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Når flere partier sitter sammen i regjering, kalles det en koalisjonsregjering.</riktig>
+        <feil>Koalisjon betyr samarbeid mellom flere partier.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-78" emne="Valg og politiske partier">
+      <tekst>Hva er en mindretallsregjering?</tekst>
+      <svar riktig="true">Regjeringen har ikke flertall på Stortinget</svar>
+      <svar>Regjeringen har færre enn ti statsråder</svar>
+      <svar>Regjeringen styrer i mindre enn fire år</svar>
+      <tilbakemelding>
+        <riktig>Riktig. En mindretallsregjering har ikke flertall og må få støtte fra andre partier.</riktig>
+        <feil>Mindretall betyr at man er færre enn halvparten på Stortinget.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-79" emne="Valg og politiske partier">
+      <tekst>Hva kalles partiene på Stortinget som er utenfor regjeringen?</tekst>
+      <svar riktig="true">Opposisjonen</svar>
+      <svar>Koalisjonen</svar>
+      <svar>Departementet</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Opposisjonen er partiene som ikke sitter i regjering.</riktig>
+        <feil>Disse partiene følger med på regjeringen og foreslår annen politikk.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="demokrati-80" emne="Valg og politiske partier">
+      <tekst>Hvem bestemmer hvilke kandidater som står på partiets liste?</tekst>
+      <svar riktig="true">Partiet selv, på et nominasjonsmøte</svar>
+      <svar>Valgdirektoratet etter en søknad</svar>
+      <svar>Kommunen der kandidaten bor</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Partiene velger selv kandidatene sine på nominasjonsmøter.</riktig>
+        <feil>Hvert parti lager sin egen liste. Medlemmene er med og bestemmer.</feil>
+      </tilbakemelding>
+    </sporsmal>
+  </kategori>
+  <kategori hovedkategori="Norge før og nå" navn="Bærekraft" antall="80">
+    <sporsmal id="baerekraft-01" emne="Bærekraftig utvikling">
+      <tekst>Hva betyr bærekraftig utvikling?</tekst>
+      <svar riktig="true">Vi dekker behovene våre uten å ødelegge for dem som kommer etter oss</svar>
+      <svar>Vi bruker naturen så mye vi vil, så lenge vi har råd til det</svar>
+      <svar>Vi lager flest mulig nye varer, slik at økonomien vokser veldig raskt</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Bærekraftig utvikling betyr at vi får dekket behovene våre i dag, uten å ødelegge mulighetene for generasjonene som kommer etter oss.</riktig>
+        <feil>Tenk på barna og barnebarna våre. De skal også ha en god jord å leve på.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-02" emne="Bærekraftig utvikling">
+      <tekst>Når ble begrepet bærekraftig utvikling kjent over hele verden?</tekst>
+      <svar riktig="true">På slutten av 1980-årene</svar>
+      <svar>På begynnelsen av 1950-årene</svar>
+      <svar>På slutten av 2010-årene</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Begrepet ble kjent i hele verden på slutten av 1980-årene, gjennom en rapport fra FN.</riktig>
+        <feil>Begrepet kom med en stor FN-rapport. Den kom ut mot slutten av 1900-tallet, ikke etter år 2000.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-03" emne="Bærekraftig utvikling">
+      <tekst>Hvem ledet FNs kommisjon for miljø og utvikling i 1980-årene?</tekst>
+      <svar riktig="true">Gro Harlem Brundtland</svar>
+      <svar>Thorvald Stoltenberg</svar>
+      <svar>Dag Hammarskjöld</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Kommisjonen ble ledet av den tidligere norske statsministeren Gro Harlem Brundtland. Derfor kalles den ofte Brundtlandkommisjonen.</riktig>
+        <feil>Kommisjonen er oppkalt etter lederen sin, som var en tidligere norsk statsminister.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-04" emne="Bærekraftig utvikling">
+      <tekst>Hvilket år la Brundtlandkommisjonen fram rapporten sin?</tekst>
+      <svar riktig="true">1987</svar>
+      <svar>1945</svar>
+      <svar>2015</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Brundtlandkommisjonen ble startet av FN i 1983 og la fram rapporten sin i 1987.</riktig>
+        <feil>Kommisjonen ble startet i 1983 og brukte noen år på arbeidet. Rapporten kom i samme tiår.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-05" emne="Bærekraftig utvikling">
+      <tekst>Hva er FNs bærekraftsmål?</tekst>
+      <svar riktig="true">En felles plan for hele verden</svar>
+      <svar>En norsk lov om natur og miljø</svar>
+      <svar>En avtale om handel i Europa</svar>
+      <tilbakemelding>
+        <riktig>Riktig. FNs bærekraftsmål er en felles plan for hele verden. Målet er å utrydde fattigdom, bekjempe ulikhet og stoppe klimaendringene.</riktig>
+        <feil>Bærekraftsmålene gjelder ikke bare ett land eller én del av verden. De gjelder alle land.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-06" emne="Bærekraftig utvikling">
+      <tekst>Hvor mange bærekraftsmål har FN?</tekst>
+      <svar riktig="true">17</svar>
+      <svar>8</svar>
+      <svar>30</svar>
+      <tilbakemelding>
+        <riktig>Riktig. FN har 17 bærekraftsmål. Til sammen har de 169 delmål.</riktig>
+        <feil>Antallet er mellom 10 og 20. Hvert mål har også flere delmål.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-07" emne="Bærekraftig utvikling">
+      <tekst>Hvilket år ble FNs bærekraftsmål vedtatt?</tekst>
+      <svar riktig="true">2015</svar>
+      <svar>1987</svar>
+      <svar>2001</svar>
+      <tilbakemelding>
+        <riktig>Riktig. FNs medlemsland vedtok bærekraftsmålene i 2015.</riktig>
+        <feil>Målene er ganske nye. De ble vedtatt mange år etter Brundtland-rapporten.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-08" emne="Bærekraftig utvikling">
+      <tekst>Innen hvilket år skal FNs bærekraftsmål være nådd?</tekst>
+      <svar riktig="true">2030</svar>
+      <svar>2050</svar>
+      <svar>2100</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Planen er at bærekraftsmålene skal være nådd innen 2030.</riktig>
+        <feil>Målene skal nås i løpet av omtrent 15 år etter at de ble vedtatt i 2015.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-09" emne="Bærekraftig utvikling">
+      <tekst>Hvilke tre deler handler bærekraft om, ifølge FN?</tekst>
+      <svar riktig="true">Miljø, økonomi og sosiale forhold</svar>
+      <svar>Skole, helse og familieliv i landet</svar>
+      <svar>Språk, kultur og religion</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Bærekraft handler om tre ting som henger sammen: klima og miljø, økonomi og sosiale forhold.</riktig>
+        <feil>Bærekraft handler om naturen, om penger og arbeid, og om hvordan menneskene har det.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-10" emne="Bærekraftig utvikling">
+      <tekst>Hva handler det første av FNs bærekraftsmål om?</tekst>
+      <svar riktig="true">Å utrydde fattigdom</svar>
+      <svar>Å bygge flere byer</svar>
+      <svar>Å øke handelen</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Mål nummer 1 er å utrydde fattigdom i hele verden.</riktig>
+        <feil>Det første målet handler om folk som har for lite penger til mat, bolig og klær.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-11" emne="Bærekraftig utvikling">
+      <tekst>Hvilket av disse er ett av FNs bærekraftsmål?</tekst>
+      <svar riktig="true">Likestilling mellom kjønnene</svar>
+      <svar>Flere bilveier i hvert eneste land</svar>
+      <svar>Mer kjøtt i hvert måltid</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Likestilling mellom kjønnene er bærekraftsmål nummer 5.</riktig>
+        <feil>Bærekraftsmålene handler om å gjøre livet bedre for mennesker og natur, ikke om å bruke mer.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-12" emne="Bærekraftig utvikling">
+      <tekst>Hvem skal jobbe for å nå FNs bærekraftsmål?</tekst>
+      <svar riktig="true">Stater, bedrifter og vanlige folk</svar>
+      <svar>FN og de rikeste landene i verden</svar>
+      <svar>Store firmaer som tjener mye</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Bærekraftsmålene gjelder alle land, og både stater, næringsliv og vanlige mennesker skal bidra.</riktig>
+        <feil>Målene er en felles plan. Alle har en rolle, både land, bedrifter og hver enkelt av oss.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-13" emne="Bærekraftig utvikling">
+      <tekst>Hva er klima?</tekst>
+      <svar riktig="true">Gjennomsnittet av været over lang tid</svar>
+      <svar>Været du ser ut av vinduet i dag</svar>
+      <svar>Hvor mye det regner i løpet av en uke</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Klima er gjennomsnittet av været målt over lang tid. Været er det vi opplever hver dag.</riktig>
+        <feil>Vær og klima er ikke det samme. Det ene er det du ser ute i dag, det andre måles over mange år.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-14" emne="Bærekraftig utvikling">
+      <tekst>Hva mener de fleste forskere er årsaken til de raske klimaendringene?</tekst>
+      <svar riktig="true">Menneskenes utslipp av klimagasser</svar>
+      <svar>Naturlige endringer i sola og havet</svar>
+      <svar>Vulkaner som får utbrudd</svar>
+      <tilbakemelding>
+        <riktig>Riktig. De fleste klimaforskere mener at menneskenes utslipp av karbongasser er årsaken til de store og raske endringene.</riktig>
+        <feil>Forskerne mener at det er noe vi mennesker gjør som er hovedårsaken.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-15" emne="Bærekraftig utvikling">
+      <tekst>Hva skjer med havet på grunn av klimaendringene?</tekst>
+      <svar riktig="true">Det stiger og blir surere</svar>
+      <svar>Det synker og blir saltere</svar>
+      <svar>Det blir kaldere og renere</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Når kloden blir varmere, stiger havet og blir surere. Isen smelter også.</riktig>
+        <feil>Når isen smelter, blir det mer vann i havet. Havet tar også opp mye CO₂.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-16" emne="Bærekraftig utvikling">
+      <tekst>Hva betyr ekstremvær?</tekst>
+      <svar riktig="true">Svært kraftig vær, som storm, flom eller tørke</svar>
+      <svar>Vanlig vær som kommer tilbake hver høst</svar>
+      <svar>Vær som er helt likt over hele landet</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Ekstremvær er svært kraftig vær, for eksempel storm, flom, tørke eller ekstrem hete. Det blir mer av det med klimaendringene.</riktig>
+        <feil>«Ekstrem» betyr veldig mye eller veldig sterk. Tenk på vær som kan gjøre stor skade.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-17" emne="Bærekraftig utvikling">
+      <tekst>Hva er en klimagass?</tekst>
+      <svar riktig="true">En gass som holder på varmen rundt jorda</svar>
+      <svar>En gass som gjør lufta kaldere</svar>
+      <svar>En gass som beskytter jorda mot sterk sol</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Klimagasser, for eksempel CO₂, holder på varmen rundt jorda. Mer klimagasser gjør jorda varmere.</riktig>
+        <feil>Klimagasser er knyttet til at temperaturen på jorda stiger.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-18" emne="Bærekraftig utvikling">
+      <tekst>Hvilken klimagass slipper mennesker ut mest av?</tekst>
+      <svar riktig="true">Karbondioksid (CO₂)</svar>
+      <svar>Oksygen (O₂)</svar>
+      <svar>Nitrogen (N₂)</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Karbondioksid (CO₂) er den klimagassen mennesker slipper ut mest av, blant annet fra olje, gass og kull.</riktig>
+        <feil>Denne gassen kommer når vi brenner olje, gass, kull og ved.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-19" emne="Bærekraftig utvikling">
+      <tekst>Hva er en fornybar ressurs?</tekst>
+      <svar riktig="true">En naturressurs som fornyer seg selv</svar>
+      <svar>En naturressurs som tar slutt</svar>
+      <svar>En ressurs som er laget på en fabrikk</svar>
+      <tilbakemelding>
+        <riktig>Riktig. En fornybar ressurs fornyer seg selv. Hvis vi bruker den riktig, blir den ikke brukt opp.</riktig>
+        <feil>«Fornybar» betyr at noe kan komme tilbake igjen og igjen, som vind og regn.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-20" emne="Bærekraftig utvikling">
+      <tekst>Hvilken energikilde er fornybar?</tekst>
+      <svar riktig="true">Vind</svar>
+      <svar>Olje</svar>
+      <svar>Kull</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Vind er en fornybar ressurs. Den tar ikke slutt selv om vi bruker den.</riktig>
+        <feil>Olje og kull har blitt laget i bakken over millioner av år. Når de er brukt, er de borte.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-21" emne="Bærekraftig utvikling">
+      <tekst>Hvilken av disse ressursene kan bli brukt opp for alltid?</tekst>
+      <svar riktig="true">Naturgass</svar>
+      <svar>Solstråler</svar>
+      <svar>Regnvann</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Naturgass er ikke fornybar. Når den er brukt, er den borte, akkurat som olje og kull.</riktig>
+        <feil>Sol og regn kommer tilbake hele tiden. Tenk på hva vi henter opp fra bakken under havet.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-22" emne="Bærekraftig utvikling">
+      <tekst>Hva kan skje hvis vi bruker en fornybar ressurs for raskt?</tekst>
+      <svar riktig="true">Naturen rekker ikke å fornye den</svar>
+      <svar>Ressursen blir større og sterkere</svar>
+      <svar>Ressursen blir billigere å kjøpe</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Hvis vi bruker en fornybar ressurs raskere enn naturen klarer å fornye den, kan den likevel bli borte.</riktig>
+        <feil>Tenk på fisk eller skog. Naturen trenger tid for å lage nytt.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-23" emne="Bærekraftig utvikling">
+      <tekst>Hva er kortreist mat?</tekst>
+      <svar riktig="true">Mat som er produsert nær der du bor</svar>
+      <svar>Mat som det går raskt å lage</svar>
+      <svar>Mat som er laget i et land langt borte</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Kortreist mat er produsert i nærheten av forbrukeren, altså der du bor.</riktig>
+        <feil>«Kortreist» betyr at maten ikke har reist langt for å komme til deg.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-24" emne="Bærekraftig utvikling">
+      <tekst>Hvorfor er kortreist mat bra for klimaet?</tekst>
+      <svar riktig="true">Det trengs mindre transport</svar>
+      <svar>Maten varer lenger i kjøleskapet</svar>
+      <svar>Maten blir laget uten strøm</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Når maten er produsert lokalt, trengs det mindre transport. Da blir det mindre klimagassutslipp.</riktig>
+        <feil>Tenk på hvor langt maten må fraktes med bil, båt eller fly.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-25" emne="Bærekraftig utvikling">
+      <tekst>Hva er lettere å kontrollere når maten produseres lokalt?</tekst>
+      <svar riktig="true">Sprøytemidler og hvordan dyrene har det</svar>
+      <svar>Prisen på den samme maten i andre land</svar>
+      <svar>Hvor mye mat hver familie spiser</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Med lokal mat er det lettere å kontrollere sprøytemidler, bruk av antibiotika og dyrenes levekår.</riktig>
+        <feil>Når maten blir laget i nærheten, er det lettere å se hvordan den blir laget.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-26" emne="Bærekraftig utvikling">
+      <tekst>Hva betyr det at et land er selvforsynt med mat?</tekst>
+      <svar riktig="true">Landet produserer nok mat selv</svar>
+      <svar>Landet kjøper mat fra andre land</svar>
+      <svar>Landet gir mat til andre gratis</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Et land som er selvforsynt, produserer nok mat selv og trenger ikke å kjøpe mat fra andre land.</riktig>
+        <feil>«Selv» og «forsyne» betyr at landet klarer seg med det det lager selv.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-27" emne="Bærekraftig utvikling">
+      <tekst>Samir vil leve mer bærekraftig. Hva kan han gjøre?</tekst>
+      <svar riktig="true">Sykle eller ta bussen til jobben</svar>
+      <svar>Kjøre bil også på de korte turene</svar>
+      <svar>Kjøpe en ny mobil hvert år</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Å sykle, gå eller reise kollektivt gir mindre utslipp enn å kjøre bil.</riktig>
+        <feil>Tenk på hva som gir minst forurensning og bruker minst ressurser.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-28" emne="Bærekraftig utvikling">
+      <tekst>Hva er målet med Parisavtalen fra 2015?</tekst>
+      <svar riktig="true">Å begrense oppvarmingen av jorda</svar>
+      <svar>Å stoppe krigene i Europa</svar>
+      <svar>Å gjøre handel mellom land enklere</svar>
+      <tilbakemelding>
+        <riktig>Riktig. I Parisavtalen fra 2015 ble landene i verden enige om å begrense den globale oppvarmingen.</riktig>
+        <feil>Parisavtalen er en klimaavtale mellom nesten alle land i verden.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-29" emne="Natur og naturressurser">
+      <tekst>Hva er det viktigste grunnlaget for at Norge har blitt rikt?</tekst>
+      <svar riktig="true">Naturressursene og måten vi bruker dem på</svar>
+      <svar>Store gruver med gull og diamanter i fjellene</svar>
+      <svar>Mange store bilfabrikker rundt om i landet</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Norge har blitt rikt fordi landet har mange naturressurser, og fordi folk har lært å bruke dem godt.</riktig>
+        <feil>Rikdommen i Norge kommer fra naturen, for eksempel fra havet, skogen og fossene.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-30" emne="Natur og naturressurser">
+      <tekst>Hvilke naturressurser er de viktigste i Norge?</tekst>
+      <svar riktig="true">Fisk, skog og olje</svar>
+      <svar>Gull, kull og diamanter</svar>
+      <svar>Ris, kaffe og bomull</svar>
+      <tilbakemelding>
+        <riktig>Riktig. De viktigste naturressursene i Norge er fisk, skog og olje. I tillegg har vi mye vann som gir strøm.</riktig>
+        <feil>Tenk på havet, de store skogene og det som blir hentet opp i Nordsjøen.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-31" emne="Natur og naturressurser">
+      <tekst>Hvor kommer det meste av strømmen i Norge fra?</tekst>
+      <svar riktig="true">Vannkraft</svar>
+      <svar>Solkraft</svar>
+      <svar>Gasskraft</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Det meste av strømmen i Norge kommer fra vannkraft, altså vann i elver og fosser.</riktig>
+        <feil>Norge har mange fosser og elver. Vannet blir brukt til å lage strøm.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-32" emne="Natur og naturressurser">
+      <tekst>Hvilken energikilde har Norge begynt å bruke mer de senere årene?</tekst>
+      <svar riktig="true">Vindkraft</svar>
+      <svar>Kullkraft</svar>
+      <svar>Atomkraft</svar>
+      <tilbakemelding>
+        <riktig>Riktig. De senere årene har Norge også begynt å lage strøm med vindmøller.</riktig>
+        <feil>Denne energikilden er fornybar. Den bruker luft som beveger seg.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-33" emne="Natur og naturressurser">
+      <tekst>Hvorfor kan Norge produsere mye aluminium?</tekst>
+      <svar riktig="true">Vi har mye strøm fra vannkraft</svar>
+      <svar>Vi har mye aluminium i fjellene</svar>
+      <svar>Vi har mange billige arbeidere</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Det trengs mye strøm for å lage aluminium. Vannkraften gjør det mulig å produsere mye metall i Norge.</riktig>
+        <feil>Å lage metall krever mye energi. Tenk på hva Norge har mye av.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-34" emne="Natur og naturressurser">
+      <tekst>Hva brukes tømmer fra norske skoger blant annet til?</tekst>
+      <svar riktig="true">Papir og materialer til hus</svar>
+      <svar>Plastposer og glass til flasker</svar>
+      <svar>Medisiner og vitaminer</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Tømmer blir blant annet brukt til papir og bygningsmaterialer. Noe blir også eksportert.</riktig>
+        <feil>Tømmer er tre fra skogen. Tenk på hva vi kan lage av tre.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-35" emne="Natur og naturressurser">
+      <tekst>Hva er havbruk eller oppdrett?</tekst>
+      <svar riktig="true">Å ale opp fisk, som laks, i merder i sjøen</svar>
+      <svar>Å fiske med store båter langt ute i havet</svar>
+      <svar>Å bygge hus og hytter langs kysten</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Havbruk eller oppdrett betyr at fisk, særlig laks, vokser opp i store merder i sjøen.</riktig>
+        <feil>Oppdrett er ikke vanlig fiske. Fisken blir født og vokser opp i anlegg.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-36" emne="Natur og naturressurser">
+      <tekst>Hvorfor bestemmer myndighetene hvor mye fisk som kan fiskes?</tekst>
+      <svar riktig="true">Så det blir nok fisk også i fremtiden</svar>
+      <svar>Så fisken blir dyrere i butikkene</svar>
+      <svar>Så turister kan fiske mer om sommeren</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Myndighetene bestemmer kvoter, altså hvor mye fisk som kan fiskes. Da blir ikke fisken i havet brukt opp.</riktig>
+        <feil>Fisk er en fornybar ressurs, men bare hvis vi ikke fisker for mye.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-37" emne="Natur og naturressurser">
+      <tekst>Hva er Statens pensjonsfond utland, ofte kalt «oljefondet»?</tekst>
+      <svar riktig="true">Et fond der staten sparer inntektene fra olje og gass</svar>
+      <svar>Et fond som betaler lønn til folk som jobber med olje</svar>
+      <svar>Et fond som eies av de store oljeselskapene</svar>
+      <tilbakemelding>
+        <riktig>Riktig. I Statens pensjonsfond utland sparer staten inntektene fra olje og gass. Fondet eies av staten.</riktig>
+        <feil>Navnet sier at det er statens fond. Pengene kommer fra olje- og gassvirksomheten.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-38" emne="Natur og naturressurser">
+      <tekst>Hva sier handlingsregelen om bruken av oljefondet?</tekst>
+      <svar riktig="true">Staten skal over tid bruke omtrent 3 prosent av fondet</svar>
+      <svar>Staten skal bruke halvparten av fondet hvert år</svar>
+      <svar>Staten skal bruke omtrent 30 prosent av fondet hvert år</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Handlingsregelen sier at staten over tid skal bruke omtrent den forventede avkastningen av fondet, som i dag er anslått til 3 prosent.</riktig>
+        <feil>Staten bruker bare en liten del av fondet hvert år, slik at fondet varer.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-39" emne="Natur og naturressurser">
+      <tekst>Hvorfor sparer Norge oljepengene i et fond?</tekst>
+      <svar riktig="true">Så også fremtidige generasjoner får glede av dem</svar>
+      <svar>Så oljeselskapene kan betale mindre skatt</svar>
+      <svar>Så Norge kan kjøpe mer olje fra andre land</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Olje og gass tar slutt en gang. Ved å spare pengene i et fond kan også de som kommer etter oss, få glede av dem.</riktig>
+        <feil>Olje er ikke fornybar. Tenk på bærekraft og generasjonene som kommer etter oss.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-40" emne="Natur og naturressurser">
+      <tekst>Hva kommer mange turister til Norge for å se?</tekst>
+      <svar riktig="true">Fjordene og midnattssola</svar>
+      <svar>Ørkenen og palmestrendene</svar>
+      <svar>Vulkanene og regnskogen</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Naturen er også en ressurs. Turister kommer fra hele verden for å se fjordene og midnattssola.</riktig>
+        <feil>Tenk på hva som er spesielt med naturen i Norge, særlig langs kysten og i nord.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-41" emne="Natur og naturressurser">
+      <tekst>Hva betyr allemannsretten?</tekst>
+      <svar riktig="true">Alle kan ferdes fritt i naturen</svar>
+      <svar>Alle kan bygge hytte der de vil</svar>
+      <svar>Alle kan hogge trær i skogen</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Allemannsretten betyr at alle kan ferdes fritt i naturen, for eksempel gå på tur, gå på ski og telte i utmark.</riktig>
+        <feil>Allemannsretten gir rett til å ferdes i naturen, ikke til å eie eller ta fra naturen.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-42" emne="Natur og naturressurser">
+      <tekst>Hva er utmark?</tekst>
+      <svar riktig="true">Strand, myr, skog og fjell</svar>
+      <svar>Hage, åker og gårdsplass</svar>
+      <svar>Parker og plasser inne i byen</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Utmark er udyrket mark, som strand, myr, skog og fjell. Der kan du ferdes fritt.</riktig>
+        <feil>Utmark er natur der ingen dyrker jorda eller bor. Hager og åkre er innmark.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-43" emne="Natur og naturressurser">
+      <tekst>Kan du gå over en åker med korn om sommeren?</tekst>
+      <svar riktig="true">Nei, åkeren er innmark</svar>
+      <svar>Ja, hvis du går forsiktig</svar>
+      <svar>Ja, hvis det er en kort tur</svar>
+      <tilbakemelding>
+        <riktig>Riktig. En åker er innmark. Der kan du ikke gå om sommeren uten lov fra eieren.</riktig>
+        <feil>Allemannsretten gjelder fritt i utmark. Dyrket mark, hager og gårdsplasser er innmark.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-44" emne="Natur og naturressurser">
+      <tekst>Hvor langt fra et hus eller en hytte må teltet ditt stå?</tekst>
+      <svar riktig="true">Minst 150 meter</svar>
+      <svar>Minst 15 meter</svar>
+      <svar>Minst 1500 meter</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Du kan ikke sette opp telt nærmere enn 150 meter fra et hus eller en hytte der folk bor.</riktig>
+        <feil>Folk som bor i huset eller hytta, skal få være i fred. Det må være god avstand.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-45" emne="Natur og naturressurser">
+      <tekst>Hvor lenge kan du vanligvis telte på samme sted uten å spørre grunneieren?</tekst>
+      <svar riktig="true">To døgn</svar>
+      <svar>To uker</svar>
+      <svar>To måneder</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Du kan telte på samme sted i to døgn. Vil du være lenger, må du som regel spørre grunneieren. På høyfjellet langt fra hus kan du være lenger.</riktig>
+        <feil>Det er en kort periode. Grunneieren skal ikke få noen på eiendommen lenge uten å bli spurt.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-46" emne="Natur og naturressurser">
+      <tekst>Leila vil lage bål i skogen i juli. Hva må hun vite?</tekst>
+      <svar riktig="true">Det er forbudt å tenne bål i skogen da</svar>
+      <svar>Hun må få lov av politiet først</svar>
+      <svar>Bål er lov hvis det er lite</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Fra 15. april til 15. september er det forbudt å tenne bål i eller nær skog. Det gjelder også grill, så sjekk reglene i kommunen.</riktig>
+        <feil>Om sommeren er det ofte tørt i skogen, og det kan lett bli skogbrann. Da gjelder et forbud.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-47" emne="Natur og naturressurser">
+      <tekst>Når er det forbudt å tenne bål i skog og utmark?</tekst>
+      <svar riktig="true">Fra 15. april til 15. september</svar>
+      <svar>Fra 1. juni til 1. august</svar>
+      <svar>Fra 15. oktober til 15. desember</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Bålforbudet gjelder fra 15. april til 15. september, fordi det da er stor fare for skogbrann.</riktig>
+        <feil>Forbudet varer i omtrent fem måneder, fra midt i april til midt i september.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-48" emne="Natur og naturressurser">
+      <tekst>Hvilke plikter har du når du bruker allemannsretten?</tekst>
+      <svar riktig="true">Rydde etter deg og ikke skade natur og dyr</svar>
+      <svar>Betale en avgift til kommunen før turen</svar>
+      <svar>Melde fra til grunneieren hver gang</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Når du bruker allemannsretten, må du rydde etter deg, ikke skade dyr eller natur og være forsiktig med ild.</riktig>
+        <feil>Rettigheter gir også plikter. Tenk på hvordan naturen skal se ut når du går hjem.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-49" emne="Natur og naturressurser">
+      <tekst>Hva kan du plukke i skogen etter allemannsretten?</tekst>
+      <svar riktig="true">Bær, sopp og blomster</svar>
+      <svar>Ved fra levende trær</svar>
+      <svar>Egg fra fuglereir</svar>
+      <tilbakemelding>
+        <riktig>Riktig. De fleste steder kan du plukke bær, sopp og blomster i utmark.</riktig>
+        <feil>Du kan ta med deg det naturen gir hvert år, men du må ikke skade trær eller dyr.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-50" emne="Natur og naturressurser">
+      <tekst>Hva trenger voksne vanligvis for å fiske i elver og innsjøer?</tekst>
+      <svar riktig="true">Fiskekort</svar>
+      <svar>Båtførerbevis</svar>
+      <svar>Jegerprøve</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Voksne trenger som regel fiskekort for å fiske i elver og innsjøer. Barn under 16 år kan ofte fiske gratis.</riktig>
+        <feil>Det er grunneieren som har retten til fisken i elver og vann. Du kjøper en tillatelse.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-51" emne="Natur og naturressurser">
+      <tekst>Hvor kan du fiske med stang uten å ha fiskekort?</tekst>
+      <svar riktig="true">I sjøen, langs kysten</svar>
+      <svar>I elver med laks</svar>
+      <svar>I vann på fjellet</svar>
+      <tilbakemelding>
+        <riktig>Riktig. I sjøen kan du som hovedregel fiske med stang eller snøre uten fiskekort.</riktig>
+        <feil>Reglene er forskjellige for ferskvann og saltvann. Tenk på havet.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-52" emne="Natur og naturressurser">
+      <tekst>Hva må du ha for å gå på jakt i Norge?</tekst>
+      <svar riktig="true">Jegerprøve og lov fra grunneieren</svar>
+      <svar>Fiskekort og lov fra kommunen</svar>
+      <svar>Førerkort og lov fra politiet</svar>
+      <tilbakemelding>
+        <riktig>Riktig. For å jakte må du blant annet ha bestått jegerprøven og ha lov fra den som eier jakten, som regel grunneieren.</riktig>
+        <feil>Jakt er ikke en del av allemannsretten. Du må ha en egen prøve og lov fra eieren.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-53" emne="Natur og naturressurser">
+      <tekst>Når må hunder være i bånd i hele Norge?</tekst>
+      <svar riktig="true">Fra 1. april til 20. august</svar>
+      <svar>Fra 1. oktober til 1. mars</svar>
+      <svar>Fra 15. juni til 15. juli</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Fra 1. april til 20. august må hunder holdes i bånd i hele landet. Da får ville dyr og fugler fred mens de får unger.</riktig>
+        <feil>Båndtvangen gjelder om våren og sommeren, når dyrene får unger og sauene går ute.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-54" emne="Natur og naturressurser">
+      <tekst>Kan du kjøre snøscooter eller ATV hvor du vil i utmark?</tekst>
+      <svar riktig="true">Nei, du trenger som regel tillatelse</svar>
+      <svar>Ja, allemannsretten gjelder også her</svar>
+      <svar>Ja, hvis du kjører sakte og stille</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Det er som hovedregel forbudt å kjøre motorkjøretøy i utmark. Du trenger tillatelse.</riktig>
+        <feil>Allemannsretten gjelder ferdsel til fots, på ski og på sykkel. Motorer kan skade og forstyrre naturen.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-55" emne="Natur- og miljøvern">
+      <tekst>Hva handler natur- og miljøvern om?</tekst>
+      <svar riktig="true">Å ta vare på naturen og miljøet</svar>
+      <svar>Å bygge flere veier i naturen</svar>
+      <svar>Å selge mer tømmer fra de norske skogene</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Natur- og miljøvern handler om å ta vare på naturen og økosystemene, og om å reparere skader som mennesker har laget.</riktig>
+        <feil>«Vern» betyr å beskytte. Målet er at mennesker, dyr og planter skal ha et godt livsmiljø.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-56" emne="Natur- og miljøvern">
+      <tekst>Hva betyr gjenbruk?</tekst>
+      <svar riktig="true">Andre bruker ting du ikke trenger lenger</svar>
+      <svar>Gamle ting blir smeltet om til nye varer</svar>
+      <svar>Søppel blir brent for å lage varme</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Gjenbruk betyr at ting du ikke trenger lenger, blir brukt på nytt av andre.</riktig>
+        <feil>Når noe blir smeltet om eller tatt fra hverandre, er det gjenvinning. Gjenbruk er noe annet.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-57" emne="Natur- og miljøvern">
+      <tekst>Hva betyr gjenvinning?</tekst>
+      <svar riktig="true">Gamle ting blir til råvarer for nye produkter</svar>
+      <svar>Du gir de gamle klærne dine til en venn</svar>
+      <svar>Du kjøper en brukt sofa på nettet</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Gjenvinning betyr at ting blir tatt fra hverandre til råvarer, eller smeltet om til nye produkter.</riktig>
+        <feil>Når andre bruker tingen din slik den er, kalles det gjenbruk. Gjenvinning er noe annet.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-58" emne="Natur- og miljøvern">
+      <tekst>Amir kjøper en brukt jakke. Hvorfor er det bra for miljøet?</tekst>
+      <svar riktig="true">Det trengs ikke å lages en ny jakke</svar>
+      <svar>Brukte jakker er laget av plast</svar>
+      <svar>Butikken sorterer søppelet for ham</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Når du kjøper brukt, trengs det ikke å lages en ny jakke. Det sparer ressurser, og det er ofte billigere.</riktig>
+        <feil>Tenk på hva som trengs for å lage nye klær: råvarer, vann, energi og transport.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-59" emne="Natur- og miljøvern">
+      <tekst>Hva er kildesortering?</tekst>
+      <svar riktig="true">Å sortere søppelet i ulike typer</svar>
+      <svar>Å kaste alt søppelet i én stor pose</svar>
+      <svar>Å brenne søppelet i hagen</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Kildesortering betyr at du sorterer søppelet ditt, for eksempel matavfall, papir, plast og restavfall.</riktig>
+        <feil>Ordet «sortere» betyr å dele inn i grupper. Ulikt søppel skal i ulike dunker.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-60" emne="Natur- og miljøvern">
+      <tekst>Omtrent hvor mye søppel kaster hver innbygger i Norge i året?</tekst>
+      <svar riktig="true">Flere hundre kilo</svar>
+      <svar>Noen få kilo</svar>
+      <svar>Flere tusen kilo</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Hver innbygger i Norge kaster flere hundre kilo søppel i året.</riktig>
+        <feil>Det er mye mer enn det mange tror, men ikke så mye som et tonn.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-61" emne="Natur- og miljøvern">
+      <tekst>Hvor kan du levere en gammel sofa eller vaskemaskin?</tekst>
+      <svar riktig="true">På en gjenvinningsstasjon</svar>
+      <svar>I søppeldunken hjemme</svar>
+      <svar>På postkontoret</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Store ting som møbler, vaskemaskiner og malingsspann kan du levere på en gjenvinningsstasjon.</riktig>
+        <feil>Store ting får ikke plass i søppeldunken. Mange kommuner har egne steder for dette.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-62" emne="Natur- og miljøvern">
+      <tekst>Hva gjør du med tomme flasker og bokser med pantemerke?</tekst>
+      <svar riktig="true">Leverer dem i en panteautomat</svar>
+      <svar>Kaster dem i restavfallet hjemme</svar>
+      <svar>Legger dem i papirdunken</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Flasker og bokser med pantemerke kan du levere i en panteautomat. Da får du pengene tilbake.</riktig>
+        <feil>Når du kjøper drikke, betaler du litt ekstra. Du får pengene tilbake i butikken.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-63" emne="Natur- og miljøvern">
+      <tekst>Hvorfor har vi pant på flasker og bokser?</tekst>
+      <svar riktig="true">Så de blir levert tilbake og gjenvunnet</svar>
+      <svar>Så butikkene kan tjene mer penger</svar>
+      <svar>Så folk kjøper mindre drikke</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Med pant kommer nesten alle flaskene og boksene tilbake, og materialet kan brukes på nytt.</riktig>
+        <feil>Pant er en måte å få folk til å levere tomme flasker tilbake, slik at de kan gjenvinnes.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-64" emne="Natur- og miljøvern">
+      <tekst>Hvor leverer du gamle batterier og rester av maling?</tekst>
+      <svar riktig="true">Som farlig avfall, for eksempel på gjenvinningsstasjonen</svar>
+      <svar>I restavfallet hjemme, godt pakket inn i en pose</svar>
+      <svar>I containeren for glass og metall på returpunktet</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Batterier og maling er farlig avfall. Du kan levere dem på gjenvinningsstasjonen, og batterier også i butikker som selger dem.</riktig>
+        <feil>Noe søppel kan skade naturen og mennesker. Det skal ikke kastes sammen med vanlig søppel.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-65" emne="Natur- og miljøvern">
+      <tekst>Fatima har en ødelagt mobil. Hvor kan hun levere den gratis?</tekst>
+      <svar riktig="true">I en butikk som selger elektronikk</svar>
+      <svar>I dunken for matavfall hjemme</svar>
+      <svar>I containeren for glass</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Butikker som selger elektronikk, må ta imot gammel elektronikk av samme type gratis.</riktig>
+        <feil>Elektronikk skal ikke i vanlig søppel. Du kan levere den der slike varer blir solgt.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-66" emne="Natur- og miljøvern">
+      <tekst>Hva er matsvinn?</tekst>
+      <svar riktig="true">Mat som kunne vært spist, blir kastet</svar>
+      <svar>Folk spiser for lite mat hver dag</svar>
+      <svar>Maten blir dyrere i butikken</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Matsvinn er når mat som kunne vært spist, blir kastet eller brukt til noe annet enn menneskemat.</riktig>
+        <feil>«Svinn» betyr at noe går tapt. Tenk på mat som havner i søppelet.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-67" emne="Natur- og miljøvern">
+      <tekst>Omtrent hvor mye av all maten i verden blir kastet?</tekst>
+      <svar riktig="true">En tredjedel</svar>
+      <svar>En tidel</svar>
+      <svar>Tre fjerdedeler</svar>
+      <tilbakemelding>
+        <riktig>Riktig. I verden blir omtrent en tredjedel av all maten kastet. Det ville vært nok til å gi mat til alle som sulter.</riktig>
+        <feil>Det er mye mat som blir kastet, mer enn hver tiende matvare, men mindre enn halvparten.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-68" emne="Natur- og miljøvern">
+      <tekst>Hva betyr «best før» på en matvare?</tekst>
+      <svar riktig="true">Maten er ofte god også etter datoen</svar>
+      <svar>Maten må kastes dagen etter datoen</svar>
+      <svar>Maten er farlig å spise etter datoen</svar>
+      <tilbakemelding>
+        <riktig>Riktig. «Best før» betyr at kvaliteten er garantert til datoen. Maten er ofte god etterpå. Bruk sansene: se, lukt og smak. «Siste forbruksdag» er strengere.</riktig>
+        <feil>«Best før» handler om kvalitet, ikke om fare. Den strenge merkingen heter «siste forbruksdag».</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-69" emne="Natur- og miljøvern">
+      <tekst>Hvordan kan du kaste mindre mat?</tekst>
+      <svar riktig="true">Planlegge innkjøp og spise opp rester</svar>
+      <svar>Kjøpe de største pakkene hver gang</svar>
+      <svar>Kaste maten på best før-datoen</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Hvis du planlegger hva du skal kjøpe og spiser opp restene, kaster du mindre mat.</riktig>
+        <feil>Tenk på hvorfor mat havner i søppelet: vi kjøper for mye og glemmer restene.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-70" emne="Natur- og miljøvern">
+      <tekst>Hvor kommer de største utslippene av klimagasser i Norge fra?</tekst>
+      <svar riktig="true">Olje- og gassutvinning</svar>
+      <svar>Fly, båter og ferger</svar>
+      <svar>Jordbruk, skogbruk og fiske</svar>
+      <tilbakemelding>
+        <riktig>Riktig. De største utslippene i Norge kommer fra olje- og gassutvinning, industri og bergverk og veitrafikk.</riktig>
+        <feil>Tenk på den største næringen i Norge til havs.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-71" emne="Natur- og miljøvern">
+      <tekst>Hvordan har utslippene av klimagasser i Norge endret seg?</tekst>
+      <svar riktig="true">De har gått ned de siste årene</svar>
+      <svar>De har økt raskt de siste årene</svar>
+      <svar>De har vært helt like i mange år</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Utslippene av klimagasser i Norge har gått ned de siste årene, men ikke like mye hvert år.</riktig>
+        <feil>Utslippene har endret seg, men de har ikke økt de siste årene.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-72" emne="Natur- og miljøvern">
+      <tekst>Hva er en nullutslippsbil?</tekst>
+      <svar riktig="true">En bil som ikke slipper ut klimagasser</svar>
+      <svar>En bil som går på både diesel og strøm</svar>
+      <svar>En bil som det er gratis å kjøre</svar>
+      <tilbakemelding>
+        <riktig>Riktig. En nullutslippsbil, for eksempel en elbil, slipper ikke ut klimagasser når den kjører.</riktig>
+        <feil>«Null utslipp» betyr at ingenting kommer ut av eksosrøret. En bil med diesel slipper ut gass.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-73" emne="Natur- og miljøvern">
+      <tekst>Hva skjedde med bilene i Norge i 2024?</tekst>
+      <svar riktig="true">For første gang var det flere elbiler enn bensinbiler</svar>
+      <svar>Det ble forbudt for folk å kjøpe nye bensinbiler</svar>
+      <svar>Det ble flere dieselbiler enn elbiler på veiene</svar>
+      <tilbakemelding>
+        <riktig>Riktig. I 2024 var det for første gang flere elbiler enn bensinbiler registrert i Norge.</riktig>
+        <feil>Det har blitt veldig mange elbiler i Norge de siste årene.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-74" emne="Natur- og miljøvern">
+      <tekst>Hvordan vil myndighetene at flere skal reise i de store byene?</tekst>
+      <svar riktig="true">Med kollektivtransport, sykkel og gange</svar>
+      <svar>Med flere privatbiler og nye veier</svar>
+      <svar>Med drosjer og flere parkeringshus</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Målet er at flere reiser i de store byene skal skje med kollektivtransport, sykkel eller gange, slik at biltrafikken ikke øker.</riktig>
+        <feil>Målet er at biltrafikken i byene ikke skal øke, selv om det blir flere innbyggere.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-75" emne="Natur- og miljøvern">
+      <tekst>Hva er en nasjonalpark?</tekst>
+      <svar riktig="true">Et stort naturområde som er vernet</svar>
+      <svar>En stor park midt i hovedstaden</svar>
+      <svar>Et område der staten selger tomter</svar>
+      <tilbakemelding>
+        <riktig>Riktig. En nasjonalpark er et stort naturområde som er vernet, slik at naturen blir tatt vare på. Norge har mange nasjonalparker.</riktig>
+        <feil>Nasjonalparker ligger ute i naturen, ofte på fjellet. Naturen der er beskyttet.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-76" emne="Natur- og miljøvern">
+      <tekst>Hva kan du gjøre i en nasjonalpark?</tekst>
+      <svar riktig="true">Gå på tur og overnatte i telt</svar>
+      <svar>Bygge en hytte uten å spørre</svar>
+      <svar>Kjøre motorsykkel i terrenget</svar>
+      <tilbakemelding>
+        <riktig>Riktig. I nasjonalparker kan du gå på tur, fiske med fiskekort og overnatte i telt. Bygging og motorkjøring er som regel forbudt.</riktig>
+        <feil>Nasjonalparker er laget for at naturen skal få være i fred, men folk kan fortsatt bruke den til friluftsliv.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-77" emne="Natur- og miljøvern">
+      <tekst>Isbjørnen er fredet. Hva betyr det?</tekst>
+      <svar riktig="true">Det er forbudt å jakte på den</svar>
+      <svar>Den må leve i en dyrehage</svar>
+      <svar>Det er lov å jakte på den om vinteren</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Isbjørnen har vært fredet siden 1973. Det betyr at det er forbudt å jakte på den.</riktig>
+        <feil>«Fredet» betyr at dyret er beskyttet av loven.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-78" emne="Natur- og miljøvern">
+      <tekst>Hva er en viktig oppgave for Miljødirektoratet?</tekst>
+      <svar riktig="true">Passe på at miljølovene blir fulgt</svar>
+      <svar>Selge strøm til folk og til bedrifter</svar>
+      <svar>Tømme søppeldunkene i kommunene</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Miljødirektoratet er en statlig etat som jobber for å ta vare på naturen og passer på at miljølovene blir fulgt.</riktig>
+        <feil>Navnet sier det: dette er statens etat for miljø.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-79" emne="Natur- og miljøvern">
+      <tekst>Hva sier loven om å kaste søppel i naturen?</tekst>
+      <svar riktig="true">Det er forbudt å forsøple naturen</svar>
+      <svar>Det er lov hvis søppelet er lite</svar>
+      <svar>Det er lov i skogen, men ikke i byen</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Det er forbudt å kaste søppel i naturen. Det kalles forsøpling, og du kan få bot.</riktig>
+        <feil>Du må ta med deg søppelet ditt hjem eller kaste det i en søppeldunk. Det gjelder overalt.</feil>
+      </tilbakemelding>
+    </sporsmal>
+    <sporsmal id="baerekraft-80" emne="Natur- og miljøvern">
+      <tekst>Hvorfor er plast i havet et problem?</tekst>
+      <svar riktig="true">Dyr kan spise plasten og bli syke</svar>
+      <svar>Plasten gjør vannet i havet varmere</svar>
+      <svar>Plasten gjør at fisken vokser</svar>
+      <tilbakemelding>
+        <riktig>Riktig. Fisk, fugler og andre dyr kan spise plast og bli syke eller dø.</riktig>
+        <feil>Plast blir ikke borte i naturen. Tenk på dyrene som lever i havet.</feil>
+      </tilbakemelding>
+    </sporsmal>
+  </kategori>
 </sporsmalsbank>
