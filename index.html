@@ -21,11 +21,13 @@
           <path class="f1" d="M0 160v-22l120-26 130 22 140-18 160 24 130-14 120 18V160Z"/>
         </svg>
         <h1 id="startTitle" tabindex="-1">Øv til prøven i samfunnskunnskap</h1>
-        <p class="lead">Svar på spørsmål om livet i Norge: skole, arbeid og kritisk tenkning. Du får like mange spørsmål fra hvert tema.</p>
+        <p class="lead">Svar på spørsmål om livet i Norge. Velg en kategori eller øv på alle. Du får like mange spørsmål fra hvert tema.</p>
       </div>
       <div class="card setup-card">
         <label for="studentName">Navn <span>(valgfritt, vises bare på resultatet ditt)</span></label>
         <input id="studentName" type="text" autocomplete="name" placeholder="Skriv navnet ditt">
+        <div class="field-label" id="catLabel">Hva vil du øve på?</div>
+        <div class="cat-choices" id="categoryChoices" role="group" aria-labelledby="catLabel"></div>
         <div class="field-label" id="countLabel">Antall spørsmål</div>
         <div class="choice-grid" id="countChoices" role="group" aria-labelledby="countLabel">
           <button class="choice selected" data-count="20"><strong>20</strong><span>spørsmål</span></button>

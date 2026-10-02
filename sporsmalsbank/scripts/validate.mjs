@@ -19,7 +19,7 @@ const kids = (el, tag) => list(el.childNodes).filter(n => n.nodeName === tag);
 const text = el => (el ? el.textContent.trim() : "");
 
 const qs = list(doc.getElementsByTagName("question"));
-const ids = new Set(), stems = new Map(), cats = new Map();
+const ids = new Set(), stems = new Map(), cats = new Map(), topicsByCat = new Map(), mains = new Map();
 let aLongest = 0, ratioHits = 0;
 
 for (const q of qs) {
@@ -29,7 +29,12 @@ for (const q of qs) {
   ids.add(id);
   const cat = q.getAttribute("category");
   if (!cat) err(id, "mangler category");
+  if (!q.getAttribute("main")) err(id, "mangler main (hovedkategori)");
+  mains.set(cat, q.getAttribute("main"));
   cats.set(cat, (cats.get(cat) || 0) + 1);
+  const topic = q.getAttribute("topic") || "";
+  if (!topicsByCat.has(cat)) topicsByCat.set(cat, new Map());
+  topicsByCat.get(cat).set(topic, (topicsByCat.get(cat).get(topic) || 0) + 1);
 
   const stem = text(kids(q, "text")[0]);
   if (!stem) err(id, "tomt spørsmål");
@@ -67,12 +72,24 @@ for (const q of qs) {
 }
 
 for (const [c, n] of cats) if (n !== PER_CATEGORY) err(c, `har ${n} spørsmål (skal være ${PER_CATEGORY})`);
+for (const [c, t] of topicsByCat) {
+  if (t.size > 1 || !t.has("")) {
+    if (t.has("")) err(c, `${t.get("")} spørsmål mangler topic mens andre i kategorien har det`);
+    for (const [name, n] of t) if (name && n < 5) err(c, `emnet «${name}» har bare ${n} spørsmål (minst 5)`);
+  }
+}
+for (const [c, m] of mains) {
+  const inMain = [...mains].filter(([, x]) => x === m).map(([k]) => k);
+  if (inMain.length < 1) err(c, "hovedkategori uten underkategorier");
+}
 if (qs.length === 0) err("fil", "ingen spørsmål funnet");
 const share = qs.length ? Math.round((aLongest / qs.length) * 100) : 0;
 if (share > 40) warn("bank", `riktig svar er lengst i ${share} % av spørsmålene (mål: nær 33 %)`);
 
 console.log(`Fil: ${path.relative(root, file)}`);
 console.log(`Spørsmål: ${qs.length} | temaer: ${[...cats].map(([c, n]) => `${c} (${n})`).join(", ")}`);
+for (const [c, t] of topicsByCat) if (t.size > 1 || !t.has("")) console.log(`Emner i ${c}: ${[...t].map(([n, k]) => `${n} (${k})`).join(", ")}`);
+for (const m of new Set(mains.values())) console.log(`Hovedkategori ${m}: ${[...mains].filter(([, x]) => x === m).map(([k]) => `${k} (${cats.get(k)})`).join(", ")}`);
 console.log(`Riktig svar lengst: ${aLongest} av ${qs.length} (${share} %)`);
 if (warnings.length) { console.log(`\nAdvarsler (${warnings.length}):`); warnings.slice(0, +(process.env.MAXWARN||40)).forEach(w => console.log("  - " + w)); if (warnings.length > +(process.env.MAXWARN||40)) console.log(`  … og ${warnings.length - +(process.env.MAXWARN||40)} til`); }
 if (errors.length) { console.error(`\nFEIL (${errors.length}):`); errors.forEach(e => console.error("  - " + e)); process.exit(1); }

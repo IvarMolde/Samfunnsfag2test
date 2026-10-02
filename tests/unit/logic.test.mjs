@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { drawBalanced, makeItem, scoreSession, shuffle, formatTime, PASS_PERCENT } from "../../js/logic.js";
+import { drawBalanced, allocate, filterByCategory, makeItem, scoreSession, shuffle, formatTime, PASS_PERCENT } from "../../js/logic.js";
 
 // Enkel, repeterbar tilfeldighetsgenerator (mulberry32)
 const seeded = seed => () => { seed |= 0; seed = (seed + 0x6D2B79F5) | 0; let t = Math.imul(seed ^ (seed >>> 15), 1 | seed); t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t; return ((t ^ (t >>> 14)) >>> 0) / 4294967296; };
@@ -115,4 +115,66 @@ test("scoreSession: tom prøve består ikke", () => assert.equal(scoreSession([]
 test("formatTime", () => {
   assert.equal(formatTime(0), "00:00"); assert.equal(formatTime(65), "01:05");
   assert.equal(formatTime(1200), "20:00"); assert.equal(formatTime(-5), "00:00");
+});
+
+// ---- Kategorier med emner (Ny i Norge) ----
+const topics = [["Liv", 42], ["Opphold", 17], ["Intro", 12], ["Hoved", 9]];
+const nyBank = topics.flatMap(([t, n]) => Array.from({ length: n }, (_, i) => ({
+  id: `N-${t}-${i}`, category: "Ny", topic: t, text: `${t}${i}`,
+  options: [{ text: "riktig", correct: true }, { text: "feil 1", correct: false }, { text: "feil 2", correct: false }],
+})));
+const fullBank = [...bank.map(q => ({ ...q, main: "M1" })), ...nyBank.map(q => ({ ...q, main: "M2" }))];
+
+test("filterByCategory: bare valgt kategori, og all gir alt", () => {
+  assert.equal(filterByCategory(fullBank, "all").length, 240 + 80);
+  assert.equal(filterByCategory(fullBank, "Ny").length, 80);
+  assert.ok(filterByCategory(fullBank, "A").every(q => q.category === "A"));
+  assert.equal(filterByCategory(fullBank, "main:M1").length, 240);
+  assert.equal(filterByCategory(fullBank, "main:M2").length, 80);
+  assert.equal(filterByCategory(fullBank, "finnes ikke").length, 0);
+});
+
+test("allocate: summerer til n, aldri over størrelsen, og jevnt når det er plass", () => {
+  assert.deepEqual(allocate([42, 17, 12, 9], 20, seeded(1)), [5, 5, 5, 5]);
+  assert.deepEqual(allocate([42, 17, 12, 9], 80, seeded(1)), [42, 17, 12, 9]);
+  for (let t = 0; t < 500; t++) {
+    const sizes = [42, 17, 12, 9];
+    for (const n of [20, 30, 40]) {
+      const q = allocate(sizes, n, seeded(t));
+      assert.equal(q.reduce((a, b) => a + b, 0), n);
+      q.forEach((v, i) => assert.ok(v <= sizes[i]));
+    }
+  }
+});
+
+test("drawBalanced: bare ett emne tar for lite, de andre fyller opp (40 fra Ny i Norge)", () => {
+  for (let t = 0; t < 200; t++) {
+    const q = drawBalanced(nyBank, 40, seeded(t));
+    assert.equal(q.length, 40);
+    assert.equal(new Set(q.map(x => x.id)).size, 40);
+    const per = Object.fromEntries(topics.map(([n]) => [n, q.filter(x => x.topic === n).length]));
+    assert.ok(per.Hoved <= 9);
+    assert.ok(Math.max(per.Liv, per.Opphold, per.Intro) - Math.min(per.Liv, per.Opphold, per.Intro) <= 2, JSON.stringify(per));
+  }
+});
+
+test("drawBalanced: 20 fra Ny i Norge gir 5 fra hvert emne", () => {
+  const q = drawBalanced(nyBank, 20, seeded(3));
+  topics.forEach(([n]) => assert.equal(q.filter(x => x.topic === n).length, 5));
+});
+
+test("drawBalanced: blandet bank gir jevnt per kategori og aldri flere enn banken har", () => {
+  for (let t = 0; t < 200; t++) {
+    const q = drawBalanced(fullBank, 40, seeded(t));
+    const per = ["A", "B", "C", "Ny"].map(c => q.filter(x => x.category === c).length);
+    assert.equal(per.reduce((a, b) => a + b, 0), 40);
+    assert.ok(Math.max(...per) - Math.min(...per) <= 1, String(per));
+  }
+  assert.equal(drawBalanced(nyBank, 500, seeded(1)).length, 80);
+});
+
+test("scoreSession: resultat per emne når groupBy er topic", () => {
+  const items = nyBank.slice(0, 3).map(q => makeItem(q));
+  const r = scoreSession(items, items.map(() => ({ picked: 0 })), "topic");
+  assert.equal(r.byCategory[0].category, "Liv");
 });

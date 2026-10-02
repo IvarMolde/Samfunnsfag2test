@@ -40,11 +40,39 @@ const correctIdx = p => p.evaluate(() => { const s = window.__state; return s.it
 const clickOpt = async (p, i) => (await p.$$("#options .option"))[i].click();
 const setup = async (p, count, mode) => { await p.click(`.choice[data-count="${count}"]`); await p.click(`.mode[data-mode="${mode}"]`); };
 
-await scenario("Banken har 240 spørsmål, 80 per tema", async p => {
+await scenario("Banken har 320 spørsmål, 80 per kategori, og Ny i Norge har fire emner", async p => {
   const c = await p.evaluate(() => { const o = {}; window.__state.bank.forEach(q => (o[q.category] = (o[q.category] || 0) + 1)); return o; });
-  assert.equal(Object.keys(c).length, 3);
+  assert.equal(Object.keys(c).length, 4);
   Object.values(c).forEach(n => assert.equal(n, 80));
+  const t = await p.evaluate(() => [...new Set(window.__state.bank.filter(q => q.category === "Ny i Norge").map(q => q.topic))]);
+  assert.equal(t.length, 4);
+  assert.equal((await p.$$("#categoryChoices .cat")).length, 6, "Alle + gruppevalg for Utdanning + 4 underkategorier");
+  const heads = await p.$$eval(".cat-heading", e => e.map(x => x.textContent));
+  assert.deepEqual(heads, ["Utdanning, kompetanse og arbeidsliv", "Familie, helse og hverdagsliv"]);
 });
+
+await scenario("Valg av hovedkategori gir bare spørsmål fra de tre underkategoriene, jevnt fordelt", async p => {
+  await p.click('#categoryChoices .cat[data-cat="main:Utdanning, kompetanse og arbeidsliv"]');
+  await setup(p, 30, "practice"); await p.click("#startBtn");
+  const per = await p.evaluate(() => { const o = {}; window.__state.items.forEach(q => { o[q.category] = (o[q.category] || 0) + 1; }); return o; });
+  assert.deepEqual(Object.values(per), [10, 10, 10]);
+  assert.ok(!("Ny i Norge" in per));
+});
+
+for (const cat of ["Ny i Norge", "Arbeidsliv"]) {
+  await scenario(`Kategorivalg «${cat}»: bare spørsmål fra valgt kategori`, async p => {
+    await p.click(`#categoryChoices .cat[data-cat="${cat}"]`);
+    await setup(p, 40, "practice"); await p.click("#startBtn");
+    const r = await p.evaluate(() => window.__state.items.map(q => [q.category, q.topic]));
+    assert.equal(r.length, 40);
+    assert.ok(r.every(x => x[0] === cat), "spørsmål fra feil kategori");
+    if (cat === "Ny i Norge") {
+      const per = {}; r.forEach(x => (per[x[1]] = (per[x[1]] || 0) + 1));
+      assert.equal(Object.keys(per).length, 4);
+      assert.ok(per["Ny i Norge – hovedside"] <= 9);
+    }
+  });
+}
 
 for (const n of [20, 30, 40]) {
   await scenario(`Øvingsmodus ${n}: like mange fra hvert tema og tilbakemelding etter svar`, async p => {
@@ -94,7 +122,7 @@ await scenario("Prøvemodus: ingen tilbakemelding, farger eller poeng før innle
   assert.equal(await p.textContent("#correctCount"), "9");
   assert.equal(await p.textContent("#percent"), "45%");
   assert.match(await p.textContent("#resultTitle"), /ikke bestått/);
-  assert.equal((await p.$$(".theme-row")).length, 3);
+  assert.equal((await p.$$(".theme-row")).length, 4);
 });
 
 await scenario("Prøvemodus: gå tilbake, endre svar, fjerne svar og merke spørsmål", async p => {

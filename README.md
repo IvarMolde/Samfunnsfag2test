@@ -3,7 +3,10 @@
 En statisk webapp for voksne som øver til prøve i samfunnskunnskap.
 
 ## Innhold
-- 240 spørsmål på A2-nivå (80 per tema: Skole og utdanning, Arbeidsliv, Kritisk tenkning og digital dømmekraft).
+- 320 spørsmål på A2-nivå, 80 per underkategori, i én felles bank (`questions.xml`):
+  - Hovedkategori **Utdanning, kompetanse og arbeidsliv**: Skole og utdanning, Arbeidsliv, Kritisk tenkning og digital dømmekraft.
+  - Hovedkategori **Familie, helse og hverdagsliv**: Ny i Norge (ferdig). Familieliv, Fritid, Helse, Personlig økonomi og Retten til et fritt og selvstendig liv kommer.
+- Brukeren velger alle kategorier, en hel hovedkategori eller én underkategori. Spørsmålene trekkes jevnt fra underkategoriene, og i en underkategori med emner (nå Ny i Norge) jevnt fra emnene.
 - Tilbakemelding etter hvert svar i øvingsmodus, ulik for riktig og feil svar.
 - Ett korrekt svar per spørsmål.
 - Spørsmål trekkes tilfeldig innenfor hvert tema.

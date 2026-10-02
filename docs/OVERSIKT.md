@@ -46,3 +46,23 @@ Ikke gjort ennå: statusbar, utskrift med navn, prøvemodus med tidtaker og nytt
 - Familie, helse og hverdagsliv og Norge før og nå er ikke laget ennå.
 - Rettigheter til innhold fra samfunnskunnskap.no er ikke avklart.
 - Prototypen laster Google Fonts fra nettet. Portalen skal bruke selvhostede fonter.
+
+## Struktur: hovedkategori, underkategori og emne (oktober 2026)
+
+Banken er én fil (`questions.xml`) med tre nivåer. Hvert spørsmål har attributtene `main` (hovedkategori), `category` (underkategori) og eventuelt `topic` (emne).
+
+| Hovedkategori | Underkategori | Emner | Status |
+|---|---|---|---|
+| Utdanning, kompetanse og arbeidsliv | Skole og utdanning, Arbeidsliv, Kritisk tenkning og digital dømmekraft | – | 3 × 80 ferdig |
+| Familie, helse og hverdagsliv | Ny i Norge | Et liv i Norge (42), Regler for opphold (17), Introduksjonsprogrammet (12), Hovedside (9) | 80 ferdig |
+| Familie, helse og hverdagsliv | Familieliv, Fritid, Helse, Personlig økonomi, Retten til et fritt og selvstendig liv | ikke hentet ennå | planlagt, 80 hver |
+
+**Valg i portalen:** «Alle kategorier», «Alle i denne gruppen» (en hovedkategori) eller én underkategori. Filtrering skjer i minnet på `main` og `category`, ikke på visningsnavn.
+
+**Trekning (`js/logic.js`):** `drawBalanced` fordeler plassene likt mellom underkategoriene, og i en underkategori med emner likt mellom emnene. En gruppe som er for liten (for eksempel emnet med 9 spørsmål ved 40 spørsmål fra Ny i Norge) gir det den har, og de andre fyller opp (`allocate`). Ingen spørsmål trekkes to ganger. Resultatet vises per emne når én underkategori med emner er valgt, ellers per underkategori.
+
+**Ny modul:** legg `a2_<navn>.js` og `fb_<navn>.js` i `sporsmalsbank/kilde/`, ta dem med i `load.js` (med hovedkategori), legg `fb`-filen og id-prefikset inn i `bygg-appxml.js`, og kjør `npm run bygg`, `npm run check` og `npm run e2e`. Valideringen krever 80 spørsmål per underkategori, `main` på alle spørsmål og minst 5 spørsmål per emne.
+
+**Lesbar md-fil:** `npm run md` skriver `sporsmalsbank/ut/Ny_i_Norge_sporsmal.md` (A er alltid riktig, med emner og kilder).
+
+**Kjent begrensning:** emnene i Ny i Norge er ulike store (42, 17, 12, 9). Ved 20 spørsmål gir jevn trekning 5 per emne, så det minste emnet gjentar spørsmål oftere. Utjevnes ved flere spørsmål i neste runde.

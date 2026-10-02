@@ -1,9 +1,9 @@
-import { drawBalanced, makeItem, scoreSession, formatTime, PASS_PERCENT } from "./js/logic.js";
+import { drawBalanced, filterByCategory, makeItem, scoreSession, formatTime, PASS_PERCENT } from "./js/logic.js";
 
 const $ = s => document.querySelector(s);
 const screens = { start: $("#startScreen"), quiz: $("#quizScreen"), overview: $("#overviewScreen"), result: $("#resultScreen") };
 const state = { bank: [], openers: { correct: [], wrong: [] }, items: [], answers: [], current: 0,
-  mode: "practice", kind: "normal", count: 20, name: "", date: "",
+  mode: "practice", kind: "normal", count: 20, category: "all", name: "", date: "",
   timer: { enabled: false, minutes: 30, endsAt: 0, startedAt: 0, handle: null, warned: new Set() }, running: false, autoSubmitted: false, usedSeconds: 0 };
 
 const pick = (a, fb) => (a && a.length ? a[Math.floor(Math.random() * a.length)] : fb);
@@ -13,7 +13,7 @@ async function loadBank() {
   const text = await fetch("questions.xml").then(r => r.text());
   const doc = new DOMParser().parseFromString(text, "application/xml");
   state.bank = [...doc.querySelectorAll("question")].map(q => ({
-    id: q.getAttribute("id"), category: q.getAttribute("category"),
+    id: q.getAttribute("id"), main: q.getAttribute("main") || "", category: q.getAttribute("category"), topic: q.getAttribute("topic") || "",
     text: q.querySelector("text").textContent,
     options: [...q.querySelectorAll("option")].map(o => ({ text: o.textContent, correct: o.getAttribute("correct") === "true" })),
     feedbackCorrect: q.querySelector("feedback correct").textContent,
@@ -23,7 +23,42 @@ async function loadBank() {
     correct: [...doc.querySelectorAll('opener[type="correct"]')].map(o => o.textContent),
     wrong: [...doc.querySelectorAll('opener[type="wrong"]')].map(o => o.textContent)
   };
+  renderCategories();
 }
+
+/* ---------- Kategorivalg: hovedkategori, underkategori eller alt ---------- */
+function renderCategories() {
+  const mains = new Map();
+  state.bank.forEach(q => {
+    if (!mains.has(q.main)) mains.set(q.main, new Map());
+    const m = mains.get(q.main); m.set(q.category, (m.get(q.category) || 0) + 1);
+  });
+  const box = $("#categoryChoices"); box.innerHTML = "";
+  const add = (parent, key, title, n, cls = "") => {
+    const b = document.createElement("button");
+    b.className = "cat" + cls + (state.category === key ? " selected" : "");
+    b.dataset.cat = key;
+    b.setAttribute("aria-pressed", String(state.category === key));
+    b.innerHTML = `<strong>${esc(title)}</strong><small>${n} spørsmål</small>`;
+    b.onclick = () => { state.category = key; renderCategories(); };
+    parent.appendChild(b);
+  };
+  const top = document.createElement("div"); top.className = "cat-grid";
+  add(top, "all", "Alle kategorier", state.bank.length, " cat-all");
+  box.appendChild(top);
+  mains.forEach((cats, main) => {
+    const group = document.createElement("div"); group.className = "cat-group";
+    const h = document.createElement("div"); h.className = "cat-heading"; h.textContent = main;
+    const grid = document.createElement("div"); grid.className = "cat-grid";
+    const total = [...cats.values()].reduce((x, y) => x + y, 0);
+    if (cats.size > 1) add(grid, "main:" + main, "Alle i denne gruppen", total, " cat-main");
+    cats.forEach((n, c) => add(grid, c, c, n));
+    group.append(h, grid); box.appendChild(group);
+  });
+}
+
+// Resultat per emne når en enkelt kategori med emner er valgt, ellers per kategori.
+function groupBy() { return state.category !== "all" && state.items.some(q => q.topic) ? "topic" : "category"; }
 
 function show(name) {
   Object.entries(screens).forEach(([k, el]) => el.classList.toggle("active", k === name));
@@ -53,7 +88,8 @@ function start() {
   state.name = $("#studentName").value.trim();
   state.timer.enabled = state.mode === "test" && $("#useTimer").checked;
   state.timer.minutes = +$("#timerMinutes").value;
-  beginSession(drawBalanced(state.bank, state.count), { mode: state.mode, kind: "normal" });
+  const pool = filterByCategory(state.bank, state.category);
+  beginSession(drawBalanced(pool, Math.min(state.count, pool.length)), { mode: state.mode, kind: "normal" });
 }
 
 /* ---------- Tidtaker (kun Prøvemodus) ---------- */
@@ -94,8 +130,8 @@ function renderQuestion() {
   const prog = test ? answered / n : state.current / n;
   $("#progressBar").style.width = `${prog * 100}%`;
   $("#progress").setAttribute("aria-valuenow", Math.round(prog * 100));
-  $("#category").textContent = test ? "" : q.category;
-  $("#scoreLive").textContent = test ? `${answered} av ${n} besvart` : `${scoreSession(state.items, state.answers).correct} riktige`;
+  $("#category").textContent = test ? "" : (q.topic ? `${q.category} · ${q.topic}` : q.category);
+  $("#scoreLive").textContent = test ? `${answered} av ${n} besvart` : `${scoreSession(state.items, state.answers, groupBy()).correct} riktige`;
   $("#questionText").textContent = q.text;
   $("#feedback").hidden = true; $("#feedback").className = "feedback"; $("#feedback").textContent = "";
   const last = state.current === n - 1;
@@ -137,7 +173,7 @@ function choose(i) {
   $("#feedback").hidden = false;
   $("#feedback").className = `feedback ${picked.correct ? "correct" : "wrong"}`;
   $("#feedback").innerHTML = `<strong>${picked.correct ? "✓" : "✕"} ${esc(opener)}</strong><br>${esc(picked.correct ? q.feedbackCorrect : q.feedbackWrong)}`;
-  $("#scoreLive").textContent = `${scoreSession(state.items, state.answers).correct} riktige`;
+  $("#scoreLive").textContent = `${scoreSession(state.items, state.answers, groupBy()).correct} riktige`;
   $("#nextBtn").disabled = false;
 }
 
@@ -210,7 +246,7 @@ function submitTest(auto = false) {
 function showResult() {
   state.running = false; stopTimer(); $("#timer").hidden = true;
   show("result");
-  const r = scoreSession(state.items, state.answers);
+  const r = scoreSession(state.items, state.answers, groupBy());
   const retry = state.kind === "retry";
   $("#resultTitle").textContent = retry ? "Repetisjon ferdig"
     : r.passed ? "Du har bestått!" : "Du har ikke bestått denne gangen.";
