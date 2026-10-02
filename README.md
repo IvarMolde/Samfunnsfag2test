@@ -67,4 +67,4 @@ Ikke åpne `index.html` direkte som en `file://`-fil dersom nettleseren blokkere
 
 ## Faglig kvalitet
 
-Spørsmålene er skrevet på A2-nivå med utgangspunkt i samfunnskunnskap.no. Kilden ligger i `sporsmalsbank/kilde/`, og `questions.xml` genereres derfra med `npm run bygg`. Rediger kilden, ikke `questions.xml`. Banken er ikke utprøvd på deltakere, og resultatet er en indikasjon.
+Spørsmålene er skrevet på A2-nivå med utgangspunkt i samfunnskunnskap.no. Bunnteksten lenker dit: «Les mer her: www.samfunnskunnskap.no». Kilden ligger i `sporsmalsbank/kilde/`, og `questions.xml` genereres derfra med `npm run bygg`. Rediger kilden, ikke `questions.xml`. Banken er ikke utprøvd på deltakere, og resultatet er en indikasjon.
