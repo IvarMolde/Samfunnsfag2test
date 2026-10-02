@@ -6,6 +6,11 @@ const REGISTER=[
  {fil:'arbeid',slug:'arbeid',hoved:UTDANNING},
  {fil:'kritisk',slug:'kritisk',hoved:UTDANNING},
  {fil:'nyinorge',slug:'norge',hoved:FAMILIE},
+ {fil:'familieliv',slug:'familie',hoved:FAMILIE},
+ {fil:'fritid',slug:'fritid',hoved:FAMILIE},
+ {fil:'helse',slug:'helse',hoved:FAMILIE},
+ {fil:'okonomi',slug:'okonomi',hoved:FAMILIE},
+ {fil:'frihet',slug:'frihet',hoved:FAMILIE},
 ];
 const mods=REGISTER.map(r=>{
  const m=require('./a2_'+r.fil+'.js'),fb=require('./fb_'+r.fil+'.js');
