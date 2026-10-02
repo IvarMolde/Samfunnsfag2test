@@ -2,8 +2,14 @@ import { drawBalanced, makeItem, scoreSession, formatTime, PASS_PERCENT } from "
 
 const $ = s => document.querySelector(s);
 const screens = { start: $("#startScreen"), quiz: $("#quizScreen"), overview: $("#overviewScreen"), result: $("#resultScreen") };
+const CATALOG = [
+  { id: "utdanning", name: "Utdanning, kompetanse og arbeidsliv", subs: ["Skole og utdanning", "Arbeidsliv", "Kritisk tenkning og digital dømmekraft"] },
+  { id: "familie", name: "Familie, helse og hverdagsliv", subs: ["Ny i Norge", "Familieliv", "Fritid", "Helse", "Personlig økonomi", "Retten til et fritt og selvstendig liv"] },
+  { id: "norge", name: "Norge før og nå", subs: ["Dette er Norge", "Historie", "Menneskerettigheter og demokrati", "Bærekraft"] }
+];
+
 const state = { bank: [], openers: { correct: [], wrong: [] }, items: [], answers: [], current: 0,
-  mode: "practice", kind: "normal", count: 20, name: "", date: "",
+  mode: "practice", kind: "normal", count: 20, name: "", date: "", scope: "all", mainTheme: "", subtheme: "", sessionLabel: "",
   timer: { enabled: false, minutes: 30, endsAt: 0, startedAt: 0, handle: null, warned: new Set() }, running: false, autoSubmitted: false, usedSeconds: 0 };
 
 const pick = (a, fb) => (a && a.length ? a[Math.floor(Math.random() * a.length)] : fb);
@@ -27,7 +33,31 @@ async function loadBank() {
 
 function show(name) {
   Object.entries(screens).forEach(([k, el]) => el.classList.toggle("active", k === name));
+  if (name === "start") {
+    $("#headerScope").textContent = "";
+    $("#counter").textContent = "";
+    $("#timer").hidden = true;
+  }
   window.scrollTo(0, 0);
+}
+
+function readyCategories() {
+  return new Set(state.bank.map(q => q.category));
+}
+
+function sessionDraw() {
+  if (state.mode === "test" || state.scope !== "one" || !state.subtheme) {
+    return { questions: drawBalanced(state.bank, state.count), label: "Alle temaer" };
+  }
+  const bank = state.bank.filter(q => q.category === state.subtheme);
+  return { questions: drawBalanced(bank, state.count), label: state.subtheme };
+}
+
+function paintScope(label) {
+  state.sessionLabel = label;
+  $("#headerScope").textContent = label;
+  const line = $("#sessionScope");
+  if (line) line.textContent = label;
 }
 
 function beginSession(questions, { mode, kind }) {
@@ -43,17 +73,22 @@ function beginSession(questions, { mode, kind }) {
   state.date = new Date().toLocaleDateString("nb-NO", { day: "numeric", month: "long", year: "numeric" });
   const test = mode === "test";
   $("#testTools").hidden = !test;
-  $("#quizTitle").textContent = test ? "Prøve" : "Samfunnskunnskap";
+  $("#headerName").textContent = state.name;
+  if (kind === "retry") paintScope("Spørsmål du svarte feil på");
   if (test && state.timer.enabled) startTimer(state.timer.minutes * 60); else $("#timer").hidden = true;
   show("quiz");
   renderQuestion();
 }
 
 function start() {
+  if (state.mode === "practice" && state.scope === "one" && !state.subtheme) return;
   state.name = $("#studentName").value.trim();
   state.timer.enabled = state.mode === "test" && $("#useTimer").checked;
   state.timer.minutes = +$("#timerMinutes").value;
-  beginSession(drawBalanced(state.bank, state.count), { mode: state.mode, kind: "normal" });
+  const draw = sessionDraw();
+  if (!draw.questions.length) return;
+  paintScope(draw.label);
+  beginSession(draw.questions, { mode: state.mode, kind: "normal" });
 }
 
 /* ---------- Tidtaker (kun Prøvemodus) ---------- */
@@ -94,9 +129,11 @@ function renderQuestion() {
   const prog = test ? answered / n : state.current / n;
   $("#progressBar").style.width = `${prog * 100}%`;
   $("#progress").setAttribute("aria-valuenow", Math.round(prog * 100));
-  $("#category").textContent = test ? "" : q.category;
+  $("#category").textContent = !test && q.category !== state.sessionLabel ? q.category : "";
   $("#scoreLive").textContent = test ? `${answered} av ${n} besvart` : `${scoreSession(state.items, state.answers).correct} riktige`;
   $("#questionText").textContent = q.text;
+  paintScope(state.sessionLabel);
+  renderNav();
   $("#feedback").hidden = true; $("#feedback").className = "feedback"; $("#feedback").textContent = "";
   const last = state.current === n - 1;
   if (test) {
@@ -122,6 +159,28 @@ function renderQuestion() {
   });
   if (test) box.setAttribute("role", "radiogroup"); else box.setAttribute("role", "group");
   if (!state.firstRender) state.firstRender = true; else $("#questionText").focus({ preventScroll: true });
+}
+
+function renderNav() {
+  const nav = $("#questionNav");
+  const test = state.mode === "test";
+  nav.hidden = !test;
+  nav.innerHTML = "";
+  if (!test) return;
+  state.answers.forEach((a, i) => {
+    const b = document.createElement("button");
+    b.type = "button";
+    const classes = ["qnav-item"];
+    classes.push(a.picked !== null ? "answered" : "unanswered");
+    if (a.flagged) classes.push("flagged");
+    if (i === state.current) classes.push("current");
+    b.className = classes.join(" ");
+    b.textContent = String(i + 1);
+    b.setAttribute("aria-label", `Spørsmål ${i + 1}: ${a.picked !== null ? "besvart" : "ikke besvart"}${a.flagged ? ", merket" : ""}${i === state.current ? ", nå" : ""}`);
+    if (i === state.current) b.setAttribute("aria-current", "true");
+    b.onclick = () => { state.current = i; renderQuestion(); };
+    nav.appendChild(b);
+  });
 }
 
 function choose(i) {
@@ -221,9 +280,9 @@ function showResult() {
   $("#correctCount").textContent = r.correct;
   $("#wrongCount").textContent = r.wrong;
   $("#totalCount").textContent = r.total;
-  $("#requirement").textContent = retry ? "–" : `${PASS_PERCENT} %`;
+  const need = { 20: 16, 30: 24, 40: 32 }[r.total];
+  $("#requirement").textContent = retry ? "–" : need ? `80 % (${need} av ${r.total})` : "80 %";
   $("#scoreCircle").dataset.status = $("#resultTitle").dataset.status;
-  $("#scoreArc").style.strokeDasharray = `${Math.max(0.01, r.pct)} 100`;
   const note = $("#resultNote");
   const bits = [];
   if (state.autoSubmitted) bits.push("Tiden var ute, og prøven ble levert automatisk.");
@@ -283,16 +342,90 @@ function printResult() {
   window.print();
 }
 
+function updateStartEnabled() {
+  const blocked = state.mode === "practice" && state.scope === "one" && !state.subtheme;
+  $("#startBtn").disabled = blocked;
+  $("#scopeHint").hidden = !blocked;
+}
+
+function renderPicker() {
+  const box = $("#themePicker");
+  if (state.scope !== "one") { box.hidden = true; box.innerHTML = ""; return; }
+  box.hidden = false;
+  box.innerHTML = "";
+  const ready = readyCategories();
+  if (!state.mainTheme) {
+    const label = document.createElement("p");
+    label.className = "field-label";
+    label.textContent = "Velg hovedtema";
+    box.appendChild(label);
+    CATALOG.forEach(group => {
+      const b = document.createElement("button");
+      b.type = "button";
+      b.className = "pick";
+      b.textContent = group.name;
+      b.onclick = () => { state.mainTheme = group.id; renderPicker(); };
+      box.appendChild(b);
+    });
+    return;
+  }
+  const group = CATALOG.find(g => g.id === state.mainTheme);
+  const label = document.createElement("p");
+  label.className = "field-label";
+  label.textContent = group.name;
+  box.appendChild(label);
+  const back = document.createElement("button");
+  back.type = "button";
+  back.className = "text-btn";
+  back.textContent = "Tilbake til hovedtema";
+  back.onclick = () => { state.mainTheme = ""; state.subtheme = ""; renderPicker(); updateStartEnabled(); };
+  box.appendChild(back);
+  group.subs.forEach(name => {
+    const ok = ready.has(name);
+    const b = document.createElement("button");
+    b.type = "button";
+    b.className = "pick" + (state.subtheme === name ? " selected" : "");
+    b.textContent = ok ? name : `${name} (kommer)`;
+    b.disabled = !ok;
+    if (!ok) b.setAttribute("aria-disabled", "true");
+    b.setAttribute("aria-pressed", String(state.subtheme === name));
+    b.onclick = () => { state.subtheme = name; renderPicker(); updateStartEnabled(); };
+    box.appendChild(b);
+  });
+}
+
+function setScope(scope) {
+  state.scope = scope;
+  if (scope !== "one") { state.mainTheme = ""; state.subtheme = ""; }
+  document.querySelectorAll("[data-scope]").forEach(b => {
+    const on = b.dataset.scope === scope;
+    b.classList.toggle("selected", on);
+    b.setAttribute("aria-pressed", String(on));
+  });
+  $("#scopeAllNote").hidden = scope !== "all";
+  renderPicker();
+  updateStartEnabled();
+}
+
+function syncModePanels() {
+  const test = state.mode === "test";
+  $("#timerSetup").hidden = !test;
+  $("#scopeSetup").hidden = test;
+  $("#testExplain").hidden = !test;
+  updateStartEnabled();
+}
+
 document.querySelectorAll(".choice").forEach(b => b.onclick = () => {
-  document.querySelectorAll(".choice").forEach(x => x.classList.remove("selected"));
-  b.classList.add("selected"); state.count = +b.dataset.count;
+  document.querySelectorAll(".choice").forEach(x => { x.classList.remove("selected"); x.setAttribute("aria-pressed", "false"); });
+  b.classList.add("selected"); b.setAttribute("aria-pressed", "true"); state.count = +b.dataset.count;
   if (!timerTouched) $("#timerMinutes").value = String(defaultMinutes[state.count]);
 });
 document.querySelectorAll(".mode").forEach(b => b.onclick = () => {
-  document.querySelectorAll(".mode").forEach(x => x.classList.remove("selected"));
-  b.classList.add("selected"); state.mode = b.dataset.mode;
-  $("#timerSetup").hidden = state.mode !== "test";
+  document.querySelectorAll(".mode").forEach(x => { x.classList.remove("selected"); x.setAttribute("aria-pressed", "false"); });
+  b.classList.add("selected"); b.setAttribute("aria-pressed", "true"); state.mode = b.dataset.mode;
+  syncModePanels();
 });
+document.querySelectorAll("[data-scope]").forEach(b => b.onclick = () => setScope(b.dataset.scope));
 $("#useTimer").onchange = () => { $("#timerMinutesWrap").hidden = !$("#useTimer").checked; };
 let timerTouched = false;
 $("#timerMinutes").onchange = () => { timerTouched = true; };
@@ -319,6 +452,6 @@ $("#reviewBtn").onclick = () => {
   $("#reviewBtn").textContent = open ? "Skjul gjennomgang" : "Se gjennom svar";
   $("#reviewBtn").setAttribute("aria-expanded", String(open));
 };
-loadBank().catch(err => { console.error(err); alert("Kunne ikke laste spørsmålsbanken. Kontroller at questions.xml ligger i samme mappe som index.html."); });
+loadBank().then(() => { if (state.scope === "one") renderPicker(); }).catch(err => { console.error(err); alert("Kunne ikke laste spørsmålsbanken. Kontroller at questions.xml ligger i samme mappe som index.html."); });
 
 window.__state = state; // brukes av testene
