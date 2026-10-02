@@ -6,9 +6,9 @@ En statisk webapp for voksne som øver til prøve i samfunnskunnskap.
 - 240 spørsmål på A2-nivå (80 per tema: Skole og utdanning, Arbeidsliv, Kritisk tenkning og digital dømmekraft).
 - Tilbakemelding etter hvert svar i øvingsmodus, ulik for riktig og feil svar.
 - Ett korrekt svar per spørsmål.
-- Spørsmål trekkes tilfeldig.
+- Spørsmål trekkes tilfeldig innenfor hvert tema.
 - Svaralternativene stokkes ved hver ny prøve.
-- 20, 30 eller 50 spørsmål.
+- 20, 30 eller 40 spørsmål, trukket med like mange fra hvert tema (resten fordeles tilfeldig).
 - Øvingsmodus med umiddelbar tilbakemelding.
 - Prøvemodus uten fasit underveis.
 - 80 % kreves for bestått.

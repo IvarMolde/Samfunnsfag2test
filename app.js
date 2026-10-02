@@ -19,10 +19,19 @@ async function loadBank(){
   };
 }
 function pick(a,fallback){return a&&a.length?a[Math.floor(Math.random()*a.length)]:fallback}
-function shuffle(a){return [...a].sort(()=>Math.random()-.5)}
+function shuffle(a){const r=[...a];for(let i=r.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[r[i],r[j]]=[r[j],r[i]]}return r}
+// Trekker like mange spørsmål fra hvert tema. Rest (n mod antall temaer) fordeles tilfeldig, maks ett ekstra per tema.
+function drawBalanced(bank,n){
+  const groups={};bank.forEach(q=>(groups[q.category]=groups[q.category]||[]).push(q));
+  const cats=Object.keys(groups),k=cats.length;
+  const base=Math.floor(n/k),extra=n-base*k;
+  const bonus=new Set(shuffle(cats).slice(0,extra));
+  const picked=cats.flatMap(c=>shuffle(groups[c]).slice(0,base+(bonus.has(c)?1:0)));
+  return shuffle(picked);
+}
 function start(){
   const name=$("#studentName").value.trim();
-  quiz=shuffle(bank).slice(0,selectedCount).map(q=>{
+  quiz=drawBalanced(bank,selectedCount).map(q=>{
     const opts=shuffle(q.options).map((o,i)=>({...o,letter:String.fromCharCode(65+i)}));
     return {...q,options:opts};
   });
