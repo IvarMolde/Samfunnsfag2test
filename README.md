@@ -19,7 +19,7 @@ Denne filen forklarer hvordan programmet virker. Den oppdateres i samme endring 
 
 ## Prøvemodus
 
-Prøvemodus har alltid 38 spørsmål og ikke temavalg. Prøven trekker alltid spørsmål tilfeldig fra alle undertema som har spørsmål, med like mange fra hvert undertema.
+Prøvemodus har alltid 38 spørsmål. Du kan ikke velge antall, og du kan ikke velge tema. Prøven trekker alltid spørsmål tilfeldig fra alle undertema som har spørsmål, med like mange fra hvert undertema. Når prøvemodus velges, vises denne forklaringen på startsiden.
 
 - Ingen tilbakemelding, farger eller poeng før innlevering.
 - Du kan gå tilbake, endre svar og merke spørsmål.
@@ -30,7 +30,7 @@ Prøvemodus har alltid 38 spørsmål og ikke temavalg. Prøven trekker alltid sp
 ## Antall og svar
 
 - I øving kan du ta 20, 30 eller 40 spørsmål.
-- I prøvemodus er det alltid 38 spørsmål.
+- I prøvemodus kan du ikke velge antall. Det er alltid 38 spørsmål.
 - Ett korrekt svar per spørsmål. Svaralternativene stokkes hver gang.
 - Ingen spørsmål gjentas i samme runde.
 

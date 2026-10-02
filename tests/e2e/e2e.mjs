@@ -128,6 +128,19 @@ await scenario("Prøvemodus: gå tilbake, endre svar, fjerne svar og merke spør
   assert.ok(await p.isVisible("#quizScreen"));
 });
 
+await scenario("Prøvemodus skjuler antall og sier at det alltid er 38 spørsmål", async p => {
+  await p.click('.choice[data-count="40"]');
+  await p.click('.mode[data-mode="test"]');
+  assert.equal(await p.isVisible("#countSetup"), false, "antall kan ikke velges");
+  assert.equal(await p.isVisible("#testExplain"), true);
+  const explain = await p.textContent("#testExplain");
+  assert.match(explain, /kan ikke velge antall/);
+  assert.match(explain, /alltid 38 spørsmål/);
+  await p.click("#startBtn");
+  assert.equal(await p.evaluate(() => window.__state.items.length), 38);
+  assert.equal(await p.textContent("#counter"), "Spørsmål 1 av 38");
+});
+
 await scenario("Prøvemodus med tidtaker: automatisk innlevering når tiden er ute", async p => {
   assert.equal(await p.isVisible("#timerSetup"), false, "tidtaker-valg skjult i Øvingsmodus");
   await setup(p, 20, "test");
