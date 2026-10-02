@@ -16,10 +16,10 @@ const pick = (a, fb) => (a && a.length ? a[Math.floor(Math.random() * a.length)]
 const esc = s => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 
 async function loadBank() {
-  const text = await fetch("questions.xml").then(r => r.text());
+  const text = await fetch("questions.xml", { cache: "no-cache" }).then(r => r.text());
   const doc = new DOMParser().parseFromString(text, "application/xml");
   state.bank = [...doc.querySelectorAll("question")].map(q => ({
-    id: q.getAttribute("id"), category: q.getAttribute("category"),
+    id: q.getAttribute("id"), main: q.getAttribute("main") || "", category: q.getAttribute("category"), topic: q.getAttribute("topic") || "",
     text: q.querySelector("text").textContent,
     options: [...q.querySelectorAll("option")].map(o => ({ text: o.textContent, correct: o.getAttribute("correct") === "true" })),
     feedbackCorrect: q.querySelector("feedback correct").textContent,
@@ -30,6 +30,9 @@ async function loadBank() {
     wrong: [...doc.querySelectorAll('opener[type="wrong"]')].map(o => o.textContent)
   };
 }
+
+// Resultat per emne når ett undertema med emner er valgt (for eksempel Ny i Norge), ellers per undertema.
+function groupBy() { return state.scope === "one" && state.mode === "practice" && state.items.some(q => q.topic) ? "topic" : "category"; }
 
 function show(name) {
   Object.entries(screens).forEach(([k, el]) => el.classList.toggle("active", k === name));
@@ -137,7 +140,7 @@ function renderQuestion() {
   $("#progressBar").style.width = `${prog * 100}%`;
   $("#progress").setAttribute("aria-valuenow", Math.round(prog * 100));
   $("#category").textContent = !test && q.category !== state.sessionLabel ? q.category : "";
-  $("#scoreLive").textContent = test ? `${answered} av ${n} besvart` : `${scoreSession(state.items, state.answers).correct} riktige`;
+  $("#scoreLive").textContent = test ? `${answered} av ${n} besvart` : `${scoreSession(state.items, state.answers, groupBy()).correct} riktige`;
   $("#questionText").textContent = q.text;
   paintScope(state.sessionLabel);
   renderNav();
@@ -203,7 +206,7 @@ function choose(i) {
   $("#feedback").hidden = false;
   $("#feedback").className = `feedback ${picked.correct ? "correct" : "wrong"}`;
   $("#feedback").innerHTML = `<strong>${picked.correct ? "✓" : "✕"} ${esc(opener)}</strong><br>${esc(picked.correct ? q.feedbackCorrect : q.feedbackWrong)}`;
-  $("#scoreLive").textContent = `${scoreSession(state.items, state.answers).correct} riktige`;
+  $("#scoreLive").textContent = `${scoreSession(state.items, state.answers, groupBy()).correct} riktige`;
   $("#nextBtn").disabled = false;
 }
 
@@ -276,7 +279,7 @@ function submitTest(auto = false) {
 function showResult() {
   state.running = false; stopTimer(); $("#timer").hidden = true;
   show("result");
-  const r = scoreSession(state.items, state.answers);
+  const r = scoreSession(state.items, state.answers, groupBy());
   const retry = state.kind === "retry";
   $("#resultTitle").textContent = retry ? "Repetisjon ferdig"
     : r.passed ? "Du har bestått!" : "Du har ikke bestått denne gangen.";

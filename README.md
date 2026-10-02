@@ -6,6 +6,8 @@ Dette er en øvingsprøve, ikke den offisielle prøven.
 
 Knappen «Les her» på startsiden åpner en kort forklaring. Den sier hvordan øving og prøve virker, og at resultatet bare gjelder denne prøven. Det er ikke et offisielt resultat.
 
+Skal du lage nye spørsmål, se `docs/NYE_SPORSMAL_I_CURSOR.md`.
+
 ## Denne filen
 
 Denne filen forklarer hvordan programmet virker. Den oppdateres i samme endring som en ny bestemmelse, for eksempel modus, trekk, tema, beståttgrense eller navigasjon. Det som ikke lenger gjelder, tas ut, slik at teksten beskriver det som faktisk gjelder.
@@ -36,15 +38,15 @@ Prøvemodus har alltid 38 spørsmål. Du kan ikke velge antall, og du kan ikke v
 
 ## Tema
 
-Undertema som har spørsmål nå, 80 i hvert:
+Undertema som har spørsmål nå, 80 i hvert (720 til sammen):
 
-- Skole og utdanning
-- Arbeidsliv
-- Kritisk tenkning og digital dømmekraft
-
-Disse hovedtemaene er planlagt, med 80 spørsmål per undertema. De er ikke med i banken ennå, og kan ikke velges:
-
+- Utdanning, kompetanse og arbeidsliv: Skole og utdanning, Arbeidsliv, Kritisk tenkning og digital dømmekraft.
 - Familie, helse og hverdagsliv: Ny i Norge, Familieliv, Fritid, Helse, Personlig økonomi, Retten til et fritt og selvstendig liv.
+
+Undertemaene i Familie, helse og hverdagsliv har emner, ett for hver underside på samfunnskunnskap.no. I et undertema med emner trekkes spørsmålene jevnt fra emnene. Er et emne for lite, fyller de andre opp. Resultatet vises da per emne. Emner, læringsmål og kilder står i `docs/testspesifikasjon.md`.
+
+Dette hovedtemaet er planlagt, med 80 spørsmål per undertema. Det er ikke med i banken ennå, og kan ikke velges:
+
 - Norge før og nå: Dette er Norge, Historie, Menneskerettigheter og demokrati, Bærekraft.
 
 Når spørsmålene er lagt inn, blir undertemaene med i øvingen og i prøvens blanding av seg selv.

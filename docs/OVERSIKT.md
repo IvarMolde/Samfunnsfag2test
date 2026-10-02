@@ -9,7 +9,7 @@ Grenen `samfunnskunnskap-sporsmalsbank-v1` legger til ny spørsmålsbank og doku
 | `docs/` | `PORTAL_BYGGEBESKRIVELSE.md` (krav til portalen, inkl. kapittel 10 om prøvekvalitet) og `README_samfunnskunnskap.md` (tidligere funksjonsbeskrivelse) |
 | `sporsmalsbank/kilde/` | Spørsmålene som data: `a2_*.js` (spørsmål, riktig svar først) og `fb_*.js` (tilbakemelding) |
 | `sporsmalsbank/scripts/` | Bygg- og kontrollscript |
-| `sporsmalsbank/ut/` | Genererte filer: XML v1.1 (240 spørsmål, med tilbakemelding) og Word |
+| `sporsmalsbank/ut/` | Genererte filer: XML v1.1 (720 spørsmål, med tilbakemelding), Word og én lesefil (md) per underkategori med emner |
 | `prototype/` | Prototype av øvingssiden. `page.src.html` er malen, `index.html` er bygget |
 
 ## Kommandoer (kjør i rotmappen)
@@ -28,7 +28,7 @@ npm run e2e         # ende-til-ende-test i nettleser (krever Chromium)
 
 ## Appen i rotmappen
 
-De gamle 150 spørsmålene er fjernet fra `questions.xml` (de ligger i git-historikken). Filen genereres nå fra `sporsmalsbank/kilde/` med `npm run bygg`, og inneholder de 240 spørsmålene med tilbakemelding for riktig og feil svar. `app.js` leser den nye tilbakemeldingen og velger en tilfeldig åpning («Korrekt!», «Nesten, men ikke korrekt.» osv.).
+De gamle 150 spørsmålene er fjernet fra `questions.xml` (de ligger i git-historikken). Filen genereres nå fra `sporsmalsbank/kilde/` med `npm run bygg`, og inneholder de 720 spørsmålene med tilbakemelding for riktig og feil svar. `app.js` leser den nye tilbakemeldingen og velger en tilfeldig åpning («Korrekt!», «Nesten, men ikke korrekt.» osv.).
 
 Ikke gjort ennå: statusbar, utskrift med navn, prøvemodus med tidtaker og nytt design. Se `docs/PORTAL_BYGGEBESKRIVELSE.md`.
 
@@ -43,6 +43,32 @@ Ikke gjort ennå: statusbar, utskrift med navn, prøvemodus med tidtaker og nytt
 
 - `npm run validate` gir ingen feil og ingen advarsler. Absolutte ord («alltid», «bare», «kun», «alle») står ikke lenger bare i gale svar. Riktig svar er lengst i 34 % av spørsmålene. Svarlengde sier likevel lite om kvalitet: utprøving på deltakere gjenstår.
 - Banken er **ikke utprøvd** på deltakere, og er derfor ikke psykometrisk validert.
-- Familie, helse og hverdagsliv og Norge før og nå er ikke laget ennå.
+- Norge før og nå er ikke laget ennå.
+- De 400 nye spørsmålene i Familie, helse og hverdagsliv er ikke gjennomlest av faglærer ennå.
 - Rettigheter til innhold fra samfunnskunnskap.no er ikke avklart.
 - Prototypen laster Google Fonts fra nettet. Portalen skal bruke selvhostede fonter.
+
+## Struktur: hovedkategori, underkategori og emne (oktober 2026)
+
+Banken er én fil (`questions.xml`) med tre nivåer. Hvert spørsmål har attributtene `main` (hovedkategori), `category` (underkategori) og eventuelt `topic` (emne).
+
+| Hovedkategori | Underkategori | Emner | Status |
+|---|---|---|---|
+| Utdanning, kompetanse og arbeidsliv | Skole og utdanning, Arbeidsliv, Kritisk tenkning og digital dømmekraft | – | 3 × 80 ferdig |
+| Familie, helse og hverdagsliv | Ny i Norge | Et liv i Norge (42), Regler for opphold (17), Introduksjonsprogrammet (12), Hovedside (9) | 80 ferdig |
+| Familie, helse og hverdagsliv | Familieliv | Ekteskap og familie (24), Å leve i to kulturer (16), Barneoppdragelse (16), Barnevernet (12), Barn og unges rettigheter (12) | 80 ferdig |
+| Familie, helse og hverdagsliv | Fritid | Politisk engasjement (32), Dugnad (24), Sosiale arenaer (24) | 80 ferdig |
+| Familie, helse og hverdagsliv | Helse | Helsetjenester (16), Helse og livsstil (14), Psykisk helse (12), Familieplanlegging, svangerskap og oppfølging av barn (12), Tannhelse (10), Å flytte til et nytt land (8), Identitet (8) | 80 ferdig |
+| Familie, helse og hverdagsliv | Personlig økonomi | Personlig økonomi (44), Bolig (36) | 80 ferdig |
+| Familie, helse og hverdagsliv | Retten til et fritt og selvstendig liv | Vold i nære relasjoner (32), Tvangsekteskap (18), Negativ sosial kontroll (18), Kjønnslemlestelse (12) | 80 ferdig |
+| Norge før og nå | Dette er Norge, Historie, Menneskerettigheter og demokrati, Bærekraft | – | planlagt, 80 hver |
+
+**Valg i portalen:** «Alle temaer» eller «Ett undertema» (først hovedtema, så undertema). Filtrering skjer i minnet på `category`. Hovedkategorien står også i XML (`main`).
+
+**Trekning (`js/logic.js`):** `drawBalanced` fordeler plassene likt mellom underkategoriene, og i en underkategori med emner likt mellom emnene. En gruppe som er for liten (for eksempel emnet med 9 spørsmål ved 40 spørsmål fra Ny i Norge) gir det den har, og de andre fyller opp (`allocate`). Ingen spørsmål trekkes to ganger. Resultatet vises per emne når én underkategori med emner er valgt, ellers per underkategori.
+
+**Ny modul:** følg `docs/NYE_SPORSMAL_I_CURSOR.md`. Kort sagt: legg `a2_<navn>.js` og `fb_<navn>.js` i `sporsmalsbank/kilde/`, og legg én linje i registeret i `load.js` (fil, id-prefiks og hovedkategori). Alle byggeskriptene leser registeret. Kjør så `npm run bygg`, `npm run check` og `npm run e2e`. Valideringen krever 80 spørsmål per underkategori, `main` på alle spørsmål og minst 5 spørsmål per emne.
+
+**Lesbare md-filer:** `npm run md` skriver én fil per underkategori med emner til `sporsmalsbank/ut/` (for eksempel `Helse_sporsmal.md`). A er alltid riktig, og filen viser ID, emne, kilde, tilleggskilder og tilbakemeldinger. Filene er laget for gjennomlesing før publisering.
+
+**Kjent begrensning:** emnene er ulike store (for eksempel 42, 17, 12 og 9 i Ny i Norge, og 16 til 8 i Helse). Ved 20 spørsmål gir jevn trekning like mange per emne, så de minste emnene gjentar spørsmål oftere.

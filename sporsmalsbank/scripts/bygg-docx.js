@@ -2,8 +2,6 @@ const fs=require('fs');
 const d=require('docx');
 const {Document,Packer,Paragraph,TextRun,HeadingLevel,Table,TableRow,TableCell,WidthType,ShadingType,AlignmentType,LevelFormat,BorderStyle}=d;
 const mods=require('../kilde/load.js');
-const fb={'Skole og utdanning':require('../kilde/fb_skole.js'),'Arbeidsliv':require('../kilde/fb_arbeid.js'),'Kritisk tenkning og digital dømmekraft':require('../kilde/fb_kritisk.js')};
-const slug={'Skole og utdanning':'skole','Arbeidsliv':'arbeid','Kritisk tenkning og digital dømmekraft':'kritisk'};
 let total=0,aL=0,aS=0;
 for(const m of mods)for(const e of m.emner)for(const it of e.items){total++;const L=it.slice(1).map(s=>s.length);const mx=Math.max(...L),mn=Math.min(...L);if(L[0]===mx&&L.filter(x=>x===mx).length===1)aL++;if(L[0]===mn&&L.filter(x=>x===mn).length===1)aS++;}
 const P=(t,o={})=>new Paragraph({spacing:{after:100},...o,children:Array.isArray(t)?t:[new TextRun(t)]});
@@ -12,7 +10,7 @@ const bd={style:BorderStyle.SINGLE,size:4,color:'BBBBBB'};const borders={top:bd,
 const cell=(t,w,h)=>new TableCell({borders,width:{size:w,type:WidthType.DXA},shading:h?{fill:'E8EEF4',type:ShadingType.CLEAR,color:'auto'}:undefined,margins:{top:60,bottom:60,left:100,right:100},children:[new Paragraph({children:[new TextRun({text:String(t),bold:!!h})]})]});
 const ch=[];
 ch.push(new Paragraph({heading:HeadingLevel.TITLE,children:[new TextRun('Spørsmålsbank – samfunnskunnskap')]}));
-ch.push(P('240 flervalgsspørsmål. ✓ viser det riktige svaret (appen stokker rekkefølgen). Under svarene står tilbakemeldingen eleven får ved riktig og ved feil svar. ID-en (for eksempel skole-01) er den samme som i questions.xml.'));
+ch.push(P(total+' flervalgsspørsmål. ✓ viser det riktige svaret (appen stokker rekkefølgen). Under svarene står tilbakemeldingen eleven får ved riktig og ved feil svar. ID-en (for eksempel skole-01) er den samme som i questions.xml.'));
 let n=0;
 const fbLine=(label,t,keepNext)=>new Paragraph({keepNext,indent:{left:420},spacing:{after:30},children:[new TextRun({text:label+': ',bold:true,color:'555555'}),new TextRun({text:t,italics:true,color:'555555'})]});
 for(const m of mods){
@@ -21,8 +19,8 @@ for(const m of mods){
  let i=0;
  for(const e of m.emner)for(const it of e.items){
    n++;
-   const id=slug[m.tema]+'-'+String(++i).padStart(2,'0');
-   const [fbRiktig,fbFeil]=fb[m.tema][i-1];
+   const id=m.slug+'-'+String(++i).padStart(2,'0');
+   const [fbRiktig,fbFeil]=m.fb[i-1];
    ch.push(new Paragraph({keepNext:true,spacing:{before:180,after:60},children:[new TextRun({text:id+'  ',color:'2E5C8A'}),new TextRun({text:it[0],bold:true})]}));
    [1,2,3].forEach(k=>ch.push(new Paragraph({keepNext:true,indent:{left:420},spacing:{after:30},children:[new TextRun({text:(k===1?'✓ ':'– ')+it[k],bold:k===1})]})));
    ch.push(fbLine('Tilbakemelding riktig',fbRiktig,true));
