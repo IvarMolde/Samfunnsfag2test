@@ -10,15 +10,21 @@ const bd={style:BorderStyle.SINGLE,size:4,color:'BBBBBB'};const borders={top:bd,
 const cell=(t,w,h)=>new TableCell({borders,width:{size:w,type:WidthType.DXA},shading:h?{fill:'E8EEF4',type:ShadingType.CLEAR,color:'auto'}:undefined,margins:{top:60,bottom:60,left:100,right:100},children:[new Paragraph({children:[new TextRun({text:String(t),bold:!!h})]})]});
 const ch=[];
 ch.push(new Paragraph({heading:HeadingLevel.TITLE,children:[new TextRun('Spørsmålsbank – samfunnskunnskap')]}));
-ch.push(P(mods.reduce((a,m)=>a+m.emner.reduce((b,e)=>b+e.items.length,0),0)+' flervalgsspørsmål. Det første svaralternativet er alltid riktig.'));
+ch.push(P(total+' flervalgsspørsmål. ✓ viser det riktige svaret (appen stokker rekkefølgen). Under svarene står tilbakemeldingen eleven får ved riktig og ved feil svar. ID-en (for eksempel skole-01) er den samme som i questions.xml.'));
 let n=0;
+const fbLine=(label,t,keepNext)=>new Paragraph({keepNext,indent:{left:420},spacing:{after:30},children:[new TextRun({text:label+': ',bold:true,color:'555555'}),new TextRun({text:t,italics:true,color:'555555'})]});
 for(const m of mods){
  const c=m.emner.reduce((a,e)=>a+e.items.length,0);
  ch.push(new Paragraph({heading:HeadingLevel.HEADING_1,children:[new TextRun(m.tema+' ('+c+' spørsmål)')]}));
+ let i=0;
  for(const e of m.emner)for(const it of e.items){
    n++;
-   ch.push(new Paragraph({keepNext:true,spacing:{before:180,after:60},children:[new TextRun({text:n+'. '+it[0],bold:true})]}));
-   [1,2,3].forEach((i,k)=>ch.push(new Paragraph({keepNext:k<2,indent:{left:420},spacing:{after:30},children:[new TextRun(it[i])]})));
+   const id=m.slug+'-'+String(++i).padStart(2,'0');
+   const [fbRiktig,fbFeil]=m.fb[i-1];
+   ch.push(new Paragraph({keepNext:true,spacing:{before:180,after:60},children:[new TextRun({text:id+'  ',color:'2E5C8A'}),new TextRun({text:it[0],bold:true})]}));
+   [1,2,3].forEach(k=>ch.push(new Paragraph({keepNext:true,indent:{left:420},spacing:{after:30},children:[new TextRun({text:(k===1?'✓ ':'– ')+it[k],bold:k===1})]})));
+   ch.push(fbLine('Tilbakemelding riktig',fbRiktig,true));
+   ch.push(fbLine('Tilbakemelding feil',fbFeil,false));
  }
 }
 const doc=new Document({

@@ -16,12 +16,12 @@
   </tilbakemeldingsmaler>
   <kategori hovedkategori="Utdanning, kompetanse og arbeidsliv" navn="Skole og utdanning" antall="80">
     <sporsmal id="skole-01">
-      <tekst>Hva bestemte Norge på 1700-tallet?</tekst>
-      <svar riktig="true">Alle barn skal gå på skole, og staten betaler</svar>
-      <svar>Bare barn fra rike familier går på skole</svar>
-      <svar>Foreldrene må selv betale for skolen</svar>
+      <tekst>Hva ble bestemt i Norge på 1700-tallet?</tekst>
+      <svar riktig="true">At alle barn skulle gå på skole</svar>
+      <svar>At bare barn fra rike familier skulle gå på skole</svar>
+      <svar>At bare gutter skulle gå på skole</svar>
       <tilbakemelding>
-        <riktig>Fra 1700-tallet skulle alle barn gå på skole, og staten skulle betale.</riktig>
+        <riktig>På 1700-tallet ble det bestemt at alle barn skulle gå på skole. Skoleplikten kom i 1739.</riktig>
         <feil>Tenk på at Norge ville at alle barn skulle få lære noe, også barn fra fattige familier.</feil>
       </tilbakemelding>
     </sporsmal>
@@ -206,7 +206,7 @@
       </tilbakemelding>
     </sporsmal>
     <sporsmal id="skole-20">
-      <tekst>Hva skjer med elevene etter sommerferien?</tekst>
+      <tekst>Hva skjer med elevene i grunnskolen etter sommerferien?</tekst>
       <svar riktig="true">De begynner automatisk i neste klasse</svar>
       <svar>De må bestå en prøve først</svar>
       <svar>Læreren må godkjenne det først</svar>
@@ -237,12 +237,12 @@
     </sporsmal>
     <sporsmal id="skole-23">
       <tekst>Hva gjelder for læreplanene i grunnskolen?</tekst>
-      <svar riktig="true">Alle elever har den samme læreplanen</svar>
+      <svar riktig="true">Læreplanene er like i hele landet</svar>
       <svar>Hver kommune lager sin egen læreplan</svar>
       <svar>Hver skole lager sin egen læreplan</svar>
       <tilbakemelding>
-        <riktig>Alle elever i Norge følger den samme læreplanen.</riktig>
-        <feil>Læreplanen er lik for hele landet. Det er ikke kommunen eller skolen som lager den.</feil>
+        <riktig>Læreplanene er like i hele landet. Det finnes også egne samiske læreplaner.</riktig>
+        <feil>Læreplanene lages for hele landet. Det er ikke kommunen eller skolen som lager dem.</feil>
       </tilbakemelding>
     </sporsmal>
     <sporsmal id="skole-24">
@@ -357,11 +357,11 @@
     </sporsmal>
     <sporsmal id="skole-35">
       <tekst>Hvorfor jobber elevene ofte i grupper?</tekst>
-      <svar riktig="true">De lærer at alle må hjelpe til</svar>
-      <svar>De lærer å konkurrere mot gruppen</svar>
-      <svar>De lærer å jobbe uten hjelp</svar>
+      <svar riktig="true">For å lære å samarbeide med andre</svar>
+      <svar>For å lære å konkurrere mot hverandre</svar>
+      <svar>For å lære å jobbe uten hjelp fra andre</svar>
       <tilbakemelding>
-        <riktig>Elevene jobber i grupper for å lære at alle må hjelpe til.</riktig>
+        <riktig>Elevene jobber i grupper for å lære å samarbeide med andre.</riktig>
         <feil>Gruppearbeid handler om samarbeid og felles ansvar, ikke om konkurranse.</feil>
       </tilbakemelding>
     </sporsmal>
@@ -377,11 +377,11 @@
     </sporsmal>
     <sporsmal id="skole-37">
       <tekst>Hva får elevene etter yrkesfaglig utdanning?</tekst>
-      <svar riktig="true">Et fagbrev i et praktisk yrke</svar>
+      <svar riktig="true">Et fagbrev eller svennebrev</svar>
       <svar>Et vitnemål fra universitetet</svar>
       <svar>En mastergrad fra en høgskole</svar>
       <tilbakemelding>
-        <riktig>Yrkesfaglig utdanning gir et fagbrev i et praktisk yrke.</riktig>
+        <riktig>Yrkesfaglig utdanning gir fagbrev eller svennebrev i et praktisk yrke.</riktig>
         <feil>Vitnemål og mastergrad hører til andre utdanninger. Yrkesfag gir et bevis for et praktisk yrke.</feil>
       </tilbakemelding>
     </sporsmal>
@@ -407,12 +407,12 @@
     </sporsmal>
     <sporsmal id="skole-40">
       <tekst>Må studenter betale skolepenger på offentlige universiteter?</tekst>
-      <svar riktig="true">Nei, men de må kjøpe bøkene selv</svar>
-      <svar>Ja, de betaler mye hvert semester</svar>
-      <svar>Nei, kommunen betaler for dem</svar>
+      <svar riktig="true">Nei, de fleste betaler bare en liten semesteravgift</svar>
+      <svar>Ja, alle studenter betaler mye hvert semester</svar>
+      <svar>Nei, kommunen betaler hele studiet for dem</svar>
       <tilbakemelding>
-        <riktig>Studentene betaler ikke skolepenger, men må kjøpe bøkene selv.</riktig>
-        <feil>Offentlige universiteter er gratis i Norge, men studentene har noen egne utgifter.</feil>
+        <riktig>De fleste studenter betaler ikke skolepenger, bare en liten semesteravgift. Bøkene må de kjøpe selv.</riktig>
+        <feil>Utdanningen er gratis for de fleste. Noen studenter fra land utenfor EU/EØS må betale, men ikke flyktninger og familiegjenforente.</feil>
       </tilbakemelding>
     </sporsmal>
     <sporsmal id="skole-41">
@@ -447,11 +447,11 @@
     </sporsmal>
     <sporsmal id="skole-44">
       <tekst>Når betaler man vanligvis tilbake lånet fra Lånekassen?</tekst>
-      <svar riktig="true">Etter at man er ferdig å studere</svar>
-      <svar>Hver måned mens man studerer</svar>
-      <svar>Når man har fått fast jobb</svar>
+      <svar riktig="true">Etter at man er ferdig med å studere</svar>
+      <svar>Hver måned mens man fortsatt studerer</svar>
+      <svar>Først når man har fått fast jobb</svar>
       <tilbakemelding>
-        <riktig>Du begynner vanligvis å betale tilbake lånet etter at du er ferdig å studere.</riktig>
+        <riktig>Du begynner vanligvis å betale tilbake lånet etter at du er ferdig med å studere.</riktig>
         <feil>Man betaler ikke mens man studerer, og man trenger ikke vente på fast jobb.</feil>
       </tilbakemelding>
     </sporsmal>
@@ -526,13 +526,13 @@
       </tilbakemelding>
     </sporsmal>
     <sporsmal id="skole-52">
-      <tekst>Hva må voksne (25 år eller eldre) ha for å få rett til videregående skole?</tekst>
-      <svar riktig="true">Grunnskole fra Norge eller utlandet</svar>
-      <svar>Minst to år i Norge før du søker</svar>
-      <svar>En bestått norsktest på nivå B2</svar>
+      <tekst>Hva må voksne ha for å få rett til videregående opplæring?</tekst>
+      <svar riktig="true">Fullført grunnskole, i Norge eller utlandet</svar>
+      <svar>Minst to år med fast bosted i Norge</svar>
+      <svar>En bestått norskprøve på nivå B2 eller C1</svar>
       <tilbakemelding>
-        <riktig>Voksne må ha fullført grunnskole, i Norge eller et annet land.</riktig>
-        <feil>Kravet handler om grunnskole, ikke om norsktest eller antall år i Norge.</feil>
+        <riktig>Voksne som har fullført grunnskole, i Norge eller et annet land, har rett til videregående opplæring. De må også ha lovlig opphold i Norge.</riktig>
+        <feil>Kravet handler om grunnskole, ikke om norskprøve eller antall år i Norge.</feil>
       </tilbakemelding>
     </sporsmal>
     <sporsmal id="skole-53">
@@ -576,12 +576,12 @@
       </tilbakemelding>
     </sporsmal>
     <sporsmal id="skole-57">
-      <tekst>Hvilke nivåer har norskopplæringen?</tekst>
+      <tekst>Hvilke nivåer har norskopplæringen for voksne?</tekst>
       <svar riktig="true">A1, A2, B1 og B2</svar>
       <svar>Nivå 1, 2, 3 og 4</svar>
       <svar>Lav, middels, høy og høyest</svar>
       <tilbakemelding>
-        <riktig>Norskopplæringen har nivåene A1, A2, B1 og B2.</riktig>
+        <riktig>Norskopplæringen har nivåene A1, A2, B1 og B2. Det finnes også en egen norskprøve på nivå C1.</riktig>
         <feil>Nivåene kommer fra et felles europeisk system med bokstav og tall.</feil>
       </tilbakemelding>
     </sporsmal>
@@ -591,7 +591,7 @@
       <svar>Opptil 12 måneder</svar>
       <svar>Opptil 24 måneder</svar>
       <tilbakemelding>
-        <riktig>Med videregående eller høyere utdanning har du opptil 18 måneder.</riktig>
+        <riktig>Med videregående eller høyere utdanning har du opptil 18 måneder. Dette gjelder dem som har rett og plikt til norskopplæring, for eksempel flyktninger.</riktig>
         <feil>Tiden er litt lengre enn ett år, men kortere enn to år.</feil>
       </tilbakemelding>
     </sporsmal>
@@ -601,7 +601,7 @@
       <svar>Opptil fem år</svar>
       <svar>Opptil to år</svar>
       <tilbakemelding>
-        <riktig>Uten videregående skole har du opptil tre år.</riktig>
+        <riktig>Uten videregående skole har du opptil tre år. Dette gjelder dem som har rett og plikt til norskopplæring, for eksempel flyktninger.</riktig>
         <feil>Du har lengre tid enn 18 måneder, men ikke fem år.</feil>
       </tilbakemelding>
     </sporsmal>
@@ -628,7 +628,7 @@
     <sporsmal id="skole-62">
       <tekst>Hva er en god måte å øve norsk på hver dag?</tekst>
       <svar riktig="true">Å snakke norsk med naboer og kolleger</svar>
-      <svar>Å lese norske lærebøker hjemme</svar>
+      <svar>Å snakke morsmålet hjemme og på jobb</svar>
       <svar>Å vente til du snakker helt riktig</svar>
       <tilbakemelding>
         <riktig>Du lærer norsk best når du snakker det med naboer og kolleger.</riktig>
@@ -636,12 +636,12 @@
       </tilbakemelding>
     </sporsmal>
     <sporsmal id="skole-63">
-      <tekst>Hvor mange år har barn rett til opplæring?</tekst>
+      <tekst>Hvor mange år tar grunnskole og videregående vanligvis til sammen?</tekst>
       <svar riktig="true">13 år</svar>
       <svar>10 år</svar>
       <svar>16 år</svar>
       <tilbakemelding>
-        <riktig>Barn har rett til opplæring i 13 år, altså grunnskole og videregående.</riktig>
+        <riktig>Grunnskole og videregående tar vanligvis 13 år til sammen. Yrkesfag med læretid tar ofte litt lenger.</riktig>
         <feil>Tenk på grunnskolen (10 år) pluss videregående (tre år).</feil>
       </tilbakemelding>
     </sporsmal>
@@ -661,8 +661,8 @@
       <svar>Til du har gått tre år på skolen</svar>
       <svar>Til du har fått jobb og bolig</svar>
       <tilbakemelding>
-        <riktig>Du har rett til plass til du har fullført en utdanning.</riktig>
-        <feil>Retten gjelder til du er ferdig utdannet, ikke et bestemt antall år.</feil>
+        <riktig>Du har rett til videregående opplæring til du har fullført og fått studiekompetanse eller yrkeskompetanse.</riktig>
+        <feil>Retten gjelder til du er ferdig, ikke et bestemt antall år.</feil>
       </tilbakemelding>
     </sporsmal>
     <sporsmal id="skole-66">
@@ -806,13 +806,13 @@
       </tilbakemelding>
     </sporsmal>
     <sporsmal id="skole-80">
-      <tekst>Hva bestemmer hvem som får plass på videregående?</tekst>
+      <tekst>Hva avgjør ofte hvilken videregående skole du kommer inn på?</tekst>
       <svar riktig="true">Karakterene fra grunnskolen</svar>
       <svar>Hvem som søker først på nettet</svar>
       <svar>Hvilken jobb foreldrene har</svar>
       <tilbakemelding>
-        <riktig>Karakterene fra grunnskolen avgjør hvem som får plass.</riktig>
-        <feil>Plass avhenger av karakterene dine, ikke av hvem som søker først eller av foreldrenes jobb.</feil>
+        <riktig>Karakterene fra grunnskolen avgjør ofte hvilken skole og hvilket program du kommer inn på.</riktig>
+        <feil>Alle med rett får plass, men karakterene avgjør ofte hvor. Det betyr ikke noe hvem som søker først, eller hva foreldrene jobber med.</feil>
       </tilbakemelding>
     </sporsmal>
   </kategori>
@@ -891,10 +891,10 @@
       <tekst>Hva er et verneombud?</tekst>
       <svar riktig="true">En som passer på sikkerheten for de ansatte</svar>
       <svar>En som forhandler om lønn for lederen</svar>
-      <svar>En som kontrollerer arbeidsplassene</svar>
+      <svar>En som kontrollerer skatten til bedriften</svar>
       <tilbakemelding>
         <riktig>Verneombudet passer på sikkerheten til de ansatte.</riktig>
-        <feil>Verneombudet representerer de ansatte, ikke lederen.</feil>
+        <feil>Verneombudet representerer de ansatte. Det forhandler ikke for lederen og kontrollerer ikke skatt.</feil>
       </tilbakemelding>
     </sporsmal>
     <sporsmal id="arbeid-09">
@@ -904,7 +904,7 @@
       <svar>De som har jobbet lengst bestemmer</svar>
       <tilbakemelding>
         <riktig>Medbestemmelse betyr at de ansatte får si sin mening og være med.</riktig>
-        <feil>Medbestemmelse betyr at flere er med å bestemme, ikke bare sjefen.</feil>
+        <feil>Medbestemmelse betyr at flere er med på å bestemme, ikke bare sjefen.</feil>
       </tilbakemelding>
     </sporsmal>
     <sporsmal id="arbeid-10">
@@ -1008,13 +1008,13 @@
       </tilbakemelding>
     </sporsmal>
     <sporsmal id="arbeid-20">
-      <tekst>Hva er forskjellen på lov og avtale i arbeidslivet?</tekst>
-      <svar riktig="true">Lover gjelder for alle, avtaler for noen bransjer</svar>
-      <svar>Lover gjelder for noen bransjer, avtaler for alle</svar>
+      <tekst>Hva er forskjellen på lov og tariffavtale i arbeidslivet?</tekst>
+      <svar riktig="true">Lover gjelder for alle, tariffavtaler der de er inngått</svar>
+      <svar>Tariffavtaler gjelder for alle, lover for noen få</svar>
       <svar>Lover gjelder i staten, avtaler i private bedrifter</svar>
       <tilbakemelding>
-        <riktig>Lover gjelder for alle, og avtaler gjelder for bestemte bransjer.</riktig>
-        <feil>Husk: Lover gjelder bredt, avtaler er mer spesielle.</feil>
+        <riktig>Lover gjelder for alle. Tariffavtaler gjelder der de er inngått.</riktig>
+        <feil>En tariffavtale er en avtale mellom fagforening og arbeidsgiver. Lovene gjelder for alle.</feil>
       </tilbakemelding>
     </sporsmal>
     <sporsmal id="arbeid-21">
@@ -1079,12 +1079,12 @@
     </sporsmal>
     <sporsmal id="arbeid-27">
       <tekst>Hvor finnes Nav-kontor?</tekst>
-      <svar riktig="true">I alle kommuner i landet</svar>
+      <svar riktig="true">Over hele landet, nær der folk bor</svar>
       <svar>I Oslo, Bergen og Trondheim</svar>
       <svar>Ingen kontorer, hjelp på nett</svar>
       <tilbakemelding>
-        <riktig>Det finnes et Nav-kontor i alle kommuner.</riktig>
-        <feil>Nav er lokalt og finnes over hele landet.</feil>
+        <riktig>Nav har kontorer over hele landet. Noen små kommuner deler kontor med en nabokommune.</riktig>
+        <feil>Nav er lokalt og finnes over hele landet, ikke bare i de store byene.</feil>
       </tilbakemelding>
     </sporsmal>
     <sporsmal id="arbeid-28">
@@ -1169,11 +1169,11 @@
     </sporsmal>
     <sporsmal id="arbeid-36">
       <tekst>Hva bør du gjøre hvis du får ny jobb med høyere lønn?</tekst>
-      <svar riktig="true">Si fra til Skatteetaten på nett</svar>
+      <svar riktig="true">Endre skattekortet hos Skatteetaten</svar>
       <svar>Si fra til Nav-kontoret i kommunen</svar>
       <svar>Si fra til kommunen din</svar>
       <tilbakemelding>
-        <riktig>Si fra til Skatteetaten på nett når du får høyere lønn.</riktig>
+        <riktig>Endre skattekortet hos Skatteetaten når du får høyere lønn, så du betaler riktig skatt.</riktig>
         <feil>Skatt hører til Skatteetaten, ikke til Nav eller kommunen.</feil>
       </tilbakemelding>
     </sporsmal>
@@ -1219,22 +1219,22 @@
     </sporsmal>
     <sporsmal id="arbeid-41">
       <tekst>Hva er svart arbeid?</tekst>
-      <svar riktig="true">Jobb uten kontrakt og uten å betale skatt</svar>
-      <svar>Jobb med ulovlige varer, som narkotika</svar>
-      <svar>Jobb med ekstra lønn for farlig arbeid</svar>
+      <svar riktig="true">Jobb der lønnen ikke blir meldt til Skatteetaten</svar>
+      <svar>Jobb med ulovlige varer, for eksempel narkotika</svar>
+      <svar>Jobb med ekstra lønn fordi arbeidet er farlig</svar>
       <tilbakemelding>
-        <riktig>Svart arbeid er jobb uten kontrakt og uten skatt.</riktig>
-        <feil>Svart arbeid handler om kontrakt og skatt, ikke om ulovlige varer eller farlig arbeid.</feil>
+        <riktig>Svart arbeid er jobb der lønnen ikke blir meldt til Skatteetaten, og der det ikke blir betalt skatt.</riktig>
+        <feil>Svart arbeid handler om skatt og rettigheter, ikke om ulovlige varer eller farlig arbeid.</feil>
       </tilbakemelding>
     </sporsmal>
     <sporsmal id="arbeid-42">
       <tekst>Hva kan skje når du jobber svart?</tekst>
-      <svar riktig="true">Du får ikke feriepenger og dagpenger</svar>
-      <svar>Du får sykepenger og forsikring på jobb</svar>
+      <svar riktig="true">Du kan miste sykepenger, dagpenger og pensjon</svar>
+      <svar>Du får mer lønn og trygge rettigheter</svar>
       <svar>Du får høyere pensjon når du er gammel</svar>
       <tilbakemelding>
-        <riktig>Når du jobber svart, får du ikke feriepenger og dagpenger.</riktig>
-        <feil>Svart arbeid gir færre rettigheter, ikke flere.</feil>
+        <riktig>Når du jobber svart, kan du miste sykepenger, dagpenger og pensjon.</riktig>
+        <feil>Inntekten blir ikke registrert. Da får du færre rettigheter, ikke flere.</feil>
       </tilbakemelding>
     </sporsmal>
     <sporsmal id="arbeid-43">
@@ -1298,12 +1298,12 @@
       </tilbakemelding>
     </sporsmal>
     <sporsmal id="arbeid-49">
-      <tekst>Hvor mange av innbyggerne jobbet i jordbruk i 1950?</tekst>
+      <tekst>Hvor mange av dem som jobbet, var i jordbruket i 1950?</tekst>
       <svar riktig="true">Mer enn 20 prosent</svar>
       <svar>Omtrent 5 prosent</svar>
       <svar>Mer enn 50 prosent</svar>
       <tilbakemelding>
-        <riktig>I 1950 jobbet mer enn 20 prosent i jordbruket.</riktig>
+        <riktig>I 1950 var mer enn 20 prosent av dem som jobbet, i jordbruket.</riktig>
         <feil>Andelen var høy, men ikke halvparten.</feil>
       </tilbakemelding>
     </sporsmal>
@@ -1329,11 +1329,11 @@
     </sporsmal>
     <sporsmal id="arbeid-52">
       <tekst>Hva er viktig på et jobbintervju?</tekst>
-      <svar riktig="true">Å gi et fast håndtrykk og se på dem</svar>
+      <svar riktig="true">Å hilse høflig og se dem i øynene</svar>
       <svar>Å se bort og snakke så lite som mulig</svar>
       <svar>Å komme sent, men være rolig og glad</svar>
       <tilbakemelding>
-        <riktig>På intervju bør du gi et fast håndtrykk og se folk i øynene.</riktig>
+        <riktig>På intervju bør du hilse høflig og se folk i øynene.</riktig>
         <feil>Gode intervjuer viser interesse. Se på dem, snakk og kom i tide.</feil>
       </tilbakemelding>
     </sporsmal>
@@ -1358,13 +1358,13 @@
       </tilbakemelding>
     </sporsmal>
     <sporsmal id="arbeid-55">
-      <tekst>Hva gjelder for ledige jobber i Norge, selv om få er arbeidsledige?</tekst>
-      <svar riktig="true">Det er ofte mange som søker på jobbene</svar>
-      <svar>Du får komme på intervju hvis du søker</svar>
-      <svar>Man trenger ikke CV når få er arbeidsledige</svar>
+      <tekst>Det er få arbeidsledige i Norge. Hva er likevel vanlig når en jobb lyses ut?</tekst>
+      <svar riktig="true">At mange søker på den samme jobben</svar>
+      <svar>At de som søker, får komme på intervju</svar>
+      <svar>At du ikke trenger å sende CV</svar>
       <tilbakemelding>
-        <riktig>Det er ofte mange som søker på de samme jobbene.</riktig>
-        <feil>Selv med få arbeidsledige er konkurransen stor. Du trenger fortsatt CV.</feil>
+        <riktig>Det er ofte mange som søker på den samme jobben.</riktig>
+        <feil>Selv med få arbeidsledige er konkurransen stor. Ikke alle får intervju, og du trenger CV.</feil>
       </tilbakemelding>
     </sporsmal>
     <sporsmal id="arbeid-56">
@@ -1519,11 +1519,11 @@
     </sporsmal>
     <sporsmal id="arbeid-71">
       <tekst>Hvem er arbeidsgiver i offentlig sektor?</tekst>
-      <svar riktig="true">Staten, fylket eller kommunen</svar>
+      <svar riktig="true">Staten, fylkeskommunen eller kommunen</svar>
       <svar>En privat eier eller et aksjeselskap</svar>
       <svar>En fagforening eller en forening</svar>
       <tilbakemelding>
-        <riktig>Staten, fylket eller kommunen er arbeidsgiver i offentlig sektor.</riktig>
+        <riktig>Staten, fylkeskommunen eller kommunen er arbeidsgiver i offentlig sektor.</riktig>
         <feil>Offentlig sektor eies av fellesskapet, ikke av private.</feil>
       </tilbakemelding>
     </sporsmal>
@@ -1538,13 +1538,13 @@
       </tilbakemelding>
     </sporsmal>
     <sporsmal id="arbeid-73">
-      <tekst>Hvor mange jobber i Norge blir ikke lyst ut?</tekst>
-      <svar riktig="true">Mellom 60 og 80 prosent</svar>
-      <svar>Mellom 10 og 20 prosent</svar>
-      <svar>Mellom 30 og 40 prosent</svar>
+      <tekst>Mange jobber blir ikke lyst ut. Hvordan kan du få vite om dem?</tekst>
+      <svar riktig="true">Gjennom nettverket ditt</svar>
+      <svar>Gjennom skattemeldingen</svar>
+      <svar>Gjennom Lånekassen</svar>
       <tilbakemelding>
-        <riktig>Mellom 60 og 80 prosent av jobbene lyses ikke ut.</riktig>
-        <feil>De fleste jobber lyses ikke ut, så tallet er høyt.</feil>
+        <riktig>Mange får jobb gjennom nettverket sitt, særlig i små bedrifter.</riktig>
+        <feil>Nettverket er alle du kjenner. Skatteetaten og Lånekassen formidler ikke jobber.</feil>
       </tilbakemelding>
     </sporsmal>
     <sporsmal id="arbeid-74">
@@ -1621,11 +1621,11 @@
   <kategori hovedkategori="Utdanning, kompetanse og arbeidsliv" navn="Kritisk tenkning og digital dømmekraft" antall="80">
     <sporsmal id="kritisk-01">
       <tekst>Hva er kildekritikk?</tekst>
-      <svar riktig="true">Å tenke kritisk om det du leser</svar>
+      <svar riktig="true">Å vurdere om informasjonen stemmer</svar>
       <svar>Å være uenig i det du leser</svar>
-      <svar>Å ikke like det du leser</svar>
+      <svar>Å lese det du liker best</svar>
       <tilbakemelding>
-        <riktig>Kildekritikk betyr å tenke kritisk om det du leser.</riktig>
+        <riktig>Kildekritikk betyr å vurdere om informasjonen stemmer, og hvem som står bak.</riktig>
         <feil>Kildekritikk er ikke å være uenig. Det er å vurdere om noe stemmer.</feil>
       </tilbakemelding>
     </sporsmal>
@@ -1676,7 +1676,7 @@
       <svar>At alle skal være enige med læreren</svar>
       <tilbakemelding>
         <riktig>I Norge kan alle ha sin egen mening.</riktig>
-        <feil>I Norge er det fint å ha egne meninger. Man må ikke være enig med læreren.</feil>
+        <feil>I Norge er det fint å ha egne meninger. Du trenger ikke å være enig med læreren.</feil>
       </tilbakemelding>
     </sporsmal>
     <sporsmal id="kritisk-07">
@@ -1691,12 +1691,12 @@
     </sporsmal>
     <sporsmal id="kritisk-08">
       <tekst>Hva må du gjøre hvis du bruker andres tekster, bilder eller musikk?</tekst>
-      <svar riktig="true">Oppgi hvem som har laget det</svar>
+      <svar riktig="true">Få lov og oppgi hvem som har laget det</svar>
       <svar>Endre litt på verket så det blir ditt</svar>
-      <svar>Spørre vennene dine om lov</svar>
+      <svar>Spørre vennene dine om det er greit</svar>
       <tilbakemelding>
-        <riktig>Du må oppgi hvem som har laget det du bruker.</riktig>
-        <feil>Du kan ikke ta andres verk og si at det er ditt eget.</feil>
+        <riktig>Du må som regel få lov fra den som har laget verket, og oppgi navnet.</riktig>
+        <feil>Det er ikke nok å endre litt eller spørre vennene dine. Den som har laget verket, bestemmer.</feil>
       </tilbakemelding>
     </sporsmal>
     <sporsmal id="kritisk-09">
@@ -1801,12 +1801,12 @@
     </sporsmal>
     <sporsmal id="kritisk-19">
       <tekst>Hva er forbudt å skrive på nettet?</tekst>
-      <svar riktig="true">Rasistiske og diskriminerende utsagn</svar>
+      <svar riktig="true">Trusler og hatefulle ytringer mot noen</svar>
       <svar>Negative meninger om det norske samfunnet</svar>
       <svar>Kritikk av politikere og kjente personer</svar>
       <tilbakemelding>
-        <riktig>Rasistiske og diskriminerende utsagn er forbudt.</riktig>
-        <feil>Du kan kritisere og ha negative meninger, men du kan ikke krenke grupper.</feil>
+        <riktig>Trusler og hatefulle ytringer er forbudt, for eksempel mot noen på grunn av hudfarge eller religion.</riktig>
+        <feil>Du kan kritisere og ha negative meninger. Men trusler og hatefulle ytringer er forbudt.</feil>
       </tilbakemelding>
     </sporsmal>
     <sporsmal id="kritisk-20">
@@ -1861,12 +1861,12 @@
     </sporsmal>
     <sporsmal id="kritisk-25">
       <tekst>Hva betyr privatliv?</tekst>
-      <svar riktig="true">Ting som hører til deg og dine</svar>
+      <svar riktig="true">Ting som bare gjelder deg og familien din</svar>
       <svar>Ting du deler med kollegene dine</svar>
       <svar>Ting som staten bestemmer over deg</svar>
       <tilbakemelding>
-        <riktig>Privatliv er ting som hører til deg og dine nærmeste.</riktig>
-        <feil>Privat betyr at det bare gjelder deg og dine, ikke jobben eller staten.</feil>
+        <riktig>Privatliv er ting som bare gjelder deg og familien din.</riktig>
+        <feil>Privat betyr at det gjelder deg og dine nærmeste, ikke jobben eller staten.</feil>
       </tilbakemelding>
     </sporsmal>
     <sporsmal id="kritisk-26">
@@ -1880,20 +1880,20 @@
       </tilbakemelding>
     </sporsmal>
     <sporsmal id="kritisk-27">
-      <tekst>Noen deler et privat bilde av deg og skriver løgn om deg. Hva er dette?</tekst>
-      <svar riktig="true">Ulovlig, og du kan melde det til politiet</svar>
-      <svar>Lovlig, fordi det er ytringsfrihet</svar>
-      <svar>Lovlig, hvis profilen er offentlig</svar>
+      <tekst>Noen deler et privat bilde av deg uten å spørre deg. Hva er dette?</tekst>
+      <svar riktig="true">Det kan være ulovlig, og du kan melde det</svar>
+      <svar>Det er lovlig, fordi det er ytringsfrihet</svar>
+      <svar>Det er lovlig, hvis profilen er offentlig</svar>
       <tilbakemelding>
-        <riktig>Det er ulovlig, og du kan melde det til politiet.</riktig>
-        <feil>Ytringsfriheten gir ikke rett til å dele private bilder eller skrive løgn om andre.</feil>
+        <riktig>Det kan være ulovlig å dele private bilder av andre. Du kan melde det til politiet.</riktig>
+        <feil>Ytringsfriheten gir ikke rett til å dele private bilder av andre uten lov.</feil>
       </tilbakemelding>
     </sporsmal>
     <sporsmal id="kritisk-28">
       <tekst>Hvorfor er det viktig å tenke på hva du deler på nettet?</tekst>
       <svar riktig="true">Andre kan få vite ting om deg og bruke dem</svar>
       <svar>Det du deler blir slettet etter noen uker</svar>
-      <svar>Det er nærmeste venner som ser det du deler</svar>
+      <svar>De nærmeste vennene dine er de eneste som ser det</svar>
       <tilbakemelding>
         <riktig>Andre kan få vite ting om deg og bruke dem.</riktig>
         <feil>Det du deler, kan bli værende og kan sees av flere enn vennene dine.</feil>
@@ -1921,11 +1921,11 @@
     </sporsmal>
     <sporsmal id="kritisk-31">
       <tekst>Hva er en pålitelig kilde?</tekst>
-      <svar riktig="true">En kilde som sier hvem som står bak</svar>
-      <svar>En kilde som har mange følgere</svar>
-      <svar>En kilde som bruker store overskrifter</svar>
+      <svar riktig="true">En kjent kilde som viser hvor fakta kommer fra</svar>
+      <svar>En kilde som har svært mange følgere</svar>
+      <svar>En kilde som bruker store, sterke overskrifter</svar>
       <tilbakemelding>
-        <riktig>En pålitelig kilde sier hvem som står bak.</riktig>
+        <riktig>En pålitelig kilde sier hvem som står bak, og viser hvor fakta kommer fra.</riktig>
         <feil>Mange følgere og store overskrifter sier ikke at noe er pålitelig.</feil>
       </tilbakemelding>
     </sporsmal>
@@ -2160,13 +2160,13 @@
       </tilbakemelding>
     </sporsmal>
     <sporsmal id="kritisk-55">
-      <tekst>Hva er et personnummer?</tekst>
+      <tekst>Hva er et fødselsnummer (personnummer)?</tekst>
       <svar riktig="true">Et nummer med 11 siffer som er ditt</svar>
       <svar>Et nummer som viser hvor mye du tjener</svar>
       <svar>Et nummer du får når du kjøper bolig</svar>
       <tilbakemelding>
-        <riktig>Personnummeret er et nummer med 11 siffer som er ditt.</riktig>
-        <feil>Personnummeret identifiserer deg. Det sier ikke noe om lønn eller bolig.</feil>
+        <riktig>Fødselsnummeret har 11 siffer og er bare ditt. Mange kaller det personnummer.</riktig>
+        <feil>Nummeret viser hvem du er. Det sier ikke noe om lønn eller bolig.</feil>
       </tilbakemelding>
     </sporsmal>
     <sporsmal id="kritisk-56">
@@ -2292,21 +2292,21 @@
     <sporsmal id="kritisk-68">
       <tekst>Hva er et tegn på at en e-post kan være svindel?</tekst>
       <svar riktig="true">Den har mange skrivefeil og haster med svar</svar>
-      <svar>Den kommer fra en kollega du kjenner</svar>
+      <svar>Den har riktig navn og logo fra banken</svar>
       <svar>Den kommer fra den vanlige bankadressen din</svar>
       <tilbakemelding>
-        <riktig>Mange skrivefeil og hast er tegn på svindel.</riktig>
-        <feil>Meldinger fra folk du kjenner er ofte trygge. Svindlere vil at du skal skynde deg.</feil>
+        <riktig>Mange skrivefeil og hast kan være tegn på svindel.</riktig>
+        <feil>Svindlere vil at du skal skynde deg. Vær forsiktig, også når meldingen ser ut til å komme fra en du kjenner.</feil>
       </tilbakemelding>
     </sporsmal>
     <sporsmal id="kritisk-69">
       <tekst>Hvorfor er det risikabelt å bruke åpent wifi til nettbank?</tekst>
-      <svar riktig="true">Andre kan se hva du gjør på nettet</svar>
-      <svar>Wifi er ulovlig å bruke i Norge</svar>
-      <svar>Nettbanken fungerer ikke på kafé</svar>
+      <svar riktig="true">Noen kan lage et falskt wifi og lure deg</svar>
+      <svar>Wifi er ulovlig å bruke på kafé i Norge</svar>
+      <svar>Nettbanken virker ikke når du er på kafé</svar>
       <tilbakemelding>
-        <riktig>Andre kan se hva du gjør på åpent wifi.</riktig>
-        <feil>Åpent wifi er ikke ulovlig, men det er usikkert.</feil>
+        <riktig>Noen kan lage et falskt wifi-nett og lure deg. Bruk heller mobildata til nettbank.</riktig>
+        <feil>Åpent wifi er ikke ulovlig, men det kan være usikkert.</feil>
       </tilbakemelding>
     </sporsmal>
     <sporsmal id="kritisk-70">
