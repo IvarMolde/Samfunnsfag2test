@@ -51,7 +51,7 @@ Når spørsmålene er lagt inn, blir undertemaene med i øvingen og i prøvens b
 - Bestått er 80 % riktige. Det er 16 av 20, 24 av 30 og 32 av 40.
 - Navn er valgfritt. Det vises bare på resultatet og på diplomet.
 - Ingenting om eleven lagres. En sideoppdatering sletter fremdriften.
-- Utskriften er et diplom. Det viser logo, dato, navn hvis det er fylt inn, poengsum og tydelig bestått eller ikke bestått. Spørsmålene er ikke med. Diplomet er en øvingsprøve, ikke et offisielt dokument.
+- Utskriften er et diplom. Det viser logo, dato, navn hvis det er fylt inn, poengsum og tydelig bestått eller ikke bestått. Spørsmålene er ikke med. Nederst står det: «Diplomet er resultatet fra en øvingsprøve, ikke en godkjenning på samfunnfagsprøven fra norske myndigheter.»
 
 ## GitHub Pages
 
