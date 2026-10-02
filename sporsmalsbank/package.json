@@ -5,9 +5,10 @@
   "scripts": {
     "kontroll": "node scripts/kvalitetskontroll.js",
     "xml": "node scripts/bygg-xml.js",
+    "appxml": "node scripts/bygg-appxml.js",
     "docx": "node scripts/bygg-docx.js",
     "prototype": "node scripts/bygg-prototype.js",
-    "bygg": "npm run kontroll && npm run xml && npm run docx && npm run prototype"
+    "bygg": "npm run kontroll && npm run xml && npm run appxml && npm run docx && npm run prototype"
   },
   "devDependencies": { "docx": "^9.0.0" }
 }

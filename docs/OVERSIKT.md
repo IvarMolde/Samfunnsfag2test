@@ -22,16 +22,11 @@ npm run bygg        # kontroll + XML + Word + prototype
 
 `ut/` og `prototype/index.html` kan alltid bygges på nytt fra `kilde/`. Rediger kilden, ikke de genererte filene.
 
-## Forskjeller mellom eksisterende app og ny bank
+## Appen i rotmappen
 
-| | Eksisterende app (rot) | Ny bank (`sporsmalsbank/`) |
-|---|---|---|
-| Spørsmål | 150, kategori «Et liv i Norge» m.fl. | 240 (Skole og utdanning, Arbeidsliv, Kritisk tenkning), 80 per tema |
-| XML-format | `questionBank/question/option` (engelske navn) | `sporsmalsbank/sporsmal/svar` med tilbakemelding |
-| Svarvalg | 20, 30 eller 50 | 30, 36 eller 40 (portalen skal ha 20/30/40) |
-| Riktig svar | Alternativ A markert `correct="true"` | Første svar er alltid riktig |
+De gamle 150 spørsmålene er fjernet fra `questions.xml` (de ligger i git-historikken). Filen genereres nå fra `sporsmalsbank/kilde/` med `npm run bygg`, og inneholder de 240 spørsmålene med tilbakemelding for riktig og feil svar. `app.js` leser den nye tilbakemeldingen og velger en tilfeldig åpning («Korrekt!», «Nesten, men ikke korrekt.» osv.).
 
-Hvilket XML-format portalen skal bruke, må avgjøres. Forslag til v1.2 står i `docs/PORTAL_BYGGEBESKRIVELSE.md`, kapittel 2.
+Ikke gjort ennå: valg av 20/30/40 (appen har 20/30/50), lik vekting mellom temaene i trekket, statusbar, utskrift med navn, prøvemodus med tidtaker og nytt design. Se `docs/PORTAL_BYGGEBESKRIVELSE.md`.
 
 ## Kjente begrensninger
 

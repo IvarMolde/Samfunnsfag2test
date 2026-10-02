@@ -3,7 +3,8 @@
 En statisk webapp for voksne som øver til prøve i samfunnskunnskap.
 
 ## Innhold
-- 150 omskrevne spørsmål på omtrent A2-nivå.
+- 240 spørsmål på A2-nivå (80 per tema: Skole og utdanning, Arbeidsliv, Kritisk tenkning og digital dømmekraft).
+- Tilbakemelding etter hvert svar i øvingsmodus, ulik for riktig og feil svar.
 - Ett korrekt svar per spørsmål.
 - Spørsmål trekkes tilfeldig.
 - Svaralternativene stokkes ved hver ny prøve.
@@ -26,4 +27,4 @@ En statisk webapp for voksne som øver til prøve i samfunnskunnskap.
 Ikke åpne `index.html` direkte som en `file://`-fil dersom nettleseren blokkerer lokal lasting av XML. GitHub Pages fungerer fordi filene leveres via HTTP/HTTPS.
 
 ## Faglig kvalitet
-Spørsmålene er språklig omskrevet fra den opplastede spørsmålsbanken og holdt på A2-nivå så langt det er mulig. Regelavhengige spørsmål er kontrollert mot UDI/IMDi. Dette er en øvingsprøve, ikke en offisiell eller psykometrisk validert norsk prøve.
+Spørsmålene er skrevet på A2-nivå med utgangspunkt i samfunnskunnskap.no. Kilden ligger i `sporsmalsbank/kilde/`, og `questions.xml` genereres derfra med `npm run bygg` i `sporsmalsbank/`. Rediger kilden, ikke `questions.xml`. Dette er en øvingsprøve, ikke en offisiell eller psykometrisk validert norsk prøve.

@@ -1,4 +1,4 @@
-let bank=[], quiz=[], current=0, score=0, mode="practice", selectedCount=20, answers=[];
+let openers={correct:[],wrong:[]}, bank=[], quiz=[], current=0, score=0, mode="practice", selectedCount=20, answers=[];
 
 const $=s=>document.querySelector(s);
 const screens={start:$("#startScreen"),quiz:$("#quizScreen"),result:$("#resultScreen")};
@@ -10,9 +10,15 @@ async function loadBank(){
     id:q.getAttribute("id"), category:q.getAttribute("category"),
     text:q.querySelector("text").textContent,
     options:[...q.querySelectorAll("option")].map(o=>({text:o.textContent,correct:o.getAttribute("correct")==="true"})),
-    feedback:q.querySelector("feedback").textContent
+    feedbackCorrect:q.querySelector("feedback correct").textContent,
+    feedbackWrong:q.querySelector("feedback wrong").textContent
   }));
+  openers={
+    correct:[...doc.querySelectorAll('opener[type="correct"]')].map(o=>o.textContent),
+    wrong:[...doc.querySelectorAll('opener[type="wrong"]')].map(o=>o.textContent)
+  };
 }
+function pick(a,fallback){return a&&a.length?a[Math.floor(Math.random()*a.length)]:fallback}
 function shuffle(a){return [...a].sort(()=>Math.random()-.5)}
 function start(){
   const name=$("#studentName").value.trim();
@@ -52,7 +58,8 @@ function choose(i){
     const correctIdx=q.options.findIndex(x=>x.correct);
     if(correctIdx>=0)[...$("#options").children][correctIdx].classList.add("correct");
     $("#feedback").hidden=false;$("#feedback").className=`feedback ${picked.correct?"correct":"wrong"}`;
-    $("#feedback").innerHTML=`<strong>${picked.correct?"✓ Riktig!":"✕ Ikke riktig."}</strong><br>${q.feedback}`;
+    const opener=picked.correct?pick(openers.correct,"Riktig!"):pick(openers.wrong,"Ikke riktig.");
+    $("#feedback").innerHTML=`<strong>${picked.correct?"✓":"✕"} ${opener}</strong><br>${picked.correct?q.feedbackCorrect:q.feedbackWrong}`;
   }
   $("#nextBtn").disabled=false;$("#scoreLive").textContent=mode==="practice"?`${score} riktige`:"";
 }
