@@ -64,6 +64,16 @@ for (const [main, cats] of Object.entries(EMNER)) for (const [cat, emner] of Obj
   });
 }
 
+test("To valgte undertemaer får like mange spørsmål", () => {
+  const own = bank.filter(q => q.category === "Helse" || q.category === "Historie");
+  for (let t = 0; t < 50; t++) {
+    const q = drawBalanced(own, 20, seeded(t));
+    assert.equal(q.length, 20);
+    const per = count(q, "category");
+    assert.deepEqual(per, { Helse: 10, Historie: 10 });
+  }
+});
+
 test("Alle temaer og prøven (38) fordeler jevnt mellom de 13 kategoriene", () => {
   for (let t = 0; t < 200; t++) {
     const q = drawBalanced(bank, 38, seeded(t));

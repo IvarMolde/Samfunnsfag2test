@@ -8,7 +8,7 @@
   <link rel="preload" href="fonts/lexend-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="fonts/lexend-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
   <title>Øv til prøven i samfunnskunnskap</title>
-  <link rel="stylesheet" href="style.css?v=11">
+  <link rel="stylesheet" href="style.css?v=12">
 </head>
 <body>
   <a class="skip" href="#main">Hopp til innhold</a>
@@ -47,11 +47,11 @@
           <div class="field-label" id="scopeLabel">Hva vil du øve på?</div>
           <div class="mode-grid" role="group" aria-labelledby="scopeLabel">
             <button type="button" class="pick selected" id="scopeAll" data-scope="all" aria-pressed="true"><strong>Alle temaer</strong><small>Like mange spørsmål fra hvert undertema.</small></button>
-            <button type="button" class="pick" id="scopeOne" data-scope="one" aria-pressed="false"><strong>Ett undertema</strong><small>Du velger hovedtema, og deretter ett undertema.</small></button>
+            <button type="button" class="pick" id="scopeOne" data-scope="one" aria-pressed="false"><strong>Velg undertemaer</strong><small>Du velger ett eller flere. Spørsmålene fordeles likt.</small></button>
           </div>
           <p class="hint" id="scopeAllNote">Du får like mange spørsmål fra hvert undertema som har spørsmål.</p>
           <div id="themePicker" hidden></div>
-          <p class="hint" id="scopeHint" hidden>Velg et undertema for å starte.</p>
+          <p class="hint" id="scopeHint" hidden>Velg minst ett undertema for å starte.</p>
         </div>
         <div id="testExplain" class="notice" hidden>
           <p>Du kan ikke velge antall spørsmål i prøvemodus. Du får alltid 38 spørsmål. De hentes tilfeldig fra alle temaene, med like mange fra hvert undertema.</p>
@@ -180,7 +180,7 @@
       <div class="about-body">
         <p>Dette er en øvingsprøve i samfunnskunnskap. Det er ikke den offisielle prøven.</p>
         <h3>Øving</h3>
-        <p>Du får vite med en gang om svaret er riktig. Du kan ta 20, 30 eller 40 spørsmål. Du kan øve på ett undertema, eller på alle temaene.</p>
+        <p>Du får vite med en gang om svaret er riktig. Du kan ta 20, 30 eller 40 spørsmål. Du kan øve på alle temaene, eller velge ett eller flere undertemaer. Spørsmålene fordeles likt på de temaene du velger.</p>
         <h3>Prøve</h3>
         <p>Du kan ikke velge antall spørsmål. Prøven har alltid 38 spørsmål. De trekkes tilfeldig fra alle temaene, med like mange fra hvert tema. Du får ikke vite om svaret er riktig før du leverer. Du kan gå tilbake og endre svar.</p>
         <h3>Resultat</h3>
@@ -192,6 +192,6 @@
       </div>
     </div>
   </div>
-  <script type="module" src="app.js?v=7"></script>
+  <script type="module" src="app.js?v=8"></script>
 </body>
 </html>

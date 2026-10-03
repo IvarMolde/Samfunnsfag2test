@@ -201,6 +201,7 @@ dialog h2{font-size:1.3rem;margin-bottom:8px}
 .theme-toggle:hover{background:var(--primary);color:var(--primary-ink)}
 .theme-arrow{display:inline-block;width:.65rem;height:.65rem;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:rotate(45deg);translate:0 -2px}
 .theme-card.open .theme-arrow{transform:rotate(-135deg);translate:0 2px}
+.theme-picked{margin:0;padding:0 16px 12px;font-weight:700;color:var(--sel)}
 .theme-drop{display:grid;gap:8px;padding:12px;background:var(--primary)}
 .theme-drop .pick{background:transparent;color:var(--primary-ink);border-color:rgba(255,255,255,.35)}
 .theme-drop .pick:hover:not(:disabled){background:rgba(255,255,255,.12);border-color:#fff}
