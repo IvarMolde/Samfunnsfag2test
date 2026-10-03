@@ -207,11 +207,6 @@ dialog h2{font-size:1.3rem;margin-bottom:8px}
 .theme-drop .pick:hover:not(:disabled){background:rgba(255,255,255,.12);border-color:#fff}
 .theme-drop .pick.selected{background:var(--sel-soft);color:var(--ink);border-color:var(--sel)}
 .theme-drop .pick:disabled{color:rgba(255,255,255,.65);background:transparent}
-.theme-banner{margin:0 0 14px;overflow:hidden;border-radius:8px;border:1px solid var(--line)}
-.theme-banner img{display:block;width:100%;height:120px;object-fit:cover}
-.theme-banner[data-theme=utdanning] img{object-position:70% 35%}
-.theme-banner[data-theme=familie] img{object-position:70% 20%}
-.theme-banner[data-theme=norge] img{object-position:50% 80%}
 
 @media(max-width:700px){
   .site-header{flex-wrap:wrap}
@@ -249,7 +244,7 @@ dialog h2{font-size:1.3rem;margin-bottom:8px}
 @media print{
   :root{--bg:#fff;--surface:#fff;--ink:#143d56}
   body{background:#fff}
-  .screen:not(#resultScreen),dialog,.info-modal,.skip,.site-header,.site-footer,.site-meta,.quiz-bar,.progress,.theme-banner{display:none!important}
+  .screen:not(#resultScreen),dialog,.info-modal,.skip,.site-header,.site-footer,.site-meta,.quiz-bar,.progress{display:none!important}
   #resultScreen{display:block!important}
   #resultScreen .panel{margin:0;padding:0;border:0;max-width:none;box-shadow:none;background:#fff}
   #resultScreen .panel>:not(#diploma){display:none!important}
