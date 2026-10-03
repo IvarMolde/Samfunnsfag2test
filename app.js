@@ -383,6 +383,9 @@ function renderPicker() {
   label.className = "field-label";
   label.textContent = "Velg ett eller flere undertemaer";
   box.appendChild(label);
+  const grid = document.createElement("div");
+  grid.className = "theme-grid";
+  let openList = null;
   CATALOG.forEach(group => {
     const open = state.mainTheme === group.id;
     const card = document.createElement("article");
@@ -423,11 +426,11 @@ function renderPicker() {
       mark.textContent = nSel === 1 ? "1 tema valgt" : `${nSel} temaer valgt`;
       card.appendChild(mark);
     }
-    const list = document.createElement("div");
-    list.id = `theme-list-${group.id}`;
-    list.className = "theme-drop";
-    list.hidden = !open;
+    grid.appendChild(card);
     if (open) {
+      const list = document.createElement("div");
+      list.id = `theme-list-${group.id}`;
+      list.className = "theme-drop";
       group.subs.forEach(name => {
         const ok = ready.has(name);
         const b = document.createElement("button");
@@ -447,10 +450,11 @@ function renderPicker() {
         };
         list.appendChild(b);
       });
+      openList = list;
     }
-    card.appendChild(list);
-    box.appendChild(card);
   });
+  box.appendChild(grid);
+  if (openList) box.appendChild(openList);
 }
 
 function setScope(scope) {
