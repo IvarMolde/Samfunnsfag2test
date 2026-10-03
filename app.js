@@ -420,12 +420,10 @@ function renderPicker() {
     head.append(title, toggle);
     card.appendChild(head);
     const nSel = group.subs.filter(n => state.subthemes.includes(n)).length;
-    if (nSel) {
-      const mark = document.createElement("p");
-      mark.className = "theme-picked";
-      mark.textContent = nSel === 1 ? "1 tema valgt" : `${nSel} temaer valgt`;
-      card.appendChild(mark);
-    }
+    const mark = document.createElement("p");
+    mark.className = "theme-picked";
+    mark.textContent = nSel === 0 ? "" : nSel === 1 ? "1 tema valgt" : `${nSel} temaer valgt`;
+    card.appendChild(mark);
     grid.appendChild(card);
     if (open) {
       const list = document.createElement("div");
