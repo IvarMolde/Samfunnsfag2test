@@ -40,6 +40,7 @@ function show(name) {
     $("#headerScope").textContent = "";
     $("#counter").textContent = "";
     $("#timer").hidden = true;
+    document.body.classList.remove("can-print-diploma");
   }
   window.scrollTo(0, 0);
 }
@@ -86,10 +87,9 @@ function beginSession(questions, { mode, kind }) {
   state.autoSubmitted = false;
   state.usedSeconds = 0;
   state.running = true;
-  state.date = new Date().toLocaleDateString("nb-NO", { day: "numeric", month: "long", year: "numeric" });
   const test = mode === "test";
   $("#testTools").hidden = !test;
-  $("#headerName").textContent = state.name;
+  $("#headerName").textContent = "";
   if (kind === "retry") paintScope("Spørsmål du svarte feil på");
   if (test && state.timer.enabled) startTimer(state.timer.minutes * 60); else $("#timer").hidden = true;
   show("quiz");
@@ -98,7 +98,6 @@ function beginSession(questions, { mode, kind }) {
 
 function start() {
   if (state.mode === "practice" && state.scope === "one" && !state.subthemes.length) return;
-  state.name = $("#studentName").value.trim();
   state.timer.enabled = state.mode === "test" && $("#useTimer").checked;
   state.timer.minutes = +$("#timerMinutes").value;
   const draw = sessionDraw();
@@ -290,8 +289,9 @@ function showResult() {
   $("#resultTitle").textContent = retry ? "Repetisjon ferdig"
     : r.passed ? "Du har bestått!" : "Du har ikke bestått denne gangen.";
   $("#resultTitle").dataset.status = retry ? "retry" : r.passed ? "pass" : "fail";
+  state.date = new Date().toLocaleDateString("nb-NO", { day: "numeric", month: "long", year: "numeric" });
   const modeText = retry ? "Repetisjon av feil" : state.mode === "test" ? "Prøvemodus" : "Øvingsmodus";
-  $("#resultSub").textContent = [state.name, state.date, modeText, `${r.total} spørsmål`].filter(Boolean).join(" · ");
+  $("#resultSub").textContent = [state.date, modeText, `${r.total} spørsmål`].filter(Boolean).join(" · ");
   $("#percent").textContent = r.pctText.replace(" %", "%");
   $("#correctCount").textContent = r.correct;
   $("#wrongCount").textContent = r.wrong;
@@ -306,15 +306,10 @@ function showResult() {
   note.textContent = bits.join(" "); note.hidden = bits.length === 0;
   renderThemes(r);
   renderReview(r);
-  const diplomaName = $("#diplomaName");
-  diplomaName.textContent = state.name;
-  diplomaName.hidden = !state.name;
-  $("#diplomaDate").textContent = state.date;
-  $("#diplomaScore").textContent = r.pctText;
-  $("#diplomaDetail").textContent = `${r.correct} av ${r.total} riktige`;
-  const diplomaStatus = $("#diplomaStatus");
-  diplomaStatus.textContent = r.passed ? "Bestått" : "Ikke bestått";
-  diplomaStatus.className = `diploma-status ${r.passed ? "pass" : "fail"}`;
+  const canPrint = state.mode === "test" && state.kind === "normal";
+  document.body.classList.toggle("can-print-diploma", canPrint);
+  $("#printBtn").hidden = !canPrint;
+  if (canPrint) fillDiploma(r);
   $("#resultTitle").focus({ preventScroll: true });
   const rb = $("#retryBtn");
   rb.hidden = r.wrongItems.length === 0;
@@ -358,7 +353,31 @@ function renderReview(r) {
   });
 }
 
+function fillDiploma(r) {
+  const diplomaName = $("#diplomaName");
+  diplomaName.textContent = state.name;
+  diplomaName.hidden = !state.name;
+  $("#diplomaDate").textContent = "Gjennomført " + state.date;
+  $("#diplomaScore").textContent = r.pctText;
+  $("#diplomaDetail").textContent = `${r.correct} av ${r.total} riktige`;
+  const diplomaStatus = $("#diplomaStatus");
+  diplomaStatus.textContent = r.passed ? "Bestått" : "Ikke bestått";
+  diplomaStatus.className = `diploma-status ${r.passed ? "pass" : "fail"}`;
+}
+
 function printResult() {
+  if (state.mode !== "test" || state.kind !== "normal") return;
+  const d = $("#printDialog");
+  $("#printName").value = state.name;
+  if (d.showModal) d.showModal(); else d.setAttribute("open", "");
+  $("#printName").focus();
+}
+
+function confirmPrint() {
+  if (state.mode !== "test" || state.kind !== "normal") return;
+  state.name = $("#printName").value.trim();
+  fillDiploma(scoreSession(state.items, state.answers, groupBy()));
+  const d = $("#printDialog"); if (d.open) d.close();
   const old = document.title;
   const parts = ["Resultat samfunnskunnskap", state.name, state.date].filter(Boolean);
   document.title = parts.join(" – ");
@@ -529,6 +548,9 @@ $("#dlgCancel").onclick = e => { e.preventDefault(); $("#submitDialog").close();
 window.addEventListener("beforeunload", e => { if (state.running && state.mode === "test") { e.preventDefault(); e.returnValue = ""; } });
 $("#restartBtn").onclick = () => show("start");
 $("#printBtn").onclick = printResult;
+$("#printForm").onsubmit = e => { e.preventDefault(); confirmPrint(); };
+$("#printDlgOk").onclick = e => { e.preventDefault(); confirmPrint(); };
+$("#printDlgCancel").onclick = e => { e.preventDefault(); $("#printDialog").close(); };
 $("#reviewBtn").onclick = () => {
   const open = $("#review").classList.toggle("open");
   $("#reviewBtn").textContent = open ? "Skjul gjennomgang" : "Se gjennom svar";
