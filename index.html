@@ -8,7 +8,7 @@
   <link rel="preload" href="fonts/lexend-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="fonts/lexend-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
   <title>Øv til prøven i samfunnskunnskap</title>
-  <link rel="stylesheet" href="style.css?v=18">
+  <link rel="stylesheet" href="style.css?v=19">
 </head>
 <body>
   <a class="skip" href="#main">Hopp til innhold</a>
@@ -49,7 +49,7 @@
           </div>
           <p class="hint" id="scopeAllNote">Du får like mange spørsmål fra hvert undertema som har spørsmål.</p>
           <div id="themePicker" hidden></div>
-          <p class="hint" id="scopeHint" hidden>Velg minst ett undertema for å starte.</p>
+          <p class="hint" id="scopeHint" hidden aria-live="polite">Velg minst ett undertema for å starte.</p>
         </div>
         <div id="testExplain" class="notice" hidden>
           <p>Du kan ikke velge antall spørsmål i prøvemodus. Du får alltid 38 spørsmål. De hentes tilfeldig fra alle temaene, med like mange fra hvert undertema.</p>
@@ -192,11 +192,11 @@
       <p class="footer-legal">Utviklet av Molde voksenopplæringssenter <span aria-hidden="true">·</span> © Molde voksenopplæring <span aria-hidden="true">·</span> Alle rettigheter forbeholdt</p>
     </div>
   </footer>
-  <div id="aboutDialog" class="info-modal" hidden role="dialog" aria-modal="true" aria-labelledby="aboutTitle">
+  <div id="aboutDialog" class="info-modal" hidden role="dialog" aria-modal="true" aria-labelledby="aboutTitle" aria-describedby="aboutLead">
     <div class="info-panel">
       <h2 id="aboutTitle">Slik fungerer prøven</h2>
       <div class="about-body">
-        <p>Dette er en øvingsprøve i samfunnskunnskap. Det er ikke den offisielle prøven.</p>
+        <p id="aboutLead">Dette er en øvingsprøve i samfunnskunnskap. Det er ikke den offisielle prøven.</p>
         <h3>Øving</h3>
         <p>Du får vite med en gang om svaret er riktig. Du kan ta 20, 30 eller 40 spørsmål. Du kan øve på alle temaene, eller velge ett eller flere undertemaer. Spørsmålene fordeles likt på de temaene du velger.</p>
         <h3>Prøve</h3>
@@ -210,6 +210,6 @@
       </div>
     </div>
   </div>
-  <script type="module" src="app.js?v=13"></script>
+  <script type="module" src="app.js?v=14"></script>
 </body>
 </html>

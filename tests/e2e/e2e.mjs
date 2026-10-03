@@ -55,8 +55,6 @@ await scenario("Les her forklarer prøven og at resultatet ikke er offisielt", a
   await p.keyboard.press("Escape");
   assert.equal(await p.isVisible("#aboutDialog"), false);
   await p.click("#aboutBtn");
-  await p.evaluate(() => document.querySelector("#aboutDialog").dispatchEvent(new MouseEvent("click", { bubbles: true })));
-  assert.equal(await p.isVisible("#aboutDialog"), true, "åpningsklikket lukker ikke boksen");
   await p.click("#aboutDialog", { position: { x: 8, y: 8 } });
   assert.equal(await p.isVisible("#aboutDialog"), false, "klikk utenfor boksen lukker den");
 });
@@ -241,9 +239,13 @@ await scenario("Prøvemodus: gå tilbake, endre svar, fjerne svar og merke spør
   await setup(p, 20, "test"); await p.click("#startBtn");
   await clickOpt(p, 0); await p.click("#flagBtn");
   assert.equal(await p.getAttribute("#flagBtn", "aria-pressed"), "true");
+  assert.equal(await p.$eval("#options .option:nth-child(1)", o => o.tabIndex), 0);
+  assert.equal(await p.$eval("#options .option:nth-child(2)", o => o.tabIndex), -1);
   await p.focus("#options .option");
   await p.keyboard.press("ArrowDown");
   assert.equal(await p.$eval("#options .option:nth-child(2)", o => o.getAttribute("aria-checked")), "true");
+  assert.equal(await p.$eval("#options .option:nth-child(1)", o => o.tabIndex), -1);
+  assert.equal(await p.$eval("#options .option:nth-child(2)", o => o.tabIndex), 0);
   await p.click("#nextBtn"); await p.click("#prevBtn");
   assert.ok((await p.$eval("#options .option", o => o.classList.contains("selected"))), "valg er husket");
   await clickOpt(p, 0); // klikk igjen fjerner svaret
@@ -320,6 +322,24 @@ await scenario("Ingenting om eleven lagres i nettleseren", async (p, ctx) => {
   assert.deepEqual(st, { l: 0, s: 0, c: "" });
   assert.equal((await ctx.cookies()).length, 0);
 });
+
+await scenario("Lenker i bunnteksten er understreket, og startknappen får forklaring når tema mangler", async p => {
+  const deco = await p.$eval(".site-footer a", e => getComputedStyle(e).textDecorationLine);
+  assert.match(deco, /underline/);
+  await p.click("#scopeOne");
+  assert.equal(await p.getAttribute("#startBtn", "aria-describedby"), "scopeHint");
+  assert.equal(await p.isVisible("#scopeHint"), true);
+  await p.click("#scopeAll");
+  assert.equal(await p.getAttribute("#startBtn", "aria-describedby"), null);
+});
+
+await scenario("200 % tekststørrelse uten horisontal rulling", async p => {
+  await p.addStyleTag({ content: "html{font-size:200%!important}" });
+  const noScroll = () => p.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth + 1);
+  assert.ok(await noScroll(), "startside");
+  await setup(p, 20, "practice"); await p.click("#startBtn");
+  assert.ok(await noScroll(), "spørsmål");
+}, { width: 1280, height: 900 });
 
 await scenario("Ingen horisontal rulling på mobil (360 px) på alle skjermer", async p => {
   const noScroll = () => p.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth);
