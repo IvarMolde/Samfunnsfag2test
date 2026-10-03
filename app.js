@@ -3,9 +3,9 @@ import { drawBalanced, makeItem, scoreSession, formatTime, PASS_PERCENT } from "
 const $ = s => document.querySelector(s);
 const screens = { start: $("#startScreen"), quiz: $("#quizScreen"), overview: $("#overviewScreen"), result: $("#resultScreen") };
 const CATALOG = [
-  { id: "utdanning", name: "Utdanning, kompetanse og arbeidsliv", subs: ["Skole og utdanning", "Arbeidsliv", "Kritisk tenkning og digital dømmekraft"] },
-  { id: "familie", name: "Familie, helse og hverdagsliv", subs: ["Ny i Norge", "Familieliv", "Fritid", "Helse", "Personlig økonomi", "Retten til et fritt og selvstendig liv"] },
-  { id: "norge", name: "Norge før og nå", subs: ["Dette er Norge", "Historie", "Menneskerettigheter og demokrati", "Bærekraft"] }
+  { id: "utdanning", name: "Utdanning, kompetanse og arbeidsliv", image: "assets/tema-utdanning.jpg", alt: "En kvinne sitter under et tre og leser i en bok.", subs: ["Skole og utdanning", "Arbeidsliv", "Kritisk tenkning og digital dømmekraft"] },
+  { id: "familie", name: "Familie, helse og hverdagsliv", image: "assets/tema-familie.jpg", alt: "En far løfter sønnen sin. Mor og datter lager mat i kjøkkenet.", subs: ["Ny i Norge", "Familieliv", "Fritid", "Helse", "Personlig økonomi", "Retten til et fritt og selvstendig liv"] },
+  { id: "norge", name: "Norge før og nå", image: "assets/tema-norge.jpg", alt: "En familie ser på gamle bilder av et sted i Norge. Byen og fjorden er i bakgrunnen.", subs: ["Dette er Norge", "Historie", "Menneskerettigheter og demokrati", "Bærekraft"] }
 ];
 
 const state = { bank: [], openers: { correct: [], wrong: [] }, items: [], answers: [], current: 0,
@@ -40,6 +40,7 @@ function show(name) {
     $("#headerScope").textContent = "";
     $("#counter").textContent = "";
     $("#timer").hidden = true;
+    document.querySelectorAll(".theme-banner").forEach(el => { el.hidden = true; el.replaceChildren(); });
   }
   window.scrollTo(0, 0);
 }
@@ -68,6 +69,25 @@ function paintScope(label) {
   $("#headerScope").textContent = label;
   const line = $("#sessionScope");
   if (line) line.textContent = label;
+  paintThemeBanner();
+}
+
+function sessionTheme() {
+  if (state.mode === "test" || state.scope !== "one") return null;
+  return CATALOG.find(g => g.id === state.mainTheme) || null;
+}
+
+function paintThemeBanner() {
+  const group = sessionTheme();
+  document.querySelectorAll(".theme-banner").forEach(el => {
+    if (!group) { el.hidden = true; el.replaceChildren(); return; }
+    el.hidden = false;
+    el.dataset.theme = group.id;
+    const img = document.createElement("img");
+    img.src = group.image;
+    img.alt = group.alt;
+    el.replaceChildren(img);
+  });
 }
 
 function beginSession(questions, { mode, kind }) {
@@ -373,43 +393,64 @@ function renderPicker() {
   box.hidden = false;
   box.innerHTML = "";
   const ready = readyCategories();
-  if (!state.mainTheme) {
-    const label = document.createElement("p");
-    label.className = "field-label";
-    label.textContent = "Velg hovedtema";
-    box.appendChild(label);
-    CATALOG.forEach(group => {
-      const b = document.createElement("button");
-      b.type = "button";
-      b.className = "pick";
-      b.textContent = group.name;
-      b.onclick = () => { state.mainTheme = group.id; renderPicker(); };
-      box.appendChild(b);
-    });
-    return;
-  }
-  const group = CATALOG.find(g => g.id === state.mainTheme);
   const label = document.createElement("p");
   label.className = "field-label";
-  label.textContent = group.name;
+  label.textContent = "Velg hovedtema";
   box.appendChild(label);
-  const back = document.createElement("button");
-  back.type = "button";
-  back.className = "text-btn";
-  back.textContent = "Tilbake til hovedtema";
-  back.onclick = () => { state.mainTheme = ""; state.subtheme = ""; renderPicker(); updateStartEnabled(); };
-  box.appendChild(back);
-  group.subs.forEach(name => {
-    const ok = ready.has(name);
-    const b = document.createElement("button");
-    b.type = "button";
-    b.className = "pick" + (state.subtheme === name ? " selected" : "");
-    b.textContent = ok ? name : `${name} (kommer)`;
-    b.disabled = !ok;
-    if (!ok) b.setAttribute("aria-disabled", "true");
-    b.setAttribute("aria-pressed", String(state.subtheme === name));
-    b.onclick = () => { state.subtheme = name; renderPicker(); updateStartEnabled(); };
-    box.appendChild(b);
+  CATALOG.forEach(group => {
+    const open = state.mainTheme === group.id;
+    const card = document.createElement("article");
+    card.className = "theme-card theme-card--" + group.id + (open ? " open" : "");
+    const img = document.createElement("img");
+    img.src = group.image;
+    img.alt = group.alt;
+    card.appendChild(img);
+    const head = document.createElement("div");
+    head.className = "theme-card-head";
+    const title = document.createElement("h3");
+    title.id = `theme-title-${group.id}`;
+    title.textContent = group.name;
+    const toggle = document.createElement("button");
+    toggle.type = "button";
+    toggle.className = "theme-toggle";
+    toggle.dataset.theme = group.id;
+    toggle.setAttribute("aria-expanded", String(open));
+    toggle.setAttribute("aria-controls", `theme-list-${group.id}`);
+    toggle.setAttribute("aria-labelledby", `theme-title-${group.id}`);
+    const arrow = document.createElement("span");
+    arrow.className = "theme-arrow";
+    arrow.setAttribute("aria-hidden", "true");
+    const toggleText = document.createElement("span");
+    toggleText.textContent = open ? "Skjul temaene" : "Vis temaene";
+    toggle.append(arrow, toggleText);
+    toggle.onclick = () => {
+      if (open) { state.mainTheme = ""; state.subtheme = ""; }
+      else { state.mainTheme = group.id; state.subtheme = ""; }
+      renderPicker();
+      updateStartEnabled();
+    };
+    head.append(title, toggle);
+    card.appendChild(head);
+    const list = document.createElement("div");
+    list.id = `theme-list-${group.id}`;
+    list.className = "theme-drop";
+    list.hidden = !open;
+    if (open) {
+      group.subs.forEach(name => {
+        const ok = ready.has(name);
+        const b = document.createElement("button");
+        b.type = "button";
+        b.className = "pick" + (state.subtheme === name ? " selected" : "");
+        b.textContent = ok ? name : `${name} (kommer)`;
+        b.disabled = !ok;
+        if (!ok) b.setAttribute("aria-disabled", "true");
+        b.setAttribute("aria-pressed", String(state.subtheme === name));
+        b.onclick = () => { state.subtheme = name; renderPicker(); updateStartEnabled(); };
+        list.appendChild(b);
+      });
+    }
+    card.appendChild(list);
+    box.appendChild(card);
   });
 }
 
