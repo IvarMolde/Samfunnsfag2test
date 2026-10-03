@@ -36,7 +36,7 @@ Ikke gjort ennå: statusbar, utskrift med navn, prøvemodus med tidtaker og nytt
 
 - Skrift: Lexend (lisens: SIL OFL, se `fonts/`), hostet i repoet. Ingen eksterne kall.
 - Lys og mørk modus følger systemet. Utskrift bruker alltid lyse farger.
-- axe-core (WCAG 2.1 A og AA) kjører i `npm run e2e` på alle skjermer, i lys og mørk modus. Det er en automatisk kontroll og erstatter ikke test med skjermleser og bare tastatur.
+- axe-core (WCAG 2.1 A og AA, pluss vanlige beste praksiser) kjører i `npm run e2e` på alle skjermer, i lys og mørk modus. Det er en automatisk kontroll og erstatter ikke test med skjermleser og bare tastatur.
 - Riktig og galt vises aldri med farge alene: de har også tekst («✓ Riktig», «✕ Ditt svar»).
 
 ## Kjente begrensninger

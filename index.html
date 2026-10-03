@@ -8,7 +8,7 @@
   <link rel="preload" href="fonts/lexend-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="fonts/lexend-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
   <title>Øv til prøven i samfunnskunnskap</title>
-  <link rel="stylesheet" href="style.css?v=17">
+  <link rel="stylesheet" href="style.css?v=18">
 </head>
 <body>
   <a class="skip" href="#main">Hopp til innhold</a>
@@ -27,7 +27,7 @@
       <div class="panel">
         <h1 id="startTitle" tabindex="-1">Start</h1>
         <p class="lead">Velg hvordan du vil øve. Dette er en øvingsprøve, ikke den offisielle prøven.</p>
-        <button type="button" class="about-btn" id="aboutBtn" aria-haspopup="dialog" aria-controls="aboutDialog">Les her</button>
+        <button type="button" class="about-btn" id="aboutBtn" aria-haspopup="dialog" aria-controls="aboutDialog">Les her <span class="sr-only">om hvordan prøven virker</span></button>
         <div id="countSetup">
           <div class="field-label" id="countLabel">Antall spørsmål</div>
           <div class="choice-grid" id="countChoices" role="group" aria-labelledby="countLabel">
@@ -72,13 +72,13 @@
     <section class="screen" id="quizScreen">
       <div class="quiz-bar">
         <button type="button" class="text-btn" id="quitBtn">Avslutt</button>
-        <div id="questionNav" class="qnav" hidden></div>
+        <div id="questionNav" class="qnav" hidden role="navigation" aria-label="Spørsmål"></div>
       </div>
-      <div class="progress" role="progressbar" aria-label="Fremdrift" aria-valuemin="0" aria-valuemax="100" id="progress"><div id="progressBar"></div></div>
+      <div class="progress" role="progressbar" aria-label="Fremdrift" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="progress"><div id="progressBar"></div></div>
       <div class="quiz-wrap">
         <p class="session-scope" id="sessionScope"></p>
         <div class="question-meta"><span id="category"></span><span id="scoreLive"></span></div>
-        <h2 id="questionText" tabindex="-1"></h2>
+        <h1 id="questionText" tabindex="-1"></h1>
         <div id="options" class="options" role="group" aria-labelledby="questionText"></div>
         <div id="feedback" class="feedback" role="status" hidden></div>
         <div class="quiz-actions">
@@ -210,6 +210,6 @@
       </div>
     </div>
   </div>
-  <script type="module" src="app.js?v=12"></script>
+  <script type="module" src="app.js?v=13"></script>
 </body>
 </html>

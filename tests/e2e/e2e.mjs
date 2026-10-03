@@ -241,6 +241,9 @@ await scenario("Prøvemodus: gå tilbake, endre svar, fjerne svar og merke spør
   await setup(p, 20, "test"); await p.click("#startBtn");
   await clickOpt(p, 0); await p.click("#flagBtn");
   assert.equal(await p.getAttribute("#flagBtn", "aria-pressed"), "true");
+  await p.focus("#options .option");
+  await p.keyboard.press("ArrowDown");
+  assert.equal(await p.$eval("#options .option:nth-child(2)", o => o.getAttribute("aria-checked")), "true");
   await p.click("#nextBtn"); await p.click("#prevBtn");
   assert.ok((await p.$eval("#options .option", o => o.classList.contains("selected"))), "valg er husket");
   await clickOpt(p, 0); // klikk igjen fjerner svaret
@@ -334,7 +337,7 @@ for (const scheme of ["light", "dark"]) {
     await p.emulateMedia({ colorScheme: scheme });
     const check = async label => {
       await p.addScriptTag({ path: path.join(root, "node_modules/axe-core/axe.min.js") }).catch(() => {});
-      const res = await p.evaluate(() => axe.run(document, { runOnly: ["wcag2a", "wcag2aa", "wcag21a", "wcag21aa"] }));
+      const res = await p.evaluate(() => axe.run(document, { runOnly: ["wcag2a", "wcag2aa", "wcag21a", "wcag21aa", "best-practice"] }));
       const v = res.violations.map(x => `${x.id} (${x.nodes.length}): ${x.nodes.slice(0, 2).map(n => n.target.join(" ")).join(", ")}`);
       assert.deepEqual(v, [], `${label}: ${v.join(" | ")}`);
     };

@@ -166,13 +166,26 @@ function renderQuestion() {
   const box = $("#options"); box.innerHTML = "";
   q.options.forEach((o, i) => {
     const b = document.createElement("button");
+    b.type = "button";
     b.className = "option"; b.dataset.i = i;
     if (test) { b.setAttribute("role", "radio"); b.setAttribute("aria-checked", String(a.picked === i)); if (a.picked === i) b.classList.add("selected"); }
     b.innerHTML = `<span class="letter">${o.letter}</span><span>${esc(o.text)}</span>`;
     b.onclick = () => choose(i);
     box.appendChild(b);
   });
-  if (test) box.setAttribute("role", "radiogroup"); else box.setAttribute("role", "group");
+  if (test) {
+    box.setAttribute("role", "radiogroup");
+    box.onkeydown = e => {
+      const step = e.key === "ArrowDown" || e.key === "ArrowRight" ? 1 : e.key === "ArrowUp" || e.key === "ArrowLeft" ? -1 : 0;
+      if (!step) return;
+      e.preventDefault();
+      const btns = [...box.querySelectorAll(".option")];
+      const i = Math.max(0, btns.indexOf(document.activeElement));
+      const next = (i + step + btns.length) % btns.length;
+      choose(next);
+      btns[next].focus();
+    };
+  } else box.setAttribute("role", "group");
   if (!state.firstRender) state.firstRender = true; else $("#questionText").focus({ preventScroll: true });
 }
 
@@ -225,6 +238,7 @@ function chooseTest(i) {
   });
   const n = state.items.length, answered = state.answers.filter(x => x.picked !== null).length;
   $("#progressBar").style.width = `${(answered / n) * 100}%`;
+  $("#progress").setAttribute("aria-valuenow", Math.round((answered / n) * 100));
   $("#scoreLive").textContent = `${answered} av ${n} besvart`;
 }
 
@@ -415,7 +429,7 @@ function renderPicker() {
     card.appendChild(img);
     const head = document.createElement("div");
     head.className = "theme-card-head";
-    const title = document.createElement("h3");
+    const title = document.createElement("h2");
     title.id = `theme-title-${group.id}`;
     title.textContent = group.name;
     const toggle = document.createElement("button");
@@ -423,8 +437,8 @@ function renderPicker() {
     toggle.className = "theme-toggle";
     toggle.dataset.theme = group.id;
     toggle.setAttribute("aria-expanded", String(open));
-    toggle.setAttribute("aria-controls", `theme-list-${group.id}`);
-    toggle.setAttribute("aria-labelledby", `theme-title-${group.id}`);
+    if (open) toggle.setAttribute("aria-controls", `theme-list-${group.id}`);
+    toggle.setAttribute("aria-describedby", `theme-title-${group.id}`);
     const arrow = document.createElement("span");
     arrow.className = "theme-arrow";
     arrow.setAttribute("aria-hidden", "true");
@@ -512,9 +526,13 @@ let timerTouched = false;
 $("#timerMinutes").onchange = () => { timerTouched = true; };
 const defaultMinutes = { 20: 20, 30: 30, 40: 45 };
 $("#timerMinutes").value = String(defaultMinutes[20]);
+function setPageInert(on) {
+  document.querySelectorAll("header, main, footer").forEach(el => { el.inert = on; });
+}
 function openAbout() {
   const box = $("#aboutDialog");
   box.hidden = false;
+  setPageInert(true);
   // Fokus settes etter klikket, så Chrome ikke sender åpningsklikket til Lukk.
   requestAnimationFrame(() => { if (!box.hidden) $("#aboutClose").focus(); });
 }
@@ -522,6 +540,7 @@ function closeAbout() {
   const box = $("#aboutDialog");
   if (box.hidden) return;
   box.hidden = true;
+  setPageInert(false);
   $("#aboutBtn").focus();
 }
 $("#aboutBtn").addEventListener("click", e => { e.preventDefault(); openAbout(); });
