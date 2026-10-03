@@ -1,6 +1,6 @@
 # Faglig og språklig gjennomgang av spørsmålsbanken
 
-Dato: 2. oktober 2026. Gjennomgått: alle 240 spørsmål og tilbakemeldinger i `sporsmalsbank/kilde/` (skole, arbeid og kritisk tenkning).
+Dato: 2. oktober 2026. Gjennomgått: alle 240 spørsmål og tilbakemeldinger i `sporsmalsbank/kilde/` (skole, arbeid og kritisk tenkning). De 800 spørsmålene i de øvrige undertemaene er **ikke** med i denne gjennomgangen. Se `docs/OVERSIKT.md` for hva som gjenstår.
 
 ID-ene er de samme som i `questions.xml` (for eksempel `skole-44`). Nummeret er linjenummeret i kildefilen minus 1.
 

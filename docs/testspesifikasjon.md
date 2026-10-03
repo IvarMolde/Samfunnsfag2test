@@ -1,5 +1,7 @@
 # Testspesifikasjon: Familie, helse og hverdagsliv, og Norge før og nå
 
+Slik portalen virker, står i `README.md`. Slik du fortsetter, står i `docs/OVERSIKT.md`.
+
 Denne spesifikasjonen gjelder to hovedtemaer:
 - **Familie, helse og hverdagsliv:** de fem kategoriene som kom i tillegg til Ny i Norge, altså Familieliv, Fritid, Helse, Personlig økonomi og Retten til et fritt og selvstendig liv (400 spørsmål).
 - **Norge før og nå:** Dette er Norge, Historie, Menneskerettigheter og demokrati, og Bærekraft (320 spørsmål).

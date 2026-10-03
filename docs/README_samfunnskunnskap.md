@@ -1,5 +1,7 @@
 # Øvingsprøve i samfunnskunnskap – funksjonalitet og anbefalinger
 
+> **Historisk notat (oktober 2026).** Dette dokumentet er et tidlig forslag fra da programmet ikke var laget. Det stemmer ikke med dagens app. Bruk `README.md` for hvordan programmet virker, og `docs/OVERSIKT.md` for å fortsette utviklingen. Banken har nå 1040 spørsmål, ikke 240. XML-formatet i rotmappen er `questions.xml`, ikke eksempelet under.
+
 ## 0. Hva dette dokumentet er
 
 Hittil finnes **spørsmålsbanken** (Word og XML). **Selve nettprogrammet er ikke laget ennå.**
