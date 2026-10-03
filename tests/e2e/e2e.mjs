@@ -72,6 +72,11 @@ await scenario("Banken har 1040 spørsmål, 80 per undertema, og Ny i Norge har 
 await scenario("Ny i Norge kan velges under Familie, helse og hverdagsliv og gir bare spørsmål derfra, jevnt fra emnene", async p => {
   await p.click("#scopeOne");
   assert.equal(await p.locator("#themePicker .theme-card img").count(), 3);
+  const caps = await p.$$eval("#themePicker figcaption", els => els.map(e => e.textContent.trim()));
+  assert.equal(caps.length, 3);
+  assert.ok(caps.every(t => t.length > 10), "temabilder skal ha bildetekst");
+  const alts = await p.$$eval("#themePicker .theme-card img", els => els.map(e => e.getAttribute("alt")));
+  assert.deepEqual(alts, caps, "alt og bildetekst skal si det samme");
   await p.click('#themePicker [data-theme="familie"]');
   assert.equal(await p.getAttribute('#themePicker [data-theme="familie"]', "aria-expanded"), "true");
   const btn = await p.$("#themePicker .pick:has-text('Ny i Norge')");
@@ -324,6 +329,7 @@ await scenario("Ingenting om eleven lagres i nettleseren", async (p, ctx) => {
 });
 
 await scenario("Lenker i bunnteksten er understreket, og startknappen får forklaring når tema mangler", async p => {
+  assert.match(await p.getAttribute(".logo", "alt"), /MOVED/);
   const deco = await p.$eval(".site-footer a", e => getComputedStyle(e).textDecorationLine);
   assert.match(deco, /underline/);
   await p.click("#scopeOne");

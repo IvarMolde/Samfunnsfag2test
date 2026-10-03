@@ -436,10 +436,15 @@ function renderPicker() {
     const open = state.mainTheme === group.id;
     const card = document.createElement("article");
     card.className = "theme-card theme-card--" + group.id + (open ? " open" : "");
+    const figure = document.createElement("figure");
     const img = document.createElement("img");
     img.src = group.image;
     img.alt = group.alt;
-    card.appendChild(img);
+    const caption = document.createElement("figcaption");
+    caption.textContent = group.alt;
+    caption.setAttribute("aria-hidden", "true");
+    figure.append(img, caption);
+    card.appendChild(figure);
     const head = document.createElement("div");
     head.className = "theme-card-head";
     const title = document.createElement("h2");

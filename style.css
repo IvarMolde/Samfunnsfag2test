@@ -202,7 +202,9 @@ dialog input[type=text]:focus{border-color:var(--primary)}
 .theme-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;align-items:stretch}
 .theme-card{display:flex;flex-direction:column;overflow:hidden;background:var(--surface);border:2px solid var(--line);border-radius:8px}
 .theme-card.open{border-color:var(--primary)}
+.theme-card figure{margin:0}
 .theme-card img{display:block;width:100%;aspect-ratio:4/3;height:auto;object-fit:cover}
+.theme-card figcaption{margin:0;padding:10px 16px 0;color:var(--ink-2);font-size:.95rem;line-height:1.4}
 .theme-card--utdanning img{object-position:50% 40%}
 .theme-card--familie img{object-position:50% 35%}
 .theme-card--norge img{object-position:50% 45%}
