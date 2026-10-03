@@ -264,8 +264,9 @@ dialog input[type=text]:focus{border-color:var(--primary)}
   .screen:not(#resultScreen),dialog,.info-modal,.skip,.site-header,.site-footer,.site-meta,.quiz-bar,.progress{display:none!important}
   #resultScreen{display:block!important}
   #resultScreen .panel{margin:0;padding:0;border:0;max-width:none;box-shadow:none;background:#fff}
-  #resultScreen .panel>:not(#diploma){display:none!important}
-  .review,.result-actions,.themes,.result-card{display:none!important}
-  .print-only,.diploma{display:block!important}
+  body.can-print-diploma #resultScreen .panel>:not(#diploma){display:none!important}
+  body.can-print-diploma .review,body.can-print-diploma .result-actions,body.can-print-diploma .themes,body.can-print-diploma .result-card{display:none!important}
+  body.can-print-diploma .print-only,body.can-print-diploma .diploma{display:block!important}
+  body:not(.can-print-diploma) .diploma,body:not(.can-print-diploma) .print-only{display:none!important}
   .diploma,.diploma-status,.diploma-frame{print-color-adjust:exact;-webkit-print-color-adjust:exact}
 }

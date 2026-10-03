@@ -40,6 +40,7 @@ function show(name) {
     $("#headerScope").textContent = "";
     $("#counter").textContent = "";
     $("#timer").hidden = true;
+    document.body.classList.remove("can-print-diploma");
   }
   window.scrollTo(0, 0);
 }
@@ -305,7 +306,10 @@ function showResult() {
   note.textContent = bits.join(" "); note.hidden = bits.length === 0;
   renderThemes(r);
   renderReview(r);
-  fillDiploma(r);
+  const canPrint = state.mode === "test" && state.kind === "normal";
+  document.body.classList.toggle("can-print-diploma", canPrint);
+  $("#printBtn").hidden = !canPrint;
+  if (canPrint) fillDiploma(r);
   $("#resultTitle").focus({ preventScroll: true });
   const rb = $("#retryBtn");
   rb.hidden = r.wrongItems.length === 0;
@@ -362,6 +366,7 @@ function fillDiploma(r) {
 }
 
 function printResult() {
+  if (state.mode !== "test" || state.kind !== "normal") return;
   const d = $("#printDialog");
   $("#printName").value = state.name;
   if (d.showModal) d.showModal(); else d.setAttribute("open", "");
@@ -369,6 +374,7 @@ function printResult() {
 }
 
 function confirmPrint() {
+  if (state.mode !== "test" || state.kind !== "normal") return;
   state.name = $("#printName").value.trim();
   fillDiploma(scoreSession(state.items, state.answers, groupBy()));
   const d = $("#printDialog"); if (d.open) d.close();

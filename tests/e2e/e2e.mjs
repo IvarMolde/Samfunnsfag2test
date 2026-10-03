@@ -220,6 +220,21 @@ await scenario("Prøvemodus: ingen tilbakemelding, farger eller poeng før innle
   assert.equal(await p.textContent("#percent"), "47,4%");
   assert.match(await p.textContent("#resultTitle"), /ikke bestått/);
   assert.equal((await p.$$(".theme-row")).length, 13);
+  assert.equal(await p.isVisible("#printBtn"), true);
+  await p.click("#printBtn");
+  assert.equal(await p.evaluate(() => document.getElementById("printDialog").open), true);
+  await p.fill("#printName", "Kari Nordmann");
+  await p.evaluate(() => { window.print = () => {}; });
+  await p.click("#printDlgOk");
+  assert.equal(await p.textContent("#diplomaName"), "Kari Nordmann");
+  assert.match(await p.textContent("#diplomaDate"), /^Gjennomført \d+\. \w+ 2\d{3}$/);
+  assert.match(await p.getAttribute(".diploma-logo", "alt"), /MOVED/);
+  assert.match(await p.textContent(".diploma-platform"), /prøveplattformen til Molde voksenopplæringssenter/);
+  assert.match(await p.textContent(".print-footnote"), /ikke et offisielt resultat/);
+  await p.emulateMedia({ media: "print" });
+  assert.equal(await p.$eval(".print-banner", e => getComputedStyle(e).display), "block");
+  assert.equal(await p.$eval(".result-actions", e => getComputedStyle(e).display), "none");
+  await p.emulateMedia({ media: "screen" });
 });
 
 await scenario("Prøvemodus: gå tilbake, endre svar, fjerne svar og merke spørsmål", async p => {
@@ -285,28 +300,14 @@ await scenario("Resultat: navn, dato, per tema, Øv på feilene og utskrift", as
   assert.equal(await p.textContent("#wrongCount"), "10");
   assert.equal(await p.textContent("#percent"), "66,7%");
   assert.match(await p.textContent("#retryBtn"), /\(10\)/);
-  await p.click("#printBtn");
-  assert.equal(await p.evaluate(() => document.getElementById("printDialog").open), true);
-  await p.fill("#printName", "Kari Nordmann");
-  await p.evaluate(() => { window.print = () => {}; });
-  await p.click("#printDlgOk");
-  assert.equal(await p.evaluate(() => document.getElementById("printDialog").open), false);
-  assert.equal(await p.textContent("#diplomaName"), "Kari Nordmann");
-  assert.match(await p.textContent("#diplomaDate"), /^Gjennomført \d+\. \w+ 2\d{3}$/);
-  assert.match(await p.getAttribute(".diploma-logo", "alt"), /MOVED/);
-  assert.match(await p.textContent(".diploma-platform"), /prøveplattformen til Molde voksenopplæringssenter/);
-  assert.match(await p.textContent(".print-footnote"), /ikke et offisielt resultat/);
-  await p.emulateMedia({ media: "print" });
-  assert.equal(await p.$eval(".print-banner", e => getComputedStyle(e).display), "block");
-  assert.equal(await p.$eval(".result-actions", e => getComputedStyle(e).display), "none");
-  assert.equal(await p.isVisible("#startScreen"), false);
-  await p.emulateMedia({ media: "screen" });
+  assert.equal(await p.isVisible("#printBtn"), false, "diplom bare i prøvemodus");
   await p.click("#retryBtn");
   assert.equal(await p.textContent("#counter"), "Spørsmål 1 av 10");
   assert.equal(await p.evaluate(() => window.__state.kind), "retry");
   for (let i = 0; i < 10; i++) { await clickOpt(p, await correctIdx(p)); await p.click("#nextBtn"); }
   assert.match(await p.textContent("#resultTitle"), /Repetisjon ferdig/);
   assert.equal(await p.textContent("#percent"), "100%");
+  assert.equal(await p.isVisible("#printBtn"), false, "ingen diplom etter øving på feil");
 });
 
 await scenario("Ingenting om eleven lagres i nettleseren", async (p, ctx) => {
