@@ -247,7 +247,7 @@ await scenario("Prøvemodus: gå tilbake, endre svar, fjerne svar og merke spør
   assert.equal(await p.$eval("#options .option:nth-child(1)", o => o.tabIndex), -1);
   assert.equal(await p.$eval("#options .option:nth-child(2)", o => o.tabIndex), 0);
   await p.click("#nextBtn"); await p.click("#prevBtn");
-  assert.ok((await p.$eval("#options .option", o => o.classList.contains("selected"))), "valg er husket");
+  assert.ok((await p.$eval("#options .option:nth-child(2)", o => o.classList.contains("selected"))), "valg er husket");
   await clickOpt(p, 0); // klikk igjen fjerner svaret
   assert.equal((await p.$$("#options .option.selected")).length, 0);
   await clickOpt(p, 1);
