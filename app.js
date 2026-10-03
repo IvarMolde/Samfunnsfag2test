@@ -440,10 +440,11 @@ function renderPicker() {
     const img = document.createElement("img");
     img.src = group.image;
     img.alt = group.alt;
-    const caption = document.createElement("figcaption");
-    caption.textContent = group.alt;
-    caption.setAttribute("aria-hidden", "true");
-    figure.append(img, caption);
+    const tip = document.createElement("p");
+    tip.className = "theme-photo-tip";
+    tip.textContent = group.alt;
+    tip.setAttribute("aria-hidden", "true");
+    figure.append(img, tip);
     card.appendChild(figure);
     const head = document.createElement("div");
     head.className = "theme-card-head";
