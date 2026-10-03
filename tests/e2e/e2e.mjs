@@ -137,6 +137,11 @@ await scenario("Flere undertemaer: Helse og Historie gir 20 spørsmål, like man
   assert.equal(r.length, 20);
   const per = r.reduce((o, c) => ((o[c] = (o[c] || 0) + 1), o), {});
   assert.deepEqual(per, { Helse: 10, Historie: 10 }, JSON.stringify(per));
+  assert.equal(await p.textContent("#headerScope"), "2 undertemaer");
+  const cat = (await p.textContent("#category")).trim();
+  assert.ok(["Helse", "Historie"].includes(cat), cat);
+  assert.equal((await p.textContent("#sessionScope")).trim(), "");
+  assert.equal(await p.locator(".theme-banner").count(), 0);
 });
 
 await scenario("Prøvemodus og Alle temaer trekker fra alle 13 undertemaene", async p => {

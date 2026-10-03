@@ -40,7 +40,6 @@ function show(name) {
     $("#headerScope").textContent = "";
     $("#counter").textContent = "";
     $("#timer").hidden = true;
-    document.querySelectorAll(".theme-banner").forEach(el => { el.hidden = true; el.replaceChildren(); });
   }
   window.scrollTo(0, 0);
 }
@@ -57,7 +56,6 @@ function questionCount() {
 
 function sessionLabelFor(subs) {
   if (subs.length === 1) return subs[0];
-  if (subs.length <= 3) return subs.join(", ");
   return `${subs.length} undertemaer`;
 }
 
@@ -75,28 +73,7 @@ function paintScope(label) {
   state.sessionLabel = label;
   $("#headerScope").textContent = label;
   const line = $("#sessionScope");
-  if (line) line.textContent = label;
-  paintThemeBanner();
-}
-
-function sessionTheme() {
-  if (state.mode === "test" || state.scope !== "one" || !state.subthemes.length) return null;
-  const mains = new Set(state.subthemes.map(name => CATALOG.find(g => g.subs.includes(name))?.id).filter(Boolean));
-  if (mains.size !== 1) return null;
-  return CATALOG.find(g => g.id === [...mains][0]) || null;
-}
-
-function paintThemeBanner() {
-  const group = sessionTheme();
-  document.querySelectorAll(".theme-banner").forEach(el => {
-    if (!group) { el.hidden = true; el.replaceChildren(); return; }
-    el.hidden = false;
-    el.dataset.theme = group.id;
-    const img = document.createElement("img");
-    img.src = group.image;
-    img.alt = group.alt;
-    el.replaceChildren(img);
-  });
+  if (line) line.textContent = "";
 }
 
 function beginSession(questions, { mode, kind }) {
