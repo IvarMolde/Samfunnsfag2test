@@ -188,9 +188,29 @@ dialog h2{font-size:1.3rem;margin-bottom:8px}
 .review-item.wrong{border-left-color:var(--bad)}
 .review-item strong{display:block;margin-bottom:6px}
 .review-answer{color:var(--ink-2)}
-#themePicker{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,18rem),1fr));gap:10px;margin-top:12px}
-#themePicker>:not(.pick){grid-column:1/-1}
-#themePicker>.text-btn{justify-self:start}
+#themePicker{display:grid;gap:16px;margin-top:12px}
+.theme-card{overflow:hidden;background:var(--surface);border:2px solid var(--line);border-radius:8px}
+.theme-card.open{border-color:var(--primary)}
+.theme-card img{display:block;width:100%;height:200px;object-fit:cover}
+.theme-card--utdanning img{object-position:70% 35%}
+.theme-card--familie img{object-position:70% 20%}
+.theme-card--norge img{object-position:50% 80%}
+.theme-card-head{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 16px}
+.theme-card-head h3{margin:0;font-size:1.15rem;line-height:1.3}
+.theme-toggle{display:inline-flex;align-items:center;gap:10px;min-height:48px;padding:8px 14px;border:2px solid var(--primary);border-radius:var(--radius);background:var(--primary-soft);color:var(--primary);font-weight:700}
+.theme-toggle:hover{background:var(--primary);color:var(--primary-ink)}
+.theme-arrow{display:inline-block;width:.65rem;height:.65rem;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:rotate(45deg);translate:0 -2px}
+.theme-card.open .theme-arrow{transform:rotate(-135deg);translate:0 2px}
+.theme-drop{display:grid;gap:8px;padding:12px;background:var(--primary)}
+.theme-drop .pick{background:transparent;color:var(--primary-ink);border-color:rgba(255,255,255,.35)}
+.theme-drop .pick:hover:not(:disabled){background:rgba(255,255,255,.12);border-color:#fff}
+.theme-drop .pick.selected{background:var(--sel-soft);color:var(--ink);border-color:var(--sel)}
+.theme-drop .pick:disabled{color:rgba(255,255,255,.65);background:transparent}
+.theme-banner{margin:0 0 14px;overflow:hidden;border-radius:8px;border:1px solid var(--line)}
+.theme-banner img{display:block;width:100%;height:120px;object-fit:cover}
+.theme-banner[data-theme=utdanning] img{object-position:70% 35%}
+.theme-banner[data-theme=familie] img{object-position:70% 20%}
+.theme-banner[data-theme=norge] img{object-position:50% 80%}
 
 @media(max-width:700px){
   .site-header{flex-wrap:wrap}
@@ -228,7 +248,7 @@ dialog h2{font-size:1.3rem;margin-bottom:8px}
 @media print{
   :root{--bg:#fff;--surface:#fff;--ink:#143d56}
   body{background:#fff}
-  .screen:not(#resultScreen),dialog,.info-modal,.skip,.site-header,.site-footer,.site-meta,.quiz-bar,.progress{display:none!important}
+  .screen:not(#resultScreen),dialog,.info-modal,.skip,.site-header,.site-footer,.site-meta,.quiz-bar,.progress,.theme-banner{display:none!important}
   #resultScreen{display:block!important}
   #resultScreen .panel{margin:0;padding:0;border:0;max-width:none;box-shadow:none;background:#fff}
   #resultScreen .panel>:not(#diploma){display:none!important}

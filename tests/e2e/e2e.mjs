@@ -7,7 +7,7 @@ import { fileURLToPath } from "node:url";
 import { chromium } from "playwright-core";
 
 const root = path.join(path.dirname(fileURLToPath(import.meta.url)), "../..");
-const types = { ".html": "text/html; charset=utf-8", ".js": "text/javascript", ".css": "text/css", ".xml": "application/xml", ".woff2": "font/woff2", ".json": "application/json", ".png": "image/png", ".svg": "image/svg+xml" };
+const types = { ".html": "text/html; charset=utf-8", ".js": "text/javascript", ".css": "text/css", ".xml": "application/xml", ".woff2": "font/woff2", ".json": "application/json", ".png": "image/png", ".jpg": "image/jpeg", ".svg": "image/svg+xml" };
 const server = http.createServer((req, res) => {
   const p = path.join(root, decodeURIComponent(req.url.split("?")[0]).replace(/^\/$/, "/index.html"));
   if (!p.startsWith(root) || !fs.existsSync(p) || fs.statSync(p).isDirectory()) { res.writeHead(404); return res.end(); }
@@ -73,7 +73,9 @@ await scenario("Banken har 1040 spørsmål, 80 per undertema, og Ny i Norge har 
 
 await scenario("Ny i Norge kan velges under Familie, helse og hverdagsliv og gir bare spørsmål derfra, jevnt fra emnene", async p => {
   await p.click("#scopeOne");
-  await p.click("#themePicker .pick:has-text('Familie, helse og hverdagsliv')");
+  assert.equal(await p.locator("#themePicker .theme-card img").count(), 3);
+  await p.click('#themePicker [data-theme="familie"]');
+  assert.equal(await p.getAttribute('#themePicker [data-theme="familie"]', "aria-expanded"), "true");
   const btn = await p.$("#themePicker .pick:has-text('Ny i Norge')");
   assert.equal(await btn.isDisabled(), false, "Ny i Norge skal ikke lenger stå som «kommer»");
   assert.doesNotMatch(await btn.textContent(), /kommer/);
@@ -89,7 +91,7 @@ await scenario("Ny i Norge kan velges under Familie, helse og hverdagsliv og gir
 
 await scenario("Alle fem nye undertemaer kan velges, og Helse gir bare Helse-spørsmål fra alle sju emnene", async p => {
   await p.click("#scopeOne");
-  await p.click("#themePicker .pick:has-text('Familie, helse og hverdagsliv')");
+  await p.click('#themePicker [data-theme="familie"]');
   for (const name of ["Familieliv", "Fritid", "Helse", "Personlig økonomi", "Retten til et fritt og selvstendig liv"]) {
     const btn = await p.$(`#themePicker .pick:has-text('${name}')`);
     assert.equal(await btn.isDisabled(), false, `${name} skal kunne velges`);
@@ -107,7 +109,7 @@ await scenario("Alle fem nye undertemaer kan velges, og Helse gir bare Helse-sp�
 
 await scenario("Norge før og nå: alle fire undertemaer kan velges, og Historie gir bare Historie fra alle fem emnene", async p => {
   await p.click("#scopeOne");
-  await p.click("#themePicker .pick:has-text('Norge før og nå')");
+  await p.click('#themePicker [data-theme="norge"]');
   for (const name of ["Dette er Norge", "Historie", "Menneskerettigheter og demokrati", "Bærekraft"]) {
     const btn = await p.$(`#themePicker .pick:has-text('${name}')`);
     assert.equal(await btn.isDisabled(), false, `${name} skal kunne velges`);
@@ -137,7 +139,7 @@ await scenario("Prøvemodus og Alle temaer trekker fra alle 13 undertemaene", as
 
 await scenario("Ny i Norge, 40 spørsmål: emnet med 9 spørsmål gir høyst 9, og resultatet vises per emne", async p => {
   await p.click("#scopeOne");
-  await p.click("#themePicker .pick:has-text('Familie, helse og hverdagsliv')");
+  await p.click('#themePicker [data-theme="familie"]');
   await p.click("#themePicker .pick:has-text('Ny i Norge')");
   await p.click('.choice[data-count="40"]'); await p.click('.mode[data-mode="practice"]');
   await p.click("#startBtn");
