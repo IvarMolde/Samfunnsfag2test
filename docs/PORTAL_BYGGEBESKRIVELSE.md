@@ -1,8 +1,8 @@
 # Byggebeskrivelse: Øvingsportal til samfunnskunnskapsprøven
 
-Dette dokumentet beskriver hva som skal bygges, hvordan det skal se ut, hvordan spørsmålene lages, og hvordan alt legges i GitHub. Det er skrevet slik at en utvikler, en designer eller Claude kan bygge portalen uten å måtte gjette.
+Dette dokumentet beskriver hva som skal bygges, hvordan det skal se ut, hvordan spørsmålene lages, og hvordan alt legges i GitHub. Det er den opprinnelige spesifikasjonen. **Ikke les den som fasit for det som er bygd.** Slik portalen er nå, står i `README.md` og `docs/OVERSIKT.md`.
 
-**Status:** Spørsmålsbank v1.1 finnes (240 spørsmål, A2). En enkel prototype av øvingssiden finnes. Portalen i dette dokumentet er neste steg.
+**Status oktober 2026:** Portalen i rotmappen er i drift som statisk GitHub Pages-app. Banken har 1040 spørsmål (13 × 80). Øving, prøvemodus (38), tidtaker, temakort, diplom ved utskrift og UU mot WCAG 2.1 AA er på plass. Åpent: mørk modus, manuell skjermleser, faglig gjennomlesing av 800 spørsmål i Familie/Norge, rettigheter til kilden, PWA og støttespråk. Se `docs/OVERSIKT.md`.
 
 ---
 

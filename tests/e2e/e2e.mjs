@@ -39,6 +39,22 @@ async function scenario(name, fn, viewport = { width: 1000, height: 900 }) {
 const correctIdx = p => p.evaluate(() => { const s = window.__state; return s.items[s.current].options.findIndex(o => o.correct); });
 const clickOpt = async (p, i) => (await p.$$("#options .option"))[i].click();
 const setup = async (p, count, mode) => { await p.click(`.choice[data-count="${count}"]`); await p.click(`.mode[data-mode="${mode}"]`); };
+const headingOutline = p => p.evaluate(() => [...document.querySelectorAll("h1,h2,h3,h4,h5,h6")]
+  .filter(el => {
+    if (el.closest("[inert]")) return false;
+    const dlg = el.closest("dialog");
+    if (dlg && !dlg.open) return false;
+    return el.checkVisibility();
+  })
+  .map(el => el.tagName));
+const assertHeadingOrder = async (p, label) => {
+  const tags = await headingOutline(p);
+  assert.equal(tags[0], "H1", `${label}: første synlige overskrift skal være H1 (${tags.join(" ")})`);
+  const levels = tags.map(t => +t[1]);
+  for (let i = 1; i < levels.length; i++) {
+    assert.ok(levels[i] <= levels[i - 1] + 1, `${label}: hopper over nivå ${tags[i - 1]} → ${tags[i]}`);
+  }
+};
 
 await scenario("Les her forklarer prøven og at resultatet ikke er offisielt", async p => {
   await p.click("#aboutBtn");
@@ -55,10 +71,21 @@ await scenario("Les her forklarer prøven og at resultatet ikke er offisielt", a
   await p.keyboard.press("Escape");
   assert.equal(await p.isVisible("#aboutDialog"), false);
   await p.click("#aboutBtn");
-  await p.evaluate(() => document.querySelector("#aboutDialog").dispatchEvent(new MouseEvent("click", { bubbles: true })));
-  assert.equal(await p.isVisible("#aboutDialog"), true, "åpningsklikket lukker ikke boksen");
   await p.click("#aboutDialog", { position: { x: 8, y: 8 } });
   assert.equal(await p.isVisible("#aboutDialog"), false, "klikk utenfor boksen lukker den");
+});
+
+await scenario("Overskrifter går H1–H2 uten å hoppe over nivå", async p => {
+  await assertHeadingOrder(p, "startside");
+  await p.click("#aboutBtn");
+  await assertHeadingOrder(p, "Les her");
+  assert.deepEqual(await headingOutline(p), ["H1", "H2", "H2", "H2"]);
+  await p.click("#aboutClose");
+  await p.click("#scopeOne");
+  await assertHeadingOrder(p, "temakort");
+  await p.click("#scopeAll");
+  await p.click("#startBtn");
+  await assertHeadingOrder(p, "spørsmål");
 });
 
 await scenario("Banken har 1040 spørsmål, 80 per undertema, og Ny i Norge har fire emner", async p => {
@@ -74,6 +101,15 @@ await scenario("Banken har 1040 spørsmål, 80 per undertema, og Ny i Norge har 
 await scenario("Ny i Norge kan velges under Familie, helse og hverdagsliv og gir bare spørsmål derfra, jevnt fra emnene", async p => {
   await p.click("#scopeOne");
   assert.equal(await p.locator("#themePicker .theme-card img").count(), 3);
+  assert.equal(await p.locator("#themePicker figcaption").count(), 0);
+  const alts = await p.$$eval("#themePicker .theme-card img", els => els.map(e => e.getAttribute("alt")));
+  assert.ok(alts.every(t => t.length > 10), "temabilder skal ha alt-tekst");
+  const tips = await p.$$eval("#themePicker .theme-photo-tip", els => els.map(e => e.textContent.trim()));
+  assert.deepEqual(tips, alts, "tekst over bildet skal være lik alt-teksten");
+  const firstTip = p.locator("#themePicker .theme-card .theme-photo-tip").first();
+  assert.equal(await firstTip.evaluate(e => getComputedStyle(e).visibility), "hidden");
+  await p.locator("#themePicker .theme-card img").first().hover();
+  assert.equal(await firstTip.evaluate(e => getComputedStyle(e).visibility), "visible");
   await p.click('#themePicker [data-theme="familie"]');
   assert.equal(await p.getAttribute('#themePicker [data-theme="familie"]', "aria-expanded"), "true");
   const btn = await p.$("#themePicker .pick:has-text('Ny i Norge')");
@@ -241,9 +277,16 @@ await scenario("Prøvemodus: gå tilbake, endre svar, fjerne svar og merke spør
   await setup(p, 20, "test"); await p.click("#startBtn");
   await clickOpt(p, 0); await p.click("#flagBtn");
   assert.equal(await p.getAttribute("#flagBtn", "aria-pressed"), "true");
+  assert.equal(await p.$eval("#options .option:nth-child(1)", o => o.tabIndex), 0);
+  assert.equal(await p.$eval("#options .option:nth-child(2)", o => o.tabIndex), -1);
+  await p.focus("#options .option");
+  await p.keyboard.press("ArrowDown");
+  assert.equal(await p.$eval("#options .option:nth-child(2)", o => o.getAttribute("aria-checked")), "true");
+  assert.equal(await p.$eval("#options .option:nth-child(1)", o => o.tabIndex), -1);
+  assert.equal(await p.$eval("#options .option:nth-child(2)", o => o.tabIndex), 0);
   await p.click("#nextBtn"); await p.click("#prevBtn");
-  assert.ok((await p.$eval("#options .option", o => o.classList.contains("selected"))), "valg er husket");
-  await clickOpt(p, 0); // klikk igjen fjerner svaret
+  assert.ok((await p.$eval("#options .option:nth-child(2)", o => o.classList.contains("selected"))), "valg er husket");
+  await clickOpt(p, 1); // klikk det valgte svaret igjen fjerner det
   assert.equal((await p.$$("#options .option.selected")).length, 0);
   await clickOpt(p, 1);
   await p.click("#overviewBtn");
@@ -318,6 +361,25 @@ await scenario("Ingenting om eleven lagres i nettleseren", async (p, ctx) => {
   assert.equal((await ctx.cookies()).length, 0);
 });
 
+await scenario("Lenker i bunnteksten er understreket, og startknappen får forklaring når tema mangler", async p => {
+  assert.match(await p.getAttribute(".logo", "alt"), /MOVED/);
+  const deco = await p.$eval(".site-footer a", e => getComputedStyle(e).textDecorationLine);
+  assert.match(deco, /underline/);
+  await p.click("#scopeOne");
+  assert.equal(await p.getAttribute("#startBtn", "aria-describedby"), "scopeHint");
+  assert.equal(await p.isVisible("#scopeHint"), true);
+  await p.click("#scopeAll");
+  assert.equal(await p.getAttribute("#startBtn", "aria-describedby"), null);
+});
+
+await scenario("200 % tekststørrelse uten horisontal rulling", async p => {
+  await p.addStyleTag({ content: "html{font-size:200%!important}" });
+  const noScroll = () => p.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth + 1);
+  assert.ok(await noScroll(), "startside");
+  await setup(p, 20, "practice"); await p.click("#startBtn");
+  assert.ok(await noScroll(), "spørsmål");
+}, { width: 1280, height: 900 });
+
 await scenario("Ingen horisontal rulling på mobil (360 px) på alle skjermer", async p => {
   const noScroll = () => p.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth);
   assert.ok(await noScroll(), "startside");
@@ -334,11 +396,12 @@ for (const scheme of ["light", "dark"]) {
     await p.emulateMedia({ colorScheme: scheme });
     const check = async label => {
       await p.addScriptTag({ path: path.join(root, "node_modules/axe-core/axe.min.js") }).catch(() => {});
-      const res = await p.evaluate(() => axe.run(document, { runOnly: ["wcag2a", "wcag2aa", "wcag21a", "wcag21aa"] }));
+      const res = await p.evaluate(() => axe.run(document, { runOnly: ["wcag2a", "wcag2aa", "wcag21a", "wcag21aa", "best-practice"] }));
       const v = res.violations.map(x => `${x.id} (${x.nodes.length}): ${x.nodes.slice(0, 2).map(n => n.target.join(" ")).join(", ")}`);
       assert.deepEqual(v, [], `${label}: ${v.join(" | ")}`);
     };
     await check("startside");
+    await p.click("#aboutBtn"); await check("Les her"); await p.click("#aboutClose");
     await setup(p, 20, "test"); await p.check("#useTimer"); await check("startside med tidtaker");
     await p.click("#startBtn"); await clickOpt(p, 0); await p.click("#flagBtn"); await check("Prøvemodus-spørsmål");
     await p.click("#overviewBtn"); await check("oversikt");

@@ -166,13 +166,34 @@ function renderQuestion() {
   const box = $("#options"); box.innerHTML = "";
   q.options.forEach((o, i) => {
     const b = document.createElement("button");
+    b.type = "button";
     b.className = "option"; b.dataset.i = i;
-    if (test) { b.setAttribute("role", "radio"); b.setAttribute("aria-checked", String(a.picked === i)); if (a.picked === i) b.classList.add("selected"); }
+    if (test) {
+      b.setAttribute("role", "radio");
+      b.setAttribute("aria-checked", String(a.picked === i));
+      b.tabIndex = a.picked === i || (a.picked === null && i === 0) ? 0 : -1;
+      if (a.picked === i) b.classList.add("selected");
+    }
     b.innerHTML = `<span class="letter">${o.letter}</span><span>${esc(o.text)}</span>`;
     b.onclick = () => choose(i);
     box.appendChild(b);
   });
-  if (test) box.setAttribute("role", "radiogroup"); else box.setAttribute("role", "group");
+  if (test) {
+    box.setAttribute("role", "radiogroup");
+    box.onkeydown = e => {
+      const btns = [...box.querySelectorAll(".option")];
+      const i = Math.max(0, btns.indexOf(document.activeElement));
+      let next = -1;
+      if (e.key === "ArrowDown" || e.key === "ArrowRight") next = (i + 1) % btns.length;
+      else if (e.key === "ArrowUp" || e.key === "ArrowLeft") next = (i - 1 + btns.length) % btns.length;
+      else if (e.key === "Home") next = 0;
+      else if (e.key === "End") next = btns.length - 1;
+      if (next < 0) return;
+      e.preventDefault();
+      choose(next);
+      btns[next].focus();
+    };
+  } else box.setAttribute("role", "group");
   if (!state.firstRender) state.firstRender = true; else $("#questionText").focus({ preventScroll: true });
 }
 
@@ -221,10 +242,13 @@ function chooseTest(i) {
   a.picked = a.picked === i ? null : i;
   [...$("#options").children].forEach((b, idx) => {
     const on = a.picked === idx;
-    b.classList.toggle("selected", on); b.setAttribute("aria-checked", String(on));
+    b.classList.toggle("selected", on);
+    b.setAttribute("aria-checked", String(on));
+    b.tabIndex = on || (a.picked === null && idx === 0) ? 0 : -1;
   });
   const n = state.items.length, answered = state.answers.filter(x => x.picked !== null).length;
   $("#progressBar").style.width = `${(answered / n) * 100}%`;
+  $("#progress").setAttribute("aria-valuenow", Math.round((answered / n) * 100));
   $("#scoreLive").textContent = `${answered} av ${n} besvart`;
 }
 
@@ -251,6 +275,7 @@ function openOverview() {
   const grid = $("#overviewGrid"); grid.innerHTML = "";
   state.answers.forEach((a, i) => {
     const b = document.createElement("button");
+    b.type = "button";
     b.className = `ov-item ${a.picked !== null ? "answered" : "unanswered"}${a.flagged ? " flagged" : ""}`;
     b.textContent = i + 1;
     b.setAttribute("aria-label", `Spørsmål ${i + 1}: ${a.picked !== null ? "besvart" : "ikke besvart"}${a.flagged ? ", merket" : ""}`);
@@ -390,6 +415,8 @@ function updateStartEnabled() {
   const blocked = state.mode === "practice" && state.scope === "one" && !state.subthemes.length;
   $("#startBtn").disabled = blocked;
   $("#scopeHint").hidden = !blocked;
+  if (blocked) $("#startBtn").setAttribute("aria-describedby", "scopeHint");
+  else $("#startBtn").removeAttribute("aria-describedby");
 }
 
 function renderPicker() {
@@ -409,13 +436,19 @@ function renderPicker() {
     const open = state.mainTheme === group.id;
     const card = document.createElement("article");
     card.className = "theme-card theme-card--" + group.id + (open ? " open" : "");
+    const figure = document.createElement("figure");
     const img = document.createElement("img");
     img.src = group.image;
     img.alt = group.alt;
-    card.appendChild(img);
+    const tip = document.createElement("p");
+    tip.className = "theme-photo-tip";
+    tip.textContent = group.alt;
+    tip.setAttribute("aria-hidden", "true");
+    figure.append(img, tip);
+    card.appendChild(figure);
     const head = document.createElement("div");
     head.className = "theme-card-head";
-    const title = document.createElement("h3");
+    const title = document.createElement("h2");
     title.id = `theme-title-${group.id}`;
     title.textContent = group.name;
     const toggle = document.createElement("button");
@@ -423,8 +456,8 @@ function renderPicker() {
     toggle.className = "theme-toggle";
     toggle.dataset.theme = group.id;
     toggle.setAttribute("aria-expanded", String(open));
-    toggle.setAttribute("aria-controls", `theme-list-${group.id}`);
-    toggle.setAttribute("aria-labelledby", `theme-title-${group.id}`);
+    if (open) toggle.setAttribute("aria-controls", `theme-list-${group.id}`);
+    toggle.setAttribute("aria-describedby", `theme-title-${group.id}`);
     const arrow = document.createElement("span");
     arrow.className = "theme-arrow";
     arrow.setAttribute("aria-hidden", "true");
@@ -512,25 +545,41 @@ let timerTouched = false;
 $("#timerMinutes").onchange = () => { timerTouched = true; };
 const defaultMinutes = { 20: 20, 30: 30, 40: 45 };
 $("#timerMinutes").value = String(defaultMinutes[20]);
+function setPageInert(on) {
+  document.querySelectorAll("header, main, footer").forEach(el => { el.inert = on; });
+}
+let aboutIgnoreBackdrop = false;
 function openAbout() {
   const box = $("#aboutDialog");
   box.hidden = false;
+  setPageInert(true);
+  aboutIgnoreBackdrop = true;
   // Fokus settes etter klikket, så Chrome ikke sender åpningsklikket til Lukk.
-  requestAnimationFrame(() => { if (!box.hidden) $("#aboutClose").focus(); });
+  requestAnimationFrame(() => {
+    if (!box.hidden) $("#aboutClose").focus();
+    requestAnimationFrame(() => { aboutIgnoreBackdrop = false; });
+  });
 }
 function closeAbout() {
   const box = $("#aboutDialog");
   if (box.hidden) return;
   box.hidden = true;
+  setPageInert(false);
+  aboutIgnoreBackdrop = false;
   $("#aboutBtn").focus();
 }
 $("#aboutBtn").addEventListener("click", e => { e.preventDefault(); openAbout(); });
 $("#aboutClose").addEventListener("click", e => { e.preventDefault(); e.stopPropagation(); closeAbout(); });
-// Lukk på nedtrykk utenfor boksen, ikke på click. I Chrome kan åpningsklikket
-// treffe feltet bak boksen og lukke den med en gang. Det skjer ikke i Edge.
-$("#aboutDialog").addEventListener("pointerdown", e => { if (e.target === $("#aboutDialog")) closeAbout(); });
+// Lukk på slipp/klikk utenfor boksen (ikke nedtrykk), så 2.5.2 er oppfylt.
+// Åpningsklikket ignoreres, ellers kan Chrome lukke boksen med en gang.
+$("#aboutDialog").addEventListener("click", e => {
+  if (aboutIgnoreBackdrop) return;
+  if (e.target === $("#aboutDialog")) closeAbout();
+});
 document.addEventListener("keydown", e => {
-  if (e.key === "Escape" && !$("#aboutDialog").hidden) { e.preventDefault(); closeAbout(); }
+  if ($("#aboutDialog").hidden) return;
+  if (e.key === "Escape") { e.preventDefault(); closeAbout(); return; }
+  if (e.key === "Tab") { e.preventDefault(); $("#aboutClose").focus(); }
 });
 $("#startBtn").onclick = start;
 $("#nextBtn").onclick = next;

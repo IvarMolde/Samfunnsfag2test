@@ -1,6 +1,6 @@
 # Lage nye spørsmål i Cursor
 
-Denne veiledningen er for deg og for Cursor-agenten når et nytt undertema skal bygges. Følg den i rekkefølge. Ikke gjør andre endringer i appen enn det som står her.
+Denne veiledningen er for deg og for Cursor-agenten når et nytt undertema skal bygges. Følg den i rekkefølge. Ikke gjør andre endringer i appen enn det som står her. Slik portalen virker i dag, står i `README.md`. Slik du fortsetter på koden, står i `docs/OVERSIKT.md`.
 
 ## Mål
 80 spørsmål per undertema, A2, tre svaralternativer, første alternativ er alltid riktig (appen stokker rekkefølgen). Hvert spørsmål har en tilbakemelding for riktig svar og en for feil svar.
