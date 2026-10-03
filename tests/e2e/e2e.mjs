@@ -274,17 +274,28 @@ await scenario("Prøvemodus uten tidtaker viser ingen tid", async p => {
 });
 
 await scenario("Resultat: navn, dato, per tema, Øv på feilene og utskrift", async p => {
-  await p.fill("#studentName", "Kari Nordmann");
+  assert.equal(await p.locator("#studentName").count(), 0);
   await setup(p, 30, "practice"); await p.click("#startBtn");
   for (let i = 0; i < 30; i++) {
     const ci = await correctIdx(p);
     await clickOpt(p, i % 3 === 0 ? [0, 1, 2].find(x => x !== ci) : ci);
     await p.click("#nextBtn");
   }
-  assert.match(await p.textContent("#resultSub"), /Kari Nordmann · \d+\. \w+ 2\d{3} · Øvingsmodus · 30 spørsmål/);
+  assert.match(await p.textContent("#resultSub"), /^\d+\. \w+ 2\d{3} · Øvingsmodus · 30 spørsmål$/);
   assert.equal(await p.textContent("#wrongCount"), "10");
   assert.equal(await p.textContent("#percent"), "66,7%");
   assert.match(await p.textContent("#retryBtn"), /\(10\)/);
+  await p.click("#printBtn");
+  assert.equal(await p.evaluate(() => document.getElementById("printDialog").open), true);
+  await p.fill("#printName", "Kari Nordmann");
+  await p.evaluate(() => { window.print = () => {}; });
+  await p.click("#printDlgOk");
+  assert.equal(await p.evaluate(() => document.getElementById("printDialog").open), false);
+  assert.equal(await p.textContent("#diplomaName"), "Kari Nordmann");
+  assert.match(await p.textContent("#diplomaDate"), /^Gjennomført \d+\. \w+ 2\d{3}$/);
+  assert.match(await p.getAttribute(".diploma-logo", "alt"), /MOVED/);
+  assert.match(await p.textContent(".diploma-platform"), /prøveplattformen til Molde voksenopplæringssenter/);
+  assert.match(await p.textContent(".print-footnote"), /ikke et offisielt resultat/);
   await p.emulateMedia({ media: "print" });
   assert.equal(await p.$eval(".print-banner", e => getComputedStyle(e).display), "block");
   assert.equal(await p.$eval(".result-actions", e => getComputedStyle(e).display), "none");
@@ -299,7 +310,6 @@ await scenario("Resultat: navn, dato, per tema, Øv på feilene og utskrift", as
 });
 
 await scenario("Ingenting om eleven lagres i nettleseren", async (p, ctx) => {
-  await p.fill("#studentName", "Hemmelig Navn");
   await setup(p, 20, "practice"); await p.click("#startBtn");
   for (let i = 0; i < 20; i++) { await clickOpt(p, 0); await p.click("#nextBtn"); }
   const st = await p.evaluate(() => ({ l: localStorage.length, s: sessionStorage.length, c: document.cookie }));

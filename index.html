@@ -8,7 +8,7 @@
   <link rel="preload" href="fonts/lexend-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="fonts/lexend-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
   <title>Øv til prøven i samfunnskunnskap</title>
-  <link rel="stylesheet" href="style.css?v=15">
+  <link rel="stylesheet" href="style.css?v=16">
 </head>
 <body>
   <a class="skip" href="#main">Hopp til innhold</a>
@@ -28,8 +28,6 @@
         <h1 id="startTitle" tabindex="-1">Start</h1>
         <p class="lead">Velg hvordan du vil øve. Dette er en øvingsprøve, ikke den offisielle prøven.</p>
         <button type="button" class="about-btn" id="aboutBtn" aria-haspopup="dialog" aria-controls="aboutDialog">Les her</button>
-        <label for="studentName">Navn <span>(valgfritt, vises bare på resultatet ditt)</span></label>
-        <input id="studentName" type="text" autocomplete="name" placeholder="Skriv navnet ditt">
         <div id="countSetup">
           <div class="field-label" id="countLabel">Antall spørsmål</div>
           <div class="choice-grid" id="countChoices" role="group" aria-labelledby="countLabel">
@@ -120,18 +118,32 @@
       </form>
     </dialog>
 
+    <dialog id="printDialog" aria-labelledby="printDlgTitle">
+      <form method="dialog" id="printForm">
+        <h2 id="printDlgTitle">Skriv ut diplom</h2>
+        <p>Vil du ha navnet ditt på diplomet? Du trenger ikke skrive navn.</p>
+        <label for="printName">Navn <span>(valgfritt)</span></label>
+        <input id="printName" type="text" autocomplete="name" placeholder="Skriv navnet ditt">
+        <div class="dlg-actions">
+          <button type="button" class="secondary" id="printDlgCancel">Avbryt</button>
+          <button type="button" class="primary" id="printDlgOk">Skriv ut</button>
+        </div>
+      </form>
+    </dialog>
+
     <section class="screen" id="resultScreen">
       <div class="panel">
         <article class="diploma print-only" id="diploma">
           <div class="diploma-frame">
-            <img class="diploma-logo" src="assets/molde-voksenopplaering.png" alt="Molde voksenopplæring" width="1595" height="525">
+            <img class="diploma-logo" src="assets/molde-voksenopplaering.png" alt="MOVED, Molde voksenopplæring" width="1595" height="525">
             <p class="print-banner">Øvingsprøve i samfunnskunnskap</p>
             <p class="diploma-name" id="diplomaName" hidden></p>
             <p class="diploma-date" id="diplomaDate"></p>
             <p class="diploma-score" id="diplomaScore"></p>
             <p class="diploma-detail" id="diplomaDetail"></p>
             <p class="diploma-status" id="diplomaStatus"></p>
-            <p class="print-footnote">Diplomet er resultatet fra en øvingsprøve, ikke en godkjenning på samfunnfagsprøven fra norske myndigheter.</p>
+            <p class="diploma-platform">Prøven er gjennomført på prøveplattformen til Molde voksenopplæringssenter.</p>
+            <p class="print-footnote">Dette er ikke et offisielt resultat. Diplomet er ikke en godkjenning på samfunnfagsprøven fra norske myndigheter.</p>
           </div>
         </article>
         <h1 id="resultTitle" tabindex="-1"></h1>
@@ -198,6 +210,6 @@
       </div>
     </div>
   </div>
-  <script type="module" src="app.js?v=10"></script>
+  <script type="module" src="app.js?v=11"></script>
 </body>
 </html>

@@ -51,9 +51,9 @@ Et nytt undertema blir med i øvingen og i prøvens blanding av seg selv når sp
 ## Bestått og personvern
 
 - Bestått er 80 % riktige. Det er 16 av 20, 24 av 30, 31 av 38 og 32 av 40.
-- Navn er valgfritt. Det vises bare på resultatet og på diplomet.
+- Navn er valgfritt. Det skrives inn først når eleven vil skrive ut diplomet. Navnet vises bare på diplomet.
 - Ingenting om eleven lagres. En sideoppdatering sletter fremdriften.
-- Utskriften er et diplom. Det viser logo, dato, navn hvis det er fylt inn, poengsum og tydelig bestått eller ikke bestått. Spørsmålene er ikke med. Nederst står det: «Diplomet er resultatet fra en øvingsprøve, ikke en godkjenning på samfunnfagsprøven fra norske myndigheter.»
+- Utskriften er et diplom. Det viser MOVED-logo, dato for når prøven er gjennomført, navn hvis det er fylt inn, poengsum og tydelig bestått eller ikke bestått. Spørsmålene er ikke med. Det står at prøven er gjennomført på prøveplattformen til Molde voksenopplæringssenter, og at dette ikke er et offisielt resultat: «Dette er ikke et offisielt resultat. Diplomet er ikke en godkjenning på samfunnfagsprøven fra norske myndigheter.»
 
 ## GitHub Pages
 
