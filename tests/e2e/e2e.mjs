@@ -125,6 +125,20 @@ await scenario("Norge før og nå: alle fire undertemaer kan velges, og Historie
   assert.equal(await p.textContent("#headerScope"), "Historie");
 });
 
+await scenario("Flere undertemaer: Helse og Historie gir 20 spørsmål, like mange fra hvert", async p => {
+  await p.click("#scopeOne");
+  await p.click('#themePicker [data-theme="familie"]');
+  await p.click("#themePicker .pick:has-text('Helse')");
+  await p.click('#themePicker [data-theme="norge"]');
+  await p.click("#themePicker .pick:has-text('Historie')");
+  await p.click('.choice[data-count="20"]'); await p.click('.mode[data-mode="practice"]');
+  await p.click("#startBtn");
+  const r = await p.evaluate(() => window.__state.items.map(q => q.category));
+  assert.equal(r.length, 20);
+  const per = r.reduce((o, c) => ((o[c] = (o[c] || 0) + 1), o), {});
+  assert.deepEqual(per, { Helse: 10, Historie: 10 }, JSON.stringify(per));
+});
+
 await scenario("Prøvemodus og Alle temaer trekker fra alle 13 undertemaene", async p => {
   for (const mode of ["test", "practice"]) {
     await p.goto(base); await p.waitForFunction(() => window.__state && window.__state.bank.length > 0);

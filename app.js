@@ -9,7 +9,7 @@ const CATALOG = [
 ];
 
 const state = { bank: [], openers: { correct: [], wrong: [] }, items: [], answers: [], current: 0,
-  mode: "practice", kind: "normal", count: 20, name: "", date: "", scope: "all", mainTheme: "", subtheme: "", sessionLabel: "",
+  mode: "practice", kind: "normal", count: 20, name: "", date: "", scope: "all", mainTheme: "", subthemes: [], sessionLabel: "",
   timer: { enabled: false, minutes: 30, endsAt: 0, startedAt: 0, handle: null, warned: new Set() }, running: false, autoSubmitted: false, usedSeconds: 0 };
 
 const pick = (a, fb) => (a && a.length ? a[Math.floor(Math.random() * a.length)] : fb);
@@ -32,7 +32,7 @@ async function loadBank() {
 }
 
 // Resultat per emne når ett undertema med emner er valgt (for eksempel Ny i Norge), ellers per undertema.
-function groupBy() { return state.scope === "one" && state.mode === "practice" && state.items.some(q => q.topic) ? "topic" : "category"; }
+function groupBy() { return state.scope === "one" && state.mode === "practice" && state.subthemes.length === 1 && state.items.some(q => q.topic) ? "topic" : "category"; }
 
 function show(name) {
   Object.entries(screens).forEach(([k, el]) => el.classList.toggle("active", k === name));
@@ -55,13 +55,20 @@ function questionCount() {
   return state.mode === "test" ? TEST_COUNT : state.count;
 }
 
+function sessionLabelFor(subs) {
+  if (subs.length === 1) return subs[0];
+  if (subs.length <= 3) return subs.join(", ");
+  return `${subs.length} undertemaer`;
+}
+
 function sessionDraw() {
   const n = questionCount();
-  if (state.mode === "test" || state.scope !== "one" || !state.subtheme) {
+  if (state.mode === "test" || state.scope !== "one" || !state.subthemes.length) {
     return { questions: drawBalanced(state.bank, n), label: "Alle temaer" };
   }
-  const bank = state.bank.filter(q => q.category === state.subtheme);
-  return { questions: drawBalanced(bank, n), label: state.subtheme };
+  const chosen = new Set(state.subthemes);
+  const bank = state.bank.filter(q => chosen.has(q.category));
+  return { questions: drawBalanced(bank, n), label: sessionLabelFor(state.subthemes) };
 }
 
 function paintScope(label) {
@@ -73,8 +80,10 @@ function paintScope(label) {
 }
 
 function sessionTheme() {
-  if (state.mode === "test" || state.scope !== "one") return null;
-  return CATALOG.find(g => g.id === state.mainTheme) || null;
+  if (state.mode === "test" || state.scope !== "one" || !state.subthemes.length) return null;
+  const mains = new Set(state.subthemes.map(name => CATALOG.find(g => g.subs.includes(name))?.id).filter(Boolean));
+  if (mains.size !== 1) return null;
+  return CATALOG.find(g => g.id === [...mains][0]) || null;
 }
 
 function paintThemeBanner() {
@@ -111,7 +120,7 @@ function beginSession(questions, { mode, kind }) {
 }
 
 function start() {
-  if (state.mode === "practice" && state.scope === "one" && !state.subtheme) return;
+  if (state.mode === "practice" && state.scope === "one" && !state.subthemes.length) return;
   state.name = $("#studentName").value.trim();
   state.timer.enabled = state.mode === "test" && $("#useTimer").checked;
   state.timer.minutes = +$("#timerMinutes").value;
@@ -382,7 +391,7 @@ function printResult() {
 }
 
 function updateStartEnabled() {
-  const blocked = state.mode === "practice" && state.scope === "one" && !state.subtheme;
+  const blocked = state.mode === "practice" && state.scope === "one" && !state.subthemes.length;
   $("#startBtn").disabled = blocked;
   $("#scopeHint").hidden = !blocked;
 }
@@ -395,7 +404,7 @@ function renderPicker() {
   const ready = readyCategories();
   const label = document.createElement("p");
   label.className = "field-label";
-  label.textContent = "Velg hovedtema";
+  label.textContent = "Velg ett eller flere undertemaer";
   box.appendChild(label);
   CATALOG.forEach(group => {
     const open = state.mainTheme === group.id;
@@ -424,13 +433,19 @@ function renderPicker() {
     toggleText.textContent = open ? "Skjul temaene" : "Vis temaene";
     toggle.append(arrow, toggleText);
     toggle.onclick = () => {
-      if (open) { state.mainTheme = ""; state.subtheme = ""; }
-      else { state.mainTheme = group.id; state.subtheme = ""; }
+      state.mainTheme = open ? "" : group.id;
       renderPicker();
       updateStartEnabled();
     };
     head.append(title, toggle);
     card.appendChild(head);
+    const nSel = group.subs.filter(n => state.subthemes.includes(n)).length;
+    if (nSel) {
+      const mark = document.createElement("p");
+      mark.className = "theme-picked";
+      mark.textContent = nSel === 1 ? "1 tema valgt" : `${nSel} temaer valgt`;
+      card.appendChild(mark);
+    }
     const list = document.createElement("div");
     list.id = `theme-list-${group.id}`;
     list.className = "theme-drop";
@@ -440,12 +455,19 @@ function renderPicker() {
         const ok = ready.has(name);
         const b = document.createElement("button");
         b.type = "button";
-        b.className = "pick" + (state.subtheme === name ? " selected" : "");
+        const on = state.subthemes.includes(name);
+        b.className = "pick" + (on ? " selected" : "");
         b.textContent = ok ? name : `${name} (kommer)`;
         b.disabled = !ok;
         if (!ok) b.setAttribute("aria-disabled", "true");
-        b.setAttribute("aria-pressed", String(state.subtheme === name));
-        b.onclick = () => { state.subtheme = name; renderPicker(); updateStartEnabled(); };
+        b.setAttribute("aria-pressed", String(on));
+        b.onclick = () => {
+          const i = state.subthemes.indexOf(name);
+          if (i >= 0) state.subthemes.splice(i, 1);
+          else state.subthemes.push(name);
+          renderPicker();
+          updateStartEnabled();
+        };
         list.appendChild(b);
       });
     }
@@ -456,7 +478,7 @@ function renderPicker() {
 
 function setScope(scope) {
   state.scope = scope;
-  if (scope !== "one") { state.mainTheme = ""; state.subtheme = ""; }
+  if (scope !== "one") { state.mainTheme = ""; state.subthemes = []; }
   document.querySelectorAll("[data-scope]").forEach(b => {
     const on = b.dataset.scope === scope;
     b.classList.toggle("selected", on);
