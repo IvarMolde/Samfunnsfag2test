@@ -39,6 +39,22 @@ async function scenario(name, fn, viewport = { width: 1000, height: 900 }) {
 const correctIdx = p => p.evaluate(() => { const s = window.__state; return s.items[s.current].options.findIndex(o => o.correct); });
 const clickOpt = async (p, i) => (await p.$$("#options .option"))[i].click();
 const setup = async (p, count, mode) => { await p.click(`.choice[data-count="${count}"]`); await p.click(`.mode[data-mode="${mode}"]`); };
+const headingOutline = p => p.evaluate(() => [...document.querySelectorAll("h1,h2,h3,h4,h5,h6")]
+  .filter(el => {
+    if (el.closest("[inert]")) return false;
+    const dlg = el.closest("dialog");
+    if (dlg && !dlg.open) return false;
+    return el.checkVisibility();
+  })
+  .map(el => el.tagName));
+const assertHeadingOrder = async (p, label) => {
+  const tags = await headingOutline(p);
+  assert.equal(tags[0], "H1", `${label}: første synlige overskrift skal være H1 (${tags.join(" ")})`);
+  const levels = tags.map(t => +t[1]);
+  for (let i = 1; i < levels.length; i++) {
+    assert.ok(levels[i] <= levels[i - 1] + 1, `${label}: hopper over nivå ${tags[i - 1]} → ${tags[i]}`);
+  }
+};
 
 await scenario("Les her forklarer prøven og at resultatet ikke er offisielt", async p => {
   await p.click("#aboutBtn");
@@ -57,6 +73,19 @@ await scenario("Les her forklarer prøven og at resultatet ikke er offisielt", a
   await p.click("#aboutBtn");
   await p.click("#aboutDialog", { position: { x: 8, y: 8 } });
   assert.equal(await p.isVisible("#aboutDialog"), false, "klikk utenfor boksen lukker den");
+});
+
+await scenario("Overskrifter går H1–H2 uten å hoppe over nivå", async p => {
+  await assertHeadingOrder(p, "startside");
+  await p.click("#aboutBtn");
+  await assertHeadingOrder(p, "Les her");
+  assert.deepEqual(await headingOutline(p), ["H1", "H2", "H2", "H2"]);
+  await p.click("#aboutClose");
+  await p.click("#scopeOne");
+  await assertHeadingOrder(p, "temakort");
+  await p.click("#scopeAll");
+  await p.click("#startBtn");
+  await assertHeadingOrder(p, "spørsmål");
 });
 
 await scenario("Banken har 1040 spørsmål, 80 per undertema, og Ny i Norge har fire emner", async p => {
@@ -372,6 +401,7 @@ for (const scheme of ["light", "dark"]) {
       assert.deepEqual(v, [], `${label}: ${v.join(" | ")}`);
     };
     await check("startside");
+    await p.click("#aboutBtn"); await check("Les her"); await p.click("#aboutClose");
     await setup(p, 20, "test"); await p.check("#useTimer"); await check("startside med tidtaker");
     await p.click("#startBtn"); await clickOpt(p, 0); await p.click("#flagBtn"); await check("Prøvemodus-spørsmål");
     await p.click("#overviewBtn"); await check("oversikt");

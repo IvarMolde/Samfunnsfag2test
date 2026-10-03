@@ -8,7 +8,7 @@
   <link rel="preload" href="fonts/lexend-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="fonts/lexend-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
   <title>Øv til prøven i samfunnskunnskap</title>
-  <link rel="stylesheet" href="style.css?v=21">
+  <link rel="stylesheet" href="style.css?v=22">
 </head>
 <body>
   <a class="skip" href="#main">Hopp til innhold</a>
@@ -109,7 +109,7 @@
 
     <dialog id="submitDialog" aria-labelledby="dlgTitle">
       <form method="dialog">
-        <h2 id="dlgTitle">Lever inn prøven?</h2>
+        <h1 id="dlgTitle">Lever inn prøven?</h1>
         <p id="dlgText"></p>
         <div class="dlg-actions">
           <button type="button" class="secondary" value="cancel" id="dlgCancel">Gå tilbake</button>
@@ -120,7 +120,7 @@
 
     <dialog id="printDialog" aria-labelledby="printDlgTitle">
       <form method="dialog" id="printForm">
-        <h2 id="printDlgTitle">Skriv ut diplom</h2>
+        <h1 id="printDlgTitle">Skriv ut diplom</h1>
         <p>Vil du ha navnet ditt på diplomet? Du trenger ikke skrive navn.</p>
         <label for="printName">Navn <span>(valgfritt)</span></label>
         <input id="printName" type="text" autocomplete="name" placeholder="Skriv navnet ditt">
@@ -194,14 +194,14 @@
   </footer>
   <div id="aboutDialog" class="info-modal" hidden role="dialog" aria-modal="true" aria-labelledby="aboutTitle" aria-describedby="aboutLead">
     <div class="info-panel">
-      <h2 id="aboutTitle">Slik fungerer prøven</h2>
+      <h1 id="aboutTitle">Slik fungerer prøven</h1>
       <div class="about-body">
         <p id="aboutLead">Dette er en øvingsprøve i samfunnskunnskap. Det er ikke den offisielle prøven.</p>
-        <h3>Øving</h3>
+        <h2>Øving</h2>
         <p>Du får vite med en gang om svaret er riktig. Du kan ta 20, 30 eller 40 spørsmål. Du kan øve på alle temaene, eller velge ett eller flere undertemaer. Spørsmålene fordeles likt på de temaene du velger.</p>
-        <h3>Prøve</h3>
+        <h2>Prøve</h2>
         <p>Du kan ikke velge antall spørsmål. Prøven har alltid 38 spørsmål. De trekkes tilfeldig fra alle temaene, med like mange fra hvert tema. Du får ikke vite om svaret er riktig før du leverer. Du kan gå tilbake og endre svar.</p>
-        <h3>Resultat</h3>
+        <h2>Resultat</h2>
         <p>Du består når minst 80 prosent av svarene er riktige. Resultatet viser bare hvordan det gikk på denne prøven. Det er ikke et offisielt resultat. Norske myndigheter har ikke godkjent prøven.</p>
         <p>Vi lagrer ingenting om deg.</p>
       </div>

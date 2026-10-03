@@ -38,6 +38,7 @@ Ikke gjort ennå: statusbar, utskrift med navn, prøvemodus med tidtaker og nytt
 - Appen er lys modus. Utskrift bruker alltid lyse farger. Mørk modus er ikke implementert ennå.
 - axe-core (WCAG 2.1 A og AA, pluss vanlige beste praksiser) kjører i `npm run e2e` på alle skjermer, også når systemet ber om mørk modus. Det er en automatisk kontroll og erstatter ikke test med skjermleser og bare tastatur.
 - Riktig og galt vises aldri med farge alene: de har også tekst («✓ Riktig», «✕ Ditt svar»).
+- Hver visning har én synlig H1. Deretter kommer H2 (temakort, bunntekst, resultat per tema). I «Les her» er tittelen H1 og Øving/Prøve/Resultat H2. Ingen visning hopper over nivå.
 - Alle bilder har alternativ tekst (WCAG 1.1.1). Logoen sier organisasjonen. Temabildene har `alt`, og samme tekst vises over bildet når musen er over det.
 - Interaktive rammer bruker `--border` (#807d75) slik at kontrast mot hvit og beige er minst 3:1 (WCAG 1.4.11). Lenker i bunnteksten er understreket, fordi fargen alene ikke skiller dem fra brødtekst (WCAG 1.4.1).
 
