@@ -53,3 +53,6 @@ Fordel 80 spørsmål mellom emnene etter hvor mye stoff hver underside har. Hver
 
 ## Før bruk i prøven
 Be en faglærer kontrollere fakta mot offentlige kilder. Spørsmålene er ikke utprøvd på deltakere.
+
+## Levetid
+Spørsmål skal være tidløse eller ha årstall i parentes, for eksempel «Hvor mange kommuner har Norge (2026)?». Ikke bruk «i dag», «nå», «i år» eller navn på nåværende politikere. Se docs/LEVETID.md.

@@ -43,15 +43,15 @@ Tilleggskilder: https://samfunnskunnskap.no/nb/baerekraft.html, https://www.fn.n
 
 **Feil:** Kommisjonen er oppkalt etter lederen sin, som var en tidligere norsk statsminister.
 
-### baerekraft-04 · Hvilket år la Brundtlandkommisjonen fram rapporten sin?
+### baerekraft-04 · Hva heter rapporten fra FNs miljøkommisjon om bærekraftig utvikling?
 
-- A) 1987 ✔
-- B) 1945
-- C) 2015
+- A) Vår felles framtid ✔
+- B) Vår grønne verden
+- C) Én jord, én framtid
 
-**Riktig:** Riktig. Brundtlandkommisjonen ble startet av FN i 1983 og la fram rapporten sin i 1987.
+**Riktig:** Riktig. Rapporten heter «Vår felles framtid». Den gjorde begrepet bærekraftig utvikling kjent i hele verden.
 
-**Feil:** Kommisjonen ble startet i 1983 og brukte noen år på arbeidet. Rapporten kom i samme tiår.
+**Feil:** Tittelen sier noe om hva menneskene i alle land har sammen.
 
 ### baerekraft-05 · Hva er FNs bærekraftsmål?
 
@@ -116,12 +116,12 @@ Tilleggskilder: https://samfunnskunnskap.no/nb/baerekraft.html, https://www.fn.n
 ### baerekraft-11 · Hvilket av disse er ett av FNs bærekraftsmål?
 
 - A) Likestilling mellom kjønnene ✔
-- B) Flere bilveier i hvert eneste land
-- C) Mer kjøtt i hvert måltid
+- B) Mer olje og gass til rike land
+- C) Lavere skatt for store bedrifter
 
 **Riktig:** Riktig. Likestilling mellom kjønnene er bærekraftsmål nummer 5.
 
-**Feil:** Bærekraftsmålene handler om å gjøre livet bedre for mennesker og natur, ikke om å bruke mer.
+**Feil:** Bærekraftsmålene handler om å gjøre livet bedre for mennesker og natur, ikke om å bruke mer av naturen.
 
 ### baerekraft-12 · Hvem skal jobbe for å nå FNs bærekraftsmål?
 
@@ -255,13 +255,13 @@ Tilleggskilder: https://samfunnskunnskap.no/nb/baerekraft.html, https://www.fn.n
 
 ### baerekraft-25 · Hva er lettere å kontrollere når maten produseres lokalt?
 
-- A) Sprøytemidler og hvordan dyrene har det ✔
-- B) Prisen på den samme maten i andre land
-- C) Hvor mye mat hver familie spiser
+- A) Hvordan maten er laget ✔
+- B) Hva maten koster i butikken
+- C) Hvor mange som kjøper maten
 
 **Riktig:** Riktig. Med lokal mat er det lettere å kontrollere sprøytemidler, bruk av antibiotika og dyrenes levekår.
 
-**Feil:** Når maten blir laget i nærheten, er det lettere å se hvordan den blir laget.
+**Feil:** Tenk på hva du kan se og spørre om når maten kommer fra et sted nær deg.
 
 ### baerekraft-26 · Hva betyr det at et land er selvforsynt med mat?
 
@@ -302,15 +302,15 @@ Kilde: https://samfunnskunnskap.no/nb/baerekraft/natur-og-naturressurser.html
 
 Tilleggskilder: https://lovdata.no/dokument/NL/lov/1957-06-28-16, https://lovdata.no/dokument/NL/lov/2003-07-04-74, https://www.dsb.no/aktuelt/husk-balforbudet-fra-15.-april, https://www.regjeringen.no/no/tema/okonomi-og-budsjett/norsk_okonomi/bruk-av-oljepenger-/handlingsregelen/id444338/, https://norskfriluftsliv.no/hva-er-allemannsretten/slik-er-fiskereglene-i-norge, https://www.miljodirektoratet.no/ansvarsomrader/friluftsliv/friluftsliv-og-allemannsretten/fiske/
 
-### baerekraft-29 · Hva er det viktigste grunnlaget for at Norge har blitt rikt?
+### baerekraft-29 · Hva er en viktig grunn til at Norge er et rikt land?
 
-- A) Naturressursene og måten vi bruker dem på ✔
-- B) Store gruver med gull og diamanter i fjellene
-- C) Mange store bilfabrikker rundt om i landet
+- A) Naturressurser som olje, fisk og vannkraft ✔
+- B) Eksport av korn fra store jordbruksområder
+- C) Salg av biler og elektronikk til hele verden
 
-**Riktig:** Riktig. Norge har blitt rikt fordi landet har mange naturressurser, og fordi folk har lært å bruke dem godt.
+**Riktig:** Riktig. Norge har mye naturressurser, for eksempel olje, fisk og vannkraft. Folk har også lært å bruke dem godt.
 
-**Feil:** Rikdommen i Norge kommer fra naturen, for eksempel fra havet, skogen og fossene.
+**Feil:** Tenk på hva Norge har mye av i havet, i elvene og under havbunnen.
 
 ### baerekraft-30 · Hvilke naturressurser er de viktigste i Norge?
 
@@ -362,15 +362,15 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/1957-06-28-16, https://lovdat
 
 **Feil:** Tømmer er tre fra skogen. Tenk på hva vi kan lage av tre.
 
-### baerekraft-35 · Hva er havbruk eller oppdrett?
+### baerekraft-35 · Hva er oppdrett av fisk?
 
-- A) Å ale opp fisk, som laks, i merder i sjøen ✔
-- B) Å fiske med store båter langt ute i havet
-- C) Å bygge hus og hytter langs kysten
+- A) Laks og annen fisk vokser opp i anlegg i sjøen ✔
+- B) Fiskere tar fisk fra havet med store båter
+- C) Folk fisker med stang fra små båter i fjorden
 
-**Riktig:** Riktig. Havbruk eller oppdrett betyr at fisk, særlig laks, vokser opp i store merder i sjøen.
+**Riktig:** Riktig. Ved oppdrett, eller havbruk, vokser fisk som laks opp i store anlegg i sjøen. Fisken blir ikke fanget i havet.
 
-**Feil:** Oppdrett er ikke vanlig fiske. Fisken blir født og vokser opp i anlegg.
+**Feil:** Tenk på en gård, men for fisk. Hvor bor fisken hele livet?
 
 ### baerekraft-36 · Hvorfor bestemmer myndighetene hvor mye fisk som kan fiskes?
 
@@ -392,15 +392,15 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/1957-06-28-16, https://lovdat
 
 **Feil:** Navnet sier at det er statens fond. Pengene kommer fra olje- og gassvirksomheten.
 
-### baerekraft-38 · Hva sier handlingsregelen om bruken av oljefondet?
+### baerekraft-38 · Hva sier handlingsregelen om bruken av oljefondet (2026)?
 
-- A) Staten skal over tid bruke omtrent 3 prosent av fondet ✔
-- B) Staten skal bruke halvparten av fondet hvert år
-- C) Staten skal bruke omtrent 30 prosent av fondet hvert år
+- A) Staten bruker omtrent 3 prosent av fondet hvert år ✔
+- B) Staten bruker omtrent 10 prosent av fondet hvert år
+- C) Staten bruker omtrent 25 prosent av fondet hvert år
 
-**Riktig:** Riktig. Handlingsregelen sier at staten over tid skal bruke omtrent den forventede avkastningen av fondet, som i dag er anslått til 3 prosent.
+**Riktig:** Riktig. Over tid bruker staten omtrent det fondet forventes å gi i avkastning, anslått til 3 prosent. Resten blir spart.
 
-**Feil:** Staten bruker bare en liten del av fondet hvert år, slik at fondet varer.
+**Feil:** Fondet skal vare til de som kommer etter oss. Tenk på hvor mange kroner av hundre staten kan bruke.
 
 ### baerekraft-39 · Hvorfor sparer Norge oljepengene i et fond?
 
@@ -442,15 +442,15 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/1957-06-28-16, https://lovdat
 
 **Feil:** Utmark er natur der ingen dyrker jorda eller bor. Hager og åkre er innmark.
 
-### baerekraft-43 · Kan du gå over en åker med korn om sommeren?
+### baerekraft-43 · Hva gjelder hvis du vil gå over en åker med korn i juli?
 
-- A) Nei, åkeren er innmark ✔
-- B) Ja, hvis du går forsiktig
-- C) Ja, hvis det er en kort tur
+- A) Du kan ikke gå der uten lov fra eieren ✔
+- B) Du kan gå der hvis du går veldig forsiktig
+- C) Du kan gå der hvis det er en kort tur
 
 **Riktig:** Riktig. En åker er innmark. Der kan du ikke gå om sommeren uten lov fra eieren.
 
-**Feil:** Allemannsretten gjelder fritt i utmark. Dyrket mark, hager og gårdsplasser er innmark.
+**Feil:** Allemannsretten gjelder fritt i utmark. Dyrket mark er innmark.
 
 ### baerekraft-44 · Hvor langt fra et hus eller en hytte må teltet ditt stå?
 
@@ -472,25 +472,25 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/1957-06-28-16, https://lovdat
 
 **Feil:** Det er en kort periode. Grunneieren skal ikke få noen på eiendommen lenge uten å bli spurt.
 
-### baerekraft-46 · Leila vil lage bål i skogen i juli. Hva må hun vite?
+### baerekraft-46 · Hva må du gjøre før du går fra et bål?
 
-- A) Det er forbudt å tenne bål i skogen da ✔
-- B) Hun må få lov av politiet først
-- C) Bål er lov hvis det er lite
+- A) Slukke det helt, for eksempel med vann ✔
+- B) La det brenne ned av seg selv
+- C) Dekke det til med mose og kvister
 
-**Riktig:** Riktig. Fra 15. april til 15. september er det forbudt å tenne bål i eller nær skog. Det gjelder også grill, så sjekk reglene i kommunen.
+**Riktig:** Riktig. Du må slukke bålet helt før du går. Bruk mye vann og kjenn med hånden at det er kaldt.
 
-**Feil:** Om sommeren er det ofte tørt i skogen, og det kan lett bli skogbrann. Da gjelder et forbud.
+**Feil:** Et bål som ser dødt ut, kan fortsatt være varmt og starte brann. Tenk på hva som slukker ild.
 
 ### baerekraft-47 · Når er det forbudt å tenne bål i skog og utmark?
 
 - A) Fra 15. april til 15. september ✔
-- B) Fra 1. juni til 1. august
-- C) Fra 15. oktober til 15. desember
+- B) Fra 15. september til 15. april
+- C) Fra 1. november til 1. mars
 
 **Riktig:** Riktig. Bålforbudet gjelder fra 15. april til 15. september, fordi det da er stor fare for skogbrann.
 
-**Feil:** Forbudet varer i omtrent fem måneder, fra midt i april til midt i september.
+**Feil:** Tenk på når skogen er tørr og det er stor fare for brann.
 
 ### baerekraft-48 · Hvilke plikter har du når du bruker allemannsretten?
 
@@ -594,12 +594,12 @@ Tilleggskilder: https://infinitum.no/no/pantesystemet/hva-kan-pantes/, https://w
 ### baerekraft-57 · Hva betyr gjenvinning?
 
 - A) Gamle ting blir til råvarer for nye produkter ✔
-- B) Du gir de gamle klærne dine til en venn
-- C) Du kjøper en brukt sofa på nettet
+- B) Du reparerer en gammel sykkel og bruker den selv
+- C) Du kjøper mat uten emballasje av plast
 
 **Riktig:** Riktig. Gjenvinning betyr at ting blir tatt fra hverandre til råvarer, eller smeltet om til nye produkter.
 
-**Feil:** Når andre bruker tingen din slik den er, kalles det gjenbruk. Gjenvinning er noe annet.
+**Feil:** Gjenvinning gjør gamle ting om til noe nytt. Tenk på glass, papir og metall.
 
 ### baerekraft-58 · Amir kjøper en brukt jakke. Hvorfor er det bra for miljøet?
 
@@ -621,15 +621,15 @@ Tilleggskilder: https://infinitum.no/no/pantesystemet/hva-kan-pantes/, https://w
 
 **Feil:** Ordet «sortere» betyr å dele inn i grupper. Ulikt søppel skal i ulike dunker.
 
-### baerekraft-60 · Omtrent hvor mye søppel kaster hver innbygger i Norge i året?
+### baerekraft-60 · Omtrent hvor mye søppel fra hjemmet kaster hver person i Norge i året (2026)?
 
-- A) Flere hundre kilo ✔
-- B) Noen få kilo
-- C) Flere tusen kilo
+- A) Omtrent 400 kilo ✔
+- B) Omtrent 40 kilo
+- C) Omtrent 4000 kilo
 
-**Riktig:** Riktig. Hver innbygger i Norge kaster flere hundre kilo søppel i året.
+**Riktig:** Riktig. Hver person i Norge kaster omtrent 400 kilo søppel fra hjemmet i året. Det er mer enn mange tror.
 
-**Feil:** Det er mye mer enn det mange tror, men ikke så mye som et tonn.
+**Feil:** Tenk på hvor mye søppel familien din kaster hver uke, og regn ut for et helt år.
 
 ### baerekraft-61 · Hvor kan du levere en gammel sofa eller vaskemaskin?
 
@@ -659,7 +659,7 @@ Tilleggskilder: https://infinitum.no/no/pantesystemet/hva-kan-pantes/, https://w
 
 **Riktig:** Riktig. Med pant kommer nesten alle flaskene og boksene tilbake, og materialet kan brukes på nytt.
 
-**Feil:** Pant er en måte å få folk til å levere tomme flasker tilbake, slik at de kan gjenvinnes.
+**Feil:** Tenk på hva som skjer med en flaske etter at du har levert den i butikken.
 
 ### baerekraft-64 · Hvor leverer du gamle batterier og rester av maling?
 
@@ -674,8 +674,8 @@ Tilleggskilder: https://infinitum.no/no/pantesystemet/hva-kan-pantes/, https://w
 ### baerekraft-65 · Fatima har en ødelagt mobil. Hvor kan hun levere den gratis?
 
 - A) I en butikk som selger elektronikk ✔
-- B) I dunken for matavfall hjemme
-- C) I containeren for glass
+- B) I restavfallet hjemme
+- C) På et returpunkt for plast og papir
 
 **Riktig:** Riktig. Butikker som selger elektronikk, må ta imot gammel elektronikk av samme type gratis.
 
@@ -691,15 +691,15 @@ Tilleggskilder: https://infinitum.no/no/pantesystemet/hva-kan-pantes/, https://w
 
 **Feil:** «Svinn» betyr at noe går tapt. Tenk på mat som havner i søppelet.
 
-### baerekraft-67 · Omtrent hvor mye av all maten i verden blir kastet?
+### baerekraft-67 · Omtrent hvor mye av all maten i verden blir kastet (2026)?
 
-- A) En tredjedel ✔
-- B) En tidel
-- C) Tre fjerdedeler
+- A) Omtrent 30 prosent ✔
+- B) Omtrent 5 prosent
+- C) Omtrent 70 prosent
 
-**Riktig:** Riktig. I verden blir omtrent en tredjedel av all maten kastet. Det ville vært nok til å gi mat til alle som sulter.
+**Riktig:** Riktig. I verden blir omtrent en tredjedel, altså 30 prosent, av all maten kastet eller går tapt.
 
-**Feil:** Det er mye mat som blir kastet, mer enn hver tiende matvare, men mindre enn halvparten.
+**Feil:** Det er mer enn mange tror. Tenk på all maten som blir til søppel i butikker og hjem.
 
 ### baerekraft-68 · Hva betyr «best før» på en matvare?
 
@@ -731,15 +731,15 @@ Tilleggskilder: https://infinitum.no/no/pantesystemet/hva-kan-pantes/, https://w
 
 **Feil:** Tenk på den største næringen i Norge til havs.
 
-### baerekraft-71 · Hvordan har utslippene av klimagasser i Norge endret seg?
+### baerekraft-71 · Hvordan har utslippene av klimagasser i Norge endret seg siden 1990?
 
-- A) De har gått ned de siste årene ✔
-- B) De har økt raskt de siste årene
-- C) De har vært helt like i mange år
+- A) De er litt lavere enn i 1990 ✔
+- B) De er mye høyere enn i 1990
+- C) De er like store som i 1990
 
-**Riktig:** Riktig. Utslippene av klimagasser i Norge har gått ned de siste årene, men ikke like mye hvert år.
+**Riktig:** Riktig. Utslippene av klimagasser i Norge er litt lavere enn i 1990, men ikke like mye hvert år. Norge må kutte mer for å nå klimamålene.
 
-**Feil:** Utslippene har endret seg, men de har ikke økt de siste årene.
+**Feil:** Tenk på elbiler og nye regler. Hva har skjedd med utslippene siden 1990?
 
 ### baerekraft-72 · Hva er en nullutslippsbil?
 
@@ -755,11 +755,11 @@ Tilleggskilder: https://infinitum.no/no/pantesystemet/hva-kan-pantes/, https://w
 
 - A) For første gang var det flere elbiler enn bensinbiler ✔
 - B) Det ble forbudt for folk å kjøpe nye bensinbiler
-- C) Det ble flere dieselbiler enn elbiler på veiene
+- C) Det ble flere hybridbiler enn elbiler på veiene
 
-**Riktig:** Riktig. I 2024 var det for første gang flere elbiler enn bensinbiler registrert i Norge.
+**Riktig:** Riktig. I 2024 var det for første gang flere elbiler enn bensinbiler på norske veier.
 
-**Feil:** Det har blitt veldig mange elbiler i Norge de siste årene.
+**Feil:** Det har blitt veldig mange elbiler de siste årene. Nye bensinbiler er ikke forbudt.
 
 ### baerekraft-74 · Hvordan vil myndighetene at flere skal reise i de store byene?
 
@@ -773,11 +773,11 @@ Tilleggskilder: https://infinitum.no/no/pantesystemet/hva-kan-pantes/, https://w
 
 ### baerekraft-75 · Hva er en nasjonalpark?
 
-- A) Et stort naturområde som er vernet ✔
-- B) En stor park midt i hovedstaden
-- C) Et område der staten selger tomter
+- A) Et stort naturområde som loven beskytter ✔
+- B) Et stort område der staten driver skogbruk
+- C) Et stort område med hytter som staten eier
 
-**Riktig:** Riktig. En nasjonalpark er et stort naturområde som er vernet, slik at naturen blir tatt vare på. Norge har mange nasjonalparker.
+**Riktig:** Riktig. En nasjonalpark er et stort naturområde som loven beskytter, slik at naturen blir tatt vare på. Norge har mange nasjonalparker.
 
 **Feil:** Nasjonalparker ligger ute i naturen, ofte på fjellet. Naturen der er beskyttet.
 

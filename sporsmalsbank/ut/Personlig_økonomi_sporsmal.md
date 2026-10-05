@@ -76,22 +76,22 @@ Tilleggskilder: https://samfunnskunnskap.no/nb/personlig-okonomi.html, https://w
 ### okonomi-07 · Hvordan kan en familie spare penger på klær og møbler?
 
 - A) Kjøpe brukt, for eksempel hos Fretex ✔
-- B) Kjøpe nytt hver gang noe blir litt slitt
-- C) Handle i butikker med høye priser
+- B) Kjøpe alt som er på salg, også uten behov
+- C) Kjøpe nytt og dyrt for at det skal holde lenge
 
 **Riktig:** Riktig. Brukte klær og møbler er ofte mye billigere. Barn kan også arve klær.
 
-**Feil:** Det er billigere å kjøpe brukt, for eksempel på finn.no eller hos Fretex.
+**Feil:** Ting på salg som du ikke trenger, og dyre nye ting koster mye. Tenk på butikker for brukte ting.
 
 ### okonomi-08 · Hvordan kan du bruke mindre strøm hjemme?
 
-- A) Slå av lyset og senke temperaturen ✔
-- B) Ha vinduet åpent når ovnen står på
-- C) La TV-en og lyset stå på om natten
+- A) Slå av lyset og skru ned varmen ✔
+- B) Bruke komfyren til å varme opp stua
+- C) Ta lange dusjer med varmt vann
 
 **Riktig:** Riktig. Du sparer strøm når du slår av lyset og har litt lavere temperatur inne.
 
-**Feil:** Åpne vinduer og lys som står på, bruker mer strøm. Slå av lyset og senk varmen.
+**Feil:** Komfyr og varmt vann bruker mye strøm. Tenk på hva du kan slå av eller skru ned.
 
 ### okonomi-09 · Hva trenger du for å åpne en bankkonto i Norge?
 
@@ -123,15 +123,15 @@ Tilleggskilder: https://samfunnskunnskap.no/nb/personlig-okonomi.html, https://w
 
 **Feil:** Det du betaler ned på selve lånet, heter avdrag. Renter er prisen for å låne.
 
-### okonomi-12 · Hva er et avdrag?
+### okonomi-12 · Hva betyr fast rente på et lån?
 
-- A) Den delen av lånet du betaler ned ✔
-- B) Prisen du betaler for å låne penger
-- C) Penger banken gir deg når du sparer
+- A) Renten er lik i hele den avtalte perioden ✔
+- B) Renten kan endre seg når banken bestemmer det
+- C) Du betaler renter, men ikke avdrag
 
-**Riktig:** Riktig. Avdrag er det du betaler ned på selve lånet.
+**Riktig:** Riktig. Med fast rente er renten den samme i en periode dere har avtalt, for eksempel tre år.
 
-**Feil:** Prisen for lånet heter renter. Avdrag er det du betaler tilbake av selve lånet.
+**Feil:** Tenk på ordet «fast». Hva skjer med renten når den ligger fast? Rente og avdrag er to ulike ting.
 
 ### okonomi-13 · Hva viser en nedbetalingsplan?
 
@@ -163,25 +163,25 @@ Tilleggskilder: https://samfunnskunnskap.no/nb/personlig-okonomi.html, https://w
 
 **Feil:** Boliglån har boligen som sikkerhet. Forbrukslån har ingen sikkerhet og høyere rente.
 
-### okonomi-16 · Hvorfor bør du tenke deg godt om før du tar forbrukslån?
+### okonomi-16 · Hva er en kredittsjekk?
 
-- A) Renten er ofte mye høyere enn på boliglån ✔
-- B) Lånet må betales tilbake i løpet av en uke
-- C) Du kan ikke ha bankkonto samtidig med lånet
+- A) Banken ser om du betaler gjeld i tide ✔
+- B) Banken ser hvor mye penger du har spart
+- C) Banken ser hva du har kjøpt med kortet
 
-**Riktig:** Riktig. Forbrukslån er dyre. Renten er ofte mye høyere enn på boliglån.
+**Riktig:** Riktig. Før du får lån eller kreditt, sjekker banken om du har betalt gjeld og regninger i tide.
 
-**Feil:** Problemet med forbrukslån er prisen. Den høye renten gjør lånet dyrt.
+**Feil:** Tenk på gjeld. Banken vil vite om du er en trygg låntaker. Den ser ikke på sparepengene dine.
 
 ### okonomi-17 · Hva skjer hvis du ikke betaler hele kredittkortregningen?
 
 - A) Du må betale høy rente på resten ✔
-- B) Banken sletter resten av regningen
-- C) Du får lavere pris neste måned
+- B) Resten blir trukket fra lønnen din
+- C) Du må bytte til et annet kredittkort
 
 **Riktig:** Riktig. Det du ikke betaler, blir et lån med høy rente.
 
-**Feil:** Banken sletter ikke gjelden. Du må betale høy rente på det du skylder.
+**Feil:** Du kan ikke bare bytte kort eller vente. Det du skylder, koster penger.
 
 ### okonomi-18 · Hva viser Gjeldsregisteret på gjeldsinformasjonen.no?
 
@@ -199,19 +199,19 @@ Tilleggskilder: https://samfunnskunnskap.no/nb/personlig-okonomi.html, https://w
 - B) Hos Skatteetaten
 - C) Hos inkassobyrået
 
-**Riktig:** Riktig. Nav gir gratis råd om økonomi og gjeld. Telefonen er 55 55 33 39.
+**Riktig:** Riktig. Nav gir gratis råd om økonomi og gjeld.
 
-**Feil:** Nav har økonomiske rådgivere. Ring 55 55 33 39 eller kontakt Nav-kontoret.
+**Feil:** Nav har økonomiske rådgivere. Kontakt Nav-kontoret for å få hjelp.
 
-### okonomi-20 · Ali har mye gjeld og klarer ikke å betale. Hva bør han gjøre?
+### okonomi-20 · Maria har mye gjeld og klarer ikke å betale. Hva bør hun gjøre?
 
-- A) Be om hjelp tidlig, for eksempel hos Nav ✔
+- A) Få hjelp tidlig fra en gjeldsrådgiver ✔
 - B) Ta opp et nytt forbrukslån for å betale
-- C) Vente og ikke åpne brevene han får
+- C) Vente og ikke åpne brevene hun får
 
-**Riktig:** Riktig. Det er viktig å få hjelp tidlig. Nav gir gratis råd om gjeld.
+**Riktig:** Riktig. Det er viktig å få hjelp tidlig. En gjeldsrådgiver gir gratis råd.
 
-**Feil:** Nye lån og uåpnede brev gjør problemet større. Be om hjelp så tidlig som mulig.
+**Feil:** Nye lån og uåpnede brev gjør problemet større. Gjeld blir lettere å løse hvis du handler raskt.
 
 ### okonomi-21 · Hva skjer ofte hvis du betaler en regning for sent?
 
@@ -233,15 +233,15 @@ Tilleggskilder: https://samfunnskunnskap.no/nb/personlig-okonomi.html, https://w
 
 **Feil:** Et inkassobyrå gir ikke lån eller råd. Det krever inn regninger som ikke er betalt.
 
-### okonomi-23 · Hva kan en person med alvorlige gjeldsproblemer søke om hos namsfogden?
+### okonomi-23 · Hva kan en person med alvorlige gjeldsproblemer søke om hos namsmannen?
 
 - A) Gjeldsordning ✔
 - B) Bostøtte
 - C) Startlån
 
-**Riktig:** Riktig. Gjeldsordning er en plan der du betaler det du klarer, vanligvis i fem år.
+**Riktig:** Riktig. Gjeldsordning er en plan der du betaler det du klarer, vanligvis i fem år. Du søker hos namsmannen i politiet.
 
-**Feil:** Bostøtte og startlån gjelder bolig. Ved alvorlig gjeld kan du søke om gjeldsordning.
+**Feil:** Bostøtte og startlån gjelder bolig. Ved alvorlig gjeld kan du søke om gjeldsordning hos namsmannen.
 
 ### okonomi-24 · Hva betyr det å kausjonere for et lån?
 
@@ -283,7 +283,7 @@ Tilleggskilder: https://samfunnskunnskap.no/nb/personlig-okonomi.html, https://w
 
 **Feil:** AvtaleGiro er ikke et lån. Det er en avtale om at banken betaler regningen automatisk.
 
-### okonomi-28 · Hva skjer hvis arbeidsgiveren ikke har skattekortet ditt?
+### okonomi-28 · Hva skjer hvis arbeidsgiveren ikke har skattekortet ditt (2026)?
 
 - A) Arbeidsgiveren trekker 50 prosent skatt ✔
 - B) Du betaler ingen skatt før det kommer
@@ -303,7 +303,7 @@ Tilleggskilder: https://samfunnskunnskap.no/nb/personlig-okonomi.html, https://w
 
 **Feil:** Det er Skatteetaten som lager skattekort. Arbeidsgiveren henter det derfra.
 
-### okonomi-30 · Hva betyr det å ha frikort?
+### okonomi-30 · Hva betyr det å ha frikort for skatt?
 
 - A) Du betaler ikke skatt av en lav inntekt ✔
 - B) Du kan reise gratis med buss og tog i byen
@@ -311,7 +311,7 @@ Tilleggskilder: https://samfunnskunnskap.no/nb/personlig-okonomi.html, https://w
 
 **Riktig:** Riktig. Med frikort betaler du ikke skatt når inntekten er under en viss grense.
 
-**Feil:** Frikort handler om skatt. Du slipper skatt hvis du tjener lite i løpet av året.
+**Feil:** Dette frikortet handler om skatt. Du slipper skatt hvis du tjener lite i løpet av året.
 
 ### okonomi-31 · Hva er fristen for å levere skattemeldingen?
 
@@ -323,15 +323,15 @@ Tilleggskilder: https://samfunnskunnskap.no/nb/personlig-okonomi.html, https://w
 
 **Feil:** Skattemeldingen kommer i mars. Du må sjekke og levere den innen 30. april.
 
-### okonomi-32 · Hva skjer hvis du ikke leverer skattemeldingen innen fristen?
+### okonomi-32 · Hva skjer hvis du ikke leverer skattemeldingen innen 30. april?
 
-- A) Den regnes som levert slik den er ✔
-- B) Du må betale dobbelt så mye skatt
-- C) Du får ikke lov til å jobbe mer
+- A) Du får skatteoppgjøret først i juni eller senere ✔
+- B) Du må betale dobbelt så mye skatt neste år
+- C) Arbeidsgiveren din må betale skatten for deg
 
-**Riktig:** Riktig. Skattemeldingen regnes som levert med opplysningene som står der. Derfor må du sjekke den.
+**Riktig:** Riktig. Du får skatteoppgjøret ditt først i juni eller senere. Penger du skal ha igjen, kommer også senere.
 
-**Feil:** Du blir ikke straffet med dobbel skatt. Men skattemeldingen blir levert som den er, også med feil.
+**Feil:** Du blir ikke straffet med dobbel skatt, og arbeidsgiveren betaler ikke skatten din. Tenk på når du får skatteoppgjøret.
 
 ### okonomi-33 · Hva viser skatteoppgjøret?
 
@@ -355,7 +355,7 @@ Tilleggskilder: https://samfunnskunnskap.no/nb/personlig-okonomi.html, https://w
 
 ### okonomi-35 · Hva er BSU?
 
-- A) Sparing til bolig for unge under 34 år ✔
+- A) Sparekonto til bolig for unge voksne ✔
 - B) Lån til bolig for familier med barn
 - C) Støtte til husleie for studenter i byene
 
@@ -393,15 +393,15 @@ Tilleggskilder: https://samfunnskunnskap.no/nb/personlig-okonomi.html, https://w
 
 **Feil:** Angreretten på nett er 14 dager. Den starter når du har fått varen.
 
-### okonomi-39 · Har du angrerett når du handler i en vanlig butikk?
+### okonomi-39 · Hvilke regler gjelder hvis du vil bytte en vare i en vanlig butikk?
 
-- A) Nei, da gjelder butikkens egne bytteregler ✔
-- B) Ja, du har 14 dagers angrerett der også
-- C) Ja, hvis du tar vare på kvitteringen og esken
+- A) Butikken bestemmer selv reglene for bytte ✔
+- B) Du har 14 dagers angrerett som på nett
+- C) Loven gir deg rett til å bytte i tre dager
 
-**Riktig:** Riktig. Angreretten gjelder blant annet på nett og ved dørsalg. I butikken gjelder byttereglene.
+**Riktig:** Riktig. Angrerett gjelder blant annet på nett og ved dørsalg. I butikken bestemmer butikken selv, så spør om byttereglene.
 
-**Feil:** Loven gir ikke angrerett i vanlig butikk. Spør butikken om byttereglene.
+**Feil:** Angrerett gjelder når du ikke ser varen, for eksempel på nett. Tenk på hva som gjelder når du ser varen i butikken.
 
 ### okonomi-40 · Mobilen din får en feil etter ett år. Kan du klage til butikken?
 
@@ -462,7 +462,7 @@ Kilde: https://samfunnskunnskap.no/nb/personlig-okonomi/bolig.html
 
 Tilleggskilder: https://lovdata.no/dokument/NL/lov/1999-03-26-17, https://lovdata.no/dokument/NL/lov/2003-06-06-39, https://lovdata.no/dokument/SF/forskrift/2020-12-09-2648, https://www.regjeringen.no/no/aktuelt/utlansforskriften-senker-kravet-til-egenkapital-for-boliglan/id3077641/, https://lovdata.no/dokument/SF/forskrift/2007-11-23-1318, https://nef.no/slik-kjoper-du-bolig/regler-for-budgivning/, https://www.husbanken.no/person/startlaan/soke-startlaan-og-tilskudd, https://www.husbanken.no/person/bostotte/, https://www.forbrukerradet.no/forside/bolig/husleie/, https://www.forbrukerradet.no/forside/bolig/husleie/depositum/, https://www.forbrukerradet.no/kontrakter/hus/husleiekontrakt-bokmal/, https://www.skatteetaten.no/person/folkeregister/flytte/i-norge/, https://www.htu.no/
 
-### okonomi-45 · Hvor mange husholdninger i Norge eier boligen sin?
+### okonomi-45 · Hvor mange husholdninger i Norge eier boligen sin (2026)?
 
 - A) Omtrent åtte av ti ✔
 - B) Omtrent fem av ti
@@ -482,15 +482,15 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/1999-03-26-17, https://lovdat
 
 **Feil:** I store byer er det mange blokker. Men i hele landet er enebolig vanligst.
 
-### okonomi-47 · Hvor bor mange i store byer som Oslo?
+### okonomi-47 · Hva er en dugnad i et borettslag?
 
-- A) I blokker og bygårder ✔
-- B) I eneboliger med stor hage
-- C) På gårder utenfor byen
+- A) Beboerne gjør nyttig arbeid sammen uten lønn ✔
+- B) Et firma gjør arbeidet og beboerne betaler
+- C) Beboerne møtes en gang i året for å velge styre
 
-**Riktig:** Riktig. I store byer bor mange i blokker og bygårder. I mindre kommuner er eneboliger vanligst.
+**Riktig:** Riktig. På dugnad hjelper beboerne til med arbeid, for eksempel å male, rydde og rake løv. Det er frivillig og uten lønn.
 
-**Feil:** I byene er det lite plass. Derfor bor mange i blokker og bygårder.
+**Feil:** Dugnad er frivillig fellesarbeid. Tenk på arbeid som beboerne gjør selv.
 
 ### okonomi-48 · Hva kjennetegner en selveierbolig?
 
@@ -512,15 +512,15 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/1999-03-26-17, https://lovdat
 
 **Feil:** I et borettslag eier du en andel. Borettslaget eier bygningen.
 
-### okonomi-50 · Hva dekker de månedlige felleskostnadene i et borettslag?
+### okonomi-50 · Hva betaler du for med felleskostnadene i et borettslag?
 
 - A) Fellesgjeld, kommunale avgifter og forsikring ✔
-- B) Strøm, internett og mat til beboerne
-- C) Møbler, maling og oppussing inne i leiligheten
+- B) Reparasjoner og maling inni din egen leilighet
+- C) Din egen skatt, lønn og private regninger
 
-**Riktig:** Riktig. Felleskostnadene (husleien) dekker din del av fellesgjelden, kommunale avgifter og forsikring.
+**Riktig:** Riktig. Felleskostnadene dekker din del av fellesgjelden (lånet til bygningen), kommunale avgifter og forsikring.
 
-**Feil:** Felleskostnadene gjelder det dere har felles, som fellesgjeld, avgifter og forsikring.
+**Feil:** Felleskostnadene gjelder det dere eier sammen, som lån, avgifter og forsikring for bygningen.
 
 ### okonomi-51 · Hvem må du spørre før du leier ut boligen din i et borettslag?
 
@@ -552,7 +552,7 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/1999-03-26-17, https://lovdat
 
 **Feil:** Lån er ikke egenkapital. Egenkapital er dine egne penger.
 
-### okonomi-54 · Hvor mye egenkapital må du vanligvis ha når du kjøper bolig?
+### okonomi-54 · Hvor mye egenkapital må du vanligvis ha når du kjøper bolig (2026)?
 
 - A) 10 prosent av prisen ✔
 - B) 40 prosent av prisen
@@ -618,9 +618,9 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/1999-03-26-17, https://lovdat
 - B) Nav, sammen med arbeidsgiveren
 - C) Banken, sammen med utleieren
 
-**Riktig:** Riktig. Bostøtte er en statlig ordning i Husbanken. Kommunen hjelper og behandler søknaden.
+**Riktig:** Riktig. Bostøtte er en statlig ordning. Husbanken bestemmer, og kommunen behandler søknaden.
 
-**Feil:** Du søker om bostøtte hos Husbanken. Kommunen kan hjelpe deg med søknaden.
+**Feil:** Arbeidsgiveren og utleieren har ikke ansvaret. Tenk på en statlig bank for bolig og kommunen der du bor.
 
 ### okonomi-61 · Hva betyr det at et bud på en bolig er bindende?
 
@@ -674,13 +674,13 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/1999-03-26-17, https://lovdat
 
 ### okonomi-66 · Fatima leier en leilighet. Hvilken forsikring bør hun ha selv?
 
-- A) Innboforsikring for sine egne ting ✔
+- A) Innboforsikring for møbler og klær ✔
 - B) Husforsikring for selve bygningen
-- C) Bilforsikring for utleierens bil
+- C) Boligkjøperforsikring for leiligheten
 
-**Riktig:** Riktig. Utleierens forsikring dekker ikke tingene til leietakeren. Hun trenger innboforsikring.
+**Riktig:** Riktig. Innboforsikring dekker tingene hennes, for eksempel møbler og klær. Utleierens forsikring dekker ikke dem.
 
-**Feil:** Bygningen er utleierens ansvar. Fatima må forsikre sine egne ting med innboforsikring.
+**Feil:** Bygningen er utleierens ansvar. Fatima må forsikre tingene sine.
 
 ### okonomi-67 · Kan du kreve en skriftlig husleiekontrakt?
 
@@ -794,23 +794,23 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/1999-03-26-17, https://lovdat
 
 ### okonomi-78 · Hvorfor bør du ta bilder av boligen når du flytter inn?
 
-- A) For å vise skader som var der før ✔
-- B) For å legge dem ut på sosiale medier
-- C) For å sende dem til Skatteetaten
+- A) For å vise hvilke skader som var der før ✔
+- B) For å vise banken hvordan boligen ser ut
+- C) For å få lavere husleie senere i leietiden
 
 **Riktig:** Riktig. Bilder viser hvordan boligen var. Da slipper du å betale for gamle skader.
 
-**Feil:** Bildene er bevis. De viser skader som var der før du flyttet inn.
+**Feil:** Tenk på hva som kan skje når du flytter ut. Hva kan utleieren kreve da?
 
-### okonomi-79 · Kan utleieren gå inn i leiligheten din uten å si fra?
+### okonomi-79 · Hva må utleieren vanligvis gjøre før han går inn i boligen din?
 
-- A) Nei, vanligvis må du få varsel først ✔
-- B) Ja, fordi utleieren eier boligen
-- C) Ja, hvis du ikke er hjemme
+- A) Gi deg beskjed i god tid før ✔
+- B) Spørre kommunen om lov først
+- C) Si fra til naboene dine først
 
 **Riktig:** Riktig. Utleieren må gi beskjed i god tid, hvis det ikke er en skade som haster.
 
-**Feil:** Selv om utleieren eier boligen, er det ditt hjem. Utleieren må varsle før besøk.
+**Feil:** Boligen er ditt hjem, selv om utleieren eier den. Tenk på hvem som må få vite at utleieren kommer.
 
 ### okonomi-80 · Hvor lang må en tidsbestemt leiekontrakt for bolig vanligvis minst være?
 

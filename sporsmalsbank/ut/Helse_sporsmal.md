@@ -86,12 +86,12 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/2021-06-11-79, https://www.he
 ### helse-08 · Fatima får høy feber en lørdag kveld. Hvor kan hun ringe?
 
 - A) Legevakten på 116 117 ✔
-- B) Hjelpetelefonen på 116 123
-- C) Politiet på telefon 112
+- B) Politiet på 112
+- C) Brannvesenet på 110
 
 **Riktig:** Riktig. Når legekontoret er stengt, ringer du legevakten på 116 117.
 
-**Feil:** Fastlegen har ikke åpent på kvelden og i helgen. Da er det legevakten på 116 117 som hjelper.
+**Feil:** Fastlegen har stengt på kveld og i helg. Da finnes det en egen helsetjeneste for syke.
 
 ### helse-09 · Omar ser at naboen faller om og ikke puster. Hva gjør han?
 
@@ -135,13 +135,13 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/2021-06-11-79, https://www.he
 
 ### helse-13 · Hva betyr taushetsplikt hos legen?
 
-- A) Legen kan ikke fortelle andre om deg uten lov ✔
-- B) Legen må fortelle familien din alt det du sier
-- C) Legen må gi Nav beskjed om sykdommen din
+- A) Legen kan ikke fortelle andre om deg uten at du sier ja ✔
+- B) Legen må fortelle familien din alt du forteller legen
+- C) Legen må gi Nav beskjed om all sykdom du har
 
-**Riktig:** Riktig. Alle som jobber i helsevesenet, har taushetsplikt. De kan ikke gi informasjon om deg videre uten at du vil det.
+**Riktig:** Riktig. Alle som jobber i helsevesenet, har taushetsplikt. De kan ikke gi informasjon om deg videre uten at du sier ja.
 
-**Feil:** Taushetsplikt betyr at legen ikke kan fortelle andre om deg. Det gjelder også familien din.
+**Feil:** «Taushet» betyr å ikke si noe. Tenk på hva legen ikke skal gjøre med det du forteller.
 
 ### helse-14 · Hva har du rett til å lese hos legen?
 
@@ -163,15 +163,15 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/2021-06-11-79, https://www.he
 
 **Feil:** Du har rett til tolk hos legen når dere ikke forstår hverandre. Du betaler ikke for tolken.
 
-### helse-16 · Hvem bør tolke når en pasient trenger tolk hos legen?
+### helse-16 · Hvem skal tolke når pasienten og legen ikke forstår hverandre?
 
 - A) En kvalifisert tolk ✔
-- B) Pasientens eldste barn
+- B) Et barn i familien
 - C) En venn av pasienten
 
-**Riktig:** Riktig. Helsetjenesten skal bruke en kvalifisert tolk. Tolken har taushetsplikt. Barn skal ikke brukes som tolk.
+**Riktig:** Riktig. Helsetjenesten skal bruke en kvalifisert tolk. Tolken har utdanning og taushetsplikt. Barn under 18 år skal ikke tolke.
 
-**Feil:** Familie og venner bør ikke tolke, og loven forbyr å bruke barn som tolk. En kvalifisert tolk er nøytral og har taushetsplikt.
+**Feil:** Venner og familie bør ikke tolke, og loven forbyr å bruke barn under 18 år. Tenk på hvem som er opplært og nøytral.
 
 
 ---
@@ -182,27 +182,27 @@ Kilde: https://samfunnskunnskap.no/nb/helse/helse-og-livsstil.html
 
 Tilleggskilder: https://www.helsenorge.no/kosthold-og-ernaring/
 
-### helse-17 · Hvordan har folkehelsen i Norge endret seg de siste hundre årene?
+### helse-17 · Hvordan har folkehelsen i Norge endret seg siden 1900?
 
 - A) Den har blitt mye bedre ✔
 - B) Den har blitt mye dårligere
 - C) Den er omtrent som før
 
-**Riktig:** Riktig. Folkehelsen i Norge har blitt mye bedre de siste hundre årene. Folk lever lenger.
+**Riktig:** Riktig. Folkehelsen i Norge har blitt mye bedre siden 1900. Folk lever lenger.
 
 **Feil:** Velferdssamfunnet har gitt bedre liv. Folk i Norge lever lenger og er friskere enn før.
 
-### helse-18 · Hva døde mange nordmenn av for omtrent hundre år siden?
+### helse-18 · Hva døde mange nordmenn av rundt 1900?
 
 - A) Tuberkulose og underernæring ✔
-- B) Diabetes og for mye vekt
-- C) Allergi og problemer med ryggen
+- B) Allergi og astma hos barn
+- C) Hodepine og søvnproblemer
 
 **Riktig:** Riktig. Tidligere døde mange av sykdommer som kom av fattigdom, som tuberkulose og underernæring.
 
-**Feil:** For hundre år siden var mange fattige. Da døde mange av tuberkulose og av å få for lite mat.
+**Feil:** Rundt 1900 var mange fattige. Tenk på sykdommer som kommer av fattigdom, trange hus og for lite mat.
 
-### helse-19 · Hva er de vanligste dødsårsakene i Norge i dag?
+### helse-19 · Hva er de vanligste dødsårsakene i Norge (2026)?
 
 - A) Kreft og hjerte- og karsykdommer ✔
 - B) Tuberkulose og andre infeksjoner
@@ -210,17 +210,17 @@ Tilleggskilder: https://www.helsenorge.no/kosthold-og-ernaring/
 
 **Riktig:** Riktig. Kreft og hjerte- og karsykdommer er de vanligste dødsårsakene i Norge.
 
-**Feil:** Tuberkulose er ikke lenger vanlig i Norge. I dag dør flest av kreft og sykdommer i hjertet og blodårene.
+**Feil:** Tuberkulose er ikke lenger vanlig i Norge. Flest dør av kreft og sykdommer i hjertet og blodårene.
 
 ### helse-20 · Hvilke helseproblemer blir stadig vanligere i Norge?
 
 - A) Diabetes og stor overvekt ✔
-- B) Tuberkulose og kolera
-- C) Malaria og underernæring
+- B) Kolera og tyfus
+- C) Malaria og denguefeber
 
 **Riktig:** Riktig. Diabetes og fedme, det vil si stor overvekt, blir et stadig større problem i Norge.
 
-**Feil:** Sykdommer som henger sammen med livsstil øker. Diabetes og stor overvekt er eksempler.
+**Feil:** Tenk på sykdommer som henger sammen med hvordan vi lever i dag, for eksempel mat og lite bevegelse.
 
 ### helse-21 · Hva øker risikoen for kreft og hjertesykdom?
 
@@ -242,15 +242,15 @@ Tilleggskilder: https://www.helsenorge.no/kosthold-og-ernaring/
 
 **Feil:** Kroppen trenger sunn mat og bevegelse. Lite aktivitet og lite mat er ikke bra for helsen.
 
-### helse-23 · Hvem har ansvar for helsen vår, slik mange tenker i dag?
+### helse-23 · Hvem har størst ansvar for å ta vare på helsen din?
 
-- A) Hver av oss, med råd fra helsevesenet ✔
-- B) Helsevesenet alene, ikke pasienten selv
-- C) Arbeidsgiveren til hver enkelt
+- A) Du selv, med råd fra helsevesenet ✔
+- B) Helsevesenet, som passer på deg
+- C) Kommunen, som sjekker helsen din
 
-**Riktig:** Riktig. I dag tenker mange at vi selv har et stort ansvar. Helsevesenet gir råd, og vi må følge dem.
+**Riktig:** Riktig. I Norge tenker mange i dag at hver enkelt har et stort ansvar. Helsevesenet gir råd, og vi må selv følge dem.
 
-**Feil:** Helsevesenet gir råd og veiledning. Men måten du lever på, er ditt eget ansvar.
+**Feil:** Helsevesenet gir råd og hjelp. Tenk på hvem som bestemmer hva du spiser og hvordan du lever.
 
 ### helse-24 · Hva er vanlig når du går til legen i Norge?
 
@@ -272,15 +272,15 @@ Tilleggskilder: https://www.helsenorge.no/kosthold-og-ernaring/
 
 **Feil:** Ved en vanlig forkjølelse trenger du ofte ikke medisin. Kroppen blir frisk av seg selv.
 
-### helse-26 · Hvilket problem har flere innvandrere enn nordmenn, ifølge helsearbeidere?
+### helse-26 · Hva mangler mange innvandrere i kroppen, ifølge helsearbeidere?
 
-- A) Mangel på vitamin D og jern ✔
-- B) For mye vitamin D og jern
-- C) Mangel på salt og sukker
+- A) Vitamin D og jern ✔
+- B) Vitamin A og vitamin E
+- C) Fett og protein
 
-**Riktig:** Riktig. Helsearbeidere ser at mange innvandrere mangler jern og vitamin D.
+**Riktig:** Riktig. Helsearbeidere ser at mange innvandrere har for lite vitamin D og jern.
 
-**Feil:** Feilernæring betyr at kroppen får for lite av noe den trenger. Mange innvandrere får for lite jern og vitamin D.
+**Feil:** Kroppen trenger vitaminer og mineraler. Tenk på hva som er vanskelig å få nok av i et land med lite sol.
 
 ### helse-27 · Hvorfor trenger mange ekstra vitamin D i Norge?
 
@@ -302,15 +302,15 @@ Tilleggskilder: https://www.helsenorge.no/kosthold-og-ernaring/
 
 **Feil:** Mennesker trenger hverandre. God kontakt med andre er viktig for helsen.
 
-### helse-29 · Hvilken helse er viktigst, den fysiske eller den psykiske?
+### helse-29 · Hva er psykisk helse?
 
-- A) Begge er like viktige ✔
-- B) Den fysiske er viktigst
-- C) Den psykiske er viktigst
+- A) Hvordan vi har det med tanker og følelser ✔
+- B) Hvor sterk og sunn kroppen vår er
+- C) Hvor mange venner og kjente vi har
 
-**Riktig:** Riktig. Psykisk helse er like viktig som fysisk helse.
+**Riktig:** Riktig. Psykisk helse handler om tanker og følelser. Den er like viktig som den fysiske helsen.
 
-**Feil:** Kropp og tanker henger sammen. Derfor er den fysiske og den psykiske helsen like viktige.
+**Feil:** Ordet «psykisk» handler om hodet og følelsene, ikke om kroppen eller om andre mennesker.
 
 ### helse-30 · Hva kan stress og tristhet føre til?
 
@@ -351,15 +351,15 @@ Tilleggskilder: https://mentalhelse.no/fa-hjelp/hjelpetelefonen/
 
 **Feil:** Vanskelige ting i livet, som krig, ulykker eller familieproblemer, kan gi psykiske problemer.
 
-### helse-33 · John har vondt i magen, men prøvene er fine. Hva kan årsaken være?
+### helse-33 · John har vondt i magen, men legen finner ingen sykdom. Hva kan årsaken være?
 
 - A) Han kan ha det vanskelig psykisk ✔
-- B) Han spiser for mye frukt og grønt
-- C) Han har for lite vann i kroppen
+- B) Det er noe galt i magen hans
+- C) Han har en skade i kroppen
 
 **Riktig:** Riktig. Kropp og psyke henger sammen. Når vi har det vondt inni oss, kan kroppen også få vondt.
 
-**Feil:** Hvis legen ikke finner noe galt i kroppen, kan årsaken være psykisk, for eksempel tristhet eller stress.
+**Feil:** Legen har ikke funnet noe galt i kroppen. Tenk på hva annet enn kroppen som kan gi vondt.
 
 ### helse-34 · Hvem kan henvise deg til psykolog?
 
@@ -381,17 +381,17 @@ Tilleggskilder: https://mentalhelse.no/fa-hjelp/hjelpetelefonen/
 
 **Feil:** En psykolog er en fagperson som hjelper folk med psykiske problemer, ofte gjennom samtaler.
 
-### helse-36 · Hva gjelder for psykologen når du forteller om problemene dine?
+### helse-36 · Hva er en egenandel?
 
-- A) Psykologen har taushetsplikt ✔
-- B) Psykologen må melde fra til familien
-- C) Psykologen må fortelle det til Nav
+- A) Den delen av prisen som pasienten betaler selv ✔
+- B) Den delen av prisen som staten betaler
+- C) Penger som pasienten får tilbake etter besøket
 
-**Riktig:** Riktig. Psykologen har taushetsplikt og kan ikke fortelle videre det du sier.
+**Riktig:** Riktig. Staten betaler en del av behandlingen. Pasienten betaler resten selv, og det kalles egenandel.
 
-**Feil:** Alle i helsevesenet har taushetsplikt, også psykologen. Du kan snakke trygt.
+**Feil:** Ordet «egen» betyr at det er din del. Tenk på hvem som betaler denne delen.
 
-### helse-37 · Hva mener de fleste i Norge om psykisk sykdom i dag?
+### helse-37 · Hva mener de fleste i Norge om psykisk sykdom?
 
 - A) At den skal behandles som fysisk sykdom ✔
 - B) At det er noe man helst ikke bør snakke om
@@ -399,7 +399,7 @@ Tilleggskilder: https://mentalhelse.no/fa-hjelp/hjelpetelefonen/
 
 **Riktig:** Riktig. De fleste mener at psykisk syke skal få hjelp på lik linje med dem som har fysiske sykdommer.
 
-**Feil:** Synet på psykisk sykdom har endret seg. I dag er de fleste i Norge åpne og vil at psykisk syke skal få hjelp.
+**Feil:** Synet på psykisk sykdom har endret seg. De fleste i Norge er åpne og vil at psykisk syke skal få hjelp.
 
 ### helse-38 · Er det mulig å bli frisk av psykiske lidelser?
 
@@ -500,15 +500,15 @@ Tilleggskilder: https://www.helsenorge.no/sex-og-samliv/abort/, https://lovdata.
 
 **Feil:** Svangerskapskontroll koster ingenting. Målet er å passe på helsen til mor og barn.
 
-### helse-47 · Hvem gjør svangerskapskontrollene?
+### helse-47 · Hvor går gravide til svangerskapskontroll?
 
-- A) Helsestasjonen eller fastlegen ✔
-- B) Apoteket eller legevakten
-- C) Nav-kontoret eller kommunen
+- A) Til jordmor eller fastlegen ✔
+- B) Til apoteket eller legevakten
+- C) Til barnevernet eller tannlegen
 
-**Riktig:** Riktig. Svangerskapskontrollene blir gjort på helsestasjonen eller hos fastlegen.
+**Riktig:** Riktig. Gravide går til kontroll hos jordmor, ofte på helsestasjonen, eller hos fastlegen. Det er gratis.
 
-**Feil:** Gravide går til kontroll hos jordmor på helsestasjonen eller hos fastlegen.
+**Feil:** Tenk på to fagpersoner som kan mye om svangerskap og fødsel.
 
 ### helse-48 · Må gravide gå til svangerskapskontroll?
 
@@ -520,7 +520,7 @@ Tilleggskilder: https://www.helsenorge.no/sex-og-samliv/abort/, https://lovdata.
 
 **Feil:** Ingen lov sier at du må gå til kontroll. Men kontrollene er viktige for mor og barn.
 
-### helse-49 · Hvor lenge i svangerskapet kan kvinnen få abort når hun ber om det?
+### helse-49 · Hvor lenge i svangerskapet kan kvinnen få abort når hun ber om det (2026)?
 
 - A) De første 18 ukene ✔
 - B) De første 12 ukene
@@ -589,7 +589,7 @@ Kilde: https://samfunnskunnskap.no/nb/helse/tannhelse.html
 
 Tilleggskilder: https://www.helsenorge.no/betaling-for-helsetjenester/hvem-betaler-tannlegeregningen-din/, https://www.helsedirektoratet.no/lov-og-forskrift/tannhelsetjenesteloven/tannbehandling-til-unge-voksne-mellom-19-og-28-ar
 
-### helse-55 · Hvem får gratis behandling i den offentlige tannhelsetjenesten?
+### helse-55 · Hvem får gratis behandling i den offentlige tannhelsetjenesten (2026)?
 
 - A) Barn til og med året de fyller 18 ✔
 - B) Voksne som har en fast jobb i Norge
@@ -599,7 +599,7 @@ Tilleggskilder: https://www.helsenorge.no/betaling-for-helsetjenester/hvem-betal
 
 **Feil:** Det er barn og unge som får gratis tannbehandling, fram til og med året de fyller 18.
 
-### helse-56 · Hvor mye betaler unge voksne fra 19 til 28 år på offentlig tannklinikk?
+### helse-56 · Hvor mye betaler unge voksne fra 19 til 28 år på offentlig tannklinikk (2026)?
 
 - A) 25 prosent av prisen ✔
 - B) 75 prosent av prisen
@@ -632,12 +632,12 @@ Tilleggskilder: https://www.helsenorge.no/betaling-for-helsetjenester/hvem-betal
 ### helse-59 · Hva er skadelig for tennene?
 
 - A) Sukker i mat og drikke ✔
-- B) Vann som tørstedrikk
+- B) Fluor i tannkrem
 - C) Ost og rå grønnsaker
 
 **Riktig:** Riktig. Sukker er skadelig for tennene. Det er mye sukker i brus, saft, kaker og godteri.
 
-**Feil:** Sukker gir hull i tennene. Vann og grønnsaker er bra for tennene.
+**Feil:** Tenk på hva bakteriene i munnen liker å spise.
 
 ### helse-60 · Hvem har ansvaret for tannhelsen til barna?
 
@@ -704,7 +704,7 @@ Kilde: https://samfunnskunnskap.no/nb/helse/a-flytte-til-et-nytt-land.html
 
 **Riktig:** Riktig. Den psykiske migrasjonsprosessen har tre faser.
 
-**Feil:** Mange som flytter, går gjennom tre faser: først glede, så en vanskelig tid, og så blir livet lettere.
+**Feil:** Det skjer ikke i ett steg. Tenk på hvor mange trinn følelsene går gjennom over tid.
 
 ### helse-66 · Hva er vanlig å føle i den første tiden etter flyttingen?
 
@@ -746,15 +746,15 @@ Kilde: https://samfunnskunnskap.no/nb/helse/a-flytte-til-et-nytt-land.html
 
 **Feil:** Fasene har ingen fast lengde. For noen går det fort, for andre tar det lang tid.
 
-### helse-70 · Amaniel er sliten og savner familien etter noen uker. Hvilken fase er han i?
+### helse-70 · Hva kan du gjøre på helsenorge.no?
 
-- A) Fase 2 ✔
-- B) Fase 1
-- C) Fase 3
+- A) Bytte fastlege og se journalen din ✔
+- B) Kjøpe medisin og få den sendt hjem
+- C) Søke om oppholdstillatelse og pass
 
-**Riktig:** Riktig. Amaniel er i fase 2. Han er sliten og savner det han har mistet.
+**Riktig:** Riktig. På helsenorge.no kan du blant annet bytte fastlege og lese journalen din.
 
-**Feil:** Når man er sliten og savner livet før, er man i fase 2.
+**Feil:** Helsenorge.no er en offentlig nettside om helse. Tenk på hva du kan ordne med legen din på nett.
 
 ### helse-71 · Hva hjelper en innvandrer å finne sin plass i det nye samfunnet?
 
@@ -835,15 +835,15 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/2017-06-16-51
 
 **Feil:** Kjønnsidentitet handler om hvordan du selv opplever kjønnet ditt.
 
-### helse-78 · Hva er det større åpenhet for i Norge i dag enn før?
+### helse-78 · Hva er det mer åpenhet for i Norge i dag enn før?
 
-- A) At ikke alle passer inn i gutt eller jente ✔
-- B) At alle må være enten gutt eller jente
-- C) At kjønnsrollene alltid skal være like
+- A) At noen ikke føler seg som gutt eller jente ✔
+- B) At gutter og jenter får ulike plikter
+- C) At menn og kvinner får ulike lønninger
 
-**Riktig:** Riktig. I dag er det større åpenhet for at ikke alle føler seg som gutt eller jente.
+**Riktig:** Riktig. I dag er det mer åpenhet for at noen ikke føler seg som gutt eller jente.
 
-**Feil:** Før delte man kjønn i to. Nå er det mer åpenhet for at noen opplever kjønn på en annen måte.
+**Feil:** Før delte man kjønn i to. Tenk på hva som er nytt i hvordan vi snakker om kjønn.
 
 ### helse-79 · Hva betyr heteroseksuell?
 

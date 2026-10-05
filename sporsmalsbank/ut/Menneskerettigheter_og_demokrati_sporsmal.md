@@ -26,12 +26,12 @@ Tilleggskilder: https://samfunnskunnskap.no/nb/menneskerettigheter-og-demokrati.
 ### demokrati-02 · Hvordan styrer folket politikken i Norge?
 
 - A) De velger representanter ved valg ✔
-- B) De stemmer selv over hver eneste lov
-- C) De sender forslag til kongen
+- B) De bestemmer selv i åpne folkemøter hver måned
+- C) Kongen spør folket og bestemmer politikken
 
 **Riktig:** Riktig. Folket velger representanter fra partiene til Stortinget, fylkestinget og kommunestyret.
 
-**Feil:** Norge har et representativt demokrati. Folket velger politikere som bestemmer for dem.
+**Feil:** Folket bestemmer ikke i hver sak. Tenk på hvem folket gir makt til ved valget.
 
 ### demokrati-03 · Hva skal flertallet gjøre når det bestemmer politikken?
 
@@ -63,15 +63,15 @@ Tilleggskilder: https://samfunnskunnskap.no/nb/menneskerettigheter-og-demokrati.
 
 **Feil:** Barnehager har kommunen ansvar for, og fylkesveier har fylkeskommunen ansvar for.
 
-### demokrati-06 · Fylkesveien utenfor huset til Sara har store hull. Hvem har ansvaret?
+### demokrati-06 · Sara skal begynne på videregående skole. Hvem har ansvar for skolene?
 
 - A) Fylkeskommunen ✔
 - B) Kommunen
 - C) Staten
 
-**Riktig:** Riktig. Fylkeskommunen har ansvar for fylkesveier og videregående opplæring.
+**Riktig:** Riktig. Fylkeskommunen har ansvar for videregående skoler og fylkesveier.
 
-**Feil:** Navnet på veien gir et hint. Kommunen har ansvar for de kommunale veiene.
+**Feil:** Tenk på nivåene: kommune, fylkeskommune og stat. Grunnskolen hører til kommunen.
 
 ### demokrati-07 · Hva gjør byråkratene i staten og kommunene?
 
@@ -103,15 +103,15 @@ Tilleggskilder: https://samfunnskunnskap.no/nb/menneskerettigheter-og-demokrati.
 
 **Feil:** Stortinget har litt mer enn 150 representanter. Tallet er det samme etter hvert valg.
 
-### demokrati-10 · Kan det bli nyvalg til Stortinget før fire år har gått?
+### demokrati-10 · Kan det bli nytt stortingsvalg midt i en valgperiode?
 
-- A) Nei, Stortinget sitter i fire år ✔
-- B) Ja, kongen kan kalle inn til nyvalg
-- C) Ja, regjeringen kan kreve nyvalg
+- A) Nei, vi har fast valg hvert fjerde år ✔
+- B) Ja, hvis regjeringen taper en viktig sak
+- C) Ja, hvis kongen ber om det
 
 **Riktig:** Riktig. Grunnloven sier at Stortinget sitter i fire år. Det er ikke mulig å skrive ut nyvalg.
 
-**Feil:** I Norge kan verken kongen eller regjeringen oppløse Stortinget. Valget skjer hvert fjerde år.
+**Feil:** Tenk på hvem som bestemmer når det er valg. Det står i Grunnloven.
 
 ### demokrati-11 · Hva er en viktig oppgave for Stortinget?
 
@@ -136,12 +136,12 @@ Tilleggskilder: https://samfunnskunnskap.no/nb/menneskerettigheter-og-demokrati.
 ### demokrati-13 · Amira vil høre en debatt i Stortinget. Kan hun det?
 
 - A) Ja, alle kan sitte og høre på ✔
-- B) Nei, bare politikere kan være der
+- B) Nei, politikerne møtes uten publikum
 - C) Ja, og hun kan også si sin mening
 
 **Riktig:** Riktig. Demokratiet er åpent. Alle kan høre på, men publikum kan ikke snakke i salen.
 
-**Feil:** Stortingsmøtene er åpne for publikum. Men bare representantene kan snakke i debatten.
+**Feil:** Tenk på at demokratiet skal være åpent. Hva kan publikum gjøre i salen?
 
 ### demokrati-14 · Hva betyr det at en sak blir sendt på høring?
 
@@ -233,15 +233,15 @@ Tilleggskilder: https://samfunnskunnskap.no/nb/menneskerettigheter-og-demokrati.
 
 **Feil:** I Norge velger folket Stortinget, ikke regjeringen. Regjeringen er avhengig av Stortinget.
 
-### demokrati-23 · Flertallet på Stortinget har ikke lenger tillit til regjeringen. Hva skjer?
+### demokrati-23 · Når kan de fleste utlendinger stemme ved kommunevalg?
 
-- A) Regjeringen må gå av ✔
-- B) Stortinget blir oppløst
-- C) Kongen tar over styringen
+- A) Hvis de har bodd i Norge i tre år ✔
+- B) Hvis de har bodd i Norge i ett år
+- C) Hvis de har norsk statsborgerskap
 
-**Riktig:** Riktig. Regjeringen må gå av hvis flertallet på Stortinget sier at det ikke har tillit til den.
+**Riktig:** Riktig. Du kan stemme ved kommunevalg hvis du er 18 år i valgåret og har bodd i Norge i tre år.
 
-**Feil:** Dette er parlamentarisme. Regjeringen trenger tillit fra Stortinget for å kunne sitte.
+**Feil:** Tenk på at lokalvalg gjelder alle som bor i kommunen. Statsborgerskap er ikke et krav.
 
 ### demokrati-24 · Hvem danner ny regjering etter et stortingsvalg?
 
@@ -284,13 +284,13 @@ Tilleggskilder: https://lovdata.no/lov/2005-05-20-28/§287, https://lovdata.no/l
 
 ### demokrati-27 · Mona blir valgt inn i kommunestyret. Må hun ta imot vervet?
 
-- A) Ja, som hovedregel har hun plikt til det ✔
-- B) Nei, hun kan si nei uten noen grunn
-- C) Nei, det er helt frivillig å ta vervet
+- A) Ja, hun har plikt til det, men kan søke om fritak ✔
+- B) Nei, hun kan takke nei hvis hun vil
+- C) Ja, men først når partiet hennes ber henne
 
-**Riktig:** Riktig. Valgloven sier at den som blir valgt, har plikt til å ta imot valget. Bare noen få kan få fritak.
+**Riktig:** Riktig. Den som blir valgt til kommunestyret, har som hovedregel plikt til å ta imot vervet. Noen få kan få fritak, for eksempel på grunn av alder eller sykdom.
 
-**Feil:** Å være folkevalgt er en plikt, ikke bare en rettighet. Det finnes bare noen få unntak.
+**Feil:** Tenk på ordene plikt og rettighet. Et verv i kommunestyret er mer enn en rettighet.
 
 ### demokrati-28 · Lise sprer løgner om en kollega. Kan hun straffes for ærekrenkelse?
 
@@ -322,15 +322,15 @@ Tilleggskilder: https://lovdata.no/lov/2005-05-20-28/§287, https://lovdata.no/l
 
 **Feil:** I et demokrati er det uavhengige dommere som avgjør skyld og straff, ikke politiet.
 
-### demokrati-31 · Karim er tiltalt for tyveri. Hva har han rett til?
+### demokrati-31 · Jonas er tiltalt for tyveri. Hva har han rett til?
 
 - A) En forsvarer som hjelper ham i retten ✔
-- B) Å slippe rettssak hvis han betaler
-- C) Å velge dommeren i saken sin helt selv
+- B) Å velge selv hvem som skal være dommer
+- C) Å slippe å møte i retten hvis han vil
 
 **Riktig:** Riktig. Alle tiltalte har rett til et forsvar, for eksempel en advokat.
 
-**Feil:** Rettssikkerhet gjelder for alle. Den tiltalte får hjelp til å forsvare seg i retten.
+**Feil:** Rettssikkerhet gjelder for alle som er tiltalt. Tenk på hvem som kan hjelpe dem i retten.
 
 ### demokrati-32 · En person er «uskyldig til det motsatte er bevist». Hva betyr det?
 
@@ -364,13 +364,13 @@ Tilleggskilder: https://lovdata.no/lov/2005-05-20-28/§287, https://lovdata.no/l
 
 ### demokrati-35 · Samfunnet bygger på gjensidig tillit. Hva betyr det?
 
-- A) Folk og myndigheter stoler på hverandre ✔
-- B) Innbyggerne må kontrollere hverandre
-- C) Staten sjekker alt det folk sier
+- A) Folk og myndigheter kan stole på hverandre ✔
+- B) Folk og myndigheter har de samme meningene
+- C) Folk må sjekke hva myndighetene gjør hver dag
 
 **Riktig:** Riktig. Myndighetene stoler på innbyggerne, og innbyggerne stoler på myndighetene.
 
-**Feil:** Tillit betyr å stole på noen. «Gjensidig» betyr at det går begge veier.
+**Feil:** Tenk på et godt vennskap. Hva betyr det at noe er gjensidig?
 
 ### demokrati-36 · Nadia søker om støtte fra Nav. Hvilken plikt har hun?
 
@@ -382,15 +382,15 @@ Tilleggskilder: https://lovdata.no/lov/2005-05-20-28/§287, https://lovdata.no/l
 
 **Feil:** Samfunnet bygger på tillit. Nav må kunne stole på det du forteller.
 
-### demokrati-37 · Hvem har plikt til å betale skatt i Norge?
+### demokrati-37 · Hva avgjør om du må betale skatt i Norge?
 
-- A) Folk som tjener penger eller har formue ✔
-- B) Norske statsborgere, ikke utlendinger
-- C) Folk som eier hus eller leilighet
+- A) Hvor mye du tjener og eier ✔
+- B) Hvilket statsborgerskap du har
+- C) Hvilken tro eller religion du har
 
-**Riktig:** Riktig. Alle som har inntekt eller formue over visse grenser, må betale skatt i Norge.
+**Riktig:** Riktig. Du betaler skatt av inntekt og formue over visse grenser. Statsborgerskap og religion har ingen betydning.
 
-**Feil:** Skatteplikten handler om inntekt og formue, ikke om statsborgerskap.
+**Feil:** Tenk på hva skatten regnes ut fra. Det handler om penger, ikke om hvem du er.
 
 ### demokrati-38 · Ali får brev om å vitne i retten. Hva må han gjøre?
 
@@ -408,9 +408,9 @@ Tilleggskilder: https://lovdata.no/lov/2005-05-20-28/§287, https://lovdata.no/l
 - B) Menn, men ikke kvinner
 - C) De som melder seg frivillig
 
-**Riktig:** Riktig. Norge har allmenn verneplikt for kvinner og menn født i 1997 eller senere.
+**Riktig:** Riktig. Norske menn har lenge hatt verneplikt. Fra 2015 gjelder den også kvinner som er født i 1997 eller senere.
 
-**Feil:** Siden 2015 har verneplikten vært lik for begge kjønn i Norge.
+**Feil:** Verneplikten har blitt endret de siste årene. Tenk på likestilling mellom kvinner og menn.
 
 ### demokrati-40 · Norge har opplæringsplikt. Hva betyr det?
 
@@ -460,7 +460,7 @@ Tilleggskilder: https://lovdata.no/lov/2005-05-20-28/§287, https://lovdata.no/l
 
 **Riktig:** Riktig. Når du flytter, må du melde flytting til Folkeregisteret innen åtte dager.
 
-**Feil:** Folkeregisteret hos Skatteetaten må vite hvor du bor. Du trenger ikke lov til å flytte.
+**Feil:** Tenk på hvilken offentlig etat som vet hvor folk bor. Du trenger ikke lov til å flytte.
 
 ### demokrati-45 · Hva er en meddommer i en rettssak?
 
@@ -499,7 +499,7 @@ Tilleggskilder: https://www.fn.no/tema/menneskerettigheter, https://lovdata.no/d
 
 **Riktig:** Riktig. Menneskerettighetene er universelle. De gjelder for alle mennesker i hele verden.
 
-**Feil:** Universell betyr «for alle». Menneskerettighetene gjelder uansett land og alder.
+**Feil:** Tenk på ordet «univers». Hva betyr det?
 
 ### demokrati-48 · Hvorfor har vi menneskerettigheter?
 
@@ -521,15 +521,15 @@ Tilleggskilder: https://www.fn.no/tema/menneskerettigheter, https://lovdata.no/d
 
 **Feil:** FN ble grunnlagt i 1945. Erklæringen kom noen år senere, etter andre verdenskrig.
 
-### demokrati-50 · Hvor mange land er medlemmer i FN i dag?
+### demokrati-50 · Hvor mange land er medlemmer i FN i dag (2026)?
 
 - A) 193 ✔
-- B) 150
-- C) 250
+- B) 165
+- C) 215
 
-**Riktig:** Riktig. FN har 193 medlemsland. Alle har sluttet seg til verdenserklæringen.
+**Riktig:** Riktig. FN har 193 medlemsland. Nesten alle land i verden er med i FN.
 
-**Feil:** Nesten alle land i verden er med i FN. Tallet er under 200.
+**Feil:** Nesten alle land i verden er medlemmer i FN. Det finnes litt under 200 land i verden.
 
 ### demokrati-51 · Hvilken dag er menneskerettighetenes dag?
 
@@ -581,25 +581,25 @@ Tilleggskilder: https://www.fn.no/tema/menneskerettigheter, https://lovdata.no/d
 
 **Feil:** Menneskerettsloven gjør viktige konvensjoner til norsk lov. De har sterk stilling.
 
-### demokrati-56 · Hva er Den europeiske menneskerettskonvensjonen (EMK)?
+### demokrati-56 · Hva er EMK?
 
 - A) En avtale om menneskerettigheter i Europa ✔
-- B) En avtale mellom EU-landene om handel
-- C) En domstol for saker mellom bedrifter
+- B) En avtale om handel mellom EU-landene
+- C) Et råd som bestemmer lovene i Europa
 
 **Riktig:** Riktig. EMK er en avtale i Europarådet om menneskerettigheter. Den er norsk lov.
 
-**Feil:** EMK handler om menneskerettigheter, ikke handel. Norge er med selv om Norge ikke er med i EU.
+**Feil:** Tenk på hva Norge har lovet å gjøre for innbyggerne. Norge er med i EMK, men ikke i EU.
 
 ### demokrati-57 · Kari mener Norge har brutt rettighetene hennes i EMK. Hvor kan hun klage til slutt?
 
 - A) Til Den europeiske menneskerettsdomstolen ✔
-- B) Til FNs sikkerhetsråd i New York
-- C) Til kongen og regjeringen i statsråd
+- B) Til FNs menneskerettighetsråd i Genève
+- C) Til EU-domstolen i Luxembourg
 
 **Riktig:** Riktig. Når saken er ferdig i norske domstoler, kan du klage til Den europeiske menneskerettsdomstolen i Strasbourg.
 
-**Feil:** Det finnes en egen domstol for EMK. Den ligger i Frankrike.
+**Feil:** Tenk på hvilken domstol som passer på at landene følger EMK. Norge er ikke med i EU.
 
 ### demokrati-58 · Hva gjør Norges institusjon for menneskerettigheter (NIM)?
 
@@ -614,12 +614,12 @@ Tilleggskilder: https://www.fn.no/tema/menneskerettigheter, https://lovdata.no/d
 ### demokrati-59 · Hvilken rettighet står i FNs verdenserklæring om menneskerettighetene?
 
 - A) Retten til frie og hemmelige valg ✔
-- B) Retten til å få en bil fra staten
-- C) Retten til å slippe å betale skatt
+- B) Retten til å bo i et land etter eget valg
+- C) Retten til å bli statsminister
 
-**Riktig:** Riktig. Alle har rett til å påvirke politikken gjennom frie, hemmelige valg.
+**Riktig:** Riktig. Alle har rett til å delta i styringen av landet sitt, blant annet gjennom frie valg.
 
-**Feil:** Menneskerettighetene handler om frihet, sikkerhet og deltakelse, ikke om ting eller penger.
+**Feil:** Tenk på hvordan folk kan påvirke politikken i et demokrati. Hvilken rettighet hører til det?
 
 ### demokrati-60 · Hva sier verdenserklæringen om alle mennesker?
 
@@ -629,7 +629,7 @@ Tilleggskilder: https://www.fn.no/tema/menneskerettigheter, https://lovdata.no/d
 
 **Riktig:** Riktig. Alle mennesker er født frie, med samme menneskeverd og rettigheter.
 
-**Feil:** Erklæringen sier at alle har samme verd fra de blir født.
+**Feil:** Tenk på artikkel 1 i erklæringen. Den handler om hva vi er når vi blir født.
 
 ### demokrati-61 · Hvem passer på at offentlige kontorer behandler folk riktig?
 
@@ -641,15 +641,15 @@ Tilleggskilder: https://www.fn.no/tema/menneskerettigheter, https://lovdata.no/d
 
 **Feil:** Det finnes et ombud som Stortinget har valgt, og som passer på hele forvaltningen, ikke bare én gruppe.
 
-### demokrati-62 · Grunnloven sier at alle er like for loven. Hva betyr det?
+### demokrati-62 · Hva betyr det at alle er like for loven?
 
-- A) Loven gjelder likt for alle mennesker ✔
-- B) Rike personer kan få lavere straff
-- C) Politikere slipper å følge loven
+- A) Alle skal behandles likt av domstolene og politiet ✔
+- B) Alle skal få lik lønn etter loven
+- C) Alle skal få bestemme hvilke lover som gjelder
 
-**Riktig:** Riktig. Loven gjelder likt for alle. Ingen skal få usaklig forskjellsbehandling.
+**Riktig:** Riktig. Loven gjelder likt for alle. Ingen skal behandles dårligere uten god grunn.
 
-**Feil:** «Like for loven» betyr at penger og makt ikke gir deg andre regler.
+**Feil:** Tenk på hvordan domstoler og politi skal behandle deg, uansett hvem du er.
 
 
 ---
@@ -696,19 +696,19 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/2023-06-16-62, https://www.st
 - B) På Stortinget
 - C) I statsråd
 
-**Riktig:** Riktig. Partiene vedtar programmet sitt på landsmøtet.
+**Riktig:** Riktig. Partiene vedtar programmet sitt på landsmøtet. Landsmøtet er det øverste møtet i partiet.
 
-**Feil:** Landsmøtet er det øverste møtet i et parti. Der vedtar medlemmene politikken.
+**Feil:** Partiet har et stort møte med utsendinger fra hele landet. Hva kalles det?
 
 ### demokrati-67 · Hvem kan stille til valg til Stortinget?
 
-- A) Personer som har stemmerett ved stortingsvalg ✔
-- B) Personer som har bodd i Norge i tre år
+- A) Norske statsborgere som er 18 år i valgåret ✔
+- B) Utenlandske borgere som har bodd i Norge i fem år
 - C) Personer som er medlem i et stort parti
 
-**Riktig:** Riktig. De som har stemmerett ved stortingsvalg, kan bli valgt til Stortinget.
+**Riktig:** Riktig. Du må være norsk statsborger og fylle 18 år senest i valgåret. Da har du stemmerett og kan bli valgt.
 
-**Feil:** For å bli valgt til Stortinget må du ha stemmerett, altså være norsk statsborger og minst 18 år i valgåret.
+**Feil:** Tenk på hvem som har stemmerett ved stortingsvalg. Utenlandske borgere har ikke det.
 
 ### demokrati-68 · Hvordan kan vi grovt plassere de største partiene i Norge?
 
@@ -740,15 +740,15 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/2023-06-16-62, https://www.st
 
 **Feil:** Valget er om høsten, like etter sommerferien.
 
-### demokrati-71 · Lina blir 18 år i desember. Kan hun stemme ved valget i september?
+### demokrati-71 · Lina er norsk. Hun blir 18 i desember. Kan hun stemme ved valget i september?
 
-- A) Ja, hun blir 18 i valgåret ✔
-- B) Nei, hun må være 18 på valgdagen
-- C) Nei, hun må vente til hun er 20
+- A) Ja, hun fyller 18 år i valgåret ✔
+- B) Nei, hun må være 18 år på valgdagen
+- C) Ja, hvis foreldrene hennes sier ja
 
 **Riktig:** Riktig. Du har stemmerett hvis du fyller 18 år senest i løpet av valgåret.
 
-**Feil:** Det holder at du blir 18 år i løpet av det året valget er.
+**Feil:** Tenk på hvilket år hun fyller 18, ikke hvilken måned.
 
 ### demokrati-72 · Kan du endre rekkefølgen på kandidatene ved stortingsvalg?
 
@@ -770,25 +770,25 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/2023-06-16-62, https://www.st
 
 **Feil:** Personstemmer gir du til personer på stemmeseddelen ved kommunestyrevalg og fylkestingsvalg.
 
-### demokrati-74 · Ved kommunestyrevalg kan du gi «slengere». Hva betyr det?
+### demokrati-74 · Hva er en folkeavstemning?
 
-- A) Skrive inn kandidater fra andre lister ✔
-- B) Levere stemmen etter at valget er over
-- C) Stemme på to partier samtidig
+- A) Folket stemmer selv over én sak ✔
+- B) Folket velger nye politikere til Stortinget
+- C) Politikerne stemmer over en sak på Stortinget
 
-**Riktig:** Riktig. Ved kommunestyrevalg kan du skrive inn navn fra andre partiers lister.
+**Riktig:** Riktig. I en folkeavstemning stemmer folket selv over én sak. I Norge er resultatet vanligvis rådgivende.
 
-**Feil:** En slenger er en personstemme til en kandidat som står på en annen liste.
+**Feil:** Tenk på ordet «avstemning». Folket stemmer, men ikke for å velge partier.
 
 ### demokrati-75 · Hva er sperregrensen ved stortingsvalg?
 
 - A) Fire prosent av stemmene i hele landet ✔
-- B) Ti prosent av stemmene i hvert fylke
-- C) Én prosent av stemmene i Oslo
+- B) Fem prosent av stemmene i hele landet
+- C) Fire prosent av stemmene i hvert fylke
 
 **Riktig:** Riktig. Et parti må få minst fire prosent i hele landet for å få utjevningsmandater.
 
-**Feil:** Sperregrensen gjelder utjevningsmandatene. Den regnes ut fra stemmene i hele landet.
+**Feil:** Sperregrensen regnes ut fra stemmene i hele landet, ikke i hvert fylke.
 
 ### demokrati-76 · Hva er et utjevningsmandat på Stortinget?
 

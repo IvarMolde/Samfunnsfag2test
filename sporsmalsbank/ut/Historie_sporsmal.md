@@ -55,23 +55,23 @@ Tilleggskilder: https://snl.no/steinalderen_i_Norge, https://snl.no/vikingtiden
 
 ### historie-05 · Omtrent når begynte folk med jordbruk i Norge?
 
-- A) For rundt 4000 år siden ✔
-- B) For rundt 400 år siden
-- C) For rundt 40 000 år siden
+- A) For rundt 6000 år siden ✔
+- B) For rundt 2000 år siden
+- C) For rundt 12 000 år siden
 
-**Riktig:** Riktig. Folk begynte å dyrke jorda i Norge for rundt fire tusen år siden.
+**Riktig:** Riktig. Folk begynte å dyrke jorda i Norge for rundt seks tusen år siden. Det var i steinalderen.
 
-**Feil:** Jordbruket kom lenge etter de første menneskene, men flere tusen år før vår tid.
+**Feil:** Jordbruket kom i steinalderen, flere tusen år etter at de første menneskene kom til Norge.
 
-### historie-06 · Hva begynte bøndene å gjøre i bronsealderen?
+### historie-06 · Hva er bronse?
 
-- A) Å bruke hest til å trekke ✔
-- B) Å lage redskaper og våpen av jern
-- C) Å bygge kirker av stein
+- A) Et metall laget av kobber og tinn ✔
+- B) Et metall laget av jern og kull
+- C) Et hardt stoff laget av stein og sand
 
-**Riktig:** Riktig. I bronsealderen begynte bøndene å bruke hest som trekkdyr. Kvinnene lærte også å spinne og veve ull.
+**Riktig:** Riktig. Bronse er en blanding av kobber og tinn. Det var dyrt, så bare rike folk hadde mange ting av bronse.
 
-**Feil:** Jern kom først senere, og kirker kom med kristendommen. I bronsealderen fikk bøndene hjelp av et dyr.
+**Feil:** Bronse er et metall. Det lages ved å blande to andre metaller.
 
 ### historie-07 · Hvor fant folk jernmalm i jernalderen?
 
@@ -115,9 +115,9 @@ Tilleggskilder: https://snl.no/steinalderen_i_Norge, https://snl.no/vikingtiden
 
 ### historie-11 · Hva gjorde vikingene på reisene sine i Europa?
 
-- A) De handlet, men kriget og plyndret også ✔
-- B) De studerte ved skoler i store byer
-- C) De bygde kirker og hjalp de fattige
+- A) De handlet og plyndret ✔
+- B) De bygde kirker og skoler
+- C) De studerte og lærte nye språk
 
 **Riktig:** Riktig. Mange vikinger var dyktige handelsfolk, men de kriget og plyndret også.
 
@@ -165,12 +165,12 @@ Tilleggskilder: https://snl.no/svartedauden, https://snl.no/Kalmarunionen, https
 ### historie-15 · Hva gjorde kirken med Olav Haraldsson etter at han døde?
 
 - A) Gjorde ham til helgen ✔
-- B) Gjorde ham til pave
-- C) Gjorde ham til biskop
+- B) Kalte ham en forræder
+- C) Sa at han ikke var kristen
 
 **Riktig:** Riktig. Sønnen til Olav fikk hjelp av kirken til å gjøre faren til helgen. Han blir ofte kalt Olav den hellige.
 
-**Feil:** En helgen er en person som kirken mener var spesielt hellig. Mange kaller ham Olav den hellige.
+**Feil:** Olav døde i slaget mens han kjempet for kristendommen. Kirken hedret ham på en spesiell måte.
 
 ### historie-16 · Hvorfor ble mange vanlige folk kristne etter hvert?
 
@@ -248,7 +248,7 @@ Tilleggskilder: https://snl.no/svartedauden, https://snl.no/Kalmarunionen, https
 - B) Rundt en tidel av folket
 - C) Rundt ni av ti personer
 
-**Riktig:** Riktig. Rundt halvparten av folket i Europa døde. I Norge døde kanskje en tredel eller enda flere.
+**Riktig:** Riktig. Rundt halvparten av folket i Europa døde. I Norge døde trolig enda flere.
 
 **Feil:** Svartedauden var en av de verste katastrofene i Europa. Mange døde, men ikke nesten alle.
 
@@ -374,8 +374,8 @@ Tilleggskilder: https://snl.no/Kielfreden, https://snl.no/Unionsoppl%C3%B8sninge
 ### historie-35 · Hvem har Karl Johans gate i Oslo navn etter?
 
 - A) En svensk konge ✔
-- B) En norsk bonde
-- C) En dansk prest
+- B) En norsk statsminister
+- C) En dansk konge
 
 **Riktig:** Riktig. Karl Johan var svensk konge over både Sverige og Norge. Hovedgata i Oslo har navn etter ham.
 
@@ -434,22 +434,22 @@ Tilleggskilder: https://snl.no/Kielfreden, https://snl.no/Unionsoppl%C3%B8sninge
 ### historie-41 · Hvorfor var det vanskelig å bo på landsbygda på 1800-tallet?
 
 - A) Det var ikke nok jord og arbeid ✔
-- B) Det var forbudt å ha dyr på gården
-- C) Det var for mange fabrikker der
+- B) Det var for få barn på gårdene
+- C) Det var for lite regn i Norge
 
 **Riktig:** Riktig. Folketallet økte, og det var ikke nok jord og arbeid til alle. Mange flyttet derfor til byene.
 
 **Feil:** Det ble født mange barn, og befolkningen vokste. Tenk på hva det betyr for gårdene.
 
-### historie-42 · Omtrent hvor mange nordmenn utvandret til Amerika fra 1850 til 1920?
+### historie-42 · Omtrent hvor mange nordmenn utvandret til Amerika på 1800- og 1900-tallet?
 
-- A) Mer enn 800 000 ✔
-- B) Rundt 8000
-- C) Rundt 80 000
+- A) Rundt 800 000 ✔
+- B) Rundt 80 000
+- C) Rundt 300 000
 
-**Riktig:** Riktig. Mer enn åtte hundre tusen nordmenn utvandret til Amerika i denne perioden.
+**Riktig:** Riktig. Rundt 800 000 nordmenn utvandret til Amerika. Det var mange i forhold til folketallet i Norge.
 
-**Feil:** Svært mange reiste. Tallet er mye høyere enn hele befolkningen i en stor norsk by den gangen.
+**Feil:** Dette var en av de største utvandringene fra Europa i forhold til folketallet.
 
 ### historie-43 · Hva betyr det å utvandre?
 
@@ -463,9 +463,9 @@ Tilleggskilder: https://snl.no/Kielfreden, https://snl.no/Unionsoppl%C3%B8sninge
 
 ### historie-44 · Hvordan reagerte Sverige på at Norge brøt unionen i 1905?
 
-- A) Sterkt, og det ble nesten krig ✔
-- B) Svenskene feiret sammen med Norge
-- C) Sverige brydde seg ikke om det
+- A) Sterkt, og det var nær krig ✔
+- B) Rolig, og landene ble enige med en gang
+- C) Sverige stengte grensen i mange år
 
 **Riktig:** Riktig. Reaksjonene i Sverige var voldsomme, og det var nær ved å bli krig. Men landene løste det fredelig.
 
@@ -510,15 +510,15 @@ Tilleggskilder: https://snl.no/stemmerett, https://snl.no/Holocaust_i_Norge, htt
 
 **Feil:** Vann som faller med stor kraft, kan gi energi. Tenk på hva fabrikkene trengte.
 
-### historie-48 · Hvor lang kunne en vanlig arbeidsdag være fra 1919?
+### historie-48 · Hvor lang ble en vanlig arbeidsdag etter loven i 1919?
 
 - A) Åtte timer ✔
 - B) Ti timer
 - C) Tolv timer
 
-**Riktig:** Riktig. Først bestemte Stortinget at ingen skulle jobbe mer enn ti timer om dagen. I 1919 ble det endret til åtte.
+**Riktig:** Riktig. I 1919 ble arbeidsuken kortet ned til 48 timer. Det er åtte timer om dagen i seks dager.
 
-**Feil:** Fagforeningene fikk gjennom kortere arbeidsdager. I 1919 ble grensen satt lavere enn ti timer.
+**Feil:** Arbeidsdagene var lange før 1919. Loven ga en kortere arbeidsdag enn før.
 
 ### historie-49 · Hva fikk arbeiderne rett til med syketrygd?
 
@@ -679,15 +679,15 @@ Tilleggskilder: https://snl.no/Ekofisk, https://snl.no/Gro_Harlem_Brundtland, ht
 
 **Feil:** Krigen hadde ødelagt mye, særlig i Nord-Norge. Det var mye som måtte gjøres.
 
-### historie-64 · Hvilke to bevegelser har vært særlig viktige for det moderne Norge?
+### historie-64 · Hva skjedde i Norge 8. mai 1945?
 
-- A) Arbeiderbevegelsen og kvinnebevegelsen ✔
-- B) Fredsbevegelsen og miljøbevegelsen
-- C) Bondebevegelsen og avholdsbevegelsen
+- A) Okkupasjonen tok slutt ✔
+- B) Tyskland angrep Norge
+- C) Norge fikk ny grunnlov
 
-**Riktig:** Riktig. Arbeiderbevegelsen og kvinnebevegelsen har hatt stor betydning for lovene og rettighetene vi har i dag.
+**Riktig:** Riktig. 8. mai 1945 ga de tyske soldatene seg i Norge. Dagen kalles frigjøringsdagen.
 
-**Feil:** Tenk på bevegelser som kjempet for arbeiderne og for likestilling mellom kjønnene.
+**Feil:** Norge hadde vært okkupert i fem år. Tenk på hva som skjedde da krigen var over.
 
 ### historie-65 · Hvorfor ble arbeiderbevegelsen sterkere fra 1880-årene?
 
@@ -702,12 +702,12 @@ Tilleggskilder: https://snl.no/Ekofisk, https://snl.no/Gro_Harlem_Brundtland, ht
 ### historie-66 · Hva har arbeiderbevegelsen kjempet for?
 
 - A) Penger til dem som mister jobben ✔
-- B) Lengre arbeidsdager i fabrikkene
-- C) Lavere lønn for unge arbeidere
+- B) Lavere skatt for store bedrifter
+- C) Færre fagforeninger på arbeidsplassene
 
 **Riktig:** Riktig. Arbeiderbevegelsen har kjempet for blant annet støtte ved arbeidsledighet, kortere dager og tryggere arbeidsplasser.
 
-**Feil:** Arbeiderbevegelsen har kjempet for bedre vilkår for arbeidstakerne, ikke dårligere.
+**Feil:** Arbeiderbevegelsen kjempet for trygghet og bedre vilkår for arbeiderne. Tenk på hva en arbeider trenger for å ha et trygt liv.
 
 ### historie-67 · Hva har kvinnebevegelsen kjempet for?
 
@@ -732,12 +732,12 @@ Tilleggskilder: https://snl.no/Ekofisk, https://snl.no/Gro_Harlem_Brundtland, ht
 ### historie-69 · Hvem var Norges første kvinnelige statsminister?
 
 - A) Gro Harlem Brundtland ✔
-- B) Camilla Collett
-- C) Aasta Hansteen
+- B) Erna Solberg
+- C) Kristin Halvorsen
 
-**Riktig:** Riktig. Gro Harlem Brundtland ble statsminister i 1981. Hun var den første kvinnen i Norge med denne jobben.
+**Riktig:** Riktig. Gro Harlem Brundtland ble statsminister første gang i 1981. Hun var den første kvinnen i Norge i denne jobben.
 
-**Feil:** Camilla Collett og Aasta Hansteen kjempet for kvinners rettigheter på 1800-tallet. Statsministeren kom mye senere.
+**Feil:** Spørsmålet gjelder den første kvinnen i jobben. Hun ble statsminister tidlig på 1980-tallet.
 
 ### historie-70 · Hvilken lov fra 1978 skulle sikre like rettigheter for kvinner og menn?
 
@@ -759,31 +759,31 @@ Tilleggskilder: https://snl.no/Ekofisk, https://snl.no/Gro_Harlem_Brundtland, ht
 
 **Feil:** Dette funnet gjorde Norge til et rikt land. Det handler om energi.
 
-### historie-72 · Hvem eier olje- og gassressursene på norsk sokkel?
+### historie-72 · Hvem eier oljen og gassen i havet utenfor Norge?
 
-- A) Staten, altså fellesskapet ✔
+- A) Staten, altså hele folket ✔
 - B) Selskapene som finner oljen
-- C) Folk som bor nær kysten
+- C) Kommunene langs kysten
 
 **Riktig:** Riktig. Akkurat som vannkraften er oljen i offentlig eie. Private selskaper kan få lov til å lete og bore i en viss tid.
 
 **Feil:** Det er det samme som med vannkraften. Ressursene skal komme hele folket til gode.
 
-### historie-73 · Hva er mange uenige om når det gjelder oljen i dag?
+### historie-73 · Hva er mange uenige om når det gjelder oljen?
 
 - A) Hva den betyr for natur og miljø ✔
-- B) Hvem som fant den første oljen
-- C) Om det finnes noe olje i Nordsjøen
+- B) Om oljen har gjort Norge rikere
+- C) Hvor i Nordsjøen oljen ble funnet
 
-**Riktig:** Riktig. Det er ikke enighet om hvilke følger oljeindustrien har for natur og miljø.
+**Riktig:** Riktig. Mange er uenige om hvilke følger oljeindustrien har for natur og miljø.
 
-**Feil:** Diskusjonen i dag handler om hvordan oljen påvirker klimaet og naturen.
+**Feil:** Dette er en debatt om framtiden og om følgene av å bruke olje.
 
 ### historie-74 · Hvilke rettigheter hadde folk i Norge før oljen ble funnet?
 
 - A) Gratis skole og syketrygd ✔
-- B) Oljepenger til hver familie
-- C) Gratis bolig for voksne
+- B) Gratis barnehage for barn
+- C) Gratis reiser med buss og tog
 
 **Riktig:** Riktig. Gratis skole, kortere arbeidsdager og syketrygd kom før det ble funnet olje.
 
@@ -819,15 +819,15 @@ Tilleggskilder: https://snl.no/Ekofisk, https://snl.no/Gro_Harlem_Brundtland, ht
 
 **Feil:** Husk at Norge sa nei til EU to ganger.
 
-### historie-78 · Hvor stor del av folket bor i byer og tettsteder i dag?
+### historie-78 · Hvor stor del av folket bor i byer og tettsteder (2026)?
 
 - A) Rundt 80 prosent ✔
 - B) Rundt 35 prosent
 - C) Rundt 15 prosent
 
-**Riktig:** Riktig. I dag bor rundt åtti prosent i byer og tettsteder. Før 1850 var det bare rundt femten prosent.
+**Riktig:** Riktig. Rundt åtti prosent bor i byer og tettsteder. Før 1850 var det bare rundt femten prosent.
 
-**Feil:** Mange har flyttet fra landsbygda til byene de siste hundre årene. I dag bor de fleste i byer.
+**Feil:** Mange har flyttet fra landsbygda til byene de siste hundre årene. De fleste bor nå i byer.
 
 ### historie-79 · Hvorfor kom mange arbeidsinnvandrere til Norge rundt 1970?
 

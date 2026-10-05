@@ -26,12 +26,12 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/1991-07-04-47, https://lovdat
 ### familie-02 · Hva er en kjernefamilie?
 
 - A) Foreldre og barna deres ✔
-- B) Besteforeldre, tanter og onkler
-- C) Naboer som hjelper hverandre
+- B) Besteforeldre, foreldre og barn
+- C) Tanter, onkler og søskenbarn
 
 **Riktig:** Riktig. En kjernefamilie er foreldre og barna deres. Det kan være én eller to foreldre.
 
-**Feil:** Kjernefamilien er den minste familien: foreldre og barn. Tanter, onkler og besteforeldre hører til storfamilien.
+**Feil:** Tenk på den minste familien. Slektninger utenfor hjemmet hører til storfamilien.
 
 ### familie-03 · Hva er en storfamilie?
 
@@ -43,17 +43,17 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/1991-07-04-47, https://lovdat
 
 **Feil:** En storfamilie handler ikke om stort hus eller venner. Det er flere generasjoner i samme familie som bor sammen.
 
-### familie-04 · Hvilken familie kan også være en kjernefamilie i Norge i dag?
+### familie-04 · Hvilken familie kan også være en kjernefamilie i Norge?
 
 - A) To mødre og barna deres ✔
-- B) Tre venner som deler leilighet
-- C) Naboer i samme borettslag
+- B) To søsken som bor sammen
+- C) Besteforeldre og barnebarna deres
 
-**Riktig:** Riktig. I Norge i dag kan en kjernefamilie være to mødre eller to fedre med barn, eller en mor eller far alene med barn.
+**Riktig:** Riktig. I Norge kan en kjernefamilie være to mødre eller to fedre med barn, eller en mor eller far alene med barn.
 
 **Feil:** En kjernefamilie er foreldre og barn. I Norge kan foreldrene være to av samme kjønn.
 
-### familie-05 · Omtrent hvor mange personer bor i en norsk husholdning?
+### familie-05 · Omtrent hvor mange personer bor i en norsk husholdning (2026)?
 
 - A) Litt mer enn to ✔
 - B) Litt mer enn fire
@@ -63,7 +63,7 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/1991-07-04-47, https://lovdat
 
 **Feil:** Norske husholdninger er små. Mange bor alene, og gjennomsnittet er litt mer enn to personer.
 
-### familie-06 · Omtrent hvor mange av parene som bor sammen, er gift?
+### familie-06 · Omtrent hvor mange av parene som bor sammen, er gift (2026)?
 
 - A) Omtrent sju av ti ✔
 - B) Omtrent tre av ti
@@ -83,7 +83,7 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/1991-07-04-47, https://lovdat
 
 **Feil:** Loven om ekteskap ble lik for alle par i 2009. Siden da kan to kvinner eller to menn gifte seg.
 
-### familie-08 · Omtrent hvor mange av dem som gifter seg, vil trolig skille seg?
+### familie-08 · Omtrent hvor mange av dem som gifter seg, vil trolig skille seg (2026)?
 
 - A) Omtrent fire av ti ✔
 - B) Omtrent én av ti
@@ -136,12 +136,12 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/1991-07-04-47, https://lovdat
 ### familie-13 · Hva betyr foreldreansvar?
 
 - A) Rett og plikt til å ta avgjørelser for barnet ✔
-- B) Plikt til å betale skatt for barnet hvert år
-- C) Rett til å velge hvem barnet skal gifte seg med
+- B) Plikt til å følge barnet til skolen og hjem
+- C) Rett til å velge hvilken jobb barnet får
 
 **Riktig:** Riktig. Foreldreansvar betyr at foreldrene har rett og plikt til å ta avgjørelser for barnet i personlige spørsmål.
 
-**Feil:** Foreldreansvar handler om å ta avgjørelser for barnet og gi god omsorg. Ingen kan bestemme hvem et barn skal gifte seg med.
+**Feil:** Foreldreansvar handler om omsorg for barnet og om å ta viktige valg for barnet. Det gjelder til barnet er 18 år.
 
 ### familie-14 · Hva betyr det å være separert?
 
@@ -166,12 +166,12 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/1991-07-04-47, https://lovdat
 ### familie-16 · Når kan man få skilsmisse med en gang, uten separasjon?
 
 - A) Når det har vært vold i ekteskapet ✔
-- B) Når en av dem vil flytte til en annen by
-- C) Når de har krangler om penger
+- B) Når den ene flytter til en annen by
+- C) Når paret krangler om penger hver uke
 
-**Riktig:** Riktig. Hvis det har vært vold i ekteskapet, eller ekteskapet var tvang, kan man få skilsmisse med en gang.
+**Riktig:** Riktig. Hvis en ektefelle eller barna har vært utsatt for vold, kan man få skilsmisse med en gang.
 
-**Feil:** Krangel eller flytting gir ikke skilsmisse med en gang. Vold eller tvang i ekteskapet kan gi skilsmisse med en gang.
+**Feil:** Å krangle eller flytte er ikke nok. Tenk på noe som er farlig for en i familien.
 
 ### familie-17 · Et ektepar med barn under 16 år vil skilles. Hva må de gjøre først?
 
@@ -233,15 +233,15 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/1991-07-04-47, https://lovdat
 
 **Feil:** Barnebidrag kommer ikke fra skolen eller banken. Det er penger fra forelderen som barnet ikke bor fast hos.
 
-### familie-23 · Hva gjelder for samboere sammenlignet med ektepar?
+### familie-23 · Hva er en forskjell mellom samboere og ektepar?
 
-- A) De har ikke automatisk de samme rettighetene ✔
-- B) De har nøyaktig de samme rettighetene
-- C) De har flere rettigheter enn ektepar
+- A) Ektepar har automatisk flere rettigheter ✔
+- B) Samboere har automatisk flere rettigheter
+- C) Samboere og ektepar har automatisk like rettigheter
 
-**Riktig:** Riktig. Samboere har ikke automatisk de samme økonomiske og juridiske rettighetene som ektepar.
+**Riktig:** Riktig. Ektepar har automatisk flere økonomiske og juridiske rettigheter enn samboere.
 
-**Feil:** Samboere og ektepar har ikke like rettigheter automatisk. Derfor skriver mange samboere en avtale.
+**Feil:** Loven gir ektepar og samboere ulike rettigheter. Tenk på hvem som har rettigheter uten en avtale.
 
 ### familie-24 · Hvorfor skriver mange samboere en avtale hos en advokat?
 
@@ -272,15 +272,15 @@ Tilleggskilder: https://www.helsenorge.no/barn/sprakutvikling-hos-barn/, https:/
 
 **Feil:** Kulturen bestemmer ikke jobb eller lønn. Den lærer oss hvordan vi skal leve sammen med andre.
 
-### familie-26 · Hvem og hva lærer barn kultur og verdier av?
+### familie-26 · Hvem lærer barn kultur og verdier av?
 
-- A) Av foreldrene og samfunnet rundt seg ✔
-- B) Mest av lærebøkene de leser på skolen
-- C) Mest av besteforeldrene og slekta si
+- A) Av foreldrene og samfunnet rundt dem ✔
+- B) Av en lærebok om kultur på skolen
+- C) Av politiet og andre offentlige kontorer
 
 **Riktig:** Riktig. Barn lærer både av foreldrene og av samfunnet rundt seg.
 
-**Feil:** Barn lærer ikke mest fra bøker eller bare fra slekta. De lærer både av foreldrene og samfunnet rundt.
+**Feil:** Barn lærer av menneskene rundt seg, ikke av én bok eller av offentlige kontorer.
 
 ### familie-27 · Hva kaller vi de to hovedgruppene av kulturer i denne modellen?
 
@@ -292,15 +292,15 @@ Tilleggskilder: https://www.helsenorge.no/barn/sprakutvikling-hos-barn/, https:/
 
 **Feil:** De to gruppene heter jeg-kulturer og vi-kulturer. I den ene er enkeltmennesket viktigst, i den andre gruppa.
 
-### familie-28 · Hvorfor deler vi kulturer inn i jeg-kulturer og vi-kulturer?
+### familie-28 · Hvor gammel må man være for å gifte seg i Norge?
 
-- A) For å forstå kulturforskjeller lettere ✔
-- B) For å vise hvilken kultur som er best
-- C) For å bestemme hvem som får bo i Norge
+- A) 18 år ✔
+- B) 16 år
+- C) 21 år
 
-**Riktig:** Riktig. Inndelingen er en forenkling. Den gjør det lettere å forstå forskjeller, men ingen kultur er bedre enn en annen.
+**Riktig:** Riktig. Man må være 18 år for å gifte seg i Norge. Begge må også si ja av fri vilje.
 
-**Feil:** Modellen er en enkel måte å forstå forskjeller på. Den sier ikke at én kultur er best.
+**Feil:** Tenk på når man blir myndig i Norge.
 
 ### familie-29 · Hva er viktigst i en jeg-kultur?
 
@@ -354,13 +354,13 @@ Tilleggskilder: https://www.helsenorge.no/barn/sprakutvikling-hos-barn/, https:/
 
 ### familie-34 · Hva kan være vanskelig for barn som vokser opp med to kulturer?
 
-- A) Ulike regler hjemme og ute ✔
-- B) At de må gå på to skoler
-- C) At de ikke får gå i barnehage
+- A) Ulike regler og forventninger hjemme og ute ✔
+- B) At de ikke klarer å lære norsk godt
+- C) At de ikke får ha norske venner
 
 **Riktig:** Riktig. Barn med to kulturer kan møte ett sett regler hjemme og et annet sett ute.
 
-**Feil:** Barn med to kulturer går på vanlig skole. Det vanskelige kan være ulike regler og forventninger hjemme og ute.
+**Feil:** Barn med to kulturer kan lære norsk og få venner. Tenk på forskjeller mellom hjemmet og omgivelsene.
 
 ### familie-35 · Hva betyr det å være tospråklig?
 
@@ -392,15 +392,15 @@ Tilleggskilder: https://www.helsenorge.no/barn/sprakutvikling-hos-barn/, https:/
 
 **Feil:** Alle barn lærer norsk på skolen, og karakterer avhenger ikke av kultur. Styrken er at de kan forstå flere måter å tenke på.
 
-### familie-38 · Manar får ikke lov å bli med venner hjem etter skolen. Hva kan skje?
+### familie-38 · Nora får ikke lov å bli med venner hjem etter skolen. Hva kan skje?
 
 - A) Hun kan bli mer alene på skolen ✔
-- B) Hun får flere venner i klassen
-- C) Hun blir bedre i norsk på skolen
+- B) Hun kan få flere venner i klassen
+- C) Hun kan bli bedre i norsk på skolen
 
-**Riktig:** Riktig. Når Manar ikke får bli med hjem, kan vennene slutte å invitere henne. Da kan Manar bli mer alene.
+**Riktig:** Riktig. Når Nora ikke kan bli med hjem, kan vennene slutte å invitere henne. Da kan hun bli mer alene.
 
-**Feil:** Hvis Manar aldri kan bli med hjem, kan vennene slutte å invitere henne. Da kan hun bli ensom.
+**Feil:** Tenk på hva vennene kan gjøre når Nora ikke kan komme.
 
 ### familie-39 · Manars foreldre er usikre på å la henne besøke venner. Hva kan de gjøre?
 
@@ -501,15 +501,15 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/1981-04-08-7/KAPITTEL_5, http
 
 **Feil:** Foreldrene skal fortsatt følge opp barna. Samarbeidet gir dem mer kunnskap om barnas hverdag.
 
-### familie-48 · Hva synes de fleste foreldre er viktig når det gjelder barnas venner?
+### familie-48 · Hvor kan foreldre få gratis råd om små barn?
 
-- A) Å kjenne vennene og foreldrene deres ✔
-- B) At barna har få venner om gangen
-- C) At vennene går i samme klasse
+- A) På helsestasjonen i kommunen ✔
+- B) På Nav-kontoret i kommunen
+- C) På legevakten i kommunen
 
-**Riktig:** Riktig. De fleste foreldre synes det er viktig å kjenne vennene til barna og foreldrene deres.
+**Riktig:** Riktig. Helsestasjonen gir gratis råd og hjelp til foreldre. Den følger også med på barnets vekst og helse.
 
-**Feil:** Antall venner eller klasse er ikke det viktigste. Mange foreldre vil kjenne vennene og foreldrene deres.
+**Feil:** Tenk på kontoret som følger med på barns helse og vekst.
 
 ### familie-49 · Fatima synes barneoppdragelse er vanskelig. Hva kan hun gjøre?
 
@@ -551,7 +551,7 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/1981-04-08-7/KAPITTEL_5, http
 
 **Feil:** Forbudet mot å slå barn kom i 1987. Siden da har all fysisk avstraffelse av barn vært forbudt.
 
-### familie-53 · Ali gir sønnen et lett klaps når han er ulydig. Hva sier loven?
+### familie-53 · Lars gir sønnen et lett klaps når han er ulydig. Hva sier loven?
 
 - A) Det er forbudt i Norge ✔
 - B) Det er lov i eget hjem
@@ -559,7 +559,7 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/1981-04-08-7/KAPITTEL_5, http
 
 **Riktig:** Riktig. All vold mot barn er forbudt i Norge, også et lett klaps i oppdragelsen.
 
-**Feil:** Loven forbyr all vold mot barn. Det gjelder også hjemme og også et lett klaps.
+**Feil:** Tenk på hva loven sier om vold mot barn, også hjemme og også ved et lett klaps.
 
 ### familie-54 · Hvorfor bør foreldre tenke på vanskelige situasjoner før de skjer?
 
@@ -630,15 +630,15 @@ Tilleggskilder: https://www.bufdir.no/barnevern/, https://www.bufdir.no/barnever
 
 **Feil:** Barnevernet prøver først å hjelpe barnet hjemme, sammen med familien. Å flytte barnet er siste utvei.
 
-### familie-60 · Hvilke hjelpetiltak kan barnevernet gi?
+### familie-60 · Hvilken hjelp kan barnevernet gi til familier?
 
 - A) Veiledning, avlastning og støttekontakt ✔
-- B) Lån, bolig og fast jobb til foreldrene
-- C) Skattefradrag, trygd og gratis bil
+- B) Bolig, lån og jobb til foreldrene
+- C) Barnetrygd, kontantstøtte og foreldrepenger
 
 **Riktig:** Riktig. Barnevernet kan for eksempel gi veiledning, avlastning og støttekontakt.
 
-**Feil:** Barnevernet gir ikke lån eller jobb. Det gir hjelp som veiledning, avlastning og støttekontakt.
+**Feil:** Penger, bolig og jobb kommer fra andre, for eksempel Nav. Barnevernet gir hjelp i hverdagen til familien.
 
 ### familie-61 · Ahmed og Lina er slitne og trenger hjelp med barna. Hva kan de gjøre?
 
@@ -690,15 +690,15 @@ Tilleggskilder: https://www.bufdir.no/barnevern/, https://www.bufdir.no/barnever
 
 **Feil:** En bekymringsmelding går til barnevernet. Den sier at noen er bekymret for et barn.
 
-### familie-66 · Hvem bestemmer om et barn må flytte fra foreldrene sine?
+### familie-66 · Hvem bestemmer om barnevernet kan overta omsorgen for et barn?
 
 - A) Barneverns- og helsenemnda ✔
-- B) Barnevernstjenesten alene
+- B) Barnevernstjenesten i kommunen
 - C) Skolen og helsestasjonen
 
 **Riktig:** Riktig. Barneverns- og helsenemnda bestemmer om barnevernet kan overta omsorgen for et barn.
 
-**Feil:** Barnevernstjenesten kan ikke bestemme dette alene. Det er barneverns- og helsenemnda som bestemmer.
+**Feil:** Barnevernstjenesten kan foreslå dette, men en egen nemnd avgjør.
 
 ### familie-67 · Hvilke barn har rett til å si sin mening til barnevernet?
 
@@ -710,15 +710,15 @@ Tilleggskilder: https://www.bufdir.no/barnevern/, https://www.bufdir.no/barnever
 
 **Feil:** Også små barn har rett til å si sin mening. Det gjelder alle barn som kan danne seg en mening.
 
-### familie-68 · En nabo er bekymret for et barn. Kan hun melde fra uten navn?
+### familie-68 · En nabo er bekymret for et barn. Hva kan hun gjøre?
 
-- A) Ja, en privatperson kan være anonym ✔
-- B) Nei, hun må først kontakte politiet
-- C) Nei, hun må først snakke med familien
+- A) Melde fra til barnevernet, også uten navn ✔
+- B) Først melde fra til politiet og vente
+- C) Først be familien om lov til å melde fra
 
-**Riktig:** Riktig. En privatperson kan melde fra til barnevernet uten å si navnet sitt, for eksempel på telefon. På kveld og natt kan man ringe 116 111.
+**Riktig:** Riktig. Alle kan melde fra til barnevernet, også uten å si navnet sitt, for eksempel på telefon. Alarmtelefonen for barn og unge, 116 111, er åpen hele døgnet.
 
-**Feil:** Alle som er bekymret for et barn, bør melde fra til barnevernet. En privatperson kan være anonym.
+**Feil:** Man trenger ikke be om lov og ikke vente på andre. Barnevernet tar imot meldinger fra alle som er bekymret.
 
 
 ---
@@ -779,15 +779,15 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/1981-04-08-7/KAPITTEL_5, http
 
 **Feil:** Penger og alder bestemmer ikke samværet. Barnet har rett til å være sammen med begge foreldrene.
 
-### familie-74 · Når skal et barn senest få si sin mening om viktige avgjørelser?
+### familie-74 · Fra hvilken alder skal barnet få si sin mening i viktige saker?
 
-- A) Når barnet er sju år ✔
-- B) Når barnet er 15 år
-- C) Når barnet er 18 år
+- A) Fra sju år ✔
+- B) Fra 15 år
+- C) Fra 18 år
 
-**Riktig:** Riktig. Når barnet er sju år, skal det få si sin mening. Yngre barn som kan danne seg en mening, skal også få si den.
+**Riktig:** Riktig. Fra barnet er sju år, skal det få si sin mening. Yngre barn skal også få si den hvis de kan danne seg en mening.
 
-**Feil:** Barnet får si sin mening mye tidligere enn 15 år. Senest når barnet er sju år, skal det få si sin mening.
+**Feil:** Barn får si sin mening mye tidligere enn 15 eller 18 år. Tenk på tidlig skolealder.
 
 ### familie-75 · Hva sier barneloven når barnet har fylt 12 år?
 
@@ -805,9 +805,9 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/1981-04-08-7/KAPITTEL_5, http
 - B) Om hun vil gifte seg nå
 - C) Om hun vil kjøpe bil på lån
 
-**Riktig:** Riktig. Når barnet har fylt 15 år, bestemmer det selv om utdanning og om å melde seg inn i eller ut av foreninger.
+**Riktig:** Riktig. Når Sofie har fylt 15 år, bestemmer hun selv hvilken utdanning hun vil ta.
 
-**Feil:** Man må være 18 år for å gifte seg og ta opp lån. Med 15 år kan Sofie selv velge utdanning.
+**Feil:** Man må være myndig for å gifte seg og ta opp lån. Tenk på noe som handler om skole.
 
 ### familie-77 · Ali er 15 år og vil melde seg inn i en forening. Hvem bestemmer?
 

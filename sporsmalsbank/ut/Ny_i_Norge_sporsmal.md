@@ -11,7 +11,7 @@ Kilde: samfunnskunnskap.no, med tilleggskilder der det står. Tre svaralternativ
 
 Kilde: https://samfunnskunnskap.no/nb/ny-i-norge/et-liv-i-norge.html
 
-### norge-01 · Omtrent hvor mange barn blir født i Norge hvert år?
+### norge-01 · Omtrent hvor mange barn blir født i Norge hvert år (2026)?
 
 - A) Omtrent 50 000 barn ✔
 - B) Omtrent 5 000 barn
@@ -21,17 +21,17 @@ Kilde: https://samfunnskunnskap.no/nb/ny-i-norge/et-liv-i-norge.html
 
 **Feil:** Norge har 5–6 millioner innbyggere. Da blir det født omtrent 50 000 barn hvert år.
 
-### norge-02 · Hvor mange barn får en kvinne i Norge i gjennomsnitt?
+### norge-02 · Hvor mange barn får en kvinne i Norge i gjennomsnitt (2026)?
 
-- A) Omtrent 1,4 barn ✔
-- B) Omtrent 3 barn
-- C) Omtrent 5 barn
+- A) Omtrent 1,5 barn ✔
+- B) Omtrent 2,5 barn
+- C) Omtrent 3,5 barn
 
-**Riktig:** Riktig. En kvinne i Norge får i gjennomsnitt omtrent 1,4 barn.
+**Riktig:** Riktig. En kvinne i Norge får i gjennomsnitt omtrent 1,5 barn.
 
-**Feil:** Det er færre barn i hver familie enn mange tror. Gjennomsnittet er omtrent 1,4 barn.
+**Feil:** Familiene i Norge er ofte små. Gjennomsnittet er under to barn.
 
-### norge-03 · Hvor gammel er en kvinne i Norge når hun får første barn?
+### norge-03 · Hvor gammel er en kvinne i Norge når hun får første barn (2026)?
 
 - A) Omtrent 30 år gammel ✔
 - B) Omtrent 20 år gammel
@@ -43,23 +43,23 @@ Kilde: https://samfunnskunnskap.no/nb/ny-i-norge/et-liv-i-norge.html
 
 ### norge-04 · Hva sier norsk lov om omskjæring av jenter?
 
-- A) Det er forbudt, og straffen kan være opptil 15 år i fengsel ✔
-- B) Det er lov hvis foreldrene ønsker det og legen er enig
-- C) Det er lov hvis jenta er over ti år gammel
+- A) Det er forbudt og kan gi fengselsstraff ✔
+- B) Det er lov hvis foreldrene ønsker det
+- C) Det er lov hvis en lege gjør det
 
-**Riktig:** Riktig. Omskjæring av jenter er forbudt i Norge. Straffen kan være opptil 15 år i fengsel.
+**Riktig:** Riktig. Omskjæring av jenter er forbudt i Norge. I alvorlige saker kan straffen være opptil 15 år i fengsel.
 
-**Feil:** Omskjæring av jenter er forbudt i Norge, også når foreldrene ønsker det.
+**Feil:** Foreldre kan ikke si ja til dette, og en lege kan heller ikke gjøre det.
 
-### norge-05 · Hva er en barnehage?
+### norge-05 · Fra hvilken alder har barn rett til plass i barnehage?
 
-- A) Et sted for små barn mens foreldrene er på jobb eller skole ✔
-- B) Et sted der barn lærer å lese og skrive før de begynner på skolen
-- C) Et sted der barn bor når foreldrene er syke
+- A) Fra de er ett år ✔
+- B) Fra de er tre år
+- C) Fra de er fem år
 
-**Riktig:** Riktig. I barnehagen er små barn mens foreldrene jobber eller studerer.
+**Riktig:** Riktig. Barn som er ett år har rett til plass i barnehage. Foreldrene må søke om plass.
 
-**Feil:** Barna lærer å lese og skrive på skolen. I barnehagen leker og lærer de gjennom dagen.
+**Feil:** Retten gjelder mye yngre barn enn skolebarn. Tenk på de minste barna.
 
 ### norge-06 · Hva betyr ordet «egenandel»?
 
@@ -83,23 +83,23 @@ Kilde: https://samfunnskunnskap.no/nb/ny-i-norge/et-liv-i-norge.html
 
 ### norge-08 · Hvem kan få kontantstøtte?
 
-- A) Foreldre med små barn som ikke har barnehageplass ✔
-- B) Foreldre som har barn på ungdomsskolen og videregående
-- C) Foreldre som tar utdanning i utlandet
+- A) Foreldre med barn på ett år uten barnehageplass ✔
+- B) Foreldre med barn på fem år som går i barnehage
+- C) Foreldre med barn på åtte år som går på SFO
 
-**Riktig:** Riktig. Kontantstøtte er penger til foreldre som ikke bruker barnehage.
+**Riktig:** Riktig. Kontantstøtte er penger fra Nav til foreldre med barn på ett år som ikke har full barnehageplass.
 
-**Feil:** Kontantstøtte er til foreldre med små barn. Barna går ikke i barnehage.
+**Feil:** Kontantstøtte er til foreldre med små barn. Tenk på om barnet er i barnehage eller hjemme.
 
 ### norge-09 · Hva er foreldrepenger?
 
-- A) Penger fra Nav når foreldre er hjemme med et nytt barn ✔
-- B) Penger fra barnehagen når barnet begynner
-- C) Penger fra skolen når barnet er syk
+- A) Penger fra Nav når du er hjemme med et nytt barn ✔
+- B) Penger fra kommunen når barnet begynner i barnehage
+- C) Penger fra arbeidsgiveren når barnet er sykt
 
-**Riktig:** Riktig. Foreldrepenger er penger fra Nav. Du får dem når du er hjemme med et nytt barn.
+**Riktig:** Riktig. Du får foreldrepenger fra Nav når du er hjemme med et nytt barn.
 
-**Feil:** Det er Nav som betaler foreldrepenger, ikke barnehagen eller skolen.
+**Feil:** Foreldrepenger har med fødsel å gjøre. Penger til barnehage eller til et sykt barn er noe annet.
 
 ### norge-10 · Hvem betaler barnetrygd til foreldrene?
 
@@ -131,15 +131,15 @@ Kilde: https://samfunnskunnskap.no/nb/ny-i-norge/et-liv-i-norge.html
 
 **Feil:** Barnetrygden er den samme for rike og fattige familier. Inntekten har ikke noe å si.
 
-### norge-13 · Hvor mange år varer grunnskolen i Norge?
+### norge-13 · Hva har du rett til etter at du har fullført grunnskolen?
 
-- A) Ti år ✔
-- B) Syv år
-- C) Tretten år
+- A) Å begynne på videregående skole ✔
+- B) Å begynne på universitetet
+- C) Å få en fast jobb i kommunen
 
-**Riktig:** Riktig. Grunnskolen har ti år, fra 1. til 10. klasse.
+**Riktig:** Riktig. Unge som har fullført grunnskolen har rett til å gå på videregående skole.
 
-**Feil:** Grunnskolen er barneskole og ungdomsskole sammen. Det blir til sammen ti år.
+**Feil:** Du må ha et annet skoletrinn først. Det kommer før universitetet.
 
 ### norge-14 · Hvilke klasser er barneskolen?
 
@@ -191,7 +191,7 @@ Kilde: https://samfunnskunnskap.no/nb/ny-i-norge/et-liv-i-norge.html
 
 **Feil:** SFO er ikke et fag eller en egen skole. Det er et tilbud ved siden av skoledagen.
 
-### norge-19 · Omtrent hvor mange barn i 1. til 4. klasse går på SFO?
+### norge-19 · Omtrent hvor mange barn i 1. til 4. klasse går på SFO (2026)?
 
 - A) Omtrent åtte av ti barn ✔
 - B) Omtrent to av ti barn
@@ -201,7 +201,7 @@ Kilde: https://samfunnskunnskap.no/nb/ny-i-norge/et-liv-i-norge.html
 
 **Feil:** SFO er et vanlig tilbud. De fleste barn på de laveste trinnene bruker det.
 
-### norge-20 · Hvor mange fullfører videregående skole i Norge?
+### norge-20 · Hvor mange fullfører videregående skole i Norge (2026)?
 
 - A) Nesten åtte av ti elever ✔
 - B) Omtrent fire av ti elever
@@ -211,7 +211,7 @@ Kilde: https://samfunnskunnskap.no/nb/ny-i-norge/et-liv-i-norge.html
 
 **Feil:** Det er flere enn seks av ti. Nesten åtte av ti elever fullfører.
 
-### norge-21 · Hvor mange elever velger yrkesfag på videregående?
+### norge-21 · Hvor mange elever velger yrkesfag på videregående (2026)?
 
 - A) Omtrent halvparten ✔
 - B) Omtrent én av ti elever
@@ -224,22 +224,22 @@ Kilde: https://samfunnskunnskap.no/nb/ny-i-norge/et-liv-i-norge.html
 ### norge-22 · Hva gir studiespesialisering deg?
 
 - A) Rett til å søke på universitet og høgskole ✔
-- B) Rett til å få fagbrev som lærling
-- C) Rett til å starte i 1. klasse på SFO
+- B) Rett til å jobbe som lærer i skolen
+- C) Rett til å få lån uten å betale renter
 
 **Riktig:** Riktig. Studiespesialisering gir studiekompetanse. Da kan du søke på universitet og høgskole.
 
-**Feil:** Fagbrev får du på yrkesfag. Studiespesialisering gir rett til å søke studier.
+**Feil:** Studiespesialisering gir studiekompetanse. Tenk på hva du trenger for å begynne å studere.
 
 ### norge-23 · Hva kan du få etter yrkesfag og læretid?
 
 - A) Fagbrev ✔
 - B) Bachelorgrad
-- C) Studielån
+- C) Studiekompetanse
 
 **Riktig:** Riktig. Etter yrkesfag og læretid kan du ta fagprøve og få fagbrev.
 
-**Feil:** En bachelorgrad tar du på universitet. Etter læretid får du fagbrev.
+**Feil:** Du får ikke dette beviset på universitetet. Det gis etter læretid i en bedrift.
 
 ### norge-24 · Hva er en lærling?
 
@@ -281,15 +281,15 @@ Kilde: https://samfunnskunnskap.no/nb/ny-i-norge/et-liv-i-norge.html
 
 **Feil:** Nav og Skatteetaten har andre oppgaver. Lånekassen gir studielån.
 
-### norge-28 · Hvor mye studiegjeld har mange studenter etter studiene?
+### norge-28 · Hvor mye studiegjeld har en student i gjennomsnitt etter studiene (2026)?
 
-- A) Over 300 000 kroner ✔
-- B) Under 30 000 kroner
-- C) Omtrent 3 000 kroner
+- A) Omtrent 450 000 kroner ✔
+- B) Omtrent 150 000 kroner
+- C) Omtrent 900 000 kroner
 
-**Riktig:** Riktig. Mange studenter har over 300 000 kroner i studiegjeld.
+**Riktig:** Riktig. Når studentene er ferdige, har de i gjennomsnitt omtrent 450 000 kroner i gjeld.
 
-**Feil:** Studielån er mye penger. Mange har over 300 000 kroner i gjeld etter studiene.
+**Feil:** Studielån er mye penger. Tenk på flere år med lån.
 
 ### norge-29 · Hva betyr det å være myndig?
 
@@ -311,17 +311,17 @@ Kilde: https://samfunnskunnskap.no/nb/ny-i-norge/et-liv-i-norge.html
 
 **Feil:** Du er myndig når du fyller 18 år, ikke før og ikke senere.
 
-### norge-31 · Hvem har ansvar for barn under 18 år?
+### norge-31 · Hvem har ansvar for barna i en familie?
 
 - A) Foreldrene ✔
-- B) Barna selv
-- C) Skolen
+- B) Skolen
+- C) Kommunen
 
-**Riktig:** Riktig. Foreldrene har ansvar for barn under 18 år.
+**Riktig:** Riktig. Foreldrene har ansvar for barna sine.
 
-**Feil:** Barn under 18 år er ikke myndige. Foreldrene har ansvaret, ikke skolen.
+**Feil:** Skolen og kommunen hjelper barna, men de har ikke hovedansvaret. Det har de som oppdrar barna.
 
-### norge-32 · Hvor gamle er mange nordmenn når de gifter seg?
+### norge-32 · Hvor gamle er mange nordmenn når de gifter seg (2026)?
 
 - A) Mellom 30 og 40 år gamle ✔
 - B) Mellom 18 og 20 år gamle
@@ -355,7 +355,7 @@ Kilde: https://samfunnskunnskap.no/nb/ny-i-norge/et-liv-i-norge.html
 
 - A) Kvinner og menn har samme rettigheter og muligheter ✔
 - B) Kvinner og menn må gjøre det samme arbeidet
-- C) Kvinner og menn må være like gamle
+- C) Kvinner får mer hjelp fra staten enn menn
 
 **Riktig:** Riktig. Likestilling betyr at kvinner og menn har samme rettigheter og muligheter.
 
@@ -371,15 +371,15 @@ Kilde: https://samfunnskunnskap.no/nb/ny-i-norge/et-liv-i-norge.html
 
 **Feil:** Penger til utleier kalles husleie. Et boliglån får du fra en bank.
 
-### norge-37 · Hvor mye gjeld tar mange med seg når de kjøper bolig?
+### norge-37 · Hvor stort er boliglånet til mange som kjøper bolig i Norge (2026)?
 
-- A) Over to millioner kroner ✔
-- B) Omtrent 200 000 kroner til hver bolig
-- C) Omtrent 20 000 kroner til hver bolig
+- A) Flere millioner kroner ✔
+- B) Noen hundre tusen kroner
+- C) Noen titusen kroner
 
-**Riktig:** Riktig. Boliger er dyre. Mange har over to millioner kroner i boliglån.
+**Riktig:** Riktig. Boliger er dyre, og mange tar opp lån på flere millioner kroner.
 
-**Feil:** Boliger i Norge koster mye. Lånet er ofte over to millioner kroner.
+**Feil:** Tenk på hva en leilighet koster i Norge.
 
 ### norge-38 · Hvilken etat betaler ut pensjon fra folketrygden?
 
@@ -391,7 +391,7 @@ Kilde: https://samfunnskunnskap.no/nb/ny-i-norge/et-liv-i-norge.html
 
 **Feil:** Lånekassen gir studielån og Skatteetaten tar imot skatt. Nav betaler ut pensjon.
 
-### norge-39 · Hvor gamle er mange nordmenn når de slutter å jobbe?
+### norge-39 · Hvor gamle er mange nordmenn når de slutter å jobbe (2026)?
 
 - A) Omtrent 67 år gamle ✔
 - B) Omtrent 50 år gamle
@@ -468,15 +468,15 @@ Kilde: https://samfunnskunnskap.no/nb/ny-i-norge/regler-for-opphold.html
 
 **Feil:** Nav hjelper med trygd og arbeid. UDI behandler søknader om opphold.
 
-### norge-46 · Hva er nettsiden til UDI?
+### norge-46 · Hvem behandler klager hvis du får nei på søknad om opphold?
 
-- A) udi.no ✔
-- B) nav.no
-- C) skatteetaten.no
+- A) Utlendingsnemnda (UNE) ✔
+- B) Politidirektoratet (POD)
+- C) Politiets utlendingsenhet (PU)
 
-**Riktig:** Riktig. På udi.no finner du regler for opphold i Norge.
+**Riktig:** Riktig. UNE behandler klager når UDI har sagt nei.
 
-**Feil:** Nav og Skatteetaten har egne nettsider. Informasjon om opphold finner du på udi.no.
+**Feil:** Klager går til en egen instans som er uavhengig av UDI.
 
 ### norge-47 · Hvor registrerer borgere fra EU og EØS seg når de flytter til Norge?
 
@@ -490,13 +490,13 @@ Kilde: https://samfunnskunnskap.no/nb/ny-i-norge/regler-for-opphold.html
 
 ### norge-48 · Hva er en midlertidig oppholdstillatelse?
 
-- A) En tillatelse som varer en periode, og du må søke på nytt ✔
-- B) En tillatelse som du får for resten av livet
-- C) En tillatelse som du får som turist
+- A) En tillatelse for en bestemt tid ✔
+- B) En tillatelse for resten av livet
+- C) En tillatelse for korte ferieturer
 
-**Riktig:** Riktig. En midlertidig tillatelse varer en periode. Etterpå må du søke på nytt.
+**Riktig:** Riktig. En midlertidig tillatelse gjelder en bestemt tid. Etterpå må du søke på nytt hvis du vil bli.
 
-**Feil:** Midlertidig betyr at det varer en periode. Det er ikke en tillatelse for livet.
+**Feil:** Midlertidig betyr ikke for alltid. Tillatelsen har en sluttdato.
 
 ### norge-49 · Hva betyr permanent oppholdstillatelse?
 
@@ -540,13 +540,13 @@ Kilde: https://samfunnskunnskap.no/nb/ny-i-norge/regler-for-opphold.html
 
 ### norge-53 · Hva er en asylsøker?
 
-- A) En person som har søkt om beskyttelse og venter på svar ✔
-- B) En person som har fått norsk statsborgerskap for noen år siden
-- C) En person som jobber for UDI og behandler saker
+- A) En person som venter på svar på søknad om asyl ✔
+- B) En person som har fått asyl og kan bo i Norge
+- C) En person som har fått nei og må forlate Norge
 
 **Riktig:** Riktig. En asylsøker har søkt om beskyttelse og venter på svar.
 
-**Feil:** En asylsøker venter på svar. Hun eller han har ikke fått svar ennå.
+**Feil:** En asylsøker har ikke fått svar ennå. Personen er verken godkjent eller avvist.
 
 ### norge-54 · Hva er asyl?
 
@@ -578,25 +578,25 @@ Kilde: https://samfunnskunnskap.no/nb/ny-i-norge/regler-for-opphold.html
 
 **Feil:** Kvoteflyktninger kommer ikke på egen hånd. De er valgt ut på forhånd.
 
-### norge-57 · Hvilken organisasjon hjelper Norge med å velge kvoteflyktninger?
+### norge-57 · Hvilken FN-organisasjon hjelper Norge å velge kvoteflyktninger?
 
-- A) UNHCR, FNs flyktningorganisasjon ✔
-- B) NATO, en forsvarsorganisasjon
-- C) EU, et samarbeid mellom europeiske land
+- A) UNHCR ✔
+- B) UNICEF
+- C) WHO
 
-**Riktig:** Riktig. UNHCR er FNs flyktningorganisasjon. De hjelper Norge å velge flyktninger.
+**Riktig:** Riktig. UNHCR er FNs flyktningorganisasjon. De hjelper Norge å velge kvoteflyktninger.
 
-**Feil:** NATO og EU velger ikke kvoteflyktninger til Norge. Det gjør UNHCR i FN.
+**Feil:** UNICEF jobber for barn, og WHO jobber med helse. Tenk på hvem som jobber for flyktninger.
 
-### norge-58 · Hvilken tillatelse får kvoteflyktninger først?
+### norge-58 · Hva betyr «kvote» i ordet kvoteflyktning?
 
-- A) En midlertidig tillatelse ✔
-- B) En permanent tillatelse
-- C) Norsk statsborgerskap
+- A) Et bestemt antall som Norge tar imot hvert år ✔
+- B) En spesiell tillatelse som varer i tre år
+- C) Et krav om at personen kan norsk
 
-**Riktig:** Riktig. Kvoteflyktninger får først en midlertidig tillatelse.
+**Riktig:** Riktig. Norge bestemmer hvor mange kvoteflyktninger landet tar imot hvert år.
 
-**Feil:** Permanent tillatelse og statsborgerskap kommer senere. Først får de en midlertidig tillatelse.
+**Feil:** En kvote er et tall. Tenk på hvor mange personer som får komme.
 
 ### norge-59 · Hva er familiegjenforening?
 
@@ -617,13 +617,13 @@ Kilde: https://samfunnskunnskap.no/nb/ny-i-norge/introduksjonsprogrammet-og-inte
 
 ### norge-60 · Hva er introduksjonsprogrammet?
 
-- A) Et opplæringstilbud for nyankomne flyktninger ✔
-- B) Et program på TV for nye innbyggere
-- C) Et kurs for norske barn om andre land
+- A) Et opplæringsprogram for flyktninger som er nye i Norge ✔
+- B) Et opplæringsprogram for dem som vil bli norske statsborgere
+- C) Et opplæringsprogram for arbeidsinnvandrere som har fått jobb
 
-**Riktig:** Riktig. Introduksjonsprogrammet er et opplæringstilbud for nyankomne flyktninger.
+**Riktig:** Riktig. Introduksjonsprogrammet er et opplæringsprogram for flyktninger som er nye i Norge.
 
-**Feil:** Introduksjonsprogrammet er ikke TV eller et skolefag. Det er et tilbud til flyktninger.
+**Feil:** Programmet er ikke for turister eller norske barn. Tenk på hvem som har flyktet til Norge.
 
 ### norge-61 · Hva er målet med introduksjonsprogrammet?
 
@@ -645,55 +645,55 @@ Kilde: https://samfunnskunnskap.no/nb/ny-i-norge/introduksjonsprogrammet-og-inte
 
 **Feil:** Det er kommunen som tilbyr programmet, ikke arbeidsgiveren eller politiet.
 
-### norge-63 · Hvem får tilbud om introduksjonsprogram?
+### norge-63 · Hva lager kommunen sammen med deltakeren i introduksjonsprogrammet?
 
-- A) Flyktninger som har fått opphold ✔
-- B) Arbeidsinnvandrere fra EU
-- C) Studenter fra utlandet
+- A) En plan for norsk og arbeid ✔
+- B) En avtale om å kjøpe en bolig
+- C) En avtale om å bytte kommune
 
-**Riktig:** Riktig. Kommunen tilbyr programmet til flyktninger som har fått opphold.
+**Riktig:** Riktig. Kommunen og deltakeren lager en plan for opplæring og arbeid. Den heter integreringsplan.
 
-**Feil:** Arbeidsinnvandrere og studenter har andre ordninger. Programmet er for flyktninger.
+**Feil:** Programmet handler om opplæring, ikke om bolig eller flytting.
 
-### norge-64 · Hvor lenge kan et introduksjonsprogram vare?
+### norge-64 · Hvor lenge varer introduksjonsprogrammet for den som har videregående skole fra før?
 
-- A) Fra tre måneder til tre år ✔
-- B) Fra én uke til noen få måneder
-- C) Fra fem år til ti år, hvis man ønsker det
+- A) Opptil ett år ✔
+- B) Opptil tre år
+- C) Opptil fem år
 
-**Riktig:** Riktig. Programmet kan vare fra tre måneder til tre år.
+**Riktig:** Riktig. Med videregående skole fra før varer programmet opptil ett år.
 
-**Feil:** Programmet er lenger enn en måned, men kortere enn fem år. Det varer fra tre måneder til tre år.
+**Feil:** Lengre program er for dem som ikke har fullført videregående skole.
 
-### norge-65 · Hva får deltakere i introduksjonsprogrammet?
+### norge-65 · Hva får deltakerne i introduksjonsprogrammet fra kommunen?
 
-- A) Økonomisk støtte ✔
-- B) Gratis bil
-- C) Norsk pass
+- A) Penger til å leve av hver måned ✔
+- B) En bolig uten husleie i fem år
+- C) En jobb i kommunen etter programmet
 
-**Riktig:** Riktig. Deltakerne får økonomisk støtte mens de er med i programmet.
+**Riktig:** Riktig. Deltakerne får penger fra kommunen til å leve av. Det heter introduksjonsstønad.
 
-**Feil:** Deltakerne får penger som støtte. Bil og pass er ikke en del av programmet.
+**Feil:** Programmet gir penger til livsopphold. Bolig og jobb er ikke en del av det.
 
-### norge-66 · Hvorfor får deltakerne økonomisk støtte?
+### norge-66 · Hvor mye tid bruker deltakerne på introduksjonsprogrammet?
 
-- A) Slik at de kan leve mens de lærer norsk ✔
-- B) Fordi de har fått gode karakterer i norskprøven
-- C) Fordi de skal betale for kurset
+- A) Full tid, omtrent som en vanlig jobb ✔
+- B) Halv tid, omtrent to dager i uka
+- C) Noen få timer om kvelden hver uke
 
-**Riktig:** Riktig. Støtten hjelper deltakerne å leve mens de lærer norsk.
+**Riktig:** Riktig. Programmet er på full tid, hele året.
 
-**Feil:** Støtten er ikke en belønning og ikke betaling for kurset. Den hjelper deltakerne å leve.
+**Feil:** Programmet er ikke et kveldskurs. Tenk på hvor mye tid du bruker i en vanlig jobb.
 
-### norge-67 · Hva er en del av introduksjonsprogrammet?
+### norge-67 · Hva er arbeidspraksis i introduksjonsprogrammet?
 
-- A) Opplæring i norsk ✔
-- B) Betalt reise hjem
-- C) Studier i utlandet
+- A) Deltakeren prøver et arbeid på en arbeidsplass ✔
+- B) Deltakeren tar en prøve i norsk på skolen
+- C) Deltakeren er med i en kveldsklasse om samfunnet
 
-**Riktig:** Riktig. Opplæring i norsk er en viktig del av programmet.
+**Riktig:** Riktig. I arbeidspraksis får deltakeren prøve seg på en vanlig arbeidsplass.
 
-**Feil:** Programmet foregår i Norge. Deltakerne lærer norsk, men reiser ikke ut.
+**Feil:** Praksis betyr å prøve noe i virkeligheten. Det skjer ikke i klasserommet.
 
 ### norge-68 · Hva betyr ordet «integrering»?
 
@@ -713,7 +713,7 @@ Kilde: https://samfunnskunnskap.no/nb/ny-i-norge/introduksjonsprogrammet-og-inte
 
 **Riktig:** Riktig. Integreringsloven sier at kommunene skal tilby introduksjonsprogram.
 
-**Feil:** Skoleloven og straffeloven handler om andre ting. Loven heter integreringsloven.
+**Feil:** Folketrygdloven handler om Nav og penger. Utlendingsloven handler om opphold og grenser.
 
 ### norge-70 · Hvem har vedtatt integreringsloven?
 
@@ -725,15 +725,15 @@ Kilde: https://samfunnskunnskap.no/nb/ny-i-norge/introduksjonsprogrammet-og-inte
 
 **Feil:** Lover blir vedtatt av Stortinget. Kommunen og UDI følger lovene.
 
-### norge-71 · Hvor kan en flyktning spørre om introduksjonsprogrammet?
+### norge-71 · Hva gjelder for flyktninger som får tilbud om introduksjonsprogram?
 
-- A) I kommunen der personen bor ✔
-- B) Hos politiet i nærmeste by
-- C) Hos banken som personen bruker
+- A) De har både rett og plikt til å delta ✔
+- B) De kan selv velge om de vil delta
+- C) De må betale for å delta
 
-**Riktig:** Riktig. Kommunen gir informasjon om introduksjonsprogrammet.
+**Riktig:** Riktig. Deltakerne har både rett og plikt til å være med i programmet.
 
-**Feil:** Politiet og banken har ikke ansvar for programmet. Spør kommunen.
+**Feil:** Tenk på hva loven krever. Programmet koster ikke noe for deltakerne.
 
 
 ---
@@ -742,7 +742,7 @@ Kilde: https://samfunnskunnskap.no/nb/ny-i-norge/introduksjonsprogrammet-og-inte
 
 Kilde: https://samfunnskunnskap.no/nb/ny-i-norge.html
 
-### norge-72 · Omtrent hvor mange mennesker bor i Norge?
+### norge-72 · Omtrent hvor mange mennesker bor i Norge (2026)?
 
 - A) Over fem millioner ✔
 - B) Omtrent én million
@@ -752,15 +752,15 @@ Kilde: https://samfunnskunnskap.no/nb/ny-i-norge.html
 
 **Feil:** Norge er et lite land. Likevel bor det over fem millioner mennesker her.
 
-### norge-73 · Hva slags styre har Norge?
+### norge-73 · Hva er kongens rolle i Norge?
 
-- A) Et demokrati der kongen har en symbolsk rolle ✔
-- B) Et demokrati der kongen bestemmer over landets lover
-- C) Et land uten konge og uten valg
+- A) Han er et symbol, og politikerne bestemmer ✔
+- B) Han bestemmer hvilke lover som gjelder
+- C) Han bestemmer hvor mye skatt folk betaler
 
-**Riktig:** Riktig. Norge er et demokrati. Kongen har en symbolsk rolle.
+**Riktig:** Riktig. Norge er et demokrati. Kongen er et symbol for landet, og politikerne bestemmer.
 
-**Feil:** Folket velger politikerne. Kongen styrer ikke landet.
+**Feil:** Tenk på hvem folket velger i et valg.
 
 ### norge-74 · Hvor ofte er det stortingsvalg i Norge?
 
@@ -770,7 +770,7 @@ Kilde: https://samfunnskunnskap.no/nb/ny-i-norge.html
 
 **Riktig:** Riktig. Det er stortingsvalg hvert fjerde år.
 
-**Feil:** Valg hvert år eller hvert tiende år er ikke riktig. Det er hvert fjerde år.
+**Feil:** Det er verken to år eller ti år mellom stortingsvalgene.
 
 ### norge-75 · Hvem kan stemme ved stortingsvalg?
 
@@ -795,12 +795,12 @@ Kilde: https://samfunnskunnskap.no/nb/ny-i-norge.html
 ### norge-77 · Hva bruker staten til å betale for velferden?
 
 - A) Skatt som innbyggerne betaler ✔
-- B) Penger fra andre land i EU
-- C) Penger som kongen eier
+- B) Penger som EU betaler til Norge
+- C) Penger som private banker gir staten
 
 **Riktig:** Riktig. Innbyggerne betaler skatt, og staten bruker pengene på velferd.
 
-**Feil:** Velferden betales med skatt fra innbyggerne, ikke av kongen eller andre land.
+**Feil:** Velferden betales ikke av EU eller banker. Tenk på hva alle som jobber betaler.
 
 ### norge-78 · Når feirer Norge nasjonaldagen?
 
