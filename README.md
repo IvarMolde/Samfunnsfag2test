@@ -6,6 +6,8 @@ Dette er en øvingsprøve, ikke den offisielle prøven.
 
 Knappen «Les her» på startsiden åpner en kort forklaring. Den sier hvordan øving og prøve virker, og at resultatet bare gjelder denne prøven. Det er ikke et offisielt resultat.
 
+Resultatet av kvalitetsgjennomgangen står i `docs/KVALITETSGJENNOMGANG.md`.
+
 Skal du lage nye spørsmål, se `docs/NYE_SPORSMAL_I_CURSOR.md`.
 
 ## Denne filen

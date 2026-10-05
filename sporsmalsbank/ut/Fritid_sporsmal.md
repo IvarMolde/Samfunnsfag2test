@@ -33,15 +33,15 @@ Tilleggskilder: https://lovdata.no/lov/2023-06-16-62, https://lovdata.no/lov/201
 
 **Feil:** Et innbyggerforslag krever ikke stemmerett. Også unge og utenlandske statsborgere kan lage et forslag.
 
-### fritid-03 · Hva skjedde med valgdeltakelsen til de yngste velgerne fra 2007 til 2011?
+### fritid-03 · Hvor gammel må du være for å stemme ved stortingsvalg?
 
-- A) Den økte med mer enn ti prosent ✔
-- B) Den gikk ned med mer enn ti prosent
-- C) Den var nesten helt lik
+- A) Du må fylle 18 år i valgåret ✔
+- B) Du må fylle 21 år i valgåret
+- C) Du må fylle 16 år i valgåret
 
-**Riktig:** Riktig. Fra 2007 til 2011 økte valgdeltakelsen blant de yngste velgerne med mer enn ti prosent.
+**Riktig:** Riktig. Du kan stemme ved stortingsvalg hvis du fyller 18 år i valgåret og er norsk statsborger.
 
-**Feil:** Unge nordmenn er mer politisk aktive enn før. Flere unge stemmer ved valg nå.
+**Feil:** Tenk på når en person blir myndig i Norge.
 
 ### fritid-04 · Hva har skjedd med medlemstallene i politiske ungdomsorganisasjoner?
 
@@ -69,9 +69,9 @@ Tilleggskilder: https://lovdata.no/lov/2023-06-16-62, https://lovdata.no/lov/201
 - B) Å stille til valg for et politisk parti
 - C) Å jobbe i valgkampen for et parti
 
-**Riktig:** Riktig. Underskriftskampanjer, demonstrasjoner og diskusjoner på sosiale medier er uformell deltakelse.
+**Riktig:** Riktig. Å skrive under er uformell deltakelse. Den skjer utenfor partiene og valgene.
 
-**Feil:** Uformell deltakelse skjer utenfor partiene. Et eksempel er å skrive under for en sak.
+**Feil:** Uformell deltakelse skjer utenfor partiene. Tenk på hva vanlige folk kan gjøre uten å være medlem.
 
 ### fritid-07 · Hva er et eksempel på formell politisk deltakelse?
 
@@ -79,9 +79,9 @@ Tilleggskilder: https://lovdata.no/lov/2023-06-16-62, https://lovdata.no/lov/201
 - B) Å diskutere politikk på sosiale medier
 - C) Å gå i et demonstrasjonstog i byen
 
-**Riktig:** Riktig. Å fremme saker i et parti eller delta i valgkamp er formell politisk deltakelse.
+**Riktig:** Riktig. Formell deltakelse skjer gjennom partiene og valgene, for eksempel når du arbeider i et parti.
 
-**Feil:** Formell deltakelse skjer gjennom partiene og valgene, for eksempel i et politisk parti.
+**Feil:** Formell deltakelse er knyttet til partiene og valgene. Tenk på hva du kan gjøre inne i et parti.
 
 ### fritid-08 · Hva betyr det å være politisk engasjert?
 
@@ -123,15 +123,15 @@ Tilleggskilder: https://lovdata.no/lov/2023-06-16-62, https://lovdata.no/lov/201
 
 **Feil:** En underskriftskampanje samler navn fra folk som er enige i en sak.
 
-### fritid-12 · Kari er imot en ny bomring. Hva kan hun gjøre for å bli hørt?
+### fritid-12 · Kari er imot en ny bomring i byen. Hva kan hun gjøre?
 
 - A) Skrive et innlegg i avisen ✔
-- B) Slutte å betale skatt til kommunen
-- C) Kjøre gjennom bommen uten å betale
+- B) Be politiet om å stoppe bomringen
+- C) Be Kongen om å stoppe bomringen
 
 **Riktig:** Riktig. Kari kan skrive et innlegg i avisen. Hun kan også kontakte politikere eller samle underskrifter.
 
-**Feil:** Kari må følge loven. Hun kan bli hørt på lovlige måter, for eksempel i avisen.
+**Feil:** Politiet og Kongen bestemmer ikke over bomringen. Kari kan bli hørt på andre, lovlige måter.
 
 ### fritid-13 · Hva er et leserinnlegg i en avis?
 
@@ -177,11 +177,11 @@ Tilleggskilder: https://lovdata.no/lov/2023-06-16-62, https://lovdata.no/lov/201
 
 - A) Kommunestyrevalget og fylkestingsvalget ✔
 - B) Stortingsvalget og kommunestyrevalget
-- C) Ingen valg før han er statsborger
+- C) Stortingsvalget og fylkestingsvalget
 
-**Riktig:** Riktig. Etter tre år i Norge kan utenlandske statsborgere stemme ved kommunestyrevalg og fylkestingsvalg.
+**Riktig:** Riktig. Utenlandske statsborgere kan stemme ved lokalvalg, men ikke ved stortingsvalg.
 
-**Feil:** Ved stortingsvalg må du være norsk statsborger. Ved lokalvalg kan du stemme etter tre år i Norge.
+**Feil:** Stortingsvalget er for norske statsborgere. Tenk på valgene i kommunen og fylket.
 
 ### fritid-18 · Hvor lenge må utenlandske statsborgere ha bodd i Norge for å stemme ved kommunestyrevalg?
 
@@ -213,15 +213,15 @@ Tilleggskilder: https://lovdata.no/lov/2023-06-16-62, https://lovdata.no/lov/201
 
 **Feil:** Kommunestyret er politikerne som styrer kommunen. De blir valgt av innbyggerne.
 
-### fritid-21 · Hvem bestemmer til slutt hvor ofte bussene går?
+### fritid-21 · Hvem bestemmer hvor mye penger bussene får?
 
 - A) Politikere som innbyggerne har valgt ✔
-- B) Sjåførene som kjører bussene hver dag
-- C) Passasjerene som tar bussen til jobb
+- B) Direktøren i busselskapet
+- C) Lederen i Statens vegvesen
 
-**Riktig:** Riktig. Politikere som innbyggerne har valgt, bestemmer for eksempel hvor mye penger bussene får.
+**Riktig:** Riktig. Folkevalgte politikere bestemmer for eksempel hvor mye penger bussene får.
 
-**Feil:** Mye i hverdagen er politikk. Det er de folkevalgte politikerne som bestemmer til slutt.
+**Feil:** Tenk på hvem som bestemmer over penger i kommunen og fylket.
 
 ### fritid-22 · Hva betyr det at valget er hemmelig?
 
@@ -313,25 +313,25 @@ Tilleggskilder: https://lovdata.no/lov/2023-06-16-62, https://lovdata.no/lov/201
 
 **Feil:** Politikere bestemmer ikke hva du skal mene. Men politikk påvirker mye i livet ditt.
 
-### fritid-31 · Hvordan ser det norske samfunnet på at folk engasjerer seg politisk?
+### fritid-31 · Hva mener de fleste i Norge om politisk engasjement?
 
-- A) Det blir sett på som positivt og viktig ✔
-- B) Det blir sett på som farlig og dumt
-- C) Det blir sett på som en jobb for eliten
+- A) Det er bra og viktig at folk deltar ✔
+- B) Det passer best for eldre mennesker
+- C) Det passer best for rike mennesker
 
-**Riktig:** Riktig. I Norge blir folk oppmuntret til å engasjere seg politisk.
+**Riktig:** Riktig. I Norge blir det sett på som positivt at folk engasjerer seg.
 
-**Feil:** I Norge er det positivt å engasjere seg. Alle får ha og si sine meninger.
+**Feil:** I Norge får alle ha egne meninger og si dem. Tenk på hva som er bra for demokratiet.
 
-### fritid-32 · Må du være med i et parti for å engasjere deg politisk?
+### fritid-32 · Hva betyr det at du har stemmerett?
 
-- A) Nei, du kan engasjere deg på mange måter ✔
-- B) Ja, det krever medlemskap i et parti
-- C) Ja, og du må ha bodd i Norge i ti år
+- A) Du har rett til å stemme ved et valg ✔
+- B) Du har plikt til å stemme ved et valg
+- C) Du har rett til å få norsk pass
 
-**Riktig:** Riktig. Du kan engasjere deg på mange måter, også uten å være med i et parti.
+**Riktig:** Riktig. Stemmerett betyr at du har rett til å stemme. Du må ikke stemme.
 
-**Feil:** Du trenger ikke være med i et parti. Du kan for eksempel skrive i avisen eller skrive under for en sak.
+**Feil:** Tenk på forskjellen mellom en rett og en plikt.
 
 
 ---
@@ -352,15 +352,15 @@ Tilleggskilder: https://snl.no/dugnad
 
 **Feil:** På dugnad får du ikke lønn. Folk jobber sammen frivillig.
 
-### fritid-34 · Er dugnad en ny eller gammel tradisjon i Norge?
+### fritid-34 · Hva er et idrettslag?
 
-- A) Den er en gammel skikk ✔
-- B) Den startet rundt år 2000
-- C) Den kom fra USA nylig
+- A) En forening der folk trener og spiller sammen ✔
+- B) Et firma som selger treningsutstyr
+- C) En skole der du kan utdanne deg til trener
 
-**Riktig:** Riktig. Dugnad er en gammel skikk i Norge.
+**Riktig:** Riktig. Et idrettslag er en forening. Medlemmene trener og spiller sammen, og mange jobber frivillig.
 
-**Feil:** Dugnad er ikke nytt. Folk i Norge har hatt dugnad i flere hundre år.
+**Feil:** Tenk på hvem som driver idrett i nærmiljøet.
 
 ### fritid-35 · Har bare Norge tradisjonen med dugnad?
 
@@ -444,23 +444,23 @@ Tilleggskilder: https://snl.no/dugnad
 
 ### fritid-43 · Må du delta når det er dugnad?
 
-- A) Nei, men det er forventet at du deltar ✔
-- B) Ja, det står i loven at du må delta
-- C) Nei, og ingen bryr seg om du kommer
+- A) Nei, men mange forventer at du hjelper til ✔
+- B) Ja, loven sier at du må delta
+- C) Nei, og andre bryr seg ikke om du kommer
 
-**Riktig:** Riktig. Dugnad er frivillig, men de fleste føler at de bør delta. Det blir forventet.
+**Riktig:** Riktig. Dugnad er frivillig, men mange forventer at du hjelper til.
 
-**Feil:** Ingen lov sier at du må delta. Men folk forventer at du er med.
+**Feil:** Tenk på forskjellen mellom en lov og en forventning.
 
-### fritid-44 · Noen familier kommer aldri på dugnad. Hvorfor kan andre reagere på det?
+### fritid-44 · Hva betaler medlemmer ofte for å være med i et lag?
 
-- A) Alle får nytte av det andre gjør ✔
-- B) Det er ulovlig å ikke komme
-- C) Familiene må da betale en bot
+- A) En medlemsavgift hvert år ✔
+- B) En skatt til kommunen hvert år
+- C) Penger til staten hver måned
 
-**Riktig:** Riktig. Alle får nytte av det dugnaden lager. Derfor synes mange at alle bør hjelpe til.
+**Riktig:** Riktig. Medlemmene betaler ofte en medlemsavgift. Pengene brukes for eksempel på utstyr og treninger.
 
-**Feil:** Det er ikke ulovlig å la være. Men mange synes det tar seg dårlig ut.
+**Feil:** Pengene går til laget. Tenk på hvem som driver laget.
 
 ### fritid-45 · Leo kan ikke komme på dugnaden. Hva bør han gjøre?
 
@@ -516,21 +516,21 @@ Tilleggskilder: https://snl.no/dugnad
 
 - A) Idrettslag og borettslag ✔
 - B) Banker og butikker
-- C) Bedrifter og fabrikker
+- C) Politiet og Skatteetaten
 
-**Riktig:** Riktig. Idrettslag, borettslag og fritidsaktiviteter for barn har ofte dugnad.
+**Riktig:** Riktig. Idrettslag, borettslag og barnas fritidsaktiviteter har ofte dugnad.
 
-**Feil:** Dugnad er vanlig i lag og foreninger, ikke i bedrifter.
+**Feil:** Dugnad er frivillig og ubetalt. Tenk på steder der folk jobber uten lønn.
 
-### fritid-51 · Er dugnad vanlig på arbeidsplasser der folk får lønn?
+### fritid-51 · Hva er et årsmøte i en forening?
 
-- A) Nei, det er vanlig i lag og foreninger ✔
-- B) Ja, det er en del av arbeidstiden
-- C) Ja, det står i arbeidsavtalen
+- A) Et møte der medlemmene velger styre og bestemmer ✔
+- B) En fest der medlemmene spiser sammen hver sommer
+- C) Et kurs der nye medlemmer lærer reglene i laget
 
-**Riktig:** Riktig. Dugnad er vanlig i lag og foreninger, ikke på arbeidsplasser der folk får lønn.
+**Riktig:** Riktig. På årsmøtet velger medlemmene styret og bestemmer viktige saker.
 
-**Feil:** På jobben får du lønn for arbeidet. Dugnad er frivillig arbeid i lag og foreninger.
+**Feil:** Tenk på hvordan medlemmer er med og bestemmer i en forening.
 
 ### fritid-52 · Hvem kaller vanligvis inn til dugnad i et borettslag?
 
@@ -552,15 +552,15 @@ Tilleggskilder: https://snl.no/dugnad
 
 **Feil:** Dugnad er ubetalt. Laget sparer penger fordi folk jobber frivillig.
 
-### fritid-54 · Hva gjør beboere ofte på en vårdugnad?
+### fritid-54 · Hva er et borettslag?
 
-- A) Raker løv og planter blomster ✔
-- B) Maler leilighetene til hverandre
-- C) Bytter vinduer i husene
+- A) En forening der beboerne eier boligene sammen ✔
+- B) Et kontor i kommunen som leier ut boliger
+- C) En bank som gir lån til å kjøpe bolig
 
-**Riktig:** Riktig. På vårdugnaden raker folk ofte løv, plukker søppel og planter blomster.
+**Riktig:** Riktig. I et borettslag eier beboerne boligene sammen. Styret passer på at alt fungerer.
 
-**Feil:** Vårdugnaden handler om å rydde og gjøre det pent ute, i fellesområdene.
+**Feil:** Tenk på hvem som eier og driver borettslaget.
 
 ### fritid-55 · Kan barn være med på dugnad?
 
@@ -594,32 +594,32 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/1985-12-20-108, https://www.b
 ### fritid-57 · Hva er en sosial arena?
 
 - A) Et sted der folk møtes og er sammen ✔
-- B) En app der du kan dele bilder
-- C) Et sted der folk kan være alene
+- B) Et sted der folk kjøper og selger varer
+- C) Et sted der folk betaler regninger
 
 **Riktig:** Riktig. En sosial arena er et sted der mennesker møtes for å være sammen.
 
-**Feil:** Sosiale arenaer er steder der folk møtes, for eksempel skolen, jobben eller et kor.
+**Feil:** Sosiale arenaer er steder der folk møtes, for eksempel et kor eller en klubb.
 
-### fritid-58 · Hvilket sted er en viktig sosial arena for mange voksne?
+### fritid-58 · Hva er en viktig sosial arena for mange voksne?
 
 - A) Arbeidsplassen ✔
-- B) Bankkontoen
-- C) Postkassen
+- B) Banken
+- C) Postkontoret
 
 **Riktig:** Riktig. Arbeidsplassen er en viktig sosial arena for mange voksne.
 
-**Feil:** En sosial arena er et sted der du møter andre mennesker, for eksempel på jobben.
+**Feil:** En sosial arena er et sted der du møter mange mennesker over tid.
 
 ### fritid-59 · Hva er et eksempel på en organisert fritidsaktivitet for barn?
 
-- A) Å spille i korps ✔
-- B) Å se på TV hjemme
-- C) Å leke alene i hagen
+- A) Å trene fotball i et idrettslag ✔
+- B) Å spille fotball med venner i parken
+- C) Å løpe en tur alene i skogen
 
-**Riktig:** Riktig. Korps er en organisert fritidsaktivitet. Idrettslag og speideren er andre eksempler.
+**Riktig:** Riktig. I et idrettslag er det trener og faste tider. Det er organisert.
 
-**Feil:** En organisert aktivitet har en leder og faste tider, for eksempel korps eller fotball.
+**Feil:** Organisert betyr at det finnes en leder og faste tider.
 
 ### fritid-60 · Hvordan kan barnas fritidsaktiviteter hjelpe foreldre som er nye på et sted?
 
@@ -644,22 +644,22 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/1985-12-20-108, https://www.b
 ### fritid-62 · Hva er forskjellen på frivillig arbeid og en vanlig jobb?
 
 - A) Frivillige får ikke lønn ✔
-- B) Frivillige jobber full tid
-- C) Frivillige betaler ikke skatt
+- B) Frivillige må ha lang utdanning
+- C) Frivillige jobber for kommunen
 
 **Riktig:** Riktig. Frivillige får ikke lønn for arbeidet.
 
-**Feil:** Det viktigste med frivillig arbeid er at du ikke får lønn.
+**Feil:** Tenk på hva du får ut av en vanlig jobb, men ikke som frivillig.
 
-### fritid-63 · Hvor mye jobber en frivillig vanligvis?
+### fritid-63 · Hvem kan være frivillig i en forening?
 
-- A) Noen timer i blant ✔
-- B) Full tid hver uke
-- C) Hver natt hele året
+- A) Alle som vil hjelpe til ✔
+- B) Folk som har norsk statsborgerskap
+- C) Folk som har bodd i Norge i fem år
 
-**Riktig:** Riktig. Frivillig arbeid går over kortere perioder. Ingen jobber full tid som frivillig.
+**Riktig:** Riktig. Alle kan være frivillige, også utenlandske statsborgere og de som er nye i Norge.
 
-**Feil:** Frivillig arbeid er ikke en fulltidsjobb. De fleste gjør det noen timer i blant.
+**Feil:** Tenk på hvem som er velkommen i en forening.
 
 ### fritid-64 · Hvilken organisasjon er et eksempel på frivillig arbeid?
 
@@ -691,25 +691,25 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/1985-12-20-108, https://www.b
 
 **Feil:** Frivillige får ikke lønn. Men de får nye venner og blir kjent med folk.
 
-### fritid-67 · Hva er en uskreven regel?
+### fritid-67 · Hva er et eksempel på en uskreven regel i Norge?
 
-- A) En regel som ikke er skrevet ned ✔
-- B) En regel som politiet gir bøter for
-- C) En regel som står i en norsk lov
+- A) Du venter på tur når du står i kø ✔
+- B) Du betaler skatt av lønnen din
+- C) Du har førerkort når du kjører bil
 
-**Riktig:** Riktig. En uskreven regel er en regel som alle kjenner, men som ikke er skrevet ned.
+**Riktig:** Riktig. Å vente på tur i kø er en uskreven regel. Den står ikke i noen lov.
 
-**Feil:** Uskrevne regler står ikke i loven. Folk lærer dem ved å se hva andre gjør.
+**Feil:** Tenk på noe som er vanlig å gjøre, men som ikke står i loven.
 
-### fritid-68 · Hvordan er uskrevne regler i ulike kulturer?
+### fritid-68 · Hva kan du gjøre hvis du ikke kjenner en uskreven regel?
 
-- A) De er forskjellige ✔
-- B) De er helt like
-- C) De finnes ikke i Norge
+- A) Spørre noen eller se hva andre gjør ✔
+- B) Lese regelen i en norsk lov
+- C) Ringe politiet og be om hjelp
 
-**Riktig:** Riktig. Uskrevne regler er forskjellige fra kultur til kultur.
+**Riktig:** Riktig. Du lærer uskrevne regler ved å spørre og se hva andre gjør.
 
-**Feil:** Hver kultur har sine egne uskrevne regler, også Norge.
+**Feil:** Uskrevne regler står ikke i lovene. Tenk på hvem du kan spørre.
 
 ### fritid-69 · Hvordan hilser kvinner og menn ofte når de møtes første gang?
 
@@ -784,32 +784,32 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/1985-12-20-108, https://www.b
 ### fritid-76 · Hvor skal det finnes et folkebibliotek ifølge loven?
 
 - A) I alle kommuner i Norge ✔
-- B) Bare i de største byene
-- C) Bare på skoler og universiteter
+- B) I byene med flest innbyggere
+- C) På skoler og universiteter
 
 **Riktig:** Riktig. Ifølge loven skal alle kommuner i Norge ha et folkebibliotek.
 
-**Feil:** Folkebibliotek finnes ikke bare i byene. Alle kommuner skal ha et.
+**Feil:** Loven gjelder hele landet. Tenk på små kommuner like mye som store byer.
 
 ### fritid-77 · Hva er målet med fritidserklæringen?
 
 - A) At alle barn kan være med på en fritidsaktivitet ✔
-- B) At barn skal trene minst fem dager i uken
-- C) At barn skal slutte med aktiviteter i ferien
+- B) At barn skal velge en idrett før de er ti år
+- C) At foreldre skal lede alle fritidsaktiviteter
 
 **Riktig:** Riktig. Målet er at alle barn kan være med på minst én organisert fritidsaktivitet.
 
-**Feil:** Fritidserklæringen handler om at alle barn skal få være med, uansett hvor mye penger familien har.
+**Feil:** Tenk på barn som ikke har råd til å være med på fritidsaktiviteter.
 
 ### fritid-78 · Hva er en frivilligsentral?
 
-- A) Et sted som skaffer frivillige oppgaver ✔
-- B) Et kontor som skaffer folk fast jobb
-- C) En butikk som selger utstyr til lag
+- A) Et lokalt sted der folk møtes og hjelper andre ✔
+- B) Et kontor der folk kan søke fast jobb
+- C) En butikk der lag kan kjøpe utstyr
 
-**Riktig:** Riktig. En frivilligsentral er en lokal møteplass som skaffer frivillige oppgaver.
+**Riktig:** Riktig. En frivilligsentral er en lokal møteplass der folk kan gjøre frivillig arbeid.
 
-**Feil:** På frivilligsentralen kan du bli frivillig. Du får ikke lønn eller fast jobb der.
+**Feil:** Der får du ikke lønn eller fast jobb. Tenk på et sted der mange hjelper hverandre.
 
 ### fritid-79 · Nadia vil bli kjent med folk der hun bor. Hva kan hun gjøre?
 
@@ -821,13 +821,13 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/1985-12-20-108, https://www.b
 
 **Feil:** Det er lettere å bli kjent med folk hvis du er med i en aktivitet sammen med dem.
 
-### fritid-80 · Alle vennene til Omar spiller fotball, men Omar får ikke være med. Hva kan skje?
+### fritid-80 · Hva kan skje hvis et barn ikke får være med på fritidsaktiviteter?
 
-- A) Omar kan føle seg utenfor ✔
-- B) Omar får bedre karakterer på skolen
-- C) Omar får flere venner på skolen
+- A) Barnet kan føle seg utenfor ✔
+- B) Barnet må bytte skole
+- C) Barnet får mindre lekser
 
-**Riktig:** Riktig. Et barn som ikke får være med der vennene er, kan føle seg utenfor.
+**Riktig:** Riktig. Fritidsaktiviteter er viktige for vennskap. Barn som ikke er med, kan føle seg utenfor.
 
-**Feil:** Fritidsaktiviteter er viktige for vennskap. Barn som ikke er med, kan føle seg alene.
+**Feil:** Tenk på hva som skjer når vennene gjør noe sammen uten deg.
 

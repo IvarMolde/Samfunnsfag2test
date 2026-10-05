@@ -63,55 +63,55 @@ Tilleggskilder: https://lovdata.no/lov/2005-05-20-28/§282, https://lovdata.no/l
 
 **Feil:** Norske lover sier at vold er forbudt overalt, også hjemme og i familien.
 
-### frihet-06 · Hvorfor er vold i nære relasjoner ikke en privatsak?
+### frihet-06 · Hvem har ansvar for å hjelpe når det er vold i en familie?
 
-- A) Samfunnet har ansvar for å beskytte alle ✔
-- B) Familien må betale en bot til staten
-- C) Naboene bestemmer hva som skjer hjemme
+- A) Samfunnet, for eksempel politiet og barnevernet ✔
+- B) Familien selv, fordi det er en privatsak
+- C) Naboene som bor nær familien
 
 **Riktig:** Riktig. Vold i nære relasjoner er ikke en privatsak. Samfunnet har ansvar for å beskytte og ta vare på alle som blir utsatt for vold.
 
 **Feil:** Vold hjemme er alvorlig kriminalitet. Derfor skal samfunnet, for eksempel politiet og barnevernet, hjelpe.
 
-### frihet-07 · En mann sier at volden skyldes kulturen hans. Hva gjelder i Norge?
+### frihet-07 · En person slår partneren og sier: «Det er tradisjon hos oss.» Hva gjelder i Norge?
 
-- A) Vold er straffbart uansett årsak ✔
-- B) Vold er lov hvis det er vanlig i kulturen
-- C) Vold er lov hvis kona har gjort noe galt
+- A) Vold er forbudt og straffbart, uansett grunn ✔
+- B) Vold er lov hvis det er en tradisjon
+- C) Vold er lov hvis noen har gjort noe galt
 
-**Riktig:** Riktig. Vold er forbudt i Norge, uansett hva årsaken er. Kultur, religion eller tradisjon gjør ikke vold lovlig.
+**Riktig:** Riktig. Vold er forbudt i Norge, uansett grunn. Tradisjon, kultur eller religion gjør ikke vold lovlig.
 
-**Feil:** Norske lover gjelder for alle. Ingen årsak gjør det lov å bruke vold mot andre.
+**Feil:** Norske lover gjelder for alle. Ingen grunn gjør det lov å bruke vold mot andre.
 
-### frihet-08 · Hvem gjelder forbudet mot vold i familien for?
+### frihet-08 · Hvor kan du få gratis legehjelp etter en voldtekt?
 
-- A) Alle som bor eller oppholder seg i Norge ✔
-- B) Personer som er norske statsborgere
-- C) Familier som har barn under 18 år
+- A) På legevakten eller et overgrepsmottak ✔
+- B) Hos en advokat eller i en domstol
+- C) Hos politiet, men først etter en anmeldelse
 
-**Riktig:** Riktig. Norske lover gjelder for alle som bor eller oppholder seg i Norge. Alle har rett til et liv uten vold.
+**Riktig:** Riktig. Overgrepsmottaket og legevakten gir gratis hjelp etter voldtekt og seksuelle overgrep. Du trenger ikke å anmelde saken for å få hjelp.
 
-**Feil:** Forbudet mot vold gjelder for alle i Norge, uansett statsborgerskap, alder eller familie.
+**Feil:** Tenk på hjelp fra helsetjenesten. Du trenger ikke å anmelde saken først.
 
-### frihet-09 · Et barn ser at moren blir slått hjemme. Kan dette skade barnet?
+### frihet-09 · Hva kan skje med et barn som ser vold mot en av foreldrene?
 
-- A) Ja, det kan skade barnet å se vold ✔
-- B) Nei, barnet blir ikke slått selv
-- C) Nei, små barn forstår ikke det de ser
+- A) Barnet kan bli redd og få vonde minner ✔
+- B) Barnet blir tryggere og lærer å løse konflikter
+- C) Barnet blir ikke påvirket fordi det ikke blir slått
 
-**Riktig:** Riktig. Det kan skade et barn å se eller høre vold hjemme, selv om barnet ikke blir slått selv.
+**Riktig:** Riktig. Barn som ser eller hører vold hjemme, kan bli redde og få vonde minner, selv om de ikke blir slått selv.
 
-**Feil:** Barn merker vold hjemme, også når de ikke blir slått selv. Det kan gi barnet frykt og vonde minner.
+**Feil:** Barn merker vold hjemme, også når de ikke blir slått selv. Tenk på hvordan et barn har det når det er redd.
 
-### frihet-10 · Hvilken gruppe kan være ekstra utsatt for vold i nære relasjoner?
+### frihet-10 · Hvem kan ha ekstra stor risiko for vold fra familien sin?
 
-- A) LHBTIQ+-personer, som lesbiske og homofile ✔
-- B) Personer som har høy utdanning og god lønn
-- C) Personer som bor alene i en stor by i Norge
+- A) Personer som er lesbiske, homofile eller trans ✔
+- B) Personer som har egen bolig og jobb
+- C) Personer som har mange venner i Norge
 
-**Riktig:** Riktig. Samfunnskunnskap.no skriver at LHBTIQ+-personer, for eksempel lesbiske, homofile, bifile og transpersoner, kan være ekstra utsatt for vold i nære relasjoner.
+**Riktig:** Riktig. Lesbiske, homofile, bifile og transpersoner (LHBTIQ+) kan være ekstra utsatt for vold i nære relasjoner. Noen opplever vold fra familien på grunn av hvem de er eller elsker.
 
-**Feil:** Kilden nevner en gruppe som kan møte vold fra familien på grunn av hvem de er eller hvem de elsker.
+**Feil:** Tenk på personer som kan møte vold fra familien på grunn av hvem de er eller hvem de elsker.
 
 ### frihet-11 · Hvordan ser det norske samfunnet på tvangsekteskap og kjønnslemlestelse?
 
@@ -126,12 +126,12 @@ Tilleggskilder: https://lovdata.no/lov/2005-05-20-28/§282, https://lovdata.no/l
 ### frihet-12 · Hva kan straffen være for mishandling i nære relasjoner?
 
 - A) Fengsel i inntil 6 år ✔
-- B) Bot på inntil 5 000 kroner
-- C) Fengsel i inntil 3 måneder
+- B) Fengsel i inntil 3 år
+- C) Fengsel i inntil 10 år
 
 **Riktig:** Riktig. Etter straffeloven § 282 kan mishandling i nære relasjoner gi fengsel i inntil 6 år.
 
-**Feil:** Mishandling i nære relasjoner er en alvorlig forbrytelse. Straffen kan være flere år i fengsel.
+**Feil:** Mishandling i nære relasjoner er en alvorlig forbrytelse. Straffen er flere år i fengsel, men ikke like høy som for grov mishandling.
 
 ### frihet-13 · Hva kan straffen være for grov mishandling i nære relasjoner?
 
@@ -163,21 +163,21 @@ Tilleggskilder: https://lovdata.no/lov/2005-05-20-28/§282, https://lovdata.no/l
 
 **Feil:** Å «avverge» betyr å hindre eller stoppe. Avvergeplikten handler om å hindre alvorlige lovbrudd.
 
-### frihet-16 · Hvem har plikt til å prøve å avverge mishandling i nære relasjoner?
+### frihet-16 · Hvem har plikt til å prøve å stoppe alvorlig vold?
 
 - A) Alle, også de som har taushetsplikt ✔
-- B) Politiet og ansatte i barnevernet
-- C) Familiemedlemmer som bor sammen
+- B) Politiet og barnevernet, men ikke andre
+- C) Norske statsborgere, men ikke utlendinger
 
 **Riktig:** Riktig. Avvergeplikten gjelder alle, også de som har taushetsplikt. Brudd på plikten kan gi bot eller fengsel i inntil 1 år.
 
-**Feil:** Avvergeplikten gjelder ikke bare noen yrker. Den gjelder for alle personer i Norge.
+**Feil:** Avvergeplikten gjelder ikke bare noen yrker eller noen grupper. Den gjelder for alle personer i Norge.
 
 ### frihet-17 · Du hører at naboen blir slått og skriker om hjelp. Hva bør du gjøre?
 
-- A) Ringe politiet på 112 ✔
-- B) Vente og spørre naboen neste dag
-- C) Skru opp musikken og gå til sengs
+- A) Ringe 112 og si fra til politiet ✔
+- B) Sende naboen en melding dagen etter
+- C) Vente og se om det skjer igjen
 
 **Riktig:** Riktig. Når noen er i fare akkurat nå, skal du ringe politiet på 112.
 
@@ -193,11 +193,11 @@ Tilleggskilder: https://lovdata.no/lov/2005-05-20-28/§282, https://lovdata.no/l
 
 **Feil:** En anmeldelse går til politiet. Da kan politiet undersøke saken.
 
-### frihet-19 · En lærer tror at en elev blir slått hjemme. Hva må læreren gjøre?
+### frihet-19 · En lærer tror at et barn i klassen blir slått hjemme. Hva må læreren gjøre?
 
-- A) Melde fra til barnevernet ✔
+- A) Melde fra til barnevernet så fort som mulig ✔
 - B) Snakke med foreldrene og la det være
-- C) Vente til eleven blir 18 år
+- C) Vente til barnet selv forteller om det
 
 **Riktig:** Riktig. Ansatte i skolen har plikt til å melde fra til barnevernet når de tror at et barn blir mishandlet.
 
@@ -246,18 +246,18 @@ Tilleggskilder: https://lovdata.no/lov/2005-05-20-28/§282, https://lovdata.no/l
 ### frihet-24 · Hvem har ansvar for at det finnes et krisesentertilbud?
 
 - A) Kommunen ✔
-- B) Arbeidsgiveren
-- C) Kirken
+- B) Politiet
+- C) Fylkeskommunen
 
 **Riktig:** Riktig. Etter krisesenterloven har kommunen ansvar for å ha et krisesentertilbud.
 
-**Feil:** Krisesentertilbudet er en offentlig tjeneste. Det er kommunen som har ansvaret.
+**Feil:** Krisesentertilbudet er en offentlig tjeneste. Det er kommunen der du bor som har ansvaret.
 
-### frihet-25 · Hva gjør krisesenteret med opplysninger om hvem som bor der?
+### frihet-25 · Hvem får vite hvem som bor på et krisesenter?
 
-- A) De ansatte har taushetsplikt ✔
-- B) De sender navnene til familien
-- C) De legger ut navnene på nettet
+- A) Ingen, for de ansatte har taushetsplikt ✔
+- B) Familien til den som bor der, hvis de spør
+- C) Naboene rundt krisesenteret, hvis de spør
 
 **Riktig:** Riktig. De som jobber på krisesenteret, har taushetsplikt. De skal ikke fortelle andre hvem som bor der.
 
@@ -342,11 +342,11 @@ Kilde: https://samfunnskunnskap.no/nb/retten-til-et-fritt-og-selvstendig-liv/tva
 
 Tilleggskilder: https://lovdata.no/dokument/NL/lov/1991-07-04-47, https://lovdata.no/lov/2005-05-20-28/§253, https://lovdata.no/lov/2005-05-20-28/§5, https://rodekorstelefonen.no/, https://www.bufdir.no/vold/aresrelatert/kompetanseteamet/
 
-### frihet-33 · Kan en person under 18 år få særskilt lov til å gifte seg i Norge?
+### frihet-33 · Hvor gammel må man minst være for å gifte seg i Norge?
 
-- A) Nei, det finnes ingen unntak ✔
-- B) Ja, hvis foreldrene sier ja
-- C) Ja, hvis statsforvalteren sier ja
+- A) 18 år ✔
+- B) 16 år
+- C) 20 år
 
 **Riktig:** Riktig. Ifølge ekteskapsloven kan man ikke gifte seg før man er 18 år. Det finnes ingen unntak.
 
@@ -354,13 +354,13 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/1991-07-04-47, https://lovdat
 
 ### frihet-34 · Hva betyr «tvangsekteskap»?
 
-- A) At noen blir tvunget til å gifte seg ✔
-- B) At to personer gifter seg uten en stor fest
-- C) At to personer gifter seg uten å ha bodd sammen
+- A) Et ekteskap som en av dem ikke har valgt selv ✔
+- B) Et ekteskap uten stor bryllupsfest og uten gjester
+- C) Et ekteskap der paret ikke har bodd sammen før
 
 **Riktig:** Riktig. Et tvangsekteskap er et ekteskap der minst én av dem blir presset eller tvunget til å gifte seg. Det er forbudt i Norge.
 
-**Feil:** Ordet «tvang» betyr at noen ikke får velge fritt. Alle ekteskap skal inngås frivillig.
+**Feil:** Tenk på hvem som har valgt ekteskapet. Alle ekteskap skal inngås frivillig.
 
 ### frihet-35 · Hva er et arrangert ekteskap?
 
@@ -375,22 +375,22 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/1991-07-04-47, https://lovdat
 ### frihet-36 · Hva kan straffen være for å tvinge noen til å gifte seg?
 
 - A) Fengsel i inntil 6 år ✔
-- B) Bot på inntil 10 000 kroner
-- C) Fengsel i inntil 6 måneder
+- B) Fengsel i inntil 2 år
+- C) Fengsel i inntil 12 år
 
 **Riktig:** Riktig. Etter straffeloven § 253 kan den som tvinger noen til å gifte seg, få fengsel i inntil 6 år.
 
-**Feil:** Tvangsekteskap er en alvorlig forbrytelse. Straffen kan være flere år i fengsel.
+**Feil:** Tvangsekteskap er en alvorlig forbrytelse med en høy straff.
 
-### frihet-37 · En onkel hjelper til med å tvinge en jente til ekteskap. Kan han straffes?
+### frihet-37 · Et familiemedlem hjelper til med å tvinge noen til å gifte seg. Kan det straffes?
 
-- A) Ja, den som hjelper til kan straffes ✔
-- B) Nei, han er ikke foreldre til jenta
-- C) Nei, det er en sak for familien selv
+- A) Ja, også den som er med på det ✔
+- B) Nei, familiemedlemmer kan ikke straffes
+- C) Nei, familien har rett til å bestemme
 
 **Riktig:** Riktig. Også den som hjelper til med et tvangsekteskap, kan straffes. Det kalles medvirkning.
 
-**Feil:** Det er ikke bare den som tvinger, som kan straffes. Den som hjelper til, kan også straffes.
+**Feil:** Det er ikke bare den som bestemmer, som kan straffes. Tenk på alle som deltar.
 
 ### frihet-38 · Hvem må si ja for at et ekteskap skal være gyldig?
 
@@ -412,45 +412,45 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/1991-07-04-47, https://lovdat
 
 **Feil:** Man trenger ikke være norsk statsborger eller ha jobb. Men man må ha lovlig opphold i Norge.
 
-### frihet-40 · Kan man gifte seg på nytt hvis man er gift fra før?
+### frihet-40 · Hva må skje før en gift person kan gifte seg på nytt?
 
-- A) Nei, man må først skille seg ✔
-- B) Ja, hvis den første ektefellen er enig
-- C) Ja, hvis det første bryllupet var i utlandet
+- A) Det første ekteskapet må være avsluttet ✔
+- B) Den første ektefellen må si ja til det nye
+- C) Det nye ekteskapet må skje i et annet land
 
-**Riktig:** Riktig. I Norge kan man bare være gift med én person. Man må skille seg før man kan gifte seg på nytt.
+**Riktig:** Riktig. I Norge kan man bare være gift med én person. Det første ekteskapet må avsluttes, for eksempel ved skilsmisse, før man kan gifte seg på nytt.
 
 **Feil:** Det er forbudt å inngå et nytt ekteskap så lenge et tidligere ekteskap består.
 
-### frihet-41 · Hva kan en domstol gjøre når noen er tvunget til å gifte seg?
+### frihet-41 · Hva kan en domstol bestemme når noen er tvunget til å gifte seg?
 
-- A) Kjenne ekteskapet ugyldig ✔
-- B) Gi paret råd om å få barn
-- C) Gi familien lov til ekteskapet
+- A) At ekteskapet er ugyldig i Norge ✔
+- B) At ekteskapet skal gjelde i Norge
+- C) At paret må gå til familievernkontoret
 
-**Riktig:** Riktig. Den som er tvunget til å gifte seg, kan gå til en norsk domstol og få ekteskapet kjent ugyldig.
+**Riktig:** Riktig. Den som er tvunget til å gifte seg, kan gå til en norsk domstol og få ekteskapet erklært ugyldig.
 
 **Feil:** Et tvangsekteskap er ugyldig etter norsk rett. Den som er tvunget, kan få hjelp fra domstolen.
 
-### frihet-42 · Hva er den lengste fristen for å få et tvangsekteskap kjent ugyldig?
+### frihet-42 · Hva betyr samtykke til sex?
 
-- A) Fem år etter at man giftet seg ✔
-- B) Ti år etter at man giftet seg
-- C) Tjue år etter at man giftet seg
+- A) At begge sier ja frivillig ✔
+- B) At begge er gift med hverandre
+- C) At begge har kjent hverandre lenge
 
-**Riktig:** Riktig. Saken må reises senest fem år etter bryllupet, og innen ett år etter at personen ble fri for tvangen.
+**Riktig:** Riktig. Samtykke betyr at begge sier ja frivillig. Hvis en person ikke vil, eller ikke kan si nei, er det ikke samtykke.
 
-**Feil:** Det finnes en frist. Etter ekteskapsloven er den lengste fristen fem år etter at man giftet seg.
+**Feil:** Tenk på at hver person selv må velge. Å være gift eller å kjenne hverandre lenge er ikke nok.
 
-### frihet-43 · Er det lov å tvinge noen inn i et uoffisielt ekteskap uten papirer?
+### frihet-43 · Er det straffbart å tvinge noen til et ekteskap som ikke er registrert?
 
-- A) Nei, det er også straffbart ✔
-- B) Ja, hvis familien er enig i det
-- C) Ja, fordi staten ikke har registrert det
+- A) Ja, det er også straffbart ✔
+- B) Nei, loven gjelder ekteskap med papirer
+- C) Nei, familien kan bestemme over slike saker
 
 **Riktig:** Riktig. Det er også straffbart å tvinge noen inn i et forhold som ligner ekteskap, selv om det ikke er registrert hos staten.
 
-**Feil:** Loven gjelder også ekteskap uten offisielle papirer, for eksempel bare en religiøs eller kulturell seremoni.
+**Feil:** Loven gjelder også ekteskap uten offisielle papirer, for eksempel en seremoni som ikke er registrert.
 
 ### frihet-44 · Er det straffbart å lure noen til utlandet for å tvangsgifte dem?
 
@@ -495,8 +495,8 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/1991-07-04-47, https://lovdat
 ### frihet-48 · Hvor kan en ung person som er redd for tvangsekteskap, få råd anonymt?
 
 - A) Hos Røde Kors-telefonen ✔
-- B) Hos Statens vegvesen
-- C) Hos Skatteetaten
+- B) Hos Nav-kontoret
+- C) Hos kommunens servicekontor
 
 **Riktig:** Riktig. Røde Kors-telefonen om negativ sosial kontroll og æresrelatert vold gir råd om tvangsekteskap. Du kan være anonym.
 
@@ -533,11 +533,11 @@ Tilleggskilder: https://www.bufdir.no/vold/aresrelatert/kompetanseteamet/, https
 
 ### frihet-51 · Hva er sosial kontroll?
 
-- A) Rammer for oppførsel som familie og samfunn setter ✔
-- B) En støtteordning som man kan søke om hos Nav-kontoret
+- A) Regler for hvordan man oppfører seg i familie og samfunn ✔
+- B) En støtteordning som man kan søke om hos Nav
 - C) En kontroll av pass og ID-kort ved grensen
 
-**Riktig:** Riktig. Sosial kontroll er rammene og reglene for oppførsel som familien og samfunnet setter rundt hver person.
+**Riktig:** Riktig. Sosial kontroll er regler og forventninger til hvordan man skal oppføre seg. Det finnes i alle familier og i alle samfunn.
 
 **Feil:** Sosial kontroll handler om regler for hvordan vi skal oppføre oss, i familien og i samfunnet.
 
@@ -551,15 +551,15 @@ Tilleggskilder: https://www.bufdir.no/vold/aresrelatert/kompetanseteamet/, https
 
 **Feil:** Vanlige regler hjemme og på skolen er ikke negativ kontroll. Det blir negativt når reglene tar bort friheten.
 
-### frihet-53 · Hvordan kan negativ sosial kontroll påvirke integreringen til barn og unge?
+### frihet-53 · Hva kan negativ sosial kontroll gjøre med barn og unge?
 
-- A) Den kan hindre at de blir en del av samfunnet ✔
-- B) Den gjør det mye lettere å få nye venner i Norge
-- C) Den har ingen betydning for barn og unge
+- A) Den kan hindre dem i å delta i samfunnet ✔
+- B) Den kan gjøre at de lærer norsk raskere
+- C) Den kan gjøre at de får flere venner
 
-**Riktig:** Riktig. Negativ sosial kontroll kan hindre at barn og unge blir integrert i det norske samfunnet.
+**Riktig:** Riktig. Negativ sosial kontroll kan hindre barn og unge i å delta i fritidsaktiviteter og sosialt liv, og dermed i å bli en del av samfunnet.
 
-**Feil:** Når unge ikke får delta i fritid og sosiale aktiviteter, blir det vanskeligere å bli en del av samfunnet.
+**Feil:** Tenk på barn og unge som ikke får delta på fritidsaktiviteter og treffe venner.
 
 ### frihet-54 · Hvilket eksempel kan være negativ sosial kontroll?
 
@@ -581,15 +581,15 @@ Tilleggskilder: https://www.bufdir.no/vold/aresrelatert/kompetanseteamet/, https
 
 **Feil:** Merhet må slutte med noe hun liker fordi familien har strenge regler. Tenk på hva det kan kalles.
 
-### frihet-56 · Moren til Merhet sjekker telefonen hennes hver kveld. Hva kan dette være?
+### frihet-56 · Hva er et eksempel på negativ sosial kontroll mot en voksen?
 
-- A) Negativ sosial kontroll ✔
-- B) Vanlig hjelp med lekser
-- C) Et krav fra skolen
+- A) Familien leser alle meldingene dine og bestemmer hvem du skriver til ✔
+- B) Familien spør om du vil spise middag sammen i helgen
+- C) Familien ber deg ringe hvis du kommer sent hjem
 
-**Riktig:** Riktig. Å sjekke telefonen til en ungdom hver kveld for å se hvem hun snakker med, kan være negativ sosial kontroll.
+**Riktig:** Riktig. Når familien overvåker en voksen og bestemmer hvem hun eller han kan snakke med, kan det være negativ sosial kontroll.
 
-**Feil:** Sterk kontroll av hvem en ung person snakker med, tar bort friheten. Tenk på hva det kalles.
+**Feil:** Vanlig omsorg er ikke kontroll. Det blir negativt når familien tar fra deg friheten til å velge selv.
 
 ### frihet-57 · Hvem kan bli utsatt for negativ sosial kontroll?
 
@@ -611,15 +611,15 @@ Tilleggskilder: https://www.bufdir.no/vold/aresrelatert/kompetanseteamet/, https
 
 **Feil:** Negativ sosial kontroll handler om friheten til å ta egne valg i livet.
 
-### frihet-59 · Er det lov å true et barn for å bestemme hvem barnet møter?
+### frihet-59 · Hva er lov for foreldre som vil sette grenser for barnet?
 
-- A) Nei, trusler og vold er forbudt ✔
-- B) Ja, foreldre bestemmer over barna
-- C) Ja, hvis barnet er under 18 år
+- A) Å snakke med barnet og forklare hvorfor reglene finnes ✔
+- B) Å true barnet hvis det bryter reglene
+- C) Å slå barnet litt hvis det ikke hører etter
 
-**Riktig:** Riktig. Trusler og vold er forbudt, også fra foreldre. Negativ sosial kontroll kan også innebære vold.
+**Riktig:** Riktig. Foreldre kan sette grenser ved å snakke med barnet. Trusler og vold mot barn er forbudt, også «litt» vold.
 
-**Feil:** Foreldre kan sette grenser, men de har ikke lov til å true eller bruke vold mot barna.
+**Feil:** Foreldre kan sette grenser, men trusler og vold er forbudt. Det gjelder også «litt» vold.
 
 ### frihet-60 · Hva betyr «æresrelatert vold»?
 
@@ -701,11 +701,11 @@ Tilleggskilder: https://www.bufdir.no/vold/aresrelatert/kompetanseteamet/, https
 
 **Feil:** Dette er et trygt sted å bo for voksne som må beskyttes mot familien eller miljøet.
 
-### frihet-68 · Foreldre synes det er vanskelig å oppdra barn i et nytt land. Hvem kan hjelpe?
+### frihet-68 · Foreldre har mange konflikter med tenåringen sin. Hvem kan gi gratis hjelp?
 
 - A) Familievernkontoret ✔
-- B) Skattekontoret
-- C) Passkontoret
+- B) Legevakten
+- C) Utlendingsdirektoratet
 
 **Riktig:** Riktig. Familievernkontoret gir gratis hjelp til familier som har konflikter eller vansker, også med barneoppdragelse.
 
@@ -763,12 +763,12 @@ Tilleggskilder: https://lovdata.no/lov/2005-05-20-28/§284, https://lovdata.no/l
 ### frihet-73 · Hva kan straffen være for kjønnslemlestelse som ikke regnes som grov?
 
 - A) Fengsel i inntil 6 år ✔
-- B) Bot på inntil 20 000 kroner
-- C) Fengsel i inntil 6 måneder
+- B) Fengsel i inntil 3 år
+- C) Fengsel i inntil 8 år
 
 **Riktig:** Riktig. Kjønnslemlestelse kan gi fengsel i inntil 6 år. Hvis den er grov, kan straffen bli høyere.
 
-**Feil:** Kjønnslemlestelse er en alvorlig forbrytelse. Straffen kan være flere år i fengsel.
+**Feil:** Kjønnslemlestelse er en alvorlig forbrytelse. Straffen er flere år i fengsel, og høyere hvis den er grov.
 
 ### frihet-74 · Er det lov å sy igjen eller gjenskape en tidligere omskjæring?
 
@@ -793,7 +793,7 @@ Tilleggskilder: https://lovdata.no/lov/2005-05-20-28/§284, https://lovdata.no/l
 ### frihet-76 · Du vet at en jente skal omskjæres neste uke. Hva må du gjøre?
 
 - A) Prøve å stoppe det, for eksempel ved å varsle politiet ✔
-- B) Ingenting, fordi det er en privat sak for familien hennes
+- B) Snakke med foreldrene og la dem bestemme hva som skjer
 - C) Vente til etterpå og så snakke med jenta om det
 
 **Riktig:** Riktig. Alle har avvergeplikt. Du må prøve å stoppe inngrepet, for eksempel ved å varsle politiet. Brudd på plikten kan gi bot eller fengsel i inntil 1 år.
@@ -803,8 +803,8 @@ Tilleggskilder: https://lovdata.no/lov/2005-05-20-28/§284, https://lovdata.no/l
 ### frihet-77 · Hvorfor bryter kjønnslemlestelse med viktige verdier i Norge?
 
 - A) Alle skal få bestemme over sin egen kropp ✔
-- B) Alle skal betale skatt av inntekten sin
-- C) Alle skal kunne snakke norsk på jobben
+- B) Alle skal få lik lønn for samme arbeid
+- C) Alle skal ha rett til å stemme ved valg
 
 **Riktig:** Riktig. Det er en viktig verdi i Norge at alle skal få bestemme over sin egen kropp. Kjønnslemlestelse bryter med denne verdien og med likestilling.
 
@@ -833,8 +833,8 @@ Tilleggskilder: https://lovdata.no/lov/2005-05-20-28/§284, https://lovdata.no/l
 ### frihet-80 · Hvor kan en kvinne med plager etter kjønnslemlestelse få hjelp?
 
 - A) Hos fastlegen eller helsestasjonen ✔
-- B) Hos Skatteetaten eller på Nav-kontoret
-- C) Hos Tollvesenet eller Posten
+- B) Hos Nav-kontoret eller kommunens servicetorg
+- C) Hos politiet eller Skatteetaten
 
 **Riktig:** Riktig. Fastlegen, helsestasjonen og jordmor kan gi hjelp og henvise videre til sykehus. De har taushetsplikt.
 

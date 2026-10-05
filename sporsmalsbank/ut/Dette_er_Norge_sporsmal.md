@@ -43,15 +43,15 @@ Tilleggskilder: https://kartverket.no/til-lands/fakta-om-norge/norske-fylke-og-k
 
 **Feil:** Norge har mer enn 300 kommuner, men færre enn 400.
 
-### dettenorge-04 · Hvor bor omtrent tre av fire innbyggere i Norge?
+### dettenorge-04 · Hvor bor de fleste innbyggerne i Norge?
 
-- A) Langs kysten ✔
-- B) Inne i fjellene
-- C) Ved svenskegrensen
+- A) I byer og tettsteder ✔
+- B) På gårder og småbruk
+- C) I små bygder i fjellet
 
-**Riktig:** Riktig. Omtrent tre av fire innbyggere bor langs kysten.
+**Riktig:** Riktig. Omtrent åtte av ti bor i byer og tettsteder.
 
-**Feil:** De fleste i Norge bor nær havet. Store fjell- og skogområder har nesten ingen innbyggere.
+**Feil:** Norge har store fjell- og skogområder, men der bor få mennesker. Tenk på hvor det er butikker, skoler og jobber.
 
 ### dettenorge-05 · I hvilken landsdel bor omtrent halvparten av befolkningen?
 
@@ -86,12 +86,12 @@ Tilleggskilder: https://kartverket.no/til-lands/fakta-om-norge/norske-fylke-og-k
 ### dettenorge-08 · Hva heter den største innsjøen i Norge?
 
 - A) Mjøsa ✔
-- B) Glomma
-- C) Sognefjorden
+- B) Femunden
+- C) Tyrifjorden
 
-**Riktig:** Riktig. Mjøsa er Norges største innsjø. Den ligger på Østlandet.
+**Riktig:** Riktig. Mjøsa er Norges største innsjø. Den er over 100 kilometer lang.
 
-**Feil:** Glomma er en elv, og Sognefjorden er en fjord. Spørsmålet gjelder en innsjø.
+**Feil:** Alle tre er innsjøer, men bare én er størst. Den største er over 100 kilometer lang.
 
 ### dettenorge-09 · Hva er en isbre?
 
@@ -99,7 +99,7 @@ Tilleggskilder: https://kartverket.no/til-lands/fakta-om-norge/norske-fylke-og-k
 - B) Et vann som fryser til is om vinteren
 - C) En vei over fjellet som stenges om vinteren
 
-**Riktig:** Riktig. En isbre er et stort område med is og snø som ligger der hele året. Jostedalsbreen er den største.
+**Riktig:** Riktig. En isbre er et stort område med is og snø som ligger der hele året. Jostedalsbreen er den største på fastlandet i Europa.
 
 **Feil:** En isbre finnes høyt oppe i fjellet. Isen ligger der også om sommeren.
 
@@ -153,15 +153,15 @@ Tilleggskilder: https://kartverket.no/til-lands/fakta-om-norge/norske-fylke-og-k
 
 **Feil:** Det ene språket er norsk. Det andre er språket til urfolket i Norge.
 
-### dettenorge-15 · Hvorfor øker folketallet i Norge?
+### dettenorge-15 · Hva er hovedgrunnen til at folketallet i Norge øker?
 
-- A) Innvandring, og flere blir født enn dør ✔
-- B) Flere dør enn det blir født hvert år
-- C) Mange nordmenn flytter tilbake fra USA
+- A) Flere flytter til Norge enn fra Norge ✔
+- B) Flere dør enn det blir født
+- C) Flere flytter fra Norge enn til Norge
 
-**Riktig:** Riktig. Folketallet øker fordi folk flytter hit, og fordi det blir født flere enn det dør.
+**Riktig:** Riktig. Innvandring gir størst vekst i folketallet. Det blir også født litt flere enn det dør.
 
-**Feil:** Det bor stadig flere mennesker i Norge. Mange flytter hit fra andre land.
+**Feil:** Tenk på hvem som flytter inn og ut av landet. Det blir fortsatt født flere enn det dør, men det er ikke hovedgrunnen.
 
 ### dettenorge-16 · Hvordan blir en person konge eller dronning i Norge?
 
@@ -202,15 +202,15 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/2017-06-16-51, https://lovdat
 
 **Feil:** Samfunnet prøver å gi alle en god start. Tenk på et tilbud som hjelper nye i Norge.
 
-### dettenorge-19 · Likestilling gjelder ikke bare kjønn. Hva gjelder det også?
+### dettenorge-19 · Hva er eksempler på forbudte grunner til å diskriminere noen?
 
-- A) Funksjonsevne, religion og alder ✔
-- B) Hvilket fotballag du heier på
-- C) Hvilken mat du liker best
+- A) Religion, funksjonsevne og hudfarge ✔
+- B) Utdanning, inntekt og yrke
+- C) Hobbyer, interesser og smak
 
-**Riktig:** Riktig. Likestilling gjelder også mellom generasjoner, religioner, etniske grupper og folk med ulik funksjonsevne.
+**Riktig:** Riktig. Loven forbyr diskriminering på grunn av blant annet religion, funksjonsevne, hudfarge og kjønn.
 
-**Feil:** Likestilling handler om viktige sider ved et menneske, som alder, tro og helse. Ingen skal behandles dårligere for det.
+**Feil:** Loven beskytter noe som er en viktig del av hvem et menneske er, ikke det man velger i hverdagen.
 
 ### dettenorge-20 · Hvor mange kvinner er i jobb i Norge i dag?
 
@@ -232,15 +232,15 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/2017-06-16-51, https://lovdat
 
 **Feil:** Det er fortsatt flest menn i ledende stillinger, selv om mange kvinner jobber.
 
-### dettenorge-22 · Hvilke fag velger kvinner oftere enn menn å utdanne seg i?
+### dettenorge-22 · Hvilke utdanninger velger kvinner oftere enn menn?
 
 - A) Omsorg og undervisning ✔
 - B) Teknikk og naturfag
-- C) Data og ingeniørfag
+- C) Bygg og anlegg
 
-**Riktig:** Riktig. Kvinner velger oftere omsorg og undervisning. Menn velger oftere teknikk og naturfag.
+**Riktig:** Riktig. Kvinner velger oftere omsorg og undervisning. Menn velger oftere teknikk, naturfag og bygg og anlegg.
 
-**Feil:** Mange velger fortsatt på en tradisjonell måte. Tenk på yrker som sykepleier og lærer.
+**Feil:** Se på hvem som søker hvilke utdanninger. Noen valg er fortsatt ulike for kvinner og menn.
 
 ### dettenorge-23 · Hva viser undersøkelser om husarbeidet i norske familier?
 
@@ -292,25 +292,25 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/2017-06-16-51, https://lovdat
 
 **Feil:** Paragrafen begrenser ytringsfriheten litt for å verne grupper som lett blir utsatt for hat.
 
-### dettenorge-28 · Hva sier likestillings- og diskrimineringsloven om alder?
+### dettenorge-28 · Hva sier loven om alder i arbeidslivet?
 
-- A) Ingen skal diskrimineres på grunn av alder ✔
-- B) Eldre arbeidstakere skal få mer lønn enn de unge
+- A) Arbeidsgiveren skal ikke behandle noen dårligere på grunn av alder ✔
+- B) Eldre arbeidstakere skal få mer lønn enn de yngre
 - C) Unge søkere skal få jobb før de som er eldre
 
-**Riktig:** Riktig. Loven forbyr diskriminering på grunn av blant annet alder, kjønn, etnisitet og religion.
+**Riktig:** Riktig. Arbeidsmiljøloven forbyr diskriminering på grunn av alder i arbeidslivet, for eksempel når arbeidsgiveren ansetter.
 
-**Feil:** Loven skal hindre at noen blir behandlet dårligere. Alder er ett av grunnlagene i loven.
+**Feil:** Loven skal gi lik behandling. Den gir ikke en aldersgruppe fordeler.
 
-### dettenorge-29 · Ahmed mener han ble diskriminert på jobben. Hvem kan behandle klagen hans?
+### dettenorge-29 · Ahmed tror han ikke fikk jobben på grunn av bakgrunnen sin. Hvem behandler klagen?
 
 - A) Diskrimineringsnemnda ✔
 - B) Forbrukerrådet
 - C) Sivilombudet
 
-**Riktig:** Riktig. Diskrimineringsnemnda behandler klager på diskriminering. Det er gratis å klage. Ombudet kan gi råd først.
+**Riktig:** Riktig. Diskrimineringsnemnda behandler klager på diskriminering. Det er gratis å klage. Likestillings- og diskrimineringsombudet kan gi råd først.
 
-**Feil:** Det finnes en egen nemnd som avgjør saker om diskriminering. Navnet sier hva den jobber med.
+**Feil:** Tenk på hvem som tar imot saker om urettferdig behandling på grunn av bakgrunn. De to andre har andre oppgaver.
 
 ### dettenorge-30 · Hva betyr «lik lønn for likt arbeid»?
 
@@ -322,15 +322,15 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/2017-06-16-51, https://lovdat
 
 **Feil:** Prinsippet handler om kjønn. En kvinne skal ikke tjene mindre enn en mann for den samme jobben.
 
-### dettenorge-31 · Sara er på jobbintervju. Kan arbeidsgiveren spørre om hun planlegger å få barn?
+### dettenorge-31 · Arbeidsgiveren spør Sara om hun vil ha barn. Hva sier loven?
 
-- A) Nei, det er ikke lov å spørre om det ✔
-- B) Ja, hvis jobben er en fast stilling
-- C) Ja, hvis hun er gift eller samboer
+- A) Sara trenger ikke å svare på spørsmålet ✔
+- B) Sara må svare ærlig for å få jobben
+- C) Sara må svare hvis jobben er fast
 
-**Riktig:** Riktig. Arbeidsgiveren har ikke lov til å spørre om graviditet eller planer om å få barn.
+**Riktig:** Riktig. Arbeidsgiveren har ikke lov til å spørre om graviditet eller familieplaner. Sara trenger ikke å svare.
 
-**Feil:** Loven beskytter jobbsøkere. Arbeidsgiveren skal ikke spørre om familieplaner.
+**Feil:** Loven beskytter jobbsøkere. Arbeidsgiveren skal ikke stille slike spørsmål.
 
 ### dettenorge-32 · Hva betyr universell utforming?
 
@@ -364,12 +364,12 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/1995-02-24-12, https://lovdat
 ### dettenorge-34 · Er samefolkets dag 6. februar en fridag?
 
 - A) Nei, men den er en offisiell flaggdag ✔
-- B) Ja, det er en offentlig fridag
-- C) Ja, for dem som bor i Finnmark
+- B) Ja, den er en offentlig fridag
+- C) Nei, og den er heller ikke en flaggdag
 
 **Riktig:** Riktig. Samefolkets dag er offisiell flaggdag, men ikke fridag.
 
-**Feil:** Denne dagen heiser mange flagg, men folk går på jobb og skole som vanlig.
+**Feil:** Tenk på forskjellen mellom en fridag og en flaggdag. De fleste steder går folk på jobb og skole som vanlig.
 
 ### dettenorge-35 · Hva markerer mange i Norge 8. mars?
 
@@ -401,15 +401,15 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/1995-02-24-12, https://lovdat
 
 **Feil:** Jesu fødsel feires i julen. Påsken handler om slutten av Jesu liv.
 
-### dettenorge-38 · Hvilke dager i påsken er helligdager?
+### dettenorge-38 · Hvilken dag i påsken er en helligdag?
 
-- A) Skjærtorsdag, langfredag, 1. og 2. påskedag ✔
-- B) Palmesøndag og hele uka etter påske
-- C) Langfredag, påskeaften og 3. påskedag
+- A) Langfredag, fredagen før påskedag ✔
+- B) Onsdag, dagen før skjærtorsdag
+- C) Tirsdag, dagen etter 2. påskedag
 
-**Riktig:** Riktig. Skjærtorsdag, langfredag, 1. påskedag og 2. påskedag er helligdager.
+**Riktig:** Riktig. Langfredag er en helligdag. Skjærtorsdag, 1. påskedag og 2. påskedag er også helligdager.
 
-**Feil:** Helligdagene i påsken starter på torsdagen og slutter på mandagen etter påskedag.
+**Feil:** Helligdagene i påsken er fra torsdag til mandag. Se på hvilken dag som ligger innenfor disse dagene.
 
 ### dettenorge-39 · Når er Kristi himmelfartsdag?
 
@@ -419,7 +419,7 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/1995-02-24-12, https://lovdat
 
 **Riktig:** Riktig. Kristi himmelfartsdag er alltid en torsdag, 40 dager etter påske.
 
-**Feil:** Dagen kommer om våren, en stund etter påske. Den er alltid på en torsdag.
+**Feil:** Kristi himmelfartsdag er en kristen høytid om våren. Tenk på hvilken dag den kommer i forhold til påske.
 
 ### dettenorge-40 · Hvor lenge etter Kristi himmelfartsdag kommer pinsen?
 
@@ -435,11 +435,11 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/1995-02-24-12, https://lovdat
 
 - A) Går i tog for politiske saker ✔
 - B) Går i kirken og hører på preken
-- C) Går i tog med skolen og korpset
+- C) Tenner store bål og feirer sommeren
 
 **Riktig:** Riktig. På arbeidernes dag går mange i tog og viser hvilke politiske saker de er opptatt av.
 
-**Feil:** 1. mai handler om arbeidere og politikk. Barnetog med skolen hører til 17. mai.
+**Feil:** Arbeidernes dag handler om arbeid og politikk, ikke om kirke eller sommerfeiring.
 
 ### dettenorge-42 · Hvem er 17. mai først og fremst en dag for?
 
@@ -481,15 +481,15 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/1995-02-24-12, https://lovdat
 
 **Feil:** Konfirmasjon er en tradisjon for unge i tenårene. Det er ikke dåp eller bryllupsdag.
 
-### dettenorge-46 · Meryams klasse lærer om jul på skolen. Hva betyr det for Meryam?
+### dettenorge-46 · Klassen til Mina lærer om jul på skolen. Hva betyr det for Mina?
 
-- A) Hun lærer om jul, men trenger ikke å tro ✔
-- B) Hun må gå i kirken hver søndag i desember
-- C) Hun må bli kristen for å gå på skolen
+- A) Hun lærer om jul, men trenger ikke å tro på det ✔
+- B) Hun må delta i bønn og religiøse ritualer
+- C) Hun kan ikke være med på julefeiringen
 
 **Riktig:** Riktig. Skolen lærer elevene om religioner og tradisjoner, men ingen trenger å tro på dem.
 
-**Feil:** Å lære om en tradisjon er ikke det samme som å tro. Det er religionsfrihet i Norge.
+**Feil:** Tenk på forskjellen mellom å lære om noe og å tro på det. Det er religionsfrihet i Norge.
 
 
 ---
@@ -512,13 +512,13 @@ Tilleggskilder: https://www.regjeringen.no/no/tema/urfolk-og-minoriteter/nasjona
 
 ### dettenorge-48 · Hva er en nasjonal minoritet i Norge?
 
-- A) En gruppe som har bodd her i flere hundre år ✔
-- B) En gruppe som har kommet hit de siste årene
-- C) En gruppe som har flyttet ut av Norge
+- A) En gruppe som har bodd i Norge i mange generasjoner ✔
+- B) En gruppe som har kommet til Norge de siste 20 årene
+- C) En gruppe som kom til Norge etter andre verdenskrig
 
-**Riktig:** Riktig. Nasjonale minoriteter er grupper som har bodd i Norge i flere hundre år.
+**Riktig:** Riktig. Nasjonale minoriteter er grupper som har bodd i Norge i mange generasjoner.
 
-**Feil:** En nasjonal minoritet er ikke nyankomne innvandrere. Gruppen har bodd her svært lenge.
+**Feil:** En nasjonal minoritet er ikke nyankomne innvandrere. Gruppen har bodd i Norge svært lenge.
 
 ### dettenorge-49 · Hvor mange nasjonale minoriteter har Norge?
 
@@ -526,7 +526,7 @@ Tilleggskilder: https://www.regjeringen.no/no/tema/urfolk-og-minoriteter/nasjona
 - B) To
 - C) Ti
 
-**Riktig:** Riktig. De fem er jøder, kvener/norskfinner, rom, romanifolk/tatere og skogfinner.
+**Riktig:** Riktig. Norge har fem nasjonale minoriteter.
 
 **Feil:** Det er flere enn to, men færre enn ti. Samene regnes som urfolk, ikke som nasjonal minoritet.
 
@@ -536,9 +536,9 @@ Tilleggskilder: https://www.regjeringen.no/no/tema/urfolk-og-minoriteter/nasjona
 - B) Polske arbeidsinnvandrere
 - C) Svenske pensjonister
 
-**Riktig:** Riktig. Kvener/norskfinner er en nasjonal minoritet. Det er også jøder, rom, romanifolk/tatere og skogfinner.
+**Riktig:** Riktig. Kvener/norskfinner er en nasjonal minoritet. De har bodd i Nord-Norge i mange generasjoner.
 
-**Feil:** De nasjonale minoritetene har bodd i Norge i flere hundre år. Nyere innvandrergrupper er ikke med.
+**Feil:** De nasjonale minoritetene har bodd i Norge i mange generasjoner. Nyere innvandrergrupper er ikke med.
 
 ### dettenorge-51 · Hva er kvensk, romani og romanes?
 
@@ -602,23 +602,23 @@ Tilleggskilder: https://www.regjeringen.no/no/tema/urfolk-og-minoriteter/nasjona
 
 ### dettenorge-57 · Hva er hovedmålet med integreringspolitikken i Norge?
 
-- A) At innvandrere kan bruke ressursene sine og bidra ✔
-- B) At innvandrere skal glemme kulturen fra hjemlandet
-- C) At innvandrere skal bo i egne bydeler
+- A) At innvandrere deltar i arbeid og samfunnet ✔
+- B) At innvandrere raskt får norsk statsborgerskap
+- C) At innvandrere bor sammen med andre fra hjemlandet
 
-**Riktig:** Riktig. Målet er at innvandrere kan bruke ressursene sine og bidra på lik linje med andre.
+**Riktig:** Riktig. Målet er at innvandrere deltar og bruker ressursene sine, på lik linje med andre.
 
-**Feil:** Integrering handler om å delta i fellesskapet. Ingen skal måtte gi opp sin egen kultur.
+**Feil:** Integrering handler om å delta i fellesskapet. Tenk på hva som skjer når folk deltar i arbeid og samfunn.
 
-### dettenorge-58 · Hva er en av nøklene til god integrering, ifølge myndighetene?
+### dettenorge-58 · Hva er en av nøklene til god integrering?
 
-- A) Gode norskkunnskaper ✔
-- B) Et norsk etternavn
-- C) En stor bolig
+- A) Å kunne godt norsk ✔
+- B) Å bo i en stor by
+- C) Å ha mye penger i banken
 
-**Riktig:** Riktig. Gode norskkunnskaper er en av nøklene til integrering.
+**Riktig:** Riktig. Norsk er en av nøklene til integrering, sammen med arbeid.
 
-**Feil:** Det som hjelper mest, er å kunne snakke med folk. Tenk på hva du lærer på kurs nå.
+**Feil:** Tenk på hva du trenger for å snakke med naboer, kolleger og lærere.
 
 
 ---
@@ -677,7 +677,7 @@ Tilleggskilder: https://www.ssb.no/kultur-og-fritid/religion-og-livssyn/statisti
 
 **Riktig:** Riktig. Den norske kirke er evangelisk-luthersk. Det er en protestantisk kirke.
 
-**Feil:** Den norske kirke er protestantisk. Retningen har navn etter Martin Luther.
+**Feil:** Den norske kirke er protestantisk. Reformasjonen kom til Norge for flere hundre år siden.
 
 ### dettenorge-64 · Jonas er kristen, men vil bli buddhist. Hvem bestemmer det?
 
@@ -699,15 +699,15 @@ Tilleggskilder: https://www.ssb.no/kultur-og-fritid/religion-og-livssyn/statisti
 
 **Feil:** Støtten følger antall medlemmer. Det gjelder alle godkjente samfunn, ikke bare kristne.
 
-### dettenorge-66 · Hva er et livssynssamfunn, for eksempel Human-Etisk Forbund?
+### dettenorge-66 · Hva er Human-Etisk Forbund?
 
-- A) Et fellesskap med et livssyn uten gud ✔
+- A) Et fellesskap rundt et livssyn uten religion ✔
 - B) En kristen menighet i Den norske kirke
-- C) Et politisk parti som er imot religion
+- C) Et politisk parti som sitter på Stortinget
 
-**Riktig:** Riktig. Et livssynssamfunn samler folk rundt et livssyn uten religion, som humanismen.
+**Riktig:** Riktig. Human-Etisk Forbund er et livssynssamfunn. Medlemmene har et livssyn uten religion, humanismen.
 
-**Feil:** Human-Etisk Forbund er ikke en kirke eller et parti. Medlemmene har et livssyn uten gud.
+**Feil:** Human-Etisk Forbund er ikke en kirke og ikke et parti. Tenk på et fellesskap for dem som ikke tror på en religion.
 
 ### dettenorge-67 · Hvilken religion har flest medlemmer i Norge etter kristendommen?
 
@@ -719,25 +719,25 @@ Tilleggskilder: https://www.ssb.no/kultur-og-fritid/religion-og-livssyn/statisti
 
 **Feil:** Etter kristendommen er det en religion med omtrent 200 000 medlemmer i trossamfunn i Norge.
 
-### dettenorge-68 · Hva ble lov for nordmenn i 1845?
+### dettenorge-68 · Hva ble lov for kristne nordmenn i 1845?
 
-- A) Å melde seg ut av statskirken ✔
-- B) Å gifte seg uten prest
-- C) Å stemme ved stortingsvalg
+- A) Å forlate statskirken og bli med i en annen kirke ✔
+- B) Å la kvinner bli prester i Den norske kirke
+- C) Å stemme ved stortingsvalg uten å eie eiendom
 
-**Riktig:** Riktig. Fra 1845 kunne nordmenn melde seg ut av statskirken. Før det var det forbudt.
+**Riktig:** Riktig. Fra 1845 kunne kristne som ville det, forlate statskirken og bli med i et annet kristent trossamfunn.
 
-**Feil:** Før 1845 måtte alle nordmenn være medlem av statskirken. Tenk på hva som da ble lov.
+**Feil:** Før 1845 måtte alle være medlem av statskirken. Tenk på hva som da ble tillatt.
 
-### dettenorge-69 · Hvorfor gifter mange seg i kirken selv om de ikke er religiøse?
+### dettenorge-69 · Hva betyr religionsfrihet i Norge?
 
-- A) Det er en tradisjon som betyr mye for dem ✔
-- B) Loven sier at bryllup skal være i kirken
-- C) Kommunen tar ikke imot bryllup
+- A) Alle kan selv velge religion eller livssyn, også å ikke tro ✔
+- B) Alle må ha den samme religionen som foreldrene sine
+- C) Alle må følge en religion som staten har godkjent
 
-**Riktig:** Riktig. For mange er bryllup i kirken en tradisjon, selv om de ikke er religiøse.
+**Riktig:** Riktig. I Norge kan alle velge religion eller livssyn selv. Det er også lov å ikke tro på noe.
 
-**Feil:** Det er lov å gifte seg hos kommunen. Mange velger kirken fordi det er en tradisjon.
+**Feil:** Religionsfrihet betyr frihet til å velge. Ingen kan tvinge deg til å tro på noe.
 
 ### dettenorge-70 · Hvordan ser mange i Norge på religion?
 
@@ -762,11 +762,11 @@ Tilleggskilder: https://snl.no/Sametinget, https://sametinget.no/, https://snl.n
 
 - A) De bodde i området før dagens grenser ble laget ✔
 - B) De kom til Norge som flyktninger etter krigen
-- C) De er en ny folkegruppe fra Russland
+- C) De er den største folkegruppen i Norge
 
 **Riktig:** Riktig. Samene er urfolk fordi de bodde i området lenge før dagens landegrenser ble laget.
 
-**Feil:** Urfolk har bodd i et område lenge før staten og grensene kom. Samene er den eldste folkegruppen i Norge.
+**Feil:** Urfolk har bodd i et område lenge før dagens stater og grenser kom.
 
 ### dettenorge-72 · I hvilke land bor det samer?
 
@@ -788,13 +788,13 @@ Tilleggskilder: https://snl.no/Sametinget, https://sametinget.no/, https://snl.n
 
 **Feil:** Datoen for samefolkets dag kommer fra et viktig møte i 1917. Sametinget åpnet først i 1989.
 
-### dettenorge-74 · Hva er en kofte?
+### dettenorge-74 · Hva er en samisk kofte?
 
-- A) En samisk folkedrakt ✔
+- A) En tradisjonell samisk drakt ✔
 - B) Et samisk musikkinstrument
 - C) Et samisk telt av skinn
 
-**Riktig:** Riktig. Kofte er en samisk folkedrakt. Den brukes ved fest, og noen bruker den til hverdags.
+**Riktig:** Riktig. Kofte (på samisk gákti) er en samisk drakt. Den brukes ved fest, og noen bruker den til hverdags.
 
 **Feil:** Kofte er noe man har på seg. Mange samer bruker den i for eksempel bryllup.
 
@@ -808,15 +808,15 @@ Tilleggskilder: https://snl.no/Sametinget, https://sametinget.no/, https://snl.n
 
 **Feil:** Joik har med musikk og stemme å gjøre. Det er ikke mat eller dans.
 
-### dettenorge-76 · Kan en som bare snakker norsk, forstå samisk?
+### dettenorge-76 · Hvorfor forstår de fleste nordmenn ikke samisk?
 
-- A) Nei, språkene er helt forskjellige ✔
-- B) Ja, samisk er en norsk dialekt
-- C) Ja, språkene ligner mye på hverandre
+- A) Samisk er et helt annet språk enn norsk ✔
+- B) Samisk er en gammel form for norsk
+- C) Samisk brukes ikke lenger i Norge
 
-**Riktig:** Riktig. Samisk og norsk er helt forskjellige språk. Det finnes også flere samiske språk.
+**Riktig:** Riktig. Samisk og norsk er ulike språk. Det finnes også flere samiske språk.
 
-**Feil:** Samisk er ikke en dialekt. Den som bare kan norsk, forstår ikke samisk.
+**Feil:** Tenk på hvor like eller ulike språkene er. Samisk brukes fortsatt i Norge i dag.
 
 ### dettenorge-77 · Hva betyr fornorsking av samene?
 
