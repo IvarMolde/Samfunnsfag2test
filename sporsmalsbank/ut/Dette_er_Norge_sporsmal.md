@@ -23,7 +23,7 @@ Tilleggskilder: https://kartverket.no/til-lands/fakta-om-norge/norske-fylke-og-k
 
 **Feil:** Danmark og Island ligger ved havet. Norge har grense mot tre land, og ett av dem ligger lengst øst i nord.
 
-### dettenorge-02 · Hvor mange fylker har Norge hatt siden 2024?
+### dettenorge-02 · Hvor mange fylker har Norge (2026)?
 
 - A) 15 fylker ✔
 - B) 11 fylker
@@ -33,7 +33,7 @@ Tilleggskilder: https://kartverket.no/til-lands/fakta-om-norge/norske-fylke-og-k
 
 **Feil:** Antallet fylker ble endret 1. januar 2024. Noen store fylker ble delt opp igjen.
 
-### dettenorge-03 · Hvor mange kommuner er Norge delt inn i?
+### dettenorge-03 · Hvor mange kommuner er Norge delt inn i (2026)?
 
 - A) 357 kommuner ✔
 - B) 157 kommuner
@@ -212,13 +212,13 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/2017-06-16-51, https://lovdat
 
 **Feil:** Loven beskytter noe som er en viktig del av hvem et menneske er, ikke det man velger i hverdagen.
 
-### dettenorge-20 · Hvor mange kvinner er i jobb i Norge i dag?
+### dettenorge-20 · Hvor mange kvinner er i jobb i Norge (2026)?
 
 - A) Nesten like mange som menn ✔
 - B) Omtrent halvparten så mange som menn
 - C) Mange flere kvinner enn menn
 
-**Riktig:** Riktig. Nesten like mange kvinner som menn er i jobb i Norge i dag.
+**Riktig:** Riktig. Nesten like mange kvinner som menn er i jobb i Norge.
 
 **Feil:** De fleste kvinner i Norge har jobb. Antallet er nesten likt med menn.
 
@@ -560,17 +560,17 @@ Tilleggskilder: https://www.regjeringen.no/no/tema/urfolk-og-minoriteter/nasjona
 
 **Feil:** Avtalen handler om kultur, språk og tradisjoner. Staten skal hjelpe gruppene å ta vare på dem.
 
-### dettenorge-53 · Omtrent hvor mange i Norge er innvandrere eller barn av to innvandrere?
+### dettenorge-53 · Omtrent hvor mange i Norge er innvandrere eller barn av to innvandrere (2026)?
 
-- A) Mer enn én million ✔
-- B) Omtrent 300 000
-- C) Omtrent tre millioner
+- A) Omtrent to millioner ✔
+- B) Omtrent 500 000
+- C) Omtrent fire millioner
 
-**Riktig:** Riktig. Mer enn én million i Norge er innvandrere eller har to foreldre som er innvandrere.
+**Riktig:** Riktig. Omtrent to millioner i Norge er innvandrere eller har to foreldre som er innvandrere.
 
 **Feil:** Det er mange, men langt fra halvparten av de omtrent 5,6 millioner innbyggerne.
 
-### dettenorge-54 · Fra hvilket land kommer flest innvandrere i Norge?
+### dettenorge-54 · Fra hvilket land kommer flest innvandrere i Norge (2026)?
 
 - A) Polen ✔
 - B) Sverige
@@ -639,7 +639,7 @@ Tilleggskilder: https://www.ssb.no/kultur-og-fritid/religion-og-livssyn/statisti
 
 **Feil:** Sekulær betyr at religion ikke styrer samfunnet. Det er religionsfrihet i Norge.
 
-### dettenorge-60 · Omtrent hvor mange av de døde i Norge får gravferd i kirken?
+### dettenorge-60 · Omtrent hvor mange av de døde i Norge får gravferd i kirken (2026)?
 
 - A) Omtrent åtte av ti ✔
 - B) Omtrent to av ti
@@ -649,7 +649,7 @@ Tilleggskilder: https://www.ssb.no/kultur-og-fritid/religion-og-livssyn/statisti
 
 **Feil:** Mange bruker kirken ved viktige hendelser i livet. Gravferd i kirken er svært vanlig.
 
-### dettenorge-61 · Hva kaller Grunnloven Den norske kirke i dag?
+### dettenorge-61 · Hva kaller Grunnloven Den norske kirke?
 
 - A) Norges folkekirke ✔
 - B) Norges statsreligion
@@ -657,9 +657,9 @@ Tilleggskilder: https://www.ssb.no/kultur-og-fritid/religion-og-livssyn/statisti
 
 **Riktig:** Riktig. Grunnloven kaller Den norske kirke Norges folkekirke. Staten støtter den, men den er ikke statskirke.
 
-**Feil:** Norge har ikke lenger statsreligion. Grunnloven bruker et annet ord om kirken i dag.
+**Feil:** Norge har ikke lenger statsreligion. Grunnloven bruker et annet ord om kirken.
 
-### dettenorge-62 · Omtrent hvor mange i Norge er medlem av Den norske kirke?
+### dettenorge-62 · Omtrent hvor mange i Norge er medlem av Den norske kirke (2026)?
 
 - A) Omtrent seks av ti ✔
 - B) Omtrent to av ti

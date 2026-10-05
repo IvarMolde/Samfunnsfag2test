@@ -76,7 +76,7 @@ module.exports=[
 ["Riktig. Ved to folkeavstemninger stemte et knapt flertall nei til medlemskap. EF var navnet på EU før.","Norge er ikke medlem av EU i dag. Det henger sammen med resultatet i disse to avstemningene."],
 ["Riktig. Norge er ikke med i EU, men gjennom EØS gjelder mange EU-regler også i Norge. Avtalen gjelder fra 1994.","EØS betyr Det europeiske økonomiske samarbeidsområdet. Det knytter Norge til EU."],
 ["Riktig. Norge deltar i FN, NATO og EØS. Norge er ikke medlem av EU.","Husk at Norge sa nei til EU to ganger."],
-["Riktig. I dag bor rundt åtti prosent i byer og tettsteder. Før 1850 var det bare rundt femten prosent.","Mange har flyttet fra landsbygda til byene de siste hundre årene. I dag bor de fleste i byer."],
+["Riktig. Rundt åtti prosent bor i byer og tettsteder. Før 1850 var det bare rundt femten prosent.","Mange har flyttet fra landsbygda til byene de siste hundre årene. De fleste bor nå i byer."],
 ["Riktig. Industrien trengte flere arbeidere. Mange kom for eksempel fra Pakistan, Tyrkia og Jugoslavia.","Rundt 1970 gikk det godt for norsk økonomi. Tenk på hva bedriftene trengte."],
 ["Riktig. En terrorist drepte 77 mennesker i regjeringskvartalet i Oslo og på Utøya. Dagen blir minnet hvert år.","Dette var et angrep på demokratiet. Mange av dem som døde, var ungdom på en politisk leir."]
 ];

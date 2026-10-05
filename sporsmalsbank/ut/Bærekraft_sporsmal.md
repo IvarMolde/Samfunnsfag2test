@@ -392,7 +392,7 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/1957-06-28-16, https://lovdat
 
 **Feil:** Navnet sier at det er statens fond. Pengene kommer fra olje- og gassvirksomheten.
 
-### baerekraft-38 · Hva sier handlingsregelen om bruken av oljefondet?
+### baerekraft-38 · Hva sier handlingsregelen om bruken av oljefondet (2026)?
 
 - A) Staten bruker omtrent 3 prosent av fondet hvert år ✔
 - B) Staten bruker omtrent 10 prosent av fondet hvert år
@@ -621,7 +621,7 @@ Tilleggskilder: https://infinitum.no/no/pantesystemet/hva-kan-pantes/, https://w
 
 **Feil:** Ordet «sortere» betyr å dele inn i grupper. Ulikt søppel skal i ulike dunker.
 
-### baerekraft-60 · Omtrent hvor mye søppel fra hjemmet kaster hver person i Norge i året?
+### baerekraft-60 · Omtrent hvor mye søppel fra hjemmet kaster hver person i Norge i året (2026)?
 
 - A) Omtrent 400 kilo ✔
 - B) Omtrent 40 kilo
@@ -691,7 +691,7 @@ Tilleggskilder: https://infinitum.no/no/pantesystemet/hva-kan-pantes/, https://w
 
 **Feil:** «Svinn» betyr at noe går tapt. Tenk på mat som havner i søppelet.
 
-### baerekraft-67 · Omtrent hvor mye av all maten i verden blir kastet?
+### baerekraft-67 · Omtrent hvor mye av all maten i verden blir kastet (2026)?
 
 - A) Omtrent 30 prosent ✔
 - B) Omtrent 5 prosent
@@ -731,15 +731,15 @@ Tilleggskilder: https://infinitum.no/no/pantesystemet/hva-kan-pantes/, https://w
 
 **Feil:** Tenk på den største næringen i Norge til havs.
 
-### baerekraft-71 · Hvordan har utslippene av klimagasser i Norge endret seg?
+### baerekraft-71 · Hvordan har utslippene av klimagasser i Norge endret seg siden 1990?
 
-- A) De har gått ned de siste årene ✔
-- B) De har økt raskt de siste årene
-- C) De har vært omtrent like i mange år
+- A) De er litt lavere enn i 1990 ✔
+- B) De er mye høyere enn i 1990
+- C) De er like store som i 1990
 
-**Riktig:** Riktig. Utslippene av klimagasser i Norge har gått ned de siste årene, men ikke like mye hvert år. Norge må kutte mer for å nå klimamålene.
+**Riktig:** Riktig. Utslippene av klimagasser i Norge er litt lavere enn i 1990, men ikke like mye hvert år. Norge må kutte mer for å nå klimamålene.
 
-**Feil:** Tenk på elbiler og nye regler. Hva har skjedd med utslippene?
+**Feil:** Tenk på elbiler og nye regler. Hva har skjedd med utslippene siden 1990?
 
 ### baerekraft-72 · Hva er en nullutslippsbil?
 

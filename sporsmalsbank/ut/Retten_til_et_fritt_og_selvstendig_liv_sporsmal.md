@@ -283,13 +283,13 @@ Tilleggskilder: https://lovdata.no/lov/2005-05-20-28/§282, https://lovdata.no/l
 
 **Feil:** Barn og unge som blir utsatt for vold, kan ringe Alarmtelefonen. Nummeret er 116 111.
 
-### frihet-28 · Hvor kan eldre over 62 år ringe hvis de utsettes for vold?
+### frihet-28 · Hvor kan eldre over 62 år få hjelp hvis de utsettes for vold?
 
-- A) Vern for eldre, 800 30 196 ✔
-- B) Nav kontaktsenter, 55 55 33 33
-- C) Opplysningen, 1881
+- A) Vern for eldre ✔
+- B) Nav kontaktsenter
+- C) Opplysningen
 
-**Riktig:** Riktig. Vern for eldre, 800 30 196, gir råd og hjelp til personer over 62 år som er utsatt for vold og overgrep.
+**Riktig:** Riktig. Vern for eldre gir råd og hjelp til personer over 62 år som er utsatt for vold og overgrep.
 
 **Feil:** Det finnes en egen kontakttelefon for eldre som blir utsatt for vold. Den heter Vern for eldre.
 

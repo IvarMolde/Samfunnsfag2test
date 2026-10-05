@@ -69,7 +69,7 @@ module.exports=[
 ["Riktig. «Best før» betyr at kvaliteten er garantert til datoen. Maten er ofte god etterpå. Bruk sansene: se, lukt og smak. «Siste forbruksdag» er strengere.","«Best før» handler om kvalitet, ikke om fare. Den strenge merkingen heter «siste forbruksdag»."],
 ["Riktig. Hvis du planlegger hva du skal kjøpe og spiser opp restene, kaster du mindre mat.","Tenk på hvorfor mat havner i søppelet: vi kjøper for mye og glemmer restene."],
 ["Riktig. De største utslippene i Norge kommer fra olje- og gassutvinning, industri og bergverk og veitrafikk.","Tenk på den største næringen i Norge til havs."],
-["Riktig. Utslippene av klimagasser i Norge har gått ned de siste årene, men ikke like mye hvert år. Norge må kutte mer for å nå klimamålene.","Tenk på elbiler og nye regler. Hva har skjedd med utslippene?"],
+["Riktig. Utslippene av klimagasser i Norge er litt lavere enn i 1990, men ikke like mye hvert år. Norge må kutte mer for å nå klimamålene.","Tenk på elbiler og nye regler. Hva har skjedd med utslippene siden 1990?"],
 ["Riktig. En nullutslippsbil, for eksempel en elbil, slipper ikke ut klimagasser når den kjører.","«Null utslipp» betyr at ingenting kommer ut av eksosrøret. En bil med diesel slipper ut gass."],
 ["Riktig. I 2024 var det for første gang flere elbiler enn bensinbiler på norske veier.","Det har blitt veldig mange elbiler de siste årene. Nye bensinbiler er ikke forbudt."],
 ["Riktig. Målet er at flere reiser i de store byene skal skje med kollektivtransport, sykkel eller gange, slik at biltrafikken ikke øker.","Målet er at biltrafikken i byene ikke skal øke, selv om det blir flere innbyggere."],

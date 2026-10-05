@@ -26,7 +26,7 @@ module.exports=[
 ["Riktig. De som jobber på krisesenteret, har taushetsplikt. De skal ikke fortelle andre hvem som bor der.","Krisesenteret skal være trygt. De ansatte skal ikke gi ut opplysninger om hvem som bor der."],
 ["Riktig. Vold- og overgrepslinjen, 116 006, er gratis og døgnåpen. Du kan være anonym.","116 006 er en hjelpelinje for deg som opplever vold eller overgrep i nære relasjoner."],
 ["Riktig. Alarmtelefonen for barn og unge, 116 111, er gratis og åpen hele døgnet. Voksne som er bekymret for et barn, kan også ringe.","Barn og unge som blir utsatt for vold, kan ringe Alarmtelefonen. Nummeret er 116 111."],
-["Riktig. Vern for eldre, 800 30 196, gir råd og hjelp til personer over 62 år som er utsatt for vold og overgrep.","Det finnes en egen kontakttelefon for eldre som blir utsatt for vold. Den heter Vern for eldre."],
+["Riktig. Vern for eldre gir råd og hjelp til personer over 62 år som er utsatt for vold og overgrep.","Det finnes en egen kontakttelefon for eldre som blir utsatt for vold. Den heter Vern for eldre."],
 ["Riktig. Dinutvei.no har informasjon om vold og overgrep, og om hvor man kan få hjelp.","Dinutvei.no er en nettside for deg som opplever vold, og for dem som vil hjelpe."],
 ["Riktig. Et kontaktforbud betyr at en person ikke får oppsøke, følge etter eller kontakte en annen person. Politiet eller retten kan bestemme det.","Et kontaktforbud skal beskytte en person som er utsatt for vold eller trusler."],
 ["Riktig. Hvis du har familieinnvandring og er mishandlet av ektefellen eller samboeren, kan du søke UDI om egen oppholdstillatelse. Du må ha flyttet fra personen.","Ingen skal måtte bli i et voldelig ekteskap for å få bli i Norge. UDI har en egen regel for dette."],

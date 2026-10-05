@@ -80,12 +80,12 @@ module.exports = { "tema": "Historie", "emner": [
 ["Hvilken lov fra 1978 skulle sikre like rettigheter for kvinner og menn?","Likestillingsloven","Arbeidsmiljøloven","Barneloven"],
 ["Hva fant man i Nordsjøen i 1969?","Det store oljefeltet Ekofisk","Store mengder med gull og sølv","Gamle skip fra vikingtiden"],
 ["Hvem eier oljen og gassen i havet utenfor Norge?","Staten, altså hele folket","Selskapene som finner oljen","Kommunene langs kysten"],
-["Hva er mange uenige om når det gjelder oljen i dag?","Hva den betyr for natur og miljø","Om oljen har gjort Norge rikere","Hvor i Nordsjøen oljen ble funnet"],
+["Hva er mange uenige om når det gjelder oljen?","Hva den betyr for natur og miljø","Om oljen har gjort Norge rikere","Hvor i Nordsjøen oljen ble funnet"],
 ["Hvilke rettigheter hadde folk i Norge før oljen ble funnet?","Gratis skole og syketrygd","Gratis barnehage for barn","Gratis reiser med buss og tog"],
 ["Hva stemte et flertall i Norge i 1972 og 1994?","Nei til å bli med i EF og EU","Ja til å bli med i EF og EU","Nei til å bli med i FN og NATO"],
 ["Hva er EØS-avtalen?","En avtale om handel og samarbeid med EU","En avtale om forsvar sammen med USA og Canada","En avtale om fiske med Russland"],
 ["Hvilket internasjonalt samarbeid er Norge med i?","FN, NATO og EØS","EU, FN og OPEC","EU, NATO og OPEC"],
-["Hvor stor del av folket bor i byer og tettsteder i dag?","Rundt 80 prosent","Rundt 35 prosent","Rundt 15 prosent"],
+["Hvor stor del av folket bor i byer og tettsteder (2026)?","Rundt 80 prosent","Rundt 35 prosent","Rundt 15 prosent"],
 ["Hvorfor kom mange arbeidsinnvandrere til Norge rundt 1970?","Det var mangel på arbeidskraft","Det var krig i Norge da","Norge ga dem gratis bolig"],
 ["Hva skjedde i Norge 22. juli 2011?","Terrorangrep i Oslo og på Utøya","En stor flom på Vestlandet","Et skipsforlis i Nordsjøen"]
 ]}

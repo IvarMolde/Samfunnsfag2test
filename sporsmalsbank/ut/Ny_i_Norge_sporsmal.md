@@ -11,7 +11,7 @@ Kilde: samfunnskunnskap.no, med tilleggskilder der det står. Tre svaralternativ
 
 Kilde: https://samfunnskunnskap.no/nb/ny-i-norge/et-liv-i-norge.html
 
-### norge-01 · Omtrent hvor mange barn blir født i Norge hvert år?
+### norge-01 · Omtrent hvor mange barn blir født i Norge hvert år (2026)?
 
 - A) Omtrent 50 000 barn ✔
 - B) Omtrent 5 000 barn
@@ -21,7 +21,7 @@ Kilde: https://samfunnskunnskap.no/nb/ny-i-norge/et-liv-i-norge.html
 
 **Feil:** Norge har 5–6 millioner innbyggere. Da blir det født omtrent 50 000 barn hvert år.
 
-### norge-02 · Hvor mange barn får en kvinne i Norge i gjennomsnitt?
+### norge-02 · Hvor mange barn får en kvinne i Norge i gjennomsnitt (2026)?
 
 - A) Omtrent 1,5 barn ✔
 - B) Omtrent 2,5 barn
@@ -31,7 +31,7 @@ Kilde: https://samfunnskunnskap.no/nb/ny-i-norge/et-liv-i-norge.html
 
 **Feil:** Familiene i Norge er ofte små. Gjennomsnittet er under to barn.
 
-### norge-03 · Hvor gammel er en kvinne i Norge når hun får første barn?
+### norge-03 · Hvor gammel er en kvinne i Norge når hun får første barn (2026)?
 
 - A) Omtrent 30 år gammel ✔
 - B) Omtrent 20 år gammel
@@ -191,7 +191,7 @@ Kilde: https://samfunnskunnskap.no/nb/ny-i-norge/et-liv-i-norge.html
 
 **Feil:** SFO er ikke et fag eller en egen skole. Det er et tilbud ved siden av skoledagen.
 
-### norge-19 · Omtrent hvor mange barn i 1. til 4. klasse går på SFO?
+### norge-19 · Omtrent hvor mange barn i 1. til 4. klasse går på SFO (2026)?
 
 - A) Omtrent åtte av ti barn ✔
 - B) Omtrent to av ti barn
@@ -201,7 +201,7 @@ Kilde: https://samfunnskunnskap.no/nb/ny-i-norge/et-liv-i-norge.html
 
 **Feil:** SFO er et vanlig tilbud. De fleste barn på de laveste trinnene bruker det.
 
-### norge-20 · Hvor mange fullfører videregående skole i Norge?
+### norge-20 · Hvor mange fullfører videregående skole i Norge (2026)?
 
 - A) Nesten åtte av ti elever ✔
 - B) Omtrent fire av ti elever
@@ -211,7 +211,7 @@ Kilde: https://samfunnskunnskap.no/nb/ny-i-norge/et-liv-i-norge.html
 
 **Feil:** Det er flere enn seks av ti. Nesten åtte av ti elever fullfører.
 
-### norge-21 · Hvor mange elever velger yrkesfag på videregående?
+### norge-21 · Hvor mange elever velger yrkesfag på videregående (2026)?
 
 - A) Omtrent halvparten ✔
 - B) Omtrent én av ti elever
@@ -281,7 +281,7 @@ Kilde: https://samfunnskunnskap.no/nb/ny-i-norge/et-liv-i-norge.html
 
 **Feil:** Nav og Skatteetaten har andre oppgaver. Lånekassen gir studielån.
 
-### norge-28 · Hvor mye studiegjeld har en student i gjennomsnitt etter studiene?
+### norge-28 · Hvor mye studiegjeld har en student i gjennomsnitt etter studiene (2026)?
 
 - A) Omtrent 450 000 kroner ✔
 - B) Omtrent 150 000 kroner
@@ -321,7 +321,7 @@ Kilde: https://samfunnskunnskap.no/nb/ny-i-norge/et-liv-i-norge.html
 
 **Feil:** Skolen og kommunen hjelper barna, men de har ikke hovedansvaret. Det har de som oppdrar barna.
 
-### norge-32 · Hvor gamle er mange nordmenn når de gifter seg?
+### norge-32 · Hvor gamle er mange nordmenn når de gifter seg (2026)?
 
 - A) Mellom 30 og 40 år gamle ✔
 - B) Mellom 18 og 20 år gamle
@@ -371,7 +371,7 @@ Kilde: https://samfunnskunnskap.no/nb/ny-i-norge/et-liv-i-norge.html
 
 **Feil:** Penger til utleier kalles husleie. Et boliglån får du fra en bank.
 
-### norge-37 · Hvor stort er boliglånet til mange som kjøper bolig i Norge?
+### norge-37 · Hvor stort er boliglånet til mange som kjøper bolig i Norge (2026)?
 
 - A) Flere millioner kroner ✔
 - B) Noen hundre tusen kroner
@@ -391,7 +391,7 @@ Kilde: https://samfunnskunnskap.no/nb/ny-i-norge/et-liv-i-norge.html
 
 **Feil:** Lånekassen gir studielån og Skatteetaten tar imot skatt. Nav betaler ut pensjon.
 
-### norge-39 · Hvor gamle er mange nordmenn når de slutter å jobbe?
+### norge-39 · Hvor gamle er mange nordmenn når de slutter å jobbe (2026)?
 
 - A) Omtrent 67 år gamle ✔
 - B) Omtrent 50 år gamle
@@ -742,7 +742,7 @@ Kilde: https://samfunnskunnskap.no/nb/ny-i-norge/introduksjonsprogrammet-og-inte
 
 Kilde: https://samfunnskunnskap.no/nb/ny-i-norge.html
 
-### norge-72 · Omtrent hvor mange mennesker bor i Norge?
+### norge-72 · Omtrent hvor mange mennesker bor i Norge (2026)?
 
 - A) Over fem millioner ✔
 - B) Omtrent én million

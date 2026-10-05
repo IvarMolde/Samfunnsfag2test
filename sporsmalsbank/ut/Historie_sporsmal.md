@@ -769,7 +769,7 @@ Tilleggskilder: https://snl.no/Ekofisk, https://snl.no/Gro_Harlem_Brundtland, ht
 
 **Feil:** Det er det samme som med vannkraften. Ressursene skal komme hele folket til gode.
 
-### historie-73 · Hva er mange uenige om når det gjelder oljen i dag?
+### historie-73 · Hva er mange uenige om når det gjelder oljen?
 
 - A) Hva den betyr for natur og miljø ✔
 - B) Om oljen har gjort Norge rikere
@@ -819,15 +819,15 @@ Tilleggskilder: https://snl.no/Ekofisk, https://snl.no/Gro_Harlem_Brundtland, ht
 
 **Feil:** Husk at Norge sa nei til EU to ganger.
 
-### historie-78 · Hvor stor del av folket bor i byer og tettsteder i dag?
+### historie-78 · Hvor stor del av folket bor i byer og tettsteder (2026)?
 
 - A) Rundt 80 prosent ✔
 - B) Rundt 35 prosent
 - C) Rundt 15 prosent
 
-**Riktig:** Riktig. I dag bor rundt åtti prosent i byer og tettsteder. Før 1850 var det bare rundt femten prosent.
+**Riktig:** Riktig. Rundt åtti prosent bor i byer og tettsteder. Før 1850 var det bare rundt femten prosent.
 
-**Feil:** Mange har flyttet fra landsbygda til byene de siste hundre årene. I dag bor de fleste i byer.
+**Feil:** Mange har flyttet fra landsbygda til byene de siste hundre årene. De fleste bor nå i byer.
 
 ### historie-79 · Hvorfor kom mange arbeidsinnvandrere til Norge rundt 1970?
 

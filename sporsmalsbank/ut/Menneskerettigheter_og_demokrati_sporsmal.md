@@ -521,7 +521,7 @@ Tilleggskilder: https://www.fn.no/tema/menneskerettigheter, https://lovdata.no/d
 
 **Feil:** FN ble grunnlagt i 1945. Erklæringen kom noen år senere, etter andre verdenskrig.
 
-### demokrati-50 · Hvor mange land er medlemmer i FN i dag?
+### demokrati-50 · Hvor mange land er medlemmer i FN i dag (2026)?
 
 - A) 193 ✔
 - B) 165

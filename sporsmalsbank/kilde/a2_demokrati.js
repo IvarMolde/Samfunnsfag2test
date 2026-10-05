@@ -53,7 +53,7 @@ module.exports = { "tema": "Menneskerettigheter og demokrati", "emner": [
 ["Hva betyr det at menneskerettighetene er universelle?","De gjelder for alle mennesker i verden","De gjelder for land som har skrevet under","De gjelder for voksne statsborgere"],
 ["Hvorfor har vi menneskerettigheter?","Fordi vi er mennesker","Fordi vi er statsborgere","Fordi vi betaler skatt"],
 ["Når vedtok FN verdenserklæringen om menneskerettighetene?","I 1948","I 1945","I 1965"],
-["Hvor mange land er medlemmer i FN i dag?","193","165","215"],
+["Hvor mange land er medlemmer i FN i dag (2026)?","193","165","215"],
 ["Hvilken dag er menneskerettighetenes dag?","10. desember","17. mai","24. oktober"],
 ["Hva sier menneskerettighetene om tortur?","Tortur er forbudt i alle former","Tortur er lov under en krig","Tortur er lov hvis en dommer sier ja"],
 ["Hva sier Grunnloven om dødsstraff?","Ingen kan dømmes til døden","Dødsstraff er lov under en krig","Domstolene avgjør det i hver sak"],

@@ -27,7 +27,7 @@ module.exports = { "tema": "Retten til et fritt og selvstendig liv", "emner": [
 ["Hvem får vite hvem som bor på et krisesenter?","Ingen, for de ansatte har taushetsplikt","Familien til den som bor der, hvis de spør","Naboene rundt krisesenteret, hvis de spør"],
 ["Hva er Vold- og overgrepslinjen, 116 006?","En gratis og anonym hjelpelinje","Et nummer for å bestille legetime","Et nummer for å melde fra om innbrudd"],
 ["Hvor kan barn og unge ringe hvis de blir utsatt for vold?","Alarmtelefonen for barn og unge, 116 111","Legevakten, 116 117, for å bestille time","Skatteetaten, 800 80 000, for å få råd"],
-["Hvor kan eldre over 62 år ringe hvis de utsettes for vold?","Vern for eldre, 800 30 196","Nav kontaktsenter, 55 55 33 33","Opplysningen, 1881"],
+["Hvor kan eldre over 62 år få hjelp hvis de utsettes for vold?","Vern for eldre","Nav kontaktsenter","Opplysningen"],
 ["Hva er dinutvei.no?","En nettside om vold og hjelpetilbud","En nettside for å søke jobb i kommunen","En nettside for å kjøpe bussbilletter"],
 ["Hva er et kontaktforbud?","Forbud mot å oppsøke eller kontakte noen","Forbud mot å ringe politiet om natten","Forbud mot å bruke mobil på skolen"],
 ["Ana har opphold fordi hun er gift. Mannen mishandler henne. Hva kan hun søke om?","Egen oppholdstillatelse hos UDI","Norsk statsborgerskap med en gang","Penger fra mannen som en straff"],

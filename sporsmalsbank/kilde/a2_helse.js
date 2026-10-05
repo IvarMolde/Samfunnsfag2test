@@ -18,9 +18,9 @@ module.exports = { "tema": "Helse", "emner": [
 ["Hvem skal tolke når pasienten og legen ikke forstår hverandre?","En kvalifisert tolk","Et barn i familien","En venn av pasienten"]
 ]},
 { "emne":"Helse og livsstil","kilde":"https://samfunnskunnskap.no/nb/helse/helse-og-livsstil.html","tillegg":["https://www.helsenorge.no/kosthold-og-ernaring/"], "items": [
-["Hvordan har folkehelsen i Norge endret seg de siste hundre årene?","Den har blitt mye bedre","Den har blitt mye dårligere","Den er omtrent som før"],
-["Hva døde mange nordmenn av for omtrent hundre år siden?","Tuberkulose og underernæring","Allergi og astma hos barn","Hodepine og søvnproblemer"],
-["Hva er de vanligste dødsårsakene i Norge i dag?","Kreft og hjerte- og karsykdommer","Tuberkulose og andre infeksjoner","Trafikkulykker og drukning"],
+["Hvordan har folkehelsen i Norge endret seg siden 1900?","Den har blitt mye bedre","Den har blitt mye dårligere","Den er omtrent som før"],
+["Hva døde mange nordmenn av rundt 1900?","Tuberkulose og underernæring","Allergi og astma hos barn","Hodepine og søvnproblemer"],
+["Hva er de vanligste dødsårsakene i Norge (2026)?","Kreft og hjerte- og karsykdommer","Tuberkulose og andre infeksjoner","Trafikkulykker og drukning"],
 ["Hvilke helseproblemer blir stadig vanligere i Norge?","Diabetes og stor overvekt","Kolera og tyfus","Malaria og denguefeber"],
 ["Hva øker risikoen for kreft og hjertesykdom?","Å røyke tobakk","Å gå lange turer","Å spise mye fisk"],
 ["Hva gir oss størst sjanse for å holde oss friske lenge?","Sunn mat og fysisk aktivitet","Mye hvile og lite bevegelse","Vitaminpiller og lite mat"],
@@ -40,7 +40,7 @@ module.exports = { "tema": "Helse", "emner": [
 ["Hvem kan henvise deg til psykolog?","Fastlegen","Apoteket","Nav-kontoret"],
 ["Hva gjør en psykolog?","Hjelper folk med tanker og følelser","Opererer pasienter på sykehus","Gir pasienter vaksiner og sprøyter"],
 ["Hva er en egenandel?","Den delen av prisen som pasienten betaler selv","Den delen av prisen som staten betaler","Penger som pasienten får tilbake etter besøket"],
-["Hva mener de fleste i Norge om psykisk sykdom i dag?","At den skal behandles som fysisk sykdom","At det er noe man helst ikke bør snakke om","At de syke må klare seg uten hjelp"],
+["Hva mener de fleste i Norge om psykisk sykdom?","At den skal behandles som fysisk sykdom","At det er noe man helst ikke bør snakke om","At de syke må klare seg uten hjelp"],
 ["Er det mulig å bli frisk av psykiske lidelser?","Ja, mange blir friske med god hjelp","Nei, man må leve med det resten av livet","Nei, sykdommen blir verre med årene"],
 ["Hvor kan du ringe når du trenger noen å snakke med om natten?","Mental Helse på 116 123","Brannvesenet på 110","Opplysningen på 1881"],
 ["En venn sier at han vil skade seg selv nå. Hva gjør du?","Ringer nødnummeret 113","Sender e-post til fastlegen","Venter og ser om det går over"],
@@ -54,7 +54,7 @@ module.exports = { "tema": "Helse", "emner": [
 ["Hva koster svangerskapskontroll for gravide i Norge?","Den er gratis","Rundt 200 kroner","Halv pris med frikort"],
 ["Hvor går gravide til svangerskapskontroll?","Til jordmor eller fastlegen","Til apoteket eller legevakten","Til barnevernet eller tannlegen"],
 ["Må gravide gå til svangerskapskontroll?","Nei, men det anbefales","Ja, det er påbudt ved lov","Ja, ellers mister hun foreldrepenger"],
-["Hvor lenge i svangerskapet kan kvinnen få abort når hun ber om det?","De første 18 ukene","De første 12 ukene","De første 22 ukene"],
+["Hvor lenge i svangerskapet kan kvinnen få abort når hun ber om det (2026)?","De første 18 ukene","De første 12 ukene","De første 22 ukene"],
 ["Hvem bestemmer om en kvinne skal ta abort i de første ukene?","Den gravide kvinnen selv","Kvinnen og mannen sammen","Legen på sykehuset"],
 ["Hvor går foreldre med babyer og småbarn til helsekontroll?","Til helsestasjonen","Til legevakten","Til tannlegen"],
 ["Lille Sara på to år har feber. Hvem skal undersøke henne?","Fastlegen","Helsestasjonen","Skolehelsetjenesten"],
@@ -62,8 +62,8 @@ module.exports = { "tema": "Helse", "emner": [
 ["Hvem gir helsekontroller og vaksiner til elever på skolen?","Skolehelsetjenesten","Fastlegen til barnet","Legevakten i kommunen"]
 ]},
 { "emne":"Tannhelse","kilde":"https://samfunnskunnskap.no/nb/helse/tannhelse.html","tillegg":["https://www.helsenorge.no/betaling-for-helsetjenester/hvem-betaler-tannlegeregningen-din/","https://www.helsedirektoratet.no/lov-og-forskrift/tannhelsetjenesteloven/tannbehandling-til-unge-voksne-mellom-19-og-28-ar"], "items": [
-["Hvem får gratis behandling i den offentlige tannhelsetjenesten?","Barn til og med året de fyller 18","Voksne som har en fast jobb i Norge","Pensjonister som er over 67 år gamle"],
-["Hvor mye betaler unge voksne fra 19 til 28 år på offentlig tannklinikk?","25 prosent av prisen","75 prosent av prisen","50 prosent av prisen"],
+["Hvem får gratis behandling i den offentlige tannhelsetjenesten (2026)?","Barn til og med året de fyller 18","Voksne som har en fast jobb i Norge","Pensjonister som er over 67 år gamle"],
+["Hvor mye betaler unge voksne fra 19 til 28 år på offentlig tannklinikk (2026)?","25 prosent av prisen","75 prosent av prisen","50 prosent av prisen"],
 ["Hvor ofte er det vanlig at voksne går til tannkontroll?","Én gang i året","Én gang i måneden","Én gang hvert tiende år"],
 ["Hvor ofte bør man pusse tennene?","To ganger om dagen","Én gang i uka","Fem ganger om dagen"],
 ["Hva er skadelig for tennene?","Sukker i mat og drikke","Fluor i tannkrem","Ost og rå grønnsaker"],

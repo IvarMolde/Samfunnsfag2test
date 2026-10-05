@@ -2,7 +2,7 @@ module.exports=[
 ["Riktig. En husholdning er personer som bor i samme bolig og har felles økonomi.","En husholdning handler om å bo i samme bolig og ha felles økonomi. Slekt eller naboer er ikke nok."],
 ["Riktig. En kjernefamilie er foreldre og barna deres. Det kan være én eller to foreldre.","Tenk på den minste familien. Slektninger utenfor hjemmet hører til storfamilien."],
 ["Riktig. I en storfamilie bor flere generasjoner sammen, for eksempel besteforeldre, foreldre og barn.","En storfamilie handler ikke om stort hus eller venner. Det er flere generasjoner i samme familie som bor sammen."],
-["Riktig. I Norge i dag kan en kjernefamilie være to mødre eller to fedre med barn, eller en mor eller far alene med barn.","En kjernefamilie er foreldre og barn. I Norge kan foreldrene være to av samme kjønn."],
+["Riktig. I Norge kan en kjernefamilie være to mødre eller to fedre med barn, eller en mor eller far alene med barn.","En kjernefamilie er foreldre og barn. I Norge kan foreldrene være to av samme kjønn."],
 ["Riktig. I en norsk husholdning bor det i gjennomsnitt litt mer enn to personer.","Norske husholdninger er små. Mange bor alene, og gjennomsnittet er litt mer enn to personer."],
 ["Riktig. Omtrent sju av ti par som bor sammen, er gift. De andre er samboere.","De fleste par som bor sammen, er gift. Omtrent tre av ti er samboere."],
 ["Riktig. Siden 2009 har to av samme kjønn hatt rett til å gifte seg i Norge.","Loven om ekteskap ble lik for alle par i 2009. Siden da kan to kvinner eller to menn gifte seg."],

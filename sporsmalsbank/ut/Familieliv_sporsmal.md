@@ -43,17 +43,17 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/1991-07-04-47, https://lovdat
 
 **Feil:** En storfamilie handler ikke om stort hus eller venner. Det er flere generasjoner i samme familie som bor sammen.
 
-### familie-04 · Hvilken familie kan også være en kjernefamilie i Norge i dag?
+### familie-04 · Hvilken familie kan også være en kjernefamilie i Norge?
 
 - A) To mødre og barna deres ✔
 - B) To søsken som bor sammen
 - C) Besteforeldre og barnebarna deres
 
-**Riktig:** Riktig. I Norge i dag kan en kjernefamilie være to mødre eller to fedre med barn, eller en mor eller far alene med barn.
+**Riktig:** Riktig. I Norge kan en kjernefamilie være to mødre eller to fedre med barn, eller en mor eller far alene med barn.
 
 **Feil:** En kjernefamilie er foreldre og barn. I Norge kan foreldrene være to av samme kjønn.
 
-### familie-05 · Omtrent hvor mange personer bor i en norsk husholdning?
+### familie-05 · Omtrent hvor mange personer bor i en norsk husholdning (2026)?
 
 - A) Litt mer enn to ✔
 - B) Litt mer enn fire
@@ -63,7 +63,7 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/1991-07-04-47, https://lovdat
 
 **Feil:** Norske husholdninger er små. Mange bor alene, og gjennomsnittet er litt mer enn to personer.
 
-### familie-06 · Omtrent hvor mange av parene som bor sammen, er gift?
+### familie-06 · Omtrent hvor mange av parene som bor sammen, er gift (2026)?
 
 - A) Omtrent sju av ti ✔
 - B) Omtrent tre av ti
@@ -83,7 +83,7 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/1991-07-04-47, https://lovdat
 
 **Feil:** Loven om ekteskap ble lik for alle par i 2009. Siden da kan to kvinner eller to menn gifte seg.
 
-### familie-08 · Omtrent hvor mange av dem som gifter seg, vil trolig skille seg?
+### familie-08 · Omtrent hvor mange av dem som gifter seg, vil trolig skille seg (2026)?
 
 - A) Omtrent fire av ti ✔
 - B) Omtrent én av ti

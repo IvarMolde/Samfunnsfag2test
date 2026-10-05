@@ -199,9 +199,9 @@ Tilleggskilder: https://samfunnskunnskap.no/nb/personlig-okonomi.html, https://w
 - B) Hos Skatteetaten
 - C) Hos inkassobyrået
 
-**Riktig:** Riktig. Nav gir gratis råd om økonomi og gjeld. Telefonen er 55 55 33 39.
+**Riktig:** Riktig. Nav gir gratis råd om økonomi og gjeld.
 
-**Feil:** Nav har økonomiske rådgivere. Ring 55 55 33 39 eller kontakt Nav-kontoret.
+**Feil:** Nav har økonomiske rådgivere. Kontakt Nav-kontoret for å få hjelp.
 
 ### okonomi-20 · Maria har mye gjeld og klarer ikke å betale. Hva bør hun gjøre?
 
@@ -283,7 +283,7 @@ Tilleggskilder: https://samfunnskunnskap.no/nb/personlig-okonomi.html, https://w
 
 **Feil:** AvtaleGiro er ikke et lån. Det er en avtale om at banken betaler regningen automatisk.
 
-### okonomi-28 · Hva skjer hvis arbeidsgiveren ikke har skattekortet ditt?
+### okonomi-28 · Hva skjer hvis arbeidsgiveren ikke har skattekortet ditt (2026)?
 
 - A) Arbeidsgiveren trekker 50 prosent skatt ✔
 - B) Du betaler ingen skatt før det kommer
@@ -355,7 +355,7 @@ Tilleggskilder: https://samfunnskunnskap.no/nb/personlig-okonomi.html, https://w
 
 ### okonomi-35 · Hva er BSU?
 
-- A) Sparing til bolig for unge under 34 år ✔
+- A) Sparekonto til bolig for unge voksne ✔
 - B) Lån til bolig for familier med barn
 - C) Støtte til husleie for studenter i byene
 
@@ -462,7 +462,7 @@ Kilde: https://samfunnskunnskap.no/nb/personlig-okonomi/bolig.html
 
 Tilleggskilder: https://lovdata.no/dokument/NL/lov/1999-03-26-17, https://lovdata.no/dokument/NL/lov/2003-06-06-39, https://lovdata.no/dokument/SF/forskrift/2020-12-09-2648, https://www.regjeringen.no/no/aktuelt/utlansforskriften-senker-kravet-til-egenkapital-for-boliglan/id3077641/, https://lovdata.no/dokument/SF/forskrift/2007-11-23-1318, https://nef.no/slik-kjoper-du-bolig/regler-for-budgivning/, https://www.husbanken.no/person/startlaan/soke-startlaan-og-tilskudd, https://www.husbanken.no/person/bostotte/, https://www.forbrukerradet.no/forside/bolig/husleie/, https://www.forbrukerradet.no/forside/bolig/husleie/depositum/, https://www.forbrukerradet.no/kontrakter/hus/husleiekontrakt-bokmal/, https://www.skatteetaten.no/person/folkeregister/flytte/i-norge/, https://www.htu.no/
 
-### okonomi-45 · Hvor mange husholdninger i Norge eier boligen sin?
+### okonomi-45 · Hvor mange husholdninger i Norge eier boligen sin (2026)?
 
 - A) Omtrent åtte av ti ✔
 - B) Omtrent fem av ti
@@ -552,7 +552,7 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/1999-03-26-17, https://lovdat
 
 **Feil:** Lån er ikke egenkapital. Egenkapital er dine egne penger.
 
-### okonomi-54 · Hvor mye egenkapital må du vanligvis ha når du kjøper bolig?
+### okonomi-54 · Hvor mye egenkapital må du vanligvis ha når du kjøper bolig (2026)?
 
 - A) 10 prosent av prisen ✔
 - B) 40 prosent av prisen

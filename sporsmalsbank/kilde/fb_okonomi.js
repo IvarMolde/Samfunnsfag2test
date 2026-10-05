@@ -17,7 +17,7 @@ module.exports=[
 ["Riktig. Før du får lån eller kreditt, sjekker banken om du har betalt gjeld og regninger i tide.","Tenk på gjeld. Banken vil vite om du er en trygg låntaker. Den ser ikke på sparepengene dine."],
 ["Riktig. Det du ikke betaler, blir et lån med høy rente.","Du kan ikke bare bytte kort eller vente. Det du skylder, koster penger."],
 ["Riktig. Gjeldsregisteret viser gjeld uten sikkerhet, som forbrukslån og kredittkort. Det er gratis å sjekke.","Boliglån og studielån er ikke med. Registeret viser forbrukslån og kredittkort."],
-["Riktig. Nav gir gratis råd om økonomi og gjeld. Telefonen er 55 55 33 39.","Nav har økonomiske rådgivere. Ring 55 55 33 39 eller kontakt Nav-kontoret."],
+["Riktig. Nav gir gratis råd om økonomi og gjeld.","Nav har økonomiske rådgivere. Kontakt Nav-kontoret for å få hjelp."],
 ["Riktig. Det er viktig å få hjelp tidlig. En gjeldsrådgiver gir gratis råd.","Nye lån og uåpnede brev gjør problemet større. Gjeld blir lettere å løse hvis du handler raskt."],
 ["Riktig. Når du betaler for sent, kan du få purregebyr og forsinkelsesrente.","Regningen forsvinner ikke. Den blir dyrere med gebyr og renter."],
 ["Riktig. Et inkassobyrå krever inn penger for andre når regninger ikke blir betalt.","Et inkassobyrå gir ikke lån eller råd. Det krever inn regninger som ikke er betalt."],

@@ -182,17 +182,17 @@ Kilde: https://samfunnskunnskap.no/nb/helse/helse-og-livsstil.html
 
 Tilleggskilder: https://www.helsenorge.no/kosthold-og-ernaring/
 
-### helse-17 · Hvordan har folkehelsen i Norge endret seg de siste hundre årene?
+### helse-17 · Hvordan har folkehelsen i Norge endret seg siden 1900?
 
 - A) Den har blitt mye bedre ✔
 - B) Den har blitt mye dårligere
 - C) Den er omtrent som før
 
-**Riktig:** Riktig. Folkehelsen i Norge har blitt mye bedre de siste hundre årene. Folk lever lenger.
+**Riktig:** Riktig. Folkehelsen i Norge har blitt mye bedre siden 1900. Folk lever lenger.
 
 **Feil:** Velferdssamfunnet har gitt bedre liv. Folk i Norge lever lenger og er friskere enn før.
 
-### helse-18 · Hva døde mange nordmenn av for omtrent hundre år siden?
+### helse-18 · Hva døde mange nordmenn av rundt 1900?
 
 - A) Tuberkulose og underernæring ✔
 - B) Allergi og astma hos barn
@@ -200,9 +200,9 @@ Tilleggskilder: https://www.helsenorge.no/kosthold-og-ernaring/
 
 **Riktig:** Riktig. Tidligere døde mange av sykdommer som kom av fattigdom, som tuberkulose og underernæring.
 
-**Feil:** For hundre år siden var mange fattige. Tenk på sykdommer som kommer av fattigdom, trange hus og for lite mat.
+**Feil:** Rundt 1900 var mange fattige. Tenk på sykdommer som kommer av fattigdom, trange hus og for lite mat.
 
-### helse-19 · Hva er de vanligste dødsårsakene i Norge i dag?
+### helse-19 · Hva er de vanligste dødsårsakene i Norge (2026)?
 
 - A) Kreft og hjerte- og karsykdommer ✔
 - B) Tuberkulose og andre infeksjoner
@@ -210,7 +210,7 @@ Tilleggskilder: https://www.helsenorge.no/kosthold-og-ernaring/
 
 **Riktig:** Riktig. Kreft og hjerte- og karsykdommer er de vanligste dødsårsakene i Norge.
 
-**Feil:** Tuberkulose er ikke lenger vanlig i Norge. I dag dør flest av kreft og sykdommer i hjertet og blodårene.
+**Feil:** Tuberkulose er ikke lenger vanlig i Norge. Flest dør av kreft og sykdommer i hjertet og blodårene.
 
 ### helse-20 · Hvilke helseproblemer blir stadig vanligere i Norge?
 
@@ -391,7 +391,7 @@ Tilleggskilder: https://mentalhelse.no/fa-hjelp/hjelpetelefonen/
 
 **Feil:** Ordet «egen» betyr at det er din del. Tenk på hvem som betaler denne delen.
 
-### helse-37 · Hva mener de fleste i Norge om psykisk sykdom i dag?
+### helse-37 · Hva mener de fleste i Norge om psykisk sykdom?
 
 - A) At den skal behandles som fysisk sykdom ✔
 - B) At det er noe man helst ikke bør snakke om
@@ -399,7 +399,7 @@ Tilleggskilder: https://mentalhelse.no/fa-hjelp/hjelpetelefonen/
 
 **Riktig:** Riktig. De fleste mener at psykisk syke skal få hjelp på lik linje med dem som har fysiske sykdommer.
 
-**Feil:** Synet på psykisk sykdom har endret seg. I dag er de fleste i Norge åpne og vil at psykisk syke skal få hjelp.
+**Feil:** Synet på psykisk sykdom har endret seg. De fleste i Norge er åpne og vil at psykisk syke skal få hjelp.
 
 ### helse-38 · Er det mulig å bli frisk av psykiske lidelser?
 
@@ -520,7 +520,7 @@ Tilleggskilder: https://www.helsenorge.no/sex-og-samliv/abort/, https://lovdata.
 
 **Feil:** Ingen lov sier at du må gå til kontroll. Men kontrollene er viktige for mor og barn.
 
-### helse-49 · Hvor lenge i svangerskapet kan kvinnen få abort når hun ber om det?
+### helse-49 · Hvor lenge i svangerskapet kan kvinnen få abort når hun ber om det (2026)?
 
 - A) De første 18 ukene ✔
 - B) De første 12 ukene
@@ -589,7 +589,7 @@ Kilde: https://samfunnskunnskap.no/nb/helse/tannhelse.html
 
 Tilleggskilder: https://www.helsenorge.no/betaling-for-helsetjenester/hvem-betaler-tannlegeregningen-din/, https://www.helsedirektoratet.no/lov-og-forskrift/tannhelsetjenesteloven/tannbehandling-til-unge-voksne-mellom-19-og-28-ar
 
-### helse-55 · Hvem får gratis behandling i den offentlige tannhelsetjenesten?
+### helse-55 · Hvem får gratis behandling i den offentlige tannhelsetjenesten (2026)?
 
 - A) Barn til og med året de fyller 18 ✔
 - B) Voksne som har en fast jobb i Norge
@@ -599,7 +599,7 @@ Tilleggskilder: https://www.helsenorge.no/betaling-for-helsetjenester/hvem-betal
 
 **Feil:** Det er barn og unge som får gratis tannbehandling, fram til og med året de fyller 18.
 
-### helse-56 · Hvor mye betaler unge voksne fra 19 til 28 år på offentlig tannklinikk?
+### helse-56 · Hvor mye betaler unge voksne fra 19 til 28 år på offentlig tannklinikk (2026)?
 
 - A) 25 prosent av prisen ✔
 - B) 75 prosent av prisen

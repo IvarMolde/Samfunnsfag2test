@@ -151,7 +151,7 @@
     </feedback>
   </question>
   <question id="skole-12" main="Utdanning, kompetanse og arbeidsliv" category="Skole og utdanning">
-    <text>Hvor mange barn mellom 1 og 5 år går i barnehage?</text>
+    <text>Hvor mange barn mellom 1 og 5 år går i barnehage (2026)?</text>
     <options>
       <option id="A" correct="true">De aller fleste barna</option>
       <option id="B" correct="false">Omtrent halvparten av dem</option>
@@ -991,7 +991,7 @@
     </feedback>
   </question>
   <question id="arbeid-02" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
-    <text>Hvor stor del av dem som jobber, jobber i offentlig sektor?</text>
+    <text>Hvor stor del av dem som jobber, jobber i offentlig sektor (2026)?</text>
     <options>
       <option id="A" correct="true">Omtrent en tredel</option>
       <option id="B" correct="false">Omtrent halvparten</option>
@@ -1027,7 +1027,7 @@
     </feedback>
   </question>
   <question id="arbeid-05" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
-    <text>Hvor stor del av arbeidstakerne er med i en fagforening?</text>
+    <text>Hvor stor del av arbeidstakerne er med i en fagforening (2026)?</text>
     <options>
       <option id="A" correct="true">Omtrent halvparten</option>
       <option id="B" correct="false">Omtrent en tidel</option>
@@ -1483,14 +1483,14 @@
     </feedback>
   </question>
   <question id="arbeid-43" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
-    <text>Hvilke næringer var viktigst for 150 år siden?</text>
+    <text>Hvilke næringer var viktigst midt på 1800-tallet?</text>
     <options>
       <option id="A" correct="true">Jordbruk, skogbruk og fiske</option>
       <option id="B" correct="false">Industri, handel og transport</option>
       <option id="C" correct="false">Helse, skole og barnehage</option>
     </options>
     <feedback>
-      <correct>For 150 år siden var jordbruk, skogbruk og fiske viktigst.</correct>
+      <correct>Midt på 1800-tallet var jordbruk, skogbruk og fiske viktigst.</correct>
       <wrong>Dette var før industrien kom og før helsevesenet ble stort.</wrong>
     </feedback>
   </question>
@@ -1531,14 +1531,14 @@
     </feedback>
   </question>
   <question id="arbeid-47" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
-    <text>Hvor finner vi flest jobber i Norge i dag?</text>
+    <text>Hvor finner vi flest jobber i Norge (2026)?</text>
     <options>
       <option id="A" correct="true">I serviceyrker, som butikk</option>
       <option id="B" correct="false">I industrien, på fabrikker</option>
       <option id="C" correct="false">I olje- og gassnæringen</option>
     </options>
     <feedback>
-      <correct>I dag er det flest jobber i serviceyrker, som butikk og helse.</correct>
+      <correct>Det er flest jobber i serviceyrker, som butikk og helse.</correct>
       <wrong>Industri og olje er viktige, men det er flere jobber i service.</wrong>
     </feedback>
   </question>
@@ -1627,7 +1627,7 @@
     </feedback>
   </question>
   <question id="arbeid-55" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
-    <text>Det er få arbeidsledige i Norge. Hva er likevel vanlig når en jobb lyses ut?</text>
+    <text>Hva er vanlig når en jobb lyses ut i Norge?</text>
     <options>
       <option id="A" correct="true">At mange søker på den samme jobben</option>
       <option id="B" correct="false">At de som søker, får komme på intervju</option>
@@ -1635,7 +1635,7 @@
     </options>
     <feedback>
       <correct>Det er ofte mange som søker på den samme jobben.</correct>
-      <wrong>Selv med få arbeidsledige er konkurransen stor. Ikke alle får intervju, og du trenger CV.</wrong>
+      <wrong>Ofte søker mange på samme jobb. Ikke alle får intervju, og du trenger CV.</wrong>
     </feedback>
   </question>
   <question id="arbeid-56" main="Utdanning, kompetanse og arbeidsliv" category="Arbeidsliv">
@@ -2899,7 +2899,7 @@
     </feedback>
   </question>
   <question id="norge-01" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Et liv i Norge">
-    <text>Omtrent hvor mange barn blir født i Norge hvert år?</text>
+    <text>Omtrent hvor mange barn blir født i Norge hvert år (2026)?</text>
     <options>
       <option id="A" correct="true">Omtrent 50 000 barn</option>
       <option id="B" correct="false">Omtrent 5 000 barn</option>
@@ -2911,7 +2911,7 @@
     </feedback>
   </question>
   <question id="norge-02" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Et liv i Norge">
-    <text>Hvor mange barn får en kvinne i Norge i gjennomsnitt?</text>
+    <text>Hvor mange barn får en kvinne i Norge i gjennomsnitt (2026)?</text>
     <options>
       <option id="A" correct="true">Omtrent 1,5 barn</option>
       <option id="B" correct="false">Omtrent 2,5 barn</option>
@@ -2923,7 +2923,7 @@
     </feedback>
   </question>
   <question id="norge-03" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Et liv i Norge">
-    <text>Hvor gammel er en kvinne i Norge når hun får første barn?</text>
+    <text>Hvor gammel er en kvinne i Norge når hun får første barn (2026)?</text>
     <options>
       <option id="A" correct="true">Omtrent 30 år gammel</option>
       <option id="B" correct="false">Omtrent 20 år gammel</option>
@@ -3115,7 +3115,7 @@
     </feedback>
   </question>
   <question id="norge-19" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Et liv i Norge">
-    <text>Omtrent hvor mange barn i 1. til 4. klasse går på SFO?</text>
+    <text>Omtrent hvor mange barn i 1. til 4. klasse går på SFO (2026)?</text>
     <options>
       <option id="A" correct="true">Omtrent åtte av ti barn</option>
       <option id="B" correct="false">Omtrent to av ti barn</option>
@@ -3127,7 +3127,7 @@
     </feedback>
   </question>
   <question id="norge-20" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Et liv i Norge">
-    <text>Hvor mange fullfører videregående skole i Norge?</text>
+    <text>Hvor mange fullfører videregående skole i Norge (2026)?</text>
     <options>
       <option id="A" correct="true">Nesten åtte av ti elever</option>
       <option id="B" correct="false">Omtrent fire av ti elever</option>
@@ -3139,7 +3139,7 @@
     </feedback>
   </question>
   <question id="norge-21" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Et liv i Norge">
-    <text>Hvor mange elever velger yrkesfag på videregående?</text>
+    <text>Hvor mange elever velger yrkesfag på videregående (2026)?</text>
     <options>
       <option id="A" correct="true">Omtrent halvparten</option>
       <option id="B" correct="false">Omtrent én av ti elever</option>
@@ -3223,7 +3223,7 @@
     </feedback>
   </question>
   <question id="norge-28" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Et liv i Norge">
-    <text>Hvor mye studiegjeld har en student i gjennomsnitt etter studiene?</text>
+    <text>Hvor mye studiegjeld har en student i gjennomsnitt etter studiene (2026)?</text>
     <options>
       <option id="A" correct="true">Omtrent 450 000 kroner</option>
       <option id="B" correct="false">Omtrent 150 000 kroner</option>
@@ -3271,7 +3271,7 @@
     </feedback>
   </question>
   <question id="norge-32" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Et liv i Norge">
-    <text>Hvor gamle er mange nordmenn når de gifter seg?</text>
+    <text>Hvor gamle er mange nordmenn når de gifter seg (2026)?</text>
     <options>
       <option id="A" correct="true">Mellom 30 og 40 år gamle</option>
       <option id="B" correct="false">Mellom 18 og 20 år gamle</option>
@@ -3331,7 +3331,7 @@
     </feedback>
   </question>
   <question id="norge-37" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Et liv i Norge">
-    <text>Hvor stort er boliglånet til mange som kjøper bolig i Norge?</text>
+    <text>Hvor stort er boliglånet til mange som kjøper bolig i Norge (2026)?</text>
     <options>
       <option id="A" correct="true">Flere millioner kroner</option>
       <option id="B" correct="false">Noen hundre tusen kroner</option>
@@ -3355,7 +3355,7 @@
     </feedback>
   </question>
   <question id="norge-39" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Et liv i Norge">
-    <text>Hvor gamle er mange nordmenn når de slutter å jobbe?</text>
+    <text>Hvor gamle er mange nordmenn når de slutter å jobbe (2026)?</text>
     <options>
       <option id="A" correct="true">Omtrent 67 år gamle</option>
       <option id="B" correct="false">Omtrent 50 år gamle</option>
@@ -3751,7 +3751,7 @@
     </feedback>
   </question>
   <question id="norge-72" main="Familie, helse og hverdagsliv" category="Ny i Norge" topic="Ny i Norge – hovedside">
-    <text>Omtrent hvor mange mennesker bor i Norge?</text>
+    <text>Omtrent hvor mange mennesker bor i Norge (2026)?</text>
     <options>
       <option id="A" correct="true">Over fem millioner</option>
       <option id="B" correct="false">Omtrent én million</option>
@@ -3895,19 +3895,19 @@
     </feedback>
   </question>
   <question id="familie-04" main="Familie, helse og hverdagsliv" category="Familieliv" topic="Ekteskap og familie">
-    <text>Hvilken familie kan også være en kjernefamilie i Norge i dag?</text>
+    <text>Hvilken familie kan også være en kjernefamilie i Norge?</text>
     <options>
       <option id="A" correct="true">To mødre og barna deres</option>
       <option id="B" correct="false">To søsken som bor sammen</option>
       <option id="C" correct="false">Besteforeldre og barnebarna deres</option>
     </options>
     <feedback>
-      <correct>Riktig. I Norge i dag kan en kjernefamilie være to mødre eller to fedre med barn, eller en mor eller far alene med barn.</correct>
+      <correct>Riktig. I Norge kan en kjernefamilie være to mødre eller to fedre med barn, eller en mor eller far alene med barn.</correct>
       <wrong>En kjernefamilie er foreldre og barn. I Norge kan foreldrene være to av samme kjønn.</wrong>
     </feedback>
   </question>
   <question id="familie-05" main="Familie, helse og hverdagsliv" category="Familieliv" topic="Ekteskap og familie">
-    <text>Omtrent hvor mange personer bor i en norsk husholdning?</text>
+    <text>Omtrent hvor mange personer bor i en norsk husholdning (2026)?</text>
     <options>
       <option id="A" correct="true">Litt mer enn to</option>
       <option id="B" correct="false">Litt mer enn fire</option>
@@ -3919,7 +3919,7 @@
     </feedback>
   </question>
   <question id="familie-06" main="Familie, helse og hverdagsliv" category="Familieliv" topic="Ekteskap og familie">
-    <text>Omtrent hvor mange av parene som bor sammen, er gift?</text>
+    <text>Omtrent hvor mange av parene som bor sammen, er gift (2026)?</text>
     <options>
       <option id="A" correct="true">Omtrent sju av ti</option>
       <option id="B" correct="false">Omtrent tre av ti</option>
@@ -3943,7 +3943,7 @@
     </feedback>
   </question>
   <question id="familie-08" main="Familie, helse og hverdagsliv" category="Familieliv" topic="Ekteskap og familie">
-    <text>Omtrent hvor mange av dem som gifter seg, vil trolig skille seg?</text>
+    <text>Omtrent hvor mange av dem som gifter seg, vil trolig skille seg (2026)?</text>
     <options>
       <option id="A" correct="true">Omtrent fire av ti</option>
       <option id="B" correct="false">Omtrent én av ti</option>
@@ -5971,19 +5971,19 @@
     </feedback>
   </question>
   <question id="helse-17" main="Familie, helse og hverdagsliv" category="Helse" topic="Helse og livsstil">
-    <text>Hvordan har folkehelsen i Norge endret seg de siste hundre årene?</text>
+    <text>Hvordan har folkehelsen i Norge endret seg siden 1900?</text>
     <options>
       <option id="A" correct="true">Den har blitt mye bedre</option>
       <option id="B" correct="false">Den har blitt mye dårligere</option>
       <option id="C" correct="false">Den er omtrent som før</option>
     </options>
     <feedback>
-      <correct>Riktig. Folkehelsen i Norge har blitt mye bedre de siste hundre årene. Folk lever lenger.</correct>
+      <correct>Riktig. Folkehelsen i Norge har blitt mye bedre siden 1900. Folk lever lenger.</correct>
       <wrong>Velferdssamfunnet har gitt bedre liv. Folk i Norge lever lenger og er friskere enn før.</wrong>
     </feedback>
   </question>
   <question id="helse-18" main="Familie, helse og hverdagsliv" category="Helse" topic="Helse og livsstil">
-    <text>Hva døde mange nordmenn av for omtrent hundre år siden?</text>
+    <text>Hva døde mange nordmenn av rundt 1900?</text>
     <options>
       <option id="A" correct="true">Tuberkulose og underernæring</option>
       <option id="B" correct="false">Allergi og astma hos barn</option>
@@ -5991,11 +5991,11 @@
     </options>
     <feedback>
       <correct>Riktig. Tidligere døde mange av sykdommer som kom av fattigdom, som tuberkulose og underernæring.</correct>
-      <wrong>For hundre år siden var mange fattige. Tenk på sykdommer som kommer av fattigdom, trange hus og for lite mat.</wrong>
+      <wrong>Rundt 1900 var mange fattige. Tenk på sykdommer som kommer av fattigdom, trange hus og for lite mat.</wrong>
     </feedback>
   </question>
   <question id="helse-19" main="Familie, helse og hverdagsliv" category="Helse" topic="Helse og livsstil">
-    <text>Hva er de vanligste dødsårsakene i Norge i dag?</text>
+    <text>Hva er de vanligste dødsårsakene i Norge (2026)?</text>
     <options>
       <option id="A" correct="true">Kreft og hjerte- og karsykdommer</option>
       <option id="B" correct="false">Tuberkulose og andre infeksjoner</option>
@@ -6003,7 +6003,7 @@
     </options>
     <feedback>
       <correct>Riktig. Kreft og hjerte- og karsykdommer er de vanligste dødsårsakene i Norge.</correct>
-      <wrong>Tuberkulose er ikke lenger vanlig i Norge. I dag dør flest av kreft og sykdommer i hjertet og blodårene.</wrong>
+      <wrong>Tuberkulose er ikke lenger vanlig i Norge. Flest dør av kreft og sykdommer i hjertet og blodårene.</wrong>
     </feedback>
   </question>
   <question id="helse-20" main="Familie, helse og hverdagsliv" category="Helse" topic="Helse og livsstil">
@@ -6211,7 +6211,7 @@
     </feedback>
   </question>
   <question id="helse-37" main="Familie, helse og hverdagsliv" category="Helse" topic="Psykisk helse">
-    <text>Hva mener de fleste i Norge om psykisk sykdom i dag?</text>
+    <text>Hva mener de fleste i Norge om psykisk sykdom?</text>
     <options>
       <option id="A" correct="true">At den skal behandles som fysisk sykdom</option>
       <option id="B" correct="false">At det er noe man helst ikke bør snakke om</option>
@@ -6219,7 +6219,7 @@
     </options>
     <feedback>
       <correct>Riktig. De fleste mener at psykisk syke skal få hjelp på lik linje med dem som har fysiske sykdommer.</correct>
-      <wrong>Synet på psykisk sykdom har endret seg. I dag er de fleste i Norge åpne og vil at psykisk syke skal få hjelp.</wrong>
+      <wrong>Synet på psykisk sykdom har endret seg. De fleste i Norge er åpne og vil at psykisk syke skal få hjelp.</wrong>
     </feedback>
   </question>
   <question id="helse-38" main="Familie, helse og hverdagsliv" category="Helse" topic="Psykisk helse">
@@ -6355,7 +6355,7 @@
     </feedback>
   </question>
   <question id="helse-49" main="Familie, helse og hverdagsliv" category="Helse" topic="Familieplanlegging, svangerskap og oppfølging av barn">
-    <text>Hvor lenge i svangerskapet kan kvinnen få abort når hun ber om det?</text>
+    <text>Hvor lenge i svangerskapet kan kvinnen få abort når hun ber om det (2026)?</text>
     <options>
       <option id="A" correct="true">De første 18 ukene</option>
       <option id="B" correct="false">De første 12 ukene</option>
@@ -6427,7 +6427,7 @@
     </feedback>
   </question>
   <question id="helse-55" main="Familie, helse og hverdagsliv" category="Helse" topic="Tannhelse">
-    <text>Hvem får gratis behandling i den offentlige tannhelsetjenesten?</text>
+    <text>Hvem får gratis behandling i den offentlige tannhelsetjenesten (2026)?</text>
     <options>
       <option id="A" correct="true">Barn til og med året de fyller 18</option>
       <option id="B" correct="false">Voksne som har en fast jobb i Norge</option>
@@ -6439,7 +6439,7 @@
     </feedback>
   </question>
   <question id="helse-56" main="Familie, helse og hverdagsliv" category="Helse" topic="Tannhelse">
-    <text>Hvor mye betaler unge voksne fra 19 til 28 år på offentlig tannklinikk?</text>
+    <text>Hvor mye betaler unge voksne fra 19 til 28 år på offentlig tannklinikk (2026)?</text>
     <options>
       <option id="A" correct="true">25 prosent av prisen</option>
       <option id="B" correct="false">75 prosent av prisen</option>
@@ -6962,8 +6962,8 @@
       <option id="C" correct="false">Hos inkassobyrået</option>
     </options>
     <feedback>
-      <correct>Riktig. Nav gir gratis råd om økonomi og gjeld. Telefonen er 55 55 33 39.</correct>
-      <wrong>Nav har økonomiske rådgivere. Ring 55 55 33 39 eller kontakt Nav-kontoret.</wrong>
+      <correct>Riktig. Nav gir gratis råd om økonomi og gjeld.</correct>
+      <wrong>Nav har økonomiske rådgivere. Kontakt Nav-kontoret for å få hjelp.</wrong>
     </feedback>
   </question>
   <question id="okonomi-20" main="Familie, helse og hverdagsliv" category="Personlig økonomi" topic="Personlig økonomi">
@@ -7063,7 +7063,7 @@
     </feedback>
   </question>
   <question id="okonomi-28" main="Familie, helse og hverdagsliv" category="Personlig økonomi" topic="Personlig økonomi">
-    <text>Hva skjer hvis arbeidsgiveren ikke har skattekortet ditt?</text>
+    <text>Hva skjer hvis arbeidsgiveren ikke har skattekortet ditt (2026)?</text>
     <options>
       <option id="A" correct="true">Arbeidsgiveren trekker 50 prosent skatt</option>
       <option id="B" correct="false">Du betaler ingen skatt før det kommer</option>
@@ -7149,7 +7149,7 @@
   <question id="okonomi-35" main="Familie, helse og hverdagsliv" category="Personlig økonomi" topic="Personlig økonomi">
     <text>Hva er BSU?</text>
     <options>
-      <option id="A" correct="true">Sparing til bolig for unge under 34 år</option>
+      <option id="A" correct="true">Sparekonto til bolig for unge voksne</option>
       <option id="B" correct="false">Lån til bolig for familier med barn</option>
       <option id="C" correct="false">Støtte til husleie for studenter i byene</option>
     </options>
@@ -7267,7 +7267,7 @@
     </feedback>
   </question>
   <question id="okonomi-45" main="Familie, helse og hverdagsliv" category="Personlig økonomi" topic="Bolig">
-    <text>Hvor mange husholdninger i Norge eier boligen sin?</text>
+    <text>Hvor mange husholdninger i Norge eier boligen sin (2026)?</text>
     <options>
       <option id="A" correct="true">Omtrent åtte av ti</option>
       <option id="B" correct="false">Omtrent fem av ti</option>
@@ -7375,7 +7375,7 @@
     </feedback>
   </question>
   <question id="okonomi-54" main="Familie, helse og hverdagsliv" category="Personlig økonomi" topic="Bolig">
-    <text>Hvor mye egenkapital må du vanligvis ha når du kjøper bolig?</text>
+    <text>Hvor mye egenkapital må du vanligvis ha når du kjøper bolig (2026)?</text>
     <options>
       <option id="A" correct="true">10 prosent av prisen</option>
       <option id="B" correct="false">40 prosent av prisen</option>
@@ -8023,14 +8023,14 @@
     </feedback>
   </question>
   <question id="frihet-28" main="Familie, helse og hverdagsliv" category="Retten til et fritt og selvstendig liv" topic="Vold i nære relasjoner">
-    <text>Hvor kan eldre over 62 år ringe hvis de utsettes for vold?</text>
+    <text>Hvor kan eldre over 62 år få hjelp hvis de utsettes for vold?</text>
     <options>
-      <option id="A" correct="true">Vern for eldre, 800 30 196</option>
-      <option id="B" correct="false">Nav kontaktsenter, 55 55 33 33</option>
-      <option id="C" correct="false">Opplysningen, 1881</option>
+      <option id="A" correct="true">Vern for eldre</option>
+      <option id="B" correct="false">Nav kontaktsenter</option>
+      <option id="C" correct="false">Opplysningen</option>
     </options>
     <feedback>
-      <correct>Riktig. Vern for eldre, 800 30 196, gir råd og hjelp til personer over 62 år som er utsatt for vold og overgrep.</correct>
+      <correct>Riktig. Vern for eldre gir råd og hjelp til personer over 62 år som er utsatt for vold og overgrep.</correct>
       <wrong>Det finnes en egen kontakttelefon for eldre som blir utsatt for vold. Den heter Vern for eldre.</wrong>
     </feedback>
   </question>
@@ -8671,7 +8671,7 @@
     </feedback>
   </question>
   <question id="dettenorge-02" main="Norge før og nå" category="Dette er Norge" topic="Fakta om Norge">
-    <text>Hvor mange fylker har Norge hatt siden 2024?</text>
+    <text>Hvor mange fylker har Norge (2026)?</text>
     <options>
       <option id="A" correct="true">15 fylker</option>
       <option id="B" correct="false">11 fylker</option>
@@ -8683,7 +8683,7 @@
     </feedback>
   </question>
   <question id="dettenorge-03" main="Norge før og nå" category="Dette er Norge" topic="Fakta om Norge">
-    <text>Hvor mange kommuner er Norge delt inn i?</text>
+    <text>Hvor mange kommuner er Norge delt inn i (2026)?</text>
     <options>
       <option id="A" correct="true">357 kommuner</option>
       <option id="B" correct="false">157 kommuner</option>
@@ -8887,14 +8887,14 @@
     </feedback>
   </question>
   <question id="dettenorge-20" main="Norge før og nå" category="Dette er Norge" topic="Likestilling og likeverd">
-    <text>Hvor mange kvinner er i jobb i Norge i dag?</text>
+    <text>Hvor mange kvinner er i jobb i Norge (2026)?</text>
     <options>
       <option id="A" correct="true">Nesten like mange som menn</option>
       <option id="B" correct="false">Omtrent halvparten så mange som menn</option>
       <option id="C" correct="false">Mange flere kvinner enn menn</option>
     </options>
     <feedback>
-      <correct>Riktig. Nesten like mange kvinner som menn er i jobb i Norge i dag.</correct>
+      <correct>Riktig. Nesten like mange kvinner som menn er i jobb i Norge.</correct>
       <wrong>De fleste kvinner i Norge har jobb. Antallet er nesten likt med menn.</wrong>
     </feedback>
   </question>
@@ -9283,19 +9283,19 @@
     </feedback>
   </question>
   <question id="dettenorge-53" main="Norge før og nå" category="Dette er Norge" topic="Minoritet og majoritet i Norge">
-    <text>Omtrent hvor mange i Norge er innvandrere eller barn av to innvandrere?</text>
+    <text>Omtrent hvor mange i Norge er innvandrere eller barn av to innvandrere (2026)?</text>
     <options>
-      <option id="A" correct="true">Mer enn én million</option>
-      <option id="B" correct="false">Omtrent 300 000</option>
-      <option id="C" correct="false">Omtrent tre millioner</option>
+      <option id="A" correct="true">Omtrent to millioner</option>
+      <option id="B" correct="false">Omtrent 500 000</option>
+      <option id="C" correct="false">Omtrent fire millioner</option>
     </options>
     <feedback>
-      <correct>Riktig. Mer enn én million i Norge er innvandrere eller har to foreldre som er innvandrere.</correct>
+      <correct>Riktig. Omtrent to millioner i Norge er innvandrere eller har to foreldre som er innvandrere.</correct>
       <wrong>Det er mange, men langt fra halvparten av de omtrent 5,6 millioner innbyggerne.</wrong>
     </feedback>
   </question>
   <question id="dettenorge-54" main="Norge før og nå" category="Dette er Norge" topic="Minoritet og majoritet i Norge">
-    <text>Fra hvilket land kommer flest innvandrere i Norge?</text>
+    <text>Fra hvilket land kommer flest innvandrere i Norge (2026)?</text>
     <options>
       <option id="A" correct="true">Polen</option>
       <option id="B" correct="false">Sverige</option>
@@ -9367,7 +9367,7 @@
     </feedback>
   </question>
   <question id="dettenorge-60" main="Norge før og nå" category="Dette er Norge" topic="Religion og livssyn">
-    <text>Omtrent hvor mange av de døde i Norge får gravferd i kirken?</text>
+    <text>Omtrent hvor mange av de døde i Norge får gravferd i kirken (2026)?</text>
     <options>
       <option id="A" correct="true">Omtrent åtte av ti</option>
       <option id="B" correct="false">Omtrent to av ti</option>
@@ -9379,7 +9379,7 @@
     </feedback>
   </question>
   <question id="dettenorge-61" main="Norge før og nå" category="Dette er Norge" topic="Religion og livssyn">
-    <text>Hva kaller Grunnloven Den norske kirke i dag?</text>
+    <text>Hva kaller Grunnloven Den norske kirke?</text>
     <options>
       <option id="A" correct="true">Norges folkekirke</option>
       <option id="B" correct="false">Norges statsreligion</option>
@@ -9387,11 +9387,11 @@
     </options>
     <feedback>
       <correct>Riktig. Grunnloven kaller Den norske kirke Norges folkekirke. Staten støtter den, men den er ikke statskirke.</correct>
-      <wrong>Norge har ikke lenger statsreligion. Grunnloven bruker et annet ord om kirken i dag.</wrong>
+      <wrong>Norge har ikke lenger statsreligion. Grunnloven bruker et annet ord om kirken.</wrong>
     </feedback>
   </question>
   <question id="dettenorge-62" main="Norge før og nå" category="Dette er Norge" topic="Religion og livssyn">
-    <text>Omtrent hvor mange i Norge er medlem av Den norske kirke?</text>
+    <text>Omtrent hvor mange i Norge er medlem av Den norske kirke (2026)?</text>
     <options>
       <option id="A" correct="true">Omtrent seks av ti</option>
       <option id="B" correct="false">Omtrent to av ti</option>
@@ -10483,7 +10483,7 @@
     </feedback>
   </question>
   <question id="historie-73" main="Norge før og nå" category="Historie" topic="Det moderne Norge">
-    <text>Hva er mange uenige om når det gjelder oljen i dag?</text>
+    <text>Hva er mange uenige om når det gjelder oljen?</text>
     <options>
       <option id="A" correct="true">Hva den betyr for natur og miljø</option>
       <option id="B" correct="false">Om oljen har gjort Norge rikere</option>
@@ -10543,15 +10543,15 @@
     </feedback>
   </question>
   <question id="historie-78" main="Norge før og nå" category="Historie" topic="Det moderne Norge">
-    <text>Hvor stor del av folket bor i byer og tettsteder i dag?</text>
+    <text>Hvor stor del av folket bor i byer og tettsteder (2026)?</text>
     <options>
       <option id="A" correct="true">Rundt 80 prosent</option>
       <option id="B" correct="false">Rundt 35 prosent</option>
       <option id="C" correct="false">Rundt 15 prosent</option>
     </options>
     <feedback>
-      <correct>Riktig. I dag bor rundt åtti prosent i byer og tettsteder. Før 1850 var det bare rundt femten prosent.</correct>
-      <wrong>Mange har flyttet fra landsbygda til byene de siste hundre årene. I dag bor de fleste i byer.</wrong>
+      <correct>Riktig. Rundt åtti prosent bor i byer og tettsteder. Før 1850 var det bare rundt femten prosent.</correct>
+      <wrong>Mange har flyttet fra landsbygda til byene de siste hundre årene. De fleste bor nå i byer.</wrong>
     </feedback>
   </question>
   <question id="historie-79" main="Norge før og nå" category="Historie" topic="Det moderne Norge">
@@ -11167,7 +11167,7 @@
     </feedback>
   </question>
   <question id="demokrati-50" main="Norge før og nå" category="Menneskerettigheter og demokrati" topic="Menneskerettigheter">
-    <text>Hvor mange land er medlemmer i FN i dag?</text>
+    <text>Hvor mange land er medlemmer i FN i dag (2026)?</text>
     <options>
       <option id="A" correct="true">193</option>
       <option id="B" correct="false">165</option>
@@ -11983,7 +11983,7 @@
     </feedback>
   </question>
   <question id="baerekraft-38" main="Norge før og nå" category="Bærekraft" topic="Natur og naturressurser">
-    <text>Hva sier handlingsregelen om bruken av oljefondet?</text>
+    <text>Hva sier handlingsregelen om bruken av oljefondet (2026)?</text>
     <options>
       <option id="A" correct="true">Staten bruker omtrent 3 prosent av fondet hvert år</option>
       <option id="B" correct="false">Staten bruker omtrent 10 prosent av fondet hvert år</option>
@@ -12247,7 +12247,7 @@
     </feedback>
   </question>
   <question id="baerekraft-60" main="Norge før og nå" category="Bærekraft" topic="Natur- og miljøvern">
-    <text>Omtrent hvor mye søppel fra hjemmet kaster hver person i Norge i året?</text>
+    <text>Omtrent hvor mye søppel fra hjemmet kaster hver person i Norge i året (2026)?</text>
     <options>
       <option id="A" correct="true">Omtrent 400 kilo</option>
       <option id="B" correct="false">Omtrent 40 kilo</option>
@@ -12331,7 +12331,7 @@
     </feedback>
   </question>
   <question id="baerekraft-67" main="Norge før og nå" category="Bærekraft" topic="Natur- og miljøvern">
-    <text>Omtrent hvor mye av all maten i verden blir kastet?</text>
+    <text>Omtrent hvor mye av all maten i verden blir kastet (2026)?</text>
     <options>
       <option id="A" correct="true">Omtrent 30 prosent</option>
       <option id="B" correct="false">Omtrent 5 prosent</option>
@@ -12379,15 +12379,15 @@
     </feedback>
   </question>
   <question id="baerekraft-71" main="Norge før og nå" category="Bærekraft" topic="Natur- og miljøvern">
-    <text>Hvordan har utslippene av klimagasser i Norge endret seg?</text>
+    <text>Hvordan har utslippene av klimagasser i Norge endret seg siden 1990?</text>
     <options>
-      <option id="A" correct="true">De har gått ned de siste årene</option>
-      <option id="B" correct="false">De har økt raskt de siste årene</option>
-      <option id="C" correct="false">De har vært omtrent like i mange år</option>
+      <option id="A" correct="true">De er litt lavere enn i 1990</option>
+      <option id="B" correct="false">De er mye høyere enn i 1990</option>
+      <option id="C" correct="false">De er like store som i 1990</option>
     </options>
     <feedback>
-      <correct>Riktig. Utslippene av klimagasser i Norge har gått ned de siste årene, men ikke like mye hvert år. Norge må kutte mer for å nå klimamålene.</correct>
-      <wrong>Tenk på elbiler og nye regler. Hva har skjedd med utslippene?</wrong>
+      <correct>Riktig. Utslippene av klimagasser i Norge er litt lavere enn i 1990, men ikke like mye hvert år. Norge må kutte mer for å nå klimamålene.</correct>
+      <wrong>Tenk på elbiler og nye regler. Hva har skjedd med utslippene siden 1990?</wrong>
     </feedback>
   </question>
   <question id="baerekraft-72" main="Norge før og nå" category="Bærekraft" topic="Natur- og miljøvern">

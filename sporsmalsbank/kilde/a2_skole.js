@@ -11,7 +11,7 @@ module.exports = { "tema": "Skole og utdanning", "emner": [
 ["Hva har foreldre som ikke kan norsk rett til på foreldremøte?","Å ha med seg en tolk på møtet","Å få møtet holdt på morsmålet","Å sende en venn i stedet for seg selv"],
 ["Hvilke verdier bygger barnehagen på ifølge loven?","Kristne og humanistiske verdier","Nasjonale og økonomiske verdier","Tradisjonelle og nasjonale verdier"],
 ["Hva skal barnehagen fremme ifølge loven?","Demokrati og likestilling","Tidlig lesing og regning","Ro og orden i hverdagen"],
-["Hvor mange barn mellom 1 og 5 år går i barnehage?","De aller fleste barna","Omtrent halvparten av dem","Svært få av barna"],
+["Hvor mange barn mellom 1 og 5 år går i barnehage (2026)?","De aller fleste barna","Omtrent halvparten av dem","Svært få av barna"],
 ["Hvordan jobber barnehagen sammen med foreldrene?","Den har foreldremøter og foreldresamtaler","Den sender prøveresultater hjem hver måned","Foreldrene bestemmer hvem som får plass"],
 ["Hvor mange år er grunnskolen i Norge?","10 år","7 år","13 år"],
 ["Når begynner barn på skolen i Norge?","I august det året de blir seks år","I september det året de blir seks år","I august det året de blir sju år"],
