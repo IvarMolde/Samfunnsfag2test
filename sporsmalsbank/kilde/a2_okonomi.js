@@ -81,6 +81,6 @@ module.exports = { "tema": "Personlig økonomi", "emner": [
 ["Hva må du gjøre når du flytter til ny adresse i Norge?","Melde flytting til Folkeregisteret","Sende brev til de nye naboene","Søke om en ny bankkonto"],
 ["Hvorfor bør du ta bilder av boligen når du flytter inn?","For å vise hvilke skader som var der før","For å vise banken hvordan boligen ser ut","For å få lavere husleie senere i leietiden"],
 ["Hva må utleieren vanligvis gjøre før han går inn i boligen din?","Gi deg beskjed i god tid før","Spørre kommunen om lov først","Si fra til naboene dine først"],
-["Hvor lang må en tidsbestemt leiekontrakt for bolig vanligvis minst være?","Tre år","Tre måneder","Én uke"]
+["Hva er den vanlige minste varigheten for en tidsbestemt leiekontrakt for bolig?","Tre år","Tre måneder","Én uke"]
 ]}
 ]};

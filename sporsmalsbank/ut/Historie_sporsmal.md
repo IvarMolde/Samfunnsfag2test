@@ -145,11 +145,11 @@ Tilleggskilder: https://snl.no/steinalderen_i_Norge, https://snl.no/vikingtiden
 
 ### historie-14 · Hva skjedde på Stiklestad i år 1030?
 
-- A) Et slag der Olav Haraldsson døde ✔
+- A) Olav Haraldsson døde ved et slag der ✔
 - B) Norge fikk sin første grunnlov
 - C) Den første byen i Norge ble bygd
 
-**Riktig:** Riktig. Olav Haraldsson var kristen og kjempet mot høvdinger som trodde på de gamle gudene. Han tapte og døde.
+**Riktig:** Riktig. Olav Haraldsson døde ved et slag på Stiklestad i år 1030.
 
 **Feil:** Stiklestad ligger i Trøndelag. Der kjempet en kristen konge mot mektige høvdinger.
 
@@ -424,12 +424,12 @@ Tilleggskilder: https://snl.no/Kielfreden, https://snl.no/Unionsoppl%C3%B8sninge
 ### historie-40 · Hvordan levde mange arbeiderfamilier i byene på 1800-tallet?
 
 - A) Med lange arbeidsdager og trange boliger ✔
-- B) Med korte arbeidsdager og store, gode boliger
-- C) Med god lønn og mye fritid hver dag
+- B) Med lange arbeidsdager og romslige boliger
+- C) Med korte arbeidsdager og trange boliger
 
-**Riktig:** Riktig. Arbeidsdagene var lange, og flere familier kunne bo sammen i en liten leilighet. Mange barn måtte også jobbe.
+**Riktig:** Riktig. Mange arbeiderfamilier i byene levde med lange arbeidsdager og trange boliger.
 
-**Feil:** Livet i byen var vanskelig for mange arbeidere. Boforholdene var dårlige.
+**Feil:** Arbeiderfamiliene hadde hverken korte arbeidsdager eller romslige boliger på 1800-tallet.
 
 ### historie-41 · Hvorfor var det vanskelig å bo på landsbygda på 1800-tallet?
 
@@ -552,13 +552,13 @@ Tilleggskilder: https://snl.no/stemmerett, https://snl.no/Holocaust_i_Norge, htt
 
 ### historie-52 · Hvordan var Norge med i første verdenskrig?
 
-- A) Norge var ikke aktivt med ✔
+- A) Norge var nøytral i krigen ✔
 - B) Norge kjempet på Tysklands side
-- C) Norge kjempet på Englands side
+- C) Norge kjempet på Storbritannias side
 
-**Riktig:** Riktig. Norge var ikke aktivt med i første verdenskrig, men landet merket krigen gjennom mangel på varer.
+**Riktig:** Riktig. Norge var nøytral i første verdenskrig. Norge kjempet ikke på noen side.
 
-**Feil:** Krigen var i Europa fra 1914 til 1918. Norge holdt seg utenfor kampene.
+**Feil:** Norge var ikke med i krigen på Tysklands eller Storbritannias side. Norge var nøytral.
 
 ### historie-53 · Hva er rasjonering?
 
@@ -622,13 +622,13 @@ Tilleggskilder: https://snl.no/stemmerett, https://snl.no/Holocaust_i_Norge, htt
 
 ### historie-59 · Hva gjorde motstandsbevegelsen under krigen?
 
-- A) Sabotasje og ulovlige aviser ✔
+- A) Utførte sabotasje og laget ulovlige aviser ✔
 - B) Hjalp tyskerne med å styre
 - C) Bygde nye veier for tyskerne
 
-**Riktig:** Riktig. Motstandsgrupper ødela ting tyskerne trengte og ga ut ulovlige aviser. Mange gjorde også passiv motstand.
+**Riktig:** Riktig. Motstandsbevegelsen utførte sabotasje og laget ulovlige aviser.
 
-**Feil:** Motstandsbevegelsen kjempet mot okkupasjonen. De arbeidet i hemmelighet.
+**Feil:** Motstandsbevegelsen kjempet mot tyskerne. De hjalp ikke tyskerne å styre og bygde ikke veier for dem.
 
 ### historie-60 · Hvor flyktet rundt 50 000 nordmenn under krigen?
 
@@ -701,13 +701,13 @@ Tilleggskilder: https://snl.no/Ekofisk, https://snl.no/Gro_Harlem_Brundtland, ht
 
 ### historie-66 · Hva har arbeiderbevegelsen kjempet for?
 
-- A) Penger til dem som mister jobben ✔
+- A) Bedre lønn og arbeidsvilkår for arbeidstakere ✔
 - B) Lavere skatt for store bedrifter
 - C) Færre fagforeninger på arbeidsplassene
 
-**Riktig:** Riktig. Arbeiderbevegelsen har kjempet for blant annet støtte ved arbeidsledighet, kortere dager og tryggere arbeidsplasser.
+**Riktig:** Riktig. Arbeiderbevegelsen har kjempet for bedre lønn og arbeidsvilkår for arbeidstakere.
 
-**Feil:** Arbeiderbevegelsen kjempet for trygghet og bedre vilkår for arbeiderne. Tenk på hva en arbeider trenger for å ha et trygt liv.
+**Feil:** Arbeiderbevegelsen kjempet ikke for lavere skatt for store bedrifter eller færre fagforeninger.
 
 ### historie-67 · Hva har kvinnebevegelsen kjempet for?
 
@@ -779,15 +779,15 @@ Tilleggskilder: https://snl.no/Ekofisk, https://snl.no/Gro_Harlem_Brundtland, ht
 
 **Feil:** Dette er en debatt om framtiden og om følgene av å bruke olje.
 
-### historie-74 · Hvilke rettigheter hadde folk i Norge før oljen ble funnet?
+### historie-74 · Hvilke rettigheter hadde folk i Norge før landet fikk store oljeinntekter?
 
 - A) Gratis skole og syketrygd ✔
-- B) Gratis barnehage for barn
-- C) Gratis reiser med buss og tog
+- B) Gratis skole og barnehage
+- C) Gratis skole og kollektivtransport
 
-**Riktig:** Riktig. Gratis skole, kortere arbeidsdager og syketrygd kom før det ble funnet olje.
+**Riktig:** Riktig. Før landet fikk store oljeinntekter, hadde folk rett til gratis skole og syketrygd.
 
-**Feil:** Mange velferdsordninger er eldre enn oljen. Tenk på skolen og retten til penger når du er syk.
+**Feil:** Gratis barnehage og kollektivtransport kom senere eller finnes ikke som en generell rettighet.
 
 ### historie-75 · Hva stemte et flertall i Norge i 1972 og 1994?
 
@@ -819,15 +819,15 @@ Tilleggskilder: https://snl.no/Ekofisk, https://snl.no/Gro_Harlem_Brundtland, ht
 
 **Feil:** Husk at Norge sa nei til EU to ganger.
 
-### historie-78 · Hvor stor del av folket bor i byer og tettsteder (2026)?
+### historie-78 · Hvor stor del av Norges befolkning bor i byer og tettsteder?
 
 - A) Rundt 80 prosent ✔
 - B) Rundt 35 prosent
 - C) Rundt 15 prosent
 
-**Riktig:** Riktig. Rundt åtti prosent bor i byer og tettsteder. Før 1850 var det bare rundt femten prosent.
+**Riktig:** Riktig. Rundt 80 prosent av befolkningen bor i byer og tettsteder.
 
-**Feil:** Mange har flyttet fra landsbygda til byene de siste hundre årene. De fleste bor nå i byer.
+**Feil:** Bare 35 eller 15 prosent er for lavt. De fleste i Norge bor i byer og tettsteder.
 
 ### historie-79 · Hvorfor kom mange arbeidsinnvandrere til Norge rundt 1970?
 

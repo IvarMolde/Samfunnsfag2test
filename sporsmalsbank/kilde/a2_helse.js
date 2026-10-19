@@ -27,14 +27,14 @@ module.exports = { "tema": "Helse", "emner": [
 ["Hvem har størst ansvar for å ta vare på helsen din?","Du selv, med råd fra helsevesenet","Helsevesenet, som passer på deg","Kommunen, som sjekker helsen din"],
 ["Hva er vanlig når du går til legen i Norge?","Lege og pasient snakker sammen om behandlingen","Du får medisin ved hvert besøk hos legen","Legen bestemmer alt uten å spørre pasienten"],
 ["Aygül er forkjølet. Hva sier legen ofte da?","At det går over av seg selv","At hun må legges inn på sykehus","At hun må ta sterk medisin"],
-["Hva mangler mange innvandrere i kroppen, ifølge helsearbeidere?","Vitamin D og jern","Vitamin A og vitamin E","Fett og protein"],
+["Hvilke næringsstoffer kan noen innvandrere ha for lite av, ifølge helsearbeidere?","Vitamin D og jern","Vitamin A og vitamin E","Fett og protein"],
 ["Hvorfor trenger mange ekstra vitamin D i Norge?","Det er lite sol store deler av året","Maten i Norge har nesten ikke vitaminer","Vannet i Norge er for kaldt og rent"],
 ["Hva er det som gjør at de fleste mennesker trives?","Å ha god kontakt med andre mennesker","Å ha mye penger og en stor bolig","Å bo alene og ha mye tid for seg selv"],
 ["Hva er psykisk helse?","Hvordan vi har det med tanker og følelser","Hvor sterk og sunn kroppen vår er","Hvor mange venner og kjente vi har"],
 ["Hva kan stress og tristhet føre til?","Dårlige matvaner og dårligere helse","Bedre søvn og mer energi i hverdagen","Sterkere tenner og bedre hukommelse"]
 ]},
 { "emne":"Psykisk helse","kilde":"https://samfunnskunnskap.no/nb/helse/psykisk-helse.html","tillegg":["https://mentalhelse.no/fa-hjelp/hjelpetelefonen/"], "items": [
-["Hvem kan få psykiske problemer?","Alle kan få det, i alle aldre","Bare personer med svak vilje","Bare personer som bor alene"],
+["Hvem kan få psykiske problemer?","Alle kan få det, i alle aldre","Bare personer med dårlig selvtillit","Bare personer som bor alene"],
 ["Hva kan føre til psykiske lidelser?","Vanskelige hendelser, som krig","Å trene ofte og spise sunt","Å ha mange gode venner"],
 ["John har vondt i magen, men legen finner ingen sykdom. Hva kan årsaken være?","Han kan ha det vanskelig psykisk","Det er noe galt i magen hans","Han har en skade i kroppen"],
 ["Hvem kan henvise deg til psykolog?","Fastlegen","Apoteket","Nav-kontoret"],
@@ -58,7 +58,7 @@ module.exports = { "tema": "Helse", "emner": [
 ["Hvem bestemmer om en kvinne skal ta abort i de første ukene?","Den gravide kvinnen selv","Kvinnen og mannen sammen","Legen på sykehuset"],
 ["Hvor går foreldre med babyer og småbarn til helsekontroll?","Til helsestasjonen","Til legevakten","Til tannlegen"],
 ["Lille Sara på to år har feber. Hvem skal undersøke henne?","Fastlegen","Helsestasjonen","Skolehelsetjenesten"],
-["Hva gjelder for vaksinene i barnevaksinasjonsprogrammet?","De er gratis og frivillige","De koster penger og er påbudt","De er gratis, men påbudt ved lov"],
+["Hvilke regler gjelder for vaksinene i barnevaksinasjonsprogrammet?","De er gratis og frivillige","De koster penger og er påbudt","De er gratis, men påbudt ved lov"],
 ["Hvem gir helsekontroller og vaksiner til elever på skolen?","Skolehelsetjenesten","Fastlegen til barnet","Legevakten i kommunen"]
 ]},
 { "emne":"Tannhelse","kilde":"https://samfunnskunnskap.no/nb/helse/tannhelse.html","tillegg":["https://www.helsenorge.no/betaling-for-helsetjenester/hvem-betaler-tannlegeregningen-din/","https://www.helsedirektoratet.no/lov-og-forskrift/tannhelsetjenesteloven/tannbehandling-til-unge-voksne-mellom-19-og-28-ar"], "items": [
@@ -71,7 +71,7 @@ module.exports = { "tema": "Helse", "emner": [
 ["Hvorfor er det viktig å stelle melketennene godt?","Dårlige melketenner kan skade de nye tennene","Melketennene skal sitte i munnen resten av livet","Tannlegen vil ellers ikke behandle barnet"],
 ["Hva må foreldre betale en egenandel for når barnet går til tannlegen?","Tannregulering","Tannkontroll","Fylling av hull"],
 ["Hvem kaller inn barn til tannkontroll?","Den offentlige tannklinikken","Helsesykepleieren på skolen","Fastlegen til barnet"],
-["Hva er den beste tørstedrikken for tennene?","Vann","Brus","Saft"]
+["Hvilken drikke er best for tennene når du er tørst?","Vann","Brus","Saft"]
 ]},
 { "emne":"Å flytte til et nytt land","kilde":"https://samfunnskunnskap.no/nb/helse/a-flytte-til-et-nytt-land.html", "items": [
 ["Hvor mange faser har den psykiske migrasjonsprosessen?","Tre faser","To faser","Fem faser"],
@@ -80,7 +80,7 @@ module.exports = { "tema": "Helse", "emner": [
 ["Hva skjer ofte i fase 3 av migrasjonsprosessen?","Livet føles lettere, og man forstår mer","Man savner hjemlandet mer enn før","Man tenker mest på nye muligheter"],
 ["Hvor lenge varer hver fase i migrasjonsprosessen?","Det er ulikt fra person til person","Hver fase varer i nøyaktig tolv måneder","Hver fase varer i omtrent én uke"],
 ["Hva kan du gjøre på helsenorge.no?","Bytte fastlege og se journalen din","Kjøpe medisin og få den sendt hjem","Søke om oppholdstillatelse og pass"],
-["Hva hjelper en innvandrer å finne sin plass i det nye samfunnet?","Å kombinere nye og gamle verdier","Å glemme kulturen fra hjemlandet","Å leve akkurat som i hjemlandet"],
+["Hva kan hjelpe en innvandrer med å finne seg til rette i det nye samfunnet?","Å kombinere nye og gamle verdier","Å glemme kulturen fra hjemlandet","Å leve akkurat som i hjemlandet"],
 ["Hva er vanlig i en familie som har flyttet til et nytt land?","Familiemedlemmene kan være i ulike faser","Hele familien går gjennom fasene likt","Barna merker ingenting av flyttingen"]
 ]},
 { "emne":"Identitet","kilde":"https://samfunnskunnskap.no/nb/helse/identitet.html","tillegg":["https://lovdata.no/dokument/NL/lov/2017-06-16-51"], "items": [

@@ -53,11 +53,11 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/1991-07-04-47, https://lovdat
 
 **Feil:** En kjernefamilie er foreldre og barn. I Norge kan foreldrene være to av samme kjønn.
 
-### familie-05 · Omtrent hvor mange personer bor i en norsk husholdning (2026)?
+### familie-05 · Omtrent hvor mange personer bor det i en norsk husholdning i gjennomsnitt?
 
-- A) Litt mer enn to ✔
-- B) Litt mer enn fire
-- C) Litt mer enn seks
+- A) Litt mer enn to personer ✔
+- B) Litt mer enn fire personer
+- C) Litt mer enn seks personer
 
 **Riktig:** Riktig. I en norsk husholdning bor det i gjennomsnitt litt mer enn to personer.
 
@@ -133,7 +133,7 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/1991-07-04-47, https://lovdat
 
 **Feil:** Foreldre har i utgangspunktet felles foreldreansvar for barn som er født fra og med 2020, også når de ikke er gift.
 
-### familie-13 · Hva betyr foreldreansvar?
+### familie-13 · Hva betyr det å ha foreldreansvar?
 
 - A) Rett og plikt til å ta avgjørelser for barnet ✔
 - B) Plikt til å følge barnet til skolen og hjem
@@ -233,15 +233,15 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/1991-07-04-47, https://lovdat
 
 **Feil:** Barnebidrag kommer ikke fra skolen eller banken. Det er penger fra forelderen som barnet ikke bor fast hos.
 
-### familie-23 · Hva er en forskjell mellom samboere og ektepar?
+### familie-23 · Hva er en forskjell mellom samboere og ektefeller?
 
-- A) Ektepar har automatisk flere rettigheter ✔
-- B) Samboere har automatisk flere rettigheter
-- C) Samboere og ektepar har automatisk like rettigheter
+- A) Ektefeller har som hovedregel arverett etter hverandre ✔
+- B) Samboere har alltid større arverett enn ektefeller
+- C) Samboere og ektefeller har alltid samme arverett
 
-**Riktig:** Riktig. Ektepar har automatisk flere økonomiske og juridiske rettigheter enn samboere.
+**Riktig:** Riktig. Ektefeller har som hovedregel arverett etter hverandre. Samboere har ikke arverett uten testament.
 
-**Feil:** Loven gir ektepar og samboere ulike rettigheter. Tenk på hvem som har rettigheter uten en avtale.
+**Feil:** Loven gir ektefeller og samboere ulike rettigheter. Tenk på hvem som har arverett uten testament.
 
 ### familie-24 · Hvorfor skriver mange samboere en avtale hos en advokat?
 
@@ -262,15 +262,15 @@ Kilde: https://samfunnskunnskap.no/nb/familieliv/a-leve-i-to-kulturer.html
 
 Tilleggskilder: https://www.helsenorge.no/barn/sprakutvikling-hos-barn/, https://www.statped.no/tiltak-og-tilrettelegging/dld/hvilket-sprak-bor-flerspraklige-foreldre-snakke-med-sine-barn/, https://www.imdi.no/
 
-### familie-25 · Hva lærer vi i den kulturen vi vokser opp i?
+### familie-25 · Hva lærer vi blant annet gjennom kulturen vi vokser opp i?
 
-- A) Hvordan vi skal leve sammen ✔
-- B) Hvilken jobb vi skal ha
-- C) Hvor mye penger vi skal tjene
+- A) Verdier, tradisjoner og hvordan vi omgås andre ✔
+- B) Hvilken jobb vi må velge når vi blir voksne
+- C) Hvor mye penger vi må tjene hver måned
 
-**Riktig:** Riktig. I kulturen lærer vi hvordan vi skal leve sammen, og hva som er riktig og galt.
+**Riktig:** Riktig. Gjennom kulturen lærer vi verdier, tradisjoner og hvordan vi omgås andre.
 
-**Feil:** Kulturen bestemmer ikke jobb eller lønn. Den lærer oss hvordan vi skal leve sammen med andre.
+**Feil:** Kulturen bestemmer ikke jobb eller lønn. Den lærer oss hvordan vi lever sammen med andre.
 
 ### familie-26 · Hvem lærer barn kultur og verdier av?
 
@@ -282,15 +282,15 @@ Tilleggskilder: https://www.helsenorge.no/barn/sprakutvikling-hos-barn/, https:/
 
 **Feil:** Barn lærer av menneskene rundt seg, ikke av én bok eller av offentlige kontorer.
 
-### familie-27 · Hva kaller vi de to hovedgruppene av kulturer i denne modellen?
+### familie-27 · Hvilke to typer kulturer skiller vi ofte mellom når vi snakker om individet og fellesskapet?
 
 - A) Jeg-kulturer og vi-kulturer ✔
 - B) Kan-kulturer og vil-kulturer
-- C) By-kulturer og bygdekulturer
+- C) Bykulturer og bygdekulturer
 
-**Riktig:** Riktig. For å forstå kulturforskjeller kan vi dele kulturer i jeg-kulturer og vi-kulturer.
+**Riktig:** Riktig. Vi skiller ofte mellom jeg-kulturer og vi-kulturer. I den ene er enkeltmennesket viktigst, i den andre er gruppen viktigst.
 
-**Feil:** De to gruppene heter jeg-kulturer og vi-kulturer. I den ene er enkeltmennesket viktigst, i den andre gruppa.
+**Feil:** De to typene heter jeg-kulturer og vi-kulturer. Det handler om individet og fellesskapet, ikke om by og bygd.
 
 ### familie-28 · Hvor gammel må man være for å gifte seg i Norge?
 
@@ -392,35 +392,35 @@ Tilleggskilder: https://www.helsenorge.no/barn/sprakutvikling-hos-barn/, https:/
 
 **Feil:** Alle barn lærer norsk på skolen, og karakterer avhenger ikke av kultur. Styrken er at de kan forstå flere måter å tenke på.
 
-### familie-38 · Nora får ikke lov å bli med venner hjem etter skolen. Hva kan skje?
+### familie-38 · Nora får ikke besøke venner etter skolen. Hva kan bli en konsekvens av dette?
 
-- A) Hun kan bli mer alene på skolen ✔
+- A) Hun kan få mindre kontakt med vennene sine ✔
 - B) Hun kan få flere venner i klassen
-- C) Hun kan bli bedre i norsk på skolen
+- C) Hun kan lære mer norsk sammen med vennene sine
 
-**Riktig:** Riktig. Når Nora ikke kan bli med hjem, kan vennene slutte å invitere henne. Da kan hun bli mer alene.
+**Riktig:** Riktig. Når Nora ikke kan besøke vennene sine, kan hun få mindre kontakt med dem.
 
-**Feil:** Tenk på hva vennene kan gjøre når Nora ikke kan komme.
+**Feil:** Tenk på hva som skjer når Nora ikke er sammen med vennene etter skolen. Hun får ikke flere venner eller mer øvelse i norsk.
 
-### familie-39 · Manars foreldre er usikre på å la henne besøke venner. Hva kan de gjøre?
+### familie-39 · Manars foreldre er usikre på om hun skal besøke en venn. Hva kan de gjøre?
 
 - A) Bli kjent med foreldrene til vennen ✔
 - B) Be læreren velge venner for Manar
-- C) Be skolen flytte Manar til en ny klasse
+- C) Be skolen bytte Manar til en annen klasse
 
-**Riktig:** Riktig. Det er vanlig å bli kjent med vennene til barna og foreldrene deres. Da blir det lettere å si ja.
+**Riktig:** Riktig. Foreldrene kan bli kjent med foreldrene til vennen. Da blir det lettere å si ja.
 
-**Feil:** Lærere velger ikke venner for barna. Foreldrene kan bli trygge ved å bli kjent med vennen og foreldrene hennes.
+**Feil:** Lærere velger ikke venner for barna, og skolen bytter ikke klasse av den grunnen. Foreldrene kan bli trygge ved å bli kjent med vennens foreldre.
 
-### familie-40 · Familien er ny i Norge, og hverdagen er vanskelig. Hva er viktig?
+### familie-40 · En familie er ny i Norge og synes at hverdagen er vanskelig. Hva kan hjelpe familien?
 
 - A) Å støtte hverandre og snakke sammen ✔
-- B) At hver person klarer seg alene
-- C) Å ikke snakke om det de savner
+- B) At alle prøver å klare seg helt alene
+- C) At familien unngår å snakke om det de savner
 
-**Riktig:** Riktig. Når familien flytter til et nytt land, er det viktig å støtte hverandre og snakke sammen.
+**Riktig:** Riktig. Det hjelper å støtte hverandre og snakke sammen.
 
-**Feil:** Familiemedlemmer kan reagere ulikt på å flytte. Da hjelper det å snakke sammen og støtte hverandre.
+**Feil:** Det er vanskelig å klare alt alene, og det hjelper ikke å la være å snakke om det man savner.
 
 
 ---
@@ -433,23 +433,23 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/1981-04-08-7/KAPITTEL_5, http
 
 ### familie-41 · Hva er riktig om barneoppdragelse i ulike kulturer?
 
-- A) Den kan være forskjellig ✔
-- B) Den er lik over hele verden
-- C) Den har ikke endret seg på 100 år
+- A) Foreldre kan ha ulike regler og forventninger til barn ✔
+- B) Foreldre har de samme reglene for barn over hele verden
+- C) Måten foreldre oppdrar barn på, har ikke endret seg på 100 år
 
-**Riktig:** Riktig. Barneoppdragelse kan være forskjellig i ulike familier, samfunn og kulturer.
+**Riktig:** Riktig. Foreldre i ulike kulturer kan ha ulike regler og forventninger til barn.
 
-**Feil:** Barneoppdragelse er ikke lik overalt, og den endrer seg over tid.
+**Feil:** Barneoppdragelse er ikke lik over hele verden, og den endrer seg over tid.
 
-### familie-42 · Hvem påvirker også barna, i tillegg til foreldrene?
+### familie-42 · Hvilke voksne kan påvirke barn, i tillegg til foreldrene?
 
-- A) Voksne i barnehage, skole og fritid ✔
-- B) Ansatte på Nav, i banken og i butikken
-- C) Folk som bor i andre land
+- A) Voksne i barnehagen, på skolen og på fritidsaktiviteter ✔
+- B) Ansatte i banken, på NAV og i butikker
+- C) Voksne som bor i andre land, men som barna ikke kjenner
 
-**Riktig:** Riktig. Foreldrene har hovedansvaret, men voksne i barnehage, skole og fritid påvirker også barna.
+**Riktig:** Riktig. Foreldrene har hovedansvaret, men voksne i barnehagen, på skolen og på fritidsaktiviteter påvirker også barna.
 
-**Feil:** Tenk på hvor barna er hver dag. Voksne i barnehage, skole og fritidsaktiviteter påvirker dem.
+**Feil:** Tenk på hvor barna er hver dag. Barna møter ikke de voksne i banken, på NAV eller i andre land like ofte.
 
 ### familie-43 · Hva er et viktig mål med barneoppdragelse?
 
@@ -461,15 +461,15 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/1981-04-08-7/KAPITTEL_5, http
 
 **Feil:** Målet er ikke penger eller å gjøre alt foreldrene sier. Barna skal kunne delta i samfunnet og leve et godt liv.
 
-### familie-44 · Hvordan så mange på barn i Norge for lenge siden?
+### familie-44 · Hvordan ble barn ofte sett på i Norge for lenge siden?
 
-- A) Som små voksne ✔
-- B) Som små konger
-- C) Som små gjester
+- A) Som små voksne som skulle lære å oppføre seg som voksne ✔
+- B) Som små konger som alltid fikk bestemme selv
+- C) Som små gjester som ikke skulle hjelpe til hjemme
 
-**Riktig:** Riktig. Tidligere ble barn sett på som små voksne. Mange måtte jobbe.
+**Riktig:** Riktig. For lenge siden ble barn ofte sett på som små voksne. Mange måtte jobbe og ta ansvar.
 
-**Feil:** Før i tiden ble barn sett på som «små voksne». De fikk mye ansvar og måtte ofte jobbe.
+**Feil:** Før i tiden fikk barn mye ansvar og måtte ofte hjelpe til. De bestemte ikke selv og var ikke gjester.
 
 ### familie-45 · Hva måtte mange barn gjøre før, som de ikke må i dag?
 
@@ -481,25 +481,25 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/1981-04-08-7/KAPITTEL_5, http
 
 **Feil:** Før var barn en del av arbeidet i familien. Mange barn måtte jobbe for å skaffe penger.
 
-### familie-46 · Hva er barndommen i Norge i dag?
+### familie-46 · Hva er viktig i barndommen i Norge i dag?
 
-- A) En tid for lek og læring ✔
-- B) En tid for arbeid og plikter
-- C) En tid for å tjene egne penger
+- A) Barn skal få tid til lek, læring og utvikling ✔
+- B) Barn skal først og fremst arbeide og tjene penger
+- C) Barn skal tidlig ta ansvar for å forsørge familien
 
-**Riktig:** Riktig. I dag er barndommen en tid for lek og læring.
+**Riktig:** Riktig. I Norge i dag skal barn få tid til lek, læring og utvikling.
 
-**Feil:** I dag stilles det ikke de samme kravene til barn som før. Barndommen er en tid for lek og læring.
+**Feil:** I dag skal barn ikke arbeide for å forsørge familien. Barndommen er en tid for lek og læring.
 
-### familie-47 · Hvorfor samarbeider foreldre tett med barnehagen og skolen?
+### familie-47 · Hvorfor samarbeider foreldre med barnehagen og skolen?
 
-- A) For å vite mer om barnas hverdag ✔
+- A) For å støtte barnas trivsel, læring og utvikling ✔
 - B) For å slippe å følge opp barna hjemme
-- C) For å bestemme hvor mye lærerne tjener
+- C) For å bestemme lønnen til lærerne
 
-**Riktig:** Riktig. Foreldre vil vite mye om barnas liv. Derfor er samarbeid med barnehagen og skolen viktig.
+**Riktig:** Riktig. Foreldre samarbeider med barnehagen og skolen for å støtte barnas trivsel, læring og utvikling.
 
-**Feil:** Foreldrene skal fortsatt følge opp barna. Samarbeidet gir dem mer kunnskap om barnas hverdag.
+**Feil:** Foreldrene skal fortsatt følge opp barna hjemme. De bestemmer ikke lærernes lønn.
 
 ### familie-48 · Hvor kan foreldre få gratis råd om små barn?
 
@@ -511,25 +511,25 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/1981-04-08-7/KAPITTEL_5, http
 
 **Feil:** Tenk på kontoret som følger med på barns helse og vekst.
 
-### familie-49 · Fatima synes barneoppdragelse er vanskelig. Hva kan hun gjøre?
+### familie-49 · Fatima synes det er vanskelig å oppdra barnet sitt. Hva kan hun gjøre?
 
-- A) Søke råd hos noen som kan mye ✔
-- B) Vente og håpe at det går over
-- C) La være å snakke med noen om det
+- A) Snakke med helsesykepleier eller ansatte i barnehagen ✔
+- B) Vente og håpe at problemene forsvinner av seg selv
+- C) Unngå å snakke med andre om problemene
 
-**Riktig:** Riktig. Foreldre kan søke råd hos noen som kan mye om barn, snakke med andre foreldre eller lese om emnet.
+**Riktig:** Riktig. Fatima kan snakke med helsesykepleier eller ansatte i barnehagen. De kan gi råd og hjelp.
 
-**Feil:** Det er vanlig at oppdragelse er vanskelig av og til. Det er lurt å be om råd og snakke med andre.
+**Feil:** Det er vanlig at oppdragelse er vanskelig. Det er lurt å be om råd og snakke med andre.
 
-### familie-50 · Hvilket råd er godt i barneoppdragelse?
+### familie-50 · Hvilket råd er godt når du oppdrar barn?
 
-- A) Lytt til barnet og gi mye ros ✔
-- B) Gi ros først når barnet er stille
-- C) Ikke snakk med barnet om følelser
+- A) Lytt til barnet og gi ros når det prøver ✔
+- B) Gi ros bare når barnet er stille
+- C) Unngå å snakke med barnet om følelser
 
-**Riktig:** Riktig. Det er et godt råd å lytte til barnet og gi ros når barnet gjør noe bra.
+**Riktig:** Riktig. Det er et godt råd å lytte til barnet og gi ros når det prøver.
 
-**Feil:** Barn trenger at voksne lytter og snakker med dem. Ros hjelper barnet, også når det ikke er stille.
+**Feil:** Barn trenger at voksne lytter og snakker med dem. Ros skal ikke bare gis når barnet er stille.
 
 ### familie-51 · Hva betyr det å være konsekvent som forelder?
 
@@ -642,13 +642,13 @@ Tilleggskilder: https://www.bufdir.no/barnevern/, https://www.bufdir.no/barnever
 
 ### familie-61 · Ahmed og Lina er slitne og trenger hjelp med barna. Hva kan de gjøre?
 
-- A) Be barnevernet om hjelp selv ✔
-- B) Vente til skolen melder fra
+- A) Kontakte en hjelpetjeneste for foreldre og barn ✔
+- B) Vente til skolen sier at de trenger hjelp
 - C) Vente til barna blir eldre
 
-**Riktig:** Riktig. Foreldre kan selv be barnevernet om hjelp. Det er bra å ta kontakt tidlig.
+**Riktig:** Riktig. Ahmed og Lina kan kontakte en hjelpetjeneste for foreldre og barn, for eksempel barnevernet. Det er bra å ta kontakt tidlig.
 
-**Feil:** Foreldre trenger ikke vente på andre. De kan selv kontakte barnevernet i kommunen.
+**Feil:** Foreldre trenger ikke vente på skolen eller til barna blir eldre. De kan selv be om hjelp.
 
 ### familie-62 · Hva er et fosterhjem?
 
@@ -670,25 +670,25 @@ Tilleggskilder: https://www.bufdir.no/barnevern/, https://www.bufdir.no/barnever
 
 **Feil:** Taushetsplikt betyr å ikke fortelle andre om saken. De ansatte kan fortsatt snakke med barnet.
 
-### familie-64 · Hva betyr avlastning fra barnevernet?
+### familie-64 · Hva kan avlastning fra barnevernet bety for en familie?
 
-- A) Barnet er hos andre noen dager, så foreldrene får hvile ✔
-- B) Barnet får gratis plass på SFO gjennom hele skoleåret
+- A) Barnet får være hos andre en periode, slik at foreldrene får avlastning ✔
+- B) Barnet får gratis plass på SFO hele skoleåret
 - C) Familien får hjelp til å vaske og rydde hjemme
 
-**Riktig:** Riktig. Avlastning betyr at barnet er hos en annen familie eller et annet sted noen dager. Da får foreldrene hvile.
+**Riktig:** Riktig. Avlastning betyr at barnet er hos andre en periode. Da får foreldrene hvile.
 
-**Feil:** Avlastning er ikke vasking eller SFO. Barnet er hos andre en kort tid, så foreldrene får hvile.
+**Feil:** Avlastning er ikke SFO og ikke hjelp til vasking. Barnet er hos andre en periode, slik at foreldrene får hvile.
 
-### familie-65 · Hva er en bekymringsmelding?
+### familie-65 · Hva er en bekymringsmelding til barnevernet?
 
-- A) En beskjed til barnevernet om et barn ✔
-- B) En klage til skolen om en lærer
-- C) Et brev fra Nav om penger til familien
+- A) En melding om bekymring for hvordan et barn har det ✔
+- B) En klage til skolen på hvordan en lærer arbeider
+- C) Et brev fra NAV om økonomisk støtte til familien
 
-**Riktig:** Riktig. En bekymringsmelding er en beskjed til barnevernet når noen er bekymret for et barn.
+**Riktig:** Riktig. En bekymringsmelding er en melding til barnevernet om bekymring for hvordan et barn har det.
 
-**Feil:** En bekymringsmelding går til barnevernet. Den sier at noen er bekymret for et barn.
+**Feil:** En bekymringsmelding sendes til barnevernet. Den er ikke en klage på en lærer og ikke et brev fra NAV.
 
 ### familie-66 · Hvem bestemmer om barnevernet kan overta omsorgen for et barn?
 
@@ -712,13 +712,13 @@ Tilleggskilder: https://www.bufdir.no/barnevern/, https://www.bufdir.no/barnever
 
 ### familie-68 · En nabo er bekymret for et barn. Hva kan hun gjøre?
 
-- A) Melde fra til barnevernet, også uten navn ✔
-- B) Først melde fra til politiet og vente
-- C) Først be familien om lov til å melde fra
+- A) Kontakte barnevernet og sende en bekymringsmelding ✔
+- B) Kontakte politiet først og alltid vente på svar
+- C) Be foreldrene om lov før hun kontakter barnevernet
 
-**Riktig:** Riktig. Alle kan melde fra til barnevernet, også uten å si navnet sitt, for eksempel på telefon. Alarmtelefonen for barn og unge, 116 111, er åpen hele døgnet.
+**Riktig:** Riktig. Naboen kan kontakte barnevernet og sende en bekymringsmelding. Hun kan også melde fra uten å oppgi navn.
 
-**Feil:** Man trenger ikke be om lov og ikke vente på andre. Barnevernet tar imot meldinger fra alle som er bekymret.
+**Feil:** Man trenger ikke be om lov og ikke vente på politiet. Barnevernet tar imot meldinger fra alle som er bekymret.
 
 
 ---
@@ -739,15 +739,15 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/1981-04-08-7/KAPITTEL_5, http
 
 **Feil:** Barneloven gjelder til barnet blir myndig. Myndighetsalderen i Norge er 18 år.
 
-### familie-70 · Hva skjer når et barn blir født i Norge?
+### familie-70 · Hva skjer vanligvis når et barn blir født i Norge?
 
-- A) Det sendes melding til Folkeregisteret ✔
+- A) Helsepersonell melder fødselen til Folkeregisteret ✔
 - B) Foreldrene må melde fødselen til politiet
-- C) Barnet får et norsk pass med en gang
+- C) Barnet får automatisk norsk pass ved fødselen
 
-**Riktig:** Riktig. Når et barn blir født, sendes en melding til Folkeregisteret om mor, far og om de bor sammen.
+**Riktig:** Riktig. Helsepersonell melder fødselen til Folkeregisteret.
 
-**Feil:** Fødselen blir meldt til Folkeregisteret. Pass må foreldrene søke om senere.
+**Feil:** Fødselen meldes til Folkeregisteret, ikke til politiet. Pass må foreldrene søke om senere.
 
 ### familie-71 · Hvor lenge må foreldre sørge for mat og klær til barnet?
 
@@ -759,15 +759,15 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/1981-04-08-7/KAPITTEL_5, http
 
 **Feil:** Foreldrene har dette ansvaret til barnet er myndig, altså 18 år.
 
-### familie-72 · Hva må foreldre passe på når det gjelder skole?
+### familie-72 · Hva har foreldre ansvar for når det gjelder barnas opplæring?
 
-- A) At barnet går på grunnskolen ✔
-- B) At barnet får de beste karakterene
-- C) At barnet velger samme yrke som dem
+- A) At barnet får opplæring i tråd med opplæringsplikten ✔
+- B) At barnet får de beste karakterene på skolen
+- C) At barnet velger samme yrke som foreldrene
 
-**Riktig:** Riktig. Foreldrene skal passe på at barnet går på grunnskolen. Opplæringen skal passe til barnets evner og interesser.
+**Riktig:** Riktig. Foreldre har ansvar for at barnet får opplæring i tråd med opplæringsplikten.
 
-**Feil:** Foreldrene kan ikke kreve beste karakter eller velge yrke for barnet. De skal passe på at barnet går på skolen.
+**Feil:** Foreldre kan ikke kreve de beste karakterene eller bestemme yrket til barnet. De skal passe på at barnet får opplæring.
 
 ### familie-73 · Foreldrene til Omar bor hver for seg. Hva har Omar rett til?
 
@@ -839,13 +839,13 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/1981-04-08-7/KAPITTEL_5, http
 
 **Feil:** Barneombudet bestemmer ikke skole og betaler ikke ut penger. Barneombudet passer på barns rettigheter.
 
-### familie-80 · Hva skal være viktigst når voksne tar avgjørelser om barn?
+### familie-80 · Hva skal voksne legge vekt på når de tar avgjørelser som gjelder barn?
 
-- A) Det som er best for barnet ✔
-- B) Det som er billigst for kommunen
-- C) Det som foreldrene ønsker mest
+- A) Hva som er best for barnet ✔
+- B) Hva som koster minst for kommunen
+- C) Hva foreldrene helst ønsker
 
-**Riktig:** Riktig. Barnets beste skal være viktigst når voksne tar avgjørelser om barn.
+**Riktig:** Riktig. Voksne skal legge vekt på hva som er best for barnet.
 
 **Feil:** Pris og foreldrenes ønsker er ikke det viktigste. Det som er best for barnet, skal komme først.
 

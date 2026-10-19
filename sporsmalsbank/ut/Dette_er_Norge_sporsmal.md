@@ -95,7 +95,7 @@ Tilleggskilder: https://kartverket.no/til-lands/fakta-om-norge/norske-fylke-og-k
 
 ### dettenorge-09 · Hva er en isbre?
 
-- A) Et stort område med is og snø hele året ✔
+- A) Et stort område med is og snø som ligger hele året ✔
 - B) Et vann som fryser til is om vinteren
 - C) En vei over fjellet som stenges om vinteren
 
@@ -113,15 +113,15 @@ Tilleggskilder: https://kartverket.no/til-lands/fakta-om-norge/norske-fylke-og-k
 
 **Feil:** Norge har mye fjell og skog. Det er lite jord der man kan dyrke mat.
 
-### dettenorge-11 · Hvorfor er klimaet i Norge mildere enn man skulle tro?
+### dettenorge-11 · Hva er den viktigste årsaken til at Norge har et mildere klima enn breddegraden skulle tilsi?
 
-- A) Golfstrømmen gir varmt vann langs kysten ✔
-- B) Fjellene stopper kald luft fra Nordpolen
-- C) Det blåser varme vinder fra Russland
+- A) Golfstrømmen transporterer varmt havvann langs kysten ✔
+- B) Fjellene hindrer kald luft i å komme til Norge
+- C) Varme luftmasser fra Russland dominerer været i Norge
 
-**Riktig:** Riktig. Golfstrømmen tar med seg varmt vann fra sør opp langs norskekysten.
+**Riktig:** Riktig. Golfstrømmen transporterer varmt havvann langs kysten. Det gjør klimaet mildere.
 
-**Feil:** Grunnen er havet. En varm havstrøm kommer fra sør og går langs kysten.
+**Feil:** Fjellene stopper ikke kald luft, og været i Norge kommer ikke fra Russland. Det er havstrømmen som gir varme.
 
 ### dettenorge-12 · Hva betyr midnattssol?
 
@@ -192,45 +192,45 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/2017-06-16-51, https://lovdat
 
 **Feil:** Likeverd handler om verdien til hvert menneske, ikke om penger eller tro.
 
-### dettenorge-18 · Hvilket tilbud er et eksempel på at samfunnet gir like muligheter?
+### dettenorge-18 · Hva er et eksempel på at samfunnet gir mennesker like muligheter?
 
-- A) Norskopplæring for innvandrere ✔
-- B) Gratis bolig til nye familier
-- C) Høyere skatt for unge folk
+- A) Å tilby gratis norskopplæring til voksne innvandrere ✔
+- B) Å gi noen grupper flere stemmer ved valg
+- C) Å gi høyere lønn til personer med samme arbeid
 
-**Riktig:** Riktig. Norskopplæring for innvandrere er et eksempel på at samfunnet gir like muligheter.
+**Riktig:** Riktig. Å tilby gratis norskopplæring til voksne innvandrere gir flere like muligheter.
 
-**Feil:** Samfunnet prøver å gi alle en god start. Tenk på et tilbud som hjelper nye i Norge.
+**Feil:** Like muligheter betyr ikke flere stemmer eller høyere lønn til noen. Alle skal ha de samme mulighetene.
 
-### dettenorge-19 · Hva er eksempler på forbudte grunner til å diskriminere noen?
+### dettenorge-19 · Hvilke forhold er det forbudt å diskriminere noen på grunn av?
 
 - A) Religion, funksjonsevne og hudfarge ✔
 - B) Utdanning, inntekt og yrke
-- C) Hobbyer, interesser og smak
+- C) Bosted, fritidsaktiviteter og matvaner
 
-**Riktig:** Riktig. Loven forbyr diskriminering på grunn av blant annet religion, funksjonsevne, hudfarge og kjønn.
+**Riktig:** Riktig. Det er forbudt å diskriminere på grunn av religion, funksjonsevne og hudfarge.
 
-**Feil:** Loven beskytter noe som er en viktig del av hvem et menneske er, ikke det man velger i hverdagen.
+**Feil:** Utdanning, inntekt, yrke, bosted, fritidsaktiviteter og matvaner er ikke blant de forbudte grunnene i loven.
 
-### dettenorge-20 · Hvor mange kvinner er i jobb i Norge (2026)?
+### dettenorge-20 · Hvordan er kvinners yrkesdeltakelse i Norge sammenlignet med menns?
 
-- A) Nesten like mange som menn ✔
-- B) Omtrent halvparten så mange som menn
-- C) Mange flere kvinner enn menn
+- A) Nesten like mange kvinner som menn er i jobb ✔
+- B) Omtrent halvparten så mange kvinner som menn er i jobb
+- C) Omtrent dobbelt så mange kvinner som menn er i jobb
 
-**Riktig:** Riktig. Nesten like mange kvinner som menn er i jobb i Norge.
+**Riktig:** Riktig. I Norge er nesten like mange kvinner som menn i jobb.
 
-**Feil:** De fleste kvinner i Norge har jobb. Antallet er nesten likt med menn.
+**Feil:** Det er ikke halvparten så mange kvinner som menn i jobb, og ikke dobbelt så mange. Tallene er nesten like.
 
-### dettenorge-21 · Hvem er de fleste lederne i arbeidslivet i Norge?
+### dettenorge-21 · Hva viser undersøkelser om kvinner og menn som ledere i arbeidslivet i Norge?
 
-- A) Menn – nesten to av tre ✔
-- B) Kvinner – nesten to av tre
-- C) Like mange menn og kvinner
+- A) Det er flere mannlige enn kvinnelige ledere ✔
+- B) Det er flere kvinnelige enn mannlige ledere
+- C) Det er omtrent like mange mannlige som kvinnelige ledere
 
-**Riktig:** Riktig. Nesten to av tre ledere i arbeidslivet er menn.
+**Riktig:** Riktig. Undersøkelser viser at det er flere mannlige enn kvinnelige ledere i arbeidslivet i Norge.
 
-**Feil:** Det er fortsatt flest menn i ledende stillinger, selv om mange kvinner jobber.
+**Feil:** Det er ikke flere kvinner enn menn som ledere, og tallene er ikke like. Flest ledere er menn.
 
 ### dettenorge-22 · Hvilke utdanninger velger kvinner oftere enn menn?
 
@@ -252,15 +252,15 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/2017-06-16-51, https://lovdat
 
 **Feil:** Mange par deler mer nå enn før, men det er ikke helt likt ennå.
 
-### dettenorge-24 · Lina har jobbet deltid i mange år. Hva kan det føre til?
+### dettenorge-24 · Lina har jobbet deltid i mange år. Hvordan kan det påvirke pensjonen hennes?
 
-- A) Lavere pensjon når hun blir gammel ✔
-- B) Høyere skatt enn de som jobber fullt
-- C) At hun mister retten til fastlege
+- A) Hun kan få lavere pensjon når hun blir gammel ✔
+- B) Hun kan få høyere skatt enn de som jobber fulltid
+- C) Hun kan miste retten til fastlege
 
-**Riktig:** Riktig. Den som jobber deltid, tjener mindre. Det kan gi lavere pensjon senere.
+**Riktig:** Riktig. Når Lina har jobbet deltid i mange år, kan hun få lavere pensjon.
 
-**Feil:** Deltid gir mindre lønn. Tenk på hva det betyr for pengene du får når du blir gammel.
+**Feil:** Deltid gir ikke høyere skatt og tar ikke fra deg retten til fastlege. Lavere inntekt gir lavere pensjon.
 
 ### dettenorge-25 · Hvem bestemmer hvordan et par deler arbeidet hjemme?
 
@@ -292,25 +292,25 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/2017-06-16-51, https://lovdat
 
 **Feil:** Paragrafen begrenser ytringsfriheten litt for å verne grupper som lett blir utsatt for hat.
 
-### dettenorge-28 · Hva sier loven om alder i arbeidslivet?
+### dettenorge-28 · Hva sier loven om alder og arbeid?
 
-- A) Arbeidsgiveren skal ikke behandle noen dårligere på grunn av alder ✔
-- B) Eldre arbeidstakere skal få mer lønn enn de yngre
-- C) Unge søkere skal få jobb før de som er eldre
+- A) Arbeidsgivere skal ikke behandle noen dårligere på grunn av alder ✔
+- B) Arbeidsgivere skal gi eldre arbeidstakere bedre rettigheter enn yngre
+- C) Arbeidsgivere skal ansette yngre personer før eldre personer
 
-**Riktig:** Riktig. Arbeidsmiljøloven forbyr diskriminering på grunn av alder i arbeidslivet, for eksempel når arbeidsgiveren ansetter.
+**Riktig:** Riktig. Loven sier at arbeidsgivere ikke skal behandle noen dårligere på grunn av alder.
 
-**Feil:** Loven skal gi lik behandling. Den gir ikke en aldersgruppe fordeler.
+**Feil:** Loven gir ikke eldre bedre rettigheter og sier ikke at unge skal ansettes først. Alle skal behandles likt.
 
-### dettenorge-29 · Ahmed tror han ikke fikk jobben på grunn av bakgrunnen sin. Hvem behandler klagen?
+### dettenorge-29 · Ahmed mener at han ble diskriminert da han søkte jobb. Hvem behandler slike klager?
 
 - A) Diskrimineringsnemnda ✔
 - B) Forbrukerrådet
 - C) Sivilombudet
 
-**Riktig:** Riktig. Diskrimineringsnemnda behandler klager på diskriminering. Det er gratis å klage. Likestillings- og diskrimineringsombudet kan gi råd først.
+**Riktig:** Riktig. Diskrimineringsnemnda behandler klager om diskriminering.
 
-**Feil:** Tenk på hvem som tar imot saker om urettferdig behandling på grunn av bakgrunn. De to andre har andre oppgaver.
+**Feil:** Forbrukerrådet hjelper forbrukere, og Sivilombudet kontrollerer offentlig forvaltning. Diskrimineringsnemnda behandler klager om diskriminering.
 
 ### dettenorge-30 · Hva betyr «lik lønn for likt arbeid»?
 
@@ -322,15 +322,15 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/2017-06-16-51, https://lovdat
 
 **Feil:** Prinsippet handler om kjønn. En kvinne skal ikke tjene mindre enn en mann for den samme jobben.
 
-### dettenorge-31 · Arbeidsgiveren spør Sara om hun vil ha barn. Hva sier loven?
+### dettenorge-31 · Arbeidsgiveren spør Sara om hun planlegger å få barn. Hva sier loven?
 
 - A) Sara trenger ikke å svare på spørsmålet ✔
-- B) Sara må svare ærlig for å få jobben
-- C) Sara må svare hvis jobben er fast
+- B) Sara må svare hvis arbeidsgiveren ber om det
+- C) Sara må svare for å bli vurdert til jobben
 
-**Riktig:** Riktig. Arbeidsgiveren har ikke lov til å spørre om graviditet eller familieplaner. Sara trenger ikke å svare.
+**Riktig:** Riktig. Sara trenger ikke å svare på spørsmålet. Arbeidsgiveren har ikke lov til å spørre om dette.
 
-**Feil:** Loven beskytter jobbsøkere. Arbeidsgiveren skal ikke stille slike spørsmål.
+**Feil:** Sara må ikke svare, verken for å få jobben eller fordi arbeidsgiveren ber om det.
 
 ### dettenorge-32 · Hva betyr universell utforming?
 
@@ -371,15 +371,15 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/1995-02-24-12, https://lovdat
 
 **Feil:** Tenk på forskjellen mellom en fridag og en flaggdag. De fleste steder går folk på jobb og skole som vanlig.
 
-### dettenorge-35 · Hva markerer mange i Norge 8. mars?
+### dettenorge-35 · Hva markerer vi 8. mars?
 
 - A) Den internasjonale kvinnedagen ✔
 - B) Den internasjonale arbeiderdagen
 - C) Samenes nasjonaldag
 
-**Riktig:** Riktig. 8. mars er den internasjonale kvinnedagen. Noen går i tog for kvinners rettigheter.
+**Riktig:** Riktig. Den 8. mars markerer vi den internasjonale kvinnedagen.
 
-**Feil:** Datoen handler om kvinners rettigheter. Mange går i tog og holder appeller.
+**Feil:** Den internasjonale arbeiderdagen er 1. mai. Samenes nasjonaldag er 6. februar.
 
 ### dettenorge-36 · Siden hvilket år har kvinnedagen blitt markert i Norge hvert år?
 
@@ -401,15 +401,15 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/1995-02-24-12, https://lovdat
 
 **Feil:** Jesu fødsel feires i julen. Påsken handler om slutten av Jesu liv.
 
-### dettenorge-38 · Hvilken dag i påsken er en helligdag?
+### dettenorge-38 · Hvilken av disse dagene er en helligdag i påsken?
 
-- A) Langfredag, fredagen før påskedag ✔
-- B) Onsdag, dagen før skjærtorsdag
-- C) Tirsdag, dagen etter 2. påskedag
+- A) Langfredag, fredagen før første påskedag ✔
+- B) Onsdag før skjærtorsdag
+- C) Tirsdag etter andre påskedag
 
-**Riktig:** Riktig. Langfredag er en helligdag. Skjærtorsdag, 1. påskedag og 2. påskedag er også helligdager.
+**Riktig:** Riktig. Langfredag, fredagen før første påskedag, er en helligdag.
 
-**Feil:** Helligdagene i påsken er fra torsdag til mandag. Se på hvilken dag som ligger innenfor disse dagene.
+**Feil:** Onsdag før skjærtorsdag og tirsdag etter andre påskedag er vanlige arbeidsdager.
 
 ### dettenorge-39 · Når er Kristi himmelfartsdag?
 
@@ -473,13 +473,13 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/1995-02-24-12, https://lovdat
 
 ### dettenorge-45 · Hva er konfirmasjon?
 
-- A) En markering for ungdom rundt 15 år ✔
-- B) En fest når et barn får navnet sitt
-- C) En feiring når et par har vært gift lenge
+- A) En seremoni der ungdom markerer overgangen fra barn til voksen ✔
+- B) En seremoni der foreldre gir barnet navn og ønsker det velkommen
+- C) En feiring av at et ektepar har vært gift i mange år
 
-**Riktig:** Riktig. Konfirmasjon er en markering for ungdom rundt 15 år, i kirken eller borgerlig.
+**Riktig:** Riktig. Konfirmasjon er en seremoni der ungdom markerer overgangen fra barn til voksen.
 
-**Feil:** Konfirmasjon er en tradisjon for unge i tenårene. Det er ikke dåp eller bryllupsdag.
+**Feil:** Å gi navn til et barn heter navnefest eller dåp. Å feire mange år som gift er et jubileum.
 
 ### dettenorge-46 · Klassen til Mina lærer om jul på skolen. Hva betyr det for Mina?
 
@@ -540,45 +540,45 @@ Tilleggskilder: https://www.regjeringen.no/no/tema/urfolk-og-minoriteter/nasjona
 
 **Feil:** De nasjonale minoritetene har bodd i Norge i mange generasjoner. Nyere innvandrergrupper er ikke med.
 
-### dettenorge-51 · Hva er kvensk, romani og romanes?
+### dettenorge-51 · Hva er kvensk og romanes?
 
 - A) Språk til nasjonale minoriteter ✔
 - B) Tre dialekter på Vestlandet
 - C) Samiske ord for reinsdyr
 
-**Riktig:** Riktig. Kvensk, romani og romanes er nasjonale minoritetsspråk i Norge.
+**Riktig:** Riktig. Kvensk og romanes er språk som nasjonale minoriteter bruker i Norge.
 
-**Feil:** Dette er språk som noen av de nasjonale minoritetene snakker. De er ikke samiske.
+**Feil:** Kvensk og romanes er ikke dialekter på Vestlandet og ikke samiske ord. De er egne språk.
 
-### dettenorge-52 · Hva lovet Norge i en avtale om nasjonale minoriteter i 1999?
+### dettenorge-52 · Hva lovet Norge å gjøre for nasjonale minoriteter gjennom en avtale i 1999?
 
-- A) Å hjelpe dem å ta vare på kulturen sin ✔
-- B) Å gi dem egne fylker og et eget parlament
-- C) Å la dem slippe å betale skatt
+- A) Hjelpe dem med å bevare språket og kulturen sin ✔
+- B) Gi dem egne fylker og et eget parlament
+- C) La dem slippe å betale skatt
 
-**Riktig:** Riktig. Norge lovet å legge til rette for at minoritetene kan bevare språk, religion og kultur.
+**Riktig:** Riktig. Norge lovet å hjelpe nasjonale minoriteter med å bevare språket og kulturen sin.
 
-**Feil:** Avtalen handler om kultur, språk og tradisjoner. Staten skal hjelpe gruppene å ta vare på dem.
+**Feil:** Norge lovet ikke egne fylker, eget parlament eller skattefritak. Avtalen handler om språk og kultur.
 
-### dettenorge-53 · Omtrent hvor mange i Norge er innvandrere eller barn av to innvandrere (2026)?
+### dettenorge-53 · Hva betyr det å være innvandrer i Norge?
 
-- A) Omtrent to millioner ✔
-- B) Omtrent 500 000
-- C) Omtrent fire millioner
+- A) Å ha flyttet fra et annet land til Norge ✔
+- B) Å ha flyttet fra en kommune til en annen i Norge
+- C) Å ha reist på ferie til et annet land
 
-**Riktig:** Riktig. Omtrent to millioner i Norge er innvandrere eller har to foreldre som er innvandrere.
+**Riktig:** Riktig. En innvandrer er en person som har flyttet fra et annet land til Norge.
 
-**Feil:** Det er mange, men langt fra halvparten av de omtrent 5,6 millioner innbyggerne.
+**Feil:** Å flytte mellom kommuner i Norge er ikke innvandring, og en ferie er ikke en flytting.
 
-### dettenorge-54 · Fra hvilket land kommer flest innvandrere i Norge (2026)?
+### dettenorge-54 · Hvilket land har flest innvandrere i Norge kommet fra?
 
 - A) Polen ✔
 - B) Sverige
 - C) Syria
 
-**Riktig:** Riktig. Polen er landet flest innvandrere i Norge kommer fra. Ukraina og Litauen følger etter.
+**Riktig:** Riktig. De fleste innvandrerne i Norge har kommet fra Polen.
 
-**Feil:** Den største gruppen kommer fra et land i Europa. Mange kom for å jobbe.
+**Feil:** Sverige og Syria har færre innvandrere i Norge enn Polen.
 
 ### dettenorge-55 · Hva betyr «norskfødt med innvandrerforeldre»?
 
@@ -739,15 +739,15 @@ Tilleggskilder: https://www.ssb.no/kultur-og-fritid/religion-og-livssyn/statisti
 
 **Feil:** Religionsfrihet betyr frihet til å velge. Ingen kan tvinge deg til å tro på noe.
 
-### dettenorge-70 · Hvordan ser mange i Norge på religion?
+### dettenorge-70 · Hvordan blir religion ofte sett på i Norge?
 
-- A) Som en privatsak for hver enkelt ✔
-- B) Som noe staten skal bestemme
-- C) Som noe man snakker om på jobben
+- A) Som en personlig sak som hver enkelt kan velge selv ✔
+- B) Som noe staten bestemmer for alle
+- C) Som noe alle må følge på samme måte
 
-**Riktig:** Riktig. De fleste i Norge ser på religion som en privatsak.
+**Riktig:** Riktig. I Norge blir religion ofte sett på som en personlig sak som hver enkelt kan velge selv.
 
-**Feil:** Mange i Norge snakker lite om sin egen tro med folk de ikke kjenner godt.
+**Feil:** Staten bestemmer ikke hvilken religion du har, og ingen må følge den samme religionen. Du velger selv.
 
 
 ---

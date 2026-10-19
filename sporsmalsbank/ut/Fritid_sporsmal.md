@@ -213,15 +213,15 @@ Tilleggskilder: https://lovdata.no/lov/2023-06-16-62, https://lovdata.no/lov/201
 
 **Feil:** Kommunestyret er politikerne som styrer kommunen. De blir valgt av innbyggerne.
 
-### fritid-21 · Hvem bestemmer hvor mye penger bussene får?
+### fritid-21 · Hvem bestemmer hvor mye penger fylkeskommunen skal bruke på busstilbudet?
 
-- A) Politikere som innbyggerne har valgt ✔
+- A) Politikere som innbyggerne har valgt inn i fylkestinget ✔
 - B) Direktøren i busselskapet
 - C) Lederen i Statens vegvesen
 
-**Riktig:** Riktig. Folkevalgte politikere bestemmer for eksempel hvor mye penger bussene får.
+**Riktig:** Riktig. Politikere som innbyggerne har valgt inn i fylkestinget, bestemmer hvor mye penger fylkeskommunen bruker på busstilbudet.
 
-**Feil:** Tenk på hvem som bestemmer over penger i kommunen og fylket.
+**Feil:** Direktøren i busselskapet og lederen i Statens vegvesen bestemmer ikke fylkets penger. Det gjør de folkevalgte.
 
 ### fritid-22 · Hva betyr det at valget er hemmelig?
 
@@ -472,15 +472,15 @@ Tilleggskilder: https://snl.no/dugnad
 
 **Feil:** Det er høflig å si fra hvis du ikke kan komme. Da vet de andre det.
 
-### fritid-46 · Hva lar noen lag foreldrene gjøre i stedet for å delta på dugnad?
+### fritid-46 · Hva kan foreldre noen ganger gjøre hvis de ikke kan delta på dugnad i et idrettslag?
 
-- A) Betale et beløp til laget ✔
-- B) Sende barna på dugnaden alene
-- C) Skrive en klage til laget
+- A) Betale et beløp til laget i stedet ✔
+- B) Sende barna alene for å gjøre arbeidet
+- C) Skrive en klage til laget i stedet
 
 **Riktig:** Riktig. Noen lag lar foreldrene betale et beløp i stedet for å delta på dugnad.
 
-**Feil:** Noen lag har en ordning der du kan betale penger hvis du ikke vil være med på dugnaden.
+**Feil:** Barn skal ikke gjøre dugnaden alene, og en klage løser ikke saken. Noen lag har en ordning der du kan betale.
 
 ### fritid-47 · Hva kan du få ut av å delta på dugnad?
 

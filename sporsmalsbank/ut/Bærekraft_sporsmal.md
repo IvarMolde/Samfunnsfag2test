@@ -53,15 +53,15 @@ Tilleggskilder: https://samfunnskunnskap.no/nb/baerekraft.html, https://www.fn.n
 
 **Feil:** Tittelen sier noe om hva menneskene i alle land har sammen.
 
-### baerekraft-05 · Hva er FNs bærekraftsmål?
+### baerekraft-05 · Hva er målet med FNs bærekraftsmål?
 
-- A) En felles plan for hele verden ✔
-- B) En norsk lov om natur og miljø
-- C) En avtale om handel i Europa
+- A) Å bekjempe fattigdom, redusere ulikhet og ta vare på miljøet ✔
+- B) Å lage felles lover for natur og miljø i Norge
+- C) Å lage en avtale om handel mellom land i Europa
 
-**Riktig:** Riktig. FNs bærekraftsmål er en felles plan for hele verden. Målet er å utrydde fattigdom, bekjempe ulikhet og stoppe klimaendringene.
+**Riktig:** Riktig. FNs bærekraftsmål skal bekjempe fattigdom, redusere ulikhet og ta vare på miljøet.
 
-**Feil:** Bærekraftsmålene gjelder ikke bare ett land eller én del av verden. De gjelder alle land.
+**Feil:** Bærekraftsmålene er en felles plan for hele verden. De er ikke norske lover og ikke en handelsavtale.
 
 ### baerekraft-06 · Hvor mange bærekraftsmål har FN?
 
@@ -133,15 +133,15 @@ Tilleggskilder: https://samfunnskunnskap.no/nb/baerekraft.html, https://www.fn.n
 
 **Feil:** Målene er en felles plan. Alle har en rolle, både land, bedrifter og hver enkelt av oss.
 
-### baerekraft-13 · Hva er klima?
+### baerekraft-13 · Hva mener vi med klima?
 
-- A) Gjennomsnittet av været over lang tid ✔
-- B) Været du ser ut av vinduet i dag
-- C) Hvor mye det regner i løpet av en uke
+- A) Gjennomsnittet av været på et sted over mange år ✔
+- B) Været på et sted akkurat i dag
+- C) Mengden regn på et sted i løpet av én uke
 
-**Riktig:** Riktig. Klima er gjennomsnittet av været målt over lang tid. Været er det vi opplever hver dag.
+**Riktig:** Riktig. Klima er gjennomsnittet av været på et sted over mange år.
 
-**Feil:** Vær og klima er ikke det samme. Det ene er det du ser ute i dag, det andre måles over mange år.
+**Feil:** Været i dag eller regn i en uke er vær, ikke klima. Klima handler om lang tid.
 
 ### baerekraft-14 · Hva mener de fleste forskere er årsaken til de raske klimaendringene?
 
@@ -173,25 +173,25 @@ Tilleggskilder: https://samfunnskunnskap.no/nb/baerekraft.html, https://www.fn.n
 
 **Feil:** «Ekstrem» betyr veldig mye eller veldig sterk. Tenk på vær som kan gjøre stor skade.
 
-### baerekraft-17 · Hva er en klimagass?
+### baerekraft-17 · Hva gjør en klimagass i atmosfæren?
 
-- A) En gass som holder på varmen rundt jorda ✔
-- B) En gass som gjør lufta kaldere
-- C) En gass som beskytter jorda mot sterk sol
+- A) Den bidrar til at atmosfæren holder på varmen ✔
+- B) Den gjør at atmosfæren blir kaldere
+- C) Den beskytter jorda mot sterk sol
 
-**Riktig:** Riktig. Klimagasser, for eksempel CO₂, holder på varmen rundt jorda. Mer klimagasser gjør jorda varmere.
+**Riktig:** Riktig. En klimagass bidrar til at atmosfæren holder på varmen.
 
-**Feil:** Klimagasser er knyttet til at temperaturen på jorda stiger.
+**Feil:** En klimagass gjør ikke atmosfæren kaldere og beskytter ikke mot sol. Den holder på varmen.
 
-### baerekraft-18 · Hvilken klimagass slipper mennesker ut mest av?
+### baerekraft-18 · Hvilken klimagass slipper mennesker mest ut av?
 
 - A) Karbondioksid (CO₂) ✔
 - B) Oksygen (O₂)
 - C) Nitrogen (N₂)
 
-**Riktig:** Riktig. Karbondioksid (CO₂) er den klimagassen mennesker slipper ut mest av, blant annet fra olje, gass og kull.
+**Riktig:** Riktig. Mennesker slipper mest ut av klimagassen karbondioksid (CO₂).
 
-**Feil:** Denne gassen kommer når vi brenner olje, gass, kull og ved.
+**Feil:** Oksygen og nitrogen er ikke klimagasser.
 
 ### baerekraft-19 · Hva er en fornybar ressurs?
 
@@ -302,25 +302,25 @@ Kilde: https://samfunnskunnskap.no/nb/baerekraft/natur-og-naturressurser.html
 
 Tilleggskilder: https://lovdata.no/dokument/NL/lov/1957-06-28-16, https://lovdata.no/dokument/NL/lov/2003-07-04-74, https://www.dsb.no/aktuelt/husk-balforbudet-fra-15.-april, https://www.regjeringen.no/no/tema/okonomi-og-budsjett/norsk_okonomi/bruk-av-oljepenger-/handlingsregelen/id444338/, https://norskfriluftsliv.no/hva-er-allemannsretten/slik-er-fiskereglene-i-norge, https://www.miljodirektoratet.no/ansvarsomrader/friluftsliv/friluftsliv-og-allemannsretten/fiske/
 
-### baerekraft-29 · Hva er en viktig grunn til at Norge er et rikt land?
+### baerekraft-29 · Hvilke naturressurser har bidratt til at Norge er et rikt land?
 
-- A) Naturressurser som olje, fisk og vannkraft ✔
-- B) Eksport av korn fra store jordbruksområder
-- C) Salg av biler og elektronikk til hele verden
+- A) Olje, fisk og vannkraft ✔
+- B) Korn, ris og store jordbruksområder
+- C) Biler, datamaskiner og elektronikk
 
-**Riktig:** Riktig. Norge har mye naturressurser, for eksempel olje, fisk og vannkraft. Folk har også lært å bruke dem godt.
+**Riktig:** Riktig. Olje, fisk og vannkraft har bidratt til at Norge er et rikt land.
 
-**Feil:** Tenk på hva Norge har mye av i havet, i elvene og under havbunnen.
+**Feil:** Norge har lite jordbruksland og selger ikke mange biler eller datamaskiner. Naturressurser som olje, fisk og vannkraft er viktigere.
 
 ### baerekraft-30 · Hvilke naturressurser er de viktigste i Norge?
 
-- A) Fisk, skog og olje ✔
+- A) Fisk, skog, gass og olje ✔
 - B) Gull, kull og diamanter
 - C) Ris, kaffe og bomull
 
-**Riktig:** Riktig. De viktigste naturressursene i Norge er fisk, skog og olje. I tillegg har vi mye vann som gir strøm.
+**Riktig:** Riktig. Fisk, skog, gass og olje er viktige naturressurser i Norge.
 
-**Feil:** Tenk på havet, de store skogene og det som blir hentet opp i Nordsjøen.
+**Feil:** Gull, kull, diamanter, ris, kaffe og bomull er ikke de viktigste naturressursene i Norge.
 
 ### baerekraft-31 · Hvor kommer det meste av strømmen i Norge fra?
 
@@ -362,15 +362,15 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/1957-06-28-16, https://lovdat
 
 **Feil:** Tømmer er tre fra skogen. Tenk på hva vi kan lage av tre.
 
-### baerekraft-35 · Hva er oppdrett av fisk?
+### baerekraft-35 · Hva betyr det å drive med fiskeoppdrett?
 
-- A) Laks og annen fisk vokser opp i anlegg i sjøen ✔
-- B) Fiskere tar fisk fra havet med store båter
-- C) Folk fisker med stang fra små båter i fjorden
+- A) Å la laks og annen fisk vokse opp i egne anlegg i sjøen ✔
+- B) Å fange fisk i havet med store fiskebåter
+- C) Å fange fisk fra små båter med fiskestang
 
-**Riktig:** Riktig. Ved oppdrett, eller havbruk, vokser fisk som laks opp i store anlegg i sjøen. Fisken blir ikke fanget i havet.
+**Riktig:** Riktig. Fiskeoppdrett betyr å la laks og annen fisk vokse opp i egne anlegg i sjøen.
 
-**Feil:** Tenk på en gård, men for fisk. Hvor bor fisken hele livet?
+**Feil:** Å fange fisk i havet eller med stang er fiske, ikke oppdrett.
 
 ### baerekraft-36 · Hvorfor bestemmer myndighetene hvor mye fisk som kan fiskes?
 
@@ -392,15 +392,15 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/1957-06-28-16, https://lovdat
 
 **Feil:** Navnet sier at det er statens fond. Pengene kommer fra olje- og gassvirksomheten.
 
-### baerekraft-38 · Hva sier handlingsregelen om bruken av oljefondet (2026)?
+### baerekraft-38 · Hva sier handlingsregelen om bruken av oljepenger i Norge?
 
-- A) Staten bruker omtrent 3 prosent av fondet hvert år ✔
-- B) Staten bruker omtrent 10 prosent av fondet hvert år
-- C) Staten bruker omtrent 25 prosent av fondet hvert år
+- A) Staten skal over tid bruke omtrent det fondet forventes å tjene ✔
+- B) Staten skal hvert år bruke omtrent 10 prosent av fondet
+- C) Staten skal hvert år bruke omtrent 25 prosent av fondet
 
-**Riktig:** Riktig. Over tid bruker staten omtrent det fondet forventes å gi i avkastning, anslått til 3 prosent. Resten blir spart.
+**Riktig:** Riktig. Handlingsregelen sier at staten over tid skal bruke omtrent det fondet forventes å tjene.
 
-**Feil:** Fondet skal vare til de som kommer etter oss. Tenk på hvor mange kroner av hundre staten kan bruke.
+**Feil:** Staten bruker ikke 10 eller 25 prosent av fondet hvert år. Det ville tømt fondet.
 
 ### baerekraft-39 · Hvorfor sparer Norge oljepengene i et fond?
 
@@ -412,15 +412,15 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/1957-06-28-16, https://lovdat
 
 **Feil:** Olje er ikke fornybar. Tenk på bærekraft og generasjonene som kommer etter oss.
 
-### baerekraft-40 · Hva kommer mange turister til Norge for å se?
+### baerekraft-40 · Hva kommer mange turister til Norge for å oppleve?
 
-- A) Fjordene og midnattssola ✔
-- B) Ørkenen og palmestrendene
-- C) Vulkanene og regnskogen
+- A) Fjordene og nordlyset ✔
+- B) Ørkenen og de varme strendene
+- C) Regnskogen og de tropiske dyrene
 
-**Riktig:** Riktig. Naturen er også en ressurs. Turister kommer fra hele verden for å se fjordene og midnattssola.
+**Riktig:** Riktig. Mange turister kommer til Norge for å oppleve fjordene og nordlyset.
 
-**Feil:** Tenk på hva som er spesielt med naturen i Norge, særlig langs kysten og i nord.
+**Feil:** Norge har ikke ørken, varme strender, regnskog eller tropiske dyr.
 
 ### baerekraft-41 · Hva betyr allemannsretten?
 
@@ -442,15 +442,15 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/1957-06-28-16, https://lovdat
 
 **Feil:** Utmark er natur der ingen dyrker jorda eller bor. Hager og åkre er innmark.
 
-### baerekraft-43 · Hva gjelder hvis du vil gå over en åker med korn i juli?
+### baerekraft-43 · Hva gjelder for ferdsel over en åker med voksende korn?
 
-- A) Du kan ikke gå der uten lov fra eieren ✔
-- B) Du kan gå der hvis du går veldig forsiktig
-- C) Du kan gå der hvis det er en kort tur
+- A) Du må ha tillatelse fra eieren for å gå over åkeren ✔
+- B) Du kan gå over åkeren hvis du går forsiktig
+- C) Du kan gå over åkeren hvis turen er kort
 
-**Riktig:** Riktig. En åker er innmark. Der kan du ikke gå om sommeren uten lov fra eieren.
+**Riktig:** Riktig. Du må ha tillatelse fra eieren for å gå over en åker med voksende korn.
 
-**Feil:** Allemannsretten gjelder fritt i utmark. Dyrket mark er innmark.
+**Feil:** Du kan ødelegge kornet selv om du går forsiktig eller bare en kort tur. Du må ha tillatelse.
 
 ### baerekraft-44 · Hvor langt fra et hus eller en hytte må teltet ditt stå?
 
@@ -611,25 +611,25 @@ Tilleggskilder: https://infinitum.no/no/pantesystemet/hva-kan-pantes/, https://w
 
 **Feil:** Tenk på hva som trengs for å lage nye klær: råvarer, vann, energi og transport.
 
-### baerekraft-59 · Hva er kildesortering?
+### baerekraft-59 · Hva betyr kildesortering?
 
-- A) Å sortere søppelet i ulike typer ✔
-- B) Å kaste alt søppelet i én stor pose
-- C) Å brenne søppelet i hagen
+- A) Å sortere avfall etter hvilken type det er ✔
+- B) Å samle alt avfallet i én stor pose
+- C) Å brenne avfallet i hagen
 
-**Riktig:** Riktig. Kildesortering betyr at du sorterer søppelet ditt, for eksempel matavfall, papir, plast og restavfall.
+**Riktig:** Riktig. Kildesortering betyr å sortere avfall etter hvilken type det er.
 
-**Feil:** Ordet «sortere» betyr å dele inn i grupper. Ulikt søppel skal i ulike dunker.
+**Feil:** Å samle alt avfall i én pose eller brenne det i hagen er ikke kildesortering.
 
-### baerekraft-60 · Omtrent hvor mye søppel fra hjemmet kaster hver person i Norge i året (2026)?
+### baerekraft-60 · Omtrent hvor mye husholdningsavfall blir samlet inn per person i Norge hvert år?
 
 - A) Omtrent 400 kilo ✔
 - B) Omtrent 40 kilo
 - C) Omtrent 4000 kilo
 
-**Riktig:** Riktig. Hver person i Norge kaster omtrent 400 kilo søppel fra hjemmet i året. Det er mer enn mange tror.
+**Riktig:** Riktig. Det blir samlet inn omtrent 400 kilo husholdningsavfall per person i Norge hvert år.
 
-**Feil:** Tenk på hvor mye søppel familien din kaster hver uke, og regn ut for et helt år.
+**Feil:** 40 kilo er for lite, og 4000 kilo er altfor mye. Tenk på omtrent 1 kilo hver dag.
 
 ### baerekraft-61 · Hvor kan du levere en gammel sofa eller vaskemaskin?
 
@@ -641,15 +641,15 @@ Tilleggskilder: https://infinitum.no/no/pantesystemet/hva-kan-pantes/, https://w
 
 **Feil:** Store ting får ikke plass i søppeldunken. Mange kommuner har egne steder for dette.
 
-### baerekraft-62 · Hva gjør du med tomme flasker og bokser med pantemerke?
+### baerekraft-62 · Hva bør man gjøre med tomme flasker og bokser med pantemerke?
 
 - A) Leverer dem i en panteautomat ✔
 - B) Kaster dem i restavfallet hjemme
 - C) Legger dem i papirdunken
 
-**Riktig:** Riktig. Flasker og bokser med pantemerke kan du levere i en panteautomat. Da får du pengene tilbake.
+**Riktig:** Riktig. Du bør levere tomme flasker og bokser med pantemerke i en panteautomat.
 
-**Feil:** Når du kjøper drikke, betaler du litt ekstra. Du får pengene tilbake i butikken.
+**Feil:** Flasker og bokser med pant skal ikke i restavfallet eller papirdunken. Du får pengene tilbake i panteautomaten.
 
 ### baerekraft-63 · Hvorfor har vi pant på flasker og bokser?
 
@@ -691,15 +691,15 @@ Tilleggskilder: https://infinitum.no/no/pantesystemet/hva-kan-pantes/, https://w
 
 **Feil:** «Svinn» betyr at noe går tapt. Tenk på mat som havner i søppelet.
 
-### baerekraft-67 · Omtrent hvor mye av all maten i verden blir kastet (2026)?
+### baerekraft-67 · Omtrent hvor stor del av maten som produseres i verden, går tapt eller blir kastet?
 
 - A) Omtrent 30 prosent ✔
 - B) Omtrent 5 prosent
 - C) Omtrent 70 prosent
 
-**Riktig:** Riktig. I verden blir omtrent en tredjedel, altså 30 prosent, av all maten kastet eller går tapt.
+**Riktig:** Riktig. Omtrent 30 prosent av maten som produseres i verden, går tapt eller blir kastet.
 
-**Feil:** Det er mer enn mange tror. Tenk på all maten som blir til søppel i butikker og hjem.
+**Feil:** 5 prosent er for lite, og 70 prosent er altfor mye. Omtrent en tredel går tapt.
 
 ### baerekraft-68 · Hva betyr «best før» på en matvare?
 
@@ -751,15 +751,15 @@ Tilleggskilder: https://infinitum.no/no/pantesystemet/hva-kan-pantes/, https://w
 
 **Feil:** «Null utslipp» betyr at ingenting kommer ut av eksosrøret. En bil med diesel slipper ut gass.
 
-### baerekraft-73 · Hva skjedde med bilene i Norge i 2024?
+### baerekraft-73 · Hva var spesielt med salget av nye personbiler i Norge i 2024?
 
-- A) For første gang var det flere elbiler enn bensinbiler ✔
-- B) Det ble forbudt for folk å kjøpe nye bensinbiler
-- C) Det ble flere hybridbiler enn elbiler på veiene
+- A) Nesten alle de nye bilene som ble solgt, var elbiler ✔
+- B) De fleste nye bilene som ble solgt, var bensinbiler
+- C) Det ble solgt flere nye hybridbiler enn elbiler
 
-**Riktig:** Riktig. I 2024 var det for første gang flere elbiler enn bensinbiler på norske veier.
+**Riktig:** Riktig. I 2024 var nesten alle de nye personbilene som ble solgt i Norge, elbiler.
 
-**Feil:** Det har blitt veldig mange elbiler de siste årene. Nye bensinbiler er ikke forbudt.
+**Feil:** De fleste nye bilene var ikke bensinbiler, og det ble solgt flere elbiler enn hybridbiler.
 
 ### baerekraft-74 · Hvordan vil myndighetene at flere skal reise i de store byene?
 
@@ -781,15 +781,15 @@ Tilleggskilder: https://infinitum.no/no/pantesystemet/hva-kan-pantes/, https://w
 
 **Feil:** Nasjonalparker ligger ute i naturen, ofte på fjellet. Naturen der er beskyttet.
 
-### baerekraft-76 · Hva kan du gjøre i en nasjonalpark?
+### baerekraft-76 · Hva kan du vanligvis gjøre i en norsk nasjonalpark?
 
-- A) Gå på tur og overnatte i telt ✔
-- B) Bygge en hytte uten å spørre
-- C) Kjøre motorsykkel i terrenget
+- A) Gå på tur og oppleve naturen ✔
+- B) Bygge en hytte uten tillatelse
+- C) Kjøre motorsykkel fritt i terrenget
 
-**Riktig:** Riktig. I nasjonalparker kan du gå på tur, fiske med fiskekort og overnatte i telt. Bygging og motorkjøring er som regel forbudt.
+**Riktig:** Riktig. I en nasjonalpark kan du vanligvis gå på tur og oppleve naturen.
 
-**Feil:** Nasjonalparker er laget for at naturen skal få være i fred, men folk kan fortsatt bruke den til friluftsliv.
+**Feil:** Du kan ikke bygge hytte uten tillatelse eller kjøre motorsykkel fritt i nasjonalparker.
 
 ### baerekraft-77 · Isbjørnen er fredet. Hva betyr det?
 

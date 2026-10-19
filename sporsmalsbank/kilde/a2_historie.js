@@ -13,7 +13,7 @@ module.exports = { "tema": "Historie", "emner": [
 ["Hva gjorde vikingene på reisene sine i Europa?","De handlet og plyndret","De bygde kirker og skoler","De studerte og lærte nye språk"],
 ["Hvem regnes som den første kongen over hele Norge?","Harald Hårfagre","Olav Haraldsson","Olav Tryggvason"],
 ["Hva trodde vikingene på før kristendommen kom?","Norrøne guder, som Odin og Tor","Én gud, slik som de kristne","Guder fra det gamle Egypt og Hellas"],
-["Hva skjedde på Stiklestad i år 1030?","Et slag der Olav Haraldsson døde","Norge fikk sin første grunnlov","Den første byen i Norge ble bygd"]
+["Hva skjedde på Stiklestad i år 1030?","Olav Haraldsson døde ved et slag der","Norge fikk sin første grunnlov","Den første byen i Norge ble bygd"]
 ]},
 { "emne":"Middelalder og unionstid","kilde":"https://samfunnskunnskap.no/nb/historie/middelalder-og-unionstid.html","tillegg":["https://snl.no/svartedauden","https://snl.no/Kalmarunionen","https://snl.no/reformasjonen"], "items": [
 ["Hva gjorde kirken med Olav Haraldsson etter at han døde?","Gjorde ham til helgen","Kalte ham en forræder","Sa at han ikke var kristen"],
@@ -43,7 +43,7 @@ module.exports = { "tema": "Historie", "emner": [
 ["Hva ble sett på som «typisk norsk» i nasjonalromantikken?","Naturen og livet til bøndene","Byene og livet på fabrikkene","Kongen og livet på slottet"],
 ["Hva er bokmål opprinnelig?","En fornorsket form av dansk","En blanding av svensk og tysk","Det gamle språket til vikingene"],
 ["Hva brukte Ivar Aasen for å lage nynorsk?","Dialekter fra mange steder i landet","Ord fra dansk og svensk skriftspråk","Språket til folk i de store byene"],
-["Hvordan levde mange arbeiderfamilier i byene på 1800-tallet?","Med lange arbeidsdager og trange boliger","Med korte arbeidsdager og store, gode boliger","Med god lønn og mye fritid hver dag"],
+["Hvordan levde mange arbeiderfamilier i byene på 1800-tallet?","Med lange arbeidsdager og trange boliger","Med lange arbeidsdager og romslige boliger","Med korte arbeidsdager og trange boliger"],
 ["Hvorfor var det vanskelig å bo på landsbygda på 1800-tallet?","Det var ikke nok jord og arbeid","Det var for få barn på gårdene","Det var for lite regn i Norge"],
 ["Omtrent hvor mange nordmenn utvandret til Amerika på 1800- og 1900-tallet?","Rundt 800 000","Rundt 80 000","Rundt 300 000"],
 ["Hva betyr det å utvandre?","Å flytte fra landet sitt til et annet","Å flytte fra byen til landsbygda","Å reise på en lang ferie til et annet land"],
@@ -57,14 +57,14 @@ module.exports = { "tema": "Historie", "emner": [
 ["Hva fikk arbeiderne rett til med syketrygd?","Penger fra staten når de var syke","Gratis mat på jobben hver eneste dag","Fri fra jobben om sommeren"],
 ["Hvem fikk stemmerett ved stortingsvalg i 1898?","Menn over 25 år","Kvinner over 25 år","Menn over 40 år"],
 ["Hvorfor vedtok Stortinget nye lover for arbeiderne tidlig på 1900-tallet?","Fagforeningene presset på for endringer","Kongen krevde det i en tale til folket","Sverige bestemte det for Norge"],
-["Hvordan var Norge med i første verdenskrig?","Norge var ikke aktivt med","Norge kjempet på Tysklands side","Norge kjempet på Englands side"],
+["Hvordan var Norge med i første verdenskrig?","Norge var nøytral i krigen","Norge kjempet på Tysklands side","Norge kjempet på Storbritannias side"],
 ["Hva er rasjonering?","Varene blir delt likt mellom folk","Varene blir gratis i butikkene","Prisene på varene går ned"],
 ["Hva var et stort problem i mellomkrigstiden?","Mange var uten arbeid","Det var mangel på arbeidere","Lønningene steg veldig mye"],
 ["Hva skjedde i Norge 9. april 1940?","Tyske soldater okkuperte landet","Norge ble med i NATO","Krigen i Europa tok slutt"],
 ["Hva betyr det at et land blir okkupert?","Et annet land tar kontroll over det","Landet velger en ny regjering","Landet blir enig om fred"],
 ["Hvor styrte kongen og regjeringen fra under krigen?","Fra London i England","Fra Stockholm i Sverige","Fra Oslo i Norge"],
 ["Hvem var Vidkun Quisling?","Leder av en tyskvennlig regjering","Leder av den norske motstanden mot tyskerne","Konge i Norge under krigen"],
-["Hva gjorde motstandsbevegelsen under krigen?","Sabotasje og ulovlige aviser","Hjalp tyskerne med å styre","Bygde nye veier for tyskerne"],
+["Hva gjorde motstandsbevegelsen under krigen?","Utførte sabotasje og laget ulovlige aviser","Hjalp tyskerne med å styre","Bygde nye veier for tyskerne"],
 ["Hvor flyktet rundt 50 000 nordmenn under krigen?","Til Sverige","Til Tyskland","Til Finland"],
 ["Hva gjorde tyskerne i Finnmark og Nord-Troms mot slutten av krigen?","Brente de fleste husene","Bygde mange nye byer","Ga folket mat og hjelp"],
 ["Hva skjedde med mange norske jøder under krigen?","De ble deportert og de fleste drept","De fikk reise trygt til Amerika","De fikk bo på gårder i Norge"]
@@ -73,7 +73,7 @@ module.exports = { "tema": "Historie", "emner": [
 ["Hva var en viktig oppgave i Norge rett etter 1945?","Å bygge opp landet igjen","Å lete etter olje i havet","Å starte en ny union"],
 ["Hva skjedde i Norge 8. mai 1945?","Okkupasjonen tok slutt","Tyskland angrep Norge","Norge fikk ny grunnlov"],
 ["Hvorfor ble arbeiderbevegelsen sterkere fra 1880-årene?","Det kom flere jobber i industrien","Kongen ville gi arbeiderne makt","Bøndene fikk mer jord å dyrke"],
-["Hva har arbeiderbevegelsen kjempet for?","Penger til dem som mister jobben","Lavere skatt for store bedrifter","Færre fagforeninger på arbeidsplassene"],
+["Hva har arbeiderbevegelsen kjempet for?","Bedre lønn og arbeidsvilkår for arbeidstakere","Lavere skatt for store bedrifter","Færre fagforeninger på arbeidsplassene"],
 ["Hva har kvinnebevegelsen kjempet for?","Like muligheter for kvinner og menn","At kvinner skal være hjemme med barna","At menn skal bestemme i familien"],
 ["Når ble kvinnebevegelsen sterk igjen i Norge?","I 1970-årene","I 1950-årene","I 1990-årene"],
 ["Hvem var Norges første kvinnelige statsminister?","Gro Harlem Brundtland","Erna Solberg","Kristin Halvorsen"],
@@ -81,11 +81,11 @@ module.exports = { "tema": "Historie", "emner": [
 ["Hva fant man i Nordsjøen i 1969?","Det store oljefeltet Ekofisk","Store mengder med gull og sølv","Gamle skip fra vikingtiden"],
 ["Hvem eier oljen og gassen i havet utenfor Norge?","Staten, altså hele folket","Selskapene som finner oljen","Kommunene langs kysten"],
 ["Hva er mange uenige om når det gjelder oljen?","Hva den betyr for natur og miljø","Om oljen har gjort Norge rikere","Hvor i Nordsjøen oljen ble funnet"],
-["Hvilke rettigheter hadde folk i Norge før oljen ble funnet?","Gratis skole og syketrygd","Gratis barnehage for barn","Gratis reiser med buss og tog"],
+["Hvilke rettigheter hadde folk i Norge før landet fikk store oljeinntekter?","Gratis skole og syketrygd","Gratis skole og barnehage","Gratis skole og kollektivtransport"],
 ["Hva stemte et flertall i Norge i 1972 og 1994?","Nei til å bli med i EF og EU","Ja til å bli med i EF og EU","Nei til å bli med i FN og NATO"],
 ["Hva er EØS-avtalen?","En avtale om handel og samarbeid med EU","En avtale om forsvar sammen med USA og Canada","En avtale om fiske med Russland"],
 ["Hvilket internasjonalt samarbeid er Norge med i?","FN, NATO og EØS","EU, FN og OPEC","EU, NATO og OPEC"],
-["Hvor stor del av folket bor i byer og tettsteder (2026)?","Rundt 80 prosent","Rundt 35 prosent","Rundt 15 prosent"],
+["Hvor stor del av Norges befolkning bor i byer og tettsteder?","Rundt 80 prosent","Rundt 35 prosent","Rundt 15 prosent"],
 ["Hvorfor kom mange arbeidsinnvandrere til Norge rundt 1970?","Det var mangel på arbeidskraft","Det var krig i Norge da","Norge ga dem gratis bolig"],
 ["Hva skjedde i Norge 22. juli 2011?","Terrorangrep i Oslo og på Utøya","En stor flom på Vestlandet","Et skipsforlis i Nordsjøen"]
 ]}

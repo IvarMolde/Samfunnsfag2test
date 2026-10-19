@@ -812,13 +812,13 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/1999-03-26-17, https://lovdat
 
 **Feil:** Boligen er ditt hjem, selv om utleieren eier den. Tenk på hvem som må få vite at utleieren kommer.
 
-### okonomi-80 · Hvor lang må en tidsbestemt leiekontrakt for bolig vanligvis minst være?
+### okonomi-80 · Hva er den vanlige minste varigheten for en tidsbestemt leiekontrakt for bolig?
 
 - A) Tre år ✔
 - B) Tre måneder
 - C) Én uke
 
-**Riktig:** Riktig. En tidsbestemt kontrakt skal vanligvis vare minst tre år. I noen tilfeller kan det være ett år.
+**Riktig:** Riktig. Den vanlige minste varigheten for en tidsbestemt leiekontrakt for bolig er tre år.
 
-**Feil:** Loven gir leietakeren trygghet. En tidsbestemt kontrakt skal som regel vare minst tre år.
+**Feil:** Tre måneder eller én uke er for kort. Loven krever vanligvis minst tre år.
 

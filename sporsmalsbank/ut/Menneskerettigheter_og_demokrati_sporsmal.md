@@ -25,23 +25,23 @@ Tilleggskilder: https://samfunnskunnskap.no/nb/menneskerettigheter-og-demokrati.
 
 ### demokrati-02 · Hvordan styrer folket politikken i Norge?
 
-- A) De velger representanter ved valg ✔
-- B) De bestemmer selv i åpne folkemøter hver måned
-- C) Kongen spør folket og bestemmer politikken
+- A) De velger politikere som representerer dem ved valg ✔
+- B) De stemmer over alle politiske saker i folkemøter hver måned
+- C) Kongen velger politikerne og bestemmer politikken
 
-**Riktig:** Riktig. Folket velger representanter fra partiene til Stortinget, fylkestinget og kommunestyret.
+**Riktig:** Riktig. Folket velger politikere som representerer dem ved valg.
 
-**Feil:** Folket bestemmer ikke i hver sak. Tenk på hvem folket gir makt til ved valget.
+**Feil:** Folket stemmer ikke over alle saker i folkemøter, og kongen bestemmer ikke politikken. Folket velger politikere.
 
-### demokrati-03 · Hva skal flertallet gjøre når det bestemmer politikken?
+### demokrati-03 · Hva bør flertallet gjøre i et demokrati når det tar beslutninger?
 
-- A) Ta hensyn til det mindretallet mener ✔
-- B) Bestemme uten å høre på mindretallet
-- C) La mindretallet avgjøre de store sakene
+- A) Lytte til mindretallet og ta meningene deres på alvor ✔
+- B) Bestemme alt uten å lytte til mindretallet
+- C) La mindretallet bestemme alle sakene alene
 
-**Riktig:** Riktig. Flertallet bestemmer, men skal ta hensyn til mindretallets meninger.
+**Riktig:** Riktig. I et demokrati bør flertallet lytte til mindretallet og ta meningene deres på alvor.
 
-**Feil:** I et demokrati vinner flertallet, men de som er færre, skal også bli hørt.
+**Feil:** Flertallet skal ikke overse mindretallet, og mindretallet skal ikke bestemme alene.
 
 ### demokrati-04 · Hvem setter rammene for hva kommunene kan bestemme?
 
@@ -73,25 +73,25 @@ Tilleggskilder: https://samfunnskunnskap.no/nb/menneskerettigheter-og-demokrati.
 
 **Feil:** Tenk på nivåene: kommune, fylkeskommune og stat. Grunnskolen hører til kommunen.
 
-### demokrati-07 · Hva gjør byråkratene i staten og kommunene?
+### demokrati-07 · Hva er en viktig oppgave for ansatte i staten og kommunen?
 
-- A) Setter politikken ut i livet ✔
-- B) Vedtar nye lover og budsjetter
-- C) Dømmer i saker etter loven
+- A) Å gjennomføre politiske vedtak og følge opp lover og regler ✔
+- B) Å vedta nye lover og bestemme budsjetter
+- C) Å dømme personer som har brutt loven
 
-**Riktig:** Riktig. Byråkratene er de ansatte. De gjør det politikerne har bestemt, for eksempel på Nav.
+**Riktig:** Riktig. Ansatte i staten og kommunen gjennomfører politiske vedtak og følger opp lover og regler.
 
-**Feil:** Politikerne bestemmer, og de ansatte i det offentlige gjør jobben i praksis.
+**Feil:** Lover og budsjetter vedtas av folkevalgte politikere. Domstolene dømmer personer som har brutt loven.
 
 ### demokrati-08 · Hvor sitter de folkevalgte som vedtar lovene for hele Norge?
 
 - A) På Stortinget ✔
 - B) I regjeringen
-- C) I kommunestyret
+- C) På Fylkestinget
 
-**Riktig:** Riktig. Stortinget er nasjonalforsamlingen og den øverste statsmakten.
+**Riktig:** Riktig. Stortinget har de folkevalgte som vedtar lovene for hele Norge.
 
-**Feil:** Regjeringen foreslår lover, men det er nasjonalforsamlingen som vedtar dem.
+**Feil:** Regjeringen foreslår, men Stortinget vedtar lovene. Kommunestyret og fylkestinget bestemmer bare lokalt.
 
 ### demokrati-09 · Hvor mange representanter sitter på Stortinget?
 
@@ -147,7 +147,7 @@ Tilleggskilder: https://samfunnskunnskap.no/nb/menneskerettigheter-og-demokrati.
 
 - A) Folk og fagmiljøer kan si sin mening ✔
 - B) Saken blir sendt til en domstol
-- C) Stortinget stemmer over saken med en gang
+- C) Stortinget stemmer over saken med én gang
 
 **Riktig:** Riktig. På en høring kan fagmiljøer og vanlige folk si hva de mener om et forslag.
 
@@ -226,12 +226,12 @@ Tilleggskilder: https://samfunnskunnskap.no/nb/menneskerettigheter-og-demokrati.
 ### demokrati-22 · Hva betyr parlamentarisme?
 
 - A) Regjeringen må ha støtte fra Stortinget ✔
-- B) Folket velger regjeringen direkte
-- C) Kongen velger regjeringen helt fritt selv
+- B) Regjeringen bestemmer uten støtte fra Stortinget
+- C) Stortinget velger alle medlemmene i regjeringen
 
-**Riktig:** Riktig. Parlamentarisme betyr at regjeringen må ha Stortingets tillit for å sitte.
+**Riktig:** Riktig. Parlamentarisme betyr at regjeringen må ha støtte fra Stortinget.
 
-**Feil:** I Norge velger folket Stortinget, ikke regjeringen. Regjeringen er avhengig av Stortinget.
+**Feil:** Regjeringen kan ikke styre uten støtte fra Stortinget. Det er statsministeren som velger statsrådene.
 
 ### demokrati-23 · Når kan de fleste utlendinger stemme ved kommunevalg?
 
@@ -246,12 +246,12 @@ Tilleggskilder: https://samfunnskunnskap.no/nb/menneskerettigheter-og-demokrati.
 ### demokrati-24 · Hvem danner ny regjering etter et stortingsvalg?
 
 - A) Ett eller flere politiske partier ✔
-- B) Domstolene sammen med kongen
-- C) Kandidaten med flest stemmer
+- B) Representanter fra alle partiene på Stortinget
+- C) Kongen og statsforvalterne i fylkene
 
-**Riktig:** Riktig. Etter valget danner ett eller flere partier en ny regjering.
+**Riktig:** Riktig. Ett eller flere politiske partier danner ny regjering etter et stortingsvalg.
 
-**Feil:** Det er de politiske partiene som danner regjering, ut fra resultatet på Stortinget.
+**Feil:** Regjeringen består ikke av alle partiene, og kongen og statsforvalterne danner ikke regjeringen. Det gjør ett eller flere partier.
 
 
 ---
@@ -275,12 +275,12 @@ Tilleggskilder: https://lovdata.no/lov/2005-05-20-28/§287, https://lovdata.no/l
 ### demokrati-26 · Gjelder ytringsfriheten også for aviser, radio og tv?
 
 - A) Ja, den gjelder også for mediene ✔
-- B) Nei, mediene må få lov av staten
-- C) Nei, mediene har ikke ytringsfrihet
+- B) Nei, den gjelder bare for politikere
+- C) Nei, den gjelder bare for privatpersoner
 
-**Riktig:** Riktig. Ytringsfriheten gjelder både privatpersoner og radio, tv og aviser.
+**Riktig:** Riktig. Ytringsfriheten gjelder også for aviser, radio og tv.
 
-**Feil:** Pressen er fri i Norge. Mediene trenger ikke tillatelse fra staten for å skrive.
+**Feil:** Ytringsfriheten gjelder ikke bare politikere eller privatpersoner. Den gjelder også mediene.
 
 ### demokrati-27 · Mona blir valgt inn i kommunestyret. Må hun ta imot vervet?
 
@@ -325,32 +325,32 @@ Tilleggskilder: https://lovdata.no/lov/2005-05-20-28/§287, https://lovdata.no/l
 ### demokrati-31 · Jonas er tiltalt for tyveri. Hva har han rett til?
 
 - A) En forsvarer som hjelper ham i retten ✔
-- B) Å velge selv hvem som skal være dommer
+- B) En dom uten behandling i retten
 - C) Å slippe å møte i retten hvis han vil
 
-**Riktig:** Riktig. Alle tiltalte har rett til et forsvar, for eksempel en advokat.
+**Riktig:** Riktig. Jonas har rett til en forsvarer som hjelper ham i retten.
 
-**Feil:** Rettssikkerhet gjelder for alle som er tiltalt. Tenk på hvem som kan hjelpe dem i retten.
+**Feil:** En tiltalt får ikke en dom uten behandling i retten, og han kan ikke velge å slippe å møte.
 
 ### demokrati-32 · En person er «uskyldig til det motsatte er bevist». Hva betyr det?
 
 - A) Skyld må bevises før noen kan straffes ✔
 - B) Den tiltalte må bevise at hun er uskyldig
-- C) Politiet kan straffe uten bevis i små saker
+- C) Skyld kan legges til grunn før saken er behandlet i retten
 
-**Riktig:** Riktig. Det er påtalemyndigheten som må bevise at personen er skyldig, ikke den tiltalte.
+**Riktig:** Riktig. Uskyldig til det motsatte er bevist betyr at skyld må bevises før noen kan straffes.
 
-**Feil:** Ingen skal straffes før det er bevist at personen har gjort noe galt.
+**Feil:** Den tiltalte trenger ikke bevise at hun er uskyldig. Skyld kan ikke legges til grunn før saken er behandlet.
 
 ### demokrati-33 · Hva betyr det at domstolene er uavhengige?
 
 - A) Ingen kan bestemme hvordan dommerne dømmer ✔
 - B) Dommerne må følge det regjeringen sier
-- C) Dommerne blir valgt av de store partiene
+- C) Dommerne må dømme slik Stortinget ønsker
 
-**Riktig:** Riktig. Grunnloven sier at domstolene og dommerne skal være uavhengige og upartiske.
+**Riktig:** Riktig. Uavhengige domstoler betyr at ingen kan bestemme hvordan dommerne dømmer.
 
-**Feil:** Dommerne skal dømme etter loven. Regjeringen og partiene kan ikke bestemme utfallet.
+**Feil:** Dommerne skal ikke følge regjeringen eller Stortinget når de dømmer.
 
 ### demokrati-34 · Hva betyr organisasjonsfrihet?
 
@@ -445,12 +445,12 @@ Tilleggskilder: https://lovdata.no/lov/2005-05-20-28/§287, https://lovdata.no/l
 ### demokrati-43 · Du ser en person som er hardt skadet etter en ulykke. Hva sier loven?
 
 - A) Du må hjelpe eller skaffe hjelp ✔
-- B) Du må vente til politiet kommer
-- C) Du kan gå hvis du har det travelt
+- B) Du må vente på ambulanse eller politi
+- C) Du må først få tillatelse fra politiet før du kan hjelpe
 
-**Riktig:** Riktig. Loven sier at du må hjelpe en person i fare, eller ringe etter hjelp.
+**Riktig:** Riktig. Du må hjelpe eller skaffe hjelp. Det er en plikt etter loven.
 
-**Feil:** Alle har hjelpeplikt. Du må hjelpe hvis du kan gjøre det uten stor fare for deg selv.
+**Feil:** Du kan ikke bare vente eller gå. Du trenger ikke tillatelse fra politiet for å hjelpe.
 
 ### demokrati-44 · Omar flytter til en ny leilighet. Hva må han gjøre?
 
@@ -684,11 +684,11 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/2023-06-16-62, https://www.st
 
 - A) Hvilke saker partiet vil jobbe for ✔
 - B) Hvor mange medlemmer partiet har
-- C) Hvem medlemmene stemte på sist
+- C) Hvilke møter partiet skal ha
 
-**Riktig:** Riktig. Programmet viser hvilke saker partiet vil jobbe med de neste fire årene.
+**Riktig:** Riktig. Et parti skriver i partiprogrammet hvilke saker partiet vil jobbe for.
 
-**Feil:** Partiprogrammet er en plan for politikken i valgperioden.
+**Feil:** Partiprogrammet sier ikke hvor mange medlemmer partiet har eller hvilke møter det skal ha.
 
 ### demokrati-66 · Hvor vedtar partiene programmet sitt?
 
@@ -714,11 +714,11 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/2023-06-16-62, https://www.st
 
 - A) Fra sosialistisk til borgerlig ✔
 - B) Fra religiøs til ikke-religiøs
-- C) Fra nord til sør i landet
+- C) Fra miljøvennlig til lite miljøvennlig
 
-**Riktig:** Riktig. De største partiene kan grovt plasseres fra sosialistisk til borgerlig.
+**Riktig:** Riktig. Partiene plasseres grovt fra sosialistisk til borgerlig.
 
-**Feil:** Partiene kan plasseres på en politisk skala, fra venstre til høyre.
+**Feil:** Partiene plasseres ikke etter religion eller hvor miljøvennlige de er.
 
 ### demokrati-69 · Ola og Kari er gift. Må de stemme på samme parti?
 
@@ -740,15 +740,15 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/2023-06-16-62, https://www.st
 
 **Feil:** Valget er om høsten, like etter sommerferien.
 
-### demokrati-71 · Lina er norsk. Hun blir 18 i desember. Kan hun stemme ved valget i september?
+### demokrati-71 · Hva må til for å kunne stemme ved stortingsvalg i Norge?
 
-- A) Ja, hun fyller 18 år i valgåret ✔
-- B) Nei, hun må være 18 år på valgdagen
-- C) Ja, hvis foreldrene hennes sier ja
+- A) Du må fylle 18 år senest i valgåret ✔
+- B) Du må være 18 år på valgdagen
+- C) Du må ha fullført videregående skole
 
-**Riktig:** Riktig. Du har stemmerett hvis du fyller 18 år senest i løpet av valgåret.
+**Riktig:** Riktig. Du kan stemme ved stortingsvalg hvis du fyller 18 år senest i valgåret.
 
-**Feil:** Tenk på hvilket år hun fyller 18, ikke hvilken måned.
+**Feil:** Du trenger ikke være 18 år på valgdagen, og du trenger ikke videregående skole.
 
 ### demokrati-72 · Kan du endre rekkefølgen på kandidatene ved stortingsvalg?
 

@@ -25,13 +25,13 @@ Tilleggskilder: https://lovdata.no/lov/2005-05-20-28/§282, https://lovdata.no/l
 
 ### frihet-02 · Hva er psykisk vold?
 
-- A) Trusler, ydmykelse og sterk kontroll ✔
-- B) Slag og spark som gir blåmerker
-- C) Å ødelegge ting som en annen eier
+- A) Trusler, ydmykelser og sterk kontroll over en annen person ✔
+- B) Uenigheter, diskusjoner og høye stemmer i en krangel
+- C) Kroppslig skade, slag og fysiske angrep på en annen person
 
-**Riktig:** Riktig. Psykisk vold er for eksempel trusler, å gjøre noen redd, ydmykelse og sterk kontroll. Det gir ikke synlige skader, men det kan skade mye.
+**Riktig:** Riktig. Psykisk vold er trusler, ydmykelser og sterk kontroll over en annen person.
 
-**Feil:** Psykisk vold handler om ord og kontroll som skader en person, for eksempel trusler og ydmykelse.
+**Feil:** Å krangle er ikke psykisk vold. Slag og fysiske angrep er fysisk vold.
 
 ### frihet-03 · Hva er materiell vold?
 
@@ -73,15 +73,15 @@ Tilleggskilder: https://lovdata.no/lov/2005-05-20-28/§282, https://lovdata.no/l
 
 **Feil:** Vold hjemme er alvorlig kriminalitet. Derfor skal samfunnet, for eksempel politiet og barnevernet, hjelpe.
 
-### frihet-07 · En person slår partneren og sier: «Det er tradisjon hos oss.» Hva gjelder i Norge?
+### frihet-07 · En person bruker vold mot partneren sin og skylder på tradisjon eller kultur. Hva gjelder i Norge?
 
-- A) Vold er forbudt og straffbart, uansett grunn ✔
-- B) Vold er lov hvis det er en tradisjon
-- C) Vold er lov hvis noen har gjort noe galt
+- A) Vold i nære relasjoner er alltid forbudt og straffbart etter loven ✔
+- B) Vold er tillatt dersom partneren har brutt kulturelle regler
+- C) Vold er en privat sak som familien må løse selv
 
-**Riktig:** Riktig. Vold er forbudt i Norge, uansett grunn. Tradisjon, kultur eller religion gjør ikke vold lovlig.
+**Riktig:** Riktig. Vold i nære relasjoner er alltid forbudt og straffbart i Norge. Tradisjon og kultur er ingen unnskyldning.
 
-**Feil:** Norske lover gjelder for alle. Ingen grunn gjør det lov å bruke vold mot andre.
+**Feil:** Vold er aldri tillatt, og det er ikke en privat sak. Politiet kan straffe den som bruker vold.
 
 ### frihet-08 · Hvor kan du få gratis legehjelp etter en voldtekt?
 
@@ -93,35 +93,35 @@ Tilleggskilder: https://lovdata.no/lov/2005-05-20-28/§282, https://lovdata.no/l
 
 **Feil:** Tenk på hjelp fra helsetjenesten. Du trenger ikke å anmelde saken først.
 
-### frihet-09 · Hva kan skje med et barn som ser vold mot en av foreldrene?
+### frihet-09 · Hva kan skje med et barn som opplever vold mot en av foreldrene sine?
 
-- A) Barnet kan bli redd og få vonde minner ✔
-- B) Barnet blir tryggere og lærer å løse konflikter
-- C) Barnet blir ikke påvirket fordi det ikke blir slått
+- A) Barnet kan få store psykiske plager og føle utrygghet i hverdagen ✔
+- B) Barnet vil raskt glemme hendelsen så lenge foreldrene blir venner igjen
+- C) Barnet blir ikke påvirket så lenge volden skjer når barnet sover
 
-**Riktig:** Riktig. Barn som ser eller hører vold hjemme, kan bli redde og få vonde minner, selv om de ikke blir slått selv.
+**Riktig:** Riktig. Et barn som opplever vold mot en forelder, kan få store psykiske plager og føle seg utrygt.
 
-**Feil:** Barn merker vold hjemme, også når de ikke blir slått selv. Tenk på hvordan et barn har det når det er redd.
+**Feil:** Barn blir påvirket av vold i hjemmet, også når de ikke blir slått selv og også når de sover.
 
-### frihet-10 · Hvem kan ha ekstra stor risiko for vold fra familien sin?
+### frihet-10 · Hvem kan ha ekstra stor risiko for å oppleve vold eller streng kontroll fra familien sin?
 
-- A) Personer som er lesbiske, homofile eller trans ✔
-- B) Personer som har egen bolig og jobb
-- C) Personer som har mange venner i Norge
+- A) Personer som er lesbiske, homofile, bifile eller transpersoner ✔
+- B) Personer som er politisk aktive eller medlemmer i et parti
+- C) Personer som har lav inntekt eller mangler fast arbeid
 
-**Riktig:** Riktig. Lesbiske, homofile, bifile og transpersoner (LHBTIQ+) kan være ekstra utsatt for vold i nære relasjoner. Noen opplever vold fra familien på grunn av hvem de er eller elsker.
+**Riktig:** Riktig. Personer som er lesbiske, homofile, bifile eller transpersoner kan ha ekstra stor risiko for vold eller streng kontroll fra familien.
 
-**Feil:** Tenk på personer som kan møte vold fra familien på grunn av hvem de er eller hvem de elsker.
+**Feil:** Politisk aktivitet og lav inntekt er ikke det som gir størst risiko for vold fra familien.
 
 ### frihet-11 · Hvordan ser det norske samfunnet på tvangsekteskap og kjønnslemlestelse?
 
-- A) Former for vold som ikke aksepteres ✔
-- B) Private saker som familien bestemmer
-- C) Gamle tradisjoner som er lov i Norge
+- A) Dette er alvorlige former for vold og lovbrudd som er strengt forbudt ✔
+- B) Dette er personlige og religiøse valg som staten ikke blander seg inn i
+- C) Dette er aksepterte familietradisjoner for de som har minoritetsbakgrunn
 
-**Riktig:** Riktig. Tvangsekteskap og kjønnslemlestelse er også vold. Det kan ikke aksepteres i Norge.
+**Riktig:** Riktig. Tvangsekteskap og kjønnslemlestelse er alvorlige former for vold og lovbrudd. De er strengt forbudt i Norge.
 
-**Feil:** Å tvinge noen til å gifte seg eller å skade kjønnsorganene til en jente er vold. Begge deler er forbudt.
+**Feil:** Dette er ikke private valg og ikke tradisjoner som er lov. Loven forbyr det for alle.
 
 ### frihet-12 · Hva kan straffen være for mishandling i nære relasjoner?
 
@@ -145,13 +145,13 @@ Tilleggskilder: https://lovdata.no/lov/2005-05-20-28/§282, https://lovdata.no/l
 
 ### frihet-14 · Hvem er beskyttet av loven om mishandling i nære relasjoner?
 
-- A) Blant annet ektefelle, samboer og barn ✔
-- B) Blant annet kolleger, naboer og gode venner
-- C) Blant annet kunder, turister og fremmede
+- A) Nåværende eller tidligere ektefelle, samboer, kjæreste og barn ✔
+- B) Gode venner, naboer og kolleger som du møter ofte på fritiden
+- C) Kunder, sjefen og andre personer som du samarbeider med på jobb
 
-**Riktig:** Riktig. Loven beskytter blant annet nåværende og tidligere ektefeller og samboere, barn, foreldre og andre i samme husstand.
+**Riktig:** Riktig. Loven om mishandling i nære relasjoner beskytter nåværende eller tidligere ektefelle, samboer, kjæreste og barn.
 
-**Feil:** Loven handler om personer i familien og hjemmet, også en tidligere ektefelle eller samboer.
+**Feil:** Venner, naboer, kolleger, kunder og sjefen er ikke nære relasjoner i denne loven.
 
 ### frihet-15 · Hva betyr «avvergeplikt»?
 
@@ -173,15 +173,15 @@ Tilleggskilder: https://lovdata.no/lov/2005-05-20-28/§282, https://lovdata.no/l
 
 **Feil:** Avvergeplikten gjelder ikke bare noen yrker eller noen grupper. Den gjelder for alle personer i Norge.
 
-### frihet-17 · Du hører at naboen blir slått og skriker om hjelp. Hva bør du gjøre?
+### frihet-17 · Du hører at naboen blir utsatt for akutt vold og roper på hjelp. Hva bør du gjøre?
 
-- A) Ringe 112 og si fra til politiet ✔
-- B) Sende naboen en melding dagen etter
-- C) Vente og se om det skjer igjen
+- A) Ringe politiet på nødnummer 112 med en gang ✔
+- B) Gå inn i leiligheten og stoppe volden på egen hånd
+- C) Melde fra til barnevernet eller kommunen neste virkedag
 
-**Riktig:** Riktig. Når noen er i fare akkurat nå, skal du ringe politiet på 112.
+**Riktig:** Riktig. Du bør ringe politiet på nødnummer 112 med en gang.
 
-**Feil:** Vold er farlig og kan skje igjen. Ring 112 hvis noen er i fare akkurat nå.
+**Feil:** Du skal ikke vente til neste dag, og det kan være farlig å gå inn selv. Politiet kan komme raskt.
 
 ### frihet-18 · Hva betyr det å «anmelde» vold?
 
@@ -205,23 +205,23 @@ Tilleggskilder: https://lovdata.no/lov/2005-05-20-28/§282, https://lovdata.no/l
 
 ### frihet-20 · Hva er et krisesenter?
 
-- A) Et trygt sted for dem som er utsatt for vold ✔
-- B) Et sykehus for dem som er skadet i trafikken
-- C) Et kontor der man søker om kommunal bolig
+- A) Et trygt og midlertidig botilbud for personer som er utsatt for vold ✔
+- B) Et behandlingssted for personer som har akutt økonomisk krise
+- C) Et mottak for personer som trenger akutt medisinsk hjelp ved sykdom
 
-**Riktig:** Riktig. Et krisesenter er et trygt sted der personer som er utsatt for vold eller trusler i nære relasjoner, kan få hjelp og bo en periode.
+**Riktig:** Riktig. Et krisesenter er et trygt og midlertidig botilbud for personer som er utsatt for vold.
 
-**Feil:** Krisesenteret er for personer som er utsatt for vold eller trusler fra noen i familien eller en partner.
+**Feil:** Et krisesenter er ikke et sykehus og ikke et sted for økonomisk hjelp. Det er et trygt sted å bo.
 
-### frihet-21 · Hvem kan få hjelp på et krisesenter?
+### frihet-21 · Hvem kan få hjelp og et trygt sted å bo på et krisesenter?
 
-- A) Kvinner, menn og barn som er utsatt for vold ✔
-- B) Turister som trenger et billig sted å bo
-- C) Personer som har mistet jobben og boligen
+- A) Både kvinner, menn og barn som opplever vold i nære relasjoner ✔
+- B) Kun kvinner med minoritetsbakgrunn som må flytte fra familien sin
+- C) Kun personer som har norsk statsborgerskap og fast adresse i kommunen
 
-**Riktig:** Riktig. Krisesentertilbudet er for kvinner, menn og barn som er utsatt for vold eller trusler om vold i nære relasjoner.
+**Riktig:** Riktig. Både kvinner, menn og barn som opplever vold i nære relasjoner, kan få hjelp på et krisesenter.
 
-**Feil:** Krisesenteret er for alle som er utsatt for vold i nære relasjoner. Kjønn og statsborgerskap har ingen betydning.
+**Feil:** Krisesentrene er for alle som opplever vold i nære relasjoner. Du trenger ikke norsk statsborgerskap.
 
 ### frihet-22 · Hva koster det å bo på et krisesenter?
 
@@ -265,23 +265,23 @@ Tilleggskilder: https://lovdata.no/lov/2005-05-20-28/§282, https://lovdata.no/l
 
 ### frihet-26 · Hva er Vold- og overgrepslinjen, 116 006?
 
-- A) En gratis og anonym hjelpelinje ✔
-- B) Et nummer for å bestille legetime
-- C) Et nummer for å melde fra om innbrudd
+- A) En gratis og anonym hjelpetelefon for alle som opplever vold i nære relasjoner ✔
+- B) En offentlig telefontjeneste for familier som trenger råd om økonomi og NAV
+- C) En døgnåpen nødtelefon for personer som trenger akutt medisinsk hjelp
 
-**Riktig:** Riktig. Vold- og overgrepslinjen, 116 006, er gratis og døgnåpen. Du kan være anonym.
+**Riktig:** Riktig. Vold- og overgrepslinjen er en gratis og anonym hjelpetelefon for alle som opplever vold i nære relasjoner.
 
-**Feil:** 116 006 er en hjelpelinje for deg som opplever vold eller overgrep i nære relasjoner.
+**Feil:** Linjen gir ikke råd om økonomi og er ikke en nødtelefon for sykdom. Den er for dem som opplever vold.
 
-### frihet-27 · Hvor kan barn og unge ringe hvis de blir utsatt for vold?
+### frihet-27 · Hvor kan barn og unge ringe eller sende melding hvis de opplever vold hjemme?
 
-- A) Alarmtelefonen for barn og unge, 116 111 ✔
-- B) Legevakten, 116 117, for å bestille time
-- C) Skatteetaten, 800 80 000, for å få råd
+- A) Alarmtelefonen for barn og unge på telefonnummer 116 111 ✔
+- B) Helsestasjonen i kommunen på det faste nødnummeret for barn
+- C) Barneombudet på sentralbordet for å klage på foreldrene sine
 
-**Riktig:** Riktig. Alarmtelefonen for barn og unge, 116 111, er gratis og åpen hele døgnet. Voksne som er bekymret for et barn, kan også ringe.
+**Riktig:** Riktig. Barn og unge kan ringe eller sende melding til Alarmtelefonen for barn og unge på 116 111.
 
-**Feil:** Barn og unge som blir utsatt for vold, kan ringe Alarmtelefonen. Nummeret er 116 111.
+**Feil:** Helsestasjonen har ikke et eget nødnummer, og Barneombudet tar ikke imot klager på foreldre. Alarmtelefonen er for barn og unge.
 
 ### frihet-28 · Hvor kan eldre over 62 år få hjelp hvis de utsettes for vold?
 
@@ -293,25 +293,25 @@ Tilleggskilder: https://lovdata.no/lov/2005-05-20-28/§282, https://lovdata.no/l
 
 **Feil:** Det finnes en egen kontakttelefon for eldre som blir utsatt for vold. Den heter Vern for eldre.
 
-### frihet-29 · Hva er dinutvei.no?
+### frihet-29 · Hva er nettsiden dinutvei.no?
 
-- A) En nettside om vold og hjelpetilbud ✔
-- B) En nettside for å søke jobb i kommunen
-- C) En nettside for å kjøpe bussbilletter
+- A) En nasjonal nettveiviser med informasjon om vold, overgrep og hjelpetilbud ✔
+- B) En offentlig nettportal for å søke om økonomisk støtte og bolig fra NAV
+- C) En digital ordbok for innvandrere som vil lære det norske språket
 
-**Riktig:** Riktig. Dinutvei.no har informasjon om vold og overgrep, og om hvor man kan få hjelp.
+**Riktig:** Riktig. Dinutvei.no er en nasjonal nettveiviser med informasjon om vold, overgrep og hjelpetilbud.
 
-**Feil:** Dinutvei.no er en nettside for deg som opplever vold, og for dem som vil hjelpe.
+**Feil:** Dinutvei.no er ikke en side for å søke støtte fra NAV og ikke en ordbok. Den gir informasjon om vold og hjelp.
 
 ### frihet-30 · Hva er et kontaktforbud?
 
-- A) Forbud mot å oppsøke eller kontakte noen ✔
-- B) Forbud mot å ringe politiet om natten
-- C) Forbud mot å bruke mobil på skolen
+- A) Et forbud mot å oppsøke, ringe eller ta kontakt med en bestemt person ✔
+- B) Et forbud mot å reise ut av landet eller forlate kommunen man bor i
+- C) Et forbud mot å snakke med pressen eller dele informasjon på internett
 
-**Riktig:** Riktig. Et kontaktforbud betyr at en person ikke får oppsøke, følge etter eller kontakte en annen person. Politiet eller retten kan bestemme det.
+**Riktig:** Riktig. Et kontaktforbud er et forbud mot å oppsøke, ringe eller ta kontakt med en bestemt person.
 
-**Feil:** Et kontaktforbud skal beskytte en person som er utsatt for vold eller trusler.
+**Feil:** Et kontaktforbud gjelder én bestemt person. Det forbyr ikke reiser eller samtaler med pressen.
 
 ### frihet-31 · Ana har opphold fordi hun er gift. Mannen mishandler henne. Hva kan hun søke om?
 
@@ -354,13 +354,13 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/1991-07-04-47, https://lovdat
 
 ### frihet-34 · Hva betyr «tvangsekteskap»?
 
-- A) Et ekteskap som en av dem ikke har valgt selv ✔
-- B) Et ekteskap uten stor bryllupsfest og uten gjester
-- C) Et ekteskap der paret ikke har bodd sammen før
+- A) Et ekteskap der en eller begge partene blir presset eller tvunget til å gifte seg ✔
+- B) Et ekteskap der familiene har foreslått partneren, men partene sier ja frivillig
+- C) Et ekteskap som blir inngått uten at paret har bodd sammen eller hatt fast jobb
 
-**Riktig:** Riktig. Et tvangsekteskap er et ekteskap der minst én av dem blir presset eller tvunget til å gifte seg. Det er forbudt i Norge.
+**Riktig:** Riktig. Tvangsekteskap er et ekteskap der en eller begge partene blir presset eller tvunget til å gifte seg.
 
-**Feil:** Tenk på hvem som har valgt ekteskapet. Alle ekteskap skal inngås frivillig.
+**Feil:** Hvis begge sier ja frivillig, er det ikke tvang. Det er heller ikke tvang at paret ikke har bodd sammen eller hatt fast jobb.
 
 ### frihet-35 · Hva er et arrangert ekteskap?
 
@@ -432,15 +432,15 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/1991-07-04-47, https://lovdat
 
 **Feil:** Et tvangsekteskap er ugyldig etter norsk rett. Den som er tvunget, kan få hjelp fra domstolen.
 
-### frihet-42 · Hva betyr samtykke til sex?
+### frihet-42 · Hva betyr det å gi samtykke til sex?
 
-- A) At begge sier ja frivillig ✔
-- B) At begge er gift med hverandre
-- C) At begge har kjent hverandre lenge
+- A) At begge personene viser klart og frivillig at de har lyst ✔
+- B) At personene er lovlig gift eller bor fast sammen
+- C) At ingen av personene sier nei eller gjør fysisk motstand
 
-**Riktig:** Riktig. Samtykke betyr at begge sier ja frivillig. Hvis en person ikke vil, eller ikke kan si nei, er det ikke samtykke.
+**Riktig:** Riktig. Samtykke betyr at begge personene viser klart og frivillig at de har lyst.
 
-**Feil:** Tenk på at hver person selv må velge. Å være gift eller å kjenne hverandre lenge er ikke nok.
+**Feil:** Samtykke handler ikke om ekteskap eller samboerskap. Det er heller ikke nok at ingen sier nei.
 
 ### frihet-43 · Er det straffbart å tvinge noen til et ekteskap som ikke er registrert?
 
@@ -502,25 +502,25 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/1991-07-04-47, https://lovdat
 
 **Feil:** Det finnes en egen hjelpetelefon fra Røde Kors for unge som er redde for tvangsekteskap.
 
-### frihet-49 · Omar er redd for å bli giftet bort på ferie i utlandet. Hva er lurt?
+### frihet-49 · Omar er redd for at familien skal gifte ham bort på en ferie i utlandet. Hva bør han gjøre før reisen?
 
-- A) Å snakke med noen han stoler på før reisen ✔
-- B) Å reise uten å fortelle noen om frykten
-- C) Å vente og se hva som skjer på ferien
+- A) Ta kontakt med en lærer, helsesykepleier eller hjelpetelefon med en gang ✔
+- B) Reise på ferien og stole på at familien ombestemmer seg når de kommer fram
+- C) Søke om nytt pass og visum på ambassaden til landet han skal reise til
 
-**Riktig:** Riktig. Det er lurt å si fra før reisen, for eksempel til en lærer, en mangfoldsrådgiver, Røde Kors-telefonen eller politiet.
+**Riktig:** Riktig. Omar bør ta kontakt med en lærer, helsesykepleier eller hjelpetelefon med en gang, før reisen.
 
-**Feil:** Det er lettere å få hjelp før reisen. Fortell noen du stoler på, eller ring en hjelpetelefon.
+**Feil:** Han bør ikke vente og håpe. Et nytt pass eller visum gir ikke trygghet mot tvangsekteskap.
 
-### frihet-50 · Hvordan kan en norsk ambassade hjelpe en som er tvangsgiftet i utlandet?
+### frihet-50 · Hvordan kan en norsk ambassade hjelpe en norsk borger som er holdt tilbake i utlandet mot sin vilje?
 
-- A) Gi råd og hjelp til å komme trygt hjem ✔
-- B) Godkjenne ekteskapet slik at det gjelder
-- C) Sende personen tilbake til familien
+- A) Gi råd, praktisk hjelp og nødpass for å reise trygt tilbake til Norge ✔
+- B) Ordne opp i familiekonflikten ved å arrangere et møte med foreldrene
+- C) Gi økonomisk støtte til at paret kan etablere seg og bo sammen i landet
 
-**Riktig:** Riktig. Norske ambassader kan gi råd og hjelpe personer som er utsatt for tvangsekteskap, med å komme trygt tilbake til Norge.
+**Riktig:** Riktig. Ambassaden kan gi råd, praktisk hjelp og nødpass slik at personen kan reise trygt tilbake til Norge.
 
-**Feil:** Ambassaden er Norges kontor i et annet land. Der kan man få hjelp hvis man er utsatt for tvang.
+**Feil:** Ambassaden ordner ikke familiekonflikter og gir ikke støtte til å bo i landet. Den hjelper personen å komme hjem.
 
 
 ---
@@ -541,25 +541,25 @@ Tilleggskilder: https://www.bufdir.no/vold/aresrelatert/kompetanseteamet/, https
 
 **Feil:** Sosial kontroll handler om regler for hvordan vi skal oppføre oss, i familien og i samfunnet.
 
-### frihet-52 · Når kan sosial kontroll bli negativ?
+### frihet-52 · Når blir sosial kontroll definert som negativ i Norge?
 
-- A) Når reglene er så strenge at de tar bort friheten ✔
-- B) Når foreldrene vil at barna skal gjøre lekser
-- C) Når skolen har regler for når timene starter
+- A) Når press, oppsyn eller regler i familien tar bort den unges frihet og rettigheter ✔
+- B) Når foreldre bestemmer at barna må spise sunn mat og legge seg til fast tid
+- C) Når læreren krever at elevene må sitte stille og høre etter i klasserommet
 
-**Riktig:** Riktig. Sosial kontroll blir negativ når reglene er så strenge at de tar fra en person friheten og retten til et selvstendig liv.
+**Riktig:** Riktig. Sosial kontroll er negativ når press, oppsyn eller regler i familien tar bort den unges frihet og rettigheter.
 
-**Feil:** Vanlige regler hjemme og på skolen er ikke negativ kontroll. Det blir negativt når reglene tar bort friheten.
+**Feil:** Vanlige regler om mat, søvn og ro i klassen er ikke negativ sosial kontroll.
 
 ### frihet-53 · Hva kan negativ sosial kontroll gjøre med barn og unge?
 
-- A) Den kan hindre dem i å delta i samfunnet ✔
-- B) Den kan gjøre at de lærer norsk raskere
-- C) Den kan gjøre at de får flere venner
+- A) Den kan hindre dem i å leve frie liv og delta aktivt i det norske samfunnet ✔
+- B) Den kan føre til at de automatisk får bedre karakterer og høyere utdanning
+- C) Den kan hjelpe dem med å forstå reglene på skolen og i arbeidslivet
 
-**Riktig:** Riktig. Negativ sosial kontroll kan hindre barn og unge i å delta i fritidsaktiviteter og sosialt liv, og dermed i å bli en del av samfunnet.
+**Riktig:** Riktig. Negativ sosial kontroll kan hindre barn og unge i å leve frie liv og delta aktivt i samfunnet.
 
-**Feil:** Tenk på barn og unge som ikke får delta på fritidsaktiviteter og treffe venner.
+**Feil:** Negativ sosial kontroll gir ikke bedre karakterer og hjelper dem ikke å forstå reglene i samfunnet.
 
 ### frihet-54 · Hvilket eksempel kan være negativ sosial kontroll?
 
@@ -571,15 +571,15 @@ Tilleggskilder: https://www.bufdir.no/vold/aresrelatert/kompetanseteamet/, https
 
 **Feil:** Det er vanlig at foreldre spør om skolen og ber barna hjelpe til hjemme. Det er ikke negativ kontroll.
 
-### frihet-55 · Merhet (14) må slutte med håndball fordi faren ikke liker klærne. Hva er dette?
+### frihet-55 · Merhet (14 år) må slutte på håndball fordi faren ikke liker treningsklærne hun må bruke. Hva er dette et eksempel på?
 
-- A) Det kan være negativ sosial kontroll ✔
-- B) Det er et krav fra idrettslaget
-- C) Det er en regel som skolen har laget
+- A) Dette kan være et eksempel på negativ sosial kontroll i familien ✔
+- B) Dette er et eksempel på vanlig oppdragelse og omsorg for barn i Norge
+- C) Dette er et eksempel på god likestilling mellom gutter og jenter i idretten
 
-**Riktig:** Riktig. Når familien hindrer en ung person i fritidsaktiviteter på grunn av strenge regler, kan det være negativ sosial kontroll.
+**Riktig:** Riktig. Dette kan være negativ sosial kontroll. Faren begrenser hva Merhet kan gjøre på fritiden.
 
-**Feil:** Merhet må slutte med noe hun liker fordi familien har strenge regler. Tenk på hva det kan kalles.
+**Feil:** Dette er ikke vanlig omsorg og ikke likestilling. Faren tar fra Merhet friheten til å delta i idretten.
 
 ### frihet-56 · Hva er et eksempel på negativ sosial kontroll mot en voksen?
 
@@ -601,15 +601,15 @@ Tilleggskilder: https://www.bufdir.no/vold/aresrelatert/kompetanseteamet/, https
 
 **Feil:** Negativ sosial kontroll kan ramme personer i alle aldre og av alle kjønn.
 
-### frihet-58 · Hvilken rett kan negativ sosial kontroll ta fra en person?
+### frihet-58 · Hvilken rettighet kan negativ sosial kontroll ta fra et ungt menneske?
 
-- A) Retten til å leve et selvstendig liv ✔
-- B) Retten til å få gratis skolegang
-- C) Retten til å stemme ved valg
+- A) Retten til å bestemme over sin egen kropp, fritid og fremtid ✔
+- B) Retten til å få gratis akuttmedisinsk hjelp på sykehus
+- C) Retten til å eie en bil eller ha en egen bankkonto
 
-**Riktig:** Riktig. Negativ sosial kontroll kan ta fra en person friheten og retten til å leve et selvstendig liv.
+**Riktig:** Riktig. Negativ sosial kontroll kan ta fra et ungt menneske retten til å bestemme over sin egen kropp, fritid og fremtid.
 
-**Feil:** Negativ sosial kontroll handler om friheten til å ta egne valg i livet.
+**Feil:** Negativ sosial kontroll tar ikke retten til akuttmedisinsk hjelp. Den handler om å bestemme over seg selv.
 
 ### frihet-59 · Hva er lov for foreldre som vil sette grenser for barnet?
 
@@ -621,15 +621,15 @@ Tilleggskilder: https://www.bufdir.no/vold/aresrelatert/kompetanseteamet/, https
 
 **Feil:** Foreldre kan sette grenser, men trusler og vold er forbudt. Det gjelder også «litt» vold.
 
-### frihet-60 · Hva betyr «æresrelatert vold»?
+### frihet-60 · Hva betyr begrepet «æresrelatert vold»?
 
-- A) Vold for å beskytte familiens ære ✔
-- B) Vold mellom to lag under en fotballkamp
-- C) Vold som skjer ved et uhell i trafikken
+- A) Vold eller trusler som brukes for å beskytte familiens rykte og ære ✔
+- B) Vold som skjer på grunn av tilfeldige krangler mellom ukjente personer
+- C) Vold og konflikter som oppstår på grunn av økonomiske problemer i en bedrift
 
-**Riktig:** Riktig. Æresrelatert vold er vold eller trusler som skal beskytte eller gjenopprette familiens ære og rykte.
+**Riktig:** Riktig. Æresrelatert vold er vold eller trusler som brukes for å beskytte familiens rykte og ære.
 
-**Feil:** Ordet «ære» handler om hva andre tenker om familien. Æresrelatert vold er forbudt som all annen vold.
+**Feil:** Æresrelatert vold handler ikke om tilfeldige krangler eller om en bedrifts økonomi. Det handler om familiens rykte.
 
 ### frihet-61 · Hva gjør en mangfoldsrådgiver?
 
@@ -722,13 +722,13 @@ Tilleggskilder: https://lovdata.no/lov/2005-05-20-28/§284, https://lovdata.no/l
 
 ### frihet-69 · Hva er kjønnslemlestelse?
 
-- A) Inngrep som skader de ytre kjønnsdelene uten medisinsk grunn ✔
-- B) Inngrep som legen gjør når det er nødvendig for helsen til jenta
-- C) Undersøkelse som legen gjør når en kvinne er gravid
+- A) Et fysisk inngrep som skader kvinnens kjønnsorganer uten medisinsk grunn ✔
+- B) Et medisinsk inngrep som legen utfører for å behandle sykdom hos kvinner
+- C) Et frivillig inngrep som gravide kvinner tilbys som en del av helsekontrollen
 
-**Riktig:** Riktig. Kjønnslemlestelse er inngrep som skader eller fjerner de ytre kjønnsdelene til jenter eller kvinner, uten at det er medisinsk nødvendig.
+**Riktig:** Riktig. Kjønnslemlestelse er et fysisk inngrep som skader kvinnens kjønnsorganer uten medisinsk grunn.
 
-**Feil:** Kjønnslemlestelse kalles også kvinnelig omskjæring. Det er ikke en vanlig medisinsk behandling.
+**Feil:** Kjønnslemlestelse er ikke medisinsk behandling og ikke en del av helsekontrollen for gravide.
 
 ### frihet-70 · Når regnes et inngrep som kjønnslemlestelse?
 
@@ -790,25 +790,25 @@ Tilleggskilder: https://lovdata.no/lov/2005-05-20-28/§284, https://lovdata.no/l
 
 **Feil:** Det er ikke bare den som gjør inngrepet, som kan straffes. Den som hjelper til eller bestiller, kan også straffes.
 
-### frihet-76 · Du vet at en jente skal omskjæres neste uke. Hva må du gjøre?
+### frihet-76 · Du får vite at en jente skal bli utsatt for kjønnslemlestelse i nærmeste fremtid. Hva har du plikt til å gjøre?
 
-- A) Prøve å stoppe det, for eksempel ved å varsle politiet ✔
-- B) Snakke med foreldrene og la dem bestemme hva som skjer
-- C) Vente til etterpå og så snakke med jenta om det
+- A) Varsle politiet eller barnevernet med en gang for å stoppe inngrepet ✔
+- B) Melde fra til jentas fastlege slik at legen kan undersøke henne etter reisen
+- C) Beholde informasjonen som en hemmelighet på grunn av taushetsplikten
 
-**Riktig:** Riktig. Alle har avvergeplikt. Du må prøve å stoppe inngrepet, for eksempel ved å varsle politiet. Brudd på plikten kan gi bot eller fengsel i inntil 1 år.
+**Riktig:** Riktig. Du bør varsle politiet eller barnevernet med en gang for å stoppe inngrepet.
 
-**Feil:** Kjønnslemlestelse er et alvorlig lovbrudd. Du har plikt til å prøve å hindre at det skjer.
+**Feil:** Du kan ikke vente til etterpå eller holde det hemmelig. Du har plikt til å si fra, slik at inngrepet kan stoppes.
 
-### frihet-77 · Hvorfor bryter kjønnslemlestelse med viktige verdier i Norge?
+### frihet-77 · Hvorfor bryter kjønnslemlestelse med grunnleggende verdier i det norske samfunnet?
 
-- A) Alle skal få bestemme over sin egen kropp ✔
-- B) Alle skal få lik lønn for samme arbeid
-- C) Alle skal ha rett til å stemme ved valg
+- A) Fordi alle mennesker har en urokkelig rett til å bestemme over sin egen kropp ✔
+- B) Fordi foreldre alltid må ha statens tillatelse til å planlegge barnas fremtid
+- C) Fordi religiøse tradisjoner bare skal praktiseres i godkjente trossamfunn
 
-**Riktig:** Riktig. Det er en viktig verdi i Norge at alle skal få bestemme over sin egen kropp. Kjønnslemlestelse bryter med denne verdien og med likestilling.
+**Riktig:** Riktig. Kjønnslemlestelse bryter med verdiene i Norge fordi alle mennesker har en rett til å bestemme over sin egen kropp.
 
-**Feil:** Tenk på retten til å bestemme over sin egen kropp og verdien likestilling.
+**Feil:** Svaret handler om retten til å bestemme over egen kropp. Det handler ikke om statens tillatelse eller om trossamfunn.
 
 ### frihet-78 · Hvilke følger kan kjønnslemlestelse få for jenta?
 
@@ -822,21 +822,21 @@ Tilleggskilder: https://lovdata.no/lov/2005-05-20-28/§284, https://lovdata.no/l
 
 ### frihet-79 · Hva tilbyr helsestasjonen for å forebygge kjønnslemlestelse?
 
-- A) Samtale og frivillig underlivsundersøkelse ✔
-- B) Gratis reise til familien i utlandet
-- C) Kurs i matlaging for hele familien
+- A) Samtaler, informasjon og frivillige helseundersøkelser for jenter ✔
+- B) Obligatoriske medisinske operasjoner for alle jenter
+- C) Økonomisk støtte og gratis medisiner til familier med døtre
 
-**Riktig:** Riktig. Helsestasjonen og skolehelsetjenesten tilbyr samtale og frivillig underlivsundersøkelse. Tilbudet er gratis.
+**Riktig:** Riktig. Helsestasjonen tilbyr samtaler, informasjon og frivillige helseundersøkelser for jenter.
 
-**Feil:** Helsestasjonen jobber med helse og forebygging. Tilbudet handler om samtale og undersøkelse.
+**Feil:** Helsestasjonen tilbyr ikke operasjoner eller økonomisk støtte. Den gir samtaler og informasjon.
 
-### frihet-80 · Hvor kan en kvinne med plager etter kjønnslemlestelse få hjelp?
+### frihet-80 · Hvor kan en kvinne med fysiske eller psykiske plager etter kjønnslemlestelse få medisinsk hjelp?
 
-- A) Hos fastlegen eller helsestasjonen ✔
-- B) Hos Nav-kontoret eller kommunens servicetorg
-- C) Hos politiet eller Skatteetaten
+- A) Hos sin egen fastlege, helsestasjonen eller på sykehuset ✔
+- B) Hos et krisesenter, politiet eller gjennom rettshjelp fra en advokat
+- C) Hos et trossamfunn, en religiøs leder eller i en privat organisasjon
 
-**Riktig:** Riktig. Fastlegen, helsestasjonen og jordmor kan gi hjelp og henvise videre til sykehus. De har taushetsplikt.
+**Riktig:** Riktig. Kvinnen kan få medisinsk hjelp hos sin egen fastlege, helsestasjonen eller på sykehuset.
 
-**Feil:** Plager etter kjønnslemlestelse er et helsespørsmål. Hjelpen finnes i helsetjenesten.
+**Feil:** Krisesenter, politi og advokat gir ikke medisinsk hjelp. Det gjør fastlege, helsestasjon og sykehus.
 

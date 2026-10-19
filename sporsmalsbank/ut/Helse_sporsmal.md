@@ -272,15 +272,15 @@ Tilleggskilder: https://www.helsenorge.no/kosthold-og-ernaring/
 
 **Feil:** Ved en vanlig forkjølelse trenger du ofte ikke medisin. Kroppen blir frisk av seg selv.
 
-### helse-26 · Hva mangler mange innvandrere i kroppen, ifølge helsearbeidere?
+### helse-26 · Hvilke næringsstoffer kan noen innvandrere ha for lite av, ifølge helsearbeidere?
 
 - A) Vitamin D og jern ✔
 - B) Vitamin A og vitamin E
 - C) Fett og protein
 
-**Riktig:** Riktig. Helsearbeidere ser at mange innvandrere har for lite vitamin D og jern.
+**Riktig:** Riktig. Helsearbeidere sier at noen innvandrere kan ha for lite vitamin D og jern.
 
-**Feil:** Kroppen trenger vitaminer og mineraler. Tenk på hva som er vanskelig å få nok av i et land med lite sol.
+**Feil:** Vitamin A og E, fett og protein mangler de fleste ikke. Tenk på vitamin D, som vi får fra sol og fisk.
 
 ### helse-27 · Hvorfor trenger mange ekstra vitamin D i Norge?
 
@@ -334,12 +334,12 @@ Tilleggskilder: https://mentalhelse.no/fa-hjelp/hjelpetelefonen/
 ### helse-31 · Hvem kan få psykiske problemer?
 
 - A) Alle kan få det, i alle aldre ✔
-- B) Bare personer med svak vilje
+- B) Bare personer med dårlig selvtillit
 - C) Bare personer som bor alene
 
-**Riktig:** Riktig. Alle kan få psykiske problemer, og det kan ha mange årsaker.
+**Riktig:** Riktig. Alle kan få psykiske problemer, i alle aldre.
 
-**Feil:** Psykiske problemer er vanlige. Mange får det i løpet av livet, uansett hvem de er.
+**Feil:** Psykiske problemer kan ramme alle. De kommer ikke bare av dårlig selvtillit eller av å bo alene.
 
 ### helse-32 · Hva kan føre til psykiske lidelser?
 
@@ -560,15 +560,15 @@ Tilleggskilder: https://www.helsenorge.no/sex-og-samliv/abort/, https://lovdata.
 
 **Feil:** Helsestasjonen gir kontroller og vaksiner. Syke barn skal til fastlegen eller legevakten.
 
-### helse-53 · Hva gjelder for vaksinene i barnevaksinasjonsprogrammet?
+### helse-53 · Hvilke regler gjelder for vaksinene i barnevaksinasjonsprogrammet?
 
 - A) De er gratis og frivillige ✔
 - B) De koster penger og er påbudt
 - C) De er gratis, men påbudt ved lov
 
-**Riktig:** Riktig. Vaksinene i barnevaksinasjonsprogrammet er gratis og frivillige, men anbefales sterkt.
+**Riktig:** Riktig. Vaksinene i barnevaksinasjonsprogrammet er gratis og frivillige.
 
-**Feil:** Ingen lov sier at barn må vaksineres. Men vaksinene er gratis, og myndighetene anbefaler dem sterkt.
+**Feil:** Vaksinene koster ikke penger, og de er ikke påbudt ved lov.
 
 ### helse-54 · Hvem gir helsekontroller og vaksiner til elever på skolen?
 
@@ -679,15 +679,15 @@ Tilleggskilder: https://www.helsenorge.no/betaling-for-helsetjenester/hvem-betal
 
 **Feil:** Foreldrene trenger ikke bestille selv. Den offentlige tannklinikken sender innkalling til barna.
 
-### helse-64 · Hva er den beste tørstedrikken for tennene?
+### helse-64 · Hvilken drikke er best for tennene når du er tørst?
 
 - A) Vann ✔
 - B) Brus
 - C) Saft
 
-**Riktig:** Riktig. Vann er den beste tørstedrikken for tennene.
+**Riktig:** Riktig. Vann er best for tennene når du er tørst.
 
-**Feil:** Brus og saft har mye sukker og syre. Det skader tennene. Drikk vann når du er tørst.
+**Feil:** Brus og saft inneholder mye sukker. Sukker er dårlig for tennene.
 
 
 ---
@@ -756,15 +756,15 @@ Kilde: https://samfunnskunnskap.no/nb/helse/a-flytte-til-et-nytt-land.html
 
 **Feil:** Helsenorge.no er en offentlig nettside om helse. Tenk på hva du kan ordne med legen din på nett.
 
-### helse-71 · Hva hjelper en innvandrer å finne sin plass i det nye samfunnet?
+### helse-71 · Hva kan hjelpe en innvandrer med å finne seg til rette i det nye samfunnet?
 
 - A) Å kombinere nye og gamle verdier ✔
 - B) Å glemme kulturen fra hjemlandet
 - C) Å leve akkurat som i hjemlandet
 
-**Riktig:** Riktig. Man finner sin plass når man kombinerer det positive i det nye landet med verdier fra hjemlandet.
+**Riktig:** Riktig. Det kan hjelpe å kombinere nye og gamle verdier.
 
-**Feil:** Du trenger ikke glemme hvem du er. Mange finner sin plass ved å kombinere det nye og det gamle.
+**Feil:** Det er ikke nødvendig å glemme kulturen fra hjemlandet, og det er vanskelig å leve helt som før.
 
 ### helse-72 · Hva er vanlig i en familie som har flyttet til et nytt land?
 

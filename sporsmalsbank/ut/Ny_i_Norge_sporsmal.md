@@ -161,20 +161,20 @@ Kilde: https://samfunnskunnskap.no/nb/ny-i-norge/et-liv-i-norge.html
 
 **Feil:** Ungdomsskolen er 8. til 10. klasse. Elevene er da omtrent 13 til 16 år.
 
-### norge-16 · Fra hvilken alder må barn gå på skole i Norge?
+### norge-16 · Når starter barna på skolen i Norge?
 
-- A) Fra de er seks år, i 1. klasse ✔
-- B) Fra de er tre år, som i barnehagen
-- C) Fra de er ti år, i 5. klasse
+- A) Året de fyller seks ✔
+- B) Året de fyller tre
+- C) Året de fyller åtte
 
-**Riktig:** Riktig. Barn må gå på skole fra de er seks år. Skolen varer til de er 16 år.
+**Riktig:** Riktig. Barn begynner på skolen året de fyller seks år. Skolen varer i ti år.
 
 **Feil:** Barn begynner på skolen når de er seks år, ikke før og ikke etter.
 
 ### norge-17 · Hva koster det å gå på offentlig grunnskole?
 
 - A) Ingenting, skolen er gratis ✔
-- B) En liten pris hver måned
+- B) En liten sum hver måned
 - C) Halv pris for lav inntekt
 
 **Riktig:** Riktig. Offentlig grunnskole er gratis i Norge.
@@ -253,13 +253,13 @@ Kilde: https://samfunnskunnskap.no/nb/ny-i-norge/et-liv-i-norge.html
 
 ### norge-25 · Hva er en bachelorgrad?
 
-- A) En utdanning på universitetet som tar omtrent tre år ✔
+- A) En utdanning på universitetet som tar tre år ✔
 - B) En utdanning på videregående som tar to år
 - C) En utdanning for lærlinger som tar fire år
 
-**Riktig:** Riktig. En bachelorgrad tar omtrent tre år på universitet eller høgskole.
+**Riktig:** Riktig. En bachelorgrad er en utdanning på universitet eller høgskole som tar tre år.
 
-**Feil:** Bachelor tar du på universitet eller høgskole, ikke på videregående skole.
+**Feil:** Bachelor tar du på universitet eller høgskole, ikke på videregående skole eller som lærling.
 
 ### norge-26 · Hva er et stipend?
 

@@ -78,5 +78,5 @@ module.exports=[
 ["Riktig. Du må melde flytting til Folkeregisteret hos Skatteetaten senest 8 dager etter at du flyttet.","Folkeregisteret må vite hvor du bor. Meld flytting på skatteetaten.no."],
 ["Riktig. Bilder viser hvordan boligen var. Da slipper du å betale for gamle skader.","Tenk på hva som kan skje når du flytter ut. Hva kan utleieren kreve da?"],
 ["Riktig. Utleieren må gi beskjed i god tid, hvis det ikke er en skade som haster.","Boligen er ditt hjem, selv om utleieren eier den. Tenk på hvem som må få vite at utleieren kommer."],
-["Riktig. En tidsbestemt kontrakt skal vanligvis vare minst tre år. I noen tilfeller kan det være ett år.","Loven gir leietakeren trygghet. En tidsbestemt kontrakt skal som regel vare minst tre år."]
+["Riktig. Den vanlige minste varigheten for en tidsbestemt leiekontrakt for bolig er tre år.","Tre måneder eller én uke er for kort. Loven krever vanligvis minst tre år."]
 ];
