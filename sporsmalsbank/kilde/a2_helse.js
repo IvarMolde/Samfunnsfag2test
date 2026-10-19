@@ -19,10 +19,10 @@ module.exports = { "tema": "Helse", "emner": [
 ]},
 { "emne":"Helse og livsstil","kilde":"https://samfunnskunnskap.no/nb/helse/helse-og-livsstil.html","tillegg":["https://www.helsenorge.no/kosthold-og-ernaring/"], "items": [
 ["Hvordan har folkehelsen i Norge endret seg siden 1900?","Den har blitt mye bedre","Den har blitt mye dårligere","Den er omtrent som før"],
-["Hva døde mange nordmenn av rundt 1900?","Tuberkulose og underernæring","Allergi og astma hos barn","Hodepine og søvnproblemer"],
+["Hva døde mange nordmenn av rundt 1900?","Tuberkulose og underernæring","Allergi og astma hos barn","Hjerteinfarkt og overvekt"],
 ["Hva er de vanligste dødsårsakene i Norge (2026)?","Kreft og hjerte- og karsykdommer","Tuberkulose og andre infeksjoner","Trafikkulykker og drukning"],
 ["Hvilke helseproblemer blir stadig vanligere i Norge?","Diabetes og stor overvekt","Kolera og tyfus","Malaria og denguefeber"],
-["Hva øker risikoen for kreft og hjertesykdom?","Å røyke tobakk","Å gå lange turer","Å spise mye fisk"],
+["Hva øker risikoen for kreft og hjertesykdom?","Å røyke tobakk","Å sove nok hver natt","Å spise mye grønnsaker"],
 ["Hva gir oss størst sjanse for å holde oss friske lenge?","Sunn mat og fysisk aktivitet","Mye hvile og lite bevegelse","Vitaminpiller og lite mat"],
 ["Hvem har størst ansvar for å ta vare på helsen din?","Du selv, med råd fra helsevesenet","Helsevesenet, som passer på deg","Kommunen, som sjekker helsen din"],
 ["Hva er vanlig når du går til legen i Norge?","Lege og pasient snakker sammen om behandlingen","Du får medisin ved hvert besøk hos legen","Legen bestemmer alt uten å spørre pasienten"],

@@ -386,11 +386,11 @@ Tilleggskilder: https://lovdata.no/lov/2005-05-20-28/§287, https://lovdata.no/l
 
 - A) Hvor mye du tjener og eier ✔
 - B) Hvilket statsborgerskap du har
-- C) Hvilken tro eller religion du har
+- C) Hvilken utdanning du har
 
 **Riktig:** Riktig. Du betaler skatt av inntekt og formue over visse grenser. Statsborgerskap og religion har ingen betydning.
 
-**Feil:** Tenk på hva skatten regnes ut fra. Det handler om penger, ikke om hvem du er.
+**Feil:** Tenk på hva skatten regnes ut fra. Det handler om penger, ikke om statsborgerskap eller utdanning.
 
 ### demokrati-38 · Ali får brev om å vitne i retten. Hva må han gjøre?
 
@@ -670,15 +670,15 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/2023-06-16-62, https://www.st
 
 **Feil:** Det er valg annethvert år. Stortingsvalg og lokalvalg bytter på.
 
-### demokrati-64 · Det var stortingsvalg i 2025. Når er det neste?
+### demokrati-64 · Hvor ofte er det kommune- og fylkestingsvalg i Norge?
 
-- A) I 2029 ✔
-- B) I 2027
-- C) I 2028
+- A) Hvert fjerde år ✔
+- B) Hvert andre år
+- C) Hvert sjette år
 
-**Riktig:** Riktig. Stortingsvalg er hvert fjerde år, så neste valg er i 2029.
+**Riktig:** Riktig. Kommune- og fylkestingsvalg holdes hvert fjerde år.
 
-**Feil:** Stortinget blir valgt for fire år. Regn fire år fram fra 2025.
+**Feil:** Valgperioden er fire år, ikke to eller seks.
 
 ### demokrati-65 · Hva skriver et parti i partiprogrammet sitt?
 
@@ -803,22 +803,22 @@ Tilleggskilder: https://lovdata.no/dokument/NL/lov/2023-06-16-62, https://www.st
 ### demokrati-77 · Hva kalles det når flere partier styrer sammen i regjering?
 
 - A) En koalisjonsregjering ✔
-- B) En ettpartiregjering
-- C) Et opposisjonsparti
+- B) En folkeavstemning
+- C) Et mistillitsforslag
 
-**Riktig:** Riktig. Når flere partier sitter sammen i regjering, kalles det en koalisjonsregjering.
+**Riktig:** Riktig. Når flere partier styrer sammen i regjering, kalles det en koalisjonsregjering.
 
-**Feil:** Koalisjon betyr samarbeid mellom flere partier.
+**Feil:** Koalisjon betyr samarbeid mellom flere partier. En folkeavstemning og et mistillitsforslag er noe annet.
 
 ### demokrati-78 · Hva er en mindretallsregjering?
 
 - A) Regjeringen har ikke flertall på Stortinget ✔
-- B) Regjeringen har færre enn ti statsråder
-- C) Regjeringen styrer i mindre enn fire år
+- B) Regjeringen har færre statsråder enn vanlig
+- C) Regjeringen har ikke støtte fra kongen
 
-**Riktig:** Riktig. En mindretallsregjering har ikke flertall og må få støtte fra andre partier.
+**Riktig:** Riktig. En mindretallsregjering har ikke flertall på Stortinget og må få støtte fra andre partier.
 
-**Feil:** Mindretall betyr at man er færre enn halvparten på Stortinget.
+**Feil:** Mindretall betyr færre enn halvparten på Stortinget. Det handler ikke om antall statsråder eller om kongen.
 
 ### demokrati-79 · Hva kalles partiene på Stortinget som er utenfor regjeringen?
 

@@ -38,7 +38,7 @@ module.exports = { "tema": "Menneskerettigheter og demokrati", "emner": [
 ["Hva betyr organisasjonsfrihet?","Du kan bli med i partier og foreninger","Du må være medlem av en fagforening","Du kan starte en bedrift uten å betale skatt"],
 ["Samfunnet bygger på gjensidig tillit. Hva betyr det?","Folk og myndigheter kan stole på hverandre","Folk og myndigheter har de samme meningene","Folk må sjekke hva myndighetene gjør hver dag"],
 ["Nadia søker om støtte fra Nav. Hvilken plikt har hun?","Å gi riktige opplysninger om seg selv","Å møte på Nav-kontoret hver uke","Å vise fram vitnemålet sitt"],
-["Hva avgjør om du må betale skatt i Norge?","Hvor mye du tjener og eier","Hvilket statsborgerskap du har","Hvilken tro eller religion du har"],
+["Hva avgjør om du må betale skatt i Norge?","Hvor mye du tjener og eier","Hvilket statsborgerskap du har","Hvilken utdanning du har"],
 ["Ali får brev om å vitne i retten. Hva må han gjøre?","Møte i retten og forklare det han vet","Bestemme selv om han vil møte","Sende et brev til politiet i stedet"],
 ["Hvem har verneplikt blant norske statsborgere?","Både kvinner og menn","Menn, men ikke kvinner","De som melder seg frivillig"],
 ["Norge har opplæringsplikt. Hva betyr det?","Barn må få grunnskoleopplæring","Barn må gå på en privat skole","Voksne må ta videregående skole"],
@@ -69,7 +69,7 @@ module.exports = { "tema": "Menneskerettigheter og demokrati", "emner": [
 ]},
 { "emne":"Valg og politiske partier","kilde":"https://samfunnskunnskap.no/nb/menneskerettigheter-og-demokrati/valg-og-politiske-partier.html","tillegg":["https://lovdata.no/dokument/NL/lov/2023-06-16-62","https://www.stortinget.no/no/Stortinget-og-demokratiet/Valg-og-konstituering/Stortingsvalg","https://valgmedarbeiderportalen.valg.no/artikler/regelverksendringer-ny-valglov","https://lovdata.no/dokument/NL/lov/1814-05-17"], "items": [
 ["Hvilket valg holdes to år etter et stortingsvalg?","Kommunestyre- og fylkestingsvalg","Sametingsvalg og folkeavstemning","Et nytt valg til Stortinget"],
-["Det var stortingsvalg i 2025. Når er det neste?","I 2029","I 2027","I 2028"],
+["Hvor ofte er det kommune- og fylkestingsvalg i Norge?","Hvert fjerde år","Hvert andre år","Hvert sjette år"],
 ["Hva skriver et parti i partiprogrammet sitt?","Hvilke saker partiet vil jobbe for","Hvor mange medlemmer partiet har","Hvilke møter partiet skal ha"],
 ["Hvor vedtar partiene programmet sitt?","På landsmøtet","På Stortinget","I statsråd"],
 ["Hvem kan stille til valg til Stortinget?","Norske statsborgere som er 18 år i valgåret","Utenlandske borgere som har bodd i Norge i fem år","Personer som er medlem i et stort parti"],
@@ -82,8 +82,8 @@ module.exports = { "tema": "Menneskerettigheter og demokrati", "emner": [
 ["Hva er en folkeavstemning?","Folket stemmer selv over én sak","Folket velger nye politikere til Stortinget","Politikerne stemmer over en sak på Stortinget"],
 ["Hva er sperregrensen ved stortingsvalg?","Fire prosent av stemmene i hele landet","Fem prosent av stemmene i hele landet","Fire prosent av stemmene i hvert fylke"],
 ["Hva er et utjevningsmandat på Stortinget?","Et sete som gjør fordelingen mer rettferdig","Et sete som kongen gir til et lite parti","Et sete til den med flest personstemmer"],
-["Hva kalles det når flere partier styrer sammen i regjering?","En koalisjonsregjering","En ettpartiregjering","Et opposisjonsparti"],
-["Hva er en mindretallsregjering?","Regjeringen har ikke flertall på Stortinget","Regjeringen har færre enn ti statsråder","Regjeringen styrer i mindre enn fire år"],
+["Hva kalles det når flere partier styrer sammen i regjering?","En koalisjonsregjering","En folkeavstemning","Et mistillitsforslag"],
+["Hva er en mindretallsregjering?","Regjeringen har ikke flertall på Stortinget","Regjeringen har færre statsråder enn vanlig","Regjeringen har ikke støtte fra kongen"],
 ["Hva kalles partiene på Stortinget som er utenfor regjeringen?","Opposisjonen","Koalisjonen","Departementet"],
 ["Hvem bestemmer hvilke kandidater som står på partiets liste?","Partiet selv, på et nominasjonsmøte","Valgdirektoratet etter en søknad","Kommunen der kandidaten bor"]
 ]}

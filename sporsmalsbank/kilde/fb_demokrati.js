@@ -35,7 +35,7 @@ module.exports=[
 ["Riktig. Du har rett til å være med i partier, foreninger og fagforeninger.","Organisasjonsfrihet handler om å få være med i grupper uten å bli straffet."],
 ["Riktig. Myndighetene stoler på innbyggerne, og innbyggerne stoler på myndighetene.","Tenk på et godt vennskap. Hva betyr det at noe er gjensidig?"],
 ["Riktig. Du har plikt til å gi riktige og sanne opplysninger til Nav og andre etater.","Samfunnet bygger på tillit. Nav må kunne stole på det du forteller."],
-["Riktig. Du betaler skatt av inntekt og formue over visse grenser. Statsborgerskap og religion har ingen betydning.","Tenk på hva skatten regnes ut fra. Det handler om penger, ikke om hvem du er."],
+["Riktig. Du betaler skatt av inntekt og formue over visse grenser. Statsborgerskap og religion har ingen betydning.","Tenk på hva skatten regnes ut fra. Det handler om penger, ikke om statsborgerskap eller utdanning."],
 ["Riktig. Alle har plikt til å møte som vitne og forklare seg for retten når de blir innkalt.","Vitneplikt betyr at du må komme når retten kaller deg inn. Det er ikke frivillig."],
 ["Riktig. Norske menn har lenge hatt verneplikt. Fra 2015 gjelder den også kvinner som er født i 1997 eller senere.","Verneplikten har blitt endret de siste årene. Tenk på likestilling mellom kvinner og menn."],
 ["Riktig. Barn har plikt til grunnskoleopplæring, vanligvis i en offentlig skole.","Plikten gjelder barn i grunnskolealder. De fleste går på en offentlig og gratis skole."],
@@ -62,7 +62,7 @@ module.exports=[
 ["Riktig. Sivilombudet er Stortingets ombud. Du kan klage dit hvis du mener det offentlige har gjort feil mot deg.","Det finnes et ombud som Stortinget har valgt, og som passer på hele forvaltningen, ikke bare én gruppe."],
 ["Riktig. Loven gjelder likt for alle. Ingen skal behandles dårligere uten god grunn.","Tenk på hvordan domstoler og politi skal behandle deg, uansett hvem du er."],
 ["Riktig. Det er lokalvalg to år etter et stortingsvalg. Det er valg annethvert år.","Det er valg annethvert år. Stortingsvalg og lokalvalg bytter på."],
-["Riktig. Stortingsvalg er hvert fjerde år, så neste valg er i 2029.","Stortinget blir valgt for fire år. Regn fire år fram fra 2025."],
+["Riktig. Kommune- og fylkestingsvalg holdes hvert fjerde år.","Valgperioden er fire år, ikke to eller seks."],
 ["Riktig. Et parti skriver i partiprogrammet hvilke saker partiet vil jobbe for.","Partiprogrammet sier ikke hvor mange medlemmer partiet har eller hvilke møter det skal ha."],
 ["Riktig. Partiene vedtar programmet sitt på landsmøtet. Landsmøtet er det øverste møtet i partiet.","Partiet har et stort møte med utsendinger fra hele landet. Hva kalles det?"],
 ["Riktig. Du må være norsk statsborger og fylle 18 år senest i valgåret. Da har du stemmerett og kan bli valgt.","Tenk på hvem som har stemmerett ved stortingsvalg. Utenlandske borgere har ikke det."],
@@ -75,8 +75,8 @@ module.exports=[
 ["Riktig. I en folkeavstemning stemmer folket selv over én sak. I Norge er resultatet vanligvis rådgivende.","Tenk på ordet «avstemning». Folket stemmer, men ikke for å velge partier."],
 ["Riktig. Et parti må få minst fire prosent i hele landet for å få utjevningsmandater.","Sperregrensen regnes ut fra stemmene i hele landet, ikke i hvert fylke."],
 ["Riktig. Utjevningsmandater gjør at antall seter passer bedre med stemmene i hele landet.","Hvert valgdistrikt har ett utjevningsmandat. Det gjør fordelingen av setene rettere."],
-["Riktig. Når flere partier sitter sammen i regjering, kalles det en koalisjonsregjering.","Koalisjon betyr samarbeid mellom flere partier."],
-["Riktig. En mindretallsregjering har ikke flertall og må få støtte fra andre partier.","Mindretall betyr at man er færre enn halvparten på Stortinget."],
+["Riktig. Når flere partier styrer sammen i regjering, kalles det en koalisjonsregjering.","Koalisjon betyr samarbeid mellom flere partier. En folkeavstemning og et mistillitsforslag er noe annet."],
+["Riktig. En mindretallsregjering har ikke flertall på Stortinget og må få støtte fra andre partier.","Mindretall betyr færre enn halvparten på Stortinget. Det handler ikke om antall statsråder eller om kongen."],
 ["Riktig. Opposisjonen er partiene som ikke sitter i regjering.","Disse partiene følger med på regjeringen og foreslår annen politikk."],
 ["Riktig. Partiene velger selv kandidatene sine på nominasjonsmøter.","Hvert parti lager sin egen liste. Medlemmene er med og bestemmer."]
 ];

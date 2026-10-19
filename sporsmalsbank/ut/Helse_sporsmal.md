@@ -196,11 +196,11 @@ Tilleggskilder: https://www.helsenorge.no/kosthold-og-ernaring/
 
 - A) Tuberkulose og underernæring ✔
 - B) Allergi og astma hos barn
-- C) Hodepine og søvnproblemer
+- C) Hjerteinfarkt og overvekt
 
 **Riktig:** Riktig. Tidligere døde mange av sykdommer som kom av fattigdom, som tuberkulose og underernæring.
 
-**Feil:** Rundt 1900 var mange fattige. Tenk på sykdommer som kommer av fattigdom, trange hus og for lite mat.
+**Feil:** Rundt 1900 var mange fattige. Hjerteinfarkt og overvekt var ikke vanlige dødsårsaker da.
 
 ### helse-19 · Hva er de vanligste dødsårsakene i Norge (2026)?
 
@@ -225,12 +225,12 @@ Tilleggskilder: https://www.helsenorge.no/kosthold-og-ernaring/
 ### helse-21 · Hva øker risikoen for kreft og hjertesykdom?
 
 - A) Å røyke tobakk ✔
-- B) Å gå lange turer
-- C) Å spise mye fisk
+- B) Å sove nok hver natt
+- C) Å spise mye grønnsaker
 
 **Riktig:** Riktig. De som røyker, har større risiko for å få kreft og hjerte- og karsykdommer.
 
-**Feil:** Tobakk skader kroppen. Røyking øker risikoen for kreft og sykdom i hjertet.
+**Feil:** Søvn og grønnsaker er bra for helsen. Røyking øker risikoen for kreft og sykdom i hjertet.
 
 ### helse-22 · Hva gir oss størst sjanse for å holde oss friske lenge?
 

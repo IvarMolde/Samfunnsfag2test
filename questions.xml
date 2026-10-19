@@ -2131,15 +2131,15 @@
     </feedback>
   </question>
   <question id="kritisk-17" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
-    <text>Hva er et eksempel på personopplysninger?</text>
+    <text>Hva er et tydelig eksempel på personopplysninger?</text>
     <options>
       <option id="A" correct="true">Navn, adresse og telefonnummer</option>
-      <option id="B" correct="false">Været i byen og dagens dato</option>
-      <option id="C" correct="false">Åpningstidene til en butikk</option>
+      <option id="B" correct="false">Antall innbyggere i kommunen din</option>
+      <option id="C" correct="false">Navnet på den største banken i Norge</option>
     </options>
     <feedback>
       <correct>Navn, adresse og telefonnummer er personopplysninger.</correct>
-      <wrong>Personopplysninger sier noe om en person, ikke om været eller en butikk.</wrong>
+      <wrong>Personopplysninger sier noe om en bestemt person. Antall innbyggere og navnet på en bank handler ikke om deg.</wrong>
     </feedback>
   </question>
   <question id="kritisk-18" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
@@ -2361,12 +2361,12 @@
   <question id="kritisk-36" main="Utdanning, kompetanse og arbeidsliv" category="Kritisk tenkning og digital dømmekraft">
     <text>Hvorfor bør du lese mer enn én kilde om en sak?</text>
     <options>
-      <option id="A" correct="true">Flere kilder gir et bedre bilde av saken</option>
+      <option id="A" correct="true">Flere kilder gir bedre informasjon om saken</option>
       <option id="B" correct="false">Det gir deg flere sider å dele på sosiale medier</option>
       <option id="C" correct="false">Én kilde kan ikke ha riktig informasjon</option>
     </options>
     <feedback>
-      <correct>Flere kilder gir et bedre bilde av saken.</correct>
+      <correct>Flere kilder gir bedre informasjon om saken.</correct>
       <wrong>Poenget er å få flere sider av saken, ikke å dele mer.</wrong>
     </feedback>
   </question>
@@ -5987,11 +5987,11 @@
     <options>
       <option id="A" correct="true">Tuberkulose og underernæring</option>
       <option id="B" correct="false">Allergi og astma hos barn</option>
-      <option id="C" correct="false">Hodepine og søvnproblemer</option>
+      <option id="C" correct="false">Hjerteinfarkt og overvekt</option>
     </options>
     <feedback>
       <correct>Riktig. Tidligere døde mange av sykdommer som kom av fattigdom, som tuberkulose og underernæring.</correct>
-      <wrong>Rundt 1900 var mange fattige. Tenk på sykdommer som kommer av fattigdom, trange hus og for lite mat.</wrong>
+      <wrong>Rundt 1900 var mange fattige. Hjerteinfarkt og overvekt var ikke vanlige dødsårsaker da.</wrong>
     </feedback>
   </question>
   <question id="helse-19" main="Familie, helse og hverdagsliv" category="Helse" topic="Helse og livsstil">
@@ -6022,12 +6022,12 @@
     <text>Hva øker risikoen for kreft og hjertesykdom?</text>
     <options>
       <option id="A" correct="true">Å røyke tobakk</option>
-      <option id="B" correct="false">Å gå lange turer</option>
-      <option id="C" correct="false">Å spise mye fisk</option>
+      <option id="B" correct="false">Å sove nok hver natt</option>
+      <option id="C" correct="false">Å spise mye grønnsaker</option>
     </options>
     <feedback>
       <correct>Riktig. De som røyker, har større risiko for å få kreft og hjerte- og karsykdommer.</correct>
-      <wrong>Tobakk skader kroppen. Røyking øker risikoen for kreft og sykdom i hjertet.</wrong>
+      <wrong>Søvn og grønnsaker er bra for helsen. Røyking øker risikoen for kreft og sykdom i hjertet.</wrong>
     </feedback>
   </question>
   <question id="helse-22" main="Familie, helse og hverdagsliv" category="Helse" topic="Helse og livsstil">
@@ -11015,11 +11015,11 @@
     <options>
       <option id="A" correct="true">Hvor mye du tjener og eier</option>
       <option id="B" correct="false">Hvilket statsborgerskap du har</option>
-      <option id="C" correct="false">Hvilken tro eller religion du har</option>
+      <option id="C" correct="false">Hvilken utdanning du har</option>
     </options>
     <feedback>
       <correct>Riktig. Du betaler skatt av inntekt og formue over visse grenser. Statsborgerskap og religion har ingen betydning.</correct>
-      <wrong>Tenk på hva skatten regnes ut fra. Det handler om penger, ikke om hvem du er.</wrong>
+      <wrong>Tenk på hva skatten regnes ut fra. Det handler om penger, ikke om statsborgerskap eller utdanning.</wrong>
     </feedback>
   </question>
   <question id="demokrati-38" main="Norge før og nå" category="Menneskerettigheter og demokrati" topic="Demokratiske rettigheter og plikter">
@@ -11335,15 +11335,15 @@
     </feedback>
   </question>
   <question id="demokrati-64" main="Norge før og nå" category="Menneskerettigheter og demokrati" topic="Valg og politiske partier">
-    <text>Det var stortingsvalg i 2025. Når er det neste?</text>
+    <text>Hvor ofte er det kommune- og fylkestingsvalg i Norge?</text>
     <options>
-      <option id="A" correct="true">I 2029</option>
-      <option id="B" correct="false">I 2027</option>
-      <option id="C" correct="false">I 2028</option>
+      <option id="A" correct="true">Hvert fjerde år</option>
+      <option id="B" correct="false">Hvert andre år</option>
+      <option id="C" correct="false">Hvert sjette år</option>
     </options>
     <feedback>
-      <correct>Riktig. Stortingsvalg er hvert fjerde år, så neste valg er i 2029.</correct>
-      <wrong>Stortinget blir valgt for fire år. Regn fire år fram fra 2025.</wrong>
+      <correct>Riktig. Kommune- og fylkestingsvalg holdes hvert fjerde år.</correct>
+      <wrong>Valgperioden er fire år, ikke to eller seks.</wrong>
     </feedback>
   </question>
   <question id="demokrati-65" main="Norge før og nå" category="Menneskerettigheter og demokrati" topic="Valg og politiske partier">
@@ -11494,24 +11494,24 @@
     <text>Hva kalles det når flere partier styrer sammen i regjering?</text>
     <options>
       <option id="A" correct="true">En koalisjonsregjering</option>
-      <option id="B" correct="false">En ettpartiregjering</option>
-      <option id="C" correct="false">Et opposisjonsparti</option>
+      <option id="B" correct="false">En folkeavstemning</option>
+      <option id="C" correct="false">Et mistillitsforslag</option>
     </options>
     <feedback>
-      <correct>Riktig. Når flere partier sitter sammen i regjering, kalles det en koalisjonsregjering.</correct>
-      <wrong>Koalisjon betyr samarbeid mellom flere partier.</wrong>
+      <correct>Riktig. Når flere partier styrer sammen i regjering, kalles det en koalisjonsregjering.</correct>
+      <wrong>Koalisjon betyr samarbeid mellom flere partier. En folkeavstemning og et mistillitsforslag er noe annet.</wrong>
     </feedback>
   </question>
   <question id="demokrati-78" main="Norge før og nå" category="Menneskerettigheter og demokrati" topic="Valg og politiske partier">
     <text>Hva er en mindretallsregjering?</text>
     <options>
       <option id="A" correct="true">Regjeringen har ikke flertall på Stortinget</option>
-      <option id="B" correct="false">Regjeringen har færre enn ti statsråder</option>
-      <option id="C" correct="false">Regjeringen styrer i mindre enn fire år</option>
+      <option id="B" correct="false">Regjeringen har færre statsråder enn vanlig</option>
+      <option id="C" correct="false">Regjeringen har ikke støtte fra kongen</option>
     </options>
     <feedback>
-      <correct>Riktig. En mindretallsregjering har ikke flertall og må få støtte fra andre partier.</correct>
-      <wrong>Mindretall betyr at man er færre enn halvparten på Stortinget.</wrong>
+      <correct>Riktig. En mindretallsregjering har ikke flertall på Stortinget og må få støtte fra andre partier.</correct>
+      <wrong>Mindretall betyr færre enn halvparten på Stortinget. Det handler ikke om antall statsråder eller om kongen.</wrong>
     </feedback>
   </question>
   <question id="demokrati-79" main="Norge før og nå" category="Menneskerettigheter og demokrati" topic="Valg og politiske partier">
