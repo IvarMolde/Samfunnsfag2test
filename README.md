@@ -2,7 +2,7 @@
 
 En statisk webapp for voksne som øver til prøve i samfunnskunnskap. Den drives av Molde voksenopplæring.
 
-Dette er en øvingsprøve, ikke den offisielle prøven.
+Dette er en øvingsprøve, ikke den offisielle prøven. 
 
 Knappen «Les her» på startsiden åpner en kort forklaring. Den sier hvordan øving og prøve virker, og at resultatet bare gjelder denne prøven. Det er ikke et offisielt resultat.
 
